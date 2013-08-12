@@ -1,0 +1,319 @@
+# BRM - Burma
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+primary_culture = burmese
+religion = theravada
+technology_group = chinese
+capital = 584	# Ava
+
+1451.1.1 = {
+	monarch = {
+		name = "Zalahtinyan"
+		dynasty = "Mohnyin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Sithukyawhtin"
+		dynasty = "Mohnyin"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sithunge"
+		dynasty = "Mohnyin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Minkyinyo"
+		dynasty = "Toungoo"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1530.12.1 = {
+	monarch = {
+		name = "Tabinshwehti"
+		dynasty = "Toungoo"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Bayinnaung"
+		dynasty = "Toungoo"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1581.12.1 = {
+	monarch = {
+		name = "Nanda Bayin"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Htin"
+		dynasty = "Toungoo"
+		adm = 8
+		dip = 8
+		mil = 6
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Anaukpetlun"
+		dynasty = "Toungoo"
+		adm = 8
+		dip = 5
+		mil = 8
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Minredeippa"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1629.1.1 = {
+	monarch = {
+		name = "Thalun"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1636.1.1 = {
+	capital = 584
+}
+
+1647.8.1 = {
+	monarch = {
+		name = "Pindale"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1661.1.1 = {
+	monarch = {
+		name = "Pye"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1672.4.1 = {
+	monarch = {
+		name = "Narawara"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1673.3.1 = {
+	monarch = {
+		name = "Minrekyawdin"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Sane"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Taninganwe"
+		dynasty = "Toungoo"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1733.12.1 = {
+	monarch = {
+		name = "Mahadammayaza-Dipati"
+		dynasty = "Toungoo"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1752.2.28 = {			# creation of Myanmar 
+	monarch = {
+		name = "Alaungpaya"
+		dynasty = "Konbaung"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1760.5.12 = {
+	monarch = {
+		name = "Naugdawgyi"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1763.11.1 = {
+	monarch = {
+		name = "Hsinbyushin"
+		dynasty = "Konbaung"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1776.6.1 = {
+	monarch = {
+		name = "Singu Min"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.2.1 = {
+	monarch = {
+		name = "Maung Maung"
+		dynasty = "Konbaung"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.2.9 = {
+	monarch = {
+		name = "Bodawpaya"
+		dynasty = "Konbaung"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1819.6.6 = {
+	monarch = {
+		name = "Bagyidaw"
+		dynasty = "Konbaung"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1837.4.15 = {
+	monarch = {
+		name = "Tharawaddy"
+		dynasty = "Konbaung"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1846.11.18 = {
+	monarch = {
+		name = "Pagan"
+		dynasty = "Konbaung"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1852.12.20 = {
+	set_country_flag = financial_crisis
+}
+
+1853.2.18 = {
+	monarch = {
+		name = "Mindon"
+		dynasty = "Konbaung"
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+
+1878.10.1 = {
+	monarch = {
+		name = "Thibaw"
+		dynasty = "Konbaung"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+# nov. 1885 annexed by GBR

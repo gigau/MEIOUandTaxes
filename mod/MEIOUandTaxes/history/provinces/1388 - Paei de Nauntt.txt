@@ -1,0 +1,85 @@
+# 1388 - Naunnt Retz
+# MEIOU-GG - Hundred Year War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRI
+controller = BRI 
+add_core = BRI
+culture = angevin
+religion = catholic
+capital = "Nantes"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = salt
+
+fort1 = yes
+ 
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1341.4.30  = {
+	owner = BLO
+	controller = BLO
+	add_core = MNF
+	add_core = BLO
+	remove_core = BRI
+} # Jean III de Bretagne dies in Caen
+1365.4.12   = {
+	owner = BRI
+	controller = BRI
+	add_core = BRI
+	remove_core = BLO
+	remove_core = MNF
+} # End of the Brittany war of succession with the death of Charles de Blois
+1378.1.1   = {
+	controller = FRA
+	add_core = FRA
+} # Charles V invades Brittany without resistance
+1381.4.14  = {
+	controller = BRI
+} # Jean IV de Montfort comes back
+1500.1.1   = { citysize = 6000 }
+1532.8.4   = { owner = FRA controller = FRA } # Union Treaty
+1550.1.1   = { citysize = 8000 fort2 = yes }
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 10000 }
+1650.1.1   = {	citysize = 12000
+		constable = yes
+		fort3 = yes
+	     	wharf = yes
+	     }
+1660.1.1   = { marketplace = yes }
+1700.1.1   = { citysize = 14000 }
+1730.1.1   = { courthouse = yes }
+1740.1.1   = { fort4 = yes }
+1750.1.1   = { citysize = 16000 }
+1770.1.1   = { mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 21000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

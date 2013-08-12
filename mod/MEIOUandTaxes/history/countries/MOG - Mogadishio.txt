@@ -1,0 +1,70 @@
+# City-state of Mogadishio
+# Tag : MOG
+# Actual rulers of the Ajuraan State, but invented dates
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_1b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 3
+primary_culture = somali
+religion = sunni
+technology_group = muslim
+capital = 1199 # Mareeg
+
+1356.1.1 = {
+	monarch = {
+		name = "Ajuran"
+		dynasty = "Gareen"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Arliqo"
+		dynasty = "Gareen"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Sarjelle"
+		dynasty = "Gareen"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1576.1.1 = {
+	monarch = {
+		name = "Fadumo"
+		dynasty = "Gareen"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1656.1.1 = {
+	monarch = {
+		name = "Umur"
+		dynasty = "Gareen"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

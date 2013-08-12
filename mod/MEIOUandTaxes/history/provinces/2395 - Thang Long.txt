@@ -1,0 +1,53 @@
+# 2395 - Thang Long
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DAI
+controller = DAI
+culture = vietnamese
+religion = mahayana
+capital = "Thang Long"
+
+base_tax = 10
+#manpower = 8
+manpower = 16
+citysize = 80000
+trade_goods = rice	#tea
+
+fort1 = yes
+marketplace = yes
+regimental_camp = yes
+
+cot = yes
+
+discovered_by = indian
+discovered_by = chinese
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = DAI
+}
+1389.1.1 = { citysize = 70000 } 						# cham king che bong nga plunder the city
+1407.1.1 = { owner = MNG controller = MNG capital = "Dong Quan" }
+1427.1.1 = { owner = DAI controller = DAI capital = "Dong Kinh" } 
+1500.1.1 = { citysize = 80000 }
+1509.1.1 = { revolt_risk = 5 } 							# Nobles' rebellion
+1510.1.1 = { revolt_risk = 0 }
+1550.1.1 = { citysize = 90000}
+1558.1.1 = { owner = TOK controller = TOK add_core = TOK } 			# The kingdom is divided between the Nguyens & the Trinh line
+1600.1.1 = { citysize = 100000 }
+1650.1.1 = { citysize = 100000 }
+1700.1.1 = { citysize = 100000 }
+1730.1.1 = { revolt_risk = 5 }							# Peasant revolt
+1731.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 120000 }
+1786.1.1 = { controller = REB } 						# The Trinh dynasty was overthrown by Tay Son rebells
+1800.1.1 = { citysize = 120000 controller = TOK } 				# The revolt is suppressed
+1802.7.21 = { owner = DAI controller = DAI add_core = DAI remove_core = TOK capital = "Bac Thanh" } 	# The Nguyen dynasty defeats the Tay Sons
+1831.1.1 = { capital = "Hanoi" }
+1883.8.25 = { 
+	owner = FRA
+	controller = FRA
+}

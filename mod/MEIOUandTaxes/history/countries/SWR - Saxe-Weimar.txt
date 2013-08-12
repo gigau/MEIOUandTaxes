@@ -1,0 +1,443 @@
+#SWR - Saxe-Weimar
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = low_saxon
+religion = catholic
+#elector = yes			#AdL: not a Golden Bull elector
+technology_group = western
+capital = 71
+
+#Wettin rulers of Thuringia
+1298.1.1 = {
+	monarch = {
+		name = "Friedrich der Freidige"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1323.1.1 = {
+	monarch = {
+		name = "Friedrich II der Ernsthafte"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1370.4.11 = {	
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich IV der Friedfertige"
+		dynasty = "von Wettin"
+		birth_Date = 1370.4.11
+		death_Date = 1428.1.4
+		claim = 95
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+#1349.1.1 = {
+#	monarch = {
+#		name = "Balthasar"
+#		dynasty = "von Wettin"
+#		DIP = 5
+#		ADM = 5
+#		MIL = 5
+#	}
+#}
+
+1406.1.1 = {
+	monarch = {
+		name = "Friedrich IV der Friedfertige"
+		dynasty = "von Wettin"
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+1412.8.22 = {	
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich V der Sanftmütige"
+		dynasty = "von Wettin"
+		birth_Date = 1412.8.22
+		death_Date = 1464.9.7
+		claim = 95
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Friedrich V der Sanftmütige"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1441.3.24 = {	
+	heir = {
+		name = "Ernest"
+		monarch_name = "Ernest"
+		dynasty = "von Wettin"
+		birth_Date = 1441.3.24
+		death_Date = 1486.8.26
+		claim = 95
+		DIP = 7
+		ADM = 5
+		MIL = 5
+	}
+}
+
+#1445.1.1 = {
+#	monarch = {
+#		name = "Wilhelm II der Tapfere"
+#		dynasty = "von Wettin"
+#		DIP = 5
+#		ADM = 5
+#		MIL = 5
+#	}
+#}
+
+1464.9.7 = {
+	monarch = {
+		name = "Ernest"
+		dynasty = "von Wettin"
+		DIP = 7
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich VI der Weise"
+		dynasty = "von Wettin"
+		birth_Date = 1463.1.17
+		death_Date = 1525.5.5
+		claim = 95
+		DIP = 7
+		ADM = 7
+		MIL = 3
+	}
+}
+
+1486.8.26 = {
+	monarch = {
+		name = "Friedrich VI der Weise"
+		dynasty = "von Wettin"
+		DIP = 7
+		ADM = 7
+		MIL = 3
+	}
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann der Beständige"
+		dynasty = "von Wettin"
+		birth_Date = 1468.6.30
+		death_Date = 1532.8.16
+		claim = 90
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1525.5.5 = {
+	monarch = {
+		name = "Johann der Beständige"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich der Großmütige"
+		dynasty = "von Wettin"
+		birth_Date = 1503.6.30
+		death_Date = 1554.3.3
+		claim = 95
+		DIP = 4
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1532.8.16 = {
+	monarch = {
+		name = "Johann Friedrich der Großmütige"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 6
+		MIL = 4
+	}
+} # friend and supporter of Martin Luther
+
+1542.1.1 = {
+	monarch = {
+		name = "Johann Ernst"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+} # friend and supporter of Martin Luther
+
+1554.3.3 = {
+	monarch = {
+		name = "Johann Wilhelm"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1562.4.25 = {
+	heir = {
+		name = "Frederick Wilhelm"
+		monarch_name = "Frederick Wilhelm"
+		dynasty = "von Wettin"
+		birth_Date = 1562.4.25
+		death_Date = 1602.7.7
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1573.3.2 = {
+	monarch = {
+		name = "Frederick Wilhelm"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann II"
+		dynasty = "von Wettin"
+		birth_Date = 1570.5.22
+		death_Date = 1605.7.18
+		claim = 85
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1602.7.7 = {
+	monarch = {
+		name = "Johann II"
+		dynasty = "von Wettin"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Johann Ernst"
+		monarch_name = "Johann Ernst"
+		dynasty = "von Wettin"
+		birth_Date = 1594.2.21
+		death_Date = 1626.12.6
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1605.7.18 = {
+	monarch = {
+		name = "Johann Ernst"
+		dynasty = "von Wettin"
+		DIP = 3
+		ADM = 5
+		MIL = 7
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1627.9.11 = {
+	heir = {
+		name = "Johann Ernst"
+		monarch_name = "Johann Ernst II"
+		dynasty = "von Wettin"
+		birth_Date = 1627.9.11
+		death_Date = 1683.5.15
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Johann Ernst II"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Wilhelm Ernst"
+		monarch_name = "Wilhelm Ernst"
+		dynasty = "von Wettin"
+		birth_Date = 1627.9.11
+		death_Date = 1728.8.26
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1683.5.15 = {
+	monarch = {
+		name = "Wilhelm Ernst"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1728.8.26 = {
+	monarch = {
+		name = "Ernst August"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1737.6.2 = {
+	heir = {
+		name = "Ernst August"
+		monarch_name = "Ernst August II"
+		dynasty = "von Wettin"
+		birth_Date = 1737.6.2
+		death_Date = 1758.5.28
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1748.1.19 = {
+	monarch = {
+		name = "Ernst August II"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1757.9.3 = {
+	heir = {
+		name = "Karl August"
+		monarch_name = "Karl August"
+		dynasty = "von Wettin"
+		birth_Date = 1757.9.3
+		death_Date = 1828.6.14
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1758.5.28 = {
+	monarch = {
+		name = "Karl August"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1783.2.2 = {
+	heir = {
+		name = "Karl Friedrich"
+		monarch_name = "Karl Friedrich"
+		dynasty = "von Wettin"
+		birth_Date = 1783.2.2
+		death_Date = 1853.7.8
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1806.7.12 = {
+	elector = no
+} # The Holy Roman Empire is dissolved
+
+1828.6.14 = {
+	monarch = {
+		name = "Karl Friedrich"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Karl Alexander"
+		monarch_name = "Karl Alexander"
+		dynasty = "von Wettin"
+		birth_Date = 1818.6.24
+		death_Date = 1901.1.5
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1853.7.8 = {
+	monarch = {
+		name = "Karl Alexander"
+		dynasty = "von Wettin"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

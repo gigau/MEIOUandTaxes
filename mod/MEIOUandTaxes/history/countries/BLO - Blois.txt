@@ -1,0 +1,79 @@
+# BLO - Blois
+# MEIOU-GG - Hundred Year War
+# MEIOU-GG Govenemnt changes
+# 2009-dec-19 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 2
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = breton
+religion = catholic
+technology_group = western
+capital = 1388	# Nantes
+
+1341.4.30 = {
+	set_country_flag = brittany_war_succession
+	monarch = {
+		name = "Charles"
+		dynasty = "de Blois"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+	heir = {
+		name = "Jeanne"
+		monarch_name = "Jeanne de Penthièvre"
+		dynasty = "de Blois"
+		birth_Date = 1340.1.1
+		death_date = 1384.9.10
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1364.9.29  = {
+	monarch = {
+		name = "Jeanne de Penthièvre"
+		dynasty = "de Blois"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1365.1.1   = {
+	capital = 357
+}
+
+1365.4.12  = {
+	clr_country_flag = brittany_war_succession
+}
+
+1384.9.10  = {
+	monarch = {
+		name = "Jean Ier de Châtillon"
+		dynasty = "de Châtillon"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1589.8.3   = {
+	government = administrative_monarchy_4
+}
+
+1661.3.9   = {
+	government = absolute_monarchy_4
+}

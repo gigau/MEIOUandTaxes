@@ -1,0 +1,5 @@
+discovered_by = indian
+discovered_by = chinese
+discovered_by = austranesian
+
+1505.1.1 = { discovered_by = POR }	#FB was 1500.1.1 = { discovered_by = POR }

@@ -1,0 +1,99 @@
+#197 - Rosello
+# Perpignan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARA
+controller = ARA
+culture = catalan
+religion = catholic
+capital = "Perpenya"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 6000
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1276.1.1   = { owner = BLE controller = BLE add_core = BLE }
+1344.1.1   = { owner = ARA controller = ARA add_core = ARA }
+1412.1.1   = { remove_core = BLE }
+1462.1.1   = { owner = FRA controller = FRA add_core = FRA } # Treaty of Bayonne: Aragon sells Roussillon to France
+1493.1.19  = { owner = ARA controller = ARA remove_core = FRA } # Treaty of Barcelona: Charles VIII restores Roussillon to Aragon
+1500.1.1   = { citysize = 7000 }
+1510.1.1   = { fort2 = yes }
+1516.1.23  = {	owner = SPA
+		controller = SPA
+	     	add_core = SPA
+	     } # Spain comes into existence, Carlos I rises to the throne
+1550.1.1   = { citysize = 8000 }
+1600.1.1   = { citysize = 9000 }
+1601.1.1   = { temple = yes } # Cathedral finished
+1610.1.1   = { fort3 = yes }
+1640.6.7   = {
+	controller = REB
+	revolt_risk = 5
+	add_core = CAT
+} # Guerra dels Segadors 
+1641.1.26  = {
+	revolt_risk = 0
+	owner = CAT
+	controller = CAT
+} # Proclamation of the Republic of Catalonia
+1641.2.27  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+} # Death of Pau Claris i Casademunt, proclamation of Louis XIII de France as count of Barcelona.
+1650.1.1   = { citysize = 10000 }
+1652.10.11 = {
+	owner = SPA
+	controller = SPA
+	remove_core = FRA
+} # Barcelona surrenders
+1659.10.28 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = SPA
+} # Peace of the Pyrennees
+1660.1.1   = { fort4 = yes }
+1670.1.1   = { constable = yes }
+1674.8.10  = { controller = SPA } # Spain invades Roussillon again
+1678.9.19  = { controller = FRA } # Treaty of Nijmegen (FRA-SPA)
+1680.1.1   = { fort5 = yes }  # Vauban's 'pointed' forts in Perpignan, Port Vendres & Mont-Louis
+1700.1.1   = { citysize = 11000 marketplace = yes }
+1713.7.13  = { remove_core = ARA }
+1750.1.1   = { citysize = 12000 courthouse = yes }
+#1755.1.1   = { fort6 = yes }
+1760.1.1   = { mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 14000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

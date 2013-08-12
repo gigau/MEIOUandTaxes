@@ -1,0 +1,32 @@
+# 557 - Katmandu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NPL
+controller = NPL
+culture = nepali
+religion = hinduism
+capital = "Katmandu"
+trade_goods = wheat
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 9530
+fort1 = yes
+terrain3 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1  = { add_core = NPL }
+1400.1.1  = { citysize = 10500 	set_province_flag = terrain3 }
+1500.1.1  = { citysize = 13000 }
+1550.1.1  = { citysize = 14897 temple = yes }
+1600.1.1  = { citysize = 16200 }
+1650.1.1  = { citysize = 18500 marketplace = yes }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 21080 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 23700 workshop = yes }
+1800.1.1  = { citysize = 27400 }

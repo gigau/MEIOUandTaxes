@@ -1,0 +1,75 @@
+# 193 - Varais
+# Principal cities: Besançon 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUR
+controller = BUR 
+add_core = BUR
+culture = burgundian
+religion = catholic
+capital = "Besançon"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 6500
+trade_goods = cheese
+
+fort1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1361.1.1   = { owner = FLA controller = FLA add_core = FLA }
+1384.1.1   = { owner = BUR controller = BUR remove_core = FLA }
+1477.1.5   = { owner = FRA controller = FRA } # Charles the Bold dies and Louis XII of France takes Franche-Comté
+1493.8.19  = { owner = HAB controller = HAB add_core = HAB } # Frederick III dies and Charles VII cedes Franch-Comté to Maximilian I von Habsburg
+1500.1.1   = { citysize = 8000 }
+1540.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 10000 }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1580.1.1   = { marketplace = yes }
+1600.1.1   = { citysize = 11000 }
+1640.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 13000 constable = yes }
+1668.2.20  = { controller = FRA } # The Prince de Condé swiftly takes Franche-Comté in the War of Devolution
+1668.5.2   = { controller = SPA } # Treaty of Aachen: Franche-Comté returned to Spain
+1670.1.1   = { add_core = FRA } # Louis XIV lays claims through the Chambres de Réunion
+1674.9.1   = { controller = FRA } # France captures Franche-Comté 
+1678.9.19  = {
+	owner = FRA
+	remove_core = SPA
+	hre = no
+} # Peace of Nijmegen (France-Spain)
+1685.1.1   = { fort4 = yes }
+1691.1.1   = { university = yes } # University of Dole transferred to Besançon by Louis XIV
+1700.1.1   = { citysize = 17000 }
+1710.1.1   = { courthouse = yes }
+1740.1.1   = { fort5 = yes mint = yes }
+1750.1.1   = { citysize = 21000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 30000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

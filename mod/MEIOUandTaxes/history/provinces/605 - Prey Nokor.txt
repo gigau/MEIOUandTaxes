@@ -1,0 +1,50 @@
+# 605 - Prey Nokor
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = theravada
+capital = "Prey Nokor"	#1698 foundation of Gia Dinh near Prey Nokor, 1862 Saigon,
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 9899
+trade_goods = rice
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1500.1.1 = { citysize = 11583 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 12358 }
+1600.1.1 = { citysize = 14544 }
+1623.1.1 = { customs_house = yes }
+1650.1.1 = { citysize = 15187 }
+1698.1.1 = {
+	owner = ANN
+	controller = ANN
+	add_core = ANN
+	capital = "Gia Dinh" 
+	citysize = 20000
+} # Vietnamese control
+1750.1.1 = { citysize = 22450 }
+1800.1.1 = { citysize = 26580 }
+1802.7.21 = {
+	owner = DAI
+	controller = DAI
+	add_core = DAI
+	remove_core = ANN
+	citysize = 31380
+} # The Nguyen dynasty defeats the Tay Sons
+1862.6.5 = { 
+	owner = FRA
+	controller = FRA
+	capital = "Saigon"
+}

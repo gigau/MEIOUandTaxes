@@ -1,0 +1,35 @@
+# 2586 - Sangihe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = polynesian
+religion = animism
+capital = "Sangir"
+trade_goods = nutmeg
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 4
+native_hostileness = 9
+discovered_by = chinese
+discovered_by = austranesian
+
+1543.1.1 = {
+	discovered_by = SPA
+} # Discovered by Ruy López de Villalobos
+1677.1.1 = {
+	discovered_by = NED
+	owner = NED
+	controller = NED
+	add_core = NED
+	citysize = 580
+	fort1 = yes
+	trade_goods = rice
+	revolt_risk = 2
+} # Dutch control
+1700.1.1  = {
+	citysize = 725
+	revolt_risk = 1
+}
+1750.1.1 = { citysize = 1066 culture = batavian base_tax = 3 }

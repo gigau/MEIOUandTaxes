@@ -1,0 +1,28 @@
+# CHC - Chancay
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_1
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 3
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+primary_culture = quechuan
+religion = inti
+technology_group = new_world
+capital = 816
+
+1356.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		dynasty = "Chancay"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}

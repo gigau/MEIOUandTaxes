@@ -1,0 +1,52 @@
+#291 - Beloozero
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BOZ
+controller = BOZ
+culture = novgorodian
+religion = orthodox
+capital = "Beloozero"
+base_tax = 3
+#manpower = 2 
+manpower = 4 
+citysize = 3847
+trade_goods = lumber 
+fort1 = yes 
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+hre = no
+
+1356.1.1  = {
+	add_core = BOZ
+	add_core = MOS
+	add_core = NOV
+}
+1389.1.1  = {
+	owner = MOS
+	controller = MOS
+} # Conquered by Valssili II
+1500.1.1  = { citysize = 4526 }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 5324 marketplace = yes }
+1565.1.1  = { fort2 = yes } # Included in oprichnina, construction of a masonry fortress
+1568.1.1  = { temple = yes } # Named after Saint Sophia Cathedral in Novgorod
+#1598.1.1  = { revolt_risk = 5 manpower = 5 } # "Time of troubles", peasantry brought into serfdom
+1598.1.1  = { revolt_risk = 5 manpower = 10 } # "Time of troubles", peasantry brought into serfdom
+1600.1.1  = { citysize = 6264 }
+1612.1.1  = { citysize = 3200 } # The city was sacked
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 7370 }
+1700.1.1  = { citysize = 8670 }
+1711.1.1  = { base_tax = 7 } # Governmental reforms and the absolutism
+1750.1.1  = { citysize = 10200 }
+1767.1.1  = { base_tax = 8 } # Legislative reform
+1800.1.1  = { citysize = 12000 }
+1812.8.17 = { controller = RFR }
+1812.11.9 = { controller = RUS }

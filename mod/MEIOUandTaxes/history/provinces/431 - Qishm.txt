@@ -1,0 +1,51 @@
+# 431 - Qishm
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORM
+controller = ORM
+culture = omani
+religion = sunni
+capital = "Qishm"
+trade_goods = coffee
+hre = no
+cot = yes
+marketplace = yes
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 50000
+discovered_by = muslim
+discovered_by = indian
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = ORM
+}
+1450.1.1  = { citysize = 50500 }
+1488.1.1  = { discovered_by = POR } # Pêro da Covilhã
+1500.1.1  = { marketplace = yes }
+1507.1.1  = {
+	controller = POR
+	owner = POR
+}
+1512.1.1  = {
+	add_core = PER
+}
+1550.1.1  = { citysize = 50590 }
+1557.1.1  = {
+	add_core = POR
+}
+1600.1.1  = { citysize = 45000 }
+1622.1.1  = {
+	controller = PER
+}
+1623.1.1  = {
+	owner = PER
+	cot = no
+}
+1650.1.1  = { citysize = 40000 }
+1700.1.1  = { citysize = 10000 }
+1750.1.1  = { citysize = 11000 }
+1800.1.1  = { citysize = 10000 }

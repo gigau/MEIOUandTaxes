@@ -1,0 +1,49 @@
+# 1030 - Mimasaka
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AKM
+controller = AKM
+culture = chugoku
+religion = shinbutsu
+capital = "Okayama"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 27000
+fort1 = yes
+temple = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = AKM
+	add_core = UKI
+	add_core = MRI
+}
+1400.1.1 = { citysize = 28000 }
+1450.1.1 = { citysize = 29000 }
+1480.1.1 = {
+	owner = UKI
+	controller = UKI
+}
+1500.1.1 = { citysize = 30000 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = {
+	citysize = 32000
+	owner = MRI
+	controller = MRI
+}
+1600.1.1 = { citysize = 34000 }
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 36000 }
+1700.1.1 = { citysize = 38000 }
+1750.1.1 = { citysize = 41000 }
+1800.1.1 = { citysize = 45000 }

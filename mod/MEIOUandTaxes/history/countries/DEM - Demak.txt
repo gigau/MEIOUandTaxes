@@ -1,0 +1,136 @@
+# Country: Demak
+# file name: DEM - Demak
+# MEIOU-FB Indonesia mod v2
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# Demak was the first major muslim sultanate in Java. 
+# Demak is used to represent a
+# number of muslim city states such as Rembang
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = -2
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = javan
+religion = sunni
+technology_group = indian		# MEIOU-FB - was: chinese
+capital = 2110	#
+
+1475.1.1 = {
+	monarch = {
+		name = "Cek Ko-Po"
+		dynasty = Ko-Po
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Rodim"
+		dynasty = Ko-Po
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Raden Patah"
+		dynasty = Patah
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Adipati Yunus"
+		dynasty = Patah
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+
+1521.1.1 = {
+	monarch = {
+		name = "Sultan Tranggana"
+		dynasty = Patah
+		adm = 5
+		dip = 7
+		mil = 8
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Sultan Prawata"
+		dynasty = Patah
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Aria Pangiri"
+		dynasty = Patah
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "Pangeran Mas"
+		dynasty = Boyolali
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "Pangeran Surya Alam"
+		dynasty = Boyolali
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "Pangeran Benawa"
+		dynasty = Boyolali
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Pengeran Sabrang Lar"
+		dynasty = Boyolali
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

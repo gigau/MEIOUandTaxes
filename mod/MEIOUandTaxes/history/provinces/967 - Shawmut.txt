@@ -1,0 +1,73 @@
+# 967 - Shawmut
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = lenape
+religion = midewiwin
+capital = "Shawmut"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1524.1.1 = {
+	discovered_by = FRA
+} # Giovanni da Verrazzano
+1630.9.17  = {
+	owner = ENG
+	controller = ENG
+	capital = "Boston"
+	citysize = 500
+	culture = english
+	religion = protestant
+	trade_goods = fur
+	base_tax = 3
+#	manpower = 2
+	manpower = 4
+	set_province_flag = trade_good_set
+	fort1 = yes
+}
+1655.1.1   = {
+	add_core = ENG
+	citysize = 2000
+}
+1675.1.1   = {
+	citysize = 5000
+}
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+	citysize = 10000
+}
+1750.1.1   = {
+	add_core = USA
+	culture = american
+	citysize = 20000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 1 }
+	revolt_risk = 9
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+	cot = yes
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies
+#1790 18,320
+#1800 24,937
+#1810 33,787
+#1820 43,298
+#1830 61,392
+#1840 93,383 

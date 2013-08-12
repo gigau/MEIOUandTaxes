@@ -1,0 +1,19 @@
+# ROU - Roumanie
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = vlach
+add_accepted_culture = moldovian
+add_accepted_culture = transylvanian
+religion = orthodox
+technology_group = eastern
+capital = 161

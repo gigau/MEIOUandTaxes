@@ -1,0 +1,55 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = GEO
+controller = GEO
+culture = georgian
+religion = orthodox
+capital = "Kinaisi"
+trade_goods = salt
+hre = no
+base_tax = 5
+#manpower = 5
+manpower = 10
+citysize = 6600
+add_core = GEO
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1458.1.1  = { revolt_risk = 5 } # Safavid campaign against Georgia
+1460.1.1  = { revolt_risk = 0 } # Defeated by Shirwan Shah
+1466.1.1  = {
+	owner = CIR
+	controller = CIR
+	add_core = CIR
+	remove_core = GEO
+}
+1500.1.1  = { citysize = 7500 }
+1550.1.1  = { citysize = 8389 }
+1555.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = IME
+}
+1600.1.1  = { citysize = 10320 }
+1614.1.1  = { revolt_risk = 6 } # Overrun several times by Persian troops
+1617.1.1  = { revolt_risk = 2 citysize = 15000 } # Thousands were killed or resettled in Iran
+1625.1.1  = { revolt_risk = 8 } # Insurrection, headed by Giorgi Saakadze
+1630.1.1  = { revolt_risk = 0 }
+1640.1.1  = { constable = yes }
+1650.1.1  = { citysize = 12500 marketplace = yes }
+1659.1.1  = { revolt_risk = 4 } # Revolts, the garrisons in Kakheti were defeated by the Kakhetians
+1665.1.1  = { revolt_risk = 0 }
+1700.1.1  = { citysize = 14188 }
+1735.1.1  = { mint = yes }
+1750.1.1  = { citysize = 16800 }
+1795.1.1  = { citysize = 15700 } # Kartli-Kakheti is invaded by Persian troops
+1800.1.1  = { citysize = 16790 }
+1810.2.20 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+} # Annexed by Russia

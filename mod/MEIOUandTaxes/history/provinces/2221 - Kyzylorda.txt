@@ -1,0 +1,54 @@
+#Province: Kyzylorda
+#file name: 2221 - Kyzylorda
+#MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = uzbehk
+religion = sunni
+capital = "Kyzylorda"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 2870
+
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = KZH
+	add_core = WHI
+	add_core = CHG
+	add_core = TIM
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1500.1.1  = { citysize = 3305 }
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1  = { citysize = 1980 }
+1597.12.1 = { base_tax = 3 } # The Reforms of Abbas the Great
+1600.1.1  = { citysize = 4477 }
+1650.1.1  = { citysize = 5276 }
+1700.1.1  = { citysize = 6900 }
+1750.1.1  = { citysize = 7288 }
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1  = { citysize = 8100 }

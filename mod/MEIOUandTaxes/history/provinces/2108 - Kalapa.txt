@@ -1,0 +1,68 @@
+#Province: Kalapa (was Daio)
+#file name: 2108 - Kalapa
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#
+#Future enhancement possibility:
+#Make owner Jayakarta (new country) from c1525 to NED takeover
+#(at some point making Jayakarta a vassal of BAN)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PJJ
+controller = PJJ
+culture = sundanese
+religion = hinduism
+capital = "Kalapa"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 9000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1  = {
+	add_core = PJJ
+	add_core = SUN
+}
+1400.1.1  = { citysize = 10890 }
+1450.1.1  = { citysize = 12000 }
+1512.1.1 = { discovered_by = POR citysize = 14100 }	#FB Antonio de Abreu
+#Demak conquered Kalapa in 1524/1525 but probably never ruled it directly
+#Demak set up the sultanate of BAN and may have done the same for Jayakarta,
+#but for simplicity Kalapa is treated as a province of BAN.
+#According to MC Ricklefs "A History of Modern Indonesia", by 1618 Jayakarta was
+#a troublesome vassal state of BAN
+#PJJ assumes the mantle of the last hinduism state in western Java
+1527.6.22 = {
+	capital = "Jayakarta"
+	owner = BAN
+	controller = BAN
+	religion = sunni
+	citysize = 28775
+	remove_core = SUN
+}  # Banten became an independent sultanate
+1599.1.1  = { discovered_by = NED citysize = 18800 } # The Dutch arrived
+1619.5.30 = {
+	owner = NED
+	controller = NED
+	capital = "Batavia"
+} # Conquered by the Dutch
+1644.1.1  = { add_core = NED fort1 = yes base_tax = 4 }
+1650.1.1  = { citysize = 28670 customs_house = yes trade_goods = coffee }
+1700.1.1  = {
+	citysize = 40111
+	culture = batavian
+}
+1740.10.1 = { revolt_risk = 5 } #FB Chinese revolt following anti-Chinese riots in Batavia
+1741.7.1 = { revolt_risk = 1 } #FB Mataram joins forces with Chinese - revolt becomes war
+1750.1.1  = { citysize = 42346 cot = yes base_tax = 5 }
+1800.1.1  = { citysize = 44880 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

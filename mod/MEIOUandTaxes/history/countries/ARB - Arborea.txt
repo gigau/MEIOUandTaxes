@@ -1,0 +1,91 @@
+# ARB - Giudicato di Arborea
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = sardinian
+capital = 2241 # Arborea
+
+1347.1.1 = {
+	monarch = { 
+		name = "Marianus IV"
+		dynasty = "d'Arborea"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1376.1.1 = {
+	monarch = { 
+		name = "Ugone III Cappai"
+		dynasty = "de Bas-Serra"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1383.1.1 = {
+	monarch = { 
+		name = "Eleonora"
+		dynasty = "d'Arborea"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1402.1.1 = {
+	monarch = { 
+		name = "Marianus V"
+		dynasty = "d'Arborea"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1407.1.1 = {
+	monarch = { 
+		name = "Leonardo"
+		dynasty = "Cubello"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+	government = feudal_monarchy_5
+}
+
+1427.1.1 = {
+	monarch = { 
+		name = "Antonio"
+		dynasty = "Cubello"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+1463.1.1 = {
+	monarch = { 
+		name = "Salvatore"
+		dynasty = "Cubello"
+		dip = 6
+		mil = 5
+		adm = 6
+	}
+}
+
+# 1478 - Finally conquered by Aragon

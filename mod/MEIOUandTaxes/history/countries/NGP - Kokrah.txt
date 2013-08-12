@@ -1,0 +1,30 @@
+# NGP - Kokrah
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = nagpuri
+capital = 559
+
+#Haven't found any info on the rulers of Kokrah/Chotanagpur
+
+1356.1.1 = {
+	monarch = {
+		name = "Durjan Sal"
+		dynasty = "Palamaui"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

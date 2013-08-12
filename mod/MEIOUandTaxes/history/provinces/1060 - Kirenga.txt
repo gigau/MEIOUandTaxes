@@ -1,0 +1,45 @@
+#1062 - Kirenga
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YUA
+controller = YUA
+culture = buryat
+religion = mahayana
+capital = "Kirenga"
+trade_goods = fur
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 5450
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = YUA
+	add_core = OIR
+}	
+1375.1.1 = {
+	owner = OIR
+	controller = OIR
+}
+1500.1.1 = { citysize = 6800 }
+1543.1.1 = { controller = REB } # Fighting broke out between the Mongols
+1550.1.1 = { citysize = 7480 }
+1552.1.1 = {
+	owner = KHA
+	controller = KHA
+} # The Oirads are defeated & Mongolia is reunited under Altan Khan
+1586.1.1 = { religion = mahayana } # State religion
+1600.1.1 = { citysize = 9922 }
+1618.1.1   = {
+	discovered_by = RUS
+}
+1623.1.1 = { owner = OIR controller = OIR } # The Oirads gained independence
+1689.1.1   = {
+	owner = RUS
+	controller = RUS
+	capital = "Nikolsky pogost"
+	add_core = RUS
+   	citysize = 11000
+}
+1750.1.1 = { citysize = 12400 }

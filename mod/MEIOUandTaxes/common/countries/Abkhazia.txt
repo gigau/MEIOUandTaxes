@@ -1,0 +1,99 @@
+# Abkhazia
+# ABK
+
+graphical_culture = muslimgfx
+
+color = { 0  137  0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	houfnice
+	large_cast_iron_bombard
+	chambered_demi_cannon
+	leather_cannon
+	swivel_cannon
+	coehorn_mortar
+	royal_mortar
+	flying_battery
+	persian_footsoldier
+	muslim_cavalry_archers
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+
+}
+
+monarch_names = {
+	"Abzagu #0" = 30
+	"Zaur #0" = 40
+	"Mzahua #0" = 50
+	"Hapsh #0" = 30
+	"Gyzmal #0" = 40
+	"Bzou #0" = 50
+	"Alhuz #0" = 30
+	"Adjir #0" = 40
+	"Adgour #0" = 50
+	"Myshw #0" = 30
+	"Akhra #0" = 50
+	"Gudisa #0" = 40
+	"Levan #0" = 15
+	"Demetre #2" = 10
+	"Thamar #1" = -10
+	"Anna #0" = -10
+	"Stefanoz #0" = 10
+	"Anzori #0" = 0
+	"Bebur #0" = 0
+	"Birtveli #0" = 0
+	"Djurkha #0" = 0
+	"Gulikho #0" = 0
+	"Kartlos #0" = 0
+	"Koki #0" = 0
+	"Kviria #0" = 0
+	"Lukhum #0" = 0
+	"Malkhazi #0" = 0
+	"Mushni #0" = 0
+	"Okhropir #0" = 0
+	"Orbeli #0" = 0
+	"Revaz #0" = 0
+	"Takha #0" = 0
+	"Torgva #0" = 0
+	"Tornike #0" = 0
+	"Tsotne #0" = 0
+	"Xareba #0" = 0
+	"Zviadi #0" = 0
+}
+
+leader_names = { 
+	Dzidzarija
+	Almasxan Swarax  
+	Axra Andarbwa 
+	"Lak’erbaja" Zvanbaja
+	Dbar Adlejba
+	"K’wabaxjija" Ajemxaa
+	Gulisashvili Gvazava
+	Javakhishvili Karalashvili
+	Kereselidze Kvinitadze 
+	Lomtatitdze Maglakelidze
+	Mazniashvili Natadze
+	Nikoladze Robakidze
+	Sharashidze Surguladze
+	Takaishvili Tsereteli
+	Tsulukidze Vachnadze
+	Zaldastanishvili Zhordania
+}
+
+ship_names = {
+	Amra Asida Gunda Esma
+	Naala Ahra
+	Bashnuh Branyp
+	Gaushakan
+	Hybla Aiyet
+}

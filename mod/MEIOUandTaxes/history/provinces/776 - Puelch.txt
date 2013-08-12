@@ -1,0 +1,82 @@
+#776
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = teremembe
+religion = pantheism
+capital = "Puelche"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 7
+
+1516.1.23  = {
+	discovered_by = SPA
+	#add_core = SPA
+}
+1680.1.1   = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	citysize = 580
+	culture = portugese
+	religion = catholic	    
+	capital = "Colonia de Sacramento"
+	trade_goods = livestock
+	set_province_flag = trade_good_set
+}
+1700.1.1   = {
+	citysize = 2000
+}
+1705.1.1   = {
+	#add_core = POR
+	owner = SPA
+	controller = SPA
+}
+1713.4.11  = {
+	owner = POR
+	controller = POR
+} # Treaty of Utrecht
+1735.1.1   = {
+	owner = SPA
+	controller = SPA
+}
+#1737.1.1  = {
+#	owner = POR
+#	controller = POR
+#}
+1750.1.1   = {
+	citysize = 5000
+	add_core = URU
+	culture = platean
+}
+1800.1.1   = {
+	citysize = 10000
+}
+1811.5.18  = {
+	owner = URU
+	controller = URU
+	add_core = LAP
+}
+1816.7.9   = {
+	owner = POR
+	controller = POR
+	remove_core = SPA
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+	add_core = BRZ
+}
+1825.8.25  = {
+	owner = URU
+	controller = URU
+	remove_core = POR
+} # Beginning of the Argentinian-Brazilian War
+1828.1.1   = {
+	remove_core = BRZ
+	remove_core = LAP
+} # End of the Argentinian-Brazilian War

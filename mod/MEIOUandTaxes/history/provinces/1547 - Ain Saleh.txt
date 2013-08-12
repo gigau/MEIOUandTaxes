@@ -1,0 +1,29 @@
+# 1547 - Ain Saleh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+# 1110 - Cinghetti
+
+owner = TUA
+controller = TUA
+add_core = TUA
+culture = tuareg
+religion = sunni
+capital = "Ain Saleh"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = salt
+
+fort1 = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+
+hre = no
+
+1591.1.1 = {
+	owner = MOR
+	controller = MOR
+}

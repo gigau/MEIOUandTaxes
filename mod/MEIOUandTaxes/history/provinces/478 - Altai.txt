@@ -1,0 +1,49 @@
+#478 - Altai
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = oirats
+religion = mahayana
+capital = "Altai"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 1324
+
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = CHG
+	add_core = KHA
+	revolt_risk = 3
+}
+1500.1.1 = { citysize = 1988 }
+1550.1.1 = { citysize = 2570 }
+1552.1.1 = {
+	owner = KHA
+	controller = KHA
+} # The Oirads are defeated, reunited under Altan Khan
+1600.1.1 = { citysize = 3124 }
+1622.1.1 = { discovered_by = RUS }
+1623.1.1 = {
+	owner = OIR
+	controller = OIR
+} # The Oirads gained independence
+1650.1.1 = { citysize = 3780 }
+1700.1.1 = { citysize = 4231}
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+} # Independent principality established by Shaybanid Shahrukh
+1750.1.1 = { citysize = 4807 }
+1757.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Part of the Manchu empire
+1800.1.1 = { citysize = 5200 }

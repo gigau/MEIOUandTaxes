@@ -1,0 +1,21 @@
+# Sioux Dragoon Tactics
+#Modified for MEIOU by FB 10.02.07
+#tech level 27 c1820
+
+unit_type = new_world
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 6
+#defensive_morale = 4
+#offensive_fire = 0
+#defensive_fire = 0
+#offensive_shock = 4
+#defensive_shock = 2
+#FB
+offensive_morale = 7
+defensive_morale = 5
+offensive_fire = 8
+defensive_fire = 8
+offensive_shock = 7
+defensive_shock = 7

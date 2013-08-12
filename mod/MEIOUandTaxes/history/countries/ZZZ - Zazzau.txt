@@ -1,0 +1,60 @@
+# ZZZ - Zazzau
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+primary_culture = haussa
+religion = sunni
+technology_group = soudantech
+
+capital = 1553	# Zazzau
+
+1350.1.1 = {
+	monarch = {
+		name = "Abdallah"
+		dynasty = "Zaria"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1536.1.1 = {
+	monarch = {
+		name = "Bakwa Turunku"
+		dynasty = "Zaria"
+		DIP = 8
+		ADM = 8
+		MIL = 8
+		female = yes
+	}
+} # death in 1566
+
+1576.1.1 = {
+	monarch = {
+		name = "Amina"
+		dynasty = "Zaria"
+		DIP = 8
+		ADM = 8
+		MIL = 8
+		female = yes
+	}
+} # death in 1610
+
+1610.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Zaria"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

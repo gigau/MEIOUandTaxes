@@ -1,0 +1,53 @@
+# 543 - Kondavidu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VIJ
+controller = VIJ
+culture = telegu
+religion = hinduism
+capital = "Kondavidu"
+trade_goods = indigo
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 11410
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = VIJ
+}
+1400.1.1 = { citysize = 12800 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 16200 temple = yes }
+1550.1.1 = { citysize = 18500 fort2 = yes } # The Qutb Shahis expanded the fort
+1565.7.1 = {
+	owner = GOC
+	controller = GOC
+	add_core = GOC
+	remove_core = VIJ
+} # The Vijayanagar empire collapses
+1600.1.1 = { citysize = 20800 discovered_by = turkishtech }
+1620.1.1 = { marketplace = yes }
+1650.1.1 = { citysize = 23400 }
+1687.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1700.1.1 = { citysize = 26100 }
+1707.5.12 = { discovered_by = GBR discovered_by = FRA }
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	add_core = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1750.1.1 = { citysize = 29300 workshop = yes }
+1800.1.1 = { citysize = 33100 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+}

@@ -1,0 +1,392 @@
+# MAD - Madurai
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5	#Confederacy of poligars
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+technology_group = indian
+religion = sunni
+primary_culture = tamil
+capital = 538	# Madurai
+
+1356.1.1 = {
+	monarch = {
+		name = "Shams-ud-din"
+		dynasty = "Shah"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1358.1.1 = {
+	monarch = {
+		name = "Fakhr-ud-din"
+		dynasty = "Shah"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1368.1.1 = {
+	monarch = {
+		name = "Ala-ud-din"
+		dynasty = "Shah"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+# 1368 - Sultanate is defeated by Vijayanagar.
+
+1384.1.1 = {
+	religion = hinduism
+	monarch = {
+		name = "Parakrama"
+		dynasty = "Pandya"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1384.1.1 = {
+	heir = {
+		name = "Sadayavarman Vikrama"
+		monarch_name = "Sadayavarman Vikrama"
+		dynasty = "Pandya"
+		birth_Date = 1360.1.1
+		death_Date = 1422.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Sadayavarman Vikrama"
+		dynasty = "Pandya"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1401.1.1 = {
+	heir = {
+		name = "Sadayavarman Parakrama"
+		monarch_name = "Sadayavarman Parakrama"
+		dynasty = "Pandya"
+		birth_Date = 1385.1.1
+		death_Date = 1463.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Sadayavarman Parakrama"
+		dynasty = "Pandya"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1422.1.1 = {
+	heir = {
+		name = "Sadayavarman Kulasekara"
+		monarch_name = "Sadayavarman Kulasekara"
+		dynasty = "Pandya"
+		birth_Date = 1405.1.1
+		death_Date = 1474.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Sadayavarman Kulasekara"
+		dynasty = "Pandya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1463.1.1 = {
+	heir = {
+		name = "Parakrama Veera"
+		monarch_name = "Parakrama Veera"
+		dynasty = "Pandya"
+		birth_Date = 1450.1.1
+		death_Date = 1479.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Parakrama Veera"
+		dynasty = "Pandya"
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1468.1.1 = {
+	heir = {
+		name = "Sadayavarman Kulasekara II"
+		monarch_name = "Sadayavarman Kulasekara"
+		dynasty = "Pandya"
+		birth_Date = 1440.1.1
+		death_Date = 1507.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+#1479 completely annexed by Vijayanagar after trying to annex Madurai
+
+#Independent from Vijayanagar:
+#Madurai Nayaka dynasty, Nayaka = vassal king, but from sources it seems the Madurai Nayakas took it as their dynasty name?
+
+1529.1.1 = {
+	monarch = {
+		name = "Vishvanatha"
+		dynasty = "Nayaka"
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1529.1.1 = {
+	heir = {
+		name = "Kumara Periaya Krishnappa"
+		monarch_name = "Kumara Periaya Krishnappa"
+		dynasty = "Nayaka"
+		birth_Date = 1527.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Kumara Periaya Krishnappa"
+		dynasty = "Nayaka"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+	government = feudal_monarchy_2b
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Krishnappa Periaya"
+		monarch_name = "Krishnappa Periaya"
+		dynasty = "Nayaka"
+		birth_Date = 1560.1.1
+		death_Date = 1595.3.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	monarch = {
+		name = "Krishnappa Periaya"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	heir = {
+		name = "Lingayya Kumara"
+		monarch_name = "Lingayya Kumara"
+		dynasty = "Nayaka"
+		birth_Date = 1570.1.1
+		death_Date = 1601.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1595.3.1 = {
+	monarch = {
+		name = "Lingayya Kumara"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1595.3.1 = {
+	heir = {
+		name = "Mutu Krishnappa"
+		monarch_name = "Mutu Krishnappa"
+		dynasty = "Nayaka"
+		birth_Date = 1590.1.1
+		death_Date = 1609.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1601.1.1 = {
+	monarch = {
+		name = "Mutu Krishnappa"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1601.1.1 = {
+	heir = {
+		name = "Muttu Virappa"
+		monarch_name = "Muttu Virappa I"
+		dynasty = "Nayaka"
+		birth_Date = 1590.1.1
+		death_Date = 1623.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Muttu Virappa I"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Tirumala"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Muttu Virappa II"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Chokkanatha I"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Muttu Linga"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Chokkanatha I"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Restored
+
+1682.1.1 = {
+	monarch = {
+		name = "Muttu Varappa III"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1689.1.1 = {
+	monarch = {
+		name = "Chokkanatha II"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Minakshi"
+		dynasty = "Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Annexed by the Carnatic in April 1736

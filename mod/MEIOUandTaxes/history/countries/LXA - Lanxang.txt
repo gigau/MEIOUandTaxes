@@ -1,0 +1,574 @@
+# LXA - Lanxang
+# MEIOU-GG Govenemnt changes
+# MEIOU-GG Religion changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4
+# secularism_theocracy = 1
+technology_group = chinese
+primary_culture = laotian
+religion = theravada
+capital = 615	# Luang Prabang (Xieng dong Xieng Tong) from 1353
+
+1353.1.1 = {
+	monarch = {
+		name = "Fa Ngum"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 8
+		MIL = 7
+	}
+}
+1376.1.1 = {
+	monarch = {
+		name = "Vutha Singsavaddy"
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+1379.1.1 = {
+	monarch = {
+		name = "Samsenthai "
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Lan Kham Deng"
+		monarch_name = "Lan Kham Deng"
+		dynasty = "Khun Lo"
+		birth_Date = 1375.1.1
+		death_Date = 1428.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Lan Kham Deng"
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+	heir = {
+		name = "Phommathat"
+		monarch_name = "Phommathat"
+		dynasty = "Khun Lo"
+		birth_Date = 1395.1.1
+		death_Date = 1429.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1428.1.1 = {
+	monarch = {
+		name = "Phommathat"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 6
+		MIL = 3
+	}
+	heir = {
+		name = "Yugandhara"
+		monarch_name = "Yugandhara"
+		dynasty = "Khun Lo"
+		birth_date = 1420.1.1
+		death_Date = 1430.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Yugandhara"
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Gunakama"
+		monarch_name = "Gunakama"
+		dynasty = "Khun Lo"
+		birth_Date = 1400.1.1
+		death_Date = 1432.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Gunakama"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 6
+		MIL = 5
+	}
+	heir = {
+		name = "Lohajaya"
+		monarch_name = "Lohajaya"
+		dynasty = "Khun Lo"
+		birth_Date = 1415.1.1
+		death_Date = 1433.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Lohajaya"
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+	heir = {
+		name = "Kaya Buwanabana"
+		monarch_name = "Kaya Buwanabana"
+		dynasty = "Khun Lo"
+		birth_Date = 1432.1.1
+		death_date = 1436.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Kaya Buwanabana"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 6
+		MIL = 3
+	}
+	heir = {
+		name = "Kham Keut"
+		monarch_name = "Kama Kirti"
+		birth_Date = 1420.1.1
+		death_Date = 1438.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Kham Keut"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 4
+		MIL = 6
+	}
+	heir = {
+		name = "Sai Tiakaphat"
+		monarch_name = "Sai Tiakaphat"
+		dynasty = "Khun Lo"
+		birth_Date = 1420.1.1
+		death_Date = 1479.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Sao Tiakaphat"
+		dynasty = "Khun Lo"
+		DIP = 7
+		ADM = 7
+		MIL = 5
+	}
+	heir = {
+		name = "T'ene Kham"
+		monarch_name = "T'ene Kham"
+		dynasty = "Khun Lo"
+		birth_Date = 1430.1.1
+		death_Date = 1486.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "T'eng Kham"
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+	heir = {
+		name = "Lahsaenthai Puvanart"
+		monarch_name = "Lahsaenthai Puvanart"
+		dynasty = "Khun Lo"
+		birth_date = 1470.1.1
+		death_Date = 1496.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Lahsaenthai Puvanart"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Samphou"
+		monarch_name = "Samphou"
+		dynasty = "Khun Lo"
+		birth_Date = 1480.1.1
+		death_date = 1501.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Samphou"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Visunarat"
+		monarch_name = "Visunarat"
+		dynasty = "Khun Lo"
+		birth_Date = 1490.1.1
+		death_Date = 1520.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1501.1.1 = {
+	monarch = {
+		name = "Visunarat"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 6
+		MIL = 6
+	}
+	heir = {
+		name = "Photisarath"
+		monarch_name = "Photisarath"
+		dynasty = "Khun Lo"
+		birth_date = 1501.1.1
+		death_Date = 1548.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Photisarath"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 6
+		MIL = 6
+	}
+	heir = {
+		name = "Sett'at'irat"
+		monarch_name = "Sett'at'irat"
+		dynasty = "Khun Lo"
+		birth_Date = 1520.1.1
+		death_Date = 1571.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1548.1.1 = {
+	monarch = {
+		name = "Sett'at'irat"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 8
+		MIL = 5
+	}
+	heir = {
+		name = "Sene Soulint'a"
+		monarch_name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		birth_Date = 1530.1.1
+		death_date = 1582.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1560.1.1 = {
+	capital = 614
+} # Vientiane
+
+1571.1.1 = {
+	monarch = {
+		name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+	heir = {
+		name = "Mahaupahat"
+		monarch_name = "Mahaupahat"
+		dynasty = "Khun Lo"
+		birth_Date = 1565.1.1
+		death_date = 1580.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Mahaupahat"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 5
+	}
+	heir = {
+		name = "Sene Soulint'a"
+		monarch_name = "Sene Soulint'a"
+		dynasty = "Khun Lo"
+		birth_date = 1530.1.1
+		death_Date = 1582.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Sene Soulint'a" # Restored
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+	heir = {
+		name = "Nakhone Noi"
+		monarch_name = "Nakhone Noi"
+		dynasty = "Khun Lo"
+		birth_Date = 1560.1.1
+		death_Date = 1591.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Nakhone Noi"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1583.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Nokeo Koumone"
+		dynasty = "Khun Lo"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "T'ammikarat"
+		monarch_name = "T'ammikarat"
+		dynasty = "Khun Lo"
+		birth_Date = 1590.1.1
+		death_Date = 1622.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "T'ammikarat"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 6
+		MIL = 5
+	}
+	heir = {
+		name = "Upanyuvarat"
+		monarch_name = "Upanyuvarat"
+		dynasty = "Khun Lo"
+		birth_Date = 1590.1.1
+		death_Date = 1623.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1622.1.1 = {
+	monarch = {
+		name = "Upanyuvarat"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Photisarath II "
+		dynasty = "Khun Lo"
+		DIP = 4
+		ADM = 3
+		MIL = 3
+	}
+	heir = {
+		name = "MongKeo"
+		monarch_name = "MongKeo"
+		birth_Date = 1600.1.1
+		death_Date = 1629.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "MongKeo"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1631.1.1 = {
+	monarch = {
+		name = "Tone Kham"
+		dynasty = "Khun Lo"
+		DIP = 6
+		ADM = 6
+		MIL = 6
+	}
+	heir = {
+		name = "Vichai"
+		monarch_name = "Vichai"
+		dynasty = "Khun Lo"
+		birth_date = 1600.1.1
+		death_Date = 1637.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "Vichai"
+		dynasty = "Khun Lo"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+	heir = {
+		name = "Surinyavongsa"
+		monarch_name ="Surinyavongsa"
+		dynasty = "Khun Lo"
+		birth_Date = 1620.1.1
+		death_Date = 1648.1.1
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1637.1.1 = {
+	monarch = {
+		name = "Surinyavongsa"
+		dynasty = "Khun Lo"
+		DIP = 8
+		ADM = 8
+		MIL = 8
+	}
+}

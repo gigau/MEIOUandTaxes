@@ -1,0 +1,45 @@
+# 1033 - Wakasa
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ISK
+controller = ISK
+culture = kansai
+religion = shinbutsu
+capital = "Obama"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 24000
+temple = yes
+fort1 = yes # Wakasahime Shirine (Obama) and Kehi Shirine (Tsuruga). 
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = ISK
+}
+1400.1.1 = { citysize = 25000 }
+1450.1.1 = { citysize = 26000 }
+1500.1.1 = { citysize = 28000 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 30000 }
+1579.1.1 = {
+	owner = ODA
+	controller = ODA
+}
+1600.1.1 = {
+	citysize = 33000
+}
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 36000 }
+1700.1.1 = { citysize = 40000 }
+1750.1.1 = { citysize = 44000 }
+1800.1.1 = { citysize = 49000 }

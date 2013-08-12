@@ -1,0 +1,69 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = POL
+controller = POL
+capital = "Peremyshl"
+culture = ruthenian
+religion = orthodox
+trade_goods = hemp
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+fort1 = yes
+citysize = 1000
+add_core = POL
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1350.1.1 = {
+	add_core = LIT
+}
+
+1392.1.1 = {
+	remove_core = LIT
+}
+
+1500.1.1 = { citysize = 1200 }
+1550.1.1 = { citysize = 1450 }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1588.1.1 = { controller = REB } # Civil war
+1589.1.1 = { controller = PLC } # Coronation of Sigismund III
+1600.1.1 = { citysize = 1500 }
+1606.1.1 = { controller = REB } # Civil war
+1608.1.1 = { controller = PLC } # Minor victory of Sigismund
+1650.1.1 = { citysize = 1600 }
+1655.1.1 = { controller = SWE } # The Deluge
+1657.1.1 = { revolt_risk = 0 } # Rebellion fails
+1660.1.1 = { controller = PLC }
+1700.1.1 = { citysize = 1800 }
+1733.1.1 = { controller = REB } # The war of Polish succession
+1735.1.1 = { controller = PLC }
+1750.1.1 = { citysize = 1990 marketplace = yes }
+1772.8.5   = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = POL
+	remove_core = PLC
+} # First partition of Poland
+1800.1.1 = { citysize = 2100 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1806.11.3  = { controller = REB } # Polish uprising instigated by Napoleon
+1809.10.14   = {
+	owner = POL
+	controller = POL
+     	remove_core = PRU
+} # The Duchy of Warsaw
+1812.12.12 = { controller = RUS }
+1815.6.9   = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # Congress of Vienna

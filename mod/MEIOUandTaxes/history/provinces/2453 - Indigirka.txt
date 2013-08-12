@@ -1,0 +1,9 @@
+# 2453 - Stanovoy
+
+1750.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	culture = yukaghir
+	religion = shamanism
+}

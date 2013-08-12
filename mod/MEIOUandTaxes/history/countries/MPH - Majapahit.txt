@@ -1,0 +1,230 @@
+# Country: Majapahit
+# file name: MPH - Majapahit
+# MEIOU-FB Indonesia mod v2
+# MEIOU-GG Govenemnt changes
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+#FB note:
+# the city of Majapahit was the major power in Indonesia between 1293 and 1525
+# Majapahit is located between the cities of Kediri and Singhasari in east Java
+# Each of these cities were city-states that were sometimes independant and
+# sometimes dominated by one of the others (a bit like the situation in classical
+# Greece) - this situation is difficult to show in EU3 since all three city-states
+# fit within one EU3 province
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 1
+# secularism_theocracy = 1
+primary_culture = javan
+religion = hinduism
+technology_group = austranesian			#FB was:chinese
+capital = 628	# Pasesir
+
+1294.1.1 = {
+	monarch = {
+		name = "Kertarajasa Jayawardhana"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+	set_country_flag = wrath_of_god
+}
+
+1309.1.1 = {
+	monarch = {
+		name = "Jayanagara"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1328.1.1 = {
+	monarch = {
+		name = "Tribhuwana Wijayottunga Dewi"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1350.1.1 = {
+	monarch = {
+		name = "Rajasanagara"
+		dynasty = "Rajasanagara"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}	#FB the "golden age" of Majapahit (MC Ricklefs "A History of Modern Indonesia")
+
+#FB 1330-1364 Majapahit "at its height under Gaja Mada" ("Cassell's Atlas of World History")
+
+1390.1.1 = {
+	monarch = {
+		name = "Wikramawardhana"
+		dynasty = "Rajasanagara"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1390.1.1 = {
+	heir = {
+		name = "Suhita"
+		monarch_name = "Suhita"
+		dynasty = "Rajasanagara"
+		birth_date = 1390.1.1
+		death_date = 1447.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Suhita"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	heir = {
+		name = "Kertawijaya"
+		monarch_name = "Kertawijaya"
+		dynasty = "Rajasanagara"
+		birth_date = 1429.1.1
+		death_date = 1451.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Kertawijaya"
+		dynasty = "Rajasanagara"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1447.1.1 = {
+	heir = {
+		name = "Rajasawardhana"
+		monarch_name = "Rajasawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1431.1.1
+		death_date = 1456.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Rajasawardhana"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Girishawardhana"
+		monarch_name = "Girishawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1436.1.1
+		death_date = 1466.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Girishawardhana"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	heir = {
+		name = "Singhawikramawardhana"
+		monarch_name = "Singhawikramawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1446.1.1
+		death_date = 1474.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Singhawikramawardhana"
+		dynasty = "Rajasanagara"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Girindrawardhana"
+		monarch_name = "Girindrawardhana"
+		dynasty = "Rajasanagara"
+		birth_date = 1454.1.1
+		death_date = 1498.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Girindrawardhana"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

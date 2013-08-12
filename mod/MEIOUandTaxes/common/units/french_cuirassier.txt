@@ -1,0 +1,21 @@
+# French Cuirassier
+#Modified for MEIOU by FB 10.02.07
+#tech level 50 c1740
+
+unit_type = western
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 8
+#defensive_morale = 6
+#offensive_fire = 4
+#defensive_fire = 5
+#offensive_shock = 9
+#defensive_shock = 7
+#FB
+offensive_morale = 11
+defensive_morale = 9
+offensive_fire = 7
+defensive_fire = 7
+offensive_shock = 7
+defensive_shock = 5

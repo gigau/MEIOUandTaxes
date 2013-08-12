@@ -1,0 +1,69 @@
+# 1405 - Ardeal / Bihor
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = transylvanian
+religion = orthodox
+capital = "Kolozsvár"
+trade_goods = salt
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 4981
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = TRA
+	add_core = HUN
+}
+1500.1.1  = { citysize = 5342 }
+1506.1.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Szekely rebellion
+1507.1.1  = { revolt = { } controller = HUN } # Estimated
+1514.4.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Peasant rebellion against Hungary's magnates
+1515.1.1  = { revolt = { } controller = HUN } # Estimated
+1520.1.1  = { marketplace = yes }
+1526.8.30  = {
+	owner = TRA
+	controller = TRA
+	add_core = RHU
+	add_core = HAB
+}
+1540.1.1  = { religion = reformed }
+1550.1.1  = { citysize = 5588 }
+1570.8.16  = {
+	owner = TRA
+	controller = TRA
+} # Abdication of Janos II as king of Hungary, becomes prince of Transylvania
+1599.1.1   = {	owner = WAL
+		controller = WAL
+		add_core = WAL
+	     }
+1600.1.1  = { citysize = 6710 }
+1601.1.1   = {	owner = TRA
+		controller = TRA
+		remove_core = WAL
+	     } # Michael is assasinated
+1650.1.1  = { citysize = 7120 constable = yes }
+1695.1.1 = {
+	remove_core = RHU
+	remove_core = TUR
+}
+1700.1.1   = { citysize = 7640 }
+1711.5.1   = {	owner = HAB 
+		controller = HAB
+		add_core = HAB
+	    } # Ceded to Austria The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+1744.1.1   = { controller = REB } # Visarion Sarai stir up an orthodox rebellion against the Uniate church
+1745.1.1   = { controller = HAB } # Estimated, Visarion Sarai is arrested and executed
+1750.1.1   = { citysize = 8665 }
+1755.1.1   = { mint = yes }
+1784.1.1   = { controller = REB } # Peasant rebellion against the nobles
+1785.1.1   = { controller = HAB } # The leaders are arrested and executed
+1800.1.1   = { citysize = 9670 }

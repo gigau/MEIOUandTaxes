@@ -1,0 +1,70 @@
+# 2685 - Middle Gondwana
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GDW
+controller = GDW
+culture = gondi
+religion = hinduism
+capital = "Kherla"
+trade_goods = naval_supplies
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 15000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1 = {
+	add_core = BRR
+	add_core = GDW
+	add_core = DGA
+}
+1410.1.1 = {
+	controller = BAH
+} # Invaded by Bahmanis
+1411.1.1 = {
+	owner = BAH
+} # Invaded by Bahmanis
+1417.1.1 = {
+	controller = MLW
+} # Invaded by Malwa
+1418.1.1 = {
+	owner = MLW
+} # Invaded by Malwa
+1450.1.1 = { citysize = 11000 }
+1467.1.1 = {
+	owner = BAH
+	controller = BAH
+} # Invaded by Bahmanis
+1468.1.1 = {
+	owner = MLW
+	controller = MLW
+} # Invaded by Malwa
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 8000 }
+1531.1.1 = {
+	owner = DGA
+	controller = DGA
+	capital = Deogarh
+} # Independence and new dominant state
+1550.1.1 = { citysize = 15000 }
+1564.5.1 = { controller = MUG }
+1564.7.1 = { controller = DGA }
+1600.1.1 = { citysize = 22000 }
+1650.1.1 = { citysize = 18000 }
+1700.1.1 = { citysize = 16000 }
+1724.1.1 = {
+	owner = BHO
+	controller = BHO
+	add_core = BHO
+}	#Forms kingdom of Nagpur
+#1743.1.1 = {	   } # Marathas take control over Nagpur kingdom
+#1743 Take over by the Maratha Bhonsle dynasty
+1750.1.1 = { citysize = 19000 }
+1800.1.1 = { citysize = 22000 }
+1818.6.3 = {
+	owner = GBR
+	controller = GBR
+}

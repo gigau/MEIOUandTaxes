@@ -1,0 +1,125 @@
+# MUZ - Muzaffarid
+# MEIOU-GG - Turko-Mongol mod
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = muslim
+primary_culture = persian
+religion = sunni
+capital = 414
+
+
+1314.1.1   = {
+	monarch = {
+		name = "Mubariz ad-Din Muhammad"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Abu'l Fawaris Djamal"
+		monarch_name = "Abu'l Fawaris Djamal ad-Din Shah Shuja"
+		dynasty = "Muzaffarid"
+		birth_date = 1300.1.1
+		death_date = 1358.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	set_country_flag = wrath_of_god
+}
+
+1335.1.1   = {
+	capital = 390
+	monarch = {
+		name = "Abu'l Fawaris Djamal ad-Din Shah Shuja"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Qutb"
+		monarch_name = "Qutb Al-Din Shah Mahm"
+		dynasty = "Muzaffarid"
+		birth_date = 1320.1.1
+		death_date = 1366.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1353.1.1   = {
+	capital = 429
+}
+
+1358.1.1   = {
+	capital = 414
+	monarch = {
+		name = "Qutb Al-Din Shah Mahm"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Abu'l Fawaris Djamal"
+		monarch_name = "Abu'l Fawaris Djamal ad-Din Shah Shuja"
+		dynasty = "Muzaffarid"
+		birth_date = 1340.1.1
+		death_date = 1384.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1366.1.1   = {
+	capital = 429
+	monarch = {
+		name = "Abu'l Fawaris Djamal ad-Din Shah Shuja"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Mujahid"
+		monarch_name = "Mujahid ad-Din Zain Al-Abidin 'Ali"
+		dynasty = "Muzaffarid"
+		birth_date = 1360.1.1
+		death_date = 1420.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1384.1.1   = {
+	monarch = {
+		name = "Mujahid ad-Din Zain Al-Abidin 'Ali"
+		dynasty = "Muzaffarid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+# 1387 - Fall to Tamerlane

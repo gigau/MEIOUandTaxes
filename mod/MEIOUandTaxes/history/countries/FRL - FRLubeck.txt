@@ -1,0 +1,1112 @@
+# FRL - Lübeck
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic_cot
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+technology_group = western
+religion = catholic
+primary_culture = pommeranian
+capital = 45
+
+1351.1.1 = {
+	monarch = {
+		name = "Tidemann Warendorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Hinrich Pleskow"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1359.1.1 = {
+	monarch = {
+		name = "Hermann Gallin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1360.1.1 = {
+	monarch = {
+		name = "Johann Wittenborg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1363.1.1 = {
+	monarch = {
+		name = "Johannes Perzeval"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Jakob Pleskow"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Simon Swerting"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1373.1.1 = {
+	monarch = {
+		name = "Hartmann Pepersack"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Gerhard von Attendorn"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1386.1.1 = {
+	monarch = {
+		name = "Thomas Morkerke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1390.1.1 = {
+	monarch = {
+		name = "Gottfried Travelmann"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1392.1.1 = {
+	monarch = {
+		name = "Hinrich Westhof"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1397.1.1 = {
+	monarch = {
+		name = "Goswin Klingenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Jordan Pleskow"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Henning von Rentelen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1406.1.1 = {
+	monarch = {
+		name = "Marquard von Dame"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Konrad Brekewoldt"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Hermann von Alen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Simon Oldesloe"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Johann Growe"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Hinrich Schönenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Hermann Poling"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Johann Klingenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Johann Bere"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Wilhelm von Calven"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1442.1.1 = {
+	monarch = {
+		name = "Johann Lüneburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Johann Kollmann"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Gerhard von Minden"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1457.1.1 = {
+	monarch = {
+		name = "Bertold Witig"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Johann Westphal"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1462.1.1 = {
+	monarch = {
+		name = "Hinrich Castorp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Heinrich von Stiten"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+1475.1.1 = {
+	monarch = {
+		name = "Andreas Geverdes"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Bruno Bruskow"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Johann Wickinghof"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1487.1.1 = {
+	monarch = {
+		name = "Heinrich Brömse"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "Hermann von Wickede"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Diedrich Hupe"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1498.1.1 = {
+	monarch = {
+		name = "Johann Hertze"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1502.1.1 = {
+	monarch = {
+		name = "Hartwig von Stiten"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Tidemann Berck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1513.1.1 = {
+	monarch = {
+		name = "Heinrich Witte"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Thomas von Wickede,"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Hermann Falcke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Mattheus Packebusch"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Hermann Plönnies"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	religion = protestant
+	# secularism_theocracy = -3
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Joachim Gercken"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1544.1.1 = {
+	monarch = {
+		name = "Nikolaus Bardewik"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Anton von Stiten"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Bartholomeus Tinnappel"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1572.1.1 = {
+	monarch = {
+		name = "Heinrich Plönnies"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Johann Brokes"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Hermann von Dorne"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Johann Lüdinghusen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1581.1.1 = {
+	monarch = {
+		name = "Joachim Lüneburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1588.1.1 = {
+	monarch = {
+		name = "Dietrich von Broemse"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1589.1.1 = {
+	monarch = {
+		name = "Gotthard von Hoeveln"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1594.1.1 = {
+	monarch = {
+		name = "Arnold Bonnus"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Alexander Lüneburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Jakob Bording"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1601.1.1 = {
+	monarch = {
+		name = "Conrad Garmers"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Heinrich Brokes"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Lorenz Möller"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1619.1.1 = {
+	monarch = {
+		name = "Johann Vinhagen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Heinrich Köhler"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Christoph Gerdes"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1634.1.1 = {
+	monarch = {
+		name = "Johann Kampferbeke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Heinrich Wedemhof"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Otto Brokes"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1642.1.1 = {
+	monarch = {
+		name = "Anton Köhler"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1651.1.1 = {
+	monarch = {
+		name = "Hermann von Dorne"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1654.1.1 = {
+	monarch = {
+		name = "Gotthard von Höveln"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Gottschalk von Wickede"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Johann Marquard"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1666.1.1 = {
+	monarch = {
+		name = "David Gloxin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1667.1.1 = {
+	monarch = {
+		name = "Matthäus Rodde"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Johann Ritter"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1671.1.1 = {
+	monarch = {
+		name = "Heinrich Kerkring"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Konrad Schinkel"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1687.1.1 = {
+	monarch = {
+		name = "Johann Siricius"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1692.1.1 = {
+	monarch = {
+		name = "Gotthard Marquard"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Anton Winckler"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1695.1.1 = {
+	monarch = {
+		name = "Hieronymus von Dorne"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Gotthard Kerkring"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1703.1.1 = {
+	monarch = {
+		name = "Johann Westken"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Sebastian Gercken"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1708.1.1 = {
+	monarch = {
+		name = "Thomas von Wickede"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Peter Tesdorpf"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Daniel Müller"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Joachim Carstens"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1724.1.1 = {
+	monarch = {
+		name = "Heinrich Balemann"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Heinrich von Brömbsen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Jakob Hübens"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Anton von Lüneburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "August Lindholtz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1738.1.1 = {
+	monarch = {
+		name = "Hermann Münter"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	monarch = {
+		name = "Gotthard Isselhorst"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Mattheus Rodde"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Ludwig Roeck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1769.1.1 = {
+	monarch = {
+		name = "Friedrich Green"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Joachim Peters"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1777.1.1 = {
+	monarch = {
+		name = "Joachim Lütkens"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "Hermann Bünekau"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "Johann Isselhorst"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1783.1.1 = {
+	monarch = {
+		name = "Joachim Tanck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Hermann Krohn"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1789.1.1 = {
+	monarch = {
+		name = "Franz Rodde"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Anton Wilken"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1792.1.1 = {
+	monarch = {
+		name = "Georg Blohm"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1794.1.1 = {
+	monarch = {
+		name = "Gabriel Lembke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1799.1.1 = {
+	monarch = {
+		name = "Johann Böhme"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Christian von Brömbsen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1804.1.1 = {
+	monarch = {
+		name = "Johann Plessing"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Johann Lindenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "Mattheus Rodde"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1810.1.1 = {
+	monarch = {
+		name = "Georg Richertz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1814.1.1 = {
+	monarch = {
+		name = "Christian Overbeck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1817.1.1 = {
+	monarch = {
+		name = "Nicolaus Keusch"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Stephan Behncke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1826.1.1 = {
+	monarch = {
+		name = "Friedrich Nölting"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1827.1.1 = {
+	monarch = {
+		name = "Peter Tesdorpf"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

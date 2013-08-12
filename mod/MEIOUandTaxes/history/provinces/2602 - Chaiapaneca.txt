@@ -1,0 +1,62 @@
+# 2602 - Xaltepecapan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAP
+controller = ZAP
+add_core = ZAP
+culture = zapotec
+religion = teotl
+capital = "Xaltepec" 
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = cacao
+
+marketplace = yes
+terrain2 = yes
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1521.8.13  = {
+	discovered_by = SPA
+}
+1530.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "Chiapas de Corzo"
+	base_tax = 4
+#	manpower = 3
+	manpower = 6
+	citysize = 2000
+	trade_goods = maize
+	fort1 = yes
+}
+1553.1.1   = {
+	add_core = SPA
+}
+1600.1.1   = {
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 5000
+}
+1800.1.1   = {
+	citysize = 10000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

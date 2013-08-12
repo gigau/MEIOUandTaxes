@@ -1,0 +1,63 @@
+# 2331 - Rethel
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FLA
+controller = FLA
+add_core = FLA
+culture = wallonian
+religion = catholic 
+capital = "Rethers"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = lumber
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 3500 }
+1384.1.1   = { owner = BUR controller = BUR add_core = BUR remove_core = FLA }
+1477.1.1  = { owner = NEV controller = NEV add_core = NEV add_core = FRA }
+1491.1.1 = { add_core = KLE remove_core = BUR  }
+1565.1.1 = { add_core = MAN remove_core = KLE  }
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1659.1.1 = {
+	owner = FRA
+	controller = FRA
+	remove_core = NEV
+	remove_core = MAN
+}
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1793.3.7   = { controller = REB } # The Royalists revolt against the Republic
+1796.12.23 = { controller = RFR } # The last rebels are defeated at the battle of Savenay
+1800.1.1   = { citysize = 10000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {   owner = FRA
+      controller = FRA
+      add_core = FRA
+      remove_core = RFR
+        } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {   owner = RFR
+      controller = RFR
+      add_core = RFR
+      remove_core = FRA
+        } # Napoleon enters Paris
+1815.7.8   = {   owner = FRA
+      controller = FRA
+      add_core = FRA
+      remove_core = RFR
+} # The French monarchy is restored

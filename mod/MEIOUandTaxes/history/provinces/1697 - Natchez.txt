@@ -1,0 +1,65 @@
+# 1697 - Natchez
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = creek
+religion = midewiwin
+capital = "Natchez"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1539.1.1   = {
+	discovered_by = SPA
+} # Hernando de Soto 
+1673.1.1  = {
+	discovered_by = FRA
+} # Louis Jolliet
+1699.1.1   = {
+	owner = FRA
+	controller = FRA		
+	citysize = 20
+	religion = catholic
+	culture = francien
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} #The colony of Louisiana is founded
+1716.1.1   = {
+	citysize = 200
+	capital = "Fort Toulouse"
+	fort1 = yes
+}
+1725.1.1   = {
+	add_core = FRA
+}
+1750.1.1   = {
+	add_core = LOU
+	culture = creole
+}
+1763.2.10  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	add_core = USA
+	remove_core = FRA
+	remove_core = LOU
+	religion = anglican
+	culture = american
+}
+1783.9.3  = {
+	owner = SPA
+	controller = SPA
+} # Treaty of Paris, returned to Spain
+1803.11.29 = {
+	add_core = USA
+}
+1819.2.22  = {
+	owner = USA
+	controller = USA
+	remove_core = SPA
+} # Adams-Onís Treaty

@@ -1,0 +1,87 @@
+# 390 - Yazd
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MUZ
+controller = MUZ
+culture = persian
+religion = sunni
+capital = "Yazd"
+trade_goods = wool
+hre = no
+marketplace = yes
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 13250
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = MUZ
+	add_core = KTD
+}
+1382.5.22  = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+}
+1409.1.1  = {
+	owner = KTD
+	controller = KTD
+}
+1447.3.12  = {
+	controller = REB
+	revolt = { type = nationalist_rebels size = 1 }
+} #Civil War
+1458.1.1  = {
+	controller = QAR
+	revolt = { }
+	remove_core = TIM
+} # Fars and surroundings to Qara Quyunlu
+1459.1.1  = {
+	controller = KTD
+}
+1500.1.1  = { citysize = 14120 }
+1508.1.1  = {
+	controller = SHY
+}
+1509.1.1  = {
+	owner = SHY
+}
+1510.1.1  = {
+	controller = SAM
+}
+1511.1.1  = {
+	owner = SAM
+	religion = shiite
+} #Safawids
+1512.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+} # Safawids "form persia"
+1524.1.1  = {
+	controller = REB
+	revolt = { type = anti_tax_rebels size = 2 }
+} #Quizilbash Civil War
+1530.1.1  = {
+	controller = PER
+	revolt = { }
+}
+1550.1.1  = { citysize = 15664 }
+1587.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels }
+}
+1587.12.11  = {
+	controller = PER
+	revolt = {  }
+}
+1600.1.1  = { citysize = 16159 }
+1650.1.1  = { citysize = 16800 }
+1677.1.1  = { discovered_by = FRA }
+1700.1.1  = { citysize = 17543 }
+1750.1.1  = { citysize = 18200 }
+1800.1.1  = { citysize = 19400 }

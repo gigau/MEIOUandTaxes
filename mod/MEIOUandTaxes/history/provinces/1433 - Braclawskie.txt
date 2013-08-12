@@ -1,0 +1,66 @@
+# 276 - Podillia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GVO
+controller = GVO  
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 6
+trade_goods = lumber 
+#manpower = 3
+manpower = 6
+capital = "Kamenec"
+citysize = 3017	 
+fort1 = yes 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = GVO
+	add_core = LIT
+}
+
+1362.12.25 = {
+	owner = LIT
+	controller = LIT
+} # Aftermath of the Battle of Blue Waters
+1500.1.1   = { citysize = 3550 }
+1550.1.1   = { citysize = 4176 marketplace = yes }
+1555.1.1  = {
+	fort2 = yes
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+	religion = orthodox
+} # Fortified military camp, independent state
+1600.1.1   = { citysize = 4913 }
+1650.1.1   = { citysize = 5780 }
+1654.1.1  = {
+	add_core = RUS
+} # Treaty of Pereyaslav
+1667.1.30  = {
+	owner = PLC
+	controller = PLC
+	remove_core = RUS
+} # Truce of Andrusovo
+1700.1.1   = { citysize = 6800 }
+1732.1.1   = { temple = yes } # The Marinsky Cathedral
+1740.1.1   = { mint = yes }
+1750.1.1   = { citysize = 8000 }
+1793.1.23 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+} # Second partition of Poland
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising, minimize the Russian influence
+1794.11.16 = { revolt_risk = 0 }
+1795.1.1   = {
+	remove_core = PLC
+}
+1800.1.1   = { citysize = 11000 }
+1812.7.8   = { controller = RFR } # Occupied by French troops
+1812.11.18 = { controller = RUS }

@@ -1,0 +1,28 @@
+# RAU - Riau
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = sunni
+technology_group = austranesian
+capital = 659	# Riau
+
+1818.1.1 = {
+	monarch = {
+		name = "Abdul Rahman Muadzam Syah"
+		dynasty = Syah
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

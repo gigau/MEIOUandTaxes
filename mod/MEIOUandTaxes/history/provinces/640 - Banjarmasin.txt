@@ -1,0 +1,39 @@
+#Province: Banjarmasin
+#file name: 640 - Banjarmasin
+#MEIOU-FB Indonesia mod v3
+#MEIOU-FB IN updates
+#
+#from wiki: In the fourteenth century, Banjarmasin was part of the hinduism kingdom of Negara, a vassel of Majapahit.
+#Pangeran Samudera converted to become a Muslim in the fifteenth century, and Banjarese people became muslims ever since
+#FB-TODO add vassalage to MPH
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BKS
+controller = BKS
+culture = dayak
+religion = theravada
+capital = "Banjarmasin"
+trade_goods = gems			#FB this area was/is famous for precious stones
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 5800
+add_core = BKS
+discovered_by = MKS
+discovered_by = MPH
+discovered_by = MTR
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 6270 }
+1500.1.1 = { citysize = 6750 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 8100 religion = sunni }
+1600.1.1 = { citysize = 8970 }
+1606.1.1 = { discovered_by = NED } #Dutch trading post
+1650.1.1 = { citysize = 9560 }
+1700.1.1 = { citysize = 10200 }
+1750.1.1 = { citysize = 11348 }
+1800.1.1 = { citysize = 12800 }

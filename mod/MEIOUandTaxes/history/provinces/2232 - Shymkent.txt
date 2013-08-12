@@ -1,0 +1,51 @@
+# 2232 - Shymkent
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = uzbehk
+religion = sunni
+capital = "Shymkent"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 4
+manpower = 8
+citysize = 5002
+add_core = KZH
+
+discovered_by = KSH
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = CHG
+	add_core = TIM
+	revolt_risk = 3
+}
+1361.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1500.1.1 = { citysize = 5670 }
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = { citysize = 6320 }
+1600.1.1 = { citysize = 7240 }
+1650.1.1 = { citysize = 7840 }
+1700.1.1 = { citysize = 8475 }
+1750.1.1 = { citysize = 9020 }
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1 = { citysize = 9780 }

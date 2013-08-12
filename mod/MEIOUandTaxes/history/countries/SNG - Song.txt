@@ -1,0 +1,56 @@
+# SNG - Song
+# LS - Chinese Civil War
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = chinese_monarchy_2c
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 4
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = minyu
+add_accepted_culture = wuhan
+add_accepted_culture = yueyu
+capital = 690
+
+# historical_friend = MNG
+
+1309.1.1 = {
+	monarch = {
+		name = "Han Shantong"
+		dynasty = "Song"
+		ADM = 7
+		DIP = 8
+		MIL = 5
+	}
+}
+1347.1.1 = {
+	heir = {
+		name = "Han Liner"
+		monarch_name = "Han Liner"
+		dynasty = "Song"
+		birth_date = 1347.1.1
+		death_date = 1363.1.1
+		claim = 95
+		ADM = 7
+		DIP = 6
+		MIL = 3
+	}
+	set_country_flag = rising_nation
+}
+1351.1.1 = {
+	monarch = {
+		name = "Han Liner"
+		dynasty = "Song"
+		ADM = 7
+		DIP = 6
+		MIL = 3
+	}
+}

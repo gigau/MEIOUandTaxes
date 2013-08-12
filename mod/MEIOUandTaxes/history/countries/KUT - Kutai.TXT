@@ -1,0 +1,194 @@
+# KUT - Kutai
+# MEIOU-FB Indonesia mod v2
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = austranesian
+primary_culture = dayak
+religion = theravada
+capital = 638	# Kutai
+
+1337.1.1 = {
+	monarch = {
+		name = "Sri Paduka Sultan Haji Aji Muhammad Saleh"
+		dynasty = "Gunungjati"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Aji Batara Agung Paduka Nira"
+		dynasty = "Gunungjati"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Aji Maharaja Sultan"
+		dynasty = "Gunungjati"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	religion = sunni 
+	# secularism_theocracy = 1
+	government = despotic_monarchy_3
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Aji Raja Mandar Shah"
+		dynasty = "Gunungjati"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Aji Pangeran Temenggong Baya-Baya"
+		dynasty = "Gunungjati"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Raja Mahkota Muliya Islam"
+		dynasty = "Gunungjati"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Aji di-Langgar"
+		dynasty = "Gunungjati"
+		adm = 5
+		dip = 7
+		mil = 9
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Pangeran Sinum Panji Mendapa ing Martapura"
+		dynasty = "Pangeran"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1635.1.1 = {
+	monarch = {
+		name = "Aji Pangeran Adipati Agung ing Martapura"
+		dynasty = "Pangeran"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1686.1.1 = {
+	monarch = {
+		name = "Aji Pangeran Adipati Atmaya Kusuma ing Martapura"
+		dynasty = "Pangeran"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1705.1.1 = {
+	monarch = {
+		name = "Pangeran Adipati Tua ing Martapura"
+		dynasty = "Pangeran"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1711.1.1 = {
+	monarch = {
+		name = "Anom Pa'ji Mendapa ing Martapura"
+		dynasty = "Pangeran"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Muhammad Idris"
+		dynasty = "Pangeran"
+		adm = 9
+		dip = 5
+		mil = 6
+	}
+}
+
+1739.1.1 = {
+	monarch = {
+		name = "Muhammad Muslehuddin"
+		dynasty = "Pangeran"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Muhammad Salehuddin"
+		dynasty = "Pangeran"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1816.1.1 = {
+	monarch = {
+		name = "Aliuddin"
+		dynasty = "Pangeran"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1816.5.1 = {
+	monarch = {
+		name = "Muhammad Salehuddin II"
+		dynasty = "Pangeran"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}

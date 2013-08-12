@@ -1,0 +1,27 @@
+# 1132 - Katsina
+#Province: Katsina
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KTS
+controller = KTS
+add_core = KTS
+culture = haussa		
+religion = sunni		 
+capital = "Katsina"
+
+base_tax = 9
+#manpower = 4
+manpower = 8
+citysize = 30000
+trade_goods = cotton
+
+fort1 = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1807.1.1 = { owner = SOK controller = SOK add_core = SOK  }

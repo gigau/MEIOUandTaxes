@@ -1,0 +1,31 @@
+#Province: Padang
+#file name: 2096 - Padang
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MKP
+controller = MKP
+culture = minang
+religion = theravada
+capital = "Padang"
+trade_goods = lumber
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 4500
+add_core = MKP
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 5000 }
+1500.1.1 = { citysize = 5899 }
+1600.1.1 = { citysize = 7580 }
+1650.1.1 = { citysize = 8560 religion = sunni }
+1683.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 9200 }
+1750.1.1 = { citysize = 9780 }
+1800.1.1 = { citysize = 10570 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

@@ -1,0 +1,45 @@
+# 2548 - Hillin
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = uralic
+religion = shamanism
+capital = "Hillin"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 2
+native_hostileness = 5
+
+discovered_by = SIB
+
+1438.1.1 = {
+	owner = KAZ
+	controller = KAZ
+	add_core = KAZ
+	discovered_by = KAZ
+	culture = kazani
+	religion = sunni
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} # Khanate of Kazan
+1450.1.1 = { citysize = 2900 }
+1500.1.1 = { citysize = 3564 }
+1550.1.1 = { citysize = 4080 }
+1552.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = KAZ
+	fort2 = yes
+} # Conquered by Russia
+1553.1.1 = { culture = russian religion = orthodox } # Most Tatars were christianized or killed
+1600.1.1 = { citysize = 4866 }
+1650.1.1 = { citysize = 5618 }
+1700.1.1 = { citysize = 6597 }
+1750.1.1 = { citysize = 7257 }
+1773.1.1 = { revolt_risk = 5 } # Peasant uprising, Pugachev
+1774.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 8322 }

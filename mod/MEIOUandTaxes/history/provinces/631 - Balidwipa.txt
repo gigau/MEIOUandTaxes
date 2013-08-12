@@ -1,0 +1,43 @@
+#Province: Balidwipa
+#file name: 631 - Balidwipa
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLI
+controller = BLI
+culture = balinese
+religion = hinduism
+capital = "Gelgel"		#FB Gelgel the dominant city-state until c1650
+#FB other significant cities: Klungkung, Singaraja, Buleleng
+trade_goods = rice		#FB - was coffee (change to coffee at later date?)
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 12000
+temple = yes 		#this island is covered with hinduism and Buddhist temples
+add_core = BLI
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1343.1.1 = {
+	owner = MPH
+	controller = MPH
+	add_core = MPH
+}
+1400.1.1 = { citysize = 14000 }
+1453.1.1 = {
+	owner = BLI
+	controller = BLI
+}	#FB the gradual decline of MPH allowed provinces to be increasingly independant
+	#1453 is an arbitary date for deeming BLI to be an independant state again
+1500.1.1 = { citysize = 17970 }
+1550.1.1 = { citysize = 21500 }
+1597.1.1 = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1 = { citysize = 23870 }
+1650.1.1 = { citysize = 26357 }
+1650.1.1 = { capital = "Buleleng" }
+1700.1.1 = { citysize = 31999 }
+1750.1.1 = { citysize = 33533 }
+1800.1.1 = { citysize = 35200 }

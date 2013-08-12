@@ -1,0 +1,70 @@
+#SRK - Surakarta
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = eastern_monarchy_3 # oligarchical_monarchy
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = sulawesi
+technology_group = austranesian
+religion = sunni
+capital = 1386	# Surakarta
+
+1749.12.11 = {
+	monarch = {
+		name = "Paku III"
+		dynasty = "Buwono"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Paku"
+		monarch_name = "Paku IV"
+		dynasty = "Buwono"
+		birth_date = 1740.1.1
+		death_date = 1820.8.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1788.8.26 = {
+	monarch = {
+		name = "Paku IV"
+		dynasty = "Buwono"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Paku"
+		monarch_name = "Paku V"
+		dynasty = "Buwono"
+		birth_date = 1770.1.1
+		death_date = 1840.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1820.8.1 = {
+	monarch = {
+		name = "Paku V"
+		dynasty = "Buwono"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,18 @@
+# 2482 - Groenland
+
+discovered_by = NOR
+
+1523.6.21  = {
+	discovered_by = DAN
+}
+1721.1.1   = {
+	owner = DAN
+	controller = DAN
+	culture = danish
+	religion = protestant
+}
+
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+}

@@ -1,0 +1,30 @@
+# KHO - Turcoman Federation
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_1
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = turkmeni
+religion = sunni
+technology_group = turkishtech
+capital = 438
+
+1356.1.1 = {
+	monarch = {
+		name = "Baba"
+		dynasty = "Ersari"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+} # Legendary ruler, founder of the Sain-Khan Turkmen Confederation in Mangyshlak (Mangystau Province) and Balkan mountains (Balkan Province)

@@ -1,0 +1,58 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 175  82  16 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Ahmad Shah #0" = 20
+	"Burhan Shah #0" = 30
+	"Hassan Shah #0" = 20
+	"Husain Shah #0" = 20
+	"Murtaza Shah #0" = 20
+	"Ibrahim Shah #0" = 10
+	"Bahadur Shah #0" = 10
+}
+
+leader_names = {
+	Baloch
+	Basham
+	Chakar
+	Dashti
+	Daqid
+	Iqobal
+	Nasir
+	Rais
+	Sarbaz
+	Ghazai
+}
+
+ship_names = {
+	Alia Arusa Dasht Fatimah
+	Hormuz Indus Kech Khan
+	Mashkaal Nihing Niknaz Niloufa
+	Noor Rakhshan Salima Shameena
+	Suhalia Yasmine Zahira Zhab
+}
+

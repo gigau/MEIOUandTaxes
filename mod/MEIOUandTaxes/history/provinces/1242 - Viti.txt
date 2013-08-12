@@ -1,0 +1,16 @@
+# 1242 - Fiji
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = polynesian
+religion = austranasian
+capital = "Fiji"
+trade_goods = crops # fish
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 0.5
+native_hostileness = 2
+
+1643.1.1 = { discovered_by = NED } # Abel Tasman

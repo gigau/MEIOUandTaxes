@@ -1,0 +1,74 @@
+# 156 - Nisava
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SER
+controller = SER  
+culture = serbian
+religion = orthodox
+capital = "Nis"
+trade_goods = copper
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 10794
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = SER
+}
+1385.1.1   = {
+	owner = OTT
+	controller = OTT
+	add_core = OTT
+}
+1390.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = OTT
+}
+1443.1.1   = {
+	owner = SER
+	controller = SER
+} # Niš falls to the Christian during the Long Campaign, and is given back to the Serbs
+1448.1.1   = {
+	owner = TUR
+	controller = TUR
+} # Niš succombs to the Turks again, and for 245 years
+1453.5.29 = {
+}
+1500.1.1   = { citysize = 12324 }
+1550.1.1   = { citysize = 20611 }
+1600.1.1   = { citysize = 30774 }
+1650.1.1   = { citysize = 40778 }
+1700.1.1   = { citysize = 50450 }
+1750.1.1   = { citysize = 55060 }
+1800.1.1   = { citysize = 60750 }
+1806.1.8  = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The first Serbian uprising
+1813.1.1  = {
+	revolt = { }
+	controller = TUR
+}
+1815.4.23 = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The second Serbian uprising
+1817.1.1  = {
+	revolt = { }
+	controller = TUR
+}

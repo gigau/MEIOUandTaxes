@@ -1,0 +1,50 @@
+# 61 - Hannover
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LUN
+controller = LUN
+culture = old_saxon
+religion = catholic
+capital = "Hannover"
+trade_goods = livestock
+hre = yes
+base_tax = 6
+#manpower = 2
+manpower = 4
+citysize = 3000
+fort1 = yes
+add_core = LUN
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 4000 }
+1399.1.1 = { citysize = 5000 }
+1453.1.1 = { citysize = 6000 }
+1500.1.1 = { citysize = 7000 }
+1531.1.1 = { religion = protestant }
+1546.1.1 = { fort2 = yes }
+1550.1.1 = { citysize = 8000 marketplace = yes }
+1600.1.1 = { citysize = 12000 courthouse = yes }
+1650.1.1 = { citysize = 15000 }
+1660.1.1 = { fort3 = yes }
+1692.1.1 = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+	remove_core = LUN
+}
+1700.1.1 = { citysize = 40000 }
+1750.1.1 = { citysize = 52000 }
+1800.1.1 = { citysize = 55000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {
+	owner = WES
+	controller = WES
+	add_core = WES
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.10.14 = {
+	owner = HAN
+	controller = HAN
+	remove_core = WES
+} # Westfalia is dissolved after the Battle of Leipsig

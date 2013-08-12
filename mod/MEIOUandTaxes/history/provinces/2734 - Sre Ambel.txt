@@ -1,0 +1,33 @@
+# 2734 - Sre Ambel
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = theravada
+capital = "Sre Ambel"
+
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 6400
+trade_goods = fish
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1500.1.1 = { citysize = 11450 }
+1550.1.1 = { citysize = 14890 }
+1600.1.1 = { citysize = 16205 }
+1650.1.1 = { citysize = 18700 }
+1700.1.1 = { citysize = 21100 }
+1750.1.1 = { citysize = 23500 }
+1800.1.1 = { citysize = 26320 }
+1867.1.1 = { 			
+	owner = FRA
+	controller = FRA
+}

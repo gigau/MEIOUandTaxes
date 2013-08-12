@@ -1,0 +1,50 @@
+#  - Jolor (Yala)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAT
+controller = PAT
+add_core = PAT
+culture = malayan
+religion = theravada
+capital = "Jala"
+
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 7700
+trade_goods = lumber
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = austranesian
+
+hre = no
+
+1400.1.1  = { citysize = 7890 }
+1450.1.1  = { citysize = 8800 }
+1500.1.1  = { citysize = 9890 religion = sunni }
+1516.1.1  = { discovered_by = POR } # Godinho de Eredia
+1550.1.1  = { citysize = 10500 }
+1600.1.1  = { citysize = 11022 }
+1650.1.1  = { citysize = 12100 }
+1700.1.1  = { citysize = 13574 }
+1750.1.1  = { citysize = 14678 }
+1760.1.1  = { revolt_risk = 4 } # The Pattani kingdom began to decline
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1782.1.1  = { revolt_risk = 2 } # The Chakri Dynasty is established by Rama I
+1789.1.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Pattanese rebellion
+1790.1.1  = { revolt = {} controller = SIA }
+1791.1.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Pattanese rebellion against Chakri rule
+1792.1.1  = { revolt = {} controller = SIA }
+1800.1.1  = { citysize = 13213 }
+1808.1.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Pattani Rebellion
+1809.1.1  = { revolt = {} controller = SIA }

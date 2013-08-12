@@ -1,0 +1,18 @@
+# NSE - North Sea Empire
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 1
+# serfdom_freesubjects = 1
+# isolationist_expansionist = 2
+# secularism_theocracy = 0
+primary_culture = danish
+religion = catholic
+technology_group = western
+capital = 12	#Sjaelland

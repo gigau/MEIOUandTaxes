@@ -1,0 +1,37 @@
+# 2244 - Berar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHD
+controller = CHD
+culture = gondi
+religion = hinduism
+capital = "Ballarsah"
+trade_goods = ebony
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 25000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1  = {
+	add_core = BRR
+	add_core = CHD
+}
+1453.1.1  = { citysize = 28000 }
+1500.1.1  = { citysize = 30000 }
+1550.1.1  = { citysize = 35000 }
+1600.1.1  = { citysize = 32000 }
+1650.1.1  = { citysize = 36000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 50000 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 42000 }
+1757.1.1  = {
+	owner = BHO
+	controller = BHO
+	add_core = BHO
+}
+1800.1.1 = { citysize = 35000 }

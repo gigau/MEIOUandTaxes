@@ -1,0 +1,74 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = carib
+religion = pantheism
+capital = "Wai'tu Kubuli"
+trade_goods = crops 
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 25
+native_ferocity = 2 
+native_hostileness = 9
+
+1493.11.3 = {
+	discovered_by = CAS
+	owner = CAS 
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 400
+	capital = "Dominica"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # Christopher Columbus
+1500.1.1  = {
+	citysize = 700
+}
+1516.1.23 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 1200
+}
+1518.1.1  = {
+	add_core = SPA
+}
+1550.1.1  = {
+	citysize = 1890
+}
+1600.1.1  = {
+	citysize = 3250
+}
+1650.1.1  = {
+	citysize = 3836
+}
+1700.1.1  = {
+	citysize = 4207
+}
+1750.1.1  = {
+	citysize = 4805
+}
+1761.11.1 = {
+	owner = GBR
+	controller = GBR
+	culture = english
+	religion = reformed
+	remove_core = SPA
+} # The English took control at the end of the year
+1778.1.1  = {
+	owner = FRA
+	controller = FRA
+	religion = catholic
+	culture = creole
+} # French attack, inspired by the American revolution
+1782.1.1  = {
+	owner = GBR
+	controller = GBR
+} # The Battle of the Saints, the French administration was over
+1785.1.1  = {
+	revolt_risk = 5
+} # Escaped slaves were beginning to start revolts
+1800.1.1  = {
+	citysize = 4700
+} # Hurrican in 1779

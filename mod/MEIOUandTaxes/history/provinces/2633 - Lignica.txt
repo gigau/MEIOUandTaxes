@@ -1,0 +1,74 @@
+#1359 - Liegnetz
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WRO
+controller = WRO
+capital = "Swidnica"
+culture = silesian
+religion = catholic
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 6000
+trade_goods = glassware
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1 = {
+	add_core = BOH
+	add_core = WRO
+}
+1399.1.1 = { citysize = 75000 }
+1419.8.16 = {
+#	owner = HUN
+#	controller = HUN
+	add_core = HUN
+}
+1437.12.9 = {
+#	owner = BOH
+#	controller = BOH
+	remove_core = HUN
+}
+1453.1.1 = { citysize = 9500 }
+1500.1.1 = { citysize = 12000 }
+1523.1.1 = { religion = reformed marketplace = yes }
+1526.8.30 = {
+	add_core = HAB
+} #Battle of Mohac where Lajos II dies -> Habsburg succession
+1550.1.1 = { citysize = 15000 regimental_camp = yes }
+1574.1.1 = { temple = yes }
+1600.1.1 = { citysize = 18000 }
+1618.1.1 = { revolt_risk = 5 }
+1619.3.1  = {
+	revolt = { }
+#	owner = PAL
+#	controller = PAL
+	controller = WRO
+	add_core = PAL
+}
+1620.11.8 = {
+#	owner = HAB
+#	controller = HAB
+	remove_core = PAL
+}# Tilly beats the Winterking at White Mountain. Deus Vult!
+1648.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 3500 }
+1653.1.1 = {
+	owner = HAB
+	controller = HAB
+}
+1694.1.1 = { revolt_risk = 4 }
+1700.1.1 = { citysize = 5000 }
+1702.1.1 = { university = yes revolt_risk = 0 }
+1742.1.1 = { owner = PRU controller = PRU add_core = PRU } # Peace of Breslau after the first Silesian War
+1750.1.1 = { citysize = 7500 mint = yes }
+1763.1.1 = { remove_core = HAB } # End of the third Silesian War
+1800.1.1 = { citysize = 10000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

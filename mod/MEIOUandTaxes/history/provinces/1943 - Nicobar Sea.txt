@@ -1,0 +1,9 @@
+#Province: Nicobar Isles
+#file name: 1943 - Nicobar Isles
+# MEIOU-FB Indonesia mod
+discovered_by = indian
+discovered_by = chinese
+discovered_by = austranesian
+
+1509.1.1 = { discovered_by = POR }
+1596.5.1 = { discovered_by = NED } # Cornelis de Houtman

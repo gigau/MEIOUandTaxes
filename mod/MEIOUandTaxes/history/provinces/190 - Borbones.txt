@@ -1,0 +1,80 @@
+# 190 Bourbon - Principal cities: Moulin Vichy
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BOU
+controller = BOU 
+add_core = BOU
+add_core = FRA
+culture = auvergnat
+religion = catholic
+capital = "Moulins"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 6500
+trade_goods = iron
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1500.1.1   = { citysize = 10000 }
+1527.1.1   = {
+	owner = DAL
+	controller = DAL
+	add_core = DAL
+	remove_core = BOU
+}
+1530.1.1   = { fort2 = yes } # Important metal & arms industry
+1550.1.1   = { citysize = 13000 }
+1573.9.1   = { revolt_risk = 5 } # Saint Barthelew's Day Massacre: the consequences in the land
+1574.5.1   = { revolt_risk = 0 } # Charles IX dies, situation cools a bit	
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1589.8.2   = { owner = FRA controller = FRA } # Charles IV of Bourbon dies, Bourbon added to France
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 17000 }
+1610.1.1   = { marketplace = yes }
+1630.1.1   = { fort3 = yes }
+1639.1.1   = { revolt_risk = 3 }
+1641.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 18000 constable = yes }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.3.1   = { controller = REB revolt_risk = 3 } # Fronde rebels take control
+1651.4.1   = { controller = FRA revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1680.1.1   = { courthouse = yes }
+1700.1.1   = { citysize = 20000 fort4 = yes }
+1710.1.1   = { mint = yes }
+1730.1.1   = { customs_house = yes }
+1750.1.1   = { citysize = 30000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 23000 }
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

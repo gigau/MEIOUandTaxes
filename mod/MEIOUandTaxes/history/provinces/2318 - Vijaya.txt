@@ -1,0 +1,60 @@
+# 2318 - Vijaya
+# LS - Indochina set up
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHA
+controller = CHA
+add_core = CHA
+culture = cham
+religion = hinduism
+capital = "Vijaya"
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 20000
+trade_goods = pepper
+
+fort1 = yes
+terrain1 = yes
+marketplace = yes
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1471.4.1 = { owner = DAI controller = DAI add_core = DAI base_tax = 3 citysize = 5000 }  # Severe defeat against the Vietnamese
+1500.1.1 = { citysize = 10000 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 10000 }
+1558.1.1 = {				# UNCERTAIN DATE
+	owner = ANN
+	controller = ANN
+	add_core = ANN
+}
+1600.1.1 = { citysize = 10000 }
+1650.1.1 = { citysize = 20000}
+1692.1.1 = { revolt_risk = 6 } # Rebellion against the Vietnamese
+1693.1.1 = { revolt_risk = 0 citysize = 20000} # Plague
+1700.1.1 = { citysize = 20000 }
+1750.1.1 = { citysize = 20000}
+1786.1.1 = { revolt_risk = 5 } # Unsuccessful revolt
+1787.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 20000 }
+1802.7.21 = {
+	owner = DAI
+	controller = DAI
+	add_core = DAI
+	remove_core = ANN
+} # The Nguyen dynasty defeats the Tay Sons
+1883.8.25 = { 
+	owner = FRA
+	controller = FRA
+}

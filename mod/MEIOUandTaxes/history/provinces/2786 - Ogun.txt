@@ -1,0 +1,28 @@
+# 2786 - Ogun
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BEN
+controller = BEN
+culture = yorumba
+religion = animism
+capital = "Eko"
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = slaves
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = BEN
+}
+1472.1.1 = {
+	discovered_by = POR
+	capital = "Lagos"
+}

@@ -1,0 +1,111 @@
+# ARS - Comté d'Artois
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 3
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = -1
+# serfdom_freesubjects = 3
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = picard
+religion = catholic
+technology_group = western
+capital = 88	# Artois
+
+1237.1.1 = {
+	monarch = {
+		name = "Robert I"
+		dynasty = "Capet"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1250.1.1 = {
+	monarch = {
+		name = "Robert II"
+		dynasty = "Capet"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1302.1.1 = {
+	monarch = {
+		name = "Robert III"
+		dynasty = "Capet"
+		adm = 5
+		dip = 8
+		mil = 7
+	}
+}
+
+1309.1.1 = {
+	monarch = {
+		name = "Mathilde"
+		dynasty = "Capet"
+		adm = 6
+		dip = 8
+		mil = 5
+		female = yes
+	}
+}
+
+1329.1.1 = {
+	monarch = {
+		name = "Jeanne"
+		dynasty = "de Bourgogne"
+		adm = 6
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Odo IV"
+		dynasty = "de Bourgogne"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1347.1.1 = {
+	monarch = {
+		name = "Philippe de Rouvres"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1361.1.1 = {
+	monarch = {
+		name = "Marguerite de France"
+		dynasty = "Capet"
+		adm = 4
+		dip = 6
+		mil = 4
+		female = yes
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Louis de Mâle"
+		dynasty = "de Dampierre"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}

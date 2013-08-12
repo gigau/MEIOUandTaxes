@@ -1,0 +1,104 @@
+#103 - Piemont
+#turin , ivreja
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = piedmontese
+religion = catholic
+capital = "Turin"
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 25000 # Estimated
+trade_goods = cheese
+
+marketplace = yes
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1  = {
+	citysize = 30000
+}
+1399.1.1  = {
+	citysize = 35000
+}
+1453.1.1  = {
+	citysize = 40000
+}
+1520.1.1  = {
+	citysize = 45000
+} # Gained Asti from the marriage with Beatriz of Portugal
+1536.4.1   = {
+	 controller = FRA
+} 
+1550.1.1   = {
+	citysize = 52000
+}
+1559.1.1   = {
+	controller = SAV
+} 
+1563.1.1  = {
+	citysize = 60000
+} # Savoyard capital moved from Chambery to Torino, Holy Shroud moved
+1570.1.1  = {
+	marketplace = yes
+}
+1600.1.1  = {
+	citysize = 76000
+}
+1618.1.1  =  { hre = no }
+1650.1.1  = {
+	citysize = 89000
+}
+1700.1.1  = {
+	citysize = 94000
+}
+1713.4.12 = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+} # Treaty of Utrecht
+1718.8.2  = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1750.1.1  = {
+	citysize = 112000
+}
+1760.1.1  = {
+	mint = yes
+}
+1792.4.20 = {
+	controller = FRA
+} # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25 = {
+	owner = RFR
+	add_core = RFR
+} # The Republic of Alba
+1800.1.1  = {
+	citysize = 145000
+}
+1814.4.11 = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Napoleon abdicates and Victor Emmanuel is able to return to Turin
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

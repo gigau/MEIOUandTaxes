@@ -1,0 +1,59 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 227  62  194 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Unni Rama Koil #1" = 10
+	"Vira Kerala Varma #0" = 30
+	"Ravi Varma #0" = 10
+	"Goda Varma #0" = 10
+	"Rama Varma #0" = 50
+	"Kerala Varma #0" = 30
+	"Vira Rayira Varma #0" = 10
+	"Kesara Rama Varma #1" = 10
+	"Gangadhara Lakshmi #0" = -10
+}
+
+leader_names = {
+	Saraf
+	Sajid
+	Phadkar
+	Pavi
+	Kosuri
+	Kedar
+	Naini
+	Phalgun
+	Sumanna
+	Dawar
+}
+
+ship_names = {
+	Amirtha Amman Arul Chellam Devi
+	Durga Gayatri Iniya Kaveri Lakshmi
+	Madhu Meenakshi Nalini Palar Parvati
+	Pennar Ponnaiyar Ponni Radha Ratri
+	Sarasvati Sita Tamarai Vaigai
+}

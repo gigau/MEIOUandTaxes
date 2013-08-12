@@ -1,0 +1,33 @@
+# 1553 - Zazzau zaria
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZZZ
+controller = ZZZ
+culture = haussa		
+religion = sunni		 
+capital = "Zazzau"
+
+base_tax = 11
+#manpower = 5
+manpower = 10
+citysize = 30000
+trade_goods = ivory
+
+fort1 = yes
+marketplace = yes
+workshop = yes
+
+#cot = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = ZZZ
+}
+1807.1.1 = {
+	owner = SOK
+	controller = SOK
+	add_core = SOK
+}

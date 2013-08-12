@@ -1,0 +1,52 @@
+# 2444 - Baybaktu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = tartar
+religion = sunni
+capital = "Sara1 Juk"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2000
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = NOG
+	add_core = BLU
+	revolt_risk = 4
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1441.1.1 = {
+	owner = NOG
+	controller = NOG
+	base_tax = 9
+	#manpower = 5
+	manpower = 10
+	set_province_flag = horde_capital
+}
+1500.1.1  = { citysize = 2647 }
+1550.1.1  = { citysize = 3415 }
+1557.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+    	remove_core = NOG
+} # The break up of the Nogai tribe
+1600.1.1  = { citysize = 4210 }
+1650.1.1  = { citysize = 5100 }
+1700.1.1  = { citysize = 5678 }
+1750.1.1  = { citysize = 6210 }
+1800.1.1  = { citysize = 6857 }

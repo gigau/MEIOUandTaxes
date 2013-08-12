@@ -1,0 +1,72 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 74  87  138 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+
+
+monarch_names = {
+	"Husayn #0" = 20
+	"Murtaza #0" = 20
+	"Maran Husayn #1" = 20
+	"Isma'il #0" = 20
+	"Burhan #1" = 20
+	"Ibrahim #0" = 20
+	"Ahmad #0" = 20
+	"Bahadur #0" = 20
+	"Husayn #0" = 20
+	"Annam #0" = 20
+	"Hamir #0" = 20
+	"Chand Bibi #0" = -5
+}
+
+leader_names = {
+	Ambar
+	Desai
+	Jain
+	Majmudar
+	Munshi
+	Muzzafar
+	Parikh
+	Pandya
+	Patel
+	Patidar
+	Vanik
+	Afzal
+	Rushi
+	Saraiya 
+	Shaw 
+	Shrivastav
+	Nizam
+}
+
+ship_names = {
+	Alia Arusa Bori Fatimah
+	Jalsena Girna "Kala Jahazi"
+	Khan "Lal Jahazi" Narmada Nausena
+	"Nav ka Yudh" Niknaz "Nila Jahazi"
+	Niloufa Noor Panjhra Sagar Salima
+	Shameena Suhalia Tapi Yasmine Zahira
+}

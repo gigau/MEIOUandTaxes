@@ -1,0 +1,44 @@
+#Province: Zahedan
+#file name: 468 - Zahedan
+#MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAL
+controller = BAL
+culture = baluchi
+religion = sunni
+capital = "Bampur"
+trade_goods = cotton
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 12870
+discovered_by = indian
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = BAL
+}
+1450.1.1 = { citysize = 14000 }
+1500.1.1 = { citysize = 16000 }
+1550.1.1 = { citysize = 18000 }
+1600.1.1 = { citysize = 19000 }
+1649.1.1 = {
+	controller = PER
+}
+1650.1.1 = {
+	citysize = 3000
+	owner = PER
+}
+1666.1.1 = {
+	owner = BAL
+	controller = BAL
+}
+1677.1.1 = { discovered_by = FRA }
+1700.1.1 = { citysize = 22000 }
+1750.1.1 = { citysize = 25000 }
+1800.1.1 = { citysize = 26000 }

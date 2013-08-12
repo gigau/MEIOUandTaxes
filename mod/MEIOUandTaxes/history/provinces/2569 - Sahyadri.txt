@@ -1,0 +1,63 @@
+# 2569 - Sahyadri
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Dabhol"
+trade_goods = rice
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 15150
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = BIJ
+	add_core = BAH
+}
+1380.1.1  = {
+	controller = VIJ
+	owner = VIJ
+} # Taken by Harihara II
+1400.1.1  = { citysize = 16900 }
+1469.1.1  = {
+	controller = BAH
+} # Taken by Bahmanis
+1470.1.1  = {
+	owner = BAH
+} # Taken by Bahmanis
+1490.1.1  = {
+	owner = BIJ
+	controller = BIJ
+	remove_core = BAH
+	fort3 = yes
+} # The Breakup of the Bahmani sultanate
+1500.1.1  = { citysize = 21100 }
+1502.1.1  = { discovered_by = POR }		#FB was: 1498.1.1
+1550.1.1  = { citysize = 23430 }
+1596.2.1  = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1  = { citysize = 26348 discovered_by = turkishtech discovered_by = ENG discovered_by = FRA }
+1636.1.1  = { capital = "Janjira" add_core = JAJ controller = JAJ owner = JAJ fort4 = yes } #Ceded in treaty to Mughals by Bijapur but never actually carried out. De facto under Sidhi, Maratha and Bijapur control without a clear stronger party or claim.
+1650.1.1  = { citysize = 29600 }
+1659.11.30 = {
+	owner = MAR
+	controller = MAR
+	capital = "Dabhol"
+	add_core = MAR
+} # battle of Pratapgarh
+1686.1.1  = { controller = MUG } # Aurangzeb
+1700.1.1  = { citysize = 32700 }
+1703.1.1  = { controller = MAR }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 37100 workshop = yes }
+1800.1.1  = { citysize = 44100 }
+1818.6.3  = {
+	owner = GBR
+	controller = GBR
+}

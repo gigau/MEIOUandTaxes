@@ -1,0 +1,36 @@
+# 84 - Vogtland : plauen
+# founded by Slavs in the 12th century and was passed to Bohemia in 1327
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner       = BOH  
+controller  = BOH
+add_core    = BOH
+culture     = high_saxon
+religion    = catholic
+capital     = "Plauen"
+
+base_tax    = 4
+#manpower    = 2
+manpower    = 4
+citysize    = 6000
+trade_goods = hemp
+
+fort1       = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes
+
+1356.1.1  = { citysize = 6500 }
+1399.1.1  = { citysize = 7000 }
+1453.1.1  = { citysize = 8000 }
+1466.1.1  = { owner = SAX controller = SAX add_core = SAX remove_core = BOH }
+1500.1.1  = { marketplace = yes citysize = 8500 }
+1550.1.1  = { constable = yes }
+1600.1.1  = { citysize = 9000 }
+1650.1.1  = { citysize = 9500 }
+1700.1.1  = { citysize = 10000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

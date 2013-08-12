@@ -1,0 +1,164 @@
+# MUL - Multan
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 4
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = multani
+religion = sunni
+technology_group = indian
+capital = 2112	# Multan
+ 
+#Sayids
+
+1399.1.1 = {
+	monarch = {
+		name = "Khidr Khan"
+		dynasty = "Sayyid"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1414.1.1 = {
+	heir = {
+		name = "Mubarrak"
+		monarch_name = "Mubarrak Shah II"
+		dynasty = "Sayyid"
+		birth_date = 1380.1.1
+		death_Date = 1435.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+#Langas
+
+1437.1.1 = {
+	monarch = {
+		name = "Qutbudin"
+		dynasty = "Langa"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1437.1.1 = {
+	heir = {
+		name = "Hussain"
+		monarch_name = "Hussain I"
+		dynasty = "Langa"
+		birth_date = 1400.1.1
+		death_date = 1480.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Hussain I"
+		dynasty = "Langa"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Firuz"
+		monarch_name = "Firuzshah"
+		dynasty = "Langa"
+		birth_date = 1450.1.1
+		death_date = 1500.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Firuzshah"
+		dynasty = "Langa"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud"
+		dynasty = "Langa"
+		birth_date = 1460.1.1
+		death_date = 1518.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Langa"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Hussain"
+		monarch_name = "Hussain II"
+		dynasty = "Langa"
+		birth_date = 1480.1.1
+		death_date = 1555.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Hussain II"
+		dynasty = "Langa"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+#Mirranis
+
+1555.1.1 = {
+	monarch = {
+		name = "Ghazi Khan Mirrani"
+		dynasty = "Mirrani"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

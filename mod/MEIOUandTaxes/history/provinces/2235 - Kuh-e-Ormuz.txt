@@ -1,0 +1,90 @@
+# 2235 - Ormozgán
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORM
+controller = ORM
+culture = omani
+religion = sunni
+capital = "Bandar Abbas"
+trade_goods = slaves
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 17670
+
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = indian
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = ORM
+	add_core = MUZ
+}
+1393.5.22  = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+	remove_core = ORM
+}
+1409.1.1  = {
+	owner = KTD
+	controller = KTD
+} #Dividing the Empire
+1447.1.1   = {
+	controller = QAR
+}
+1447.3.11  = {
+	owner = QAR
+	add_core = QAR
+	remove_core = TIM
+} # Fars and surroundings to Qara Quyunlu
+1469.11.1  = {
+	controller = AKK
+}
+1470.1.1   = {
+	owner = AKK
+	add_core = AKK
+	remove_core = QAR
+}
+1490.1.1   = {
+	controller = REB
+	revolt = { type = noble_rebels }
+} # Civil War
+1494.1.1   = {
+	controller = AKK
+	revolt = { }
+} # Civil War
+1500.1.1  = { citysize = 19338 }
+1501.1.1   = {
+	controller = SAM
+}
+1508.2.1   = {
+	owner = SAM
+}
+1512.1.1   = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+	remove_core = AKK
+} # Safawids "form persia"
+1515.1.1  = {
+	owner = POR
+	controller = POR
+	add_core = POR
+}	
+1550.1.1  = { citysize = 21443 }
+1600.1.1  = { citysize = 23708 constable = yes }
+1622.1.1  = {
+	owner = PER
+	controller = PER
+	remove_core = POR
+}
+1650.1.1  = { citysize = 25322 }
+1700.1.1  = { citysize = 27322 }
+1750.1.1  = { citysize = 28460 }
+1800.1.1  = { citysize = 32140 }

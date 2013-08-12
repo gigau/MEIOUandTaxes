@@ -1,0 +1,51 @@
+# 2300 - Ezo
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = aynu
+religion = shinto
+capital = "Ezo"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = JAP
+
+1457.1.1 = { 
+	owner = NNB 
+	controller = NNB 
+	add_core = NNB
+	citysize = 100 #bataille de Koshamain
+	trade_goods = lumber
+	set_province_flag = trade_good_set
+}
+1457.12.1 = { revolt_risk = 1 } # Ainu uprising
+1458.12.1 = { revolt_risk = 0 } # End of uprising
+1477.11.11 = { 
+	owner = XXX 
+	controller = XXX
+	citysize = 0 
+}
+1630.1.1   = {
+	remove_core = NNB
+	add_core = JAP
+}
+1646.1.1 = { 
+	controller = JAP 
+	owner = JAP
+	culture = tohoku
+	religion = shinbutsu
+	citysize = 200
+} # bataille de Shiyakushiyain
+1669.12.1 = { revolt_risk = 1 } # Ainu uprising
+1670.12.1 = { revolt_risk = 0 } # End of uprising
+1700.1.1 = { citysize = 400 }
+1750.1.1 = { citysize = 800 }
+1789.1.1 = { controller = REB } # Bataille contre les Aïnus
+1790.1.1 = { controller = JAP } # bataille de Shiyakushiyain
+1807.1.1 = { citysize = 1200 }

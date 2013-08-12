@@ -1,0 +1,97 @@
+# HMD - Hamidoglu
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 2
+# quality_quantity = 1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 1
+primary_culture = yorouk
+religion = sunni
+technology_group = turkishtech
+unit_type = muslim
+capital = 326 # Hamid
+
+
+1261.1.1 = {
+	monarch = {
+		name = "Feleküddin Dündar"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1280.1.1 = {
+	monarch = {
+		name = "Ilyas"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1300.1.1 = {
+	monarch = {
+		name = "Dündar"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1324.1.1 = {
+	monarch = {
+		name = "Hizir"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1328.1.1 = {
+	monarch = {
+		name = "Ishak"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1340.1.1 = {
+	monarch = {
+		name = "Mustafa"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1355.1.1 = {
+	monarch = {
+		name = "Ilyas II"
+		dynasty = "Hamid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1381.1.1 = { capital = 325 } #Teke (Hamid conquered by Ottomans)
+
+# 1403 - Fall to the Ottomans

@@ -1,0 +1,61 @@
+# TGW - Tokugawa clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kansai
+religion = shinbutsu
+technology_group = chinese
+capital = 2283	# Yamashiro
+daimyo = yes
+
+1549.1.1   = {
+	monarch = {
+		name = "Ieyasu"
+		dynasty = "Tokugawa"
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+1579.5.2 = {
+	heir = {
+		name = "Hidetada"
+		monarch_name = "Hidetada"
+		dynasty = "Tokugawa"
+		birth_date = 1579.5.2
+		death_date = 1632.3.14
+		claim = 80
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1598.1.1   = {
+	government = japan_monarchy_3
+	set_country_flag = shogun_contender
+}
+
+1600.9.15  = {
+	government = japan_monarchy_2a
+	shogun = 70
+	set_country_flag = new_shogun
+	set_country_flag = shogun
+	clr_country_flag = shogun_contender
+}
+
+1615.6.4   = {
+	government = japan_monarchy_5
+	clr_country_flag = shogun
+}

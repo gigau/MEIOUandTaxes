@@ -1,0 +1,39 @@
+# 676 - mGaris
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TIB
+controller = TIB
+culture = tibetan
+religion = mahayana
+capital = "Shigatse"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 10890
+add_core = TIB
+discovered_by = chinese
+discovered_by = indian
+temple = yes
+terrain3 = yes
+fort1 = yes
+
+1356.1.1 = {
+	set_province_flag = terrain3
+}
+1500.1.1  = { citysize = 12540 }
+1550.1.1  = { citysize = 13980 }
+1600.1.1  = { citysize = 15788 }
+1650.1.1  = { citysize = 18625 }
+1700.1.1  = { citysize = 19654 }
+1750.1.1  = { citysize = 20800 }
+1755.10.4 = { revolt_risk = 7 } # Rebellion aginst the Chinese
+1757.10.4 = { revolt_risk = 0 }
+1800.1.1  = { citysize = 22157 }
+1841.1.1  = {
+	controller = PUN
+} # Sino-Sikh War
+1842.8.1  = {
+	controller = TIB
+}

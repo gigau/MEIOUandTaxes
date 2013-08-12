@@ -1,0 +1,30 @@
+#Province: Kampung Melantai
+#file name: 639 - Kampung Melantai
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = KUT
+controller = KUT
+culture = dayak
+religion = theravada
+capital = "Samarinda"
+trade_goods = lumber
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 5000
+add_core = KUT
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 5270 }
+1500.1.1 = { citysize = 5899 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 6870 }
+1600.1.1 = { citysize = 7580 religion = sunni }
+1606.1.1 = { discovered_by = NED } 
+1650.1.1 = { citysize = 8560 }
+1700.1.1 = { citysize = 9200 }
+1750.1.1 = { citysize = 9780 }
+1800.1.1 = { citysize = 10570 }

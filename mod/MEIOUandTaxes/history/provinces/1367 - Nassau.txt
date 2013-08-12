@@ -1,0 +1,64 @@
+# 1367 - Nassau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NAS
+controller = NAS
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 5
+trade_goods = linen
+#manpower = 3
+manpower = 6
+fort1 = yes
+marketplace = yes
+capital = "Nassau"
+citysize = 10000 # Estimated. No firm population information for this province
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1  = {
+	citysize = 10500
+	add_core = NAS
+}
+1399.1.1  = {
+	citysize = 11000
+}
+1453.1.1  = {
+	citysize = 11500
+}
+1500.1.1  = {
+	citysize = 12000
+}
+1600.1.1  = {
+	citysize = 15000
+	fort2 = yes
+}
+1700.1.1  = {
+	citysize = 25000
+}
+1806.7.12 = {
+	hre = no
+} # The Holy Roman Empire is dissolved
+#1806.10.1 = {
+#	controller = RFR
+#} # Controlled by France
+#1807.7.9  = {
+#	owner = WES
+#	controller = WES
+#	add_core = WES
+#	remove_core = HES
+#} # The Second Treaty of Tilsit
+#1813.10.13 = {
+#	owner = HES
+#	controller = HES
+#	add_core = HES
+#	remove_core = WES
+#} # Treaty of Paris
+#1866.1.1   = {
+#	owner = PRU
+#	controller = PRU
+#	add_core = PRU
+#	remove_core = HES
+#}

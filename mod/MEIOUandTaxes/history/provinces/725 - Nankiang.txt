@@ -1,0 +1,53 @@
+# 725 - Nankang
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+add_core = MCH
+culture = jurchen
+religion = mahayana
+capital = "Nankang"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 2
+manpower = 4
+citysize = 4070
+
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 5785 }
+1550.1.1 = { citysize = 6799 }
+1600.1.1 = { citysize = 6800 }
+1643.1.1 = { discovered_by = RUS }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	culture = manchu
+	remove_core = MCH
+} # The Qing Dynasty
+1650.1.1 = { citysize = 7465 }
+1700.1.1 = { citysize = 8100 }
+1750.1.1 = { citysize = 8653 }
+1800.1.1 = { citysize = 9240 }
+
+#1643.1.1 = {
+#	discovered_by = RUS
+#   	owner = RUS
+#   	controller = RUS
+#   	religion = orthodox
+#   	culture = russian
+#   	citysize = 500
+#	trade_goods = fur
+#} # Founded by Pyotr Beketov
+#1655.1.1 = { revolt_risk = 7 } # Yakutsk rebellion
+#1660.1.1 = { revolt_risk = 0 }
+#1668.1.1 = {
+#	add_core = RUS
+#   	citysize = 1150
+#}
+#1684.1.1 = { revolt_risk = 4 } # Yakut rebellion
+#1686.1.1 = { revolt_risk = 0 }
+#1700.1.1 = { citysize = 1480 }
+#1750.1.1 = { citysize = 1600 }

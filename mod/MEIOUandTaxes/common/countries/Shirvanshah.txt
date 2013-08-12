@@ -1,0 +1,51 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 8  153  116 } 
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	muslim_cavalry_archers
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	persian_rifle
+}
+
+monarch_names = {
+	"Khalilullah #2" = 50
+	"Farrukh Yassar #1" = 40
+	"Bahram Bey #1" = 40
+	"Qazi Bey #1" = 40
+	"Qara Yûsuf #0" = 30
+	"Iskander #0" = 30
+	"Jahân Shâh #0" = 20
+	"Hasan 'Ali #0" = 20
+}
+
+leader_names = {
+	Jahan
+	Nyuan
+	Khwaja
+	Yûsuf
+	Turmush
+	Bairam
+	Muhammad
+	Muzaffar
+	Hasan
+	Nasr
+}
+
+ship_names = {
+	Herat "Qara Yusuf" "Qara Muhammad" "Iskander Yusuf"
+	Kura Sumgait Bazard'uz'u "Qareh Sü" Sevan "Bälän Safar"
+	Agdam K'urdamir Udzary
+}

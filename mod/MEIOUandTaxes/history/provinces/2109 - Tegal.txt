@@ -1,0 +1,53 @@
+#Province: Tegal	(was Mataron)
+#file name: 2109 - Tegal
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MPH
+controller = MPH
+culture = javan
+religion = hinduism
+capital = "Tegal"
+trade_goods = sugar
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 15000
+add_core = SUN
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1  = { citysize = 18890 }
+1450.1.1  = { citysize = 22700 }
+1478.1.1 = {
+	owner = CBT
+	controller = CBT
+	religion = sunni
+	add_core = CBT
+	discovered_by = DEM
+}  # Cirebon founded
+1512.1.1 = { discovered_by = POR citysize = 24100 }	#FB Antonio de Abreu
+1611.1.1 = { discovered_by = NED citysize = 28100} # The Dutch arrived
+1617.1.1 = {
+	owner = MTR
+	controller = MTR
+	add_core = MTR
+	remove_core = MPH
+} # The Sultanate of Mataram
+1650.1.1  = { citysize = 31105 }
+1700.1.1  = { citysize = 32700 }
+1741.7.1 = { revolt_risk = 1 } #FB Mataram joins forces with Chinese - revolt becomes war
+1743.11.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 1
+}
+1750.1.1  = { citysize = 33430 }
+1800.1.1  = { citysize = 35465 add_core = NED revolt_risk = 0 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

@@ -1,0 +1,103 @@
+#Country Name: Please see filename.
+
+graphical_culture = chinesegfx
+
+color = { 125  167  216 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	japanese_archer
+	eastern_bow
+	japanese_footsoldier
+	japanese_samurai
+	asian_arquebusier
+	asian_musketeer
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+}
+
+monarch_names = {
+	"Yoshitora #0" = 50
+	"Hisatoyo #0" = 50
+	"Tadakuni #0" = 50
+	"Morohisa #0" = 50
+	"Korehisa #0" = 50	
+	"Hisayo #0" = 50	
+	"Tachihisa #0" = 50	
+	"Tadamasa #0" = 50	
+	"Tadataka #0" = 50
+	"Motohisa #0" = 50
+	"Katsuhisa #0" = 50
+	"Takahisa #0" = 50
+	"Yoshihisa #0" = 50
+	"Yoshihiro #0" = 50
+	"Iehisa #0" = 50
+	"Mistuhisa #0" = 50
+    "Tomohisa #0" = 50
+	"Tadayoshi #0" = 50
+	"Mochihisa #0" = 50
+	"Tadaharu #0" = 50	
+	"Toshihisa #0" = 50	
+	"Tadahisa #0" = 50	
+	"Hisatsune #0" = 50	
+	"Tadatsuna #0" = 50
+	"Tadamune #0" = 50
+	"Sadahisa #0" = 50
+	"Tokihisa #0" = 50
+	"Tadatomo #0" = 50
+	"Tadachika #0" = 50
+	"Tadanaga #0" = 50
+}
+
+leader_names = {
+	Asai Abe Adachi Akamatsu Akechi Akita Akiyama Akizuki Amago
+	Ando Anayama Asakura Ashikaga Asahina
+	Chosokabe
+	Date
+	Hara Hatakeyama Hatano Hayashi Honda Hojo Hosokawa
+	Idaten Ii Ikeda Imagawa Inoue Ishida Ishikawa Ishimaki Ito
+	Kikkawa Kiso Kitabatake
+	Maeda Matsuda Matsudaira Miura Mikumo Miyoshi Mogami Mori
+	Nanbu Nitta Niwa
+	Oda Otomo Ouchi
+	Rokkaku
+	Sakai Sakuma Shimazu Shiba Sanada Sogo Suwa
+	Takeda Takigawa Toda Toki Tokugawa Toyotomi Tsutsui
+	Uesugi Ukita
+	Yagyu Yamana
+	# Shimazu Flavor
+	Shimazu Shimazu Shimazu Shimazu Shimazu 
+	Shimazu Shimazu Shimazu Shimazu Shimazu
+	# Vassals of Shimazu
+    Ijuin Irikiin Kawakami Kedoin Sonoda Tanegashima Gamo Ei Hishikari Yakumaru
+	Ijichi Nejime Kabayama Hongo Yamada Niiro Uwai	}
+
+ship_names = {
+	"Asai Maru" "Abe Maru" "Adachi Maru" "Akamatsu Maru" "Akechi Maru"
+	"Akita Maru" "Akiyama Maru" "Akizuki Maru" "Amago Maru" "Ando Maru"
+	"Anayama Maru" "Asakura Maru" "Ashikaga Maru" "Asano Maru" "Ashina Maru"
+	"Atagi Maru" "Azai Maru"
+	"Bito Maru" "Byakko Maru"
+	"Chiba Maru" "Chousokabe Maru"
+	"Date Maru" "Doi Maru"
+	"Fujiwara Maru" "Fuji-san Maru"
+	"Genbu maru"
+	"Haga Maru" "Hatakeyama Maru" "Hatano Maru" "Honda Maru" "Hojo Maru"
+	"Hosokawa Maru" "Hachisuka Maru" "Hayashi Maru" "Hiki Maru"
+	"Idaten Maru" "Ikeda Maru" "Imagawa Maru" "Ishida Maru" "Ishikawa Maru"
+	"Ishimaki Maru" "Ii Maru" "Inoue Maru" "Ito Maru"
+	"Kikkawa Maru" "Kiso Maru" "Kisona Maru" "Kitabatake Maru" "Kyogoku Maru"
+	"Maeda Maru" "Matsuda Maru" "Matsudaira Maru" "Miura Maru" "Mikumo Maru"
+	"Miyoshi Maru" "Mogami Maru" "Mori Maru"
+	"Nitta Maru" "Niwa Maru" "Nihon Maru" "Nanbu Maru"
+	"Oda Maru" "Otomo Maru" "Ouchi Maru"
+	"Rokkaku Maru"
+	"Sakai Maru" "Sakuma Maru" "Satake Maru" "Shimazu Maru" "Shiba Maru"
+	"Sanada Maru" "Sogo Maru" "Suwa Maru" "Seiryu Maru" "Suzaku Maru"
+	"Takeda Maru" "Tokugawa Maru" "Taira Maru" "Toyotomi Maru" "Tada Maru"
+	"Toki Maru" "Tsugaru Maru" "Tsutsui Maru" "Tenno Maru"
+	"Uesugi Maru" "Ukita Maru" "Uchia Maru"
+	"Yamana Maru" "Yagyu Maru"
+}

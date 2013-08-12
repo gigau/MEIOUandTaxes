@@ -1,0 +1,43 @@
+# 224 - Andalucía
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CAS		#Juan II of Castille
+controller = CAS
+add_core = CAS
+culture = maure
+religion = catholic
+hre = no
+base_tax = 8
+trade_goods = copper 
+#manpower = 4
+manpower = 8
+fort1 = yes
+capital = "Huelva" 
+citysize = 25000
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1   = {
+	set_province_flag = spanish_name
+}
+1500.1.1   = { citysize = 31520 }
+### 1503.1.1  = { cot = yes } # The "Casa de la Contratación" is established in Sevilla as the monarchy tries to control American trade through that port.
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1520.1.1   = { shipyard = yes }
+1550.1.1   = { citysize = 65000 } 
+1600.1.1   = { citysize = 90000 customs_house = yes }
+1610.1.12  = { culture = andalucian courthouse = yes } # Decree for the expulsion of the morisques in Andalucía, which is speedily and uneventfully performed
+1650.1.1   = { citysize = 52000 }
+1700.1.1   = { citysize = 96000 }
+1713.4.11  = { remove_core = CAS }
+1730.1.1   = { mint = yes }
+1750.1.1   = { citysize = 66000 }
+1800.1.1   = { citysize = 96000 }
+1808.6.6   = { controller = REB }
+1813.12.11 = { controller = SPA }

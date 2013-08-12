@@ -1,0 +1,139 @@
+#TIR - Tyrol
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -3		##-1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = austrian
+capital = 73	# Innsbruck
+
+1342.1.1 = {
+	monarch = {
+		name = "Margarete von Tirol - Görz"
+		dynasty = "von Meinhardin" 
+		adm = 4
+		dip = 7
+		mil = 2
+		female = yes
+	}
+}
+
+1363.1.27 = {
+	monarch = {
+		name = "Rudolf IV von Österreich"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold"
+		dynasty = "von Habsburg"
+		birth_date = 1351.11.1
+		death_date = 1386.7.9
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1365.7.27 = {
+	monarch = {
+		name = "Leopold"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1370.1.1 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm"
+		dynasty = "von Habsburg"
+		birth_date = 1370.1.1
+		death_date = 1406.7.15
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1386.7.9 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1406.7.15 = {
+	monarch = {
+		name = "Friedrich IV"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1427.10.26 = {
+	heir = {
+		name = "Sigismund"
+		monarch_name = "Sigismund"
+		dynasty = "von Habsburg"
+		birth_date = 1427.10.26
+		death_date = 1496.3.4
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1439.6.25 = {
+	monarch = {
+		name = "Sigismund"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Maximilian"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}

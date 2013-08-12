@@ -1,0 +1,77 @@
+# 2402 - Meztitlan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OTO
+controller = OTO
+add_core = OTO
+culture = otomian
+religion = teotl
+capital = "Meztitlan"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2500
+trade_goods = maize
+
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1473.1.1   = {
+	owner = AZT
+	controller = AZT
+	base_tax = 3
+#	manpower = 2
+	manpower = 4
+	citysize = 1500
+	trade_goods = maize 
+	fort1 = yes
+} # Conquest by Axayacati, sixth tlatoani of Tenochtitlan
+1498.1.1   = {
+	add_core = AZT
+}
+1531.1.1   = {
+	discovered_by = SPA
+} # Francisco Vázquez de Coronado y Luján
+1583.1.1  = {
+	owner = SPA
+	controller = SPA
+	capital = "San Luis Potosi"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	base_tax = 2
+	trade_goods = gold
+	fort1 = yes
+}
+1600.1.1   = {
+	citysize = 3000
+}
+1608.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 7500
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 30000
+}
+1800.1.1   = {
+	citysize = 60000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

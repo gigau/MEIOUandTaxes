@@ -1,0 +1,370 @@
+# AKG - Ashikaga
+# LS/GG - Japanese Civil War
+# 2010-jan-10 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_2b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 0
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kanto
+religion = shinbutsu
+technology_group = chinese
+capital = 2283	# Kyoto
+daimyo = yes
+
+1338.1.1 = {
+	monarch = {
+		name = "Takauji"
+		dynasty = "Ashikaga"
+		adm = 5
+		dip = 4 #Helped form coalition against shogun, but also gave too much away; caused split between northern and southern courts
+		mil = 8 #A general who seized power and established a new shogunate, defeated the Hojo several times, but driven out of Kyoto
+	}
+	shogun = 15
+	set_country_flag = new_shogun
+	set_country_flag = shogun
+}
+
+1338.1.1 = {
+	heir = {
+		name = "Yoshiakira"
+		monarch_name = "Yoshiakira"
+		dynasty = "Ashikaga"
+		birth_date = 1330.1.1
+		death_date = 1367.12.28
+		claim = 60
+		adm = 4 #Many lords defect after Takauji died
+		dip = 6 #Raised as a hostage and acted as a diplomat before his father became shogun
+		mil = 4
+	}
+}
+
+1358.6.7 = {
+	monarch = {
+		name = "Yoshiakira"
+		dynasty = "Ashikaga"
+		adm = 4 #Many lords defect after Takauji died
+		dip = 6 #Raised as a hostage and acted as a diplomat before his father became shogun
+		mil = 4
+	}
+}
+
+1358.6.7 = {
+	heir = {
+		name = "Yoshimitsu"
+		monarch_name = "Yoshimitsu"
+		dynasty = "Ashikaga"
+		birth_date = 1358.1.1
+		death_date = 1408.5.31
+		claim = 60
+		adm = 5
+		dip = 7 #The southern court gave up its struggle in 1392, gained important defectors from them, established embassy with China
+		mil = 6 #Pacified Kyushu
+	}
+}
+
+1367.12.28 = {
+	monarch = {
+		name = "Yoshimitsu"
+		dynasty = "Ashikaga"
+		adm = 5
+		dip = 7 #The southern court gave up its struggle in 1392, gained important defectors from them, established embassy with China
+		mil = 6 #Pacified Kyushu
+	}
+}
+
+#1383 Akamatsu rebellion
+
+1386.1.1 = {
+	heir = {
+		name = "Yoshimochi"
+		monarch_name = "Yoshimochi"
+		dynasty = "Ashikaga"
+		birth_date = 1386.1.1
+		death_date = 1428.1.1
+		claim = 50
+		adm = 3 #Did not name a successor
+		dip = 6 #Established Tosenbugyo to regulate foreign affairs
+		mil = 4 #Died in peasant uprising
+	}
+}
+
+#1391 Meitoku War (Yamana attacks Kyoto)
+
+1395.1.1 = {
+	monarch = {
+		name = "Yoshimochi"
+		dynasty = "Ashikaga"
+		adm = 3 #Did not name a successor
+		dip = 6 #Established Tosenbugyo to regulate foreign affairs
+		mil = 4 #Died in peasant uprising
+	}
+}
+
+1395.1.1 = {
+	heir = {
+		name = "Yoshikazu"
+		monarch_name = "Yoshikazu"
+		dynasty = "Ashikaga"
+		birth_date = 1407.1.1
+		death_date = 1425.1.1
+		claim = 50
+		adm = 3 #Terrible famine, uprisings, plague
+		dip = 3 #repudiated agreement with southern court (again)
+		mil = 3
+	}
+}
+
+
+#1402 Uprising in Mutsu
+
+1423.1.1 = {
+	monarch = {
+		name = "Yoshikazu"
+		dynasty = "Ashikaga"
+		adm = 3 #Terrible famine, uprisings, plague
+		dip = 3 #repudiated agreement with southern court (again)
+		mil = 3
+	}
+}
+
+1423.1.1 = {
+	heir = {
+		name = "Yoshinori"
+		monarch_name = "Yoshinori"
+		dynasty = "Ashikaga"
+		birth_date = 1394.1.1
+		death_date = 1441.1.1
+		claim = 50
+		adm = 3 #Suffered multiple revolts
+		dip = 3 #Resumed trade with China, suffered a revolt by Ashikaga Mochiuji (kanto kanrei), assassinated by Akamatsu Mitsuhige
+		mil = 6 #Defeated uprisings in Harima and Tamba, destroyed power of the Kanto Kanrei, murdered by Akamatsu
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Yoshinori"
+		dynasty = "Ashikaga"
+		adm = 3 #Suffered multiple revolts
+		dip = 3 #Resumed trade with China, suffered a revolt by Ashikaga Mochiuji (kanto kanrei), assassinated by Akamatsu Mitsuhige
+		mil = 6 #Defeated uprisings in Harima and Tamba, destroyed power of the Kanto Kanrei, murdered by Akamatsu
+	}
+}
+
+#1433 Otomo rebels
+#1433 Hieizan monks rebel
+
+1434.1.1 = {
+	heir = {
+		name = "Yoshikatsu"
+		monarch_name = "Yoshikatsu"
+		dynasty = "Ashikaga"
+		birth_date = 1434.1.1
+		death_date = 1443.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+#1438/9 Eikyo war (Ashikaga Mochiuji, the ambitious Kanto Kubo, attacks Uesugi Norizane (his deputy) and is declared in rebellion; war between the shoguns)
+#1441 Granted Shimazu suzerainty over Rykuku islands
+
+1441.1.1 = {
+	monarch = {
+		name = "Yoshikatsu"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Yoshimasa"
+		monarch_name = "Yoshimasa"
+		dynasty = "Ashikaga"
+		birth_date = 1436.1.1
+		death_date = 1490.1.1
+		claim = 25
+		adm = 3 #ignored politics in favor of art
+		dip = 3 #had trouble siring an heir, ended up confusing the issue of inheritance and causing the Onin War
+		mil = 3
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Ashikaga"
+		adm = 3 #ignored politics in favor of art
+		dip = 3 #had trouble siring an heir, ended up confusing the issue of inheritance and causing the Onin War
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Yoshihisa"
+		monarch_name = "Yoshihisa"
+		dynasty = "Ashikaga"
+		birth_date = 1465.1.1
+		death_date = 1489.1.1
+		claim = 10
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Yoshihisa"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+} # Died on a battlefield and left no heir
+
+1490.1.1 = {
+	monarch = {
+		name = "Yoshitane"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+} # Exiled in 1493
+
+1493.1.1 = {
+	monarch = {
+		name = "Yoshizumi"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Yoshitane"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Yoshiharu"
+		monarch_name = "Yoshiharu"
+		dynasty = "Ashikaga"
+		birth_date = 1510.1.1
+		death_date = 1550.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+} # Restored by Ouchi Yoshioki
+
+1521.1.1 = {
+	monarch = {
+		name = "Yoshiharu"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.1.1 = {
+	heir = {
+		name = "Yoshiteru"
+		monarch_name = "Yoshiteru"
+		dynasty = "Ashikaga"
+		birth_date = 1536.1.1
+		death_date = 1565.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1547.1.1 = {
+	monarch = {
+		name = "Yoshiteru"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1547.1.1 = {
+	heir = {
+		name = "Yoshihide"
+		monarch_name = "Yoshihide"
+		dynasty = "Ashikaga"
+		birth_date = 1540.1.1
+		death_date = 1568.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Yoshihide"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1565.1.1 = {
+	heir = {
+		name = "Yoshiaki"
+		monarch_name = "Yoshiaki"
+		dynasty = "Ashikaga"
+		birth_date = 1537.1.1
+		death_date = 1568.10.18
+		claim = 25
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1568.10.18 = {
+	monarch = {
+		name = "Yoshiaki"
+		dynasty = "Ashikaga"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1573.1.1   = {
+	government = japan_monarchy_5
+	clr_country_flag = shogun
+} # Clan defeated when Nobunaga drove Ashikaga Yoshiaki out of Kyoto

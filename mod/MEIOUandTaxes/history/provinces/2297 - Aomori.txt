@@ -1,0 +1,42 @@
+# 2297 - Aomori
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NNB
+controller = NNB
+culture = tohoku
+religion = shinbutsu
+capital = "Morioka"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5000
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = NNB
+}
+1400.1.1   = { citysize = 6000 }
+1450.1.1   = { citysize = 7000 }
+1500.1.1   = { citysize = 9000 }
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 11000 }
+1582.1.1   = {
+	owner = DTE
+	controller = DTE
+}
+1600.1.1   = { citysize = 14000 }
+1630.1.1   = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1   = { citysize = 17000 }
+1700.1.1   = { citysize = 21000 }
+1750.1.1   = { citysize = 25000 }
+1800.1.1   = { citysize = 30000 }

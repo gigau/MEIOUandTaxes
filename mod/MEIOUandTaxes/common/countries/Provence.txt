@@ -1,0 +1,139 @@
+#Country Name: Please see filename.
+
+# modded by Solo for MEIOU. See comments for the altered parts.
+
+graphical_culture = latingfx
+
+color = { 93  160  163 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Charles #1" = 60
+	"Louis #0" = 60
+	"Robert #1" = 60
+	"Alphonse #2" = 10
+	"Bertrand #2" = 10
+	"Guillaume #5" = 10
+	"Raymond #4" = 5
+	"Jean #0" = 5
+	"Nicolas #0" = 5
+	"René #0" = 20
+	"Amédée #0" = 0
+	"Antoine #0" = 0
+	"Artaud #0" = 0
+	"Augier #0" = 0
+	"Barral #0" = 0
+	"Barthélémy #0" = 0
+	"Bérenger #0" = 0
+	"Bertrand-Raimbaud #0" = 0
+	"Boniface #0" = 0
+	"Claude #0" = 0
+	"Elzéar #0" = 0
+	"Etienne #0" = 0
+	"Foulques #0" = 0
+	"François #0" = 0
+	"Gabriel #0" = 0
+	"Gaspard #0" = 0
+	"Gaucher #0" = 0
+	"Georges #0" = 0
+	"Giraud #0" = 0
+	"Guillaume-Hugues #0" = 0
+	"Guy #0" = 0
+	"Henri #0" = 0
+	"Honoré #0" = 0
+	"Hugues #0" = 0
+	"Jean-Baptiste #0" = 0
+	"Josserand #0" = 0
+	"Jourdain #0" = 0
+	"Lambert #0" = 0
+	"Olivier #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 0
+	"Pons #0" = 0
+	"Raimbaud #0" = 0
+	"Rainaud #0" = 0
+	"Rostaing #0" = 0
+}
+
+leader_names = {
+	Adhémar Aymini Escalin Gantelme Pelletier Raimond Rolland
+	"d'Agard" "d'Agoult" "d'Albaroux" "d'Albert" "d'Albertas" "d'Ancézune" "d'Anduze" "d'Anglézi" "d'Ansouis" "d'Arlatan" "d'Astoaud" "d'Audiffret" "d'Aurel" "d'Oraison" "d'Urre"	
+	"des Alrics" "des Armands" "des Baux" "des Isnards" "des Seguins"
+	"de la Baume de Suze" "de la Salle"
+	"de Barcillon" "de Barras" "de Blacas" "de Brancas" "de Budos"	
+	"de Cabassole" "de Camaret" "de Caritat" "de Castellane" "de Cavaillon" "de Céva" "de Chabestan"	
+	"de Farges" "de Forbin" "de Forcalquier" "de Fos"
+	"de Galléan" "de Gaste" "de Génas" "de Gigondas" "de Glandevès" "de Grasse" "de Grignan" "de Guast"
+	"de Jarente"	
+	"de Lambesc" "de Laugier" "de Lauris"
+	"de Mévouillon" "de Montauban" "de Montdragon" "de Moreton" "de Mormoiron" "de Mornas"
+	"de Piolenc" "de Pontevès" "de Porcellet"
+	"de Reillanne" "de Ripert" "de Rivière" "de Rochemaure" "de Rosans"
+	"de Sade" "de Seytres" "de Simiane"
+	"de Taulignan" "de Thézan" "de Tholon" "de Trian"
+	"de Venasque" "de Venterol" "de Vesc" "de Villeneuve" "de Vintimille"
+}
+
+ship_names = {
+  "Achille" "Actif" "Aigle" "Aigrette"  "Aimable" "Alceste" "Alcmène" "Algésiras" "Amphitrite"  "Andromaque"  "Argonaute" "Argus" "Artémise"  "Astrée"  "Aurore"  
+  "Belle Poule" "Belle Poupe" "Bellone" "Blanche" "Blonde"  "Boudeuse"  "Bouffonne" "Bretonne"  "Brune" "Bucentaure"  
+  "Caché" "Calypso" "Cérès" "Chimère" "Christine" "Cléopâtre" "Comète"  "Cornélie"  
+  "Danaé" "Dauphin" "Dédaigneuse" "Diane" "Dieppoise" "Diligente" "Dur" 
+  "Eclair"  "Embuscade" "Emeraude"  "Enjouée" "Entreprenant"  
+  "Félicité"  "Fine"  "Fleur de Lys"  "Flore" 
+  "Gaillarde" "Galathée"  "Gracieuse" "Guirlande" 
+  "Hélène"  "Hermine" "Hermione"  "Héroine" "Hirondelle"  "Hortense"  "Hussar"  
+  "Inconstante" "Infidèle"  "Iphigénie" "Iris"  
+  "Jeux"  "Junon" 
+  "La Belle"  "La Bravoure" "La Bretonne" "La Capricieuse"  "La Charmante"  "La Concorde" "La Consolante" "La Courageuse" "La Duchesse" 
+  "La Fée"  "La Félicité" "La Fidèle" "La Fine" "La Flamande" "La Fleur de Lys" "La Fortunée" "La Foudre" "La Friponne" "La Garonne"  
+  "La Gentille" "La Gloire" "La Gracieuse"  "La Grande Hermine" "La Licorne"  "La Loire"  "La Lutine" "La Magicienne" "La Merlette" 
+  "La Modeste"  "La Normande" "La Nymphe" "La Pourvoyeuse"  "La Précieuse"  "La Prudente" "La Prudente" "La Railleuse"  "La Renommée" 
+  "La Résolue"  "La Réunion"  "La Royale" "La Seine"  "La Sémillante" "La Sensible" "La Sérieuse" "La Somptueuse" "La Surveillante" 
+  "La Vendéenne"  "La Victoire" "La Vigilance"  "L'Achille" "L'Afrique" "L'Amazone" "L'Artésienne"  "L'Atalante"  "Laurier" "L'Aurore"  
+  "Le Belle-Ile"  "Le Bien Aimé"  "Le Bourbon"  "Le Brave"  "Le Champion" "Le Conquérant" "Le Dauphin"  "Le Défiance" "Le Dragon" 
+  "Le Fendant"  "Le Fier" "Le Fleuron"  "Le Formidable" "Le Fougueux" "Le Furet"  "Le Gaillard" "Le Glorieux" "Le Grand Soleil" 
+  "Le Griffon"  "Le Hardi"  "Le Héros"  "Le Lion" "Le Magnanime"  "Le Magnifique" "Le Majestueux" "Le Marquis"  "Le Mars" "Le Monarque" 
+  "Le Pégase" "Le Prince" "Le Proctecteur"  "Le Redoutable" "Le Rhin" "Le Rhône"  "Le Robuste"  "Le Souverain"  "Le Spartiate"  
+  "Le Terrible" "Le Tonnant"  "Le Tonnerre" "Le Triomphant" "Le Vainqueur"  "Le Zéphyr" "Le Zodiaque" "L'Eclair"  "Légère"  "L'Emeraude"  
+  "L'Émérillon" "L'Engageante"  "L'Entreprenante" "Les Indes" "L'Hermione"  "L'Hirondelle"  "L'Iconstante"  "Licorne" "L'Indiscrète"  
+  "L'Indomptable" "L'Insurgente"  "L'Intrépide" "L'Invincible"  "L'Orient"  
+  "Malicieuse"  "Médée" "Mégère"  "Mignonne"  "Minerve" "Mont Blanc"  "Mutine"  
+  "Neptune" "Néréide" "Normande"  "Nymphe"  
+  "Oiseau"  "Opale" 
+  "Panthère"  "Périlleux" "Pléiade" "Pluton"  
+  "Renomée" "Rose"  
+  "Saint-Aquilin" "Saint-Briac" "Saint-Denis" "Sainte-Marie"  "Saint-François"  "Saint-George"  "Saint-Laud"  "Saint-Laurent" "Saint-Louis" 
+  "Saint-Malo"  "Saint-Rémi"  "Sauvage" "Scipion" "Sibylle" "Sincère" "Sirène"  "Soleil Levant" "Soleil Royal"  "Subtile" "Sultane" 
+  "Terpsichore" "Thémis"  "Thétis"  "Topaze"  "Tourbillon"  "Tourtelle" "Trompeuse" 
+  "Vénus" "Vestale" "Victoire"  "Volage"  "Zéphyr"
+}
+
+army_names = {
+         "Armée de Marseille" "Armée des Baux"        "Armée de Provence-Forcalquier" 
+         "Armée d'Orange"     "Armée du Pays d'Arles" "Armée des Alpes"
+         "Armée du Rhône"     "Armée de la Durance"   "Armée de Haute Provence"
+         "Armée de Basse Provence" "Armée du Vivarais"
+"Armée de $PROVINCE$" 
+}

@@ -1,0 +1,90 @@
+# ALC - Anjou Kingdom of Albania
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = albanian
+religion = orthodox
+technology_group = eastern
+capital = 2373
+
+1344.1.1 = {
+	monarch = {
+		name = "Joanna"
+		dynasty = "d'Anjou"
+		adm = 4
+		dip = 4
+		mil = 5
+		female = yes
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Karl" #Invited the Ottomans in to help him secure his throne and became a Turkish vassal
+		dynasty = "Thopia"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+
+1382.1.1 = {
+	monarch = {
+		name = "Balsza II"
+		dynasty = "Kastrioti"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Karl Thopia" #Invited the Ottomans in to help him secure his throne and became a Turkish vassal
+		dynasty = "Thopia"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	heir = {
+		name = "Gjergj"
+		monarch_name = "Gjergj"
+		dynasty = "Thopia"
+		birth_date = 1360.1.1
+		death_date = 1392.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1387.1.1 = {
+	monarch = {
+		name = "Gjergj" #Lost land to Venice, died without issue
+		dynasty = "Thopia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1392.1.1 = {
+	monarch = {
+		name = "Gjon"
+		dynasty = "Kastrioti"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

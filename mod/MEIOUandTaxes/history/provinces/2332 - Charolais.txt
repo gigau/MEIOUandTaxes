@@ -1,0 +1,97 @@
+# comte de charolais comte de chalons comte de macon
+# chalons charolle macon cluny
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AMG
+controller = AMG 
+culture = burgundian
+religion = catholic
+capital = "Charolle"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = wine
+
+
+fort1 = yes
+temple = yes #  the Abbey of Cluny
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1  = {
+	add_core = BUR
+	add_core = FRA
+	add_core = AMG
+}
+1391.7.25 = {
+	owner = BUR
+	controller = BUR
+	remove_core = AMG
+} # Sold to Philippe le Hardi
+1477.1.5  = {
+	owner = FRA
+	controller = FRA
+	add_core = HAB
+} # Charles the Bold dies and transfers Bourgogne to France
+1493.1.1  = {
+	owner = HAB
+	controller = HAB
+}
+1500.1.1  = { citysize = 18000 }
+1507.1.1  = { controller = FRA } 
+1509.1.1  = { controller = HAB }
+1521.1.1  = { controller = FRA } 
+1526.1.1  = { controller = HAB }
+1536.1.1  = { controller = FRA } 
+1544.1.1  = { controller = HAB }
+1551.1.1  = { controller = FRA } 
+1556.1.14 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	remove_core = HAB
+}
+1635.1.1  = { controller = FRA }
+1668.1.1  = { controller = SPA }
+1674.1.1  = { controller = FRA }
+1678.1.1  = { controller = SPA }
+1684.1.1  = {
+	owner = FRA
+	controller = FRA
+	remove_core = SPA
+}
+1685.1.1  = { fort2 = yes }
+1690.1.1  = { mint = yes }
+1700.1.1  = { citysize = 31000 }
+1750.1.1  = { citysize = 32000 fort3 = yes }
+1792.9.21 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1  = { citysize = 33000 }
+1814.4.11 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

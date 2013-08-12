@@ -1,0 +1,245 @@
+# LIE - Liege
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 0
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 93	# Liège
+
+1345.11.29 = {
+	monarch = {
+		name = "Engelbert"
+		dynasty = "von der Marck"
+		DIP = 4
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1364.4.23 = {
+	monarch = {
+		name = "Jean V"
+		dynasty = "van Arkel"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1378.5.12 = {
+	monarch = {
+		name = "Arnold"
+		dynasty = "van Horn"
+		DIP = 4
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1389.10.1 = {
+	monarch = {
+		name = "Jean VI"
+		dynasty = "van Arkel"
+		DIP = 6
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Jean VII"
+		dynasty = "van Arkel"
+		DIP = 3
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1419.5.28 = {
+	monarch = {
+		name = "Jean VIII"
+		dynasty = "van Arkel"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1455.11.22 = {
+	monarch = {
+		name = "Louis"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1482.8.30 = {
+	monarch = {
+		name = "Jean IX"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1506.12.19 = {
+	monarch = {
+		name = "Érard"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1538.3.18 = {
+	monarch = {
+		name = "Corneille"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1544.8.16 = {
+	monarch = {
+		name = "Georges"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1557.5.5 = {
+	monarch = {
+		name = "Robert"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1563.7.22 = {
+	monarch = {
+		name = "Gérard"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1580.12.28 = {
+	monarch = {
+		name = "Ernest"
+		dynasty = "de Bourbon"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1612.2.17 = {
+	monarch = {
+		name = "Ferdinand"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 3
+		MIL = 6
+	}
+}
+
+1650.8.13 = {
+	monarch = {
+		name = "Maximilien-Henri"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1688.6.3 = {
+	monarch = {
+		name = "Jean-Louis"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1694.2.1 = {
+	monarch = {
+		name = "Joseph-Clément"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 6
+		MIL = 4
+	}
+}
+
+1723.11.12 = {
+	monarch = {
+		name = "Georges-Louis"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1743.12.4 = {
+	monarch = {
+		name = "Jean-Théodore"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1763.1.27 = {
+	monarch = {
+		name = "Charles-Nicolas"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1771.10.22 = {
+	monarch = {
+		name = "François-Charles"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+1784.4.30 = {
+	monarch = {
+		name = "César-Constantin"
+		dynasty = "de Bourbon"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

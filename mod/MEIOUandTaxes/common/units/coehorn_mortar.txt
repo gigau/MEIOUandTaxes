@@ -1,0 +1,20 @@
+# Coehorn Mortar
+#Modified for MEIOU by FB 10.02.07
+#tech level 38 c1690 (for western countries)
+
+type = artillery
+
+maneuver = 2
+#offensive_morale = 5
+#defensive_morale = 5
+#offensive_fire = 4
+#defensive_fire = 4
+#offensive_shock = 3
+#defensive_shock = 3
+#FB
+offensive_morale = 8
+defensive_morale = 6
+offensive_fire = 8
+defensive_fire = 7
+offensive_shock = 0
+defensive_shock = 4

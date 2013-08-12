@@ -1,0 +1,76 @@
+# 150 - Drastar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUL
+controller = BUL
+culture = bulgarian
+religion = orthodox
+capital = "Drastar"
+trade_goods = lumber
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 12073
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = BUL
+}
+1371.2.17 = {
+	owner = TAR
+	controller = TAR
+	add_core = TAR
+	remove_core = BUL
+}
+1389.1.1 = {
+	owner = OTT
+	controller = OTT
+	add_core = OTT
+}
+1390.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = OTT
+}
+1413.1.1  = {
+	owner = BYZ
+	controller = BYZ
+}
+1444.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+1500.1.1  = {
+	citysize = 13100
+}
+1550.1.1  = {
+	citysize = 15870
+}
+1600.1.1  = {
+	citysize = 17440
+}
+1650.1.1  = {
+	citysize = 18780
+}
+1700.1.1  = {
+	citysize = 20773
+}
+1750.1.1  = {
+	citysize = 23980
+}
+1773.1.1  = {
+	controller = RUS
+} # Russo-Turkish War of 1768–1774
+1774.7.21 = {
+	controller = TUR
+} # Treaty of Kuçuk Kainarji
+1800.1.1  = {
+	citysize = 27467
+}

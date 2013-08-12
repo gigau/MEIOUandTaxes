@@ -1,0 +1,61 @@
+#Province: Kupong (West Timor)
+#file name: 635 - Kupong
+# MEIOU-FB Indonesia mod
+#
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = melanesian
+religion = austranasian
+capital = "Kupang"
+trade_goods = sandal		#FB Timor was a major source of sandalwood
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+native_size = 10
+native_ferocity = 1
+native_hostileness = 2
+discovered_by = chinese
+discovered_by = austranesian
+
+#1337.1.1 = {
+#	discovered_by = MPH
+#	owner = MPH
+#	controller = MPH
+#	add_core = MPH
+#	citysize = 3000
+#}
+#1500.1.1 = {
+#	citysize = 0
+#	native_size = 5
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	owner = XXX
+#	controller = XXX
+#	remove_core = MPH
+#}
+1515.1.1 = { discovered_by = POR }
+1520.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+   	citysize = 1200
+   	remove_core = MPH
+   	revolt_risk = 4
+} # Portuguese colony
+#according to MC Ricklefs "A History of Modern Indonesia" the Portuguese were never welcome here
+1563.1.1 = { fort1 = yes }
+1598.1.1 = { revolt_risk = 8 } #major uprising
+1599.1.1 = { revolt_risk = 4 } #revolt level back to "simmering"
+1600.1.1 = { citysize = 1548 }
+1636.1.1 = {
+	owner = NED
+	controller = NED
+	fort2 = yes
+	revolt_risk = 1
+}
+#FB NED divided the island with the Portuguese - East Timor should remain Portuguese until the C20th
+1650.1.1 = { citysize = 1998 }
+1700.1.1 = { citysize = 2300 add_core = NED }
+1750.1.1 = { citysize = 2875 }
+1800.1.1 = { citysize = 3225 }

@@ -1,0 +1,67 @@
+# 1332 - Al Aqabah
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = shami
+religion = sunni
+capital = "Al Aqabah"
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5000
+fort1 = yes
+
+discovered_by = ADA
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = HEJ
+	add_core = MAM
+}
+1500.1.1 = {
+	citysize = 26000
+}
+1516.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = MAM
+}
+1550.1.1 = {
+	citysize = 7000
+}
+1600.1.1 = {
+	citysize = 8000
+}
+1650.1.1 = {
+	citysize = 9000
+}
+1700.1.1 = {
+	citysize = 10000
+}
+1750.1.1 = {
+	citysize = 11000
+}
+1800.1.1 = {
+	citysize = 12000
+}
+1802.1.1 = {
+	owner = NAJ
+	controller = NAJ
+	add_core = NAJ
+} # Incorporated into the First Saudi State
+1811.1.1 = {
+	add_core = HEJ
+} # Intervention of Mehmet Ali on behalf of the Sultan
+1812.6.1 = {
+	owner = TUR
+	controller = TUR
+	remove_core = NAJ
+}

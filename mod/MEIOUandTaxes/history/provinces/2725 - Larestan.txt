@@ -1,0 +1,106 @@
+# 2725 - Fars (Shiraz)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MUZ
+controller = MUZ
+culture = persian
+religion = shiite
+capital = "Lar"
+trade_goods = coffee
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5607
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = MUZ
+	add_core = KTD
+	revolt = { type = pretender_rebels size = 2 }
+	controller = REB
+} # Injuids
+1357.1.1   = {
+	revolt = {  }
+	controller = MUZ
+}
+1382.5.22  = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+}
+1409.1.1  = {
+	owner = KTD
+	controller = KTD
+} #Dividing the Empire
+1447.1.1   = {
+	controller = QAR
+}
+1447.3.11  = {
+	owner = QAR
+	add_core = QAR
+	remove_core = TIM
+} # Fars and surroundings to Qara Quyunlu
+1458.9.1   = { revolt_risk = 7 } # Civil war in Qara Quyunlu
+1458.12.1  = { revolt_risk = 0 }
+1469.11.1  = {
+	controller = AKK
+}
+1470.1.1   = {
+	owner = AKK
+	add_core = AKK
+	remove_core = QAR
+}
+1490.1.1   = {
+	controller = REB
+	revolt = { type = noble_rebels }
+} # Civil War
+1494.1.1   = {
+	controller = AKK
+	revolt = { }
+} # Civil War
+1497.1.1   = {
+	controller = REB
+	revolt = { type = noble_rebels }
+} # Civil War
+1500.1.1  = { citysize = 6100 }
+1501.1.1   = {
+	controller = SAM
+	revolt = { }
+} # Safawid Expansion
+1508.1.1   = {
+	owner = SAM
+	religion = shiite
+} # Safawid Expansion
+1512.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+} # Safawids "form persia"
+1524.1.1  = {
+	controller = REB
+	revolt = { type = noble_rebels }
+} #Quizilbash Civil War
+1530.1.1  = {
+	controller = PER
+	revolt = { }
+}
+1550.1.1  = {
+	citysize = 7400
+} # Golden age
+1587.1.1  = {
+	controller = REB
+	revolt = { type = noble_rebels }
+}
+1587.12.11  = {
+	controller = PER
+	revolt = {  }
+}
+1600.1.1  = { citysize = 8450 }
+1650.1.1  = { citysize = 9700 }
+1700.1.1  = { citysize = 10800 }
+1750.1.1  = { citysize = 11446 }
+1800.1.1  = { citysize = 13800 }

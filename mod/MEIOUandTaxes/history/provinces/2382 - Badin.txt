@@ -1,0 +1,88 @@
+# 2382 - Badin
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUL
+controller = BUL
+culture = bulgarian
+religion = orthodox
+capital = "Vidin"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 4421
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = BUL
+}
+1365.1.1  = {
+	controller = HUN
+}
+1369.1.1  = {
+	controller = BUL
+}
+1371.2.17 = {
+	owner = VID
+	controller = VID
+	add_core = VID
+	remove_core = BUL
+}
+1393.7.17 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1481.6.1  = {
+	controller = REB
+} # Civil war, Bayezid & Jem
+1482.7.26 = {
+	controller = TUR
+} # Jem escapes to Rhodes
+1500.1.1  = {
+	citysize = 4911
+}
+1550.1.1  = {
+	citysize = 5122
+	fort2 = yes
+}
+1555.1.1  = {
+	revolt_risk = 5
+} # General discontent with the Janissaries' dominance
+1556.1.1  = {
+	revolt_risk = 0
+	marketplace = yes
+}
+1600.1.1  = {
+	citysize = 5911
+}
+1650.1.1  = {
+	citysize = 6549
+}
+1688.1.1  = {
+	revolt_risk = 6
+} # Rebellion against Ottoman rule, centered on Chiprovtzi
+1689.1.1  = {
+	revolt_risk = 0
+} # Brutally suppressed by Janissaries
+1700.1.1  = {
+	citysize = 7044
+}
+1750.1.1  = {
+	citysize = 8010
+}
+1793.1.1  = {
+	revolt_risk = 5
+} # Pasvanoglu  Rebellion, centered at Vidin
+1798.1.1  = {
+	revolt_risk = 0
+}
+1800.1.1  = {
+	citysize = 8310
+}

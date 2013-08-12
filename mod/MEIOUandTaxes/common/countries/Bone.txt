@@ -1,0 +1,72 @@
+#Country Name: Bone
+#Tag: BNE
+#Bone used to represent Bone + Luwu
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 50  50 0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Suhita #0" = 40
+	"Adenena #0" = 20
+	"Aladdin #0" = 20
+	"Arung #0" = 20
+	"Bata-ri #0" = 20
+	"Battu #0" = 20
+	"Guchina #0" = 20
+	"Karaeng Pelua #0" = 20
+	"Malajangi-ri #0" = 20
+	"Mulaiye Panra #0" = 20
+	"Palakka #0" = 20
+	"Sidenreng #0" = 20
+	"Talaga #0" = 20
+	"Tarrung #0" = 20
+	"Toapatunr #0" = 20
+	"Toja Daeng #0" = 20
+}
+
+leader_names = {
+	Hamengku
+	Agung
+	Slamet
+	Budi
+	Harto
+	Karno
+	Wani
+	Mas
+	Kencono
+	Ratri
+}
+
+ship_names = {
+	Pandat Laging Bures Tipang Buring
+	Kacuk Butor Cutor Brutun Pihan Lasing
+	Sungyung Butokuro Putus Mose Masaha
+	Uging Saruyu Marbok Sunglung Kalutukun
+	Hamengku Agung Slamet Budi Harto
+	Karno Wani Mas Kencono Ratri
+}
+

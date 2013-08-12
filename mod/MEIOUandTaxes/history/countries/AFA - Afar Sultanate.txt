@@ -1,0 +1,69 @@
+# AFA - Sultanate of Aussa
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -4
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = afar
+religion = sunni
+technology_group = muslim
+unit_type = soudantech
+capital = 1575 # Afar
+
+1734.1.1   = {
+	monarch = {
+		name = "Kaxxafo I"
+		dynasty = "Mudaito"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1749.1.1   = {
+	monarch = {
+		name = "Kaxxafo II"
+		dynasty = "Mudaito"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1779.1.1   = {
+	monarch = {
+		name = "Aydacis I"
+		dynasty = "Mudaito"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1801.1.1   = {
+	monarch = {
+		name = "Aydacis II"
+		dynasty = "Mudaito"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1832.1.1   = {
+	monarch = {
+		name = "Canfaxe I"
+		dynasty = "Mudaito"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}

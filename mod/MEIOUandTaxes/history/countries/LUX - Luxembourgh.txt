@@ -1,0 +1,118 @@
+#LUX - Luxembourgh
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4 #AdL: it was granted a Ducal title in 1354 !!
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = moselfranconian
+religion = catholic
+technology_group = western
+capital = 94	# Luxembourg
+
+
+1353.1.1 = {
+	monarch = {
+		name = "Wenzel"
+		dynasty = "von Luxemburg"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1383.12.8 = {
+	monarch = {
+		name = "Wenzel II" 		# = Vaclav IV of Bohemeia
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1388.1.1 = {
+	monarch = {
+		name = "Jost"
+		dynasty = "von Luxemburg"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1390.11.1 = {
+	heir = {
+		name = "Elisabeth"
+		monarch_name = "Elisabeth"
+		dynasty = "von Luxemburg"
+		birth_date = 1390.11.1
+		death_date = 1451.8.3
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+#1411.1.18 = {
+#	monarch = {
+#		name = "Wenzel II" 		# = Vaclav IV of Bohemia
+#		dynasty = "von Luxemburg"
+#		adm = 4
+#		dip = 4
+#		mil = 6
+#	}
+#}
+
+1412.1.1 = {
+	monarch = {
+		name = "Antoine" 		# the ruler of Brabant, husband of Elisabeth and son of Philippe le Hardi (Philippe II de Bourgogne)
+		dynasty = "de Valois"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1415.10.25 = {				# AdL: I took the death date of Antoine de Valois ;-)
+	monarch = {
+		name = "Elizabeth"
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Johann III"		# AdL: former Bishop of Liège, then Regent of Bayern-Straubing; became in 1418 second husband of Elisabeth
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1425.1.6 = {					#AdL: deathdate of Johann von Wittelsbach, Duke of Bayern-Straubing
+	monarch = {
+		name = "Elizabeth"			#AdL: sold Luxemburg in 1441 to Philippe le Bon (Philippe III de Bourgogne)
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}

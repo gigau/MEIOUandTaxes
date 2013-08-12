@@ -1,0 +1,73 @@
+#1491 - Ica
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHC
+controller = CHC
+add_core = CHC
+culture = quechuan
+religion = inti
+capital = "Ica"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = cotton
+
+terrain1 = yes
+fort1 = yes
+temple = yes 
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1419.1.1  =  {
+	owner = CZC
+	controller = CZC
+	add_core = CZC
+	remove_core = CHC
+}
+1480.1.1   = {
+	owner = INC
+	controller = INC
+	add_core = INC
+	remove_core = CZC
+	}
+1535.1.1  = {
+	discovered_by = SPA
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	culture = castillian
+	citysize = 2500
+	revolt_risk = 8
+}
+1558.1.1   = {
+	capital = "San Felipe"
+}
+1650.1.1   = {
+	citysize = 3500
+}
+1700.1.1   = {
+	 citysize = 5000
+}
+1750.1.1  = {
+	citysize = 7500
+	add_core = PEU
+	culture = peruvian
+}
+1800.1.1   = {
+	citysize = 10000
+}
+1810.9.18  = {
+	owner = PEU
+	controller = PEU
+}
+1818.2.12  = {
+	remove_core = SPA
+}

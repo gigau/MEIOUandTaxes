@@ -1,0 +1,151 @@
+#MEIOU-GG Govenemnt changes
+#MEIOU-GG Religion changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = 0		###-2
+# centralization_decentralization = 5  	####2
+# innovative_narrowminded = 3		##2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 1			##0
+# land_naval = -5				###1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4
+# secularism_theocracy = 0		##1
+technology_group = chinese
+religion = theravada
+primary_culture = shan
+capital = 583	# Hsenwi
+
+# historical_friend = DLI
+
+1356.1.1 = {
+	monarch = {
+		name = "Saohpa"
+		dynasty = "Wareru"
+		DIP = 6
+		MIL = 7
+		ADM = 4
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Binya-Nwe"
+		dynasty = "Wareru"
+		DIP = 5
+		MIL = 4
+		ADM = 5
+	}
+}
+1423.1.1 = {
+	monarch = {
+		name = "Binya Dhamma"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 3
+		ADM = 6
+	}
+}
+1426.1.1 = {
+	monarch = {
+		name = "Binya Rankit"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+1446.1.1 = {
+	monarch = {
+		name = "Binya Waru"
+		dynasty = "Wareru"
+		DIP = 6
+		MIL = 3
+		ADM = 3
+	}
+}
+1450.1.1 = {
+	monarch = {
+		name = "Binya Keng"
+		dynasty = "Wareru"
+		DIP = 5
+		MIL = 4
+		ADM = 5
+	}
+}
+1453.1.1 = {
+	monarch = {
+		name = "Shengtsaubu"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 4
+		ADM = 3
+	}
+}
+1460.1.1 = {
+	monarch = {
+		name = "Dhamma Dzedi"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 6
+		ADM = 6
+	}
+}
+1491.1.1 = {
+	monarch = {
+		name = "Binya Ran"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 3
+		ADM = 3
+	}
+}
+1502.1.1 = {			#the leaer that conquered Ava, assasinated
+	monarch = {
+		name = "Sawlon"
+		dynasty = "Wareru"
+		DIP = 7
+		MIL = 9
+		ADM = 7
+	}
+	# centralization_decentralization = 3
+}
+1534.1.1 = {
+	monarch = {
+		name = "Takarwutbi"
+		dynasty = "Wareru"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+1540.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Wareru"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+1740.1.1 = {
+	monarch = {
+		name = "Buddha Thi Gwe Meng"
+		dynasty = "Wareru"
+		DIP = 4
+		MIL = 3
+		ADM = 4
+	}
+}
+1746.1.1 = {
+	monarch = {
+		name = "Binya Dala"
+		dynasty = "Wareru"
+		DIP = 3
+		MIL = 5
+		ADM = 4
+	}
+}
+
+# Until 1757

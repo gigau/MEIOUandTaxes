@@ -1,0 +1,88 @@
+# Menabe
+# Tag : MNB
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = madagascan
+religion = austranasian
+technology_group = sub_saharan
+capital = 1228
+
+1350.1.1 = {
+	monarch = {
+		name = "Tribal Elders"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+1540.1.1 = {
+	monarch = {
+		name = "Adriamandazoala"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1560.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+1610.1.1 = {
+	monarch = {
+		name = "Andriandahifotsy"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1685.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+1718.1.1 = {
+	monarch = {
+		name = "Ranaimo"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1727.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Maroserana"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}

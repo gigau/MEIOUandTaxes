@@ -1,0 +1,105 @@
+# AYD - Aydin
+# MEIOU-GG Govenemnt changes
+# 2009-dec-28 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 1
+# secularism_theocracy = 2
+primary_culture = yorouk
+religion = sunni
+technology_group = turkishtech
+unit_type = muslim
+
+capital = 1438 # Aydin
+
+1336.1.1 = {
+	monarch = {
+		name = "Umar the Lion"
+		dynasty = "Aydinoglu"
+		adm = 6
+		dip = 4
+		mil = 6 #Killed in battle against the Christians in 1348
+		}
+	}
+
+1348.5.10 = {
+	monarch = {
+		name = "Khidr"
+		dynasty = "Aydinoglu"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Isa"
+		monarch_name = "Isa"
+		dynasty = "Aydinoglu"
+		birth_date = 1330.1.1
+		death_date = 1402.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1360.1.1 = {
+	monarch = {
+		name = "Isa"
+		dynasty = "Aydinoglu"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Umar"
+		monarch_name = "Umar II"
+		dynasty = "Aydinoglu"
+		birth_date = 1350.1.1
+		death_date = 1405.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Umar II"
+		dynasty = "Aydinoglu"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Junayd"
+		monarch_name = "Junayd"
+		dynasty = "Aydinoglu"
+		birth_date = 1380.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Junayd"
+		dynasty = "Aydinoglu"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}

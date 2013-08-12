@@ -1,0 +1,65 @@
+#Province: Surat
+#file name: 516 - Surat
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = gujarati
+religion = hinduism
+capital = "Surat"
+trade_goods = rice
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 15870
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = GUJ
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = GUJ
+	controller = GUJ
+	revolt_risk = 0
+	citysize = 20200
+} #guessed date for independance from Delhi Sultanate
+1502.1.1 = { citysize = 25897 workshop = yes discovered_by = POR }
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1550.1.1 = { citysize = 27300 }
+1573.6.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1 = { citysize = 34505 fort2 = yes }
+1650.1.1 = { citysize = 32370 }
+1662.1.1  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = POR
+	customs_house = yes
+} # Dowry of Catarina Henriqueta de Bragança
+1700.1.1 = { citysize = 41540 textile = yes }
+1707.5.12 = {
+	remove_core = ENG
+	add_core = GBR
+	discovered_by = GBR }
+1721.1.1 = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+	remove_core = MUG
+} # Conquered by the Marathas
+1750.1.1 = { citysize = 45000 add_core = GAK }
+1759.1.1 = {
+	owner = GBR
+	controller = GBR
+}
+1800.1.1 = { citysize = 52400 }

@@ -1,0 +1,65 @@
+# 2678 - Raichur Doab
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VIJ
+controller = VIJ
+culture = kannada
+religion = hinduism
+capital = "Raichur"
+trade_goods = cloth
+hre = no
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 11000
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1  = {
+	add_core = BIJ
+	add_core = VIJ
+}
+1378.1.1  = {
+	controller = BAH
+	owner = BAH
+}
+1428.1.1  = { add_core = BAH }
+1450.1.1  = { citysize = 14000 }
+1490.1.1  = {
+	owner = BIJ
+	controller = BIJ
+	remove_core = BAH
+} # The Breakup of the Bahmani sultanate
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 18000 }
+1522.1.1  = {
+	controller = VIJ
+} # Conquered by Vijayanagar
+1523.1.1  = {
+	owner = VIJ
+} # Conquered by Vijayanagar
+1550.1.1  = { citysize = 16000 }
+1565.1.1  = {
+	controller = BIJ
+} #Lost by Vijayanagar in 1565
+1565.7.1  = {
+	owner = BIJ
+} #Lost by Vijayanagar in 1565
+1600.1.1  = { citysize = 17000 }
+1650.1.1  = { citysize = 23000 }
+1685.1.1  = {
+	controller = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1686.1.1  = {
+	owner = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1700.1.1  = { citysize = 27000 }
+1712.1.1  = { add_core = HYD }	#Viceroyalty of the Deccan
+1724.1.1  = {
+	owner = HYD
+	controller = HYD
+} # Asif Jah declared himself Nizam-al-Mulk
+1750.1.1  = { citysize = 31000 }
+1800.1.1  = { citysize = 36000 }

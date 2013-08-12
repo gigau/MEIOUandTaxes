@@ -1,0 +1,46 @@
+# 320 - Rodos
+
+owner = KNI 		# Knights of St. John Hospitaler of Jerusalem
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = KNI
+culture = greek
+religion = orthodox
+capital = "Rodos"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 14884
+terrain2 = yes
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	set_province_flag = terrain2
+	add_core = KNI
+	add_core = BYZ
+}
+1453.5.30 = {
+	remove_core = BYZ
+}
+1500.1.1   = { citysize = 17510 }
+1522.12.21 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = KNI
+} # Part of the Ottoman Empire
+1550.1.1   = { citysize = 14688 }
+1580.1.1   = { fort2 = yes marketplace = yes }
+1600.1.1   = { citysize = 12468 }
+1650.1.1   = { citysize = 12600 }
+1700.1.1   = { citysize = 13460 }
+1720.1.1   = { fort3 = yes }
+1750.1.1   = { citysize = 13910 }
+1800.1.1   = { citysize = 15192 }

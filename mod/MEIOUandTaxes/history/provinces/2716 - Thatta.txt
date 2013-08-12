@@ -1,0 +1,67 @@
+# 2716 - Thatta
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SND
+controller = SND
+culture = sindhi
+religion = sunni
+capital = "Thatta"
+trade_goods = cotton
+hre = no
+base_tax = 9
+#manpower = 7
+manpower = 14
+citysize = 38000
+fort1 = yes
+marketplace = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = SND
+}
+1450.1.1 = { citysize = 41000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 45000 }
+1520.7.1 = {
+	controller = KAB
+} # Arghuns
+1521.1.1 = {
+	controller = SND
+} # Arghuns + tag change
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+} # Sur Expansionism
+1545.1.1 = {
+	owner = SND
+	controller = SND
+} # Sher Shah dies
+1550.1.1 = { citysize = 48000 }
+1591.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Integrated into Mughal Empire
+1600.1.1 = {
+	discovered_by = TUR
+	citysize = 50000
+	cot = no
+}
+1647.1.1 = { temple = yes } #Shah Jahan Mosque
+1650.1.1 = { citysize = 44000 }
+1700.1.1 = { marketplace = yes	citysize = 37000 }
+1739.1.1 = {
+	owner = SND 
+	controller = SND
+	remove_core = MUG
+}
+1750.1.1 = { citysize = 26000 }
+1800.1.1 = { citysize = 18000 }
+1839.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}

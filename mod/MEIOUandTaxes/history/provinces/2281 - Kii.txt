@@ -1,0 +1,53 @@
+# 2281 - Kii
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HKY
+controller = HKY
+culture = kansai
+religion = shinbutsu
+capital = "Wakayama"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 20000
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = HKY
+}
+1400.1.1 = { citysize = 21000 }
+1450.1.1 = { citysize = 22000 }
+1477.1.1 = {
+	revolt = {
+		type = ikko_ikki
+		size = 1
+	}
+	controller = REB
+}
+1500.1.1 = { citysize = 23986 }
+1525.1.1 = { fort2 = yes }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 25238 }
+1580.1.1 = {
+	revolt = { }
+	owner = ODA
+	controller = ODA
+}
+1600.1.1 = {
+	citysize = 20342
+}
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 23655 }
+1700.1.1 = { citysize = 25770 }
+1750.1.1 = { citysize = 27680 }
+1800.1.1 = { citysize = 30400 }

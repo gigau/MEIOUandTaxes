@@ -1,0 +1,109 @@
+# 102 - Nice
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NIC
+controller = NIC
+culture = piedmontese
+religion = catholic
+hre = yes
+base_tax = 4
+trade_goods = olive
+#manpower = 2
+manpower = 4
+fort1 = yes
+capital = "Nissa"
+citysize = 10000 # Estimated
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = NIC
+	add_core = PRO
+}
+1384.1.1   = {
+	add_core = ANJ
+	add_core = FRA
+	remove_core = PRO
+}
+1388.9.28  = {
+	owner = SAV
+	controller = SAV
+	add_core = SAV
+	remove_core = ANJ
+	remove_core = FRA
+} # Dedition of Nice to the Duchy of Savoie
+1399.1.1   = { citysize = 12000 }
+1453.1.1   = { citysize = 14000 }
+1500.1.1   = {
+	citysize = 15000
+}
+1550.1.1   = {
+	fort2 = yes
+}
+1550.1.1   = {
+	citysize = 15000
+ }
+1600.1.1   = {
+	citysize = 16000
+}
+1618.1.1  =  { hre = no }
+1626.1.1   = {
+	marketplace = yes
+} #Proclaiming full freedom of trade, Charles Emmanuel in 1626 gave a great stimulus to the commerce of the city
+1650.1.1   = {
+	citysize = 16000
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1705.12.30 = {
+	fort2 = no
+	controller = FRA
+} # Louis XIV occupied the city
+1713.4.11  = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+	remove_core = SAV
+} # Treaty of Utrecht(2) gave Sicily to House of Savoy 
+1718.8.2  = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1744.1.1   = {
+	controller = FRA
+}
+1748.10.18 = {
+	controller = SPI
+}
+1750.1.1   = {
+	citysize = 16000
+}
+1792.4.20  = {
+	controller = FRA
+} # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25  = {
+	owner = RFR
+	add_core = RFR
+} # The Republic of Alba
+1800.1.1   = {
+	citysize = 13000
+}
+1814.4.11  = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1860.1.13   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = SPI
+}

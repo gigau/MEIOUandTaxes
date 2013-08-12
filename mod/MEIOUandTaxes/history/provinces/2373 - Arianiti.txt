@@ -1,0 +1,56 @@
+# 2373 - Durrës
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ALC
+controller = ALC
+culture = albanian
+religion = orthodox
+capital = "Durrës"
+trade_goods = lumber
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 7300
+fort1 = yes
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+
+1356.1.1  = {
+	add_core = ALC
+}
+1376.1.1  = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+}
+1383.1.1  = {
+	owner = ALC
+	controller = ALC
+}
+1392.1.1  = {
+	owner = VEN
+	controller = VEN
+}
+1500.1.1  = { citysize = 10254 }
+1501.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1520.1.1  = { religion = sunni } # Predominant religion under Turkish rule
+1550.1.1  = { citysize = 13780 }
+1555.1.1  = { revolt_risk = 5 } # General discontent against the Janissaries' dominance
+1556.1.1  = { revolt_risk = 0 marketplace = yes }
+1600.1.1  = { citysize = 18650 }
+1650.1.1  = { citysize = 15870 }
+1687.1.1  = { revolt_risk = 6 } # Christian counteroffensive against the Ottomans
+1690.1.1  = { revolt_risk = 0 }
+1700.1.1  = { citysize = 4000 }
+1750.1.1  = { citysize = 8900 }
+1788.1.1  = { fort2 = yes } # Ali Pasha made it a stronghold
+1797.1.1  = { controller = REB } # Suliot uprising
+1800.1.1  = { citysize = 11000 }

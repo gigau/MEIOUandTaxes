@@ -1,0 +1,58 @@
+# Province: Sikkim
+# file name: 562 - Sikkim
+# MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NPL
+controller = NPL
+culture = tibetan
+religion = mahayana
+capital = "Darjeeling"
+trade_goods = silk
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 8000
+fort1 = yes
+terrain2 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1 = {
+	owner = TIB
+	controller = TIB
+	add_core = SKK
+	add_core = TIB
+	set_province_flag = terrain2
+}
+1450.1.1  = { citysize = 10000 }
+1500.1.1  = { citysize = 11000 }
+1550.1.1  = { citysize = 13000 }
+1600.1.1  = { citysize = 15000 }
+1642.1.1  = {
+	owner = SKK
+	controller = SKK
+}
+1650.1.1  = { citysize = 15000 }
+1670.1.1  = { capital = Rabdentse }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 12000 }
+1707.5.12 = { discovered_by = GBR }
+1730.1.1  = {
+	controller = NPL
+}
+1733.1.1  = {
+	owner = NPL
+}
+1750.1.1 = { citysize = 14000 }
+1788.1.1 = {
+	controller = MCH
+}
+1789.1.1 = {
+	capital = Tumlong
+	owner = SKK
+	controller = SKK
+}
+1800.1.1 = { citysize = 16000 }

@@ -1,0 +1,68 @@
+# 2533 - Foggia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KNP
+controller = KNP
+culture = neapolitan 
+religion = catholic 
+hre = no 
+base_tax = 3
+trade_goods = olive
+#manpower = 3
+manpower = 6
+fort1 = yes 
+capital = "Foggë"
+citysize = 15000 # Estimated 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	citysize = 20000
+	add_core = KNP
+	add_core = ANJ
+}
+1399.1.1  = { citysize = 25000 }
+1442.1.1  = { add_core = ARA }
+1450.1.1  = { citysize = 30000 }
+1495.2.22 = { controller = FRA } # Charles VIII invades Naples
+1495.7.7  = { controller = KNP } # Charles VIII leaves Italy
+1500.1.1  = { citysize = 35000 } 
+1502.1.1  = { owner = FRA controller = FRA add_core = FRA } # France and Aragon partitions Naples
+1503.6.1  = { owner = ARA controller = ARA add_core = ARA remove_core = FRA remove_core = ANJ} # France forced to withdraw
+1504.1.31 = { remove_core = FRA } # Treaty of Lyon
+1516.1.23 = {	owner = SPA
+		controller = SPA
+		add_core = SPA
+	    	remove_core = ARA
+	    } # Unification of Spain
+1550.1.1  = { citysize = 55000 }
+1600.1.1  = { citysize = 64000 }
+1620.1.1  = { marketplace = yes }
+1650.1.1  = { citysize = 48000 }
+1700.1.1  = { citysize = 47000 }
+1714.3.7  = {	owner = HAB
+		controller = HAB
+		add_core = HAB
+		remove_core = SPA
+	    }
+1734.6.2  = {
+	owner = NAP
+	controller = NAP
+	add_core = NAP
+	remove_core = HAB
+	remove_core = NAP
+}
+1750.1.1  = { citysize = 53000 }
+1800.1.1  = { citysize = 55000 }
+#1815.5.3  = {
+#	owner = KNP
+#	controller = KNP
+#	remove_core = NAP
+#}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

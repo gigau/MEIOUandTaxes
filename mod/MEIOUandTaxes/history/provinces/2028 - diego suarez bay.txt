@@ -1,0 +1,6 @@
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+
+1500.9.1 = { discovered_by = POR }

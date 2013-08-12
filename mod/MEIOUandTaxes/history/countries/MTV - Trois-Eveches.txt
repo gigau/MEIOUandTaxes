@@ -1,0 +1,303 @@
+# Trois-Eveches
+# Tag : MTV
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+primary_culture = lorrain
+religion =catholic
+technology_group = western
+capital = 188
+
+1327.1.1 = {
+	monarch = {
+		name = "Adhémar de Monteil"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1361.1.1 = {
+	monarch = {
+		name = "Jean III de Vienne"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Thierri V Bayer de Boppard"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1384.1.1 = {
+	monarch = {
+		name = "Pierre de Luxembourg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1387.1.1 = {
+	monarch = {
+		name = "Raoul de Coucy"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Conrad II Bayer de Boppard"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "George Ier de Bade"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Henri II de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Jean IV de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Conrad de Leyden"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Nicolas de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1548.1.1 = {
+	monarch = {
+		name = "Jean IV de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Charles Ier de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Robert de Lenoncourt"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1551.4.10  = { controller = FRA } # Franco-Habsburg War (1551-1559): France takes Metz
+
+1555.1.1 = {
+	monarch = {
+		name = "François Beaucaire de Péguillon"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1559.4.3   = { owner = FRA add_core = FRA fort3 = yes } # Peace of Cateau-Cambrésis, France annexes Metz
+
+1567.1.1 = {
+	monarch = {
+		name = "Louis de Guise"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1578.1.1 = {
+	monarch = {
+		name = "Charles II de Lorraine"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1608.1.1 = {
+	monarch = {
+		name = "Anne de Peruse d’Escars"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Henri de Bourbon-Verneuil"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1652.1.1 = {
+	monarch = {
+		name = "Jules Mazarin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1658.1.1 = {
+	monarch = {
+		name = "François de Furstenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Guillaume de Furstenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1669.1.1 = {
+	monarch = {
+		name = "Georges d’Aubusson de la Feuillade"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Henri du Cambout de Coislin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1733.1.1 = {
+	monarch = {
+		name = "Claude de Saint Simon"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Louis-Joseph de Montmorency-Laval"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1792.1.1 = {
+	monarch = {
+		name = "Nicolas Francin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1802.1.1 = {
+	monarch = {
+		name = "Pierre-François Bienaymé"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "Gaspard-André Jauffret"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1824.1.1 = {
+	monarch = {
+		name = "Jacques-François Besson"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1843.1.1 = {
+	monarch = {
+		name = "Paul Dupont des Loges"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

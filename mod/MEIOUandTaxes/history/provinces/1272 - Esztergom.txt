@@ -1,0 +1,89 @@
+# 1272 - Esztergom
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Esztergom"
+trade_goods = silver
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 24710
+fort1 = yes
+temple = yes
+add_core = HUN
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1500.1.1   = {
+	citysize = 25102 marketplace = yes
+}
+1506.1.1   = {
+	controller = REB
+} # Szekely rebellion
+1507.1.1   = {
+	controller = HUN
+} # Estimated
+1514.4.1   = {
+	controller = REB
+} # Peasant rebellion against Hungary's magnates
+1515.1.1   = {
+	controller = HUN
+} # Estimated
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1541.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = HAB
+} # End of Ottoman-Habsburg War
+1550.1.1   = {
+	citysize = 25722
+}
+1595.1.1   = {
+	temple = no
+	marketplace = no
+	citysize = 10000
+	owner = RHU
+	controller = RHU
+} # After a devastating siege, the city is freed
+1600.1.1   = {
+	citysize = 16770
+}
+1605.1.1   = {
+	owner = TUR
+	controller = TUR
+}
+1650.1.1   = {
+	citysize = 17544 constable = yes }
+1683.1.1 = {
+	owner = RHU
+	controller = RHU
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1730.1.1   = {
+	temple = yes
+}
+1750.1.1   = {
+	citysize = 18100
+}
+1800.1.1   = {
+	citysize = 19870
+}

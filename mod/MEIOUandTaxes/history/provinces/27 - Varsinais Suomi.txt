@@ -1,0 +1,60 @@
+# Varsinais Suomi
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = wheat
+#manpower = 2
+manpower = 4
+fort1 = yes
+capital = "Turku"
+citysize = 1000 # Estimated
+temple = yes #"Domkyrkan i Åbo"
+
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+}
+1505.1.1   = { marketplace = yes }
+1527.6.1   = { religion = protestant}
+1550.1.1   = { citysize = 1200 }
+1563.1.1   = { fort2 = yes } #Rebuilding of Åbo Castle (Unknown date)
+1563.6.7   = { controller = REB } #Duke Johan is sentenced to death
+1563.8.12  = { controller = SWE } #Åbo falls and Duke Johan is imprisoned.
+1598.8.1   = { controller = POL } #Sigismund tries to reconquer his crown
+1599.7.5   = { owner = SWE controller = SWE } #Duke Karl get it back
+1600.1.1   = { citysize = 1540 }
+1650.1.1   = { citysize = 1845 }
+1700.1.1   = { citysize = 2500 }
+1713.8.28  = { controller = RUS } #The Great Nordic War-Captured by Apraksin
+1721.8.30  = { controller = SWE } #The Peace of Nystad
+1742.10.15 = { controller = RUS } #The War of the Hats-Estimated date
+1743.8.7   = { controller = SWE } #The Peace of Åbo
+1800.1.1   = { citysize = 2980 }
+1808.3.1   = { controller = RUS } # Overran by Russian troops
+1809.3.29  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.9.17 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}

@@ -1,0 +1,167 @@
+# HAI - Hainaut
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 91	# Mons
+
+1280.2.10 = {
+	monarch = {
+		name = "John II"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Guillaume"
+		monarch_name = "Guillaume"
+		dynasty = "von Wittelsbach"
+		birth_date = 1260.1.1
+		death_date = 1337.6.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+#1299.11.10 John unites Holland and Hainaut in personal union. Holland and Hainaut until 1433.1.1 when absorbed by Burgundy
+
+1304.8.22 = {
+	monarch = {
+		name = "Guillaume"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Guillaume"
+		monarch_name = "Guillaume II"
+		dynasty = "von Wittelsbach"
+		birth_date = 1300.1.1
+		death_date = 1345.9.26
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+} #Guillaume I of Hainaut & William III of Holland
+
+1337.6.7 = {
+	monarch = {
+		name = "Guillaume II"
+		dynasty = "von Wittelsbach"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+} #Guillaume II of Hainaut & William IV of Holland
+
+1345.9.26 = {
+	monarch = {
+		name = "Margaret II"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 7
+		mil = 4
+		female = yes
+	}
+} #Margaret II of Hainaut & Margaret I of Holland
+#Margaret was married to HRE William IV the Bavarian
+#she was regent from William IV'd death on 1347.10.11
+
+1349.5.9 = {
+	monarch = {
+		name = "Guillaume III"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+} #Guillaume III of Hainaut & William V of Holland
+
+#1354.1.1 Guillaume unites Hainaut-Holland in a PU with Bayern-Straubing
+
+1389.1.1 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Guillaume"
+		monarch_name = "Guillaume VI"
+		dynasty = "von Wittelsbach"
+		birth_date = 1365.4.5
+		death_date = 1417.5.31
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Guillaume IV"
+		dynasty = "von Wittelsbach"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Jacquette"
+		monarch_name = "Jacquette"
+		dynasty = "von Wittelsbach"
+		birth_date = 1401.8.16
+		death_date = 1436.10.8
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+}
+
+1417.5.31  = {
+	monarch = {
+		name = "Johann"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+#1426.1.1 end of PU with Bayern-Straubing
+
+1426.1.1 = {
+	monarch = {
+		name = "Jacquette"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+}
+
+#1433.1.1 absorbed by BUR

@@ -1,0 +1,40 @@
+# 70 - Bayreuth
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NUS
+controller = NUS
+add_core = NUS
+culture = eastfranconian
+religion = catholic
+base_tax = 4
+trade_goods = wheat
+#manpower = 1
+manpower = 2
+fort1 = yes
+capital = "Bayreuth" 
+citysize = 5000
+marketplace = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 6000 }
+1398.1.1 = { controller = ANS owner = ANS add_core = ANS }
+1399.1.1 = { citysize = 7000 }
+1415.1.1 = { controller = BRA owner = BRA add_core = BRA }
+1427.1.1 = { remove_core = NUS }
+1440.1.1 = { controller = ANS owner = ANS remove_core = BRA }
+1453.1.1 = { citysize = 8000 }
+1500.1.1 = { citysize = 9000 }
+1528.1.1 = { religion = protestant }
+1550.1.1 = { citysize = 10000 }
+1600.1.1 = { citysize = 11000 }
+1650.1.1 = { citysize = 12000 }
+1700.1.1 = { citysize = 13000 }
+1750.1.1 = { citysize = 14000 }
+1760.1.1 = { workshop = yes }
+1792.1.1 = { owner = PRU controller = PRU add_core = PRU }
+1800.1.1 = { citysize = 15000 }
+1806.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = PRU }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

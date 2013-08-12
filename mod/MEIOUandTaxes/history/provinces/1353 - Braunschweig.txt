@@ -1,0 +1,66 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = BRU
+controller = BRU
+culture = old_saxon
+religion = catholic
+capital = "Celle"
+trade_goods = silver
+hre = yes
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 12000
+fort1 = yes
+add_core = BRU
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 13000 }
+1399.1.1   = { citysize = 14000 }
+1453.1.1   = { citysize = 15000 }
+1500.1.1   = { citysize = 15500 }
+1529.1.1   = { religion = protestant }
+1550.1.1   = { citysize = 16000 }
+1600.1.1   = { citysize = 16500 marketplace = yes }
+1638.1.1   = { fort2 = yes }
+1640.1.1   = { regimental_camp = yes }
+1640.1.1   = { courthouse = yes }
+1650.1.1   = { citysize = 16500 }
+1692.1.1   = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+} # Duke Ernst August becomes Elector of Hannover
+1700.1.1   = { citysize = 18000 }
+1710.1.1   = { mint = yes }
+1750.1.1   = { citysize = 21000 }
+1757.7.26  = { controller = FRA } # Battle of Hastenbeck, occupied by the French
+1757.11.5  = { controller = HAN } # Battle of Rossbach, the French are defeated by the Prussians
+1800.1.1   = { citysize = 27000 }
+1803.7.5   = { controller = RFR } # Occupied by French troops
+1805.12.15 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = HAN
+} # Treaty of Schoenbrunn, ceded to Prussia
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {
+	owner = WES
+	controller = WES
+	add_core = WES
+	remove_core = PRU
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.10.13 = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+	remove_core = WES
+} # The kingdom is dissolved
+1866.1.1   = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = HAN
+}

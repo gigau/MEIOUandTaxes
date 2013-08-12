@@ -1,0 +1,190 @@
+# MAS - Marquessate of Massa
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -2		##1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = emilian
+religion = catholic
+capital = 2564
+
+1442.1.1 = {
+	monarch = {
+		name = "Alberico I"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1445.1.1 = {
+	monarch = {
+		name = "Iacopo"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Alberico II"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name = "Ricciarda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Giulio I"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1547.1.1 = {
+	monarch = {
+		name = "Ricciarda"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Alberico I"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Carlo I"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Alberico II"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1664.1.1 = {
+	government = feudal_monarchy_5
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Carlo II"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Alberico III"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Alderano I"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Maria Teresa"
+		dynasty = "Malaspina"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Maria Beatrice"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+# Annexed by Cispandana and Cisalpina Republic during Napoleonic invasion (1796-1806) 
+
+1806.1.1 = {
+	monarch = {
+		name = "Elisa Bonaparte"
+		dynasty = "Baciocchi"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Maria Beatrice"
+		dynasty = "d'Este"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+# (From 1829 to 1859 the Duchy di Massa-Carrara is annexed by the Duchy of Modena)

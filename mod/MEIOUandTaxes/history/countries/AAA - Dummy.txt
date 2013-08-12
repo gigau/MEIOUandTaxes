@@ -1,0 +1,18 @@
+# AAA - Dummy
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = -1
+# serfdom_freesubjects = 3
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = francien
+religion = catholic
+technology_group = western
+capital = 102

@@ -1,0 +1,60 @@
+# 546 - Gondoranya
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLG
+controller = TLG
+culture = telegu
+religion = hinduism
+capital = "Warangal"
+trade_goods = copper
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 42000
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = GOC
+	add_core = TLG
+}
+1450.1.1 = { citysize = 45000 }
+1458.1.1 = {
+	controller = ORI
+} # Conquered by Gajapatis
+1459.1.1 = {
+	owner = ORI
+} # Conquered by Gajapatis
+1467.1.1 = {
+	controller = BAH
+} #Conquered by Bahmanis
+1468.1.1 = {
+	owner = BAH
+} # Conquered by Bahmanis
+1490.1.1 = {
+	remove_core = BAH 
+	owner = GOC
+	controller = GOC
+} # The Breakup of the Bahmani sultanate # Qutb Shahi dynasty
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 38000 }
+1550.1.1 = { citysize = 36000 }
+1600.1.1 = { citysize = 37000 }
+1650.1.1 = { citysize = 38000 }
+1686.1.1 = {
+	controller = MUG
+}
+1687.1.1 = {
+	owner = MUG
+}
+1700.1.1 = { citysize = 39000 }
+1712.1.1 = { add_core = HYD }	#Viceroyalty of the Deccan
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+} # Asif Jah declared himself Nizam-al-Mulk
+1750.1.1 = { citysize = 42000 }
+1800.1.1 = { citysize = 46000 }

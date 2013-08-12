@@ -1,0 +1,303 @@
+#URB - Urbino
+#2010-jan-27 FB-HT3 - make HT3 changes
+#2011-jan-15 FB Ghibelline Alliances
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 0	###1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 4		###1
+# land_naval = -4			###1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2	###0
+# secularism_theocracy = -1	##1
+technology_group = western
+primary_culture = umbrian
+religion = catholic
+capital = 1414	# Urbino
+
+#Ghibelline Alliances:
+# historical_friend = MOD
+# historical_friend = PIS
+# historical_friend = SIE
+
+#Counts of Urbino
+1322.1.1 = {
+	monarch = {
+		name = "Guido II"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1360.1.1 = {
+	monarch = {
+		name = "Federico II"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Antonio"
+		monarch_name = "Antonio"
+		dynasty = "da Montefeltro"
+		birth_date = 1350.1.1
+		death_date = 1404.1.1
+		claim = 95
+		DIP = 6
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1363.1.1 = {
+	monarch = {
+		name = "Antonio"
+		dynasty = "da Montefeltro"
+		DIP = 6
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1377.1.1 = {
+	heir = {
+		name = "Gidantonio"
+		monarch_name = "Gidantonio"
+		dynasty = "da Montefeltro"
+		birth_date = 1377.1.1
+		death_date = 1443.2.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Gidantonio"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1428.1.1 = {
+	heir = {
+		name = "Oddantonio"
+		monarch_name = "Oddantonio"
+		dynasty = "da Montefeltro"
+		birth_date = 1428.1.1
+		death_date = 1444.7.22
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+
+#Dukes of Urbino
+1443.2.1 = {
+	government = feudal_monarchy_4
+	monarch = {
+		name = "Oddantonio"
+		dynasty = "da Montefeltro"
+		DIP = 6
+		ADM = 3
+		MIL = 5
+	}
+	heir = {
+		name = "Federigo"
+		monarch_name = "Federigo III"
+		dynasty = "da Montefeltro"
+		birth_date = 1422.6.7
+		death_date = 1482.9.10
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1444.7.22 = {
+	monarch = {
+		name = "Federigo III"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1472.1.17 = {
+	heir =  {
+		name = "Guidobaldo"
+		monarch_name = "Guidobaldo"
+		dynasty = "da Montefeltro"
+		birth_date = 1472.1.17
+		death_date = 1508.4.10
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1482.9.10 = {
+	monarch = {
+		name = "Guidobaldo"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1490.3.22 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco"
+		dynasty = "da Montefeltro"
+		birth_date = 1490.3.22
+		death_date = 1538.10.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1502.1.1 = {
+	monarch = {
+		name = "Cesare"
+		dynasty = "Borgia"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1503.8.19 = {
+	monarch = {
+		name = "Guidobaldo"
+		dynasty = "da Montefeltro"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco"
+		dynasty = "da Montefeltro"
+		birth_date = 1490.3.22
+		death_date = 1538.10.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1508.4.11 = {
+	monarch = {
+		name = "Francesco"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1516.5.30 = {
+	monarch = {
+		name = "Lorenzo"
+		dynasty = "de' Medici"
+		DIP = 8
+		ADM = 6
+		MIL = 8
+	}
+} #Same as Lorenzo II di Medici of Florence
+
+1519.5.4 = {
+	monarch = {
+		name = "Caterina"
+		dynasty = "della Rovere"
+		female = yes
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1521.12.22 = {
+	monarch = {
+		name = "Francesco"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+} #Same as above, restored
+
+1528.10.20 = {
+	monarch = {
+		name = "Guidobaldo II"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1549.2.20 = {
+	heir = {
+		name = "Francesco Maria"
+		monarch_name = "Francesco Maria II"
+		dynasty = "della Rovere"
+		birth_date = 1549.2.20
+		death_date = 1631.4.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1574.9.28 = {
+	monarch = {
+		name = "Francesco Maria II"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1621.7.25 = {
+	monarch = {
+		name = "Francesco Ubaldo"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1623.6.29 = {
+	monarch = {
+		name = "Francesco Maria II"
+		dynasty = "della Rovere"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+} #Same as above, restored
+
+#Annexed by Papal States 1631.4.28

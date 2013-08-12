@@ -1,0 +1,45 @@
+# 2662 - Mistratah
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TRP
+controller = TRP
+culture = tuareg
+religion = sunni
+capital = "Mistratah"
+trade_goods = ivory
+hre = no
+base_tax = 1 #3	#1 dao49 #2
+#manpower = 1 #2	#1 dao49 #1
+manpower = 2 #2	#1 dao49 #1
+citysize = 1100
+fort1 = yes
+
+discovered_by = KBO
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = western
+
+1356.1.1  = {
+	add_core = TRP
+}
+1450.1.1  = { citysize = 1200 }
+1500.1.1  = { citysize = 1557 }
+1550.1.1  = { citysize = 2079 }
+1551.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = KNI
+} # Under direct Ottoman control until 1629
+1600.1.1  = { citysize = 2330 marketplace = yes }
+1609.1.1  = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # Janissary revolt
+1610.1.1  = { revolt = {} controller = TUR }
+1650.1.1  = { citysize = 3091 }
+1700.1.1  = { citysize = 3684 }
+1711.1.1 = {
+	owner = TRP
+	controller = TRP
+} # The Karamanli pashas gain some autonomy as the Ottoman central power weakens
+1750.1.1  = { citysize = 4075 }
+1800.1.1  = { citysize = 4405 }

@@ -1,0 +1,6 @@
+#Crayer
+type = big_ship
+
+hull_size = 9
+base_cannons = 11
+sail_speed = 6

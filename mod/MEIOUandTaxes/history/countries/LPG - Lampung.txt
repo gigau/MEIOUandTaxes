@@ -1,0 +1,33 @@
+# LPG - Lampung
+# MEIOU-FB Indonesia mod
+# MEIOU-GG Govenemnt changes
+# FB-TODO needs rulers until 1552.1.1
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = -3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 0
+technology_group = austranesian		# MEIOU-FB - was: chinese
+primary_culture = sumatran
+religion = hinduism
+capital = 623
+
+1337.1.1 = {
+	monarch = {
+		name = "Purwawisesa"
+		dynasty = "Gunungjati"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+

@@ -1,0 +1,50 @@
+# 162 - Maramures
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN
+culture = transylvanian
+religion = orthodox
+capital = "Sighet"
+
+trade_goods = copper
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 5000
+
+hre = no
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = { citysize = 6020 }
+1526.8.30  = {
+	owner = TRA
+	controller = TRA
+	add_core = RHU
+	add_core = HAB
+	add_core = TRA
+}
+1550.1.1   = { citysize = 7000 }
+#1570.8.16  = { owner = TRA controller = TRA } # Abdication of Janos II as king of Hungary, becomes prince of Transylvania
+1600.1.1   = { citysize = 8000 }
+1650.1.1   = { citysize = 9000 }
+1695.1.1 = {
+	remove_core = RHU
+}
+1700.1.1   = { citysize = 10000 }
+1711.5.1   = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # Ceded to Austria The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+1750.1.1   = { citysize = 11000 }
+1800.1.1   = { citysize = 12000 }

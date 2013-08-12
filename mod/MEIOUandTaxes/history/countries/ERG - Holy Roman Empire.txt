@@ -1,0 +1,20 @@
+# ERG - Holy Roman Empire
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_1
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 3
+technology_group = western
+primary_culture = prussian
+religion = catholic
+capital = 50	# Berlin
+
+1750.1.1 = { government = constitutional_republic }

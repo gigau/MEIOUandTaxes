@@ -1,0 +1,24 @@
+# 1105 - Gurma
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GUR
+controller = GUR
+culture = mossi
+religion = animism
+capital = "Gurma"
+
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = ivory
+
+hre = no
+
+fort1 = yes
+
+discovered_by = soudantech
+
+1356.1.1   = {
+	add_core = GUR
+}

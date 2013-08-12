@@ -1,0 +1,31 @@
+# YDU - Yidu
+# LS - Chinese Civil War
+
+government = chinese_monarchy_2a
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = -1
+# land_naval = 2
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 3
+technology_group = chinese
+religion = confucianism
+primary_culture = hanyu
+add_accepted_culture = jinyu
+add_accepted_culture = zhongyuan
+capital = 1041
+
+1338.1.1 = {
+	monarch = {
+		name = "Mao Gui"
+		dynasty = "Sheng"
+		ADM = 8
+		DIP = 6
+		MIL = 8
+	}
+	set_country_flag = rising_nation
+}

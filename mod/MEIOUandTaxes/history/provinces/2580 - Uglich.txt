@@ -1,0 +1,66 @@
+# 2580 - Uglich
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOS
+controller = MOS
+culture = russian
+religion = orthodox
+capital = "Uglich"
+
+hre = no
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4167
+trade_goods = wheat
+
+fort1 = yes
+marketplace = yes
+#temple = yes
+constable = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = MOS
+}
+1460.1.1  = { marketplace = yes }
+#1479.1.1  = { temple = yes } # Cathedral of the Dormition, main church of Moscow
+1500.1.1  = { citysize = 4902 }
+1505.1.1  = { regimental_camp = yes fort2 = yes } # Reconstruction of the Kremlin
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 5768 constable = yes }
+1555.1.1  = { temple = yes } # Saint Basil's cathedral
+1560.1.1  = { base_tax = 4 } # Treasury reform
+1571.1.1  = { citysize = 5310 } # City is burned by the Crimean Khanate
+#1572.1.1  = { cot = yes }
+1580.1.1  = { base_tax = 3 }
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 6786 }
+1610.9.27 = { controller = POL } # Polish-Lithuanian occupation
+1612.11.4 = { controller = RUS } # Knyaz Dmitry Pozharsky expelles the Polish troops.
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 7983 courthouse = yes }
+1670.1.1  = { revolt_risk = 8 } # Stepan Razin
+1671.1.1  = { revolt_risk = 0 } # Razin is captured
+1700.1.1  = { citysize = 9392 }
+1701.1.1  = { fort3 = yes } # Arsenal, built for Peter the Great
+1711.1.1  = { base_tax = 4 mint = yes } # Governmental reforms and the absolutism
+1726.1.1  = { workshop = yes }
+1750.1.1  = { citysize = 11050 }
+1755.1.1  = { university = yes } # Moscow state university
+1767.1.1  = { base_tax = 5 } # Legislative reform
+1773.1.1  = { revolt_risk = 5 } # Emelian Pugachev, Cossack insurrection
+1774.9.14 = { revolt_risk = 0 } # Pugachev is captured
+1800.1.1  = { citysize = 13000 }
+1812.9.15  = { controller = RFR } # Napoleon enters Moscow
+1812.10.19 = { controller = RUS } # Napoleon begins to retreat

@@ -1,0 +1,71 @@
+# 2717 - Khyrpur
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SND
+controller = SND
+culture = sindhi
+religion = sunni
+capital = "Bhakkar"
+trade_goods = cotton
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 4650
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = SND
+}
+1362.1.1 = {
+	owner = DLH
+	controller = DLH
+}
+1388.1.1 = {
+	owner = SND
+	controller = SND
+}
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 5800 religion = sunni }
+1520.7.1 = {
+	controller = KAB
+} # Arghuns
+1521.1.1 = {
+	controller = SND
+} # Arghuns + tag change
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+} # Sur Expansionism
+1545.1.1 = {
+	owner = SND
+	controller = SND
+} # Sher Shah dies
+1550.1.1 = { citysize = 6780 }
+1591.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Integrated into Mughal Empire
+1600.1.1 = {
+	discovered_by = TUR
+	citysize = 7350
+}
+1650.1.1 = { citysize = 8500 marketplace = yes }
+1700.1.1 = { citysize = 9790 }
+1739.1.1 = {
+	owner = SND 
+	controller = SND
+	remove_core = MUG
+}
+1750.1.1 = { citysize = 11170 }
+1800.1.1 = { citysize = 12640 }
+1839.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}

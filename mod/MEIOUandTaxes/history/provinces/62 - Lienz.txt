@@ -1,0 +1,52 @@
+# 62 - Lienz
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GOR
+controller = GOR
+add_core = GOR
+culture = austrian
+religion = catholic
+capital = "Lienz"
+
+hre = yes
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = wheat
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+
+
+1356.1.1 = { citysize = 4000	set_province_flag = terrain1 }
+1399.1.1 = { citysize = 4300 }
+1453.1.1 = { citysize = 5000 }
+1500.1.1   = {
+	citysize = 5000
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+}
+1508.1.1   = {
+	owner = VEN
+	controller = VEN
+}
+1510.1.1   = {
+	owner = HAB
+	controller = HAB
+}
+1525.3.1   = { revolt_risk = 6 } # Peasant Revolts
+1525.9.1   = { revolt_risk = 0 }
+1540.1.1   = { constable = yes }
+1550.1.1   = { citysize = 6000 }
+1600.1.1   = { citysize = 6400 }
+1650.1.1   = { citysize = 6800 }
+1700.1.1   = { citysize = 7000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

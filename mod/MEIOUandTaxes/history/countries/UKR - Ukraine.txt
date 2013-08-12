@@ -1,0 +1,113 @@
+#UKR - Ukraine
+#MEIOU-GG Governemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 280	# Kiev
+
+1648.1.1 = {
+	set_country_flag = ukrainian_culture
+	monarch = {
+		name = "Bohdan"
+		dynasty = Chmielnicki
+		adm = 3
+		dip = 7
+		mil = 9
+		leader = { name = "Bohdan Chmielnicki" type = general	rank = 0	fire = 1	shock = 4	manuever = 5	siege = 1 }
+	}
+}
+
+1657.1.1 = {
+	monarch = {
+		name = "Iwan Wyhowski"
+		dynasty = Chmielnicki
+		adm = 3
+		dip = 3
+		mil = 7
+		leader = { name = "Iwan Wyhowski" type = general	rank = 0	fire = 1	shock = 3	manuever = 4	siege = 0 }
+	}
+}
+
+1659.1.1 = {
+	monarch = {
+		name = "Jurij"
+		dynasty = Chmielnicki
+		adm = 3
+		dip = 7
+		mil = 9
+		leader = { name = "Jurij Chmielnicki" type = general	rank = 0	fire = 1	shock = 1	manuever = 1	siege = 0 }
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Hetmani"
+		dynasty = Chmielnicki
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1687.1.1 = {
+	monarch = {
+		name = "Ivan IV"
+		dynasty = Mazepa
+		adm = 4
+		dip = 6
+		mil = 8
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Ivan V"
+		dynasty = Skoropadsky
+		adm = 4
+		dip = 8
+		mil = 8
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Pavlo II"
+		dynasty = Polubotok
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1727.1.1 = {
+	monarch = {
+		name = "Danylo"
+		dynasty = Apostol
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Kyrylo"
+		dynasty = Rozumovsky
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}

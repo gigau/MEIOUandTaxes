@@ -1,0 +1,35 @@
+#1158 - Angola
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NDO
+controller = NDO
+add_core = NDO
+culture = luba
+religion = animism
+capital = "Luanda"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3670
+trade_goods = slaves
+
+fort1 = yes
+hre = no
+
+discovered_by = LOA
+discovered_by = KON
+discovered_by = NDO
+
+1483.1.1   = { discovered_by = POR } # Diogo Cão
+1500.1.1   = { citysize = 4080 }
+1550.1.1   = { citysize = 4570 }
+1600.1.1   = { citysize = 4980 }
+1650.1.1   = { citysize = 5460 }
+1665.10.29 = {	owner = POR
+		controller = POR
+		add_core = POR
+	     } # Battle of Mbwila - Portuguese victory 
+1700.1.1   = { citysize = 5870 }
+1750.1.1   = { citysize = 6800 }
+1800.1.1   = { citysize = 7100 }

@@ -1,0 +1,28 @@
+# BER - Berry
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+technology_group = western
+primary_culture = occitain
+religion = catholic
+capital = 391	# Bourges
+
+1360.10.1 = {
+	monarch = {
+		name = "Jean I"
+		dynasty = "de Valois"
+		adm = 7
+		dip = 8
+		mil = 5
+	}
+} # Apanage to the son of Jean II le Bon
+
+# 1416.6.15 - Death of Jean I, duchy returned to the Royal Demesne

@@ -1,0 +1,5 @@
+# 1844 - Sea of Kara
+
+1581.1.1 = {
+	discovered_by = RUS 
+}

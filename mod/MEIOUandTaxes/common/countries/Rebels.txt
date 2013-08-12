@@ -1,0 +1,83 @@
+# Rebels
+
+graphical_culture = latingfx
+
+color = { 154  132  126 }
+	
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+}
+
+monarch_names = {
+	"Corneles #0" = 10
+	"Moise #0" = 10
+	"Mahieu #0" = 10
+	"Daniel #0" = 10
+	"Jacob #0" = 10
+	"Piet #0" = 10
+	"Hendrik #0" = 10
+	"David #0" = 10	
+	"John #0" = 10	
+	"Eric #0" = 10	
+}
+
+leader_names = {
+	Lowther Quelch Condent Dalzeel
+	Spriggs Condon Angre Anstis Chivers
+	Searle Hout Coxon Vynne Vane Worley
+}
+
+ship_names = {
+	"Black Pearl"
+	"Captain's Horror"
+	"Death"
+                  "Devil's Cry"
+	"Disgraceful Strumpet"
+	"Dragon's Gold"
+	"Executioner"
+                  "Hades' Doom"
+	"Hispanola"
+	"Killer's Fearful Storm"
+	"Murderer's Death"
+                  "Neptune's Hate"
+                  "Posideon's Raider"
+	"Privateer's Strumpet"
+                  "Satan's Hangman"
+                  "The Angry Mermaid"
+                  "The Bloody Privateer"
+                  "The Cruel Pirate"
+                  "The Damnation of the Sea"
+	"The Damned Killer"
+	"The Dark Dagger"
+	"The Dirty Blade"
+	"The Dirty Scream"
+	"The Doom of the Ocean"
+                  "The Doom of the Sea"
+	"The Dreaming Demon"
+	"The Fallen Raider"
+	"The Fear of the Demon"
+                  "The Flying Dutchman"
+	"The Foul Whore"
+	"The Gold Cutlass"
+                  "The Hateful Raider"
+                  "The Hate of Tortuga"
+	"The Hell-born"
+                  "The Hellish Corsair"
+	"The Horrid Compass"
+	"The Horrible Raider"
+	"The Howling Wolf"
+	"The Lustful Hangman"
+                  "The Mad Wolf"
+	"The Nightmare"
+	"The Poison Death"
+                  "The Pride of the Shark"
+                  "The Red Shame"
+	"The Serpent"
+                  "The Shame of Hell"
+	"The Vicious Murderer"
+                  "The Vicious Wolf"
+	"The Vile Saber"
+                  "The Wandering Blade"
+                  "The Wandering Star"
+}

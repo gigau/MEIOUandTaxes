@@ -1,0 +1,56 @@
+# 426 - Mazandaran
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MZA
+controller = MZA
+culture = tabari
+religion = sunni
+capital = "Mazandaran"
+trade_goods = wool
+hre = no
+university = yes
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 1600
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = MZA
+}
+1382.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1405.1.1  = {
+	owner = MZA
+	controller = MZA
+} # Death of Tamerlane
+1500.1.1  = { citysize = 880 }
+1550.1.1  = { citysize = 2010 }
+1595.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	religion = shiite
+} # The Safavids took over, Shi'ism becomes the state religion
+1600.1.1  = { citysize = 2410 }
+1650.1.1  = { citysize = 2740 }
+1700.1.1  = { citysize = 3066 }
+1747.1.1  = { revolt_risk = 3 } # Shah Nadir is killed, local khanates emerged
+1749.1.1  = {
+	revolt_risk = 0
+	owner = MZA
+	controller = MZA
+} # The empire began to decline
+1750.1.1  = { citysize = 3700 }
+1779.1.1  = {
+	owner = PER
+	controller = PER
+} # With the Qajar dynasty the situation stabilized
+1800.1.1  = { citysize = 4350 }

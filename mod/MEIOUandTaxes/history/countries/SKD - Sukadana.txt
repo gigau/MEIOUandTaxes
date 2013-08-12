@@ -1,0 +1,18 @@
+# SKD - Sukadana
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+primary_culture = dayak
+religion = theravada
+technology_group = chinese
+capital = 2090	# Sudakane
+
+1622.1.1 = { religion = sunni }

@@ -1,0 +1,71 @@
+# 503 - Kachchh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KAT
+controller = KAT
+culture = saurashtri
+religion = hinduism 
+capital = "Lakhiyarvira"
+trade_goods = rice
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 6000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = KAT
+	add_core = GUJ
+}
+1450.1.1 = { citysize = 7000 }
+1472.1.1 = {
+	owner = GUJ
+	controller = GUJ
+} #Conquered by Gujarat from Tribes
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 11000 }
+1510.1.1 = { capital = Bhuj }
+1544.1.1 = {
+	owner = BNG
+	controller = BNG
+} #Sur Expansionism
+1545.1.1 = {
+	owner = SND
+	controller = SND
+} #Death of Sher Shah Sur
+1550.1.1 = { citysize = 14000 }
+1591.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} #Under some form of Mughal control, was raided from time to time by them since 1573
+1600.1.1 = {
+	citysize = 18000
+	marketplace = yes
+	discovered_by = TUR
+}
+1650.1.1 = { citysize = 24000 }
+1700.1.1 = { citysize = 26000 }
+1725.1.1 = {
+	owner = GAK
+	controller = GAK
+	add_core = GAK
+	remove_core = MUG	
+}
+1750.1.1 = { citysize = 27000 }
+1800.1.1 = { citysize = 29000 }
+1802.1.1 = {
+	owner = KAT
+	controller = KAT
+	remove_core = GAK	
+}
+1819.1.1 = {
+	owner = GBR
+	controller = GBR
+	remove_core = KAT	
+}

@@ -1,0 +1,61 @@
+#Province:  Haydaràbàd
+#file name: 545 - Haydarabad
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLG
+controller = TLG
+culture = telegu
+religion = hinduism
+capital = "Golconda"
+trade_goods = lumber
+hre = no
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 22000
+fort1 = yes
+fort2 = yes
+marketplace = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = GOC
+	add_core = TLG
+}
+1365.1.1  = {
+	owner = BAH
+	controller = BAH
+	add_core = GOC
+	add_core = TLG
+	citysize = 17200
+}
+1405.1.1  = {
+	add_core = BAH
+}
+1490.1.1  = {
+	owner = GOC
+	controller = GOC
+	remove_core = BAH
+} # The Breakup of the Bahmani sultanate
+1500.1.1  = { citysize = 21500 }
+1550.1.1  = { citysize = 24200 fort2 = yes }
+1600.1.1  = { citysize = 27800 temple = yes discovered_by = turkishtech }
+1650.1.1  = { citysize = 31300 }
+1687.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by the mughal emperor Aurangzeb
+1700.1.1 = { citysize = 35100 workshop = yes }
+1707.5.12 = { discovered_by = GBR }
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	add_core = HYD
+	remove_core = MUG
+	capital = "Haydaràbàd"
+} # Asif Jah declared himself Nizam-al-Mulk of Haydaràbàd
+1750.1.1 = { citysize = 39600 courthouse = yes }
+1800.1.1 = { citysize = 45100 mint = yes }

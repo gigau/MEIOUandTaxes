@@ -1,0 +1,51 @@
+#Province: Visakhapatnam
+#file name: 552 - Visakhapatnam
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORI
+controller = ORI
+culture = oriya
+religion = hinduism
+capital = "Visakhapatnam"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 16410
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = ORI
+}
+1400.1.1  = { citysize = 18200 }
+1505.1.1 = { citysize = 22700 discovered_by = POR }
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1550.1.1  = { citysize = 25500 discovered_by = steppestech }
+1592.1.1 = {
+	owner = GOC
+	controller = GOC
+	add_core = GOC
+}
+1600.1.1  = { citysize = 28800 temple = yes }
+1650.1.1  = { citysize = 32300 marketplace = yes}
+1682.1.1  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	mint = yes
+	discovered_by = ENG
+} # Indebted to France for his independance, Asf Jah gives the province to the French East India Company
+1700.1.1  = { citysize = 36100 }
+1707.5.12 = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}
+1750.1.1  = { citysize = 40600 }
+1800.1.1 = { citysize = 46100 workshop = yes }

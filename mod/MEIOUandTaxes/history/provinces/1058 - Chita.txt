@@ -1,0 +1,47 @@
+# 1058 - Barguzinski
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = daur
+religion = shamanism
+capital = "Barguzinsky"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 4070
+add_core = MCH
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 5785 }
+1550.1.1 = { citysize = 6799 }
+1600.1.1 = { citysize = 6800 }
+1632.1.1 = { discovered_by = RUS }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	culture = manchu
+	remove_core = MCH
+} # The Qing Dynasty
+1650.1.1 = { citysize = 7465 }
+1700.1.1 = { citysize = 8100 }
+1750.1.1 = { citysize = 8653 }
+1800.1.1 = { citysize = 9240 }
+
+#1653.1.1 = {
+#	owner = RUS
+#	controller = RUS
+#   	religion = orthodox
+#   	culture = russian
+#	citysize = 470
+#	trade_goods = fur
+#} # Pyotr Beketov
+#1678.1.1 = {
+#	add_core = RUS
+#   	citysize = 1050
+#}
+#1700.1.1 = { citysize = 1215 }
+#1750.1.1 = { citysize = 1435 }

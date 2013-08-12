@@ -1,0 +1,41 @@
+# 278 - Ugra
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = uralic 
+religion = shamanism
+capital = "Ust-Vym"
+hre = no
+trade_goods = subsistence
+base_tax = 1
+#manpower = 0
+manpower = 0
+native_size = 50
+native_ferocity = 2
+native_hostileness = 5
+discovered_by = eastern
+
+
+1380.1.1 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	religion = orthodox
+	culture = pomor
+} # Stefan of Perm mission
+1500.1.1  = { citysize = 200 marketplace = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 500 }
+1580.1.1  = { marketplace = yes } # Became a wealthy and important trade and transport center
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 1000 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 2000 }
+1670.1.1  = { temple = yes } # Dedicated to the Domition of Mary, rebuilt in the 17th century
+1700.1.1  = { citysize = 3000 }
+1750.1.1  = { citysize = 5000 }
+1800.1.1  = { citysize = 7500 }

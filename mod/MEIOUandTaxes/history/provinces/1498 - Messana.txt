@@ -1,0 +1,39 @@
+# 1498 - Macina
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = mali
+religion = sunni
+capital = "Macina"
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 15000
+trade_goods = millet
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+
+hre = no
+
+1356.1.1  = {
+	add_core = MAL
+	add_core = MSN
+}
+1433.1.1  = {
+	owner = TUA
+	controller = TUA
+}
+1458.1.1  = {
+	owner = SON
+	controller = SON
+}	
+1490.1.1 = {
+	owner = MSN
+	controller = MSN
+}

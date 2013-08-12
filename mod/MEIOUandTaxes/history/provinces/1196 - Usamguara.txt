@@ -1,0 +1,19 @@
+#1196 - Usamguara
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = kikuyu
+religion = animism
+capital = "Maasai"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+trade_goods = crops # wool
+
+native_ferocity = 4.5
+native_hostileness = 9 
+native_size = 40
+
+hre = no
+
+discovered_by = KIT

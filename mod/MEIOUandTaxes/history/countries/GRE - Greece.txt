@@ -1,0 +1,55 @@
+# GRE - Greece
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 1
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = 0
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 146	# Athens
+
+1821.3.1 = {
+	capital = 1399
+}
+1829.1.1 = {
+	government = constitutional_republic
+	# secularism_theocracy = -2
+	monarch = {
+		name = "Ioannis Kapodistrias"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1832.1.1 = {
+	government = feudal_monarchy_2
+	# secularism_theocracy = 0
+	monarch = {
+		name = "Otto von Wittelsbach"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1834.1.1 = {
+	capital = 146
+}
+1863.1.1 = {
+	monarch = {
+		name = "Georg I von Oldenburg"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}

@@ -1,0 +1,51 @@
+# Bergenhus
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOR
+controller = NOR
+add_core = NOR
+#add_core = VES
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = wheat
+#manpower = 2
+manpower = 4
+capital = "Bergen"
+fort1 = yes
+citysize = 1100 # Estimated
+discovered_by = western
+discovered_by = eastern
+
+1500.1.1  = { citysize = 1280 }
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+}
+1531.11.1 = {
+	revolt = { type = nationalist_rebels size = 0 }
+	controller = REB
+} #The Return of Christian II
+1532.7.15 = {
+	revolt = {  }
+	controller = DAN
+}
+1536.1.1  = { religion = protestant} #Unknown date
+1550.1.1  = { citysize = 1580 }
+1600.1.1  = { citysize = 2400 }
+1641.1.1  = {
+	marketplace = yes
+}
+1650.1.1  = { citysize = 4380 }
+1700.1.1  = { citysize = 9500 }
+1750.1.1  = { citysize = 12000 }
+1800.1.1  = { citysize = 15240 }
+1814.1.14  = {
+	owner = SWE
+	revolt = { type = nationalist_rebels size = 2 } controller = REB
+	remove_core = DAN
+} # Norway is ceded to Sweden following the Treaty of Kiel
+1814.5.17 = { revolt = {  } owner = NOR controller = NOR }

@@ -1,0 +1,195 @@
+# Gelre / Gelderland
+# GEL
+
+# Modded by Solo for MEIOU
+# See Holland.txt for details about the dutch lists
+
+graphical_culture = latingfx
+
+color = { 139  66  97 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+  "Reinoud #3" = 20
+  "Willem #0" = 20
+  "Adolf #0" = 10
+  "Arnold #0" = 10
+  "Eduard #0" = 10
+  "Karel #0" = 10
+  "Maximiliaan #0" = 10
+  "Frederick #0" = 5
+  "Hendrik #1" = 5
+  "Jan #0" = 5
+  "Lodewijk #0" = 5
+  "Philip #0" = 5
+  "Anna #0" = -1
+  "Catharina #0" = -1
+  "Jacoba #0" = -1
+  "Joanna #0" = -1
+  "Lysbet #0" = -1
+  "Magriet #0" = -1
+  "Maria #0" = -5
+  "Mechteld #0" = -5
+  "Abraham #0" = 0
+  "Adam #0" = 0
+  "Adriaen #0" = 0
+  "Adriaen #0" = 0
+  "Adriaen #0" = 0
+  "Albrecht #0" = 0
+  "Albrecht Jansz #0" = 0
+  "Andries #0" = 0
+  "Andries #0" = 0
+  "Anthonis #0" = 0
+  "Anthonis #0" = 0
+  "Anthonis Hendrik #0" = 0
+  "Aernout #0" = 0
+  "Bastiaen #0" = 0
+  "Claes #0" = 0
+  "Claes #0" = 0
+  "Coert #0" = 0
+  "Cornelis #0" = 0
+  "Cornelis #0" = 0
+  "Cornelis #0" = 0
+  "Cornelis #0" = 0
+  "Cornelis Jacobsz #0" = 0
+  "Cornelis Jan #0" = 0
+  "Cristoffel #0" = 0
+  "Dirck #0" = 0
+  "Dirck #0" = 0
+  "Egbert #0" = 0
+  "Floris #0" = 0
+  "Frans #0" = 0
+  "Frans Willem #0" = 0
+  "Frederick #0" = 0
+  "Gerard #0" = 0
+  "Gerrit #0" = 0
+  "Gerrit #0" = 0
+  "Gerrit Jacob #0" = 0
+  "Gijsbert #0" = 0
+  "Gillis #0" = 0
+  "Harmen #0" = 0
+  "Hendrik #0" = 0
+  "Hendrik #0" = 0
+  "Hendrik #0" = 0
+  "Herman Willem #0" = 0
+  "Jacob #0" = 0
+  "Jacob #0" = 0
+  "Jacob #0" = 0
+  "Jacob #0" = 0
+  "Jacob Cornelisz #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan #0" = 0
+  "Jan Baptiste #0" = 0
+  "Jan Cornelisz #0" = 0
+  "Jan Elias #0" = 0
+  "Jan Gerritsz #0" = 0
+  "Jan Jacob #0" = 0
+  "Jan Willem #0" = 0
+  "Jaspar #0" = 0
+  "Jeremias #0" = 0
+  "Joos #0" = 0
+  "Joos #0" = 0
+  "Joris #0" = 0
+  "Karel #0" = 0
+  "Laurens #0" = 0
+  "Laurens Pietersz #0" = 0
+  "Lenaert #0" = 0
+  "Maerten #0" = 0
+  "Matthys #0" = 0
+  "Michiel #0" = 0
+  "Nicolaes #0" = 0
+  "Philip #0" = 0
+  "Pieter #0" = 0
+  "Pieter #0" = 0
+  "Pieter #0" = 0
+  "Pieter #0" = 0
+  "Pieter Jansz #0" = 0
+  "Pouwels #0" = 0
+  "Reinier #0" = 0
+  "Samuel #0" = 0
+  "Symon #0" = 0
+  "Willem #0" = 0
+  "Willem #0" = 0
+  "Willem #0" = 0
+  "Willem #0" = 0
+  "Willem #0" = 0
+  "Willem Cornelisz #0" = 0
+  "Willem Hendrik #0" = 0
+  "Willem Pietersz #0" = 0
+  "Wouter #0" = 0
+}
+
+leader_names = {
+  "Alting" "Appelman" 
+  "Backer" "Basgen" "Bavinck" "Bicker" "Boelens" "Boom" "Boreel" "Brouwer" "Burgh" "Buys" 
+  "Camphuys" "Coomans" "Corver" "Cromhout" "Daendels" "Duyvel"
+  "de Bruijn" "de Graeff" "de Grande" "de Haan" "de Haze" "de Houtman" "de Jonge" "de Klerk" "de Laet" "de Lange" "de Maets" "de Meij" "de Moor" 
+  "de Ruyter" "de Veer" "de Verwer" "de Vicq" "de Vlamingh" "de Vries" "de Vroede" "de Vry" "de Wael" "de Weert" "de Wisselaer" "de Witt" 
+  "Gartman" "Geelvinck" "Graefland" 
+  "Hartog" "Hasselaer" "Hollandt" "Hooft" "Hudde" "Huydecoper" "Huyghens" "Huysman" 
+  "Kaekmes" "Kieft" "Kortenaer" "Krul" "Kuyper" 
+  "Leusden" "Maetsuycker" "Munter" "Nuyts" "Opmeer" 
+  "Reael" "Rendorp" "Reynst" "Roggeveen" "Ruysch" 
+  "Sautyn" "Schaep" "Sillemoer" "Speelman" "Spiegel" "Stanssen" "Steyn" "Stuyver" "Stuyvesant" "Swickers" 
+  "ten Hove" "Trip" "Tromp" "Valckenier" 
+  "van Aarssens" "van Amerongen" "van Baerle" "van Bambeek" "van Berghe" "van Beuningen" "van Beverwaarde" "van Bleiswijk" "van Borselen" "van Brandwijk" 
+  "van Breen" "van Cloon" "van Collen" "van Cuyck" "van de Poll" "van de Spiegel" "van de Vecht" "van de Voort" "van de Wert" "van den Bempden" "van den Berge" 
+  "van den Bosch" "van der Anxter" "van der Burgh" "van der Dussen" "van der Haar" "van der Heim" "van der Kerckhovenn" "van der Lijn" "van der Meer" 
+  "van der Parra" "van der Schelling" "van der Stel" "van der Vorm" "van Diemen" "van Doorn" "van Ecke" "van Egmont" "van Eijck" "van Empel" "van Everdingen" 
+  "van Foreest" "van Gelre" "van Ghistele" "van Goens" "van Goorle" "van Gruuthuse" "van Halmael" "van Heemskerck" "van Helsdingen" "van Hoorn" "van Hoornbeek" 
+  "van Hoppen" "van Hoppen" "van Imhoff" "van Lalaing" "van Lannoy" "van Leyden" "van Loon" "van Marwijck" "van Masch" "van Meurs" "van Nassau" "van Nassau-Breda" 
+  "van Neck" "van Nijvelt" "van Noort" "van Oldenbarnevelt" "van Ooy" "van Outhoorn" "van Overstraten" "van Rensselaer " "van Riebeeck" "van Riemsdijk" "van Rietvelt" 
+  "van Rijn" "van Schellinkhout" "van Slingelandt" "van Someren" "van Spilbergen" "van Steenre" "van Stryen" "van Swol" "van Teylingen" "van Twiller" "van Tyell" 
+  "van Veen" "van Vlaanderen" "van Vlooswyck" "van Warwyck" "van Wassenaer" "van Waveren" "van Zeeberg" "van Zuydoort" 
+  "Velters" "Verhulst" "Verschuere" "Verstegen" "Witsen" "Wormbouts" "Woutman" "Zwaardecroon"
+}
+
+ship_names = {
+  "Admiraal Generaal" "Aemilia" "Akerboom" "Amsterdam" "Assendelft" 
+  "Batavia" "Beemsterlus" "Beschermer" "Beurs van Amsterdam" "Bever" "Blauwe Duiff" "Boekenroode" "Boetzelaer" "Bonte Koe" "Brandaris" "Brant van Troyen" 
+  "Brederode" "Buis" "Caleb" "Calmer Sleutel" "Campen" "Carolus Quintus" "Coninck David" "Damiaten" "de Arent" "de Eendracht" "de Liefde" "de Moesman" 
+  "de Nassau" "de Purmer" "de Sint Pieter" "de Trouw" "de Vergulde Beer" "de Vergulde Bever" "de Vergulde Meulen" "de Vergulde Otter" "de Zeven Provinciën" 
+  "Delfland" "Delft" "den Harinck" "den Houten" "den Otter" "den Waterhondt" "Doesburg" "Dolphyn" "Dordrecht" "Draetvelt" "Drie Helden Davids" "Drie Koning" 
+  "Duinveld" "Duivenvoorde" "Eendracht" "Eenhoorn" "Erasmus van Rotterdam" "Eyckenboom" "Fredrik Hendrik" "Gekruyste Hart" "Gelderland" "Gelderse Blom" 
+  "Gewapende Ruyter" "Gouda" "Gouden Leeuw" "Graaf Willem" "Groningen" "Groote Christoffel" "Groote Gerrit" "Groote Liefde" "Haarlem" "Hardenbroek" "Heemstede" 
+  "Hoff van Cleef" "Holland" "Hollandia" "Huis te Cruiningen" "Huis te Oosterwijk" "Huis te Swieten" "Huis van Nassau" "Jaarsveld" "Jager" "Jan Baptiste" 
+  "Jozua" "Jupiter" "Kameel" "Kampveere" "Kasteel van Egmont" "Kasteel van Medenblick" "Keurvorst van Brandenburg" "Keurvorst van Saksen" "Keurvorstin van Brandenburg" 
+  "Koning William" "Landman" "Leyden" "Loosdregt" "Louis Hendrika" "Maan" "Maas" "Matenes" "Mauritius" "Mercurius" "Middelburg" "Moriaanshoofd" "Nassauw" 
+  "Nieuw Nederland" "Oostergo" "Overwinnaer" "Pereboom" "Polaanen" "Postiljon van Smyrna" "Prins Friso" "Prins Willem" "Prins Willem" "Prinses Albertina" 
+  "Prinses Amelia" "Prinses Maria" "Prinses Roijael" "Proventie Utrecht" "Purmerender Kerck" "Ramhorst" "Reigersberg" "Rensselaerswyck" "Roozendaal" "Rosenkrans" 
+  "Salamander" "Schonauwen" "Sint Karel" "Sint Matheeus" "Sint Pieter" "Soutberg" "Souterwoude" "Stad en Lande" "Starrenburg" "Stetin" "t Huis te Nek" "te Veere" 
+  "ter Goes" "ter Meer" "The Brownfish" "Tholen" "Twikkelo" "Unie" "Utrecht" "Valckenier" "Valkenburg" "Vlissingen" "Vogelstruis" "Vrede" "Vrijheid" "Waegh" 
+  "Wapen van Noorwegian" "Wapen van Utrecht" "Waterhondt" "Watervlied" "Westergo" "Westvriesland" "Willem van Nieuhoff" "Witte Lam" "Wolfswinkel" "Zeelandia" 
+  "Zeelandt" "Zeven Provincien" "Zierikzee" "Zon" "Zwanenburg"
+}
+
+army_names = {
+	"Leger van $PROVINCE$"  }
+
+fleet_names = {  "Vloot van $PROVINCE$" 
+}

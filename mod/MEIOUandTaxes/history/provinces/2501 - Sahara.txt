@@ -1,0 +1,4 @@
+# 2501 - Sahara
+
+discovered_by = KBO
+discovered_by = YAO

@@ -1,0 +1,35 @@
+# 2682 - Bastar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BST
+controller = BST
+culture = sambalpuri
+religion = sarna_dharam
+capital = "Jagdalpur"
+trade_goods = ivory
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 11000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1  = { add_core = BST }
+#1424.1.1 Kingdom of Bastar
+1450.1.1  = { citysize = 12000 }
+1500.1.1  = { citysize = 10000 }
+1550.1.1  = { citysize = 14000 }
+1600.1.1  = { citysize = 16000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 17000 }
+1707.5.12 = { discovered_by = GBR }
+1741.1.1  = { controller = MAR }	#Maratha expansion
+1743.1.1  = {
+	owner = BHO
+	controller = BHO
+	add_core = BHO
+} # Marathas (Bhonsle)
+1750.1.1  = { citysize = 18000 }
+1800.1.1  = { citysize = 22000 }

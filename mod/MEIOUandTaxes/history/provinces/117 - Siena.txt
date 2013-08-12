@@ -1,0 +1,93 @@
+# 117 - Siena
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SIE
+controller = SIE
+culture = tuscan 
+religion = catholic 
+capital = "Siena" 
+ 
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 10000 # Estimated        
+trade_goods = marble 
+       
+fort1 = yes 
+university = yes # Founded 1240
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes							#AdL: was part of the HRE
+
+1356.1.1   = {
+	citysize = 12000
+	add_core = SIE
+}
+1450.1.1   = { citysize = 13000 }
+1500.1.1   = { citysize = 15000 } 
+1502.2.2   = {
+	owner = PAP
+	controller = PAP
+}
+1503.3.29  ={
+	owner = SIE
+	controller = SIE
+}
+1531.1.1   = { controller = SPA owner = SPA add_core = SPA }
+1550.1.1   = { citysize = 10000 } 
+1552.1.1   = { controller = FRA owner = FRA add_core = FRA }
+1555.1.1   = { controller = SPA owner = SPA remove_core = FRA }
+1557.1.1   = {
+	controller = FIR
+	owner = FIR
+	add_core = FIR
+	remove_core = SPA
+}
+1569.1.1   = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+	remove_core = FIR
+} # Pope Pius V declared Duke Cosimo I de' Medici  Grand Duke of Tuscany
+1600.1.1   = { citysize = 19000 marketplace = yes } 
+1618.1.1  =  { hre = no }
+1650.1.1   = { citysize = 19000 } 
+1700.1.1   = { citysize = 19000 } 
+1750.1.1   = { citysize = 15000 add_core = ITA } 
+1800.1.1   = { citysize = 16000 } 
+1801.2.9   = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # The Treaty of Lunéville
+1801.3.21  = {
+	owner = ETR
+	controller = ETR
+	add_core = ETR
+} # The Kingdom of Etruria
+1807.12.10 = {
+	owner = RFR
+	controller = RFR
+	remove_core = ETR
+} # Etruria is annexed to France
+1814.4.11   = {
+	owner = TUS
+	controller = TUS
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates and Tuscany is restored
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

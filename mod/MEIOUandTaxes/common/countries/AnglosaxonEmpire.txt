@@ -1,0 +1,111 @@
+# Anglosaxon Empire
+# ASE
+
+graphical_culture = latingfx
+
+color = { 155 147 180 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Æthelstan #2" = 50
+	"Cynewulf #0" = 50
+	"Ceolwulf #0" = 50
+	"Æthelheard #1" = 50
+	"Seaxburh #0" = 50
+	"Beowulf #2" = 50
+	"Cynric #2" = 50
+	"Wulfstan #1" = 50
+	"Leofric #1" = 50
+	"Aescwine #0" = 50
+	"Beorhtric #0" = 50
+	"Harald #1" = 50
+	"Penda #0" = 20
+	"Swithelm #0" = 20
+	"Sexred #0" = 20
+	"Sighere #0" = 20
+	"Saelred #0" = 20
+	"Aescwine #0" = 20
+	"Swithred #0" = 10
+	"Berthun #0" = 10
+	"Andhun #0" = 10
+	"Edric #0" = 10
+	"Æthelwalh #0" = 10
+	"Ealdwulf #0" = 10
+	"Oslac #0" = 10
+	"Nothelm #0" = 10
+	"Beorthwulf #0" = 5
+	"Burgred #0" = 5
+	"Ealdorman #0" = 5
+	"Egbert #0" = 5
+	"Ecfrith #0" = 5
+	"Wiglaf #0" = 5
+	"Cenred #0" = 5
+	"Wulfhere #0" = 5
+	"Coel #0" = 5
+	"Cuthred #0" = 5
+	"Leoric #0" = 5
+}
+
+leader_names = {
+	Cerdicson Leofricson Asketilsson Aelfricson Godwinson
+	Haraldson Edricson Burgredson Oslacson Egbertson
+	Beorthricson Coelson Cedricson Saelredson Wiglafson
+	Cenredson Pendason Leoricson
+	Hergesell Oelssner Rank Teichmann Taut
+	Harzer Dietze Tellig Pilz Winkler Uhlich
+	Uebigau Kranke Bieber "von Rath" Arnim
+	Hamann Kirbach Gödel Oertel Schönfeld
+	Deitz Kuhn Sehm Fischer Bretfeld Rabs
+}
+
+ship_names = {
+	Widukind Albion Walhalla Beowulf "King Leoric"
+	Yggrassil Einherjer Tyr Loki Odin Thor Hermod
+	Heimdall Grimnir Balder Rig Billing Hrimnir Hel Ýmir
+	Bejla Byggvir Völund Arngrim Reginleif Gunn Hlökk
+	Rist Herlfjötur Urd Verdandi Skuld Rist Farbauti Gymir
+	Thrym Rungnir Mimir Gjalp Ägir Mökkurkalfi Bergelmir
+	Freyr Freyja Nerthus Njörðr Vidar Vili "Magni und Modi"
+	Norðri Alfheimr Asgard Bifröst Bilskirnir Breidablik Elivagar
+	Eljudnir Fensalir Folkwang Gimle Ginnungagap Gjöll Gladsheim
+	Nifelheim Utgard Thrym "Amon Amarth" Ásmegin Bathory
+	"Blind Guardian" Fimbulthier Fejd Falkenbach Finntroll
+	Finsterforst Folkearth Forefather Gernotshagen Glittertind
+	"Grave Digger" Hammerfall Heidevolk Helrunar Korpiklaani
+	Månegarm Manowar Menhir Mithotyn Moonsorrow Myrkgrav
+	Nastrandir Nebelhorn Norther Odroerir Primordial Rabenschrey
+	Elexorien Eluveitie Elvenking Ensiferum Equilibrium Schelmish
+	Suidakra Summoning Svartsot Thrudvangar Thyrfing Trollfest
+	Turisas Týr Ulver Windir Wintersun Wolfchant Riger "XIV Drak Centuries"
+}
+
+
+army_names = {
+	"Angelsächsische Armee" "Königliche Garde" "Regiment Albion" "Regmiment Nifelheim" "Regiment Utgard" "Regiment Walhall"
+	"Regiment Asgard" Einherjer-Elitetrupp "Division Saksenland" "Division Menhir" "Division Leoric" "Armee von $PROVINCE$"
+}
+
+fleet_names = {
+	"Angelsächsische Kriegsflotte" Nordflotte Atlantikflotte Nordseeflotte "Sächsische Flotte" "Anglische Flotte"
+}

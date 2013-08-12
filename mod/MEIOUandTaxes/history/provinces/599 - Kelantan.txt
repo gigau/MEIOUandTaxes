@@ -1,0 +1,47 @@
+#Province: Kelantan
+#file name: 599 - Kelantan
+# MEIOU-FB Indonesia mod
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KEL
+controller = KEL
+add_core = KEL
+culture = malayan
+religion = theravada
+capital = "Kelantan"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 2200
+trade_goods = lumber
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = austranesian
+
+hre = no
+
+1375.1.1 = {
+	owner = AYU
+	controller = AYU
+}
+1400.1.1 = { citysize = 2490 }
+1411.1.1 = {
+	owner = KEL
+	controller = KEL
+}
+1450.1.1 = { citysize = 2900 }
+1500.1.1 = { citysize = 3540 religion = sunni }
+1550.1.1 = { citysize = 4255 }
+1600.1.1 = { citysize = 5320 }
+1650.1.1 = { citysize = 5899 }
+1700.1.1 = { citysize = 6578 }
+1750.1.1 = { citysize = 7200 }
+1800.1.1 = { citysize = 8133 }

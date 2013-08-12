@@ -1,0 +1,78 @@
+# 507 - Nizampatnam
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RED
+controller = RED
+culture = telegu
+religion = hinduism
+capital = "Guntur"
+trade_goods = rice
+hre = no
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 10250
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = RED
+	add_core = GOC
+}
+1405.1.1 = { discovered_by = chinese }
+1443.1.1 = {
+	controller = ORI
+} # Conquered by Gajapatis
+1445.1.1 = {
+	owner = ORI
+} # Conquered by Gajapatis
+1470.1.1 = {
+	owner = BAH
+	controller = BAH
+} # Result of lengthy war
+1485.1.1 = {
+	owner = ORI
+	controller = ORI
+} # Conquered by Gajapatis
+1505.1.1 = { citysize = 16100 discovered_by = POR }
+1513.1.1 = {
+	controller = VIJ
+} # Substantial Vijayanagar expansion
+1519.8.1 = {
+	owner = VIJ
+} # Substantial Vijayanagar expansion
+1550.1.1 = { citysize = 18380 }
+1565.7.1 = {
+	owner = GOC
+	controller = GOC
+	remove_core = VIJ
+} # Conquered by Golconda
+1600.1.1 = { citysize = 20600 discovered_by = turkishtech }
+1650.1.1 = { citysize = 23100 temple = yes }
+1687.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # The Mughal Empire
+1700.1.1 = { citysize = 25770 }
+1707.5.12 = { discovered_by = GBR discovered_by = FRA }
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	add_core = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1750.1.1 = {
+	citysize = 28990
+	workshop = yes
+	owner = FRA
+	controller = FRA
+	fort2 = yes
+} # To France
+1766.1.1   = {
+	owner = GBR
+	controller = GBR
+} # Northern Circars to Britain
+1800.1.1 = { citysize = 30500 }
+1814.1.1 = { add_core = GBR remove_core = HYD }

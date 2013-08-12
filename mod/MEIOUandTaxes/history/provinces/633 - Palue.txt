@@ -1,0 +1,70 @@
+#Province: Palue
+#file name: 633 - Palue
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = melanesian
+religion = austranasian
+capital = "Flores"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+#1337.1.1 = {
+#	discovered_by = MPH
+#	owner = MPH
+#	controller = MPH
+#	add_core = MPH
+#	citysize = 9000
+#}
+#1500.1.1 = {	
+#	citysize = 0
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2	
+#	owner = XXX
+#	controller = XXX	
+#	remove_core = MPH
+#}
+1515.1.1 = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+   	capital = "Solor"
+   	citysize = 1200
+	trade_goods = clove
+	set_province_flag = trade_good_set
+} # Solor became the center of the Portuguese trade
+1550.1.1 = { citysize = 1500 }
+1561.1.1 = { fort1 = yes }
+1605.1.1 = {
+	citysize = 0
+	native_size = 14
+	native_ferocity = 1
+	native_hostileness = 5
+	owner = XXX
+	controller = XXX
+} # The Portuguese are driven out by the natives
+1613.1.1 = { discovered_by = NED } # The Dutch arrived
+1618.1.1 = {
+	owner = NED
+	controller = NED
+	citysize = 1840
+} # The Dutch managed to take control
+1650.1.1 = { citysize = 2300 }
+1657.1.1 = { remove_core = POR }
+1700.1.1  = {
+	citysize = 2900
+	culture = batavian
+}
+1750.1.1 = { citysize = 3500 }
+1800.1.1 = { citysize = 4500 }

@@ -1,0 +1,40 @@
+# Kola
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = sapmi
+religion = shamanism
+capital = "Guoladat"
+trade_goods = crops # fur
+hre = no
+base_tax = 0
+#manpower = 0
+manpower = 0
+native_size = 5
+native_ferocity = 2
+native_hostileness = 1
+
+1560.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	religion = orthodox
+	discovered_by = RUS
+	hre = no
+	trade_goods = fur
+	citysize = 100
+	base_tax = 1
+	#manpower = 1
+	manpower = 2
+	capital = "Kola"
+	discovered_by = western
+	discovered_by = eastern
+	set_province_flag = trade_good_set
+}
+1600.1.1  = { citysize = 200 }
+1649.1.1  = { fort1 = yes }
+1650.1.1  = { citysize = 300 }
+1658.1.1  = { citysize = 400 }
+1700.1.1  = { citysize = 500 }
+1750.1.1  = { citysize = 750 }
+1800.1.1  = { citysize = 1000 }

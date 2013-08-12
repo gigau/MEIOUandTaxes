@@ -1,0 +1,16 @@
+#1109 - Wairau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = polynesian
+religion = austranasian
+hre = no
+trade_goods = crops # wool
+base_tax = 1
+#manpower = 1
+manpower = 2
+capital = "Wairau"
+native_size = 10
+native_ferocity = 4
+native_hostileness = 9
+
+1642.1.1 = { discovered_by = NED } # Abel Tasman

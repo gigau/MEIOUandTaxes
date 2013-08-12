@@ -1,0 +1,16 @@
+# SLB - Selabar
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+primary_culture = sumatran
+religion = hinduism
+technology_group = chinese
+capital = 621

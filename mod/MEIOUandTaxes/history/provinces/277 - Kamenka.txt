@@ -1,0 +1,42 @@
+# 277 - Samoyeds
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV    
+culture = pomor 
+religion = shamanism
+hre = no
+trade_goods = fish # subsistence
+base_tax = 2
+#manpower = 1
+manpower = 2
+capital = "Pustozyorsk"
+citysize = 1100
+add_core = NOV
+discovered_by = eastern
+discovered_by = western
+
+1397.1.1  = { add_core = MOS } # Dvina statutory charter
+1472.1.14 = {
+	owner = MOS
+	controller = MOS
+	remove_core = NOV
+} # Land strife in Novgorod. Dvinskaya zemlya submits to Muscowian Prince.
+1500.1.1  = { citysize = 1200 marketplace = yes }
+1518.1.1  = { religion = orthodox culture = pomor fort1 = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 1500 }
+1580.1.1  = { marketplace = yes } # Became a wealthy and important trade and transport center
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 2000 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 2500 }
+1670.1.1  = { temple = yes } # Dedicated to the Domition of Mary, rebuilt in the 17th century
+1700.1.1  = { citysize = 3000 }
+1750.1.1  = { citysize = 4000 }
+1800.1.1  = { citysize = 5000 }

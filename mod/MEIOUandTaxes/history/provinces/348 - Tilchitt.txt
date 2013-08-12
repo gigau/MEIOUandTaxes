@@ -1,0 +1,35 @@
+# 348 - Tichitt
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = fulani
+religion = sunni
+capital = "Tichitt"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = subsistence
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = FLO
+	add_core = MAL
+	add_core = DJO
+}
+1469.1.1  = {
+	owner = SON
+	controller = SON
+	add_core = SON
+}
+1490.1.1 = {
+	owner = FLO
+	controller = FLO
+}

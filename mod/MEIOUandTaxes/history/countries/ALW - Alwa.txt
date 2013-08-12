@@ -1,0 +1,58 @@
+# ALW - Alwa (Kingdom of Alodia)
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = -1
+primary_culture = nubian
+religion = oriental
+technology_group = soudantech
+capital = 1209 # Soba
+
+1337.1.1 = {
+	monarch = {
+		name = "David"
+		dynasty = "al Maris"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Eltecit"
+		dynasty = "al Maris"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Joel"
+		dynasty = "al Maris"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Koudlaniel"
+		dynasty = "al Maris"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

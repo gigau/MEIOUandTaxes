@@ -1,0 +1,42 @@
+# TXL - Tlacala
+# Tlaxcala was a confederation of four altepetl: Ocotelolco, Quiahuiztlan, Tepeticpac and Tizatlan
+# which each took turns providing a ruler for Tlaxcala as a whole.
+# As a result of their alliance with the Spaniards, Tlaxcala had a somewhat privileged status within Spanish colonial Mexico
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 4
+primary_culture = nahuatl
+religion = teotl
+technology_group = new_world
+capital = 2201 # Tlaxcallán
+
+1356.1.1 = {
+	monarch = {
+		name = "Aztahua"
+		dynasty = "Tizatlan"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Xicotencatl"
+		dynasty = "Tizatlan"
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}#ruler from 1425-1522
+
+#1520.1.1 Tlaxcala allies with Spain against the Aztec

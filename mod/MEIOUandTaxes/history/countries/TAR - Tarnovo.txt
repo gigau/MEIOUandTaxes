@@ -1,0 +1,57 @@
+# Country : Tsardom of Tarnovo
+# Tag : TAR
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 157	# Tarnovo
+
+1331.1.1 = {
+	monarch = {
+		name = "Ivan Aleksander" # Nephew of Tsar Michael III Asen
+		dynasty = "Sisman" # In fact the Stratzimir dynasty from the name of his father
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1356.1.1 = {	
+	heir = {
+		name = "Ivan"
+		monarch_name = "Ivan II"
+		dynasty = "Sisman"
+		birth_Date = 1350.1.1 # Fourth son of Ivan Alexander. His elder brother is Tsar in Vidin.
+		death_Date = 1395.6.3 # Last Tsar, beheaded by the ottomans. The Tsardom is then annexed to the Ottoman Empire.
+		claim = 50
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+
+1371.2.17 = {
+	monarch = {
+		name = "Ivan II"
+		dynasty = "Sisman"		
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Vassal of the ottomans from 1376 to 1388 (had to marry his sister Keratamas to sultan Murad)
+# Revolts against the turks in 1388 and allies with Hungary.
+# Tarnovo is captured in 1393 (17.07). Ivan II is executed in 1395.

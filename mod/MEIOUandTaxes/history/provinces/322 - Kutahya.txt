@@ -1,0 +1,75 @@
+# 322 - Usak
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GRN
+controller = GRN
+culture = turkish
+religion = sunni
+capital = "Usak"
+trade_goods = linen
+hre = no
+base_tax = 6
+#manpower = 2
+manpower = 4
+citysize = 19900
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = GRN
+	set_province_flag = turkish_name
+}
+1390.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1402.1.1  = {
+	owner = GRN
+	controller = GRN
+} # Tamerlane defeat the Ottomans in Angora (Ankara)
+1403.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+#1453.5.29 = {
+#	remove_core = BYZ
+#} # Fall of Constantinople
+1481.6.1  = { controller = REB } # Civil war, Bayezid & Jem
+1482.7.26 = { controller = TUR } # Jem escapes to Rhodes
+1492.1.1  = { remove_core = GRN } ###
+1500.1.1  = { citysize = 21798 marketplace = yes }
+1509.1.1  = { controller = REB } # Civil war
+1513.1.1  = { controller = TUR }
+1526.1.1  = { controller = REB } # Anti-Ottoman uprising, second Celali uprising
+1528.1.1  = { controller = TUR }
+1550.1.1  = { citysize = 24300 }
+1570.1.1  = { constable = yes }
+1595.1.1  = { controller = REB } # Celali uprising
+1600.1.1  = { citysize = 26870 }
+1610.1.1  = { controller = TUR }
+1622.1.1  = { controller = REB } # The empire fell into anarchy, Janissaries stormed the palace
+1623.1.1  = { controller = TUR } # Murad tries to quell the corruption
+1630.1.1  = { courthouse = yes }
+1640.1.1  = { workshop = yes }
+1650.1.1  = { citysize = 29946 }
+1654.1.1  = { controller = REB } # Celali uprising
+1655.1.1  = { controller = TUR }
+1658.1.1  = { controller = REB } # Revolt of Abaza Hasan Pasha, centered on Aleppo, extending into Anatolia
+1659.1.1  = { controller = TUR }
+1690.1.1  = { base_tax = 4 } # The Decentralizing Effect of the Provincial System
+1700.1.1  = { citysize = 32780 mint = yes }
+1718.1.1  = { revolt_risk = 3 base_tax = 8 } # Lale Devri (the tulip age), not appreciated by everyone  
+1720.1.1  = { revolt_risk = 0 }
+1738.1.1  = { citysize = 21897 } # Plague
+1750.1.1  = { citysize = 22897 }
+1770.1.1  = { citysize = 15780 } # Plague
+1795.1.1  = { revolt_risk = 6 } # Reforms by Sultan Selim III, tried to replace the Janissary corps
+1800.1.1  = { citysize = 20630 }
+

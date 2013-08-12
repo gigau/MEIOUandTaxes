@@ -1,0 +1,50 @@
+# 2286 - Hida
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TKI
+controller = TKI
+culture = chubu
+religion = shinbutsu
+capital = "Gifu"
+trade_goods = rice
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 60000
+fort1 = yes
+regimental_camp = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = TKI
+}
+1400.1.1 = { citysize = 61000 }
+1450.1.1 = { citysize = 62000 }
+1477.1.1 = {
+	owner = STO
+	controller = STO
+}
+1500.1.1 = { citysize = 64000 }
+1550.1.1 = { citysize = 66000 }
+1568.1.1 = {
+	owner = ODA
+	controller = ODA
+}
+1598.1.1 = {
+	owner = TGW
+	controller = TGW
+}
+1600.1.1 = { citysize = 69000 }
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 72000 }
+1700.1.1 = { citysize = 76000 }
+1750.1.1 = { citysize = 80000 }
+1800.1.1 = { citysize = 85000 }

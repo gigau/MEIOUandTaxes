@@ -1,0 +1,161 @@
+# ORL - Valois-Orleans
+# MEIOU-GG Govenemnt changes
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = 5
+# land_naval = -4
+# quality_quantity = -3
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = francien
+religion = catholic
+technology_group = western
+capital = 184	# Orléans
+
+1344.1.1 = {
+	monarch = {
+		name = "Philip"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis"
+		dynasty = "de Valois"
+		birth_date = 1340.1.1
+		death_date = 1394.11.24
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1392.1.1 = {
+	monarch = {
+		name = "Louis"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1394.11.24 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles"
+		dynasty = "de Valois"
+		birth_date = 1394.11.24
+		death_date = 1465.1.5
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1462.6.27 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis II"
+		dynasty = "de Valois"
+		birth_date = 1462.6.27
+		death_date = 1515.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 8
+	}
+}
+
+1465.1.5 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "de Valois"
+		adm = 5
+		dip = 6
+		mil = 8
+	}
+}
+
+1498.4.7 = {
+	monarch = {
+		name = "Charles II"
+		dynasty = "de Valois"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1515.1.2 = {
+	government = despotic_monarchy_4
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Régence"
+		regent = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Louis III"
+		dynasty = "de Valois"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "de Valois"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1560.12.5 = {
+	monarch = {
+		name = "Henri Alexandre"
+		dynasty = "de Valois"
+		adm = 8
+		dip = 4
+		mil = 4
+	}
+}
+
+1589.8.3 = {
+	government = administrative_monarchy_4
+}
+
+1661.3.9 = {
+	government = absolute_monarchy_4
+}

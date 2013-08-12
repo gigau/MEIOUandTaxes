@@ -1,0 +1,251 @@
+# AMG - Armangnac
+# Famille d'Armagnac
+# 2009-dec-19 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -1
+# centralization_decentralization = -5
+# innovative_narrowminded = -4
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = -3
+# secularism_theocracy = -2
+technology_group = western
+primary_culture = gascon
+religion = catholic
+capital = 1384	# la Marcha
+
+1285.1.1 = {
+	monarch = {
+		name = "Bernard VI"
+		dynasty = "d'Armagnac"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean"
+		dynasty = "d'Armagnac"
+		claim = 95
+		birth_date = 1285.1.1
+		death_date = 1373.1.1
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}
+
+1319.1.1 = {
+	monarch = {
+		name = "Jean"
+		dynasty = "d'Armagnac"
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "d'Armagnac"
+		claim = 95
+		birth_date = 1319.1.1
+		death_date = 1384.1.1
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1373.1.1 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "d'Armagnac"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean III"
+		dynasty = "d'Armagnac"
+		claim = 95
+		birth_date = 1319.1.1
+		death_date = 1391.7.25
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1384.1.1 = {
+	monarch = {
+		name = "Jean III"
+		dynasty = "d'Armagnac"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Bernard"
+		monarch_name = "Bernard VII"
+		dynasty = "d'Armagnac"
+		claim = 95
+		birth_date = 1340.1.1
+		death_date = 1396.10.15
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1389.1.1  = { capital = 175 }
+
+1391.7.25 = {
+	monarch = {
+		name = "Bernard VII"
+		dynasty = "d'Armagnac"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1396.10.15 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean IV"
+		dynasty = "d'Armagnac"
+		claim = 95
+		birth_date = 1370.1.1
+		death_date = 1450.11.6
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.6.12 = {
+	monarch = {
+		name = "Jean IV"
+		dynasty = "d'Armagnac"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1420.1.1 = {
+	heir = {
+	 	name = "Jean"
+		monarch_name = "Jean V"
+		dynasty = "d'Armagnac"
+		birth_date = 1420.1.1
+		death_date = 1473.2.10
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1450.11.6 = {
+	monarch = {
+		name = "Jean V"
+		dynasty = "d'Armagnac"
+		adm = 5
+		dip = 3
+		mil = 4
+		leader = { name = "Jean V" type = general rank = 0 fire = 2 shock = 2 manuever = 2 siege = 0 }
+	}
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles"
+		dynasty = "d'Armagnac"
+		birth_date = 1425.1.1
+		death_date = 1497.6.4
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1473.2.10 = {
+	# offensive_defensive = 3
+} # Charles I is imprissoned by Louis XI
+
+1473.2.10 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "d'Armagnac"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1489.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles II"
+		dynasty = "d'Armagnac"
+		birth_date = 1489.1.1
+		death_date = 1525.4.12
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1497.6.4 = {
+	monarch = {
+		name = "Charles II"
+		dynasty = "d'Armagnac"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Marguerite"
+		monarch_name = "Marguerite"
+		dynasty = "d'Angoulême"
+		birth_date = 1492.4.11
+		death_date = 1549.12.21
+		claim = 85
+		adm = 6
+		dip = 8
+		mil = 5
+		female = yes
+	}
+}
+
+1525.4.12 = {
+	government = despotic_monarchy_6
+	monarch = {
+		name = "Marguerite"
+		dynasty = "d'Angoulême"
+		adm = 6
+		dip = 8
+		mil = 5
+		female = yes
+	}
+}
+
+1560.1.1 = { 
+	religion = reformed 
+	# secularism_theocracy = -3
+}
+
+1562.11.18 = {
+	government = administrative_monarchy_6
+}
+
+1661.3.9 = {
+	government = absolute_monarchy_6
+}

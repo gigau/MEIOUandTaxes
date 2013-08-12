@@ -1,0 +1,66 @@
+#Province: Kochi
+#file name: 2570 - Kochi
+#MEIOU-FB India 1337+ mod Aug 08
+#FB - Vasco Da Gama came this way in 1498
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = COC
+controller = COC
+culture = malayalam
+religion = hinduism
+capital = "Kochi"
+trade_goods = pepper
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 22000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = { add_core = COC }
+1400.1.1  = { citysize = 23344 }
+1413.1.1  = { discovered_by = chinese }
+1450.1.1  = { citysize = 25000 }
+1498.5.20 = { discovered_by = POR }
+1500.1.1  = { citysize = 35344 }
+1503.1.1  = {
+	owner = POR
+	controller = POR
+}
+1550.1.1  = {
+	citysize = 38130
+	add_core = POR
+}
+1570.1.1  = { revolt_risk = 0 }
+1600.1.1  = {
+	citysize = 45600
+	discovered_by = ENG
+	discovered_by = FRA
+	discovered_by = NED
+}
+1650.1.1  = { temple = yes }
+1662.1.1  = {
+	controller = NED
+}
+1663.1.1  = {
+	owner = NED
+	citysize = 14499
+}
+1700.1.1  = {
+	citysize = 18888
+	add_core = NED
+}
+1750.1.1  = { citysize = 23708 }
+1773.1.1  ={
+	owner = MYS
+	controller = MYS
+}
+1792.1.1 = {
+		controller = COC
+		owner = COC
+}
+1800.1.1  = {
+	citysize = 29200
+}

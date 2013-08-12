@@ -1,0 +1,40 @@
+# 1015 - Satsuma
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SMZ
+controller = SMZ
+culture = kyushu
+religion = shinbutsu
+capital = "Kagoshima"
+trade_goods = chinaware
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 5900
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = SMZ
+}
+1400.1.1 = {
+	citysize = 6100
+}
+1450.1.1 = { citysize = 6340 }
+1500.1.1 = { citysize = 7210 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 8455 }
+1600.1.1 = { citysize = 9224 }
+1650.1.1 = {
+	citysize = 10100
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1700.1.1 = { citysize = 11348 }
+1750.1.1 = { citysize = 12900 }
+1800.1.1 = { citysize = 13556 }

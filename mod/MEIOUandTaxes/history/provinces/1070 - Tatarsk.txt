@@ -1,0 +1,55 @@
+# 1070 - Koda
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = siberian
+religion = sunni
+capital = "Koda"
+trade_goods = fur
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 4100
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = WHI
+	add_core = SIB
+	revolt_risk = 3
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1446.1.1 = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = GOL
+}
+1465.1.1 = {
+	owner = KZH
+	controller = KZH
+	add_core = KZH
+	remove_core = SHY
+}
+1550.1.1 = { citysize = 5310 }
+1585.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SIB
+	culture = russian
+	religion = orthodox
+} # Yermak Timofeevich, annexed to Muscovy
+1600.1.1 = { citysize = 4308 }
+1650.1.1 = { citysize = 4811 }
+1700.1.1 = { citysize = 5038 }
+1750.1.1 = { citysize = 6522 }
+1800.1.1 = { citysize = 7210 }

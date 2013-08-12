@@ -1,0 +1,50 @@
+# 862 - Comcaac
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = navajo
+religion = midewiwin
+capital = "Haxol Iihom"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 5
+native_hostileness = 6
+discovered_by = new_world
+
+1533.1.1 = {
+	discovered_by = SPA
+}
+1641.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "Puerto Peñasco"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	set_province_flag = trade_good_set
+	trade_goods = silver
+	fort1 = yes
+} # Francisco Eusebio Kino
+1719.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 2000
+}
+1800.1.1   = {
+	citysize = 4000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

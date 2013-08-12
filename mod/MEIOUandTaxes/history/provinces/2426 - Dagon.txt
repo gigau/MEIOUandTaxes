@@ -1,0 +1,69 @@
+# 2426 - Dagon
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PEG			#Hanthawaddy until 1539
+controller = PEG
+culture = monic
+religion = theravada
+capital = "Dagon"  #but Syriam or Thanlyn main city and main port 
+		####1599-1613portughese, 1740-56 french
+		####1755 foundation Yangon ,1756 Yangon main city and port
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 28254
+trade_goods = lumber
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1385.1.1 = { controller = REB }
+1390.1.1 = { controller = PEG }
+1509.1.1 = { citysize = 32400 discovered_by = POR }
+1539.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = SST
+	remove_core = AVA
+} # Annexed to the Kingdom of Taungoo
+1550.1.1 = { citysize = 34548 }
+1574.1.1 = { owner = AYU controller = AYU } # Siamese occupation
+1575.1.1 = { owner = TAU controller = TAU }
+1600.1.1 = { citysize = 38150 }
+1650.1.1 = { citysize = 41500 }
+1700.1.1 = { citysize = 44607 }
+1740.1.1 = { controller = REB } # Pegu rebellion
+1750.1.1 = { citysize = 47120 }
+1752.2.28 = {
+	owner = PEG
+	controller = PEG
+	remove_core = TAU
+	citysize = 32000 
+} # Pegu is sacked & returned to Burmese control
+1759.1.1 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+	culture = burmese	## mon people massacred or forced to migrate
+	citysize = 10000
+	capital = "Yangoon"
+} # Annexed by Burma
+1800.1.1 = { citysize = 34400 }
+#1824.1.1 = { controller = GRB }
+#1826.1.1 = { controller = BRM }
+1841.1.1 = { citysize = 20000 } #destroyed by fire
+1852.12.20 = { owner = GBR controller = GBR }

@@ -1,0 +1,238 @@
+# GWA - Gwalior
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = 3
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 5
+# land_naval = -4
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = bundeli
+religion = hinduism
+technology_group = indian
+capital = 523	# Gwalior
+
+#Tomar Rajputs
+
+1375.1.1 = {
+	monarch = {
+		name = "Virsingh"
+		dynasty = "Tomar"
+		DIP = 2
+		MIL = 7
+		ADM = 3
+	}
+}
+
+1391.1.1 = {
+	heir = {
+		name = "Uddhharandev"
+		monarch_name = "Uddhharandev"
+		dynasty = "Tomar"
+		birth_date = 1383.1.1
+		death_date = 1419.1.1
+		claim = 95
+		DIP = 5
+		MIL = 5
+		ADM = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Uddhharandev"
+		dynasty = "Tomar"
+		DIP = 5
+		MIL = 5
+		ADM = 6
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Ganapatidev"
+		monarch_name = "Ganapatidev"
+		dynasty = "Tomar"
+		birth_date = 1393.1.1
+		death_date = 1438.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Ganapatidev"
+		dynasty = "Tomar"
+		DIP = 4
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1419.1.1 = {
+	heir = {
+		name = "Ganapatidev"
+		monarch_name = "Ganapatidev"
+		dynasty = "Tomar"
+		birth_date = 1410.1.1
+		death_date = 1486.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Beersingh Deo"
+		dynasty = "Tomar"
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1438.1.1 = {
+	heir = {
+		name = "Man Singh"
+		monarch_name = "Man Singh"
+		dynasty = "Tomar"
+		birth_date = 1420.1.1
+		death_date = 1500.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Man Singh"
+		dynasty = "Tomar"
+		DIP = 5
+		MIL = 6
+		ADM = 4
+	}
+}
+
+#Sindhias
+
+1731.1.1 = {
+	monarch = {
+		name = "Ranojirao"
+		dynasty = "Sindhia"
+		DIP = 7
+		MIL = 8
+		ADM = 5
+	}
+	primary_culture = marathi
+	government = administrative_monarchy_2
+}
+
+1731.1.1 = {
+	heir = {
+		name = "Jayapparao"
+		monarch_name = "Jayapparao"
+		dynasty = "Sindhia"
+		birth_date = 1701.1.1
+		death_date = 1755.6.25
+		claim = 95
+		DIP = 6
+		MIL = 8
+		ADM = 5
+	}
+}
+
+1745.6.19 = {
+	monarch = {
+		name = "Jayapparao"
+		dynasty = "Sindhia"
+		DIP = 6
+		MIL = 8
+		ADM = 5
+	}
+}
+
+1745.6.19 = {
+	heir = {
+		name = "Jankijirao"
+		monarch_name = "Jankijirao I"
+		dynasty = "Sindhia"
+		birth_date = 1730.1.1
+		death_date = 1761.1.15
+		claim = 95
+		DIP = 4
+		MIL = 7
+		ADM = 6
+	}
+}
+
+1755.6.25 = {
+	monarch = {
+		name = "Jankijirao I"
+		dynasty = "Sindhia"
+		DIP = 4
+		MIL = 7
+		ADM = 6
+	}
+}
+
+1755.6.25 = {
+	heir = {
+		name = "Madhavrao"
+		monarch_name = "Madhavrao I"
+		dynasty = "Sindhia"
+		birth_date = 1740.1.1
+		death_date = 1794.2.12
+		claim = 95
+		DIP = 6
+		MIL = 8
+		ADM = 6
+	}
+}
+
+1761.1.15 = {
+	monarch = {
+		name = "Madhavrao I"
+		dynasty = "Sindhia"
+		DIP = 6
+		MIL = 8
+		ADM = 6
+	}
+}
+
+1761.1.15 = {
+	heir = {
+		name = "Daulatrao"
+		monarch_name = "Daulatrao I"
+		dynasty = "Sindhia"
+		birth_date = 1740.1.1
+		death_date = 1827.1.20
+		claim = 95
+		DIP = 6
+		MIL = 7
+		ADM = 6
+	}
+}
+
+1794.2.12 = {
+	monarch = {
+		name = "Daulatrao I"
+		dynasty = "Sindhia"
+		DIP = 6
+		MIL = 7
+		ADM = 6
+	}
+}

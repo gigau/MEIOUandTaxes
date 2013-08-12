@@ -1,0 +1,326 @@
+#TRA - Transylvania
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 1
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = eastern
+primary_culture = transylvanian
+add_accepted_culture = hungarian
+religion = catholic
+capital = 1405
+
+1342.7.16 = {
+	monarch = {
+		name = "Lajos"
+		dynasty = "Angevin"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1382.9.10 = {
+	monarch = {
+		name = "Mária"
+		dynasty = "Angevin"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1387.3.31 = {
+	monarch = {
+		name = "Zsigmond"
+		dynasty = "von Luxemburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+1437.12.9 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1439.10.27 = {
+	monarch = {
+		name = "Wladyslaw III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.11.11 = {
+	monarch = {
+		name = "László V"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1457.11.24 = {
+	monarch = {
+		name = "Hunyadi Mátyás"
+		dynasty = "Corvin"
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+1490.4.7 = {
+	monarch = {
+		name = "Ulászló II"
+		dynasty = "Jagiellon"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+1516.3.14 = {
+	monarch = {
+		name = "Lajos II"
+		dynasty = "Jagiellon"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1526.8.30 = {
+	monarch = {
+		name = "János I"
+		dynasty = "Szapolyai"
+		adm = 7
+		dip = 6
+		mil = 5
+		leader = {
+			name = "János I Szapolyai" 
+			type = general
+			rank = 0
+			fire = 2
+			shock = 2
+			manuever = 2
+			siege = 0
+		}
+	}
+	heir = {
+		name = "János"
+		monarch_name = "János II"
+		dynasty = "Szapolyai"
+		birth_date = 1510.1.1
+		death_date = 1571.5.26
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1540.7.24 = {
+	monarch = {
+		name = "János II"
+		dynasty = "Szapolyai"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.5.26 = {
+	monarch = {
+		name = "István"
+		dynasty = "Báthory"
+		adm = 8
+		dip = 5
+		mil = 9
+	}
+	heir = {
+		name = "Kristóf"
+		monarch_name = "Kristóf"
+		dynasty = "Báthory"
+		birth_date = 1550.1.1
+		death_date = 1581.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1576.5.3 = {
+	monarch = {
+		name = "Kristóf"
+		dynasty = "Báthory"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Zsigmond"
+		monarch_name = "Zsigmond"
+		dynasty = "Báthory"
+		birth_date = 1570.1.1
+		death_date = 1599.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1581.1.1 = {
+	monarch = {
+		name = "Zsigmond"
+		dynasty = "Báthory"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1596.1.1 = { leader = {	name = "Istvan Bocskai"        	type = general	rank = 2	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1606.1.1 } }
+
+1599.1.1 = {
+	monarch = {
+		name = "Mihai Viteazul"
+		dynasty ="Draculecti"
+		adm = 7
+		dip = 9
+		mil = 9
+	}
+}
+
+1602.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		regent = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "István"
+		dynasty = "Bocskai"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1606.12.30 = {
+	monarch = {
+		name = "Gábor"
+		dynasty = "Báthory"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1613.1.1 = {
+	monarch = {
+		name = "Gábor"
+		dynasty = "Bethlen"
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+}
+
+1629.11.17 = {
+	monarch = {
+		name = "György"
+		dynasty = "Rákóczy"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "György"
+		monarch_name = "György II"
+		dynasty = "Rákóczy"
+		birth_date = 1621.1.30
+		death_date = 1660.6.7
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "György II"
+		dynasty = "Rákóczy"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Ferenc"
+		monarch_name = "Ferenc I"
+		dynasty = "Rákóczy"
+		birth_date = 1645.2.24
+		death_date = 1676.7.8
+		claim = 50
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Ferenc I"
+		dynasty = "Rákóczy"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1676.3.27 = {
+	heir = {
+		name = "Ferenc"
+		monarch_name = "Ferenc II"
+		dynasty = "Rákóczy"
+		birth_date = 1676.3.27
+		death_date = 1735.4.8
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+}
+		
+1676.7.8 = {
+	monarch = {
+		name = "Ferenc II"
+		dynasty = "Rákóczy"
+		adm = 7
+		dip = 8
+		mil = 7
+		leader = {	name = "Ferenc Rákóczy II"     	type = general	rank = 0	fire = 2	shock = 4	manuever = 2	siege = 0 }
+	}
+}

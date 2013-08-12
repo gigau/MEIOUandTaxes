@@ -1,0 +1,67 @@
+# 2739 - Kachin
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SST
+controller = SST
+culture = burmese	##jingpo 
+religion = animism
+capital = "Myitkyina"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 2400
+trade_goods = gems
+
+terrain2 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = DLI
+}
+1500.1.1 = { citysize = 3800 }
+1527.1.1 = {
+	owner = SST
+	controller = SST
+}
+1550.1.1 = { citysize = 4525 }
+1557.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = SST
+	remove_core = PEG
+	remove_core = AVA
+}
+1599.1.1 = { controller = REB }	#Shan states revolt after burmese dinasty's crisis
+1600.1.1 = { citysize = 5600 }
+1605.1.1 = { controller = TAU }
+1650.1.1 = { citysize = 6422 }
+1700.1.1 = { citysize = 7420 }
+1740.1.1 = {				# about
+	owner = QNG
+	controller = QNG
+}
+1750.1.1 = { citysize = 8348 }
+1752.2.28 = { add_core = BRM 
+	remove_core = TAU
+}
+1769.1.1 = {
+	owner = BRM
+	controller = BRM
+}
+1800.1.1 = { citysize = 9678 }
+1852.1.1 = { revolt_risk = 7 }	# out of control after burmese defeated by british
+1885.1.1 = {
+	owner = GBR
+	controller = REB
+}
+1890.1.1 = { controller = GBR }
+

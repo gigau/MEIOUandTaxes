@@ -1,0 +1,7 @@
+
+discovered_by = KSH
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1622.1.1 = { discovered_by = RUS }

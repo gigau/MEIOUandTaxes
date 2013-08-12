@@ -1,0 +1,86 @@
+# PLO - Plock
+# 2010FEB19 - Corrections from grzegorz444
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -3
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = eastern
+religion = catholic
+primary_culture = polish
+capital = 257	# Plock
+
+
+# Mazovian Duke
+1313.1.1 = {
+	monarch = {
+		name = "Vaclav"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	
+}
+
+1336.1.1 = {
+	monarch = {
+		name = "Boleslaw III"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	
+}
+
+# Merged with Poland in 1351, 1370-1381 part of Mazovia
+
+1381.1.1 = {
+	monarch = {
+		name = "Siemowit IV"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Wladyslaw I"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1455.12.12 = {
+	monarch = {
+		name = "Casimir III"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Janusz II"
+		dynasty = "Piast"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+# Merged with Poland in 1495

@@ -1,0 +1,50 @@
+# 2443 - Bersh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = tartar
+religion = sunni
+capital = "Bersh"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 2100
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = AST
+	add_core = BLU
+	revolt_risk = 4
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1450.1.1  = { citysize = 2500 }
+1459.1.1 = {
+	owner = AST
+	controller = AST
+	remove_core = GOL
+} # Independance of Astrakhan
+1500.1.1  = { citysize = 2640 }
+1550.1.1  = { citysize = 3214 }
+1557.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+    	remove_core = NOG
+} # The break up of the Nogai tribe
+1600.1.1  = { citysize = 4781 }
+1650.1.1  = { citysize = 5579 }
+1700.1.1  = { citysize = 6200 }
+1750.1.1  = { citysize = 6887 }
+1800.1.1  = { citysize = 7320 }

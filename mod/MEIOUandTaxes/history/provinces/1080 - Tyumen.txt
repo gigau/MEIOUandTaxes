@@ -1,0 +1,59 @@
+# 1080 - Tyumen
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = siberian
+religion = sunni
+capital = "Qashlik"
+
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 1270
+trade_goods = fur
+
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = WHI
+	add_core = SIB
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1441.1.1 = {
+	owner = SIB
+	controller = SIB
+	remove_core = GOL
+}
+1500.1.1 = { citysize = 2350 }
+1550.1.1 = { citysize = 2864 }
+1585.1.1 = {	discovered_by = RUS
+		owner = RUS
+		controller = RUS
+		add_core = RUS
+		remove_core = SIB
+	   } # Yermak Timofeevich, annexed to Muscovy
+1586.1.1 = {	citysize = 3198
+		fort1 = yes
+	   	capital = "Tyumen"
+	   } # Tyumen is founded
+1600.1.1 = { citysize = 3873 }
+1606.1.1 = { revolt_risk = 3 } # Rebellions against Russia
+1608.1.1 = { revolt_risk = 5 }
+1610.1.1 = { revolt_risk = 2 culture = russian religion = orthodox }
+1616.1.1 = { revolt_risk = 6 }
+1620.1.1 = { revolt_risk = 0 }
+1650.1.1 = {	citysize = 4311
+		marketplace = yes
+	   	fort2 = yes
+	   } # Became an important trade center
+1700.1.1 = { citysize = 6210 }
+1750.1.1 = { citysize = 7005 }
+1760.1.1 = { mint = yes }
+1800.1.1 = { citysize = 9420 }

@@ -1,0 +1,53 @@
+# 1575 - Afar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ETH
+controller = ETH
+culture = afar
+religion = sunni
+capital = "Aussa"
+citysize = 4000
+#manpower = 3
+manpower = 6
+trade_goods = wool
+hre = no
+base_tax = 2 
+discovered_by = ADA
+discovered_by = ZAN
+discovered_by = ETH
+discovered_by = MKU
+discovered_by = muslim
+
+1356.1.1 = { add_core = ETH }
+1450.1.1 = { citysize = 6000 }
+1473.1.1 = { revolt_risk = 5 } # Raids by Bayda Maryam into Adal to enforce fealty
+1476.1.1 = { revolt_risk = 5 } # Raids by Bayda Maryam into Adal to enforce fealty
+1477.1.1 = { revolt_risk = 0 } # Raids by Bayda Maryam defeated
+1478.1.1 = { revolt_risk = 5 } # Raids by Eskander into Adal to enforce fealty
+1479.1.1 = { revolt_risk = 0 } # Raids by Eskander defeated
+1514.1.1 = {
+	owner = ADA
+	controller = ADA
+	revolt_risk = 6
+} #Mahfuz drives Ethiopians out of Ifat region
+1517.8.1 = { revolt_risk = 9 } # Lebna Dengel destroys Mahfuz' army, succession dispute begins
+1520.1.1 = { citysize = 8000 } # Adal Sultans shift capital
+1525.1.1 = { revolt_risk = 0 } # Imam Ahmad Gran secures control over Adal
+1550.1.1 = { discovered_by = TUR }
+1554.1.1 = { revolt_risk = 9 citysize = 4000 } # Invasion by Oromo causes widespread destruction
+1559.1.1 = { revolt_risk = 8 } # Invasion by Galawdewos 
+1562.1.1 = { revolt_risk = 5 } # Invasion by Oromo
+1567.1.1 = { revolt_risk = 5 } # Invasion by Oromo
+1568.1.1 = { revolt_risk = 0 }
+1600.1.1 = { citysize = 4500 }
+1650.1.1 = { citysize = 5000 }
+1662.1.1 = { revolt_risk = 5 } # Conflict with local Oromo
+1663.1.1 = { revolt_risk = 0 }
+1700.1.1 = { citysize = 5500 }
+1734.1.1 = {
+	owner = AFA
+	controller = AFA
+	remove_core = ETH
+}
+1750.1.1 = { citysize = 6000 }
+1800.1.1 = { citysize = 7500 }

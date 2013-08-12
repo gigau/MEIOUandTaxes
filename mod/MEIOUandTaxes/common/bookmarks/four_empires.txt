@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "BURMESE_EMPIRE_REBIRTH_NAME"
+	desc = "BURMESE_EMPIRE_REBIRTH_DESC"
+	date = 1535.1.1
+
+	country = TAU
+	country = PEG
+	country = SST
+	country = AYU
+}

@@ -1,0 +1,165 @@
+# BRE - Bremen
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+primary_culture = old_saxon
+religion = catholic
+technology_group = western
+capital = 1352	# Bremen
+
+1348.1.1 = {
+	monarch = {
+		name = "Gottfried"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1359.1.1 = {
+	monarch = {
+		name = "Albrecht"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1395.1.1 = {
+	monarch = {
+		name = "Otto II"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1399.1.1 = { set_country_flag = hanseatic_league }
+
+1406.1.1 = {
+	monarch = {
+		name = "Johann II"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Nicolaus"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Baldwin"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1441.7.9 = {
+	monarch = {
+		name = "Gerhard III"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1463.4.15 = {
+	monarch = {
+		name = "Heinrich II"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1496.12.25 = {
+	monarch = {
+		name = "Johann III Rode"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1511.12.5 = {
+	monarch = {
+		name = "Cristoph"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1529.1.1 = { 
+	religion = protestant 
+	# secularism_theocracy = 1
+}
+
+1558.1.23 = {
+	monarch = {
+		name = "Georg"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1558.1.23 = {
+	government = administrative_monarchy_4
+}
+
+1566.12.5 = {
+	monarch = {
+		name = "Heinrich III"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1585.4.29 = {
+	monarch = {
+		name = "Johann Adolf"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1596.8.30 = {
+	monarch = {
+		name = "Johann Friedrich"
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1634.9.4 = {
+	monarch = {
+		name = "Friedrich II"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}

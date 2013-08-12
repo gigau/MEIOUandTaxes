@@ -1,0 +1,343 @@
+# ANS - Ansbach
+# 2009-dec-27 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 70
+
+# Margraves
+1332.1.1 = {
+	monarch = {
+		name = "Johann II"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich V"
+		dynasty = "von Hohenzollern"
+		birth_date = 1320.1.1
+		death_date = 1398.1.1
+		claim = 95
+		DIP = 6
+		ADM = 6
+		MIL = 3
+	}
+}
+1357.1.1 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Hohenzollern"
+		DIP = 6
+		ADM = 6
+		MIL = 3
+	}
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich VI"
+		dynasty = "von Hohenzollern"
+		birth_date = 1340.1.1
+		death_date = 1414.11.9
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+1398.1.1 = {
+	monarch = {
+		name = "Friedrich VI"
+		dynasty = "von Hohenzollern"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1414.11.9 = {
+	heir = {
+		name = "Albrecht Achilles"
+		monarch_name = "Albrecht II Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1486.3.11
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1440.9.21 = {
+	monarch = {
+		name = "Albrecht II Achilles"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 4
+	}
+}
+# remark = "Also ruler of Brandenburg."
+
+1486.3.11 = {
+	monarch = {
+		name = "Friedrich"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Georg"
+		monarch_name = "Georg der Fromme"
+		dynasty = "von Hohenzollern"
+		birth_date = 1470.1.1
+		death_date = 1543.12.27
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1533.1.1 = { 
+	religion = protestant 
+	# secularism_theocracy = -1
+}
+
+1536.4.4 = {
+	monarch = {
+		name = "Georg der Fromme"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Georg"
+		monarch_name = "Georg Friedrich"
+		dynasty = "von Hohenzollern"
+		birth_date = 1520.1.1
+		death_date = 1603.4.26
+		claim = 95
+		DIP = 6
+		ADM = 8
+		MIL = 5
+	}
+}
+
+1543.12.27 = {
+	monarch = {
+		name = "Georg Friedrich"
+		dynasty = "von Hohenzollern"
+		DIP = 6
+		ADM = 8
+		MIL = 5
+	}
+	heir = {
+		name = "Joachim Ernst"
+		monarch_name = "Joachim Ernst"
+		dynasty = "von Hohenzollern"
+		birth_date = 1540.1.1
+		death_date = 1625.3.7
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1603.4.26 = {
+	monarch = {
+		name = "Joachim Ernst"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1570.1.1
+		death_date = 1634.9.6
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1625.3.7 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht"
+		dynasty = "von Hohenzollern"
+		birth_date = 1570.1.1
+		death_date = 1667.10.22
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1634.9.6 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich"
+		dynasty = "von Hohenzollern"
+		birth_date = 1600.1.1
+		death_date = 1668.3.22
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1667.10.22 = {
+	monarch = {
+		name = "Johann Friedrich"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian Albrecht"
+		dynasty = "von Hohenzollern"
+		birth_date = 1630.1.1
+		death_date = 1692.10.16
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1668.3.22 = {
+	monarch = {
+		name = "Christian Albrecht"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Georg Friedrich"
+		monarch_name = "Georg Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1660.1.1
+		death_date = 1703.3.29
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1692.10.16 = {
+	monarch = {
+		name = "Georg Friedrich II"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Wilhelm Friedrich"
+		monarch_name = "Wilhelm Friedrich"
+		dynasty = "von Hohenzollern"
+		birth_date = 1680.1.1
+		death_date = 1723.1.7
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1703.3.29 = {
+	monarch = {
+		name = "Wilhelm Friedrich"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl"
+		dynasty = "von Hohenzollern"
+		birth_date = 1700.1.1
+		death_date = 1757.8.3
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1723.1.7 = {
+	monarch = {
+		name = "Karl"
+		dynasty = "von Hohenzollern"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl Alexander"
+		dynasty = "von Hohenzollern"
+		birth_date = 1720.1.1
+		death_date = 1791.12.2
+		claim = 95
+		DIP = 6
+		ADM = 8
+		MIL = 4
+	}
+}
+
+1757.8.3 = {
+	monarch = {
+		name = "Karl Alexander"
+		dynasty = "von Hohenzollern"
+		DIP = 6
+		ADM = 8
+		MIL = 4
+	}
+}
+
+#Merged with Prussia 1791.12.2

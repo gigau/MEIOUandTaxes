@@ -1,0 +1,344 @@
+# BSI - Bishopric of Sion
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 1	#4
+# innovative_narrowminded = 2	#1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3			#-1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3	#0
+# secularism_theocracy = 2
+primary_culture = arpitan
+religion = catholic
+#elector = yes		#AdL: not a Golden Bull elector
+technology_group = western
+capital = 185
+
+1323.1.1 = {
+	monarch = {
+		name = "Aymon"
+		dynasty = "de la Tour"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1338.1.1 = {
+	monarch = {
+		name = "Philippe"
+		dynasty = "de Chamberlhac"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1342.1.1 = {
+	monarch = {
+		name = "Guichard"
+		dynasty = "de Tavel"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1375.1.1 = {
+	monarch = {
+		name = "Édouard"
+		dynasty = "de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1383.1.1 = {
+	monarch = {
+		name = "Guillaume III"
+		dynasty = "de la Baume"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1387.1.1 = {
+	monarch = {
+		name = "Humbert"
+		dynasty = "de Billens"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Wilhelm IV"
+		dynasty = "von Raron"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Wilhelm V"
+		dynasty = "von Raron"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "André"
+		dynasty = "dei Benzi de Gualdo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Wilhelm IV"
+		dynasty = "von Raron"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Guillaume Hugues"
+		dynasty = "d'Estaing"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Heinrich III"
+		dynasty = "von Asperling"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1457.1.1 = {
+	monarch = {
+		name = "Walter II"
+		dynasty = "Supersaxo von der Flüe"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Jost"
+		dynasty = "von Silinen"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Nicolas"
+		dynasty = "Schiner"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Matteus"
+		dynasty = "Schiner"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Philipp"
+		dynasty = "Platten"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Adrian"
+		dynasty = "Riedmatten"
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+}
+
+1531.1.1 = {
+	# secularism_theocracy = 3
+} #victory of the Catholics over the followers of Zwingli at Kappel am Albis in 1531
+
+1548.1.1 = {
+	monarch = {
+		name = "Johan"
+		dynasty = "Jordan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Hildebrand"
+		dynasty = "Riedmatten"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1604.1.1 = {
+	monarch = {
+		name = "Adrian II"
+		dynasty = "Riedmatten"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1613.1.1 = {
+	monarch = {
+		name = "Hildebrand II"
+		dynasty = "Jost"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Barthelemeu"
+		dynasty = "Supersaxovon der Flüe"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Adrien III"
+		dynasty = "Riedmatten"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1646.1.1 = {
+	monarch = {
+		name = "Adrian IV"
+		dynasty = "Riedmatten"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "Adrian V"
+		dynasty = "Riedmatten"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1701.1.1 = {
+	monarch = {
+		name = "Franz Joseph"
+		dynasty = "Supersaxo von der Flüe"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1734.1.1 = {
+	monarch = {
+		name = "Johann Joseph Anton"
+		dynasty = "Blatter"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Johann Hildebrand"
+		dynasty = "Roten"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Franz Joseph Friedrich"
+		dynasty = "Am Buel"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Franz Melchior Joseph"
+		dynasty = "Zen Ruffinen"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Joseph Anton"
+		dynasty = "Blatter"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}

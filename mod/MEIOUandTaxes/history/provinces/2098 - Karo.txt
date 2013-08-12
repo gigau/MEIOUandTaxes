@@ -1,0 +1,33 @@
+#Province: Karo
+#file name: 2098 - Karo
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARU
+controller = ARU
+add_core = ARU
+culture = batak
+religion = theravada
+capital = "Bangkara"			#"Kabanhaje"
+trade_goods = rice
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2000
+
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1  = { citysize = 2490 }
+1442.1.1 = { owner = ATJ controller = ATJ }
+1480.1.1 = { add_core = ATJ}
+#1540-1613 war betwen Aceh and Johor for control (Johor successor to MLC)
+1550.1.1 = { citysize = 2544 religion = sunni }
+1600.1.1 = { citysize = 2997 }
+1650.1.1 = { citysize = 3524 }
+1683.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 4155 }
+1750.1.1 = { citysize = 4266 }
+1800.1.1 = { citysize = 4600 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

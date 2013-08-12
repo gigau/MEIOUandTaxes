@@ -1,0 +1,38 @@
+# 2229 - Keray
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAL
+controller = BAL
+culture = baluchi
+religion = sunni
+capital = "Keray"
+trade_goods = coffee
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 8102
+fort1 = yes
+discovered_by = muslim
+discovered_by = indian
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = BAL
+}
+1500.1.1   = { citysize = 9006 }
+1550.1.1   = { citysize = 9764 }
+1581.1.1   = { citysize = 7131 } # Portuguese sack Gwadar
+1600.1.1   = { citysize = 7959 }
+1650.1.1   = { citysize = 8800 }
+1700.1.1   = { citysize = 9543 }
+1750.1.1   = { citysize = 10700 }
+1783.1.1   = {
+	owner = OMA
+	controller = OMA
+	add_core = OMA
+	fort2 = yes
+} # Khan of Kalat grants suzerainty to Taimur Sultan, ruler of Muscat
+1800.1.1   = { citysize = 11400 }

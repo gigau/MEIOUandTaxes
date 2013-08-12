@@ -1,0 +1,18 @@
+# BLG - Bologna
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -2			#1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1	#-1 GUELFI
+primary_culture = emilian
+religion = catholic
+technology_group = western
+capital = 113 # Emilia

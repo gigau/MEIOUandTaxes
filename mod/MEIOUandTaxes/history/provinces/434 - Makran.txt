@@ -1,0 +1,44 @@
+#Province: Makran
+#file name: 434 - Makran
+#MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAL
+controller = BAL
+culture = baluchi
+religion = sunni
+capital = "Rápch"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1478
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = BAL
+}
+1450.1.1  = { citysize = 2000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1  = { citysize = 1000 }
+1550.1.1  = { citysize = 3000 }
+1600.1.1  = { citysize = 2000 }
+1649.1.1 = {
+	controller = PER
+}
+1650.1.1 = {
+	citysize = 3000
+	owner = PER
+}
+1666.1.1 = {
+	owner = BAL
+	controller = BAL
+} #Kingdom of Kalat
+1700.1.1  = { citysize = 6000 }
+1750.1.1  = { citysize = 5000 }
+1800.1.1  = { citysize = 8000 }

@@ -1,0 +1,51 @@
+# 1497 - Timbuktu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#Province: Timbuktu
+#file name: 1497 - Niamey
+#LS -ALPHA 5
+
+owner = MAL
+controller = MAL
+culture = mali
+religion = sunni
+capital = "Timbuktu"
+
+base_tax = 13
+#manpower = 7
+manpower = 14
+citysize = 40000
+trade_goods = gold
+
+fort1 = yes
+temple = yes
+marketplace = yes
+university = yes
+cot = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+
+hre = no
+
+1356.1.1  = {
+	add_core = MAL
+	add_core = SON
+}
+1433.1.1  = { owner = TUA controller = TUA citysize = 60000 }
+1458.1.1  = { owner = SON controller = SON }	
+1493.1.1  = { revolt_risk = 9 } #Civil War between Sunni Baare and Muhammad Ture Sylla
+1494.1.1  = { revolt_risk = 0 } #Muhammad Ture Sylla establishes new dynasty
+1525.1.1  = { citysize = 80000 } #Revival under Askiya Muhammad
+1529.1.1  = { revolt_risk = 2 } #Musa overthrows father, becomes Askiya
+1550.1.1  = { citysize = 80000 } #Era of Prosperity under Askiya Dawud
+1575.1.1  = { citysize = 80000 } #Era of Prosperity under Askiya Dawud
+1591.3.15 = { owner = MOR controller = MOR add_core = MOR } #Moroccan victory at Tondibi
+1592.1.1  = { citysize = 4000 base_tax = 5 manpower = 10 } #Rapid Decline in wake of Moroccan occupation - city abandoned at first
+1612.1.1  = { controller = REB } #local Moroccans, the Arma, rule on their own
+#1642.1.1  = { owner = MAL controller = MAL remove_core = MOR } #Moroccans no longer appoint governors, local Moroccans, the Arma, rule on their own
+1642.1.1  = { remove_core = SON } #Collapse of last vestiges of unity among Songhai
+1660.1.1  = { owner = SEG controller = SEG add_core = SEG } #Bambara conquers region
+#FB after Moroccan withdrawal Timbuktu became a semi-independent city state (in decline)
+#1712.1.1  = { owner = SEG controller = SEG add_core = SEG } #FB
+#FB according to Cassell's atlas of World History Timbuktu was the centre of of a state called Arma c1715

@@ -1,0 +1,92 @@
+# 2354 -  Champagne - Principal cities: Troyes
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRA
+controller = FRA
+add_core = CHP
+add_core = FRA
+culture = francien
+religion = catholic
+capital = "Troyes"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 17000
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1343.1.1 = {add_core = NAV}
+1378.1.1 = {remove_core = NAV}
+1419.1.19  = {
+	owner = ENG
+	controller = ENG
+}
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+}
+1449.1.1   = {
+	owner = FRA
+	controller = FRA
+}
+1466.2.10  = { add_core = BUR } # Treaty of Conflans, Champagne is promised to Charles the Bold as dowry
+1477.1.5   = { remove_core = BUR } # Charles the Bold dies
+1500.1.1   = { citysize = 19000 refinery = yes }
+1530.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 21000 }
+1562.3.1   = { revolt_risk = 7 } # Massacre at Wassy, the fuse is put in the French powder keg
+1563.3.19  = { revolt_risk = 0 } # Temporary truce after the assassination of de Guise
+1570.1.1   = { constable = yes }
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 23000 customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1621.1.1   = { base_tax = 10 } # Richelieu
+1630.1.1   = { fort3 = yes }
+1636.8.30  = { controller = HAB } # Habsburg forces ravage North Eastern France
+1636.9.25  = { controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
+1650.1.1   = { citysize = 24000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.2.15  = { revolt = { type = noble_rebels size = 0 } controller = REB revolt_risk = 3 } # Charles of Lorraine marches towards Paris to team up with Condé, ravaging the Champagne
+1652.10.21 = { revolt = { } controller = FRA revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1660.1.1   = { courthouse = yes }
+1680.1.1   = { fort4 = yes }
+1700.1.1   = { citysize = 25000 mint = yes }
+1740.1.1   = { fort5 = yes regimental_camp = yes }
+1750.1.1   = { citysize = 30000 }
+1773.1.1   = { base_tax = 11 } # Turgot & the Economical Reforms
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 31000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

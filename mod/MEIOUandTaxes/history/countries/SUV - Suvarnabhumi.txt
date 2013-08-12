@@ -1,0 +1,28 @@
+# SUV -SUVARNABHUMI
+
+
+government = eastern_monarchy_2   ##2 ???
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 2
+# land_naval = 0
+# quality_quantity = 1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = thai   ####
+add_accepted_culture = lanna
+add_accepted_culture = laotian
+add_accepted_culture = shan
+add_accepted_culture = zhuang
+add_accepted_culture = khmer
+add_accepted_culture = monic
+add_accepted_culture = burmese
+religion = theravada
+technology_group = indian  ##
+capital = 600	#### Ayutthaya
+
+
+	

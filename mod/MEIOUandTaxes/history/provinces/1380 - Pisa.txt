@@ -1,0 +1,86 @@
+# 1380 - pise, livorno
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PIS
+controller = PIS
+add_core = PIS
+add_core = FIR
+culture = tuscan 
+religion = catholic  
+capital = "Pisa" 
+
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 20000	# Estimated         
+trade_goods = wine
+        
+fort1 = yes
+workshop = yes 
+marketplace = yes 
+shipyard = yes
+temple = yes		# Completed
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes 
+
+1338.1.1   = { university = yes }
+1356.1.1   = { citysize = 25000 }
+1399.1.1   = { owner = MLO controller = MLO add_core = MLO citysize = 29000 }
+1405.1.1   = { owner = FIR revolt = { type = nationalist_rebels size = 1 } controller = REB }
+1406.10.9  = { revolt = {} controller = FIR }
+1450.1.1   = { citysize = 32000 }
+1494.1.1   = { controller = PIS owner = PIS }  # Pisan Republic
+1500.1.1   = { citysize = 34000 } 
+1509.1.1   = { controller = FIR owner = FIR }  # Annexed back
+1527.1.1   = { controller = SPA } # War of the League of Cognac
+1529.8.3   = { controller = FIR } # Treaty of Cambrai
+1550.1.1   = { citysize = 34000 } 
+1569.1.1   = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+	remove_core = FIR
+} # Pope Pius V declared Duke Cosimo I de' Medici  Grand Duke of Tuscany
+1600.1.1   = { citysize = 39000 } 
+1618.1.1  =  { hre = no }
+1650.1.1   = { citysize = 38000 } 
+1700.1.1   = { citysize = 36000 } 
+1750.1.1   = { citysize = 35000 mint = yes } 
+1800.1.1   = { citysize = 32000 }
+1801.2.9   = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # The Treaty of Lunéville
+1801.3.21  = {
+	owner = ETR
+	controller = ETR
+	add_core = ETR
+} # The Kingdom of Etruria
+1807.12.10 = {
+	owner = RFR
+	controller = RFR
+	remove_core = ETR
+} # Etruria is annexed to France
+1814.4.11  = {
+	owner = TUS
+	controller = TUS
+	remove_core = RFR
+} # Napoleon abdicates and Tuscany is restored
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

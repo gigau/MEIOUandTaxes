@@ -1,0 +1,314 @@
+# KRT - Kartli
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = georgian
+religion = orthodox
+technology_group = eastern
+capital = 423
+#Bagrationi dynasty
+
+1466.1.1 = {
+	monarch = {
+		name = "Bagrat VI"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Aleksandre I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Konstantine"
+		monarch_name = "Konstantine II"
+		dynasty = "Bagrationi"
+		birth_Date = 1447.1.1
+		death_date = 1505.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Konstantine II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1482.1.1 = {
+	heir = {
+		name = "Davit"
+		monarch_name = "Davit X"
+		dynasty = "Bagrationi"
+		birth_Date = 1482.1.1
+		death_date = 1526.6.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Davit X"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "Giorgi IX"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Luarsab"
+		monarch_name = "Luarsab"
+		dynasty = "Bagrationi"
+		birth_Date = 1502.1.1
+		death_date = 1558.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1534.1.1 = {
+	monarch = {
+		name = "Luarsab"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1537.1.1 = {
+	heir = {
+		name = "Svimeon"
+		monarch_name = "Svimeon"
+		dynasty = "Bagrationi"
+		birth_Date = 1537.1.1
+		death_date = 1611.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "Svimeon"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1569.1.1 = {
+	monarch = {
+		name = "Davit XI"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1578.1.1 = {
+	monarch = {
+		name = "Svimeon"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Giorgi"
+		monarch_name = "Giorgi X"
+		dynasty = "Bagrationi"
+		birth_Date = 1561.1.1
+		death_date = 1606.9.7
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Giorgi X"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+	heir = {
+		name = "Luarsab"
+		monarch_name = "Luarsab II"
+		dynasty = "Bagrationi"
+		birth_Date = 1592.6.21
+		death_date = 1622.7.4
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1606.9.7 = {
+	monarch = {
+		name = "Luarsab II"
+		dynasty = "Bagrationi"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Bagrat VII"
+		dynasty = "Bagrationi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Svimeon"
+		monarch_name = "Svimeon II"
+		dynasty = "Bagrationi"
+		birth_Date = 1615.1.1
+		death_date = 1631.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1619.1.1 = {
+	monarch = {
+		name = "Svimeon II"
+		dynasty = "Bagrationi"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1631.1.1 = {
+	monarch = {
+		name = "Rustam"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1658.1.1 = {
+	monarch = {
+		name = "Vakhtang V"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1676.1.1 = {
+	monarch = {
+		name = "Giorgi XI"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1709.1.1 = {
+	monarch = {
+		name = "Kaikhusro"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1711.1.1 = {
+	monarch = {
+		name = "Interregnum"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Jese"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1716.1.1 = {
+	monarch = {
+		name = "Vakhtang VI"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Jese"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

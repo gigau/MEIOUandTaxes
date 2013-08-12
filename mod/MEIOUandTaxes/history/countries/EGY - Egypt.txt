@@ -1,0 +1,73 @@
+# Egypt
+# Tag : EGY
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = egyptian
+religion = sunni
+technology_group = muslim
+capital = 361	# Cairo
+
+
+1804.3.14  = {
+	monarch = {
+		name = "Muhammad 'Alî"
+		dynasty = "Alawiyya"
+		adm = 9
+		dip = 7
+		mil = 9
+		leader = { name = "Mehmet Ali"		type = general	rank = 0	fire = 1	shock = 4	manuever = 5	siege = 0 }
+	}
+}
+
+1848.9.1   = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "Alawiyya"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1848.11.10 = {
+	monarch = {
+		name = "Abbas I"
+		dynasty = "Alawiyya"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1854.7.13  = {
+	monarch = {
+		name = "Sa'id I"
+		dynasty = "Alawiyya"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1863.1.18  = {
+	monarch = {
+		name = "Ismai'l I"
+		dynasty = "Alawiyya"
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+# 1867.6.8 - The Sublime Porte recognizes the khedivate claimed by Muhammad 'Ali

@@ -1,0 +1,83 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 193 2 56 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+#No idea for good monarch names, sisodiyas _were_ active here but not for the era when this state is actually used in the game...
+
+monarch_names = {
+	"Amarji #1" = 10
+	"Bhenji #0" = 10
+	"Hamirji #0" = 10
+	"Ravalj Lakhaji #0" = 10
+	"Vibhaji Ravalji #0" = 10
+	"Sataji Vibhaji #0" = 10
+	"Jasaji Sataji #0" = 10
+	"Lakhaji Ajoji #0" = 10
+	"Ranmalji Lakhaji #0" = 10
+	"Rajsinhji #0 Ajoji" = 20
+	"Tamachi Rajsinhji #0" = 10
+	"Lakhaji #1 Tamachi" = 20
+	"Rajsinhji #1 Lakhaji" = 20
+	"Hardholji Lakhaji #0" = 10
+	"Tamachi Hardholji #0" = 10
+	"Jasaji Lakhaji #0" = 10
+	"Sataji Lakhaji #0" = 10 
+}
+
+leader_names = {
+	Rajput
+	Jhala Maansinh
+	Babber
+	Bargujars
+	Bhoja
+	Chandelas
+	Chauhan
+	Jadeja
+	Kachwaha
+	Karmavati
+	Hakim Khan Sur Pathan
+	Khumba
+	Paramaras
+	Pratap
+	Rathore
+	Singh
+	Tomaras
+	Mihirbhoj
+	Mahipala
+	Nagabhatta
+	Padmini
+	Vaghela
+	Vatsraja
+}
+
+ship_names = {
+	Chambal Devi Durga Gayatri Ghaggar
+	Godwar Jalsena "Kala Jahazi" Lakshmi
+	"Lal Jahazi" Luni Nausena
+	"Nav ka Yudh" "Nila Jahazi"
+	Parvati Radha Rani Ratri Sagar Sarasvati
+	Sekhawati Sita
+}

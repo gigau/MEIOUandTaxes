@@ -1,0 +1,45 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = NAV		
+controller = NAV
+add_core = NAV
+culture = basque
+religion = catholic
+capital = "Iruna"  #pampelune in euskara(basque)
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 3700
+trade_goods = copper 
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1483.1.29  = { revolt_risk = 5 } # Civil War between the Beaumont and Agramont parties in Navarra
+1485.2.5   = { revolt_risk = 0 } # Peace of Pau between the two parties
+1500.1.1   = { citysize = 4200 }
+1512.7.24  = { controller = ARA owner = ARA add_core = ARA remove_core = NAV } # Navarra's alliance with France gives Fernando the perfect excuse to invade the kingdom.
+1515.7.7   = { controller = CAS owner = CAS add_core = CAS remove_core = ARA } # Navarra's formally integrated into Castilla
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+	remove_core = CAS
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+1521.5.1   = { controller = FRA } # Exploiting the turmoil provoked by the revolt of the Comunidades, France attacks the unprotected Navarrese border.
+1521.6.30  = { controller = SPA } # French troops are defeated at the battle of Quirós
+1550.1.1   = { citysize = 5130 }
+1600.1.1   = { citysize = 7200 fort2 = yes }
+1650.1.1   = { citysize = 8570 marketplace = yes }
+1700.1.1   = { citysize = 9350 }
+1750.1.1   = { citysize = 10870 }
+1800.1.1   = { citysize = 11200 }
+1808.6.6   = { controller = REB }
+1808.12.1  = { controller = SPA }
+1813.6.21  = { controller = REB }
+1813.12.11 = { controller = SPA }

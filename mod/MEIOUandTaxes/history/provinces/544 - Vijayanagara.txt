@@ -1,0 +1,66 @@
+#Province: Vijayanagara
+#file name: 544 - Vijayanagara
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VIJ
+controller = VIJ
+culture = kannada
+religion = hinduism
+capital = "Vijayanagara"
+trade_goods = rice
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 10220
+fort1 = yes
+fort2 = yes
+temple = yes
+cot = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = VIJ
+}
+1400.1.1 = { citysize = 11550 }
+1500.1.1 = { citysize = 14550 }
+1565.1.1 = { citysize = 15200 }
+1565.7.1 = {
+	owner = GOC
+	controller = GOC
+	remove_core = VIJ
+} # The Vijayanagar empire collapses
+1600.1.1 = { citysize = 16640 discovered_by = turkishtech }
+1615.7.1 = { add_core = GOC }
+1650.1.1 = { citysize = 18900 }
+1688.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1700.1.1 = { citysize = 21250 }
+1712.1.1 = { add_core = HYD }	#Viceroyalty of the Deccan
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	remove_core = MUG
+}
+1750.1.1 = { citysize = 23800 workshop = yes }
+1763.1.1 = {
+	owner = MYS
+	controller = MYS
+	add_core = MYS
+	remove_core = VIJ
+} # Mysore sultan conquers the province
+1768.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}
+1794.1.1 = {
+	owner = MYS
+	controller = MYS
+}
+1799.1.1 = { citysize = 26744 }

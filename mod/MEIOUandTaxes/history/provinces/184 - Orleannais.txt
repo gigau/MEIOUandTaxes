@@ -1,0 +1,90 @@
+# 184 Orléannais - Principal cities: Orléans Blois
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORL
+controller = ORL
+add_core = ORL
+culture = francien
+religion = catholic
+capital = "Orliens"
+
+
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 17000
+trade_goods = wheat
+
+
+fort1 = yes
+marketplace = yes
+temple = yes # La Notre Dame de Chartres
+university = yes # L'Université d'Orléans
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1337.1.1   = { add_core = FRA }
+1500.1.1   = { citysize = 19000 }
+1515.1.1   = { fort2 = yes }
+1520.1.1   = { fine_arts_academy = yes }
+1550.1.1   = { citysize = 21000 constable = yes }
+1560.1.1   = { religion = reformed }
+1562.3.1   = { revolt_risk = 5 }
+1562.3.20  = { revolt = { type = religious_rebels size = 0 } controller = REB } # Huguenot rebels garrison Orléans & Dreux
+1563.3.19  = { revolt = { } controller = ORL revolt_risk = 3 } # Temporary truce negotiated after the assassination of de Guise
+1565.1.1   = { revolt_risk = 8 } # France is restless once again as ultra-catholic intentions become clear
+1568.9.1   = { revolt_risk = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
+1570.8.8   = { revolt_risk = 10 } # Edict of Saint-Germain: temporary pacification
+1573.9.1   = { revolt_risk = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
+1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit	
+1574.5.3   = { owner = FRA controller = FRA }
+1580.1.1   = { regimental_camp = yes }
+1584.1.1   = { revolt_risk = 12 } # Situation heats up again
+1588.12.1  = { revolt_risk = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1589.1.1   = { base_tax = 9 } # At the Walls of Paris: French Wars of Religion
+1590.1.1   = { customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1594.1.1   = { revolt_risk = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1598.4.13  = { revolt_risk = 3 } # Edict of Nantes, alot more freedom to the protestants
+1598.5.2   = { revolt_risk = 0 } # Peace of Vervins, formal end to the Wars of Religion
+1600.1.1   = { citysize = 24000 courthouse = yes }
+1621.1.1   = { base_tax = 10 } # Richelieu
+1630.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 27000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.7.2   = { revolt = { type = noble_rebels size = 0 } controller = REB revolt_risk = 3 } # Condé takes Orléannais
+1652.10.21 = { revolt = { } controller = FRA revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1670.1.1   = { mint = yes }
+1685.1.1   = { fort4 = yes }
+1685.10.18 = { revolt_risk = 8 } # Edict of Nantes revoked by Louis XIV
+1686.1.17  = { religion = catholic revolt_risk = 0 } # Dragonnard campaign succesful: region reverts back to catholicism
+1700.1.1   = { citysize = 30000 }
+1740.1.1   = { fort5 = yes }
+1750.1.1   = { citysize = 37000 workshop = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 43000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

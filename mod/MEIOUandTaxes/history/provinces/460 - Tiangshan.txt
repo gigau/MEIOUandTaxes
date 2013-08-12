@@ -1,0 +1,52 @@
+# 460 - Tian Shan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = oirats
+religion = mahayana
+capital = "Tian Shan"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 3870
+
+discovered_by = KSH
+discovered_by = chinese
+discovered_by = mongol_tech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = CHG
+	add_core = OIR
+	add_core = TIM
+	revolt_risk = 3
+}
+1500.1.1 = { citysize = 4557 }
+1504.1.1 = { add_core = SHY } # Shaybanid horde
+1550.1.1 = { citysize = 5157 }
+1600.1.1 = { citysize = 5800 }
+1622.1.1 = { discovered_by = RUS }
+1650.1.1 = { citysize = 6758 }
+1695.1.1 = {
+	owner = OIR
+	controller = OIR
+	add_core = OIR
+	remove_core = SHY
+} # The Jungars
+1700.1.1 = { citysize = 7300 }
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+	remove_core = OIR
+} # Independent principality established by Shaybanid Shahrukh
+1750.1.1 = { citysize = 8870 }
+1757.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Part of the Manchu empire
+1800.1.1 = { citysize = 9000 }

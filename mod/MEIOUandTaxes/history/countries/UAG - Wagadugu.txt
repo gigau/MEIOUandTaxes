@@ -1,0 +1,27 @@
+#MEIOU-GG Governemnt changes
+
+government = tribal_republic_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+primary_culture = mali
+religion = sunni
+technology_group = soudantech
+capital = 1495
+
+#Kings of Mali
+1350.1.1 = {
+	monarch = {
+		name = "City council"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}

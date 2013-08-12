@@ -1,0 +1,69 @@
+# 337 - Ouahran
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FEZ
+controller = FEZ
+add_core = FEZ
+add_core = TLE
+add_core = ALG
+culture = algerian
+religion = sunni
+capital = "Oran"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 20017
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1500.1.1 = { citysize = 22300 }
+1509.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	cot = no	
+} # Taken over by the Spanish
+1510.1.1 = { fort2 = yes }
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+	remove_core = CAS
+} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1 = { citysize = 23944 remove_core = FEZ}
+1600.1.1 = { citysize = 24341 }
+1650.1.1 = { citysize = 27006 fort3 = yes }
+1700.1.1 = { citysize = 28671 }
+1708.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = SPA
+} # The Spanish are expelled by Algerian forces, part of the Ottoman empire
+1732.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	constable = yes
+	remove_core = TUR
+} # Conquered by Spain
+1750.1.1 = { citysize = 30985 }
+1792.1.1 = {
+	owner = ALG
+	controller = ALG
+	remove_core = SPA
+} # The Spanish surrender Oran to Algiers
+1800.1.1 = { citysize = 32647 }
+1845.1.1 = {
+	owner = FRA
+	controller = FRA
+}

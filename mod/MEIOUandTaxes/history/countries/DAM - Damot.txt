@@ -1,0 +1,30 @@
+# DAM - Damot
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_3b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -4
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+#FB primary_culture = ethiopian
+primary_culture = amhara
+religion = oriental
+technology_group = muslim
+unit_type = soudantech
+capital = 1577 # Begemder (Gorgora)
+
+1344.1.1 = {
+	monarch = {
+		name = "Egwale"
+		dynasty = "Solomonid"
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}

@@ -1,0 +1,63 @@
+# 110 - Trènt
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TNT
+controller = TNT
+culture = lombard
+religion = catholic
+hre = yes
+base_tax = 4
+trade_goods = copper
+#manpower = 1
+manpower = 2
+fort1 = yes
+terrain1 = yes
+capital = "Trènt"
+citysize = 5000
+marketplace = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1   = {
+	citysize = 8000
+	add_core = TNT
+	set_province_flag = terrain1
+}
+1399.1.1   = { citysize = 9000 }
+1456.1.1   = { citysize = 10000 }
+#1511.6.23  = { manpower = 0.5 } # Landslibell - Tyrolean's only military duty is the defence of their homeland.
+1511.6.23  = { manpower = 0.5 } # Landslibell - Tyrolean's only military duty is the defence of their homeland.
+1525.3.1   = { revolt_risk = 8 }
+1525.9.1   = { revolt_risk = 0 }
+1550.1.1   = { citysize = 15000 }
+#1564.7.25  = { manpower = 1 } #Ferdinand I dies, Habsburgs split in 3 lines
+1564.7.25  = { manpower = 2 } #Ferdinand I dies, Habsburgs split in 3 lines
+1570.1.1   = { fine_arts_academy = yes }
+1577.1.1   = { base_tax = 3 } #Minting moves from Meran to Hall
+1600.1.1   = { workshop = yes }
+1602.1.1   = { base_tax = 4 } #Maximilian's economic reforms
+1611.1.1   = { citysize = 14000 } #great plague
+1646.1.1   = { fort2 = yes }
+1650.1.1   = { citysize = 18000 }
+#1665.6.25  = { manpower = 0.5 }# manpower decreased as Landslibell is still in effect under foreign governance
+1665.6.25  = { manpower = 0.5 }# manpower decreased as Landslibell is still in effect under foreign governance
+1700.1.1   = { citysize = 20000 }
+1750.1.1   = { citysize = 22000 }
+1801.2.9   = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # The Treaty of Lunéville
+1805.12.26 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+     	remove_core = HAB
+} # The Treaty of Pressburg
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally

@@ -1,0 +1,245 @@
+# Country: Banjarmasin
+# file name: BKS - Banjarmasin
+# for performance reasons BKS represents Banjarmasin + Kotawaringin + Sukadana
+# FB-TODO vassal of Mataram from c1625 to c1725
+# need rulers before 1520
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = dayak
+religion = theravada
+technology_group = austranesian
+capital = 640	# Banjarmasin
+
+1336.1.1 = {
+	monarch = {
+		name = "Banjar"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Pangeran Samudera"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}#first Muslim ruler of Banjarmasin
+
+1520.1.1 = {
+	monarch = {
+		name = "Suryan Syah"
+		dynasty = "Saleh"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	religion = sunni
+	# secularism_theocracy = 1
+	government = despotic_monarchy_3
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Rahmatullah"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Hidayatullah"
+		dynasty = "Saleh"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Marhum Panembahan"
+		dynasty = "Saleh"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1642.1.1 = {
+	monarch = {
+		name = "Inayatullah"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 7
+		mil = 9
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Saidullah"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Amrullah"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1660.5.1 = {
+	monarch = {
+		name = "Ri'ayatullah"
+		dynasty = "Saleh"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1663.1.1 = {
+	monarch = {
+		name = "Surya Nata II"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1679.1.1 = {
+	monarch = {
+		name = "Amrullah II"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Tahmid Illah"
+		dynasty = "Saleh"
+		adm = 9
+		dip = 5
+		mil = 6
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Muhammad 'Alî"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Panembahan Kusuma Dilaga"
+		dynasty = "Saleh"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Hamidullah"
+		dynasty = "Saleh"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1734.1.1 = {
+	monarch = {
+		name = "Tamjid Illah"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1759.1.1 = {
+	monarch = {
+		name = "Muhammad Aminullah"
+		dynasty = "Saleh"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Nata"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Tamjid Illah II"
+		dynasty = "Saleh"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Sulaiman Saidullah"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1825.1.1 = {
+	monarch = {
+		name = "Adam bin Sulaiman Saidulla"
+		dynasty = "Saleh"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}

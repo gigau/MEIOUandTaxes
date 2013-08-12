@@ -1,0 +1,47 @@
+# 1525 - Bure
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = mali
+religion = sunni
+capital = "Bure"
+
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 4000
+trade_goods = ivory
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+}
+# 1453 - Part of the Mali Empire under Jolof governors
+1469.1.1  = {
+	owner = SON
+	controller = SON
+	add_core = SON
+}
+1482.1.1  = { revolt_risk = 4 } #Bemoy revolt against Jolof governors, aided by Portuguese
+1498.1.1  = { revolt_risk = 4 } #Fulani incursions begin
+1512.1.1  = { revolt_risk = 0 } #leader of Fulani killed in battle, stability returns under Jolof dominance
+1549.1.1  = { revolt_risk = 6 } #Kayor breaks free from Jolof control
+1552.1.1  = { revolt_risk = 8 } #Waalo breaks free from Jolof control
+1555.1.1  = { revolt = { type = nationalist_rebels size = 1 } controller = REB revolt_risk = 3 } #Bawol rebels, Jolof collapse, Mali loses control/ownership of region
+1565.1.1  = { revolt_risk = 0 } #Kayor establishes dominance over Waalo & Bawol
+1591.3.15 = {
+	owner = MAL
+	controller = MAL
+	add_core = MAL
+} #Moroccan victory at Tondibi
+1592.1.1  = { citysize = 4000 } #Rapid Decline in wake of Moroccan occupation - city abandoned at first
+#1618.1.1  = { owner = MAL controller = MAL add_core = MAL remove_core = MOR } #Moroccans no longer appoint governors, local Moroccans, the Arma, rule on their own
+1642.1.1  = { remove_core = SON } #Collapse of last vestiges of unity among Songhai
+#1660.1.1  = { owner = SEG controller = SEG add_core = SEG } #Bambara conquers region
+1712.1.1  = { owner = SEG controller = SEG add_core = SEG }

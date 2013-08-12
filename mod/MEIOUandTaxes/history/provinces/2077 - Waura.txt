@@ -1,0 +1,41 @@
+# 2077 - Waura
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = amazonian
+religion = pantheism
+capital = "Waura"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1700.1.1   = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+	citysize = 10
+	trade_goods = gold
+	set_province_flag = trade_good_set
+}
+1720.1.1   = {
+	citysize = 500
+	capital = "Manicoré"
+	culture = portugese
+	religion = catholic
+}
+1750.1.1   = {
+	add_core = BRZ
+	culture = brazilian
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+}
+1825.1.1   = {
+	remove_core = POR
+}

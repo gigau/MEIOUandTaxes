@@ -1,0 +1,121 @@
+# NDO - nDongo
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = sub_saharan
+religion = animism
+primary_culture = kongolese
+capital = 1154
+
+1356.1.1   = {
+	monarch = {
+		name = "Ngola-a-Nzinga"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1515.1.1   = {
+	monarch = {
+		name = "Ngola Kiluanji Inene"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1556.1.1   = {
+	monarch = {
+		name = "Ndambi a Ngola"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1562.1.1   = {
+	monarch = {
+		name = "Ngola Kiluanji"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1575.1.1   = {
+	monarch = {
+		name = "Njinga Ngola Kilombo"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1592.1.1   = {
+	monarch = {
+		name = "Ngola Kiluanji"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1617.1.1   = {
+	monarch = {
+		name = "Ngola Nzinga Mbandi"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1624.1.1   = {
+	monarch = {
+		name = "Ana de Sousa Nzingha"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+		female = yes
+	}
+}
+
+1625.1.1   = {
+	monarch = {
+		name = "Hari a Kiluanje"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1626.1.1   = {
+	monarch = {
+		name = "Ngola Hari"
+		dynasty = "Mbande"
+		DIP = 8
+		ADM = 9
+		MIL = 7
+	}
+}
+
+# 1665 - subjugated to the Portuguese

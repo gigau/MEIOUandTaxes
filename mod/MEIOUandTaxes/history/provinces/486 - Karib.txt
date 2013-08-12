@@ -1,0 +1,65 @@
+# 486 - Karib
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Karib"
+trade_goods = crops 
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1492.10.24 = {
+	discovered_by = CAS
+} # Christopher Columbus's arrival
+1514.6.28 = {
+	owner = CAS
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 600
+	capital = "Santiago de Cuba"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # Founded by Diego Velázquez
+1516.1.23 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+}
+1517.1.1  = {
+	add_core = SPA
+	citysize = 1500
+} # The Taíno (Arawak) culture was nearly destroyed
+1522.1.1  = {
+	revolt_risk = 3
+} # Guama lead a relatively small attack against the conquistadors
+1532.1.1  = {
+	revolt_risk = 0
+} # Guama is killed
+1550.1.1  = {
+	citysize = 2150
+} # Santiago de Cuba plundered by French forces
+1600.1.1  = {
+	citysize = 3700
+}
+1650.1.1  = {
+	citysize = 4360
+	marketplace = yes
+}
+1662.1.1  = {
+	citysize = 3990
+} # Santiago de Cuba plundered by British forces
+1700.1.1  = {
+	citysize = 5100
+	culture = caribean
+}1750.1.1  = {
+	citysize = 6030
+} 
+1800.1.1  = {
+	citysize = 9100
+} # Heavy French immigration

@@ -1,0 +1,50 @@
+#Province: Pahang
+#file name: 598 - Pahang
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+#Notes:
+#if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#"Under the control of the maritime empire of Srivijaya (centered around Palembang in southeast Sumatra), Pahang had expanded to cover the entire southern portion of the Malay peninsula in the eight and ninth centuries"
+#opportunity for improvement: add the sultanate of Pahang
+#the city-state of Pahang was an independant sultanate in 1475
+#city-state of Pahang was allied with Johor against Aceh from 1613
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAH
+controller = PAH
+add_core = PAH
+culture = malayan
+religion = theravada
+capital = "Pahang"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 11000
+trade_goods = gold
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = austranesian
+
+hre = no
+
+1400.1.1 = { citysize = 11190 }
+1450.1.1 = { citysize = 11500 }
+1500.1.1 = { citysize = 11966 religion = sunni }
+1550.1.1 = { citysize = 12564 }
+1600.1.1 = { citysize = 13870 }
+1650.1.1 = { citysize = 14200 }
+1700.1.1 = { citysize = 15260 }
+1725.1.1 = {
+	owner = TRG
+	controller = TRG
+	add_core = TRG
+}
+1750.1.1 = { citysize = 16777 }
+1800.1.1 = { citysize = 17100 }

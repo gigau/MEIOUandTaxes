@@ -1,0 +1,129 @@
+# DAH - Dahomey
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = soudantech
+religion = animism
+primary_culture = yorumba
+capital = 1503
+
+1440.1.1 = {
+	monarch = {
+		name = "Ewuare"
+		dynasty = "Dan-Home"
+		adm = 8
+		dip = 4
+		mil = 5
+	}
+}
+
+1600.1.1 = {
+	monarch = {
+		name = "Gangnihessou"
+		dynasty = "Dan-Home"
+		adm = 8
+		dip = 4
+		mil = 5
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Dakodonou"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Houegbadja"
+		dynasty = "Dan-Home"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Akaba"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1708.1.1 = {
+	monarch = {
+		name = "Agadja"
+		dynasty = "Dan-Home"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Tegbessou"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1774.1.1 = {
+	monarch = {
+		name = "Kpengla"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1789.1.1 = {
+	monarch = {
+		name = "Agonglo"
+		dynasty = "Dan-Home"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1797.1.1 = {
+	monarch = {
+		name = "Adandozan"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Ghezo"
+		dynasty = "Dan-Home"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

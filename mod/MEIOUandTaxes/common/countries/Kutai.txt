@@ -1,0 +1,61 @@
+#Country Name: Kutai
+#Tag: KUT
+#New Country added by MEIOU-FB Indonesia mod v2
+
+graphical_culture = indiangfx
+
+color = { 193  171  8 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	indian_shock_cavalry
+	rajput_musketeer
+	south_indian_musketeer
+	reformed_mughal_musketeer
+	tipu_sultan_rocket
+	indian_rifle
+}
+
+monarch_names = {
+	"Timmaraja #0" = 10
+	"Muhammad Saleh #1" = 50
+	"Bettada Devaraja #0" = 10
+	"Raja Wadiyar #0" = 10
+	"Immadai Raja #0" = 10
+	"Kanthirava Narasaraja #0" = 10
+	"Chikkadevaraja #0" = 10
+	"Krishnaraja #0" = 10
+	"Haji Aji #0" = 20
+	"Paduka #0" = 20
+}
+
+leader_names = {
+	Chandrashekar
+	Varma
+	Devaraja
+	Yaduraya
+	Waidyar
+	Vaidya
+	Noorondayya
+	Vilasa
+	Visvesvaraya
+	Basavaraju
+	Devi
+	Rajbal
+}
+
+ship_names = {
+	Paduka Haji Aji Muhammad Saleh
+	Amirtha Amman Arul Bhima Chellam
+	Devi Durga Gayatri Iniya Krishna
+	Lakshmi Madhu Meenakshi Nalini
+	Pallar Parvati Payaswani Pennar
+	Ponni Radha Ratri Sarasvati Sita
+	Tamarai
+}

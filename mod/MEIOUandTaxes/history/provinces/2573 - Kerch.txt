@@ -1,0 +1,69 @@
+# 2573 - Kerch
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GEN
+controller = GEN 
+add_core = GEN
+add_core = CRI 
+culture = crimean
+religion = sunni
+capital = "Cherkio"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2757 
+trade_goods = salt
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1475.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = GEN
+	capital = "Kerc"
+}
+1500.1.1  = {
+	citysize = 3243
+}
+1550.1.1  = {
+	citysize = 3816
+}
+1600.1.1  = {
+	citysize = 4489
+}
+1650.1.1  = {
+	citysize = 5281
+}
+1700.1.1  = {
+	citysize = 6214
+}
+1706.1.1  = {
+	fort2 = yes
+}
+1750.1.1  = {
+	citysize = 7310
+}
+1774.7.21 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+} # Treaty of Kuchuk-Kainarji
+1800.1.1  = {
+	citysize = 8600
+}

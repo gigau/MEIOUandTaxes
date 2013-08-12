@@ -1,0 +1,71 @@
+# 743 - Orinoco
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = guajiro
+religion = pantheism
+capital = "Orinoco"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 2
+native_hostileness = 6
+
+1498.1.1   = { discovered_by = CAS } # Christopher Columbus
+1516.1.23  = { discovered_by = SPA }
+1522.1.1   = {
+	owner = SPA 
+	controller = SPA
+	revolt_risk = 5
+	culture = castillian
+	religion = catholic
+	trade_goods = coffee
+	citysize = 480
+	capital = "Curiapo"
+	set_province_flag = trade_good_set
+} # First settlements, weakly controlled by Spain. Century of continual low-intensity warfare.
+1547.1.1   = {
+	add_core = SPA
+	citysize = 1100
+}
+1550.1.1   = { citysize = 1570 revolt_risk = 3 }
+1600.1.1   = { citysize = 2360 }
+1650.1.1   = { citysize = 3000 }
+1652.1.1   = { revolt_risk = 0 } # Last uprising is put down
+1700.1.1   = { citysize = 4168 }
+1750.1.1   = {
+	add_core = VNZ
+	culture = colombian
+}
+1811.7.5   = {
+	owner = VNZ
+	controller = VNZ
+} # Venezuela declared its independence
+1812.7.25  = {
+	owner = SPA
+	controller = SPA
+} # The revolutionary army is defeated
+1813.8.7   = {
+	owner = VNZ
+	controller = VNZ 
+} # The Second Republic of Venezuela is established
+1814.1.1   = {
+	owner = SPA
+	controller = SPA
+} # The end of the second republic
+1819.12.17 = {
+	owner = COL
+	controller = COL
+	add_core = COL
+	remove_core = SPA
+} # The establishment of Gran Colombia
+1830.1.13  = {
+	owner = VNZ
+	controller = VNZ
+	add_core = VNZ
+}
+1831.11.19 = {
+	remove_core = COL
+} #Gran Colombia dismantled

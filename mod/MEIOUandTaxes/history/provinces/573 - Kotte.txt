@@ -1,0 +1,46 @@
+# 573 - Kotte
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KTH
+controller = KTH
+culture = sinhala
+religion = theravada
+capital = "Kalanpu"
+trade_goods = tea
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 8352
+add_core = KTH
+discovered_by = muslim
+discovered_by = indian
+
+1500.1.1 = { citysize = 9400 }
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+1517.1.1 = {
+	owner = POR
+	controller = POR
+	fort1 = yes
+	capital = "Colombo"
+}
+1542.1.1 = { add_core = POR }
+1550.1.1 = { citysize = 10700 }
+1600.1.1 = { citysize = 11570 }
+1650.1.1 = { citysize = 13400 }
+1660.1.1 = {
+	owner = NED
+	controller = NED
+	remove_core = POR
+  	capital = "Kandy"
+} # Dutch control
+1685.1.1  = { add_core = NED }
+1700.1.1  = { citysize = 15100 }
+1750.1.1  = { citysize = 19800 }
+1799.8.1  = { controller = GBR } # Occupied by England
+1800.1.1  = { citysize = 22100 }
+1802.3.25 = {
+	owner = GBR
+	add_core = GBR
+	remove_core = NED
+} # Treaty of Amiens

@@ -1,0 +1,237 @@
+# OTT Empire
+# Ottoman turks
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Govenemnt changes
+# 2010-jan-27 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 1
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = -2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = 1
+# secularism_theocracy = 0
+primary_culture = turkish
+religion = sunni
+technology_group = turkishtech
+capital = 2552 # Bursa
+
+1281.1.1 = {
+	heir = {
+		name = "Orhan Gazi"
+		monarch_name = "Orhan Gazi"
+		dynasty = "Osmanli"
+		birth_date = 1281.1.1
+		death_date = 1361.12.31
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1326.6.29 = {
+	monarch = {
+		name = "Orhan Gazi"
+		dynasty = "Osmanli"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = {
+			name = "Orhan Gazi"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 4	
+			siege = 1
+			death_date = 1361.1.1
+		}
+	}
+	heir = {
+		name = "Murad"
+		monarch_name = "Murad I"
+		dynasty = "Osmanli"
+		birth_date = 1326.6.29
+		death_date = 1389.6.15
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+	set_country_flag = rising_nation
+}
+
+1361.1.1   = { 
+	capital = 151 # Edirne
+}
+
+1362.1.1 = {
+	monarch = {
+		name = "Murad I Hüdavendigâr"
+		dynasty = "Osmanli"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Murad I Hüdavendigâr"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 1402.1.1 }
+	}
+	heir = {
+		name = "Bayezid"
+		monarch_name = "Bayezid"
+		dynasty = "Osmanli"
+		birth_date = 1354.1.1
+		death_date = 1403.3.8
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1383.1.1   = {
+	government = despotic_monarchy_2
+}
+
+1389.6.15 = {
+	monarch = {
+		name = "Bayezid"
+		dynasty = Osmanli
+		adm = 5
+		dip = 6
+		mil = 5
+		leader = { name = "Bayezid Yildirim"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 1	death_date = 1402.1.1 }
+	}
+	heir = {
+		name = "Mehmet Celebi"
+		monarch_name = "Mehmet"
+		dynasty = "Osmanli"
+		birth_date = 1389.1.1
+		death_date = 1421.5.26
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1399.1.1 = { decision = jizya_tax }
+
+1402.7.20  = {
+	capital = 326
+	monarch = {
+		name = "Interregnum"
+		adm = 4
+		dip = 4
+		mil = 4
+		regent = yes
+	}
+} #  Ottoman Interregnum caused by the defeat to Tamerlane at the Battle of Ankara
+
+1413.1.1   = {
+	monarch = {
+		name = "Mehmed Çelebi"
+		dynasty = Osmanli
+		adm = 6
+		dip = 6
+		mil = 6
+		leader = { name = "Mehmed Çelebi"		type = general	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0 }
+	}
+	heir = {
+		name = "Murad"
+		monarch_name = "Murad II"
+		dynasty = "Osmanli"
+		birth_date = 1404.6.1
+		death_date = 1451.2.3
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1421.5.26  = {
+	monarch = {
+		name = "Murad II"
+		dynasty = Osmanli
+		adm = 6
+		dip = 5
+		mil = 4
+		leader = { name = "Murad II"		type = general	rank = 1	fire = 3	shock = 3	manuever = 4 siege = 1	death_date = 1451.2.3 }
+	}
+}
+
+1425.1.1 = { decision = sheikh_ul_islam }
+
+1432.3.30 = {
+	heir = {
+		name = "Mehmet"
+		monarch_name = "Mehmet II Fatih"
+		dynasty = "Osmanli"
+		birth_date = 1432.3.30
+		death_date = 1481.5.3
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 9
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Mehmet II Fatih"
+		dynasty = Osmanli
+		adm = 8
+		dip = 8
+		mil = 9
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Murad II"
+		dynasty = Osmanli
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Mehmet"
+		monarch_name = "Mehmet II Fatih"
+		dynasty = "Osmanli"
+		birth_date = 1432.3.30
+		death_date = 1481.5.3
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 9
+	}
+}
+
+1451.2.3 = {
+	monarch = {
+		name = "Mehmet II Fatih"
+		dynasty = Osmanli
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = { name = "Mehmet II"            type = general	rank = 0	fire = 6	shock = 4	manuever = 5	siege = 2}
+	}
+	heir = {
+		name = "Bayezid"
+		monarch_name = "Bayezid II"
+		dynasty = "Osmanli"
+		birth_date = 1448.12.3
+		death_date = 1512.5.26
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+# 1453.5.30 - Becomes Turkish Empire

@@ -1,0 +1,99 @@
+#104 - Lombardia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MLO
+controller = MLO
+add_core = MLO
+culture = lombard
+religion = catholic
+capital = "Milàn"
+
+base_tax = 11
+#manpower =  6
+manpower =  12
+citysize = 100000	# Estimated
+trade_goods = linen
+
+hre = yes
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1399.1.1   = { citysize = 110000 }
+1418.1.1   = { temple = yes } # The Duomo
+1450.1.1   = { citysize = 120000 }
+1453.1.1   = { add_core = FRA }
+1481.1.1   = { university = yes } # University of Milano est. Before that: Pavia est. 1361
+1499.8.10  = { controller = FRA } # Louis XII of France invades...
+1500.1.1   = { citysize = 132000 }
+1504.1.31  = { owner = FRA } # ...and seizes Milan, Treaty of Lyon
+1512.1.1   = { owner = MLO controller = MLO } # Massimiliano Sforza restored by the Swiss
+1515.1.1   = { controller = FRA } # Francis I of France invades...
+1516.8.1   = { owner = FRA } # ...and seizes Milan, Treaty of Noyon
+1521.1.1   = { owner = MLO controller = MLO } # The Spanish invade and restores the Sforzas
+1526.2.1   = { controller = HAB } # Milan joined the League of Cognac, and is invaded by the Emperor
+1529.8.3   = { controller = MLO } # Treaty of Cambrai restores the Sforzas and includes renounciation of French claims
+1535.1.1   = {
+	owner = SPA
+	controller = SPA
+    	add_core = SPA
+}  # Annexed to Spain after the last Sforza died
+1550.1.1   = { citysize = 100000 }
+1559.8.5   = {
+	remove_core = FRA
+}
+1600.1.1   = { citysize = 161000 marketplace = yes }
+1618.1.1  =  { hre = no }
+1700.1.1   = { citysize = 169000 mint = yes }
+1714.9.7   = {
+	owner = HAB
+ 	controller = HAB
+ 	add_core = HAB
+ 	remove_core = SPA
+}  # Treaty of Baden
+1750.1.1   = { citysize = 177000 }
+1796.10.15 = {
+	owner = ITC
+	controller = ITC
+	add_core = ITC
+	remove_core = HAB
+} # Transpadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITC
+} # Cisalpine Republic
+1800.1.1   = { citysize = 183000 }
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = ITA
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1814.4.20 =  { controller = REB } # The Milan insurrection 1
+1814.4.26 =  { controller = HAB } # The Milan insurrection ends
+1848.3.18 =  { controller = REB } # The Milan insurrection 2
+1848.3.23 =  { controller = HAB } # The Milan insurrection ends
+1860.3.20 = {   #??
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}
+

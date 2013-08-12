@@ -1,0 +1,89 @@
+#XXXX- Blois
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORL
+controller = ORL
+culture = angevin
+religion = catholic
+capital = "Blois"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 12000
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1   = {
+	add_core = FRA
+	add_core = ORL
+	add_core = ANJ
+	add_core = BLO
+}
+1500.1.1   = { citysize = 16000 }
+1550.1.1   = { citysize = 20000 fort2 = yes }
+1560.1.1   = { religion = reformed }
+1565.1.1   = { revolt_risk = 8 } # France is restless once again as ultra-catholic intentions become clear
+1568.9.1   = { revolt_risk = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
+1570.8.8   = { revolt_risk = 10 } # Edict of Saint-Germain: temporary pacification
+1573.9.1   = { revolt_risk = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
+1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit	
+1574.5.3   = { owner = FRA controller = FRA }
+1580.1.1   = { fine_arts_academy = yes } # Center of Art (Limoges was known wide & large)
+1584.1.1   = { revolt_risk = 12 } # Situation heats up again
+1588.12.1  = { revolt_risk = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1589.1.1   = { base_tax = 5 } # At the walls of Paris - French War of Religion
+1594.1.1   = { revolt_risk = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1598.4.13  = { revolt_risk = 3 } # Edict of Nantes, alot more freedom to the protestants
+1598.5.2   = { revolt_risk = 0 } # Peace of Vervins, formal end to the Wars of Religion
+1600.1.1   = { citysize = 24000 }
+1645.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 19000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.3.1   = { revolt = { type = religious_rebels size = 0 } controller = REB revolt_risk = 3} # Fronde rebels take control
+1651.4.1   = { revolt = { } controller = FRA revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.2.15  = { revolt = { type = noble_rebels size = 0 } controller = REB } # Fronde rebels make a foothold in the Guyenne area, under Condé
+1652.10.21 = { revolt = { } controller = FRA revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good.
+1670.1.1   = { constable = yes }
+1680.1.1   = { marketplace = yes }
+1685.10.18 = { revolt_risk = 8 } # Edict of Nantes revoked by Louis XIV
+1686.1.17  = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism
+1689.1.1   = { revolt_risk = 0 } # War of the Grand Alliance erupts: Louis XIV can't persue his religious policy anymore Second Fronde over.
+1700.1.1   = { citysize = 15000 }
+1701.1.1   = { revolt_risk = 7 } # War of Spanish Succession erupts: The Camisards see an opportunity to revolt against Louis XIV
+1702.1.1   = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Camisard rebels in control
+1705.1.1   = { controller = FRA revolt_risk = 3 } # Camisard rebellion ends, isolated aggression continues until 1710
+1710.1.1   = { revolt_risk = 0 fort4 = yes } # Rebellion ends
+1730.1.1   = { courthouse = yes }
+1750.1.1   = { citysize = 23000 customs_house = yes }
+1760.1.1   = { mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 28000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

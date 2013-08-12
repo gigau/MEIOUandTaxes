@@ -1,0 +1,42 @@
+# HUM - Principality of Hum
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_3
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 2392 # Mostar
+
+1353.1.1   = {
+	monarch = {
+		name = "Vojislav Vojinovic"
+		dynasty = "Branivojevic"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1363.1.1   = {
+	monarch = {
+		name = "Nikola Altomanovic"
+		dynasty = "Branivojevic"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1373 - Conquered by the combined forces of Bosnians, Serbs and Hungarians

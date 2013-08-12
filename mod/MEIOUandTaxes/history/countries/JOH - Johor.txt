@@ -1,0 +1,192 @@
+# JOH - Johor
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = -2
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 2
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = sunni
+technology_group = austranesian
+capital = 597	# Johor
+
+1512.1.1 = {
+	monarch = {
+		name = "Mahmud Shah"
+		dynasty = Mahmud
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Aladdin Riayat Shah II"
+		dynasty = Mahmud
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Muzzafar Shah II"
+		dynasty = Mahmud
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Abdul Jalil Shah"
+		dynasty = Mahmud
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Abdul Jalil II Riayat Shah"
+		dynasty = Mahmud
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Aladdin Riayat Shah III"
+		dynasty = Mahmud
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1613.1.1 = {
+	monarch = {
+		name = "Abdullah Maayat Shah"
+		dynasty = Mahmud
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Abdul Jalil III Shah"
+		dynasty = Mahmud
+		adm = 6
+		dip = 4
+		mil = 8
+		leader = {	name = "Abd al-Jalîl Shâh III"     	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+	}
+}
+
+1677.1.1 = {
+	monarch = {
+		name = "Ibrahim Shah"
+		dynasty = Mahmud
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+1685.1.1 = {
+	monarch = {
+		name = "Mahmud Shah II"
+		dynasty = Mahmud
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1699.1.1 = {
+	monarch = {
+		name = "Abdul Jalil IV Shah"
+		dynasty = Mahmud
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	set_country_flag = civil_war
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Suleiman Shah"
+		dynasty = Mahmud
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+	clr_country_flag = civil_war
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Abdul Jalil V Muazzam Shah"
+		dynasty = Mahmud
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Ahmad Riayat Shah"
+		dynasty = Mahmud
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1761.5.1 = {
+	monarch = {
+		name = "Mahmud Shah III"
+		dynasty = Mahmud
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "Abdul Rahman"
+		dynasty = Mahmud
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1819.2.15 = {
+	monarch = {
+		name = "Husein Muadzam"
+		dynasty = Mahmud
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,61 @@
+#Province: Kozhikode
+#file name: 534 - Kozhikode
+#MEIOU-FB India 1337+ mod Aug 08
+#FB - Vasco Da Gama came this way in 1498
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAM
+controller = ZAM
+culture = malayalam
+religion = hinduism
+capital = "Kozhikode"
+trade_goods = ebony
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 19760
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = VIJ
+	controller = VIJ
+	add_core = ZAM
+}
+1376.1.1 = {
+	owner = ZAM
+	controller = ZAM
+}
+1400.1.1  = { citysize = 22200 }
+1498.5.20 = { discovered_by = POR }
+1500.1.1  = { citysize = 27750 }
+1550.1.1  = { citysize = 31180 }
+1559.1.1  = {
+	owner = VIJ
+	controller = VIJ
+	add_core = VIJ
+} # Consolidation
+1565.7.1  = {
+	owner = ZAM
+	controller = ZAM
+} # The Vijayanagar empire collapses
+1600.1.1  = { citysize = 34975 discovered_by = turkishtech discovered_by = ENG discovered_by = FRA discovered_by = NED }
+1650.1.1  = { citysize = 38850 }
+1700.1.1  = { citysize = 43630 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 48758 temple = yes }
+1750.1.1  = {
+	owner = MYS
+	controller = MYS
+} # Tipu Sultan of Mysore captures Kozhikode
+1792.1.1  = {
+	owner = GBR
+	controller = GBR
+	capital = "Calicut"
+} # Third Anglo-Mysore War
+1800.1.1  = { citysize = 54205 }
+1842.1.1  = {
+	add_core = GBR
+}

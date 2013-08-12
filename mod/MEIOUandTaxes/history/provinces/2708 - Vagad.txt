@@ -1,0 +1,63 @@
+# 2708 - Vagad
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MEW
+controller = MEW
+culture = mewari
+religion = hinduism
+capital = "Dungarpur"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 6000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = MEW
+}
+1450.1.1  = { citysize = 8000 }
+1500.1.1  = { citysize = 10000 }
+1531.1.1  = {
+	controller = GUJ
+} # War with Gujarat
+1532.1.1  = {
+	controller = MEW
+} # War with Gujarat over
+1544.1.1  = {
+	owner = BNG
+	controller = BNG
+} # Sur expansion
+1545.1.1  = {
+	owner = MEW
+	controller = MEW
+} # Independence regained after death of Sher Shah
+1550.1.1  = { citysize = 11000 }
+1575.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1  = { citysize = 14000 }
+1650.1.1  = { citysize = 17000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 21000 }
+1707.5.12 = { discovered_by = GBR }
+1736.1.1  = {
+	owner = GWA
+	controller = GWA
+	add_core = GWA
+	remove_core = MUG
+} # Marathas
+1750.1.1  = { citysize = 23000 }
+1800.1.1  = { citysize = 26000 }
+1803.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = GWA
+}

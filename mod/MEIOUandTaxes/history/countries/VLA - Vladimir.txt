@@ -1,0 +1,17 @@
+#MEIOU-GG Governemnt changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 1
+# secularism_theocracy = 2
+primary_culture = russian
+religion = orthodox
+technology_group = eastern
+capital = 307

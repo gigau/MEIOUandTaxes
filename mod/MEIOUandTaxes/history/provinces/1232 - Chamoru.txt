@@ -1,0 +1,37 @@
+# 1232 - Chamoru
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = polynesian
+religion = austranasian
+capital = "Chamoru"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 0.5
+native_hostileness = 2
+
+1521.1.1 = {
+	discovered_by = POR
+} # Discovered by Fernao de Magalhaes
+1667.1.1 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	citysize = 100
+	capital = "Las Marianas"
+	trade_goods = fish
+	set_province_flag = trade_good_set
+}
+1700.1.1 = {
+	citysize = 250
+}
+1750.1.1 = {
+	citysize = 500
+}
+1800.1.1 = {
+	citysize = 1000
+}

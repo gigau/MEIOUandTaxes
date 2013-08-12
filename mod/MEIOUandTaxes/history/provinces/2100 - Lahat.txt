@@ -1,0 +1,44 @@
+#Province: Lahat
+#file name: 2100 - Lahat
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SRV
+controller = SRV
+culture = sumatran
+religion = theravada
+capital = "Jarai"
+trade_goods = rice
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 4000
+discovered_by = indian
+discovered_by = austranesian
+discovered_by = SRV
+
+1356.1.1 = {
+	add_core = SRV
+	add_core = MPH
+	add_core = JMB
+}
+1377.1.1 = {
+	owner = MPH
+	controller = MPH
+	remove_core = SRV
+} # Majapahit destroys the remains of the Srivijaya
+1478.1.1 = {
+	owner = JMB
+	controller = JMB
+	remove_core = MPH
+} # Destruction of Majapahit 
+1500.1.1 = { citysize = 4520 }
+1550.1.1 = { citysize = 5100 religion = sunni }
+1600.1.1 = { citysize = 5640 }
+1650.1.1 = { citysize = 6010 }
+1684.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 6340 }
+1750.1.1 = { citysize = 6980 }
+1800.1.1 = { citysize = 7580 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

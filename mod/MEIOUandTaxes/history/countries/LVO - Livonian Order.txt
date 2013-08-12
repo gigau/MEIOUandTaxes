@@ -1,0 +1,226 @@
+# LVO - Livonian Order
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = religious_order_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = -2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 2
+# secularism_theocracy = 4
+primary_culture = teutonic
+religion = catholic
+technology_group = eastern
+unit_type = western
+capital = 38
+
+1345.4.12 = {
+	monarch = {
+		name = "Goswin von Herike"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1359.4.11 = {
+	monarch = {
+		name = "Arnold von Vietinghoff"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1364.1.7 = {
+	monarch = {
+		name = "Wilhelm von Freimersheim"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1384.3.10 = {
+	monarch = {
+		name = "Robin von Elz"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1389.1.8 = {
+	monarch = {
+		name = "Wennemar von Bruggenei"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1401.1.8 = {
+	monarch = {
+		name = "Konrad III von Vietinghoff"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1413.1.8 = {
+	monarch = {
+		name = "Dytryk II Tork"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1415.1.8 = {
+	monarch = {
+		name = "Zygfryd von Lander"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1424.1.8 = {
+	monarch = {
+		name = "Cysse von Rutenberg"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1433.1.8 = {
+	monarch = {
+		name = "Franke von Kerskorff"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1435.1.8 = {
+	monarch = {
+		name = "Henryk III von Bockenworden"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Heidenreich von Owerberg"
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+1450.11.8 = {
+	monarch = {
+		name = "Johann Osthoff von Mengede"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Johann Wolthuss von Herse"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1471.1.1 = {
+	monarch = {
+		name = "Bernd von der Borch"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1483.1.1 = {
+	monarch = {
+		name = "Johann Fridach von Loringhofe"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Wolter von Plettenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Hermann Hasenkamp von Brüggeneye"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Johann von der Recke"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Heinrich von Galen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1557.1.1 = {
+	monarch = {
+		name = "Johann Wilhelm von Fürstenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "Gotthard Kettler"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1561.1.1 = { 
+	religion = protestant 
+	# secularism_theocracy = -1 
+}#converted and reformed state
+
+# 1561 : Secularization of the Order into the Duchy of Kurland, rest annexed by Poland and Sweden

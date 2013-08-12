@@ -1,0 +1,47 @@
+#Province: Siak
+#file name: 2095 - Siak
+# MEIOU-FB Indonesia mod
+#
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#for performance reasons SIJ represents both Siak + Jambi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SIJ
+controller = SIJ
+culture = malayan
+religion = theravada		#this region began to be Islamified c1450
+capital = "Siak"
+trade_goods = silk		#FB too much sandal
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 12000
+add_core = SIJ
+add_core = PLB
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 12890 }
+1405.1.1 = { discovered_by = MNG }
+1450.1.1 = { citysize = 13110 }
+1480.1.1 = {
+	owner = MLC
+	controller = MLC
+}	#FB MLC controlled by the 1480s according to MC Ricklefs "A History of Modern Indonesia"
+1500.1.1 = { citysize = 13700 religion = sunni add_core = MLC }
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1550.1.1 = { citysize = 14235 }
+1600.1.1 = { citysize = 14860 discovered_by = NED }
+1650.1.1 = { citysize = 15550 }
+1658.1.1 = { owner = SIJ controller = SIJ revolt_risk = 2 } # The Dutch gradually gained control
+1683.1.1 = { add_core = NED revolt_risk = 1 }
+1700.1.1 = { citysize = 16200 }
+#note: according to according to MC Ricklefs "A History of Modern Indonesia"
+#Siak was still part of Johor/Malacca in 1715
+1750.1.1 = { citysize = 16980 }
+1800.1.1 = { citysize = 17542 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

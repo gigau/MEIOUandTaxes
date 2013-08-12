@@ -1,0 +1,29 @@
+# Manchu Banner Army
+#Modified for MEIOU by FB 10.02.07
+#tech level 29 c1680
+
+unit_type = chinese
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 4
+#defensive_morale = 5
+#offensive_fire = 4
+#defensive_fire = 5
+#offensive_shock = 3
+#defensive_shock = 5
+#FB
+#offensive_morale = 7
+#defensive_morale = 5
+#offensive_fire = 5
+#defensive_fire = 5
+#offensive_shock = 5
+#defensive_shock = 5
+#Blxz - western morale is 6/6
+offensive_morale = 7
+defensive_morale = 5
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 4
+defensive_shock = 5
+

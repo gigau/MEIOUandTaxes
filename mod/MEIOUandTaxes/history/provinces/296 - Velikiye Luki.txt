@@ -1,0 +1,40 @@
+#296 - Kaluga
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LIT
+controller = LIT     
+culture = lithuanian
+religion = orthodox
+hre = no
+base_tax = 4
+trade_goods = wheat
+#manpower = 2
+manpower = 4
+capital = "Grodno"
+citysize = 5450
+fort1 = yes
+add_core = LIT
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = steppestech
+
+1500.1.1  = { citysize = 6412 }
+1550.1.1  = { citysize = 7543 }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1600.1.1  = { citysize = 8874 }
+1650.1.1  = { citysize = 10440 }
+1682.1.1  = { constable = yes }
+1700.1.1  = { citysize = 12283 }
+1750.1.1  = { citysize = 14450 }
+1795.10.24  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	culture = byelorussian
+} #Third Partition
+1800.1.1  = { citysize = 17000 }

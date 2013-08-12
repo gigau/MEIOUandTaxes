@@ -1,0 +1,62 @@
+# 2437 - Tara
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = kazani
+religion = sunni 
+capital = "Bolghar"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+trade_goods = wool
+citysize = 3847
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 4
+	add_core = BLU
+	add_core = KAZ
+	add_core = SIB
+	add_core = WHI
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	remove_core = WHI
+	revolt_risk = 0
+}
+1438.1.1   = {
+	owner = KAZ
+	controller = KAZ
+}
+1500.1.1   = { citysize = 4526 marketplace = yes }
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1550.1.1   = { citysize = 5324 }
+1552.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1600.1.1   = {
+	citysize = 6264
+	fort1 = yes
+	culture = russian
+	religion = orthodox
+	remove_core = KAZ
+}
+1650.1.1   = { citysize = 7370 }
+1700.1.1   = { citysize = 8670 }
+1750.1.1   = { citysize = 10200 }
+1800.1.1   = { citysize = 12000 }

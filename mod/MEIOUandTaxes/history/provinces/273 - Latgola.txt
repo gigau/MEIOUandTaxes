@@ -1,0 +1,57 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = LVO
+controller = LVO
+culture = latvian
+religion = catholic
+capital = "Rzezyca"
+trade_goods = lumber
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 1667
+fort1 = yes
+add_core = LVO
+add_core = TEU
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1500.1.1   = { citysize = 1961 }
+1525.1.1  = {
+	remove_core = TEU
+}
+1550.1.1   = { citysize = 2307 }
+1561.11.18 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = LVO
+} # Wilno Pact
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+	remove_core = POL
+} # Union of Lublin
+1577.1.1   = { fort1 = no } # Castle destroyed
+1580.1.1   = { fort1 = yes } # Castle near the hill fort rebuilt, Riekstu hill
+1600.1.1   = { citysize = 2714 marketplace = yes }
+1629.9.16  = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = PLC
+}
+1650.1.1   = { citysize = 3193 }
+1700.1.1   = { citysize = 3757 }
+1703.1.1   = { fort2 = yes }
+1721.8.30  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SWE
+} # The Peace of Nystad
+1730.1.1   = { mint = yes }
+1750.1.1   = { citysize = 4420 }
+1800.1.1   = { citysize = 5200 }

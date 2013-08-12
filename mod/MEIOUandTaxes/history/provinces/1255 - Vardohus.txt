@@ -1,0 +1,61 @@
+# Vardohus
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+capital = "Vardøhus festning"
+culture = sapmi
+religion = shamanism
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2
+
+discovered_by = NOV
+discovered_by = western
+
+
+1251.1.1   = {
+	owner = NOR
+	controller = NOR
+	add_core = NOR
+	citysize = 1100
+}
+1306.1.1   = {
+	fort1=yes
+}
+1340.1.1   = {
+	religion = catholic
+}
+1500.1.1   = {
+	fort2=yes
+}
+1511.1.1   = {
+	citysize=1500
+}
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	fort2 = yes
+}
+1640.1.2   = { religion = protestant }
+1650.1.1   = { trade_goods = iron citysize = 1620 }
+1652.1.1   = { capital = "Kiruna" }
+1700.1.1   = { citysize = 1830 }
+1740.1.1   = { fort2 = yes }
+1750.1.1   = { citysize = 2070 }
+1800.1.1   = { fort3 = yes citysize = 2200 }
+1814.1.14  = {
+	owner = SWE
+	revolt = { type = nationalist_rebels size = 0 } controller = REB
+	remove_core = DAN
+} # Norway is ceded to Sweden following the Treaty of Kiel
+1814.5.17 = {
+	revolt = {  }
+	owner = NOR
+	controller = NOR
+}

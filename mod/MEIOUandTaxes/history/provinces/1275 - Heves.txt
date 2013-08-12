@@ -1,0 +1,71 @@
+# 1275 - Borsod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Borsod"
+trade_goods = iron
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 7100
+fort1 = yes
+temple = yes # Saint Martin's Cathedral
+add_core = HUN
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1490.1.1   = {
+	fort2 = yes
+}
+1500.1.1   = {
+	citysize = 8020
+}
+1526.8.30  = {
+	owner = RHU
+	add_core = RHU
+	controller = RHU
+	add_core = HAB
+}
+1550.1.1   = {
+	citysize = 8202
+}
+1596.1.1   = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1600.1.1   = {
+	citysize = 9070
+}
+1650.1.1   = {
+	citysize = 9404
+}
+1687.1.1   = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = RHU
+	remove_core = TUR
+} # Charles de Lorraine chases the Ottomans
+1700.1.1   = {
+	citysize = 6012
+} # The bishops reclaiming the city, many Protestants leave the city
+1703.8.1   = {
+	controller = TRA
+} # The town supports Francis II Rákóczi in his rebellion against the Habsburgs
+1711.1.1   = {
+	controller = HAB
+} # End of the hungarian war of independance
+1750.1.1   = {
+	citysize = 10000
+} # Strong immigration towards Eger
+1800.1.1   = {
+	citysize = 11070
+}

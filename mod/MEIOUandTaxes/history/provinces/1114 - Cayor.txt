@@ -1,0 +1,39 @@
+#1114- cayor
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#Province: Cayor
+#file name: 1114 - Casamance
+#FB - commented out events that seem to be for where the province was in std EU3
+#LS -ALPHA 5
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Tivaouane"
+
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = slaves
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = CAY
+	add_core = MAL
+	add_core = DJO
+}
+1445.1.1 = {
+	discovered_by = POR
+}
+1549.1.1 = {
+	owner = CAY
+	controller = CAY
+}

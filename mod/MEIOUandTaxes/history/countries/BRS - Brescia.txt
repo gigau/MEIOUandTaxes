@@ -1,0 +1,38 @@
+# BRS - Brescia
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -3
+primary_culture = venetian
+religion = catholic
+technology_group = western
+capital = 1345	# Brescia
+
+1356.1.1 = { #FB - temp pending further research
+#1403.1.1 = {
+	monarch = {
+		name = "Gian"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1404.9.12 = {
+	monarch = {
+		name = "Pandolf"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}

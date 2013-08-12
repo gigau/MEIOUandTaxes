@@ -1,0 +1,44 @@
+# West Iceland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ICE
+controller = ICE
+add_core = ICE
+culture = norse
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = ivory
+#manpower = 1
+manpower = 2
+capital = "Reykjavik"
+citysize = 1100		# Estimated
+fort1 = yes
+discovered_by = western
+
+1262.1.1   = {
+	owner = NOR
+	controller = NOR
+	add_core = NOR
+	remove_core = ICE
+}
+1490.1.1 = { temple = yes } # Established during the 12th century
+1500.1.1 = { citysize = 1270 }
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = NOR
+}
+1550.1.1 = { religion = protestant }
+1550.1.1 = { citysize = 1600 }
+1600.1.1 = { citysize = 1920 }
+1650.1.1 = { citysize = 2030 }
+1700.1.1 = { citysize = 2400 }
+1750.1.1 = { citysize = 2500 }
+1752.1.1 = { trade_goods = wool } # Wool becomes more important.
+1783.6.8 = { citysize = 2565 } # Volcanic eruptions, one quarter dies of starvation
+1786.1.1 = { marketplace = yes } # Receives trade rights
+1800.1.1 = { citysize = 2830 }
+1814.5.17 = { owner = DEN controller = DEN add_core = DEN remove_core = DAN }

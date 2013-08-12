@@ -1,0 +1,93 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = MAP
+controller = MAP
+culture = mapuche
+religion = pantheism
+capital = "Anacongua"
+trade_goods = maize
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 19500
+add_core = MAP
+discovered_by = new_world
+
+1500.1.1  = {
+	owner = INC
+	controller = INC
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 5
+}
+1520.1.1   = {
+	discovered_by = SPA
+	add_core = SPA
+} # Discovered by Ferdinand Magellan
+1541.2.12  = {
+	capital = "Concepción"
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+	culture = castillian
+	religion = catholic
+	trade_goods = fish
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1555.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1599.1.1   = {
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1604.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1650.1.1   = {
+	citysize = 3500
+}
+1655.1.1   = {
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1660.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1700.1.1   = {
+	citysize = 5000
+}
+1723.1.1   = {
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1724.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1750.1.1  = {
+	citysize = 7500
+	add_core = CHL
+	culture = platean
+}
+1759.1.1   = {
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1766.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1800.1.1   = {
+	citysize = 10000
+}
+1810.9.18  = {
+	owner = CHL
+	controller = CHL
+}
+1818.2.12  = {
+	remove_core = SPA
+}

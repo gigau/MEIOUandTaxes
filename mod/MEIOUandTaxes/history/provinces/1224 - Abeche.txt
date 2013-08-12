@@ -1,0 +1,22 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = DAR
+controller = DAR
+add_core = DAR
+culture = chadic 
+religion = sunni
+capital = "Abeche"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = ivory
+
+fort1 = yes 
+
+discovered_by = soudantech
+
+hre = no
+
+1685.1.1 = { revolt_risk = 3 }
+1690.1.1 = { revolt_risk = 0 }

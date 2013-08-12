@@ -1,0 +1,555 @@
+# MAW - Mawar
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 4
+# land_naval = -5
+# quality_quantity = -1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = marwari
+religion = hinduism
+technology_group = indian
+capital = 512
+
+1383.1.1 = {
+	monarch = {
+		name = "Chunda"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1383.1.1 = {
+	heir = {
+		name = "Kanha"
+		monarch_name = "Kanha II"
+		dynasty = "Rathore"
+		birth_date = 1383.1.1
+		death_Date = 1427.1.1
+		claim = 95
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Kanha"
+		dynasty = "Rathore"
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Ranmalla"
+		monarch_name = "Ranmal"
+		dynasty = "Rathore"
+		birth_date = 1400.1.1
+		death_Date = 1438.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Ranmal"
+		dynasty = "Rathore"
+		DIP = 5
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1427.1.1 = {
+	heir = {
+		name = "Jodha"
+		monarch_name = "Jodha"
+		dynasty = "Rathore"
+		birth_date = 1415.1.1
+		death_Date = 1488.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Jodha"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Satal"
+		monarch_name = "Satal"
+		dynasty = "Rathore"
+		birth_date = 1440.1.1
+		death_Date = 1491.3.1
+		claim = 95
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Satal"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Suraj Mal"
+		monarch_name = "Sujaji"
+		dynasty = "Rathore"
+		birth_date = 1439.1.1
+		death_Date = 1515.1.1
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1491.3.1 = {
+	monarch = {
+		name = "Suja"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1491.3.1 = {
+	heir = {
+		name = "Ganga"
+		monarch_name = "Ganga"
+		dynasty = "Rathore"
+		birth_date = 1460.1.1
+		death_Date = 1532.1.1
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Ganga"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Maldev"
+		monarch_name = "Maldev"
+		dynasty = "Rathore"
+		birth_date = 1480.1.1
+		death_Date = 1562.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1532.1.1 = {
+	monarch = {
+		name = "Maldev"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1532.1.1 = {
+	heir = {
+		name = "Chandrasen"
+		monarch_name = "Chandrasen"
+		dynasty = "Rathore"
+		birth_date = 1520.1.1
+		death_Date = 1584.1.1
+		claim = 95
+		DIP = 3
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1562.1.1 = {
+	monarch = {
+		name = "Chandrasen"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1562.1.1 = {
+	heir = {
+		name = "Udai Singh"
+		monarch_name = "Udai Singh"
+		dynasty = "Rathore"
+		birth_date = 1539.1.1
+		death_Date = 1595.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 6
+	}
+}
+
+1584.1.1 = {
+	monarch = {
+		name = "Udai Singh"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 6
+		ADM = 6
+	}
+}
+
+1584.1.1 = {
+	heir = {
+		name = "Suraj Singh"
+		monarch_name = "Suraj Singh"
+		dynasty = "Rathore"
+		birth_date = 1560.1.1
+		death_Date = 1620.1.1
+		claim = 95
+		DIP = 6
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1595.1.1 = {
+	monarch = {
+		name = "Suraj Singh"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1595.1.1 = {
+	heir = {
+		name = "Gaj"
+		monarch_name = "Gaj Singh"
+		dynasty = "Rathore"
+		birth_date = 1580.1.1
+		death_Date = 1638.1.1
+		claim = 95
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+		name = "Gaj Singh"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1620.1.1 = {
+	heir = {
+		name = "Jaswant"
+		monarch_name = "Jaswant Singh I"
+		dynasty = "Rathore"
+		birth_date = 1626.12.24
+		death_Date = 1678.11.28
+		claim = 95
+		DIP = 6
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Jaswant Singh I"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1678.11.28 = {
+	monarch = {
+		name = "Interregnum"
+		regent = yes
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1679.2.19 = {
+	heir = {
+		name = "Ajit"
+		monarch_name = "Ajit Singh"
+		dynasty = "Rathore"
+		birth_date = 1679.2.19
+		death_Date = 1724.6.24
+		claim = 95
+		DIP = 7
+		MIL = 8
+		ADM = 6
+	}
+}
+#Born posthumously
+
+1706.1.1 = {
+	monarch = {
+		name = "Ajit Singh"
+		dynasty = "Rathore"
+		DIP = 7
+		MIL = 8
+		ADM = 6
+	}
+}
+
+1706.1.1 = {
+	heir = {
+		name = "Abhai"
+		monarch_name = "Abhai Singh"
+		dynasty = "Rathore"
+		birth_date = 1702.1.1
+		death_Date = 1749.6.19
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1724.6.24 = {
+	monarch = {
+		name = "Abhai Singh"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1724.6.24 = {
+	heir = {
+		name = "Rai"
+		monarch_name = "Rai Singh II"
+		dynasty = "Rathore"
+		birth_date = 1710.1.1
+		death_Date = 1750.1.1
+		claim = 95
+		DIP = 3
+		MIL = 2
+		ADM = 3
+	}
+}
+
+1749.6.18 = {
+	monarch = {
+		name = "Rai Singh II"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 2
+		ADM = 3
+	}
+}
+
+1749.6.18 = {
+	heir = {
+		name = "Bakht"
+		monarch_name = "Bakht Singh"
+		dynasty = "Rathore"
+		birth_date = 1706.1.1
+		death_Date = 1752.9.21
+		claim = 95
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Bakht Singh"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1750.1.1 = {
+	heir = {
+		name = "Ram"
+		monarch_name = "Ram Singh"
+		dynasty = "Rathore"
+		birth_date = 1730.1.1
+		death_Date = 1772.11.1
+		claim = 95
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1752.9.21 = {
+	monarch = {
+		name = "Ram Singh"
+		dynasty = "Rathore"
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1752.9.21 = {
+	heir = {
+		name = "Bijay"
+		monarch_name = "Bijay Singh"
+		dynasty = "Rathore"
+		birth_date = 1724.1.1
+		death_Date = 1793.7.7
+		claim = 95
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1773.9.1 = {
+	monarch = {
+		name = "Bijay Singh"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1773.9.1 = {
+	heir = {
+		name = "Bhim"
+		monarch_name = "Bhim Singh"
+		dynasty = "Rathore"
+		birth_date = 1750.1.1
+		death_Date = 1803.10.17
+		claim = 95
+		DIP = 4
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1793.7.7 = {
+	monarch = {
+		name = "Bhîm Singh"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 3
+		ADM = 3
+	}
+}
+
+1803.10.17 = {
+	heir = {
+		name = "Man"
+		monarch_name = "Man Singh"
+		dynasty = "Rathore"
+		birth_date = 1783.1.1
+		death_Date = 1843.9.5
+		claim = 95
+		DIP = 6
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1803.11.19 = {
+	monarch = {
+		name = "Man Singh"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1817.1.1 = {
+	monarch = {
+		name = "Chhatar Singh"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1817.1.1 = {
+	heir = {
+		name = "Man"
+		monarch_name = "Man Singh"
+		dynasty = "Rathore"
+		birth_date = 1783.1.1
+		death_Date = 1843.9.5
+		claim = 95
+		DIP = 6
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Man Singh"
+		dynasty = "Rathore"
+		DIP = 6
+		MIL = 6
+		ADM = 7
+	}
+}

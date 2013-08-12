@@ -1,0 +1,71 @@
+#65 - Munchen (Upper Bavaria)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner       = BAY
+controller  = BAY
+add_core    = BAY
+culture     = bavarian
+religion    = catholic
+base_tax    = 6
+trade_goods = wax
+#manpower    = 3
+manpower    = 6
+
+fort1       = yes
+
+#cot         = yes
+
+capital     = "München"
+citysize    = 15000
+hre         = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1340.12.20 = { owner = BAV controller = BAV add_core = BAV remove_core = BAY }
+1349.1.1 = { owner = BAY controller = BAY add_core = BAY remove_core = BAV }
+1363.1.13 = { owner = BAX controller = BAX add_core = BAX remove_core = BAY }
+1392.1.1 = { owner = BAY controller = BAY add_core = BAY remove_core = BAX }
+1453.1.1    = { marketplace = yes }
+1503.12.1    = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = BAY
+}
+1520.1.1    = { constable = yes }
+1525.1.1    = {
+	temple = yes
+} # Completion of the Frauenkirche (Tower tops/Welsche Hauben)
+1550.1.1    = { citysize = 19000 }
+1565.1.1    = { regimental_camp = yes }
+1592.1.1    = {
+	workshop = yes
+} # Hofbräuhaus München
+1600.1.1    = { citysize = 24000 }
+1620.1.1    = { courthouse = yes }
+1632.1.1    = {
+	base_tax = 12
+} # Swedish troops ravage the countryside and extort 300.000$ from Munich.
+1634.1.1    = {
+	citysize = 14000
+} # Plague kills large parts of the population
+1700.1.1    = { citysize = 25000 base_tax = 14 }
+1704.8.13   = {
+	owner = HAB
+	controller = HAB
+} # Bavaria is conquered by the Emperor, is however 10 years later restored for the balance of power
+1714.9.7    = { owner = BAV controller = BAV }
+1742.2.1    = {
+	controller = HAB
+} # Austrian troops take Munich and Bavaria
+1745.1.1    = {
+	controller = BAV
+} # Against Peace and their vote in the Emperor election Bavaria is returned to the Wittelsbachs
+1750.1.1    = { citysize = 40000 }
+1777.1.1    = {
+	revolt_risk = 3
+} # Bavarian line of the Wittlelsbach family dies out and is replaced by the Pwesternate branch of the family. The people in Munich hate the new duke.
+1779.1.1    = { revolt_risk = 0 }
+1800.1.1   = { citysize = 65000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

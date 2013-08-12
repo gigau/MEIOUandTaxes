@@ -1,0 +1,98 @@
+# Trento
+# TNT
+
+graphical_culture = latingfx
+
+#color = { 208  104  44 }
+color = { 54  167  156 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+}
+
+monarch_names = {
+	"Cosimo #0" = 60
+	"Ferdinando #0" = 60
+	"Alessandro #0" = 20
+	"Francesco #0" = 20
+	"Francesco Stefano #0" = 20
+	"Gian Gastone #0" = 20
+	"Pietro Leopoldo #0" = 20
+	"Antonio #0" = 10
+	"Carlo #0" = 10
+	"Filippo #0" = 10
+	"Gian Carlo #0" = 10
+	"Pietro #0" = 10
+	"Alberto #0" = 5
+	"Giovanni #0" = 5
+	"Giuseppe #0" = 5
+	"Leopoldo #0" = 5
+	"Luigi #0" = 5
+	"Massimiliano #0" = 5
+	"Matteo #0" = 5
+	"Raniero #0" = 5
+	"Rodolfo #0" = 5
+	"Adriano #0" = 0
+	"Biagio #0" = 0
+	"Bonaventura #0" = 0
+	"Constantino #0" = 0
+	"Danilo #0" = 0
+	"Eustachio #0" = 0
+	"Evangelista #0" = 0
+	"Giancarlo #0" = 0
+	"Girolamo #0" = 0
+	"Giuliano #0" = 0
+	"Innocenzo #0" = 0
+	"Ippolito #0" = 0
+	"Lorenzo #0" = 0
+	"Piero #0" = 0
+	"Salvestro #0" = 0
+	"Marco #0" = 0
+	"Pasquale #0" = 0
+	"Sergio #0" = 0
+	"Vitale #0" = 0
+}
+
+leader_names = {
+        "degli Albizzi" Allori "d'Appiani d'Aragona" "d'Asburgo"
+	Barberini Bartolini Benciveni Bizzelli Boncompagni
+	Botta-Adorno Buontalenti Buti Butteri "di Campofregoso"
+	Cercignani Chiastavelli Chigi Corsini Cybo-Malaspina
+	"di Farnese" Gori Grimaldi "Grimaldi di Busca" Lanzi Lessi
+	Ludovisi Malaspina Mancinetti "di Medici" "del Moro" Nasini
+	Orsini Piccolomini Pico Pierallini Pieroni Piombante Pontelli
+	Rivani Rospigliosi "del Rosso" Savaranola Soderini Tempesta
+	Terreni Tonelli Traballesi Ulivelli Vasari Zucchi
+}
+
+ship_names = {
+	Albizi  Arcetri Arezzo
+	Bellosguardo Bisenzio
+	Careggi "Corso Donati" "Cosimo de' Medici"
+	"Dante Alighieri" "Dino Compagni"
+	Fiesole "Filippo Brunelleschi" Firenze "fiume Arno"
+	"fiume Greve" "Francesco Petrarca"
+	Galluzzo "Giano della Bella" Giotto
+	Impruneta
+	Medici Mugnone
+	Orsanmichele
+	Pistoia Prato
+	Ripoli
+	"San Frediano" "San Giovanni Battista" "San Lorenzo"
+	"San Marco" "Santa Maria del Fiore" "Santa Trinita"
+	Scandicci Settignano "Sesto Fiorentino"
+	Terzolle
+	"Vieri de Cerchi"
+}

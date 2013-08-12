@@ -1,0 +1,336 @@
+# BUK - Bukhara
+# 2013-aug-07 - GG - EUIV changes
+
+government = altaic_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -5
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 3
+technology_group = muslim
+religion = sunni
+primary_culture = turkmeni
+add_accepted_culture = kwarezhmi
+capital = 455 # Bukhara
+
+1510.1.1 = {
+	heir = {
+		name = "Muzaffar-ud-Din Abu-Sa'id"
+		monarch_name = "Muzaffar-ud-Din Abu-Sa'id"
+		dynasty = "Shaybanid"
+		birth_Date = 1500.1.1
+		death_Date = 1533.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Muzaffar-ud-Din Abu-Sa'id"
+		dynasty = "Shaybanid"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}
+
+1531.1.1 = {
+	heir = {
+		name = "Ubayd'Allah Khan"
+		monarch_name = "Ubayd'Allah Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1490.1.1
+		death_Date = 1540.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Ubayd'Allah Khan"
+		dynasty = "Shaybanid"
+		dip = 5
+		adm = 5
+		mil = 7
+	}
+}
+
+1533.1.1 = {
+	heir = {
+		name = "Abd Allah"
+		monarch_name = "Abd Allah"
+		dynasty = "Shaybanid"
+		birth_Date = 1512.1.1
+		death_Date = 1540.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1539.1.1 = {
+	monarch = {
+		name = "Abd Allah"
+		dynasty = "Shaybanid"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1539.1.1 = {
+	heir = {
+		name = "Abu-al Aziz Khan"
+		monarch_name = "Abu-al Aziz Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1520.1.1
+		death_Date = 1550.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Abu-al Aziz Khan"
+		dynasty = "Shaybanid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Nawruz Ahmad Khan"
+		monarch_name = "Nawruz Ahmad Khan"
+		dynasty = "Shaybanid"
+		birth_Date = 1520.1.1
+		death_Date = 1556.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Nawruz Ahmad Khan"
+		dynasty = "Shaybanid"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Pir Muhammad"
+		monarch_name = "Pir Muhammad"
+		dynasty = "Shaybanid"
+		birth_Date = 1530.1.1
+		death_Date = 1561.4.2
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Pir Muhammad"
+		dynasty = "Shaybanid"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}
+
+1556.1.1 = {
+	heir = {
+		name = "Iskandar Bahadur"
+		monarch_name = "Iskandar Bahadur"
+		dynasty = "Shaybanid"
+		birth_Date = 1530.1.1
+		death_Date = 1583.6.23
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1561.4.2 = {
+	monarch = {
+		name = "Iskandar Bahadur"
+		dynasty = "Shaybanid"
+		dip = 4
+		adm = 6
+		mil = 4
+	}
+}
+
+1561.4.2 = {
+	heir = {
+		name = "Abd Allah"
+		monarch_name = "Abd Allah II"
+		dynasty = "Shaybanid"
+		birth_Date = 1530.1.1
+		death_date = 1598.2.8
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1583.6.23 = {
+	monarch = {
+		name = "Abd Allah II"
+		dynasty = "Shaybanid"
+		dip = 6
+		adm = 6
+		mil = 7
+	}
+}
+
+1583.6.23 = {
+	heir = {
+		name = "Abd al-Mu'min"
+		monarch_name = "Abd al-Mu'min"
+		dynasty = "Shaybanid"
+		birth_Date = 1563.1.1
+		death_date = 1598.6.30
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+
+1598.2.8 = {
+	monarch = {
+		name = "Abd al-Mu'min"
+		dynasty = "Shaybanid"
+		dip = 3
+		adm = 3
+		mil = 6
+	}
+	heir = {
+		name = "Pir Muhammad"
+		monarch_name = "Pir Muhammad II"
+		dynasty = "Shaybanid"
+		birth_Date = 1590.1.1
+		death_Date = 1599.7.23
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1599.7.23 = { 
+	monarch = {
+		name = "Baqi Muhammad"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1605.1.1  = { 
+	monarch = {
+		name = "Vali Muhammad"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1611.1.1  = { 
+	monarch = {
+		name = "Imam Quli"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1642.1.1  = { 
+	monarch = {
+		name = "Nadir Muhammad"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1645.1.1  = { 
+	monarch = {
+		name = "Abdul Aziz"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1680.1.1  = { 
+	monarch = {
+		name = "Subhan Quli"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1702.1.1  = { 
+	monarch = {
+		name = "Ubaidullah"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1711.1.1  = { 
+	monarch = {
+		name = "Abu'l-Faiz"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 
+
+1758.1.1  = { 
+	monarch = {
+		name = "Abu'l Ghazi"
+		dynasty = "Ashtarkhanid"
+		dip = 5 
+		adm = 5 
+		mil = 3 
+	}
+} 

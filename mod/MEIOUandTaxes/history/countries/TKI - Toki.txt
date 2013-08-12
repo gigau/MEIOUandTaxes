@@ -1,0 +1,184 @@
+# TKI - Toki clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kansai
+religion = shinbutsu
+technology_group = chinese
+capital = 2282		# Ise
+daimyo = yes
+
+1339.1.1 = {
+	monarch = {
+		name = "Yoritoo"
+		dynasty = "Toki"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1342.12.29 = {
+	monarch = {
+		name = "Yoriyasu"
+		dynasty = "Toki"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+	
+1388.2.3 = {
+	monarch = {
+		name = "Yasuyuki"
+		dynasty = "Toki"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1390.3.1 = {
+	monarch = {
+		name = "Yoritada"
+		dynasty = "Toki"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Yorimasu"
+		monarch_name = "Yorimasu"
+		dynasty = "Toki"
+		birth_date = 1351.1.1
+		death_date = 1414.4.23
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+	
+1397.9.2 = {
+	monarch = {
+		name = "Yorimasu"
+		dynasty = "Toki"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+	
+1406.1.1 = {
+	heir = {
+		name = "Mochimasu"
+		monarch_name = "Mochimasu"
+		dynasty = "Toki"
+		birth_date = 1406.1.1
+		death_date = 1474.10.7
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1414.4.23 = {
+	monarch = {
+		name = "Mochimasu"
+		dynasty = "Toki"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Mochimasu"
+		monarch_name = "Mochimasu"
+		dynasty = "Toki"
+		birth_date = 1406.1.1
+		death_date = 1474.10.7
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1442.1.1 = {
+	heir = {
+		name = "Shigeyori"
+		monarch_name = "Shigeyori"
+		dynasty = "Toki"
+		birth_date = 1442.1.1
+		death_date = 1497.5.5
+		claim = 70
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+	
+1467.1.1 = {
+	monarch = {
+		name = "Shigeyori"
+		dynasty = "Toki"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Nasafusa"
+		monarch_name = "Masafusa"
+		dynasty = "Toki"
+		birth_date = 1457.1.1
+		death_date = 1519.7.12
+		claim = 70
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1495.1.1 = {
+	monarch = {
+		name = "Masafusa"
+		dynasty = "Toki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1498.1.1 = {
+	heir = {
+		name = "Yoritake"
+		monarch_name = "Yoritake"
+		dynasty = "Toki"
+		birth_date = 1488.1.1
+		death_date = 1536.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+	
+1535.6.1 = {
+	monarch = {
+		name = "Yorinori"
+		dynasty = "Toki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

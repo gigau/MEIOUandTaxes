@@ -1,0 +1,24 @@
+# 1545 - Bilma
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanouri		
+religion = sunni		 
+capital = "Bilma"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = muslim
+discovered_by = soudantech
+
+hre = no
+

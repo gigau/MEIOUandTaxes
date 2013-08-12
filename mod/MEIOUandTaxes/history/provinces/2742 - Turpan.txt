@@ -1,0 +1,52 @@
+# 2742 - Turpan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = oirats
+religion = mahayana
+capital = "Turpan"
+trade_goods = silk
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 5540
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = CHG
+	add_core = KAS
+}
+1359.1.1 = {
+	religion = sunni
+}
+#1482.1.1 = {
+#	owner = KAS
+#	controller = KAS
+#	remove_core = CHG
+#}
+1623.1.1 = {
+	owner = OIR
+	controller = OIR
+   	add_core = OIR
+   	remove_core = CHG
+} # The Oirads
+#1678.1.1 = {
+#	owner = UIG
+#	controller = UIG
+#	add_core = UIG
+#	remove_core = KAS
+#}
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+	remove_core = OIR
+} # Independent principality established by Shaybanid Shahrukh
+1757.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Part of the Manchu empire

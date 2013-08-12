@@ -1,0 +1,49 @@
+# 593 - Nakhon Si Thammarat (ligore)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NST
+controller = NST
+culture = monic
+religion = theravada
+capital = "Nakhon Si Thammarat"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 4200
+trade_goods = fish
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = NST
+}
+1467.4.8 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = NST
+	revolt_risk = 0
+	culture = thai
+}
+1500.1.1 = { citysize = 5155 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 5890 }
+1600.1.1 = { citysize = 6530 }
+1650.1.1 = { citysize = 7254 }
+1700.1.1 = { citysize = 8226 }
+1750.1.1 = { citysize = 9100 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 10500 }

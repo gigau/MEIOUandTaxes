@@ -1,0 +1,51 @@
+# 2212 - Karnatakda
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = kannada
+religion = hinduism
+capital = "Gulbarga"		#FB was: "Karnatakda"
+trade_goods = carmine
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 24000
+fort1 = yes
+fort2 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = BAH
+}
+1400.1.1  = { citysize = 14563 }
+1492.1.1  = { citysize = 17763 }
+1528.1.1  = {
+	owner = BIJ
+	controller = BIJ
+	add_core = BIJ
+} # absorbed by the Bijapur Sultanate
+1550.1.1  = { citysize = 19780 temple = yes }
+1600.1.1  = { citysize = 22300 discovered_by = turkishtech }
+1650.1.1  = { citysize = 25810 }
+1674.1.1  = { add_core = MAR remove_core = BIJ } # Maratha Empire
+1687.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # The Mughal Empire
+1700.1.1  = { citysize = 27670 }
+1707.5.12 = { discovered_by = GBR }
+1712.1.1  = {
+	add_core = HYD
+}
+1724.1.1  = {
+	owner = HYD
+	controller = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1750.1.1  = { citysize = 31000 }
+1800.1.1  = { citysize = 36570 workshop = yes }

@@ -1,0 +1,45 @@
+# 2737 - Penang
+# TM-Smiles indochina-mod for meiou  
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KED
+controller = KED
+add_core = MLC
+add_core = KED
+culture = malayan
+religion = theravada
+capital = "Penang"
+
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 1030
+trade_goods = fish
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = austranesian
+
+hre = no
+
+
+1400.1.1 = { citysize = 1090 }   ##TRADING W CHINA, 
+1450.1.1 = { citysize = 1100 } ##event CHINESE MERCHANT MINORITY add+2basetax
+1500.1.1 = { citysize = 1486 religion = sunni }
+1550.1.1 = { citysize = 2680 }
+1594.5.1 = { discovered_by = western }  ##Sir James Lancaster returns to England 
+1600.1.1 = { citysize = 4002 }
+1650.1.1 = { citysize = 4400 }
+1700.1.1 = { citysize = 4724 }
+1750.1.1 = { citysize = 5000 }
+1786.8.11 = { 
+	owner = GBR  		####  KEDAH ALLY WITH UK
+	controller = GBR					
+	add_core = GBR 
+	remove_core = KED
+	remove_core = MLC
+	}
+##1790 WAR KEDAH-GBR ??? briefly, Kedah gave up soon
+1797.1.1 = { citysize = 8000 }
+

@@ -1,0 +1,62 @@
+# 36 - Eestimaa
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DEN
+controller = DEN
+culture = estonian
+religion = catholic
+capital = "Reval"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 8000
+trade_goods = salt
+
+marketplace = yes
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+hre = no
+
+1346.1.1  = { 
+	owner = LVO 
+	controller = LVO 
+	add_core = LVO 
+	add_core = TEU
+#	add_core = DEN
+	add_core = EST
+}
+1520.1.1  = { marketplace = yes }
+#1523.6.21 = {
+#	add_core = DAN
+#	remove_core = DEN
+#}
+1525.1.1  = {
+	remove_core = TEU
+}
+1542.1.1  = { religion = protestant} #Unknown date
+1561.11.18 = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = LVO
+} # # Wilno Pact
+1600.1.1  = { citysize = 9000 }
+1700.1.1  = { citysize = 10000 }
+1710.9.15 = { controller = RUS citysize = 2000 } #The Great Nordic War-Captured Reval
+1721.8.30 = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} #The Peace of Nystad
+1750.1.1  = { citysize = 6000 }
+1800.1.1  = { citysize = 12000 }
+#1814.5.17 = {
+#	add_core = DEN
+#	remove_core = DAN
+#}

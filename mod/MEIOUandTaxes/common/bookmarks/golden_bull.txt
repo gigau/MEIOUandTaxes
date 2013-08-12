@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "GOLDEN_BULL_NAME"
+	desc = "GOLDEN_BULL_DESC"
+	date = 1356.1.10
+
+	country = LUX
+	country = KOL
+	country = TRI
+	country = MAI
+	country = PAL
+	country = SAX
+	country = BRA
+	country = BOH
+	country = FRA
+	country = ENG
+}

@@ -1,0 +1,97 @@
+#Country Name: Please see filename.
+
+graphical_culture = chinesegfx
+
+color = { 68  140  202 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
+}
+
+monarch_names = {
+	"Cheng'an #0" = 10
+	"Changde #0" = 20
+	"Chongde #0" = 20
+	"Chongqing #0" = 10
+	"Da'an #0" = 10
+	"Dade #0" = 10
+	"Dading #0" = 10
+	"Daoguang #0" = 10
+	"Guangxu #0" = 10
+	"Huangtong #0" = 10
+	"Huangqing #0" = 10
+	"Jianxing #0" = 10
+	"Jiaqing #0" = 20
+	"Kaixing #0" = 10
+	"Kangxi #0" = 20
+	"Mingchang #0" = 10
+#	"Nurhachi #0" = 20   # Special exception made because his name is so famous
+	"Qianlong #0" = 20
+	"Shouguo #0" = 10
+	"Shunzhi #0" = 20
+	"Taiding #0" = 10
+	"Taihe #0" = 10
+	"Tiancong #0" = 20
+	"Tiande #0" = 10
+	"Tianfu #0" = 10
+	"Tianjuan #0" = 10
+	"Tianhui #0" = 10
+	"Tianli #0" = 10
+	"Tianxing #0" = 10
+	"Tongzhi #0" = 10
+	"Xianfeng #0" = 10
+	"Xingding #0" = 10
+	"Xuantong #0" = 10
+	"Yanyou #0" = 10
+	"Yongfeng #0" = 10
+	"Yongzheng #0" = 20
+	"Yuanguang #0" = 10
+	"Yuanzhen #0" = 10
+	"Zhenglong #0" = 10
+	"Zhengda #0" = 10
+	"Zhenyou #0" = 10
+	"Zhenyuan #0" = 10
+	"Zhida #0" = 10
+	"Zhihe #0" = 10
+	"Zhining #0" = 10
+	"Zhishun #0" = 10
+	"Zhiyuan #0" = 10
+	"Zhizheng #0" = 10
+	"Zhizhi #0" = 10
+	"Zhongtong #0" = 10
+}
+
+leader_names = {
+	Nurhaci
+	Xi
+	Ji
+	Zhengzhi
+	Deyi
+	Guozho
+	Zhifang
+	Alantai
+	Yuanwen
+	Dian
+	Folun
+	Tianfu
+}
+
+ship_names = {
+	"Aisin Gioro" Niuhuru Yehenala Heseri
+	Uya Waliuha Janggiya Guwalgiya Tunggiya
+	Magiya Hata Ula Huifa Haixi
+}

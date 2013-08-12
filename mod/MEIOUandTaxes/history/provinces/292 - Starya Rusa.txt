@@ -1,0 +1,45 @@
+# 292 - Stary Rusa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV
+add_core = NOV  
+culture = novgorodian
+religion = orthodox 
+hre = no
+base_tax = 5
+trade_goods = wax
+#manpower = 1
+manpower = 2
+capital = "Torzhok"
+citysize = 8367	 
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1478.1.14 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+#	manpower = 3
+	manpower = 6
+}
+1500.1.1  = { citysize = 10000 marketplace = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 11000 fort2 = yes }
+1570.1.1  = { citysize = 13000 }
+1600.1.1  = { citysize = 15000 }
+1700.1.1  = { citysize = 16000 }
+1750.1.1  = { citysize = 18000 }
+1800.1.1  = { citysize = 19000 }
+1812.8.17 = { controller = RFR }
+1812.11.9 = { controller = RUS }

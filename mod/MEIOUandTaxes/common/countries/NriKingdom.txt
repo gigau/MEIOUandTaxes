@@ -1,0 +1,84 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 161  139  40 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	nubian_knight
+	african_spearmen
+	niger_kongolese_tribal_warfare
+	niger_kongolese_forest_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	niger_kongolese_guerilla_warfare	
+}
+
+monarch_names = {
+	"Eze Nri Nkungu #0" = 20
+	"Eze Nri Afonso #0" = 20
+	"Eze Nri Ntangu #0" = 20
+	"Eze Nri Makose #0" = 20
+	"Eze Nri Mwene Mbatu #0" = 20
+	"Eze Nri Nobo Sinda #0" = 20
+	"Eze Nri Mwe Pwati #0" = 20
+	"Eze Nri Nguli Nkama #0" = 20
+	"Eze Nri Ilunga #0" = 0
+	"Eze Nri Kasongo #0" = 0
+	"Eze Nri Sanza #0" = 0
+	"Eze Nri Kumwimba #0" = 0
+	"Eze Nri Kasongo #0" = 0
+	"Eze Nri Kekenya #0" = 0
+	"Eze Nri Kaumbo #0" = 0
+	"Eze Nri Miketo #0" = 0
+	"Eze Nri Nday #0" = 0
+	"Eze Nri Mwine #0" = 0
+	"Eze Nri Maloba #0" = 0
+	"Eze Nri Kitamba #0" = 0
+	"Eze Nri Cibindi #0" = 0
+	"Eze Nri Mbala #0" = 0
+	"Eze Nri Nawej #0" = 0
+	"Eze Nri Munying #0" = 0
+	"Eze Nri Kateng #0" = 0
+	"Eze Nri Cakasekene #0" = 0
+	"Eze Nri Cikombe #0" = 0
+	"Eze Nri Kalong #0" = 0
+	"Eze Nri Mutand #0" = 0
+	"Eze Nri Mbala #0" = 0
+	"Eze Nri Mukaz #0" = 0
+	"Eze Nri Lukwesa #0" = 0
+	"Eze Nri Kanyembo #0" = 0
+	"Eze Nri Kapumba #0" = 0
+	"Eze Nri Mwango #0" = 0
+	"Eze Nri Ngoupou #0" = 0
+	"Eze Nri Fifen #0" = 0
+	"Eze Nri Kutu #0" = 0
+	"Eze Nri Nsangu #0" = 0
+	"Eze Nri Bele #0" = 0
+	"Eze Nri Lobe #0" = 0
+	"Eze Nri Nunga #0" = 0
+	"Eze Nri Zangabiru #0" = 0
+}
+
+leader_names = {
+	Nguesso
+	Mani
+	Youla
+	Zanga
+	Youlou
+	Mboma
+	Song
+	Abena
+	Lissouba
+	Ndo
+}
+
+ship_names = {
+	Fang Ntufia Malebo Ibonga Nyamu
+	Tchintchesse Muvili Mubana Bilama Binzembele
+	Doala "Nfumu iampuena" Nkangala
+	"Ntangua odimini" Nvumu Nzalu Nzoke Mavanga
+}

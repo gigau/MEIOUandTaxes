@@ -1,0 +1,289 @@
+# MUN - Munster
+# (in Germany)
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_1
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 3
+primary_culture = moselfranconian
+religion = catholic
+technology_group = western
+capital = 86	# Münster
+
+1310.7.3 = {
+	monarch = {
+		name = "Ludwig II von Hessen"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1357.10.11 = {
+	monarch = {
+		name = "Adolf von der Marck"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1363.1.23 = {
+	monarch = {
+		name = "Johann von Virneburg"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1374.8.31 = {
+	monarch = {
+		name = "Florent van Welinghofen"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1379.2.14 = {
+	monarch = {
+		name = "Johann II von Pothenstein"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1381.12.1 = {
+	monarch = {
+		name = "Heidenreich von Ludinghausen"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1392.1.1 = {
+	monarch = {
+		name = "Otto IV"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1399.1.1 = {
+	set_country_flag = hanseatic_league
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Heinrich II"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1450.6.3 = {
+	monarch = {
+		name = "Walram"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1456.10.4 = {
+	monarch = {
+		name = "Johann"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1466.2.1 = {
+	monarch = {
+		name = "Heinrich III"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1496.12.25 = {
+	monarch = {
+		name = "Konrad"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1508.2.9 = {
+	monarch = {
+		name = "Erich"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1522.10.23 = {
+	monarch = {
+		name = "Friedrich II"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1532.3.23 = {
+	monarch = {
+		name = "Franz"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1553.7.16 = {
+	monarch = {
+		name = "Wilhelm"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1557.12.3 = {
+	monarch = {
+		name = "Bernhard"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1566.10.26 = {
+	monarch = {
+		name = "Johann II"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1573.4.6 = {
+	monarch = {
+		name = "Johann Wilhelm"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1585.5.9 = {
+	monarch = {
+		name = "Ernst"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1600.1.1 = {
+	clr_country_flag = hanseatic_league
+}
+
+1612.2.16 = {
+	monarch = {
+		name = "Ferdinand"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1650.9.14 = {
+	monarch = {
+		name = "Cristoph Bernhard"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1678.9.20 = {
+	monarch = {
+		name = "Ferdinand II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1683.6.27 = {
+	monarch = {
+		name = "Maximilian Heinrich"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1688.6.4 = {
+	monarch = {
+		name = "Friedrich Christian"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1706.5.6 = {
+	monarch = {
+		name = "Franz Arnold Wolff"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1718.12.26 = {
+	monarch = {
+		name = "Klemens August"
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1761.2.6 = {
+	monarch = {
+		name = "Maximilian Friedrich"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1784.4.16 = {
+	monarch = {
+		name = "Maximilian Franz"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

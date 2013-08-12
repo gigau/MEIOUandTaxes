@@ -1,0 +1,49 @@
+# 2679 - Kolhapur
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Kolhapur"
+trade_goods = naval_supplies
+hre = no
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 8000
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1  = {
+	add_core = BAH
+	add_core = BIJ
+}
+1450.1.1  = { citysize = 10000 }
+1490.1.1  = {
+	remove_core = BAH
+	controller = BIJ
+	owner = BIJ
+	fort2 = yes
+} # The Breakup of the Bahmani sultanate
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 11000 }
+1550.1.1  = { citysize = 12000 }
+1600.1.1  = { citysize = 14000 }
+1650.1.1  = {
+	citysize = 15000
+	add_core = MAR #Maratha Identity
+}
+1657.1.1  = {
+	owner = MAR
+	controller = MAR
+	remove_core = MUG
+	fort3 = yes
+	capital = "Satara"
+} # Inheritance of Shivaj
+1680.1.1  = { fort4 = yes }
+1700.1.1  = { citysize = 38000 }
+1750.1.1  = { citysize = 35000 }
+1800.1.1  = { citysize = 30000 }

@@ -1,0 +1,77 @@
+#1415 - Volterra
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FIR
+controller = FIR
+add_core = FIR
+culture = tuscan
+religion = catholic 
+capital = "Volterra" 
+
+base_tax = 5 
+#manpower = 3  
+manpower = 6  
+citysize = 12000 # Estimated          
+trade_goods = wine
+    
+fort1 = yes 
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes			#AdL: was part of HRE
+
+1356.1.1   = { citysize = 15000 }
+1399.1.1   = { citysize = 18000 }
+1450.1.1   = { citysize = 21000 }
+1500.1.1   = { citysize = 24000 } 
+1527.1.1   = { controller = SPA } # War of the League of Cognac
+1529.8.3   = { controller = FIR } # Treaty of Cambrai
+1550.1.1   = { citysize = 27000 }
+1560.1.1   = { marketplace = yes } 
+1569.1.1   = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+	remove_core = FIR
+} # Pope Pius V declared Duke Cosimo I de' Medici  Grand Duke of Tuscany
+1600.1.1   = { citysize = 31000 } 
+1618.1.1  =  { hre = no }
+1650.1.1   = { citysize = 33000 } 
+1700.1.1   = { citysize = 36000 }
+1720.1.1   = { mint = yes } 
+1750.1.1   = { citysize = 39000 add_core = ITA } 
+1800.1.1   = { citysize = 41000 }
+1801.2.9   = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # The Treaty of Lunéville
+1801.3.21  = {
+	owner = ETR
+	controller = ETR
+	add_core = ETR
+} # The Kingdom of Etruria
+1807.12.10 = {
+	owner = RFR
+	controller = RFR
+	remove_core = ETR
+} # Etruria is annexed to France
+1814.4.11  = {
+	owner = TUS
+	controller = TUS
+	remove_core = RFR
+} # Napoleon abdicates and Tuscany is restored
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

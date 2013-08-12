@@ -1,0 +1,125 @@
+# 92 - Brussels (brabant)
+# brussels 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRB
+controller = BRB 
+add_core = BRB
+culture = flemish
+religion = catholic
+capital = "Brussel"
+
+base_tax = 10
+#manpower = 5
+manpower = 10
+citysize = 30000
+trade_goods = beer
+
+university = yes
+marketplace = yes
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 35000 }
+1399.1.1   = { citysize = 40000 }
+1430.1.1   = { owner = BUR controller = BUR add_core = BUR }
+1453.1.1   = { citysize = 45000 }
+1473.12.1  = { courthouse = yes } # Parliament of Mechelen, ahead of its time
+1477.1.5   = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18  = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB }
+1488.1.1   = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Revolt of the Brabant cities
+1492.7.12  = { controller = HAB revolt = { } } # Peace of Cadzand, power of the cities broken
+1500.1.1   = { citysize = 60000 }
+1520.1.1   = { fort2 = yes }
+1528.1.1   = { revolt_risk = 5 } # Charles V begins to raise taxes
+1528.3.4   = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Brussels revolts against Charles V
+1528.3.9   = { revolt = { } controller = HAB } # Charles V retakes the city
+1529.1.1   = { revolt_risk = 0 } # Peace returns
+1546.1.1   = { temple = yes } # Works on the Saint Rombouts Cathedral in Mechelen stopped, considered finished
+1549.11.4  = { add_core = NED remove_core = BRB }
+1550.1.1   = { citysize = 65000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I advocates harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1566.8.1   = { revolt_risk = 4 } # 'Beeldenstorm' at hand
+1567.9.10  = { revolt_risk = 5 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 7 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 9 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 12 constable = yes } # The Duke of Alba reforms the penal procedure, 'Blood Council' (Bloedraad) established
+1572.6.5   = { revolt = { type = nationalist_rebels size = 2 } controller = REB revolt_risk = 4 } # Louis of Nassau captures Mechelen
+1572.8.15  = { revolt = { } controller = SPA revolt_risk = 12 } # Don Felipé lays waste to Mechelen
+1577.2.12  = { revolt_risk = 10 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1577.9.23  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # William of Orange enters Brussels triumphating
+1579.1.6   = { add_core = EBU }
+1579.1.23  = { revolt = { } controller = NED revolt_risk = 0 }
+1585.5.4   = { revolt_risk = 5 } # Alessandro Farnese captures Mechelen & Brussels in quick succession
+1600.1.1   = { fort3 = yes citysize = 61000 }
+1630.1.1   = { workshop = yes }
+1648.1.30  = { controller = SPA remove_core = NED revolt_risk = 0 } # Peace of Münster/Westphalia
+1650.1.1   = { customs_house = yes citysize = 89000 }
+1665.9.17  = { add_core = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
+1672.5.10  = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19  = { controller = SPA } # Peace of Nijmegen (France-Spain)
+1700.1.1   = { citysize = 102000 }
+1706.5.23  = { controller = ENG } # Marlborough defeats the French at Ramillies
+1707.5.12  = { controller = GBR }
+1713.4.11  = { owner = HAB controller = HAB add_core = HAB remove_core = SPA } # Treaty of Utrecht
+1715.9.1   = { remove_core = FRA } # Louis XIV passes away
+1718.1.1   = { fort4 = yes }
+1719.2.1   = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Under the guidance of guildmaster Anneesens, Brussels revolts against the Austrian taxation policy
+1719.9.19  = { revolt = { } controller = HAB } # Revolt suppressed, Anneesens executed
+1725.1.1   = { mint = yes }
+1746.10.11 = { controller = FRA } # Maréchal Saxe launches a succesful offensive
+1748.10.18 = { controller = HAB } # Peace of Aachen
+1750.1.1   = { regimental_camp = yes citysize = 78000 }
+1789.1.1   = { revolt_risk = 15 } # 'Brabantse Omwenteling' at hand
+1789.6.18  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # The 'Brabant Revolution' (Brabantse Omwenteling) against Joseph II starts
+1789.10.27 = {
+	revolt = { type = nationalist_rebels size = 2 }
+	controller = REB
+	add_core = EBU
+}
+1790.1.11  = {
+	revolt = { }
+	owner = EBU
+	controller = EBU
+}
+1791.1.1   = {
+	owner = HAB
+	controller = HAB
+}
+1792.12.1  = { controller = RFR } # Conquered by the French troops under Dumouriez
+1793.3.18  = { controller = HAB } # Reconquered by Prince Josias of Coburg
+1797.10.17 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = HAB
+} # The Treaty of Campo Formio, the Austrian Netherlands are ceded to France 
+1798.10.12 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # The Flemish Peasant Rebellion
+1798.12.5  = { revolt = { } controller = RFR }
+1800.1.1   = { citysize = 94000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16  = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = FRA
+} # The United Kingdom of the Netherlands
+1830.1.1    = {
+	owner = EBU
+	controller = EBU
+}

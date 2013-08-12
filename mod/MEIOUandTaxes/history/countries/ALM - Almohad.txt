@@ -1,0 +1,27 @@
+# ALM - Almohad
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2b
+# aristocracy_plutocracy = 4
+# centralization_decentralization = -3
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 5
+# land_naval = -3
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+primary_culture = maure
+religion = sunni
+add_accepted_culture = berber
+technology_group = muslim
+capital = 347 # Marrakech
+
+1266.1.1 = {
+	monarch = {
+		name = "Idris II"
+		dynasty = "al-Muwahhidun"
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+}

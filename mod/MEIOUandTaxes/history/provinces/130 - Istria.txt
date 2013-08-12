@@ -1,0 +1,57 @@
+# 130 - Istria
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VEN
+controller = VEN 
+culture = dalmatian # 41.6% Croatian, 36.5% Italian, 13.7% Slovene
+religion = catholic
+capital = "Pola"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 5430
+trade_goods = lumber
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = {
+	add_core = VEN
+	add_core = HAB
+	add_core = CAR
+}
+1379.1.1   = { add_core = STY }
+1490.1.1   = { remove_core = STY }
+1500.1.1   = { citysize = 6000 }
+1550.1.1   = { citysize = 6988 fort2 = yes } # The fort is rebuilt
+1600.1.1   = { citysize = 7560 }
+1650.1.1   = { citysize = 8900 marketplace = yes }
+1700.1.1   = { citysize = 9200 }
+1750.1.1   = { citysize = 10200 }
+1797.10.17 = {
+	owner = HAB
+	controller = HAB
+	culture = slovenian
+#	add_core = HAB
+} # Treaty of Campo Formio
+1800.1.1   = { citysize = 11700 }
+1805.12.26 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Treaty of Pressburg
+1813.9.20 = {
+	controller = HAB
+} # Occupied by Austrian forces
+1814.4.6  = {
+	owner = HAB
+	remove_core = RFR
+} # Napoleon abdicates
+1814.4.11 = { cot = yes	} # Trieste city, replacing Venezia

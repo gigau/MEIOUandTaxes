@@ -1,0 +1,63 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 50  196  197 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi 
+	Batuta 
+	Chairul 
+	Hamzah Hasanuddin 
+	Ibnu 
+	Kyai 
+	Mahat Mukhtar 
+	Najamuddin Natzar Nazmizan 
+	Roem 
+	Syarifuddin 
+	Zulkifli 
+}
+
+monarch_names = {
+	"Muhammad #2" = 20
+	"Ahmad #2" = 20
+	"Mansur #2" = 20
+	"Mahmud #2" = 20
+	"Muzaffar #1" = 10
+	"Zainal-Abidin #1" = 10
+	"Abdul Jamal #1" = 10
+	"Abdul-Kadir #1" = 10
+	"Abdul Ghafur #1" = 10
+	"Abdul Jalil #1" = 10
+	"Abdul Majid #1" = 10
+	"Koris #1" = 20
+	"'Ali #1" = 10
+	"Muhammad Tahir #0" = 10
+	"Ahmad al Muadzam #0" = 10
+	"Abdullah #0" = 10
+	"Abu Bakr #0" = 10
+	"Ahmad al Mustain #0" = 10
+}
+
+
+ship_names = {
+	"Sultan Iskandar" Bendahara Laksamana
+	Temenggung "Penghulu bendahari" Shahbandar
+	"Hukum Kanun" "Undang-Undang" "Pulau Bakung"
+	"Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau"
+	"Pulau Rempang" "Pulau Kundur" "Pulau Padang"
+	"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu"
+	"Pulau Tioman" "Pulau Aur" "Pulau Rupat"
+	"Pulau Rangsang" "Pulau Tebing Tinggi"
+}

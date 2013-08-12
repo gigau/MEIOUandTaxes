@@ -1,0 +1,37 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FEZ
+controller = FEZ
+add_core = MOR
+add_core = FEZ
+culture = berber
+religion = sunni
+capital = "Sijilmassa"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 32146
+trade_goods = wool
+
+fort1 = yes
+mint = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = TUA
+discovered_by = muslim
+discovered_by = western
+discovered_by = turkishtech
+
+hre = no
+
+1363.1.1 = { citysize = 13264 }
+1500.1.1 = { citysize = 12640 }
+1509.1.1 = { controller = REB }
+1515.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = FEZ}
+1550.1.1 = { citysize = 14070 }
+1600.1.1 = { citysize = 14855 }
+1650.1.1 = { citysize = 15100 }
+1700.1.1 = { citysize = 26287 }
+1750.1.1 = { citysize = 27081 }
+1800.1.1 = { citysize = 27354 }

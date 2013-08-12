@@ -1,0 +1,38 @@
+# 1072 - Beryozovo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = uralic
+religion = shamanism
+capital = "Beryozovo"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 2
+native_hostileness = 5
+discovered_by = SIB
+
+1478.1.1 = { discovered_by = MOS }
+1581.1.1 = {
+	discovered_by = RUS 
+	owner = RUS
+	controller = RUS
+	religion = orthodox
+	culture = russian	
+	citysize = 1200
+	trade_goods = salt
+	set_province_flag = trade_good_set
+} # Yermak Timofeevich
+1593.1.1 = { citysize = 2990 }
+1600.1.1 = { citysize = 3627 }
+1606.1.1 = { add_core = RUS revolt_risk = 3 } # Rebellions against Russian rule
+1608.1.1 = { revolt_risk = 5 }
+1610.1.1 = { revolt_risk = 2 }
+1616.1.1 = { revolt_risk = 6 }
+1620.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 4098 }
+1700.1.1 = { citysize = 4580 }
+1750.1.1 = { citysize = 5358 }
+1800.1.1 = { citysize = 5777 }

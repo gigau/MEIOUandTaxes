@@ -1,0 +1,50 @@
+# DGA - Deogarh
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 4
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 2
+# serfdom_freesubjects = -4
+technology_group = indian
+religion = hinduism
+primary_culture = gondi
+capital = 2558
+
+historical_friend = GDW
+
+1531.1.1 = {
+	monarch = {
+		name = "Jatba"
+		dynasty = "Deogadhi"
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Bahkt Buland"
+		dynasty = "Deogadhi"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Chand Sultan"
+		dynasty = "Deogadhi"
+		adm = 7
+		dip = 3
+		mil = 6
+	}
+}
+
+#Founds kingdom of Nagpur

@@ -1,0 +1,20 @@
+# VAS - Vastergotland
+# CK conversion nation
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -1
+# centralization_decentralization = 3
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = -2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 1
+# secularism_theocracy = -1
+technology_group = western
+primary_culture = swedish
+religion = catholic
+capital = 8	#Skaraborg
+
+1530.1.1 = { religion = protestant }

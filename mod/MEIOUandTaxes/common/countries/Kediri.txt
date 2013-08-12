@@ -1,0 +1,61 @@
+#Country Name: Kediri
+#Tag: KMA
+#Kediri is used to represent Kediri + Malang + other city-states in east Java
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 88  137  172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+        "Sulayman #3" = 60
+	"Çri Jayawarsa #4" = 60
+	"Digjaya Çastaprabhu #5" = 60
+	"Kameçwara #2" = 30
+	"Jayabhaya #2" = 30
+	"Sarwweçwara #2" = 30
+	"Aryyeçwara #2" = 30
+	"Gandra  #1" = 30
+	"Çrngga  #1" = 30
+}
+
+leader_names = {
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	Kuala Tinjar Belait Batu Danau
+	Medamit Bangar Penanjong Lumut Telingan
+	Labi Sukang Baram
+}
+
+ship_names = {
+	Aryyeçwara Çastaprabhu Digjaya Jayabhaya Jayawarsa
+	Kediri Kertajaya Sarwweçwara Sulayman
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	Kuala Tinjar Belait Batu Danau
+	Medamit Bangar Penanjong Lumut Telingan
+	Labi Sukang Baram
+}
+

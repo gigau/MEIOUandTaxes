@@ -1,0 +1,64 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 95  139  214 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Hussain #0" = 25
+	"Firuzshah #0" = 25
+	"Mahmud #0" = 25
+	"Ghazi Khan #0" = 25
+	"Qutbudin #0" = 25
+}
+
+leader_names = {
+	Bahadur
+	Bhalla
+	Das
+	Dev
+	Gahunia
+	Gobind
+	Granth
+	Hoora
+	Jhol
+	Jhotti
+	Krishan
+	Lohaar
+	Parmanand
+	Rajsingh
+	Shergill
+	Singh
+	Sodhi
+	Sohal
+	Rai
+	Udasi
+}
+
+ship_names = {
+	Beas Chenab Devi Gayatri Guru Indus
+	Jalsena Jhelum Lakshmi Nausena
+	"Nav ka Yudh" Parvati Radha Ratri
+	Ravi Sagar Sutlej Sarasvati Sita
+}

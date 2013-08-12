@@ -1,0 +1,78 @@
+# 1568 - Kaffa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SID
+controller = SID
+culture = amhara 
+religion = oriental
+capital = "Bonga"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = coffee
+
+fort1 = yes
+terrain2 = yes
+
+discovered_by = DAR
+discovered_by = KIT
+discovered_by = ALW
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = SID	set_province_flag = terrain2
+}
+1486.1.1 = { revolt_risk = 5 add_core = ADA } #Raids by Mahfuz Of Zayla
+1495.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1499.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1510.1.1 = { revolt_risk = 9 } #Raids by Mahfuz Of Zayla
+1514.1.1 = {
+	owner = ADA
+	controller = ADA
+	revolt_risk = 6
+} #Mahfuz drives Ethiopians out of Ifat region
+1517.7.1 = {
+	owner = ETH
+	controller = ETH
+} #Lebna Dengel occupies region during campaign that defeats Mahfuz
+1527.1.1 = { revolt_risk = 5 } #Raids by Ahmad Gran
+1529.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1530.1.1 = { religion = sunni } #Spread of Islam leads to shift in religion affiliation of region
+1531.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1532.1.1 = {
+	owner = ADA
+	controller = ADA
+	revolt_risk = 6
+} #Lebna Dengel defeated by Ahmad Gran at Ayfars
+1545.1.1 = {
+	owner = ETH
+	controller = ETH
+	remove_core = ADA
+} #Adal collapse in highlands in wake of Ahmad Gran's death
+1549.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1550.1.1 = { discovered_by = TUR }
+1553.1.1 = { revolt_risk = 5 } #Invasion by Adal 
+1558.1.1 = { revolt_risk = 5 } #Invasion by Adal 
+1564.1.1 = { controller = REB } #Oromo seize control of region
+1566.1.1 = { controller = ETH } #Sarsa Dengel defeats Oromo invaders
+1573.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1578.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1588.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1590.1.1 = {
+	citysize = 0
+	native_size = 50
+	native_ferocity = 4.5
+	native_hostileness = 9 
+	owner = XXX
+	controller = XXX
+	religion = animism
+	revolt_risk = 0
+	trade_goods = crops
+	base_tax = 1
+#	manpower = 1
+	manpower = 2
+} #oromo expansion ends direct Ethiopian overlordship in region

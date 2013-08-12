@@ -1,0 +1,52 @@
+# 339 - Toggourt
+# LS - Maghreb
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLE
+controller = TLE 
+add_core = TLE
+add_core = TOG
+culture = kabyle
+religion = sunni
+capital = "Toggourt"
+
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 5772
+trade_goods = wax
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1416.1.1 = {
+	owner = TOG
+	controller = TOG
+	remove_core = TLE
+}
+1500.1.1 = { citysize = 6954 }
+1543.1.1 = {
+	owner = TOG
+	controller = TOG
+}
+1550.1.1 = { citysize = 7620 }
+1600.1.1 = { citysize = 8344 }
+1650.1.1 = { citysize = 9671 }
+1672.1.1 = {
+	owner = ALG
+	controller = ALG
+	add_core = ALG
+} # Estimated
+1700.1.1 = { citysize = 11980 }
+1750.1.1 = { citysize = 14305 }
+1800.1.1 = { citysize = 15641 }
+1852.1.1 = {
+	owner = FRA
+	controller = FRA
+}

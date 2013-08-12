@@ -1,0 +1,120 @@
+# ALB - Albania
+# 2009-dec-19 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = albanian
+religion = orthodox
+technology_group = eastern
+capital = 1424	# Durrës,Tirana
+
+1246.1.1 = {
+	primary_culture = albanian
+	capital = 143
+}
+
+1335.1.1 = {
+	monarch = {
+		name = "Andrea II"
+		dynasty = "Muzaka"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Teodor I"
+		dynasty = "Muzaka"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1389.1.1 = {
+	monarch = {
+		name = "Teodor II"
+		dynasty = "Muzaka"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Teodor III"
+		dynasty = "Muzaka"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+# The League of Lezhe
+1443.3.4 = {
+	capital = 1424
+	monarch = {
+		name = "Gjergj K Skanderbeg"
+		dynasty = "Kastrioti"
+		adm = 9
+		dip = 8
+		mil = 9
+		leader = { name = "Skanderbeg" type = general rank = 0 fire = 5 shock = 5 manuever = 5 siege = 0 }
+	}
+	heir = {
+		name = "Gjon"
+		monarch_name = "Gjon II"
+		dynasty = "Kastrioti"
+		birth_date = 1420.1.1
+		death_date = 1478.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+# 1443.11.28 = { secularism_theocracy = 1 } #converted to catholic and went to war with the Ottomans until his death
+
+1468.1.18 = {
+	monarch = {
+		name = "Gjon II"
+		dynasty = "Kastrioti"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+	heir = {
+		name = "Constantino"
+		monarch_name = "Constantino"
+		birth_date = 1440.1.1
+		death_date = 1478.6.16
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Constantino"
+		dynasty = "Kastrioti"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}

@@ -1,0 +1,70 @@
+# NAM - Marquisat de Namur
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 2364
+
+1337.1.1 = {
+	monarch = {
+		name = "Guillaume I le Riche"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Guillaume"
+		monarch_name = "Guillaume II"
+		dynasty = "von Wittelsbach"
+		birth_date = 1355.1.22
+		death_date = 1418.1.10
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1391.10.1 = {
+	monarch = {
+		name = "Guillaume II"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean III"
+		dynasty = "von Wittelsbach"
+		birth_date = 1360.1.1
+		death_date = 1429.3.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1418.1.10 = {
+	monarch = {
+		name = "Jean III"
+		dynasty = "von Wittelsbach"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+# 1421 - Jean III sells the Marquisat to the duke of Burgundy

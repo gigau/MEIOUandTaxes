@@ -1,0 +1,41 @@
+# 315 - Olonets
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV   
+culture = pomor # karelian
+religion = orthodox
+hre = no
+base_tax = 3
+trade_goods = fur  
+#manpower = 1
+manpower = 2
+capital = "Olonets"
+citysize = 1000
+fort1 = yes
+add_core = NOV
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+
+1478.1.14 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+}
+1500.1.1  = { citysize = 1100 }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 1250 }
+1600.1.1  = { citysize = 1500 }
+1649.1.1  = { fort1 = yes }
+1650.1.1  = { citysize = 2000 }
+1658.1.1  = { citysize = 2500 }
+1700.1.1  = { citysize = 3000 }
+1750.1.1  = { citysize = 4000 }
+1800.1.1  = { citysize = 5000 }

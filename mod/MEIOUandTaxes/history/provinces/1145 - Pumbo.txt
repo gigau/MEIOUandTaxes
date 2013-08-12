@@ -1,0 +1,39 @@
+# 1145 - Pumbo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KON
+controller = KON
+add_core = KON
+culture = lunda
+religion = animism
+capital = "Pumbo"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = lumber
+
+fort1 = yes
+hre = no
+
+discovered_by = LOA
+discovered_by = KON
+discovered_by = NDO
+
+1500.1.1 = { citysize = 4500 }
+1550.1.1 = { citysize = 4980 }
+1564.1.1 = {
+	owner = LOA
+	controller = LOA
+}
+1600.1.1 = { citysize = 5500 }
+1650.1.1 = { citysize = 6200 }
+1665.10.29 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+} # Battle of Mbwila - Portuguese victory
+1700.1.1 = { citysize = 6800 }
+1750.1.1 = { citysize = 7335 }
+1800.1.1 = { citysize = 7960 }

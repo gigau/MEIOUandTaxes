@@ -1,0 +1,69 @@
+# 933 - Yamasee
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = powhatan
+religion = midewiwin
+capital = "Yamasee"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1521.1.1 = {
+	discovered_by = SPA
+} # Lucas Vásquez de Ayllón
+1526.1.1 = {
+	discovered_by = FRA
+} # Giovanni da Verrazzano
+1670.1.1   = {
+	owner = ENG
+	controller = ENG
+	capital = "Charles Towne"
+	citysize = 500
+	religion = anglican
+	culture = english
+	trade_goods = cotton
+	base_tax = 3
+#	manpower = 3
+	manpower = 6
+	set_province_flag = trade_good_set
+	fort1 = yes
+}
+1695.1.1   = {
+	add_core = ENG
+	citysize = 2000
+}
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = USA
+	culture = american
+	citysize = 20000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 0 }
+	revolt_risk = 6
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies
+1783.9.3   = {
+	capital = "Charleston"
+}

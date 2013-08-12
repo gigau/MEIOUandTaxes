@@ -1,0 +1,9 @@
+# 2450 - Dzhyangylakh
+
+1750.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	culture = yakut
+	religion = shamanism
+}

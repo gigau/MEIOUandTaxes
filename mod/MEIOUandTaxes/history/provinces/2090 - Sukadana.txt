@@ -1,0 +1,47 @@
+#Province: Sukadana
+#file name: 2090 - Sukadana
+# MEIOU-FB Indonesia mod
+# MEIOU-GG
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SKD
+controller = SKD
+culture = dayak
+religion = theravada
+capital = "Sukadana"
+trade_goods = gold		#FB this area was a major source of gold
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4500
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = SKD
+	add_core = BKS
+	add_core = PTN
+}
+1400.1.1 = { citysize = 5000 }
+1450.1.1 = { citysize = 5500 }
+1500.1.1 = { citysize = 5899 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 6870 religion = sunni }
+1600.1.1 = { citysize = 7580 }
+1650.1.1 = { citysize = 8560 }
+1700.1.1 = { citysize = 9200 }
+1712.1.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 3
+}
+1737.1.1 = { add_core = NED }
+1750.1.1 = { citysize = 9780 }
+1800.1.1 = { citysize = 10570 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

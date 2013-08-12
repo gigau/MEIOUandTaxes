@@ -1,0 +1,45 @@
+#Country Name: Please see filename.
+
+graphical_culture = chinesegfx
+
+color = { 110  10  10 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+}
+
+monarch_names = {
+	"Hamarullah #1" = 10
+	"Muhammad Hayatuddin Syah Putera #0" = 10
+	"Muhammad Sadik Syah #0" = 10
+	"Muhammad Usman Syah #0" = 10
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi 
+	Batuta 
+	Chairul 
+	Hamzah Hasanuddin 
+	Ibnu 
+	Kyai 
+	Mahat Mukhtar 
+	Najamuddin Natzar Nazmizan 
+	Roem 
+	Syarifuddin 
+	Zulkifli 
+}
+
+ship_names = {
+	Bacan Balla Bulu Lompo Sallo Karaeng Bambang
+	Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+}

@@ -1,0 +1,30 @@
+#WES - Westfalia
+#MEIOU-GG Governemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = enlightened_despotism_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -1
+# secularism_theocracy = 0
+primary_culture = old_saxon
+religion = protestant
+technology_group = western
+capital = 81	# Kassel
+
+
+1807.7.9 = {
+	monarch = {
+		name = "Jérôme"
+		dynasty = "Bonaparte"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}

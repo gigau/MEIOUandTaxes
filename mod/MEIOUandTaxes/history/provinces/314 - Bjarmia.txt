@@ -1,0 +1,50 @@
+# 314 - Bjarmia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV    
+culture = pomor 
+religion = orthodox
+hre = no
+trade_goods = fur # subsistence
+base_tax = 2
+#manpower = 1
+manpower = 2
+capital = "Holmogory"
+citysize = 1100
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = NOV
+}
+1397.1.1  = {
+	add_core = MOS
+} # Dvina statutory charter
+1472.1.14 = {
+	owner = MOS
+	controller = MOS
+	remove_core = NOV
+} # Land strife in Novgorod. Dvinskaya zemlya submits to Muscowian Prince.
+1500.1.1  = { citysize = 1200 marketplace = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 1500 }
+1580.1.1  = { marketplace = yes } # Became a wealthy and important trade and transport center
+#1584.1.1  = { capital = "Arkhangelsk" fort2 = yes base_tax = 6 manpower = 2 culture = russian } # Foundation of Arkhangelsk, also maybe cot = yes
+1584.1.1  = { capital = "Arkhangelsk" fort2 = yes base_tax = 6 manpower = 4 culture = russian } # Foundation of Arkhangelsk, also maybe cot = yes
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 2000 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 2500 }
+1670.1.1  = { temple = yes } # Dedicated to the Domition of Mary, rebuilt in the 17th century
+1693.1.1  = { shipyard = yes } # Peter I ordered the creation of a state shipyard
+1700.1.1  = { citysize = 3000 }
+1750.1.1  = { citysize = 4000 }
+1800.1.1  = { citysize = 5000 }

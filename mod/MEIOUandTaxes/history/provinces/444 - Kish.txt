@@ -1,0 +1,47 @@
+# 444 - Kish
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = kwarezhmi
+religion = sunni
+capital = "Kish"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 1432
+
+discovered_by = KSH
+discovered_by = turkishtech
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = muslim
+
+1356.1.10   = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+}
+1500.1.1 = { citysize = 1967 }
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = { citysize = 2398 }
+1600.1.1 = { citysize = 3433 }
+1650.1.1 = { citysize = 4758 }
+1700.1.1 = { citysize = 5210 }
+1750.1.1 = { citysize = 5754 }
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1 = { citysize = 6250 }

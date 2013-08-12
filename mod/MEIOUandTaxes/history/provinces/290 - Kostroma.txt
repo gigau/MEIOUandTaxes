@@ -1,0 +1,53 @@
+#290 - Kostroma
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOS
+controller = MOS
+culture = russian
+religion = orthodox
+capital = "Kostroma"
+
+base_tax = 3  
+#manpower = 2
+manpower = 4
+citysize = 6412
+trade_goods = livestock
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no 
+
+1356.1.1  = {
+	add_core = MOS
+}
+1450.1.1  = {
+	marketplace = yes
+} # Conquered by Valssili II
+1500.1.1  = { citysize = 7543 }
+1516.1.1  = { temple = yes } # Spasskiy Monastery
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 8874 }
+1560.1.1  = { base_tax = 4 } # Treasury reforms
+#1598.1.1  = { revolt_risk = 5 manpower = 4 } # "Time of troubles", peasantry brought into serfdom
+1598.1.1  = { revolt_risk = 5 manpower = 8 } # "Time of troubles", peasantry brought into serfdom
+1600.1.1  = { citysize = 10440 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 12283 }
+1667.1.1  = { controller = REB } # Peasant uprising, Stenka Razin
+1670.1.1  = { controller = RUS } # Crushed by the Tsar's army
+1682.1.1  = { constable = yes }
+1700.1.1  = { textile = yes citysize = 14450 } # First large factories appeared in the Yaroslavl region, linen, silk
+1711.1.1  = { base_tax = 5 mint = yes } # Governmental reforms and the absolutism
+1750.1.1  = { citysize = 17000 }
+1767.1.1  = { base_tax = 6 } # Legislative reforms 
+1800.1.1  = { citysize = 20000 }

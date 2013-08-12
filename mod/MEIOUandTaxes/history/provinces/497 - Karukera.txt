@@ -1,0 +1,93 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = carib
+religion = pantheism
+capital = "Karukéra"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 20
+native_ferocity = 2
+native_hostileness = 9
+
+1493.11.14 = {
+	discovered_by = CAS
+} # Christopher Columbus, never showed much interest for the island
+1516.1.23  = {
+	discovered_by = SPA
+}
+1635.1.1   = {
+	owner = FRA
+	controller = FRA 
+	citysize = 389
+	religion = catholic
+	culture = creole
+	capital = "Guadeloupe"
+	trade_goods = cacao
+	set_province_flag = trade_good_set
+} # Most of the Caribs were wiped out by the French
+1643.1.1   = {
+	capital = "Haute-Terre"
+	citysize = 1210
+}
+1650.1.1   = {
+	citysize = 2242
+}
+1660.1.1   = {
+	add_core = FRA
+}
+1700.1.1   = {
+	citysize = 2637
+}
+1710.1.1   = {
+	marketplace = yes
+}
+1750.1.1   = {
+	citysize = 3103
+}
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1793.1.1   = {
+	controller = REB
+} # Slave rebellion
+1794.4.21  = {
+	controller = GBR
+} # Seized by the British
+1794.6.2   = {
+	controller = RFR
+} # French control is restored
+1800.1.1   = {
+	citysize = 3650
+}
+1813.2.5   = {
+	controller = GBR
+} # Occupied by British troop again
+1813.3.3   = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = RFR
+} # Ceded to Sweden
+1814.5.30  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = SWE
+} # The Treaty of Paris
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

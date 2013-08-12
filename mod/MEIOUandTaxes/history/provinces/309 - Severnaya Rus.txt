@@ -1,0 +1,56 @@
+# 309 - Servernaya Rus
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+cot = yes
+base_tax = 12
+trade_goods = naval_supplies
+#manpower = 7
+manpower = 14
+capital = "Novgorod"
+citysize = 18000
+fort1 = yes
+marketplace = yes
+add_core = NOV
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+
+1478.1.14 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+}
+1484.1.1  = { revolt_risk = 6 } # Massacres and deportation of leading citizens to inland Russia
+1489.1.1  = { revolt_risk = 0 }
+1500.1.1  = { citysize = 20000 }
+1503.1.1  = { temple = yes } # St Sophia Cathedral
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 21000 fort2 = yes }
+1570.1.1  = { citysize = 18000 } # Thousands slaughtered by Ivan the Terrible
+1572.1.1  = { cot = no }
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 17000 }
+1611.1.1  = { controller = SWE } # Occupied by the Swedes
+1615.1.1  = { citysize = 9000 } # Ingrian war
+1617.2.27 = { controller = RUS revolt_risk = 0 } 
+1650.1.1  = { citysize = 6000 fort3 = yes } # Fortifications were restored and reconstructed
+1670.1.1  = { revolt_risk = 8 } # Stepan Razin
+1671.1.1  = { revolt_risk = 0 } # Razin is captured
+1672.1.1  = { base_tax = 8 } # Tax revenues increased
+1700.1.1  = { citysize = 6000 }
+1707.1.1  = { revolt_risk = 3 } # The Kondraty Bulavin Rebellion
+1708.7.7  = { revolt_risk = 0 } # Bulains was shot  
+1711.1.1  = { base_tax = 7 } # Governmental reforms and the absolutism
+1750.1.1  = { citysize = 8000 }
+1800.1.1  = { citysize = 9000 }

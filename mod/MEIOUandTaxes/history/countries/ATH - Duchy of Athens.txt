@@ -1,0 +1,129 @@
+# ATH - Duchy of Athens
+# MEIOU-GG Govenemnt changes
+# 2009-dec-28 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = greek
+religion = orthodox # catholic
+technology_group = eastern
+capital = 146	#Athens
+
+1394.1.11  = {
+	primary_culture = lombard
+	monarch = {
+		name = "Rainerio"
+		dynasty = "Acciaioli"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1394.9.25 = {
+	monarch = {
+		name = "Antonio"
+		dynasty = "Acciaioli"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+# 1395-1402 Athens under venetian rule
+
+1416.1.1 = {
+	heir = {
+		name = "Nerio"
+		monarch_name = "Rainerio II"
+		dynasty = "Acciaioli"
+		birth_date = 1416.1.1
+		death_date = 1439.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Rainerio II"
+		dynasty = "Acciaioli"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Antonio II"
+		dynasty = "Acciaioli"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Nerio II"
+		dynasty = "Acciaioli"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco"
+		dynasty = "Acciaioli"
+		birth_date = 1410.1.1
+		death_date = 1455.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Francesco"
+		dynasty = "Acciaioli"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Franco"
+		monarch_name = "Franco"
+		dynasty = "Acciaioli"
+		birth_date = 1430.1.1
+		death_date = 1460.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1455.1.1 = {
+	monarch = {
+		name = "Franco"
+		dynasty = "Acciaioli"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}

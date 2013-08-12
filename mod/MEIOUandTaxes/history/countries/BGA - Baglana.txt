@@ -1,0 +1,167 @@
+# BGA - Banglana
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = khandeshi
+capital = 517
+
+
+#Rajas of Baglana
+1399.1.1 = {
+	monarch = {
+		name = "Jopideva"
+		dynasty = "Rastraudha"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+ 
+
+1399.1.1 = {
+	heir = {
+		name = "Nanadeva"
+		monarch_name = "Nanadeva II"
+		dynasty = "Rastraudha"
+		birth_Date = 1370.1.1
+		death_date = 1441.4.28
+		claim = 95	#Uncle of Jopideva
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1431.1.1 = {
+	monarch = {
+		name = "Nanadeva II"
+		dynasty = "Rastraudha"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Bhairava"
+		monarch_name = "Bhairava"
+		dynasty = "Rastraudha"
+		birth_Date = 1425.1.1
+		death_date = 1510.1.1
+		claim = 95	#Son of Nanadeva II
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Bhairava"
+		dynasty = "Rastraudha"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Bhairava"
+		monarch_name = "Bhairava II"
+		dynasty = "Rastraudha"
+		birth_date = 1460.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Bhairava II"
+ 		dynasty = "Rastraudha"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Viramasena"
+		monarch_name = "Viramasena"
+		dynasty = "Rastraudha"
+		birth_Date = 1490.1.1
+		death_date = 1550.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+
+1540.1.1 = {
+	monarch = {
+		name = "Viramasena"
+ 		dynasty = "Rastraudha"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Bhairava"
+		monarch_name = "Bhairava III"
+		dynasty = "Rastraudha"
+		birth_Date = 1570.1.1
+		death_date = 1650.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Bhairava III"
+ 		dynasty = "Rastraudha"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1610.1.1 = {
+	heir = {
+		name = "Daulatmand"
+		monarch_name = "Daulatmand Khan"
+		dynasty = "Rastraudha"
+		birth_Date = 1600.1.1
+		death_date = 1680.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}

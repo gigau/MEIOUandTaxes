@@ -1,0 +1,154 @@
+# TNJ - Tanjore Nayaka
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = tamil
+religion = hinduism
+technology_group = indian
+capital = 2673
+
+1535.1.1 = {
+	monarch = {
+		name = "Cevvappa"
+		dynasty = "Thanjavur Nayaka"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	heir = {
+		name = "Achuthappa"
+		monarch_name = "Achuthappa"
+		dynasty = "Thanjavur Nayaka"
+		birth_date = 1530.1.1
+		death_date = 1612.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Achuthappa"
+		dynasty = "Thanjavur Nayaka"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1590.1.1 = {
+	heir = {
+		name = "Ragunatha"
+		monarch_name = "Ragunatha"
+		dynasty = "Thanjavur Nayaka"
+		birth_date = 1570.1.1
+		death_date = 1645.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+#Co-ruled with his father before 1590
+
+1612.1.1 = {
+	monarch = {
+		name = "Ragunatha"
+		dynasty = "Thanjavur Nayaka"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1612.1.1 = {
+	heir = {
+		name = "Vijaya Raghava"
+		monarch_name = "Vijaya Raghava"
+		dynasty = "Thanjavur Nayaka"
+		birth_date = 1590.1.1
+		death_date = 1673.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Vijaya Raghava"
+		dynasty = "Thanjavur Nayaka"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+#1673 conquered by madurai in a dramatic turn of events
+#1675 conquered by Ekoji with the aid of the Bijapur Sultanate
+
+1675.1.1 = {
+	monarch = {
+		name = "Ekoji I"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 4
+		mil = 8
+	}
+}
+
+1675.1.1 = { leader = {	name = "Ekoji Shivaji"	type = general	rank = 1	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1700.1.1 } }
+
+1675.1.1 = {
+	heir = {
+		name = "Shahuji"
+		monarch_name = "Shahuji I"
+		dynasty = "Bhonsle"
+		birth_date = 1672.1.1
+		death_date = 1712.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1707.1.1 = {
+	monarch = {
+		name = "Shahuji I"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1707.1.1 = {
+	heir = {
+		name = "Serfoji"
+		monarch_name = "Serfoji I"
+		dynasty = "Bhonsle"
+		birth_date = 1675.1.1
+		death_date = 1728.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

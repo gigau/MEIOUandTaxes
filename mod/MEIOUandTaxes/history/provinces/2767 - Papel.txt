@@ -1,0 +1,30 @@
+# 2767 - Papel
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Papel"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5000
+trade_goods = slaves
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+	add_core = DJO
+	add_core = KAA
+}
+1490.1.1 = {
+	owner = KAA
+	controller = KAA
+}

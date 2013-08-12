@@ -1,0 +1,4 @@
+discovered_by = chinese
+discovered_by = steppestech
+
+1643.1.1 = { discovered_by = RUS }

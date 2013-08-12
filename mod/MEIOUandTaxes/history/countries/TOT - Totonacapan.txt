@@ -1,0 +1,27 @@
+# TOT - Totonac
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -1
+# secularism_theocracy = 3
+primary_culture = totonecan
+religion = teotl
+technology_group = new_world
+capital = 2643
+
+1356.1.1   = {
+	monarch = {
+		name = "Monarch"
+		dynasty = "Totonac"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

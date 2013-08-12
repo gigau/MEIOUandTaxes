@@ -1,0 +1,71 @@
+# 532 - Mangaluru
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAM
+controller = ZAM
+culture = malayalam
+religion = hinduism
+capital = "Mangaluru"
+trade_goods = steel
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 10100
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = VIJ
+	controller = VIJ
+	add_core = ZAM
+}
+1376.1.1 = {
+	owner = ZAM
+	controller = ZAM
+}
+1400.1.1  = { citysize = 11550 }
+1450.1.1  = { citysize = 12500 add_core = ZAM }
+1498.5.20 = { discovered_by = POR }		#FB was 1498.1.1
+1500.1.1  = { citysize = 14200 }
+1550.1.1  = { citysize = 16200 }
+1559.1.1  = {
+	owner = VIJ
+	controller = VIJ
+	add_core = VIJ
+} # Consolidation
+1565.7.1  = {
+	owner = KLN
+	controller = KLN
+} # The Vijayanagar empire collapses
+1596.2.1  = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1  = { citysize = 18840 discovered_by = turkishtech discovered_by = ENG discovered_by = FRA }
+1650.1.1  = { citysize = 20900 }
+1660.1.1  = {
+	controller = BIJ
+	owner = BIJ
+}
+1700.1.1  = { citysize = 23750 temple = yes }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 26800 workshop = yes }
+1763.1.1 = {
+	owner = MYS
+	controller = MYS
+	add_core = MYS
+} # Mysore sultan conquers the province
+1768.1.1 = {
+	owner = GBR
+	controller = GBR
+}
+1794.1.1 = {
+	owner = MYS
+	controller = MYS
+}
+1798.1.1  = {
+	controller = GBR
+}
+1799.1.1 = {
+	owner = GBR
+}
+1800.1.1 = { citysize = 29200 }

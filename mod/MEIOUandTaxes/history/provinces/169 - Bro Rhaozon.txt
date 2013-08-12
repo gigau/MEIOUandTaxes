@@ -1,0 +1,91 @@
+# 169 Bro Naozhon Bro S.Malou Bro Dol - Principal cities: Rennes Dol St Malo
+# MEIOU-GG - Hundred Year War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRI
+controller = BRI
+add_core = BRI
+culture = breton
+religion = catholic
+capital = "Rennes"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 8000
+trade_goods = fish
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+
+1341.4.30  = {
+	owner = BLO
+	controller = BLO
+	add_core = MNF
+	add_core = BLO
+	remove_core = BRI
+} # Jean III de Bretagne dies in Caen
+1365.4.12   = {
+	owner = BRI
+	controller = BRI
+	add_core = BRI
+	remove_core = BLO
+	remove_core = MNF
+} # End of the Brittany war of succession with the death of Charles de Blois
+1378.1.1   = {
+	controller = FRA
+	add_core = FRA
+} # Charles V invades Brittany without resistance
+1381.4.14  = {
+	controller = BRI
+} # Jean IV de Montfort comes back
+1500.1.1   = { citysize = 12000 }
+1532.8.4   = { owner = FRA controller = FRA } # Union Treaty
+1545.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 16500 }
+1560.1.1   = { religion = reformed }
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 22000 }
+1620.1.1   = { marketplace = yes }
+1625.1.1   = { constable = yes }
+1636.1.1   = { revolt_risk = 3 } # Revolt imminent
+1638.1.1   = { revolt_risk = 0 }
+1639.1.1   = { revolt_risk = 3 } 
+1640.1.1   = { fort3 = yes }
+1641.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 26000 }
+1686.1.17  = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism
+1700.1.1   = { citysize = 30000 customs_house = yes }
+1730.1.1   = { courthouse = yes }
+1750.1.1   = { citysize = 30000 fort4 = yes }
+1770.1.1   = { mint = yes }
+1786.1.1   = { base_tax = 6 } # The Eden Agreement }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 28000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

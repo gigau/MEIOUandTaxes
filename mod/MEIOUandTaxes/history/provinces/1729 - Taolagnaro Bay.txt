@@ -1,0 +1,8 @@
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+
+1498.3.1 = { discovered_by = POR }
+1522.1.1 = { discovered_by = SPA }	#FB - del Cano
+

@@ -1,0 +1,13 @@
+# 2481 - Torngat
+
+1650.1.1   = {
+	discovered_by = FRA
+	owner = FRA
+	controller = FRA		
+	religion = catholic
+	culture = francien
+} # New France is claimed
+1763.2.10  = {
+	owner = GBR
+	controller = GBR
+}

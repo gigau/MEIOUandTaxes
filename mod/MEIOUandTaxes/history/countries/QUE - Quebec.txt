@@ -1,0 +1,17 @@
+#MEIOU-GG Govenemnt changes
+
+government = constitutional_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = -1
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -2
+# quality_quantity = 0
+# serfdom_freesubjects = 3
+# isolationist_expansionist = 1 
+# secularism_theocracy = -3
+religion = catholic
+primary_culture = canadian
+technology_group = western
+capital = 990	# Quebec city

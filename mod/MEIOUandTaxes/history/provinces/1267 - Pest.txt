@@ -1,0 +1,74 @@
+# 1267 - Pest
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN
+culture = hungarian
+religion = catholic
+capital = "Pest"
+
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 7412
+trade_goods = linen
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1  = {
+	add_core = HUN
+}
+1500.1.1  = {
+	citysize = 8765
+}
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1541.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1550.1.1  = {
+	citysize = 8341
+}
+1600.1.1  = {
+	citysize = 9865
+}
+1650.1.1  = {
+	citysize = 10683
+}
+1686.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = RHU
+	remove_core = TUR
+}
+1700.1.1  = {
+	citysize = 10274
+}
+1703.8.1   = {
+	controller = TRA
+} # The town supports Francis II Rákóczi in his rebellion against the Habsburgs
+1711.5.1   = {	controller = HAB } # Ceded to Austria The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+1750.1.1  = {
+	citysize = 12476
+}
+1800.1.1  = {
+	citysize = 13000
+}
+1813.1.1  = {
+	revolt_risk = 3
+} # Croatian national revival (Hrvatski narodni preporod)

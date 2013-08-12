@@ -1,0 +1,99 @@
+# 450 - Qonduz
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KAB
+controller = KAB
+culture = pashtun			#FB was: "pashtun"
+religion = sunni
+capital = "Qonduz"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 4
+manpower = 8
+citysize = 1958
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+terrain2 = yes
+
+1356.1.1 = {
+	add_core = KAB
+	add_core = TIM
+	set_province_flag = terrain2
+}
+1369.1.1  = {
+	owner = TIM
+	controller = TIM
+}
+1447.3.12 = {
+	owner = KHO
+	controller = KHO
+	remove_core = TIM
+} #Death of Shah Rukh, Ulugh Begh inherits and becomes ruler of Khorasan
+1479.1.1  = {
+	owner = KAB
+	controller = KAB
+} #Afghans independent
+1500.1.1  = { citysize = 2534 }
+1504.1.1  = {
+	controller = REB
+	add_core = TIM
+} # Babur
+1504.6.1  = {
+	owner = TIM
+} # Babur
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = TIM
+} # Battle of Panipat
+1550.1.1  = { citysize = 3100 }
+1566.6.1  = { revolt = { }
+	owner = KAB
+	controller = KAB
+}	#Independent of Mughals for a long while
+1585.1.1  = {
+	controller = MUG
+}	# Man Singh occupies Kabulistan after death of Mirza Hakim
+1585.2.1  = {
+	owner = MUG
+} # Annexed into empire again
+1600.1.1  = { citysize = 4874 }
+1650.1.1  = { citysize = 5354 }
+1672.1.1  = {
+	controller = REB
+	revolt = { type = nationalist_rebels }
+} # Widespread tribal uprisings
+1675.1.1  = {
+	controller = MUG
+	revolt = { }
+} # End of uprisings
+1677.1.1  = { discovered_by = FRA }
+1689.1.1 = {
+	controller = REB ##
+} # Uzbeks
+1690.1.1 = {
+	discovered_by = ENG
+	owner = SHY
+	controller = SHY
+} # Uzbeks
+1700.1.1  = { citysize = 6001 }
+1707.5.12 = { discovered_by = GBR }
+1740.1.1  = {
+	controller = PER
+}
+1741.1.1  = {
+	owner = PER
+} # Captured by Persia, Nadir Shah
+1747.10.1 = {
+	owner = DUR
+	controller = DUR
+	add_core = DUR
+	remove_core = MUG
+} # Ahmad Shah established the Durrani empire
+1750.1.1 = { citysize = 6670 }
+1800.1.1 = { citysize = 7100 }
+

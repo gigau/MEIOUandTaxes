@@ -1,0 +1,75 @@
+# 963 - Navasink
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = lenape
+religion = midewiwin
+capital = "Navasink"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1525.1.1 = {
+	discovered_by = FRA
+} # Giovanni da Verrazzano
+1614.1.1   = {
+	discovered_by = NED
+} # Adriaen Block
+1679.1.1   = {
+	owner = ENG
+	controller = ENG
+	capital = "Falls of Delaware"
+	citysize = 200
+	culture = english
+	religion = reformed
+	trade_goods = fur
+	base_tax = 2
+#	manpower = 2
+	manpower = 4
+	set_province_flag = trade_good_set
+	fort1 = yes
+}
+1704.1.1   = {
+	add_core = ENG
+}
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+	citysize = 1000
+}
+1719.1.1   = {
+	citysize = 2000
+	culture = english
+	religion = anglican
+	capital = "Trent-towne"
+}
+1750.1.1   = {
+	add_core = USA
+	culture = american
+	citysize = 5000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 0 }
+	revolt_risk = 9
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies
+#1810 3,002
+#1820 3,942 
+#1830 3,925
+#1840 4,035 

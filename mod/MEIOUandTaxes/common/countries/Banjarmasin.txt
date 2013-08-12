@@ -1,0 +1,70 @@
+#Country Name: Banjarmasin
+#Tag: BKS
+#Banjarmasin is used to represent Banjarmasin + Kotawaringin + Sukadana
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 180  135  90 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Amrullah #0" = 20
+	"Hamidullah #0" = 20
+	"Hidayatullah #0" = 20
+	"Inayatullah #0" = 20
+	"Kusuma Dilaga #0" = 50
+	"Marhum #0" = 20
+	"Muhammad Aminullah #0" = 20
+	"Nata #0" = 20
+	"Panembahan #0" = 50
+	"Pangeran Samudera #0" = 20
+	"Rahmatullah #0" = 20
+	"Ri'ayatullah #0" = 20
+	"Saidullah #0" = 20
+	"Sulaiman #0" = 20
+	"Suryan #0" = 20
+	"Tahmid #0" = 20
+	"Tamjid #0" = 20
+}
+
+leader_names = {
+	Tanjungpuri Negara Dipa Daha Dilaga
+	Aminullah Samudera Tanjungpuri Ketupat Kandangan
+	Ananggavarman Adityawarman Parameswara
+}
+
+ship_names = {
+	"Nan Serunai" Tanjungpuri "Negara Dipa" "Negara Daha"
+	Ketupat Kandangan
+	Ananggavarman Adityawarman Parameswara
+	"Mahmud Badruddin"
+	"Ahmad Najmuddin"
+	Kertabumi Pateudra Tranggana Prawata
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}
+

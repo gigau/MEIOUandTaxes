@@ -1,0 +1,165 @@
+#PLB - Palembang
+#MEIOU-FB Indonesia mod
+#Palembang was the capital of the Srivijaya empire 600-1280
+#It was a centre of Sanskrit culture in the C7th to C12th and 
+#is still a major city today
+#MEIOU-GG Govenemnt changes
+#FB-TO DO Palembang a vassal of Majapahit from c1625 to c1659
+#need rulers from c1420 to 1659.1.1
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = austranesian		#FB was:chinese
+primary_culture = malayan
+religion = theravada
+capital = 622	# Srivijaya
+
+1337.1.1 = {
+	monarch = {
+		name = "Ananggavarman"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1374.1.1 = {
+	monarch = {
+		name = "Adityawarman"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Parameswara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1478.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 2
+	government = despotic_monarchy_3
+	monarch = {
+		name = "Raden Fatah"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Pati Unus"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Pangeran Trenggono"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Pangeran Seda Ing"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1587 - Loyal to Mataram
+
+# 1658.1.1 dutch established on the coast
+
+1662.1.1 = {
+	monarch = {
+		name = "Abdul Rahman"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1706.1.1 = {
+	monarch = {
+		name = "Mahmud Rahman"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}#invented ruler
+
+1724.1.1 = {
+	monarch = {
+		name = "Mahmud Badaruddin"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Ahmad Tajuddin"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}#ruled to 1774
+
+#rulers below this taken from D&I
+1798.1.1 = {
+	monarch = {
+		name = "Mahmud Badruddin bin Muhammad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1812.1.1 = {
+	monarch = {
+		name = "Ahmad Najmuddin bin Muhammad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1813.5.1 = {
+	monarch = {
+		name = "Ahmad Najmuddin II bin Muhammad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1821.1.1 = {
+	set_country_flag = civil_war
+	monarch = {
+		name = "Mahmud Badruddin II bin Muhammad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

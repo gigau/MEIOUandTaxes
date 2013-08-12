@@ -1,0 +1,65 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 120  190  60 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+monarch_names = {
+	"Jaya #1" = 10
+	"Paramaswara #1" = 10
+	"Sri #1" = 10
+	"Ibrahim #1" = 10
+	"Khoja #1" = 10
+	"Jamal #1" = 10
+	"Mudari #1" = 10
+	"Mara #1" = 10
+	"Aladdin #1" = 10
+	"Sulaiman #1" = 10
+	"Hassan #1" = 10
+	"'Abdu'l Jalil #1" = 10
+	"Mahmud 'Abd'ul Jalil #1" = 10
+	"Ismail 'Abd'ul Jalil #1" = 10
+	"Yahya 'Abd'ul Jalil #1" = 10
+	"'Ali 'Abd'ul Jalil #1" = 10
+	"Ibrahim 'Abd'ul Jalil #1" = 10
+	"Ismail 'Abd'ul Jalil #0" = 10
+	"Hashim 'Abd'ul Jalil #0" = 10
+	"Sayyid #0" = 10
+	"Tengku #0" = 10
+	"Kasim #0 'Abd'ul Jalil" = 10
+}
+
+leader_names = {
+	Iskander
+	Ahmad
+	Muhammad
+	Rahmad
+	"ud-Din Muzzafar"
+	ud-Din
+	"ud-Din Ri'ayat"
+	Mu'azzam
+	Muzzafar
+	"Saif ud-Din"
+	"Khalil ud-Din"
+	"Saif ul-'Alam"
+	"'Ali"
+	Besar
+}
+
+ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}

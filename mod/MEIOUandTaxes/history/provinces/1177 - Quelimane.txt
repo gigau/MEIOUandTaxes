@@ -1,0 +1,32 @@
+# 1177 - Quelimane
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = QLM
+controller = QLM
+add_core = KIL
+add_core = QLM
+culture = kimwani
+religion = sunni
+capital = "Quelimane"
+hre = no
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = slaves
+
+discovered_by = ZIM
+discovered_by = KIT
+discovered_by = ZAN
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+
+1498.3.16 = { discovered_by = POR } #Vasco Da Gama
+1500.1.1  = { citysize = 5000 }
+1600.1.1  = { citysize = 6000 discovered_by = TUR }
+1700.1.1  = { citysize = 7000 }
+1730.1.1  = { owner = POR controller = POR add_core = POR }
+1763.1.1  = { revolt_risk = 7 }
+1800.1.1  = { citysize = 6500 }

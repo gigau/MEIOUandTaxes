@@ -1,0 +1,72 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 50 146  1 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi 
+	Batuta 
+	Chairul 
+	Hamzah Hasanuddin 
+	Ibnu 
+	Kyai 
+	Mahat Mukhtar 
+	Najamuddin Natzar Nazmizan 
+	Roem 
+	Syarifuddin 
+	Zulkifli 
+}
+
+monarch_names = {
+	"Muzzafar #3" = 30
+	"Mansur #2" = 20
+	"Ahmad Tajuddin #1" = 10
+	"Tajul Ariffin #1" = 10
+	"Aladdin #1" = 10
+	"Mukaddam #1" = 10
+	"Mahmud #1" = 10
+	"Mahmud Iskandar #1" = 10
+	"Aladdin Mughayat #1" = 10
+	"Muhammad #1" = 10
+	"Iskandar Dzulkarnain #1" = 10
+	"Aladdin Mansur #1" = 10
+	"Ahmaddin #1" = 10
+	"Abdul Malik Mansur #1" = 10
+	"Abdullah Muazzam #1" = 10
+	"Shahabudin Riayat #0" = 10
+	"Abdallah Muhammad #0" = 20
+	"Jaafar Muazzam #0" = 10
+	"Ali al-Mukammal Inayat #0" = 10
+	"Ismail Muabiddin Riayat #0" = 10
+	"Yusuf Sharifuddin Muzaffar #0" = 10
+	"Idris #0 Murshid al-Azzam" = 20
+	"Abdul Jalil Nasruddin Makhtaram #0" = 10
+	"Iskander #0" = 10
+	"Abdul Aziz Almustasin Billah #0" = 10
+	"Yussuf Izuddin #0" = 10
+	"Azlah Muhibbudin #0" = 10
+}
+
+
+ship_names = {
+	"Sultan Iskandar" Bendahara Laksamana
+	Temenggung "Penghulu bendahari" Shahbandar
+	"Hukum Kanun" "Undang-Undang" "Pulau Bakung"
+	"Pulau Lingga" Kepulauan "Pulau Singkep" "Kepulauan Riau"
+	"Pulau Rempang" "Pulau Kundur" "Pulau Padang"
+	"Pulau Bengkaus" "Pulau Tinggi" "Pulau Sibu"
+	"Pulau Tioman" "Pulau Aur" "Pulau Rupat"
+	"Pulau Rangsang" "Pulau Tebing Tinggi"
+}

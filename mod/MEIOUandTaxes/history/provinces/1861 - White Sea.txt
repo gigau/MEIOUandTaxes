@@ -1,0 +1,7 @@
+# 1861 - White Sea
+
+discovered_by = NOV
+
+1581.1.1 = {
+	discovered_by = RUS 
+}

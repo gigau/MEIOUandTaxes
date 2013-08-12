@@ -1,0 +1,30 @@
+#Province: Manipur
+#file name: 569 - Manipur
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MLB
+controller = MLB
+culture = assamese
+religion = sarna_dharam
+capital = "Imphal"
+trade_goods = rice
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 8320
+fort1 = yes
+add_core = MLB
+discovered_by = indian
+discovered_by = chinese
+
+1356.1.1   = { set_province_flag = terrain1 }
+1400.1.1 = { citysize = 9440 }
+1500.1.1 = { citysize = 11640 temple = yes }
+1550.1.1 = { citysize = 13135 }
+1600.1.1 = { citysize = 14867 }
+1650.1.1 = { citysize = 16407 discovered_by = steppestech }
+1700.1.1 = { citysize = 18450 workshop = yes }
+1750.1.1 = { citysize = 20890 }
+1800.1.1 = { citysize = 23600 }

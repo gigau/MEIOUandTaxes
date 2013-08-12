@@ -1,0 +1,11 @@
+#SEA
+#Province: Irrawady Delta
+#file name: 1939 - Irrawady Delta
+#MEIOU-FB India 1337+ mod Aug 08
+
+discovered_by = indian
+discovered_by = chinese
+discovered_by = muslim
+
+1509.1.1 = { discovered_by = POR }
+

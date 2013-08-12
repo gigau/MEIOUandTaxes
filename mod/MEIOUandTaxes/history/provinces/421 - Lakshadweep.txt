@@ -1,0 +1,25 @@
+# 421 - Lakshadwwep
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = malayalam
+religion = sunni
+capital = "Lakshadweep"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+discovered_by = indian
+
+1498.5.15 = { discovered_by = POR }		#FB was 1498.1.1
+
+1787.1.1 = {
+	owner = MYS
+	controller = MYS
+	trade_goods = fish
+	set_province_flag = trade_good_set
+}
+1789.1.1 = {
+	owner = GBR
+	controller = GBR
+} # The British took over the administration of the islands for non-payment of arrears.

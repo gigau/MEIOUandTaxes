@@ -1,0 +1,36 @@
+#Province: Pontianak
+#file name: 629 - Pontianak
+# MEIOU-FB Indonesia mod
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#FB-TODO make PTN a vassal of NED from 1705
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PTN
+controller = PTN
+culture = malayan
+religion = theravada
+capital = "Pontianak"
+trade_goods = rice			#FB too much clove
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 5800
+add_core = PTN
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 6270 }
+1500.1.1 = { citysize = 6750 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 7100 religion = sunni }
+1606.1.1 = { discovered_by = NED citysize = 7970 }
+1650.1.1 = { citysize = 8560 }
+1700.1.1 = { citysize = 9200 }
+#1705.1.1 = { owner = NED controller = NED }
+#1730.1.1 = { add_core = NED }
+1750.1.1 = { citysize = 10348 }
+#1771 sultanate of Pontianak established?
+1800.1.1 = { citysize = 11800 }

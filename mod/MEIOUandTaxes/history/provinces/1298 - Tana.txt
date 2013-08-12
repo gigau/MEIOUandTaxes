@@ -1,0 +1,64 @@
+# 1298 - Tana
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GEN
+controller = GEN  
+culture = crimean
+religion = sunni
+capital = "Tana"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 2757
+trade_goods = naval_supplies
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1  = {
+	add_core = GEN
+}
+1471.1.1  = {
+	fort2 = yes
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # End of prosperity, seized by the Turks, fortress established
+1500.1.1  = { citysize = 3243 marketplace = yes }
+1550.1.1  = { citysize = 3816 }
+1600.1.1  = { citysize = 4489 }
+1637.1.1  = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+#	add_core = UKR
+	remove_core = TUR
+#	culture = ukrainian	
+} # Held by the Don Cossacks and the Zaporozhian Cossacks
+1642.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = ZAZ
+} # Decides to surrender to avoid war
+1650.1.1  = { citysize = 5281 }
+1696.1.1  = { add_core = RUS } # Peter the Great managed to recover the fortress, "Azov campaigns" 
+1700.1.1  = { citysize = 6214 }
+1711.1.1  = { remove_core = RUS } # Disastrous "Pruth Campaign", fortress handed back to the Turks
+1750.1.1  = { citysize = 7310 }
+1770.1.1  = { controller = RUS } # Taken by the army during the Russo-Turkish War
+1774.7.21 = {
+	owner = RUS
+	add_core = RUS
+	remove_core = TUR
+} # Treaty of Kuchuk-Kainarji
+1800.1.1  = { citysize = 8600 }

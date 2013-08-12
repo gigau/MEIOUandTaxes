@@ -1,0 +1,56 @@
+# 1588 - Gauda
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BNG
+controller = BNG
+culture = bengali
+religion = hinduism
+capital = "Gaur"
+trade_goods = tea
+hre = no
+base_tax = 8
+#manpower = 6
+manpower = 12
+citysize = 150000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1 = {
+	add_core = BNG
+}
+1450.1.1 = { citysize = 170000 }
+1500.1.1 = { citysize = 200000 }
+1538.6.1 = {
+	controller = MUG
+} # Mughal Invasion
+1539.1.1 = {
+	controller = BNG
+} # Surs again in control
+1540.1.1 = {
+	religion = sunni
+	base_tax = 10
+} #Land reclamation
+1550.1.1 = { citysize = 60000 }
+1587.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Integrated into Mughal Empire
+1600.1.1 = { citysize = 100000 }
+1627.1.1 = { discovered_by = POR }
+1650.1.1 = { citysize = 85000 }
+1700.1.1 = { citysize = 100000 }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+	capital = "Murshidabad"
+}
+1750.1.1 = { citysize = 200000 }
+1765.1.1 = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # Given to GBR by Mughal Empire (was formerly british puppet)
+1800.1.1 = { citysize = 185000 }

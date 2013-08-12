@@ -1,0 +1,30 @@
+# 1552 - Tunkuru
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = IGB
+controller = IGB
+culture = igbo		
+religion = sunni		 
+capital = "Tunkuru"
+
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 20000
+trade_goods = cotton
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = IGB
+}
+1807.1.1   = {
+	owner = SOK
+	controller = SOK
+	add_core = SOK
+}

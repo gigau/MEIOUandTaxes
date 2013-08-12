@@ -1,0 +1,207 @@
+# OUC - Ouchi clan
+# LS/GG - Japanese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1027	# Nagato
+daimyo = yes
+
+1356.1.1 = {
+	monarch = {
+		name = "Yoshihiro" 
+		dynasty = "Ouchi"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1394.3.23 = {
+	heir = {
+		name = "Mochiyo"
+		monarch_name = "Mochiyo"
+		dynasty = "Ouchi"
+		birth_date = 1394.3.23
+		death_date = 1441.8.14
+		claim = 70
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1400.1.7 = { 
+	monarch = {
+		name = "Hiroshige"
+		dynasty = "Ouchi"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	# innovative_narrowminded = 3
+}
+	
+1401.1.1 = { 
+	monarch = {
+		name = "Morimi"
+		dynasty = "Ouchi"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+	
+1431.1.1 = { 
+	monarch = {
+		name = "Mochiyo"
+		dynasty = "Ouchi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Norihiro"
+		monarch_name = "Norihiro"
+		dynasty = "Ouchi"
+		birth_date = 1420.3.20
+		death_date = 1465.9.3
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1441.1.1 = { 
+	monarch = {
+		name = "Norihiro"
+		dynasty = "Ouchi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+1446.8.27 = {
+	heir = {
+		name = "Masahiro"
+		monarch_name = "Masahiro"
+		dynasty = "Ouchi"
+		birth_date = 1446.9.18
+		death_date = 1495.10.6
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+	
+1465.9.3 = { 
+	monarch = {
+		name = "Masahiro"
+		dynasty = "Ouchi"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+	
+1477.4.7 = {
+	heir = {
+		name = "Yoshioki"
+		monarch_name = "Yoshioki"
+		dynasty = "Ouchi"
+		birth_date = 1477.4.7
+		death_date = 1529.1.29
+		claim = 90
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1495.10.6 = { 
+	monarch = {
+		name = "Yoshioki"
+		dynasty = "Ouchi"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1507.12.18 = {
+	heir = {
+		name = "Yoshitaka"
+		monarch_name = "Yoshitaka"
+		dynasty = "Ouchi"
+		birth_date = 1507.12.18
+		death_date = 1551.9.30
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1529.1.29 = { 
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Ouchi"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1544.1.1 = {
+	heir = {
+		name = "Yoshinaga"
+		monarch_name = "Yoshinaga"
+		dynasty = "Ouchi"
+		birth_date = 1532.1.1
+		death_date = 1557.5.1
+		claim = 70
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1545.1.1 = {
+	heir = {
+		name = "Yoshitaka"
+		monarch_name = "Yoshitaka"
+		dynasty = "Ouchi"
+		birth_date = 1545.1.1
+		death_date = 1551.10.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1551.10.1 = { 
+	monarch = {
+		name = "Yoshinaga"
+		dynasty = "Ouchi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

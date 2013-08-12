@@ -1,0 +1,43 @@
+# 2151 - Oahu
+# MEIOU-GG
+# Anarchovampire - corrections
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HAW 
+controller = HAW 
+culture = hawaian
+religion = austranasian
+capital = "Honolulu" 
+trade_goods = sugar 
+hre = no 
+base_tax = 5 
+#manpower = 2 
+manpower = 4 
+citysize = 5000
+add_core = HAW 
+discovered_by = hawaii_tech
+
+1555.1.1 = {
+	discovered_by = SPA
+}
+1778.1.1 = {
+	discovered_by = GBR
+}
+1795.1.1 = {
+	controller = REB
+#	discovered_by = KOH
+#	add_core = KOH
+}
+1810.1.1 = {
+	controller = HAW
+#	controller = KOH
+#	remove_core = HAW #Kaua'i joins Kingdom
+#	owner = KOH
+}
+1820.1.1 = {
+	religion = protestant
+}
+1898.1.1  = {
+	owner = USA
+	controller = USA
+}

@@ -1,0 +1,20 @@
+# 1147 - Kufra
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = toubous
+religion = sunni
+capital = "Kufra"
+
+base_tax = 0
+#manpower = 0
+manpower = 0
+trade_goods = crops
+
+native_size = 20
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = soudantech
+discovered_by = muslim
+
+hre = no

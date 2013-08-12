@@ -1,0 +1,15 @@
+#Province: Gulf of Zambeze
+#file name: 2034 - Gulf of Zambeze
+#FB - Vasco Da Gama came this way in March 1498
+
+discovered_by = ZAN
+discovered_by = MNG
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+
+1498.3.1 = { discovered_by = POR } #Vasco Da Gama

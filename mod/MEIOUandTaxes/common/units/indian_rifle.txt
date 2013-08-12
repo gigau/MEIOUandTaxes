@@ -1,0 +1,28 @@
+# Indian Rifle
+#Modified for MEIOU by FB 10.02.07
+#tech level 58 c1830
+
+unit_type = indian
+type = infantry
+
+maneuver = 1
+#offensive_morale = 7
+#defensive_morale = 5
+#offensive_fire = 6
+#defensive_fire = 3
+#offensive_shock = 5
+#defensive_shock = 3
+#FB
+#offensive_morale = 11
+#defensive_morale = 11
+#offensive_fire = 9
+#defensive_fire = 9
+#offensive_shock = 8
+#defensive_shock = 8
+#Blxz
+offensive_morale = 11
+defensive_morale = 11
+offensive_fire = 11
+defensive_fire = 10
+offensive_shock = 8
+defensive_shock = 8

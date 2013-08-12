@@ -1,0 +1,48 @@
+# 1184 - Urungwe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+native_size = 10
+native_ferocity = 1
+native_hostileness = 1
+culture = shona
+religion = animism
+capital = "Urungwe"
+manpower = 2
+trade_goods = crops # copper
+hre = no
+base_tax = 4
+discovered_by = ZIM
+
+
+1430.1.1 = {
+	owner = ZIM
+	controller = ZIM
+	add_core = ZIM
+	citysize = 2000
+	trade_goods = copper
+}
+1493.1.1 = { revolt_risk = 8 } #civil war between Mucombo and Toloa
+1495.1.1 = { revolt_risk = 2 } #Toloa wins civil war, Mucombo moves Mutapa center northward
+1506.1.1 = { revolt_risk = 7 } #Changamire clans attempt to establish new base in region, gains Torwa support
+1512.1.1 = { revolt_risk = 0 } #Changamire finally defeated by Mutapa, Torwa become Mutapa vassals
+#1629.1.1 = Mavura signs treaty with Portuguese - makes ZIM a POR vassal
+1683.1.1 = { revolt_risk = 7 } #Changamire clans launch war to replace Torwa dominance in region
+1688.1.1 = { revolt_risk = 0 } #Changamire establish themselves as Rozvi
+1691.1.1 = { revolt_risk = 5 } #Torwa try to overthrow the Rozvi
+1692.1.1 = { revolt_risk = 0 } #Changamire destroy Torwa
+1697.1.1 = { revolt_risk = 5 } #Succession conflict in wake of death of Dombo Chikura
+1698.1.1 = { revolt_risk = 0 } #Succession war won by Nechasike
+1760.1.1 = {			
+	citysize = 0
+	owner = XXX
+	controller = XXX
+	native_size = 4000
+	native_ferocity = 3
+	native_hostileness = 4 
+	culture = shona
+	religion = animism
+	revolt_risk = 0
+	trade_goods = ivory
+	base_tax = 1
+	manpower = 1
+}

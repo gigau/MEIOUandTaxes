@@ -1,0 +1,77 @@
+#2365 - Auxerrois
+#Cities : Auxerre , Tonnere
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUR
+controller = BUR 
+culture = burgundian
+religion = catholic
+capital = "Auxerre"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = wine
+
+
+fort1 = yes
+workshop = yes
+temple = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1   = {
+	add_core = BUR
+	add_core = FRA
+}
+1477.1.5   = { owner = FRA controller = FRA add_core = HAB} # Charles the Bold dies and transfers Bourgogne to France
+1500.1.1   = { citysize = 18000 }
+1525.1.1   = { fort2 = yes }
+1526.1.14  = { add_core = HAB } # Treaty of Madrid, Austria claims Burgundy, but François I refuses to hand it over subsequently
+1529.8.3   = { remove_core = HAB } # Peace of Cambrai (Ladies' Peace): Charles V renounces his claims on Bourgogne
+1550.1.1   = { citysize = 21000 constable = yes }
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 24000 }
+1605.1.1   = { customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1630.1.1   = { fort3 = yes revolt_risk = 3 }
+1632.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 28000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1685.1.1   = { fort4 = yes }
+1690.1.1   = { mint = yes }
+1700.1.1   = { citysize = 31000 }
+1750.1.1   = { citysize = 32000 fort5 = yes }
+1773.1.1   = { base_tax = 11 } # Turgot & the Economical Reforms
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 33000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored
+

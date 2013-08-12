@@ -1,0 +1,55 @@
+# 1532 - Agadir
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FEZ
+controller = FEZ
+culture = berber
+religion = sunni
+capital = "Agadir"
+
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 1400
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = CNA
+discovered_by = TUA
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	add_core = FEZ
+	add_core = MOR
+}
+1500.1.1  = { citysize = 1780 }
+1505.1.1  = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	capital = "Santa Cruz do Cabo de Gué"
+	trade_goods = slaves
+}
+1524.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = POR
+	remove_core = FEZ
+	capital = "Agadir el-arba"
+	trade_goods = millet
+}
+1550.1.1  = { citysize = 2400 }
+1572.1.1  = {
+	fort2 = yes
+}
+1600.1.1  = { citysize = 3020 }
+1650.1.1  = { citysize = 3500 }
+1700.1.1  = { citysize = 3900 }
+1750.1.1  = { citysize = 4200 }
+1800.1.1  = { citysize = 4670 }

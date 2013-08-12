@@ -1,0 +1,68 @@
+# 861 - Coachichitl
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = nahuatl
+religion = teotl
+capital = "Coachichitl"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 4
+native_hostileness = 7
+discovered_by = new_world
+
+1356.1.1   = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	citysize = 2000
+	set_province_flag = trade_good_set
+	trade_goods = maize
+	fort1 = yes
+}
+1540.1.1   = {
+	discovered_by = SPA
+} # Francisco Vázquez de Coronado y Luján
+1577.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "Saltillo"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+}
+1602.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 10000
+}
+1800.1.1   = {
+	citysize = 20000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+1832.10.1  = {
+	revolt_risk = 3
+} # Convention of 1832
+1833.4.1   = {
+	revolt_risk = 6
+} # Convention of 1833

@@ -1,0 +1,22 @@
+# 1129 - Abomey
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DAH
+controller = DAH
+culture = yorumba
+religion = animism
+capital = "Abomey"
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 25000
+trade_goods = slaves
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = DAH
+}

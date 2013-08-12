@@ -1,0 +1,46 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = LIT
+controller = LIT        
+culture = lithuanian
+religion = orthodox 
+hre = no
+base_tax = 6
+trade_goods = wheat
+#manpower = 3
+manpower = 6
+capital = "Vicebsk"
+citysize = 9201
+fort1 = yes
+add_core = LIT
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = PLT
+}
+1500.1.1  = { citysize = 10824 }
+1550.1.1  = { citysize = 12734 }
+1567.1.1  = { fort2 = yes }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+}
+1600.1.1  = { citysize = 14982 }
+1650.1.1  = { citysize = 17625 }
+1700.1.1  = { citysize = 20736 }
+1750.1.1  = { citysize = 24395 }
+1772.8.5  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = LIT
+	remove_core = PLC
+	culture = byelorussian
+} # First partition of Poland
+1779.1.1  = { fort3 = yes } # Almost entirely rebuilt.
+1780.1.1  = { marketplace = yes } # Became a large trade center.
+1800.1.1  = { citysize = 28700 }
+1812.8.17 = { controller = RFR }
+1812.11.9 = { controller = RUS }

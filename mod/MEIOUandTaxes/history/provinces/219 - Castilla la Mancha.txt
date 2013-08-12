@@ -1,0 +1,40 @@
+owner = CAS		#Juan II of Castille
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = CAS
+add_core = CAS
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 7
+trade_goods = gold 
+#manpower = 4
+manpower = 8
+fort1 = yes
+capital = "Ciudad Real" 
+citysize = 30000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	set_province_flag = spanish_name
+}
+1464.5.1  = { revolt_risk = 3 } #Nobiliary uprising against King Enrique, Castilla goes into anarchy
+1468.9.18 = { revolt_risk = 0 } #Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved
+1470.1.1  = { revolt_risk = 3 } #Isabel marries with Fernando of Aragon, breaking the Pacts of Guisando. King Enrique choses his daughter Juana ("La Beltraneja") as new heiress and a succession War erupts.
+1479.9.4  = { revolt_risk = 0 } #Peace of Alcaçovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
+1500.1.1  = { citysize = 28700 }
+1516.1.23 = {	controller = SPA
+		owner = SPA
+		add_core = SPA
+	    } # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
+1520.5.1  = { revolt_risk = 5 } # War of the Comunidades
+1522.2.3  = { revolt_risk = 0 } # After the defeat of the comuneros at Villalar, Toledo was still able to resist for 9 months.
+1550.1.1  = { citysize = 30000 }
+1600.1.1  = { citysize = 50000 constable = yes }
+1650.1.1  = { citysize = 20000 }
+1700.1.1  = { citysize = 20000 }
+1713.4.11 = { remove_core = CAS }
+1750.1.1  = { citysize = 22840 }
+1800.1.1  = { citysize = 25000 }

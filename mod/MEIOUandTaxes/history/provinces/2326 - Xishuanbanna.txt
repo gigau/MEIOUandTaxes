@@ -1,0 +1,60 @@
+# 2326 - Lancang
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLI
+controller = DLI
+add_core = DLI
+culture = baizu
+religion = mahayana
+capital = "Jinghong"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = tea
+
+fort1 = yes
+terrain2 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = steppestech
+
+
+hre = no
+
+1253.1.1 = { owner = YUA controller = YUA }
+1274.1.1 = { add_core = YUA } 			#creation of yunan province
+1350.1.1 = { owner = DLI controller = DLI }
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1382.1.1 = { owner = MNG controller = MNG
+	     add_core = MNG remove_core = YUA }
+1400.1.1 = { citysize = 10000 }
+1450.1.1 = { citysize = 10000 }
+1500.1.1 = { citysize = 10000 }
+1550.1.1 = { citysize = 10000 }
+1600.1.1 = { citysize = 10000 }
+1650.1.1 = { citysize = 10000 }
+#1662.1.1 = { owner = QNG controller = QNG
+#	     add_core = QNG remove_core = MNG } # The Qing Dynasty
+1662.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	remove_core = MNG
+}# Wu Sangui appointed as viceroy
+1673.11.1 = {
+	add_core = QNG
+} # Wu Sangui revolt, core given to Qing for reconquering
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 15000 }
+1750.1.1 = { citysize = 15000 }
+1800.1.1 = { citysize = 15000 }

@@ -1,0 +1,63 @@
+# 79 - Kassel
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HES
+controller = HES
+capital = "Kassel"
+trade_goods = wool
+fort1 = yes
+culture = hessian
+religion = catholic
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 5000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 5500 add_core = HES }
+1399.1.1   = { citysize = 6000 }
+1453.1.1   = { citysize = 6500 }
+1500.1.1   = { fort2 = yes citysize = 7000 }
+1527.1.1   = { marketplace = yes } # # Philipp der Grossmütige
+1536.1.1   = { religion = protestant }
+1547.1.1   = { fort2 = no } # Kassel's fortifications destroyed by catholics
+1550.1.1   = { citysize = 9000 }
+1567.3.31  = {
+	owner = HKA
+	controller = HKA
+	add_core = HKA
+	remove_core = HES
+}
+1620.1.1   = { regimental_camp = yes constable = yes fort2 = yes }
+#1685.1.1   = { citysize = 14000 customs_house = yes manpower = 2} # Reformed refugees find shelter in Kassel (-> Oberneustadt founded)
+1685.1.1   = { citysize = 14000 customs_house = yes manpower = 4} # Reformed refugees find shelter in Kassel (-> Oberneustadt founded)
+1730.3.23  = { courthouse = yes } # Friedrich I is nominally King in Sweden, even thogh he has little power there.
+1751.4.5   = { citysize = 16000}
+1803.2.25 = {
+	owner = HES
+	controller = HES
+	add_core = HES
+	remove_core = HKA
+}
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {
+	owner = WES
+	controller = WES
+	add_core = WES
+	fort3 = yes
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.9.1   = { controller = RUS } # Occupied by Russian troops
+1813.10.14 = {
+	owner = HES
+	controller = HES
+	remove_core = WES
+} # Westfalia is dissolved after the Battle of Leipsig
+1866.1.1  = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = HES 
+}

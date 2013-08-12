@@ -1,0 +1,61 @@
+# 2660 - Dar Ja'al
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MKU
+controller = MKU 
+culture = nubian 
+religion = oriental
+capital = "Al Damar"
+#manpower = 1
+manpower = 2
+trade_goods = wool
+hre = no
+base_tax = 2
+citysize = 1200
+
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = ADA
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = MKU
+}
+1450.1.1 = { citysize = 2800 }
+1500.1.1 = { citysize = 3000 }
+1510.1.1 = {
+	discovered_by = SEN
+	owner = SEN
+	controller = SEN
+	add_core = SEN
+} # Funj replace Mamluks in control of Suakin
+1516.1.1 = {
+	add_core = TUR
+} # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1524.1.1 = {
+	owner = TUR
+	controller = TUR
+}
+1550.1.1 = { citysize = 3300 }
+1571.1.1 = { revolt_risk = 8 } # Local Beja revolt against Ottoman governors
+1572.1.1 = { revolt_risk = 0 } # Ottomans crush Beja revolt
+1600.1.1 = { citysize = 4000 }
+1650.1.1 = { citysize = 4500 }
+1700.1.1 = { citysize = 5000 }
+1750.1.1 = { citysize = 5000 }
+1800.1.1 = { citysize = 5500 }
+1802.5.13  = {
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

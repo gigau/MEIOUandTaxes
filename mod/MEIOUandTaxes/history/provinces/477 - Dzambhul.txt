@@ -1,0 +1,59 @@
+# 477 - Dzhambul
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = uzbehk
+religion = sunni
+hre = no
+base_tax = 2 
+trade_goods = salt
+#manpower = 2
+manpower = 4
+capital = "Dzhambul"
+citysize = 2000
+
+discovered_by = KSH
+discovered_by = muslim
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = TIM
+	add_core = CHG
+	revolt_risk = 3
+}
+1500.1.1  = {
+	citysize = 1834
+}
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1  = {
+	citysize = 2340
+}
+1600.1.1  = {
+	citysize = 3210
+}
+1650.1.1  = {
+	citysize = 3867
+}
+1700.1.1  = {
+	citysize = 4280
+}
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+} # Independent principality established by Shaybanid Shahrukh
+1750.1.1  = {
+	citysize = 5270
+}
+1800.1.1  = {
+	citysize = 5848
+}

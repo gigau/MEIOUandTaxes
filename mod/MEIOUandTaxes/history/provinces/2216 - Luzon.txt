@@ -1,0 +1,50 @@
+# 2216 - Luzon
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = lussong
+religion = austranasian
+capital = "Tondo"
+trade_goods = crops
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+native_size = 50
+native_ferocity = 1
+native_hostileness = 3
+discovered_by = chinese
+discovered_by = austranesian
+
+1355.1.1 = {
+	owner = LUS
+	controller = LUS
+	add_core = LUS
+	citysize = 20000
+	trade_goods = clove
+	cot = yes
+#	manpower = 3
+	manpower = 6
+	base_tax = 3
+	set_province_flag = trade_good_set
+}
+1500.1.1 = {
+	capital = "Maynila"
+	owner = MNL
+	controller = MNL
+	add_core = MNL
+}
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
+1575.1.1 = {
+	owner = SPA
+	controller = SPA
+	culture = castillian
+	religion = catholic
+	citysize = 150
+	cot = no
+}
+1595.1.1 = { add_core = SPA }
+1600.1.1 = { citysize = 700 }
+1650.1.1 = { citysize = 1254 }
+1700.1.1 = { citysize = 2800 }
+1750.1.1 = { citysize = 4050 }
+1800.1.1 = { citysize = 6800 }

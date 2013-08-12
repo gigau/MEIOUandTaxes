@@ -1,0 +1,24 @@
+# 2789 - Kwararafa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JUK
+controller = JUK
+culture = igbo		
+religion = sunni		 
+capital = "Kwararafa"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 15000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = JUK
+}

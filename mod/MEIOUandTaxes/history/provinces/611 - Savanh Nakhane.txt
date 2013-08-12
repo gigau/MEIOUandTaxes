@@ -1,0 +1,37 @@
+# 611- Savanh Nakhane
+# LS - Indochina set up
+# TM-Smiles indochina-mod for meiou 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = laotian
+religion = theravada
+capital = "Savanh Nakhane"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 11000
+trade_goods = rice
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1829.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	revolt_risk = 0
+} # Annexed by Siam
+1893.1.1 = {
+	owner = FRA
+	controller = FRA
+    	revolt_risk = 0
+}
+ 

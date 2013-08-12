@@ -1,0 +1,57 @@
+#Country Name: Atjeh
+#Tag: ATJ
+#MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = { 88  137  172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	indian_shock_cavalry
+	rajput_musketeer
+	south_indian_musketeer
+	reformed_mughal_musketeer
+	tipu_sultan_rocket
+	indian_rifle
+}
+
+monarch_names = {
+	"Inayat #0" = 20
+	"'Alî Mugâyat #0" = 20
+	"Iskandar Tanî #0" = 20
+	"Husayn 'Alî Ri'âyat #0" = 20
+	"Menradza #0" = 20
+	"Tsalenggathu #0" = 20
+	"Gadzabadi #0" = 20
+	"Tsau-Lha #0" = 20
+	"Mengtsekya #0" = 20
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi
+	Batuta
+	Chairul
+	Hamzah Hasanuddin
+	Ibnu
+	Kyai
+	Mahat Mukhtar
+	Najamuddin Natzar Nazmizan
+	Roem
+	Syarifuddin
+	Zulkifli
+}
+
+ship_names = {
+	Siak Samandara
+	"Malik ul Salih" "Malik Al-Salih"
+	Teunom Peusangen Jamboaye Alas Tripa "Simpang-kiri"
+	"Peg Serbeulangit" "Peg Pusat" "Gunung Peuetsagoe"
+	"Pulau we" "Pulau Breueh"
+}

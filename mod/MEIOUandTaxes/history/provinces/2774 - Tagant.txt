@@ -1,0 +1,19 @@
+# 2774 - Tagant
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = tuareg
+religion = sunni
+capital = "Tagant"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+trade_goods = crops # slaves
+hre = no
+
+native_size = 50
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = soudantech
+discovered_by = muslim

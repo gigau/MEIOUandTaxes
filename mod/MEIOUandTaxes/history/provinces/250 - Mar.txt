@@ -1,0 +1,35 @@
+#250 - Fife
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SCO
+controller = SCO
+culture = lowland_scottish #?
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = wheat
+#manpower = 1
+manpower = 2
+capital = "Aberdeen"
+citysize = 5000
+add_core = SCO
+fort1 = yes
+terrain1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1   = { set_province_flag = terrain1 }
+1560.8.1  = { religion = reformed }
+1600.1.1  = { citysize = 7000 marketplace = yes fort2 = yes } #marketplace Estimated
+1644.9.1  = { controller = REB }
+1645.9.13 = { controller = SCO } #Battle of Philiphaugh
+1651.8.2  = { controller = ENG }
+1652.4.21 = { controller = SCO } #Union of Scotland and the COmmonwealth
+1700.1.1  = { citysize = 9000 }
+1707.5.12 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	    }
+1750.1.1  = { citysize = 12000 }
+1800.1.1  = { citysize = 26000 }

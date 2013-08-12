@@ -1,0 +1,107 @@
+# UKI - Ukita clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1030	# Mimasaka
+daimyo = yes
+
+1440.1.1 = {
+	monarch = {
+		name = "Muneie"
+		dynasty = "Ukita"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Hisaie"
+		dynasty = "Ukita"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Yoshiie"
+		dynasty = "Ukita"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1534.1.1 = {
+	monarch = {
+		name = "Okiie"
+		dynasty = "Ukita"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1536.1.1 = { 
+	monarch = {
+		name = "Naoie"
+		dynasty = "Ukita"
+		adm = 6
+		dip = 7
+		mil = 6
+		}
+	}
+	
+1572.1.1 = {
+	heir = {
+		name = "Hideie"
+		monarch_name = "Hideie"
+		dynasty = "Ukita"
+		birth_date = 1572.1.1
+		death_date = 1655.12.7
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+	
+1582.2.1 = { 
+	monarch = {
+		name = "Hideie"
+		dynasty = "Ukita"
+		adm = 5
+		dip = 4
+		mil = 6		
+		}
+	}
+
+1591.1.1 = {
+	heir = {
+		name = "Hidetaka"
+		monarch_name = "Hidetaka"
+		dynasty = "Ukita"
+		birth_date = 1591.1.1
+		death_date = 1648.10.4
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

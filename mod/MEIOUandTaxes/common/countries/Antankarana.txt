@@ -1,0 +1,62 @@
+#Country Name: Antankarana
+#Tag: ANT
+#MEIOU-FB - African/Sudan tech group split Nov 08
+
+graphical_culture = chinesegfx
+
+color = { 200 100 50 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	african_spearmen
+	african_hill_warfare
+	bantu_tribal_warfare
+	bantu_plains_warfare
+	bantu_gunpowder_warfare
+	african_western_franchise_warfare
+	westernized_bantu
+	zulu_chest_and_horns
+}
+
+monarch_names = {
+	"Andriamandisoarivo #0" = 10
+	"Andriamahatindriarivo #0" = 10
+	"Andrianahilitsy #0" = 10
+	"Andrianiveniarivo #0" = 10
+	"Andrianihoatra #0" = 10
+	"Andrianikeniarivo #0" = 10
+	"Andrianaginarivo #0" = 10
+	"Tombola #0" = 10
+	"Ravahiny #0" = 10
+	"Tsimalomo #0" = 10
+	"Maka #0" = 10
+	"Andriantsoly #0" = 10
+	"Oantitsy #0" = 10
+	"Tsiomeko #0" = 10
+	"Andriandahifotsy #0" = 10
+	"Ramitraho #0" = 10
+	"Ranavalona #0" = 10
+	"Radama #0" = 10
+}
+
+leader_names = {
+	Addy
+	Afrifa
+	Sadami
+	Sabah
+	Zakari
+	Offei
+	Donkor
+	Akoto
+	Sribor
+	Moyoyo
+}
+
+ship_names = {
+	Antankarana Antanarivo
+	Betsileo Betsmisaraka Boina
+	Ihorombe Morondava Sakalava
+	Sihanaka Taomasina Tsimiheki
+}

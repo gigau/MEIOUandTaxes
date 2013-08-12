@@ -1,0 +1,58 @@
+# 473 - 'Asir
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HEJ
+controller = HEJ
+culture = hejazi
+religion = sunni
+capital = "'Asir"
+trade_goods = coffee
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 1230
+
+discovered_by = ADA
+discovered_by = MKU
+discovered_by = KIL
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = HEJ
+	add_core = MAM
+}
+1500.1.1 = {
+	citysize = 1554
+}
+1517.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1550.1.1 = {
+	citysize = 2071
+}
+1600.1.1 = {
+	citysize = 2675
+}
+1650.1.1 = {
+	citysize = 3487
+}
+1700.1.1 = {
+	citysize = 4112
+}
+1750.1.1 = { citysize = 5210 }
+1800.1.1 = { citysize = 6534 }
+1802.1.1 = {
+	owner = NAJ
+	controller = NAJ
+	add_core = NAJ
+} # Incorporated into the First Saudi State
+1818.9.9 = {
+	owner = TUR
+	controller = TUR 
+} # The end of the Saudi State

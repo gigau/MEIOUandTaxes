@@ -1,0 +1,19 @@
+#1501 - Djenne
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = mossi
+religion = sunni
+capital = "Djenne"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 4.5
+native_hostileness = 9
+
+trade_goods = crops # gold
+
+discovered_by = soudantech
+
+hre = no

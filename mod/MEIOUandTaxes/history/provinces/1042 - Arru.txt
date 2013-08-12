@@ -1,0 +1,30 @@
+#Province: Arru
+#file name: 1042 - Arru
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = papuan
+religion = austranasian
+capital = "Aru"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 4 #TM - lowered to balance against NG provinces
+native_ferocity = 5 #TM - raised to match
+native_hostileness = 9 #TM - raised to match
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1337.1.1 = {	
+	discovered_by = MPH
+	add_core = MPH
+}
+1500.1.1 = { #TM - downfall of MPH
+	remove_core = MPH
+}
+1623.1.1 = {
+	discovered_by = NED
+}

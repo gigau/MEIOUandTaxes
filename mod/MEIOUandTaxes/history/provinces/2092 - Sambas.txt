@@ -1,0 +1,32 @@
+#Province: Sambas
+#file name: 2092 - Sambas
+#FB-TODO make PTN a vassal of NED from 1705
+#(PTN is used to represent Pontianak & Sambas)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PTN
+controller = PTN
+culture = malayan
+religion = theravada
+capital = "Sambas"
+trade_goods = rice 			#FB too much clove
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 2000
+add_core = PTN
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 2270 }
+1500.1.1 = { citysize = 2750 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 3100 religion = sunni }
+1606.1.1 = { discovered_by = NED citysize = 7970 }
+1650.1.1 = { citysize = 4560 }
+#1670 sultanate of Sambas established?
+1700.1.1 = { citysize = 5200 }
+1750.1.1 = { citysize = 5348 }
+1800.1.1 = { citysize = 5800 }

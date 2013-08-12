@@ -1,0 +1,98 @@
+# 191 Nevers - Principal cities: Nevers
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUR
+controller = BUR 
+capital = "Nevers"
+citysize = 5500
+culture = bourguignon
+religion = catholic
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+trade_goods = wheat
+
+
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+862.1.1    = {
+	owner = FLA
+	controller = FLA
+	add_core = FLA
+}
+1356.1.1   = {
+	add_core = BUR
+	add_core = NEV
+	add_core = FRA
+}
+1384.1.1   = {
+	owner = BUR
+	controller = BUR
+}
+1477.1.5   = {
+	owner = NEV
+	controller = NEV
+}
+1491.1.1   = {
+	add_core = KLE
+	remove_core = BUR
+}
+1500.1.1   = { citysize = 7000 }
+1530.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 8000 marketplace = yes }
+1565.1.1   = {
+	add_core = MAN
+	remove_core = KLE
+}
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 9000 }
+1639.1.1   = { revolt_risk = 3 }
+1640.1.1   = { fort3 = yes }
+1641.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 10000 constable = yes }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1659.1.1   = {
+	owner = FRA
+	controller = FRA
+	remove_core = MAN
+}
+1700.1.1   = { citysize = 11000 }
+1710.1.1   = { fort4 = yes }
+1750.1.1   = { citysize = 13000 courthouse = yes mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 15000 }
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

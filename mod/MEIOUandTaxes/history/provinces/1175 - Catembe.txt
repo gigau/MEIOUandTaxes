@@ -1,0 +1,42 @@
+# 1175 - Catembe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SOF
+controller = SOF
+add_core = KIL
+add_core = SOF
+culture = kimwani
+religion = sunni
+capital = "Catembé"
+fort1 = yes
+hre = no
+
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 4000
+trade_goods = iron
+
+discovered_by = ZIM
+discovered_by = ZAN
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+
+1498.1.6 = { discovered_by = POR } #Vasco Da Gama
+#1550.1.1 - Portuguese tradepost established
+#1703.1.1 - Portuguese tradepost abandoned
+1721.1.1 = { capital = "Maputo" } #Dutch establish tradepost
+#1731.1.1 - Dutch tradepost abandoned
+#1778.1.1 - Austrian tradepost established (by Englishman in Austrian service)
+#1782.1.1 - Portuguese eject Austrian tradepost
+1783.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	citysize = 7000
+#	manpower = 1
+	manpower = 2
+	capital = "Lourenco Marques"
+	trade_goods = slaves
+} #Permanent Portuguese outpost established

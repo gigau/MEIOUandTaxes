@@ -1,0 +1,48 @@
+# 386 - Dihistan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SDB
+controller = SDB
+culture = turkmeni
+religion = sunni
+capital = "Gyzylarbat"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 2870
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = SDB
+	add_core = MZA
+	add_core = KHO
+}
+1382.1.1 = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1 = {
+	owner = KTD
+	controller = KTD
+}
+1419.1.1 = {
+	owner = NOG
+	controller = NOG
+	add_core = NOG
+}
+1500.1.1  = { citysize = 3305 }
+1505.6.1  = {
+	owner = KHO
+	controller = KHO
+}
+1550.1.1  = { citysize = 1980 }
+1600.1.1  = { citysize = 4477 }
+1650.1.1  = { citysize = 5276 }
+1677.1.1  = { discovered_by = FRA }
+1700.1.1  = { citysize = 6900 }
+1750.1.1  = { citysize = 7288 }
+1800.1.1  = { citysize = 8100 }

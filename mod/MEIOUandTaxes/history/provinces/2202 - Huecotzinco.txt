@@ -1,0 +1,66 @@
+# 2202 - Tepeyacac
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NAH
+controller = NAH
+add_core = NAH
+culture = nahuatl
+religion = teotl
+capital = "Tepeyacac"
+
+base_tax = 3
+#manpower = 2 
+manpower = 4 
+citysize = 25000
+trade_goods = cacao 
+
+fort1 = yes
+
+hre = no
+
+discovered_by = new_world
+
+
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1519.8.13  = {
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+}
+1531.4.16  = {
+	capital = "La Puebla de los Ángeles"
+}
+1544.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 5000
+}
+1650.1.1   = {
+	citysize = 10000
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 25000
+}
+1800.1.1   = {
+	citysize = 30000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

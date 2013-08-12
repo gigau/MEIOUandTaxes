@@ -1,0 +1,57 @@
+#126 - Malta
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SIC
+controller = SIC
+culture = maltese 
+religion = catholic 
+hre = no 
+base_tax = 3
+trade_goods = fish
+#manpower = 2
+manpower = 4
+terrain2 = yes
+fort1 = yes
+capital = "L-Imdina" 
+citysize = 3000 # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	set_province_flag = terrain2
+	citysize = 3500
+	add_core = SIC
+	add_core = ARA
+	add_core = KNP
+}
+1399.1.1  = { citysize = 4000 }
+1409.1.1  = { owner = ARA controller = ARA }
+1453.1.1  = { citysize = 4500 }
+1500.1.1  = { citysize = 5000 }  
+1516.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+    	remove_core = ARA
+} # Unification of Spain
+1530.1.1  = { controller = KNI owner = KNI add_core = KNI remove_core = SPA } # Malta given to the Knights
+1530.1.1  = { citysize = 6000 }  # Estimated 
+1550.1.1  = { citysize = 7000 }  # Estimated 
+1566.3.28 = { capital = "Il-Belt" marketplace = yes }
+1571.1.1  = { fort2 = yes } # Valletta completed
+1600.1.1  = { citysize = 7000 }  # Estimated 
+1650.1.1  = { citysize = 8000 }  # Estimated 
+1700.1.1  = { citysize = 8000 }  # Estimated 
+1750.1.1  = { citysize = 9000 }  # Estimated 
+1769.1.1  = { university = yes }
+1775.1.1  = { revolt_risk = 4 } # Revolt headed by priest Gaetano Mannarino failed.
+1776.1.1  = { revolt_risk = 0 }
+1798.6.9  = { controller = RFR } # Occupied by French troops
+1800.1.1  = { controller = KNI citysize = 10000 } # British protectorate
+1814.5.30 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+} # Treaty of Paris

@@ -1,0 +1,58 @@
+# TRG - Terengganu
+# GG - Adapted from Divide et Impera
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 1
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = sunni
+technology_group = austranesian
+capital = 598	# Terengganu
+
+1725.1.1 = {
+	monarch = {
+		name = "Zaynal Abidin Shah"
+		dynasty = "Alauddin"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1733.1.1 = {
+	monarch = {
+		name = "Mansur Shah I"
+		dynasty = "Alauddin"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "Zaynal Abidin Shah II"
+		dynasty = "Alauddin"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Ahmad Shah I"
+		dynasty = "Alauddin"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

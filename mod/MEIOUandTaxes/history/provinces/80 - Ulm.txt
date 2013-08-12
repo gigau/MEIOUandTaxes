@@ -1,0 +1,36 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner         = ULM
+controller    = ULM
+culture       = schwabisch
+religion      = catholic
+trade_goods = linen
+capital       = "Ulm"
+base_tax      = 7
+citysize      = 11000
+fort1         = yes
+marketplace   = yes
+add_core      = ULM
+temple        = yes
+#manpower      = 2
+manpower      = 4
+hre           = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1      = { citysize = 11500 }
+1399.1.1      = { citysize = 12000 }
+1453.1.1      = { citysize = 12500 }
+1500.1.1      = { fine_arts_academy = yes }
+1520.1.1      = { constable = yes }
+1530.1.1      = { religion = protestant }
+1560.1.1      = { fort2 = yes }
+1648.1.1      = { citysize = 15000 }
+1669.1.1      = { courthouse = yes }
+#1690.1.1      = { citysize = 17000 manpower = 1 fort3 = yes } 
+1690.1.1      = { citysize = 17000 manpower = 2 fort3 = yes } 
+#1730.1.1      = { citysize = 20000 customs_house = yes manpower = 2 }
+1730.1.1      = { citysize = 20000 customs_house = yes manpower = 4 }
+1803.1.1      = { owner = BAV controller = BAV add_core = BAV }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1810.1.1      = { owner = WUR controller = WUR add_core = WUR }

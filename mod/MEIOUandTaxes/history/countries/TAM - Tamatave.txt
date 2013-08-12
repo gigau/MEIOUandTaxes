@@ -1,0 +1,97 @@
+#MEIOU-GG Govenemnt changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+primary_culture = madagascan
+religion = austranasian
+technology_group = sub_saharan
+capital = 1227
+
+1350.1.1 = {
+	monarch = {
+		name = "Tribal Elders"
+		dynasty = "Betanimena"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+1712.1.1 = {
+	monarch = {
+		name = "Ramaromango"
+		dynasty = "Betanimena"
+		DIP = 6
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1750.8.1 = {
+	monarch = {
+		name = "Zanahary*"
+		dynasty = "Betanimena"
+		DIP = 4
+		ADM = 6
+		MIL = 9
+	}
+}
+
+1767.5.1 = {
+	monarch = {
+		name = "Iavy"
+		dynasty = "Betanimena"
+		DIP = 3
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Zakavola"
+		dynasty = "Betanimena"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1803.3.1 = {
+	monarch = {
+		name = "Anarchy"
+		dynasty = "Betanimena"
+		DIP = 1
+		ADM = 1
+		MIL = 1
+	}
+}
+
+1811.2.18 = {
+	monarch = {
+		name = "Jean René"
+		dynasty = "Betanimena"
+		DIP = 7
+		ADM = 8
+		MIL = 7
+	}
+}
+
+1826.1.1 = {
+	monarch = {
+		name = "Kisiharo*"
+		dynasty = "Betanimena"
+		DIP = 7
+		ADM = 8
+		MIL = 7
+	}
+}

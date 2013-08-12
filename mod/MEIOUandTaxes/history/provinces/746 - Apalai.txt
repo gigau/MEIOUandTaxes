@@ -1,0 +1,76 @@
+# 746 - Apalai
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = guajiro
+religion = pantheism
+capital = "Apalai"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 2
+native_hostileness = 7
+
+1498.1.1  = { discovered_by = CAS } # Christopher Columbus
+1516.1.23 = { discovered_by = SPA }
+1604.1.1  = {
+	owner = FRA
+	controller = FRA
+	citysize = 422
+	culture = francien
+	religion = catholic
+	trade_goods = sugar
+	capital = "Kourou"
+	fort1 = yes
+	set_province_flag = trade_good_set
+} # First French settlements
+1629.1.1  = {
+	citysize = 1000
+	add_core = FRA
+}
+1650.1.1  = { citysize = 1805 }
+1654.1.1  = {
+	controller = NED
+} # Held by the Dutch for a few years
+1667.1.1  = {
+	controller = ENG
+} # The British seized the area
+1667.7.31 = {
+	controller = FRA
+    	culture = creole
+} # Treaty of Breda, given back to France
+1676.1.1  = { controller = NED } # Captured in the Dutch wars of Louis XIV
+1677.1.1  = { controller = FRA } # Estimated
+1700.1.1  = { citysize = 3780 }
+1750.1.1  = { citysize = 8568 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 10000 }
+1809.1.1   = {
+	owner = POR
+	controller = POR
+}
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

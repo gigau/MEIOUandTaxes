@@ -1,0 +1,48 @@
+# rough setup
+
+government = chinese_monarchy_2a
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = 2
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = -1
+primary_culture = sichuanhua
+religion = confucianism
+technology_group = chinese
+capital = 663	# Kunming
+
+1662.1.1 = {
+	monarch = {
+		name = "Wu Sangui"
+		dynasty = "Wu"
+		adm = 7
+		dip = 7
+		mil = 9
+		leader = {	name = "Wu Sangui"       type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 2	death_date = 1679.1.1 }
+	}
+}
+1678.8.17 = {
+	monarch = {
+		name = " Regency Council"
+		regent = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Wu Shifan"
+		monarch_name = "Wu Shifan"
+		dynasty = "Wu"
+		birth_date = 1667.1.1
+		death_date = 1681.10.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}

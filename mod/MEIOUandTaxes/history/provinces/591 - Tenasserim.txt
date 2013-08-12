@@ -1,0 +1,56 @@
+# 591 - Tenasserim
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NST
+controller = NST
+culture = monic
+religion = theravada
+capital = "Tanintharyi"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = fish
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = AYU
+	add_core = NST
+}
+1467.4.8 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = NST
+	revolt_risk = 0
+}
+1500.1.1 = { citysize = 5740 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 7351 }
+1600.1.1 = { citysize = 8858 }
+1650.1.1 = { citysize = 10450 }
+1700.1.1 = { citysize = 12230 }
+1750.1.1 = { citysize = 14223 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1793.1.1 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+}
+1800.1.1 = { citysize = 16570 }
+1826.2.24 = { owner = GBR controller = GBR add_core = GBR }

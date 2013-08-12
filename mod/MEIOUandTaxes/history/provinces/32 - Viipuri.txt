@@ -1,0 +1,60 @@
+# Vyborg
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+fort1 = yes
+capital = "Viipuri"
+citysize = 1000 # Estimated
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+	add_core = NOV
+}
+1478.1.14  = {
+	remove_core = NOV
+	add_core = MOS
+}
+1500.1.1   = { citysize = 1350 }
+1547.1.1  = {
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 1755 }
+1560.1.1   = { marketplace = yes }
+1600.1.1   = { citysize = 1965 }
+1617.2.17  = { religion = protestant}
+1650.1.1   = { citysize = 2350 }
+1700.1.1   = { citysize = 2567 }
+1710.9.9   = { controller = RUS } #The Great Nordic War-Captured Keksholm
+1721.8.30  = {
+	owner = RUS
+	remove_core = SWE
+} #The Peace of Nystad
+1750.1.1   = { citysize = 2800 }
+1800.1.1   = { citysize = 3540 }
+1812.1.1 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+	capital = "Viipuri"
+}

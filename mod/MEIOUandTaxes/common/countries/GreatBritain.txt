@@ -1,0 +1,149 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+color = { 153  0 0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+    "William #3" = 30
+    "James #2" = 5
+    "Charles #2" = 5
+    "Oliver #0" = 5
+    "Richard #3" = 5
+    "Edward #6" = 40
+    "Henry #8" = 5
+    "John #1" = 0
+    "Stephen #1" = 0
+    "Adam #0" = 0
+    "Anthony #0" = 0
+    "Christopher #0" = 0
+    "Edmund #0" = 5
+    "Francis #0" = 0
+    "George #0" = 100
+    "Hugh #0" = 0
+    "Laurence #0" = 0
+    "Matthew #0" = 0
+    "Michael #0" = 0
+    "Nicholas #0" = 0
+    "Peter #0" = 0
+    "Robert #0" = 0
+    "Simon #0" = 0
+    "Thomas #0" = 0
+    "Walter #0" = 0
+    "Arthur #0" = 5
+    "Alexander #0" = 0
+    "Andrew #0" = 0
+    "Benjamin #0" = 0
+    "Charles Francis #0" = 0
+    "Charles Philip #0" = 0
+    "Daniel #0" = 0
+    "Frederick #0" = 20
+    "Joseph #0" = 0
+    "Nathan #0" = 0
+    "Paul #0" = 0
+    "Philip #0" = 0
+    "Samuel #0" = 0
+    "Sidney #0" = 0
+    "Simon John #0" = 0
+    "Spencer #0" = 0
+    "Warren #0" = 0
+    "Alfred #0" = 5
+    "Alice #0" = -5
+    "Amelia #0" = -5
+    "Charlotte #0" = -5
+    "Elizabeth #1" = -10
+    "Victoria #0" = -10
+    "Mary #2" = -10
+    "Anne #0" = -20
+    "Louise #0" = -10
+    "Augusta #0 Sophia" = -5
+ }
+
+leader_names = {
+  "Abbot"	"Adam"	"Addington"	"Addison"	"Aislabie"	"Amherst"	"Anstruther"	"Apsley"	"Arden"
+  "Banks"	"Beauchamp"	"Beauclerk"	"Beckett"	"Belasyse"	"Benson"	"Bentinck"	"Beresford"	"Berkeley"	"Bertie"	"Blackburne"	"Bloomfield"	"Boscawen"	"Boyle"	"Bragge"	"Bromley"	"Bruce"	"Burke"	"Butler"	"Byng"
+  "Campbell"	"Canning"	"Capell"	"Carr"	"Cathcart"	"Cavendish"	"Chicheley"	"Cochrane"	"Compton"	"Conway"	"Cornwall"	"Corry"	"Coventry"	"Cowper"	"Craggs"	"Craven"	"Cust"
+  "Dallas"	"Darcy"	"Dawes"	"de Grey"	"de Vere"	"Delamere"	"Dodington"	"Douglas"	"Drummond"	"Dundas"
+  "Eden"	"Elliot"	"Ellis"	"Emle"	"Erle"	"Eyre"
+  "Fawcett"	"Finch"	"FitzPatrick"	"Flood"	"Fortescue"	"Foster"	"Fox"
+  "Gibson"	"Gilbert"	"Godolphin"	"Goodricke"	"Grant"	"Grantham"	"Granville"	"Gray"
+  "Hamilton"	"Hampden"	"Harbord"	"Harcourt"	"Harley"	"Harris"	"Hastings"	"Hawke"	"Hayter"	"Hedges"	"Herbert"	"Herring"	"Hervey"	"Hill"	"Holles"	"Holt"	"Hookham"	"Howard"	"Howley"	"Huskisson"	"Hutton"	"Hyde"
+  "Jeffreys"	"Jekyll"	"Jenkins"	"Jenkinson"	"Keith"	"King"
+  "Leach"	"Lechmere"	"Lee"	"Legge"	"Lennox"	"Ligonier"	"Liston"	"Lowther"	"Lumley"
+  "Maitland"	"Manners"	"Mansell"	"Mansfield"	"Markham"	"McMahon"	"Methuen"	"Middleton"	"Mitford"	"Montagu"	"Moore"	"Mordaunt"	"Morgan"
+  "Newport"	"Nicholl"	"North"	"Norton"	"Nugent"
+  "Onslow"	"Orde-Powlett"	"Osbaldeston"	"Oswald"
+  "Paget"	"Parker"	"Peel"	"Pelham"	"Pemberton"	"Petre"	"Petty"	"Pitt"	"Plumer"	"Ponsonby"	"Porteous"	"Potter"	"Powle"	"Poyntz"	"Pratt"	"Pulteney"
+  "Randolph"	"Raymond"	"Reeve"	"Robartes"	"Robinson"	"Rose"	"Rushout"	"Russell"	"Ryder"
+  "Sackville"	"Sancroft"	"Sandys"	"Saunders"	"Scott"	"Secker"	"Sewell"	"Seymour"	"Sheffield"	"Shelley"	"Shepherd"	"Sheridan"	"Sherlock"	"Sinclair"	"Skynner"	"Smith"	"Smyth"	"Somers"	"Somerset"	"Spencer"	"Stanhope"	"Stanley"	"Steele"	"Stonehouse"	"Strickland"	"Stuart"	"Sturges"	"Sutton"
+  "Talbot"	"Teignmouth"	"Temple"	"Tenison"	"Terrick"	"Thomson"	"Thurlow"	"Thynne"	"Tillotson"	"Townshend"	"Trenchard"	"Trevor"	"Trumbull"
+  "Verney"	"Vernon"	"Vesey"	"Villiers"
+  "Wade"	"Wager"	"Wake"	"Wallace"	"Walpole"	"Wedderburn"	"Wellesley"	"Wharton"	"Wickham"	"Williamson"	"Wills"	"Wilmot"	"Winnington"	"Worsley"	"Wright"	"Wyndham"	"Yonge"	"Yorke"
+}
+
+ship_names = {
+    "Achille" "Advice"  "Africa"  "Agamemnon" "Ajax"  "Albemarle" "Albion"  "Alexander" "Anglesea"  "Anne"  "Antelope"  "Arms of Rotterdam" "Arrogant"  "Assistance"
+    "Association" "Atlas" "Audacious"
+    "Barfleur"  "Bedford" "Bellerophon" "Bellona" "Berwick" "Black Bull"  "Black Spread Eagle"  "Blackwall" "Blenheim"  "Bonaventure" "Boyne" "Breda" "Bristol" "Britannia"
+    "Buckingham"  "Burford" "Burlington"
+    "Cambridge" "Canterbury"  "Captain" "Carlisle"  "Centurion" "Charles" "Chatham" "Chester" "Chichester"  "Clove Tree"  "Colchester"  "Colossus"  "Conqueror"
+    "Constant Warwick"  "Content" "Cornwall"  "Coronation"  "Coventry"  "Crown" "Culloden"  "Cumberland"
+    "Dartmouth" "Defense" "Defiance"  "Deptford"  "Devonshire"  "Diamond" "Dorsetshire" "Dover" "Dragon"  "Dreadnought" "Duchess" "Duke"  "Dunkirk"
+    "Eagle" "Edgar" "Elephant"  "Elizabeth" "Essex" "Excellent" "Exeter"  "Expedition"
+    "Falkland"  "Falmouth"  "Faversham" "Folkestone"  "Formidable"  "Fortitude" "French Ruby"
+    "Gloucester"  "Golden Horse"  "Golden Lion" "Golden Phoenix"  "Goliath" "Grafton" "Greenwich" "Guernsey"
+    "Half Moon" "Hampshire" "Hampton Court" "Hannibal"  "Harwich" "Hastings"  "Hector"  "Helverson" "Hercules"  "Hope"  "House of Sweeds" "Humber"
+    "Illustrious" "Impregnable" "Invincible"  "Ipswich" "Irresistible"
+    "Jersey"
+    "Kent"  "Kingfisher"  "Kingston"  "Kinsale"
+    "Lancaster" "Lark"  "Launceston"  "Le Téméraire"  "Lenox" "Leopard" "Leviathan" "Lichfield" "Lincoln" "Liverpool" "London"  "Loyal London"  "Ludlow"  "Lynn"
+    "Maidstone" "Majestic"  "Maria Sancta"  "Marigold"  "Marlborough" "Mars"  "Mary"  "Mary Galley" "Medway"  "Minden"  "Minotaur"  "Monarch" "Monck" "Monmouth"
+    "Montagu" "Mordaunt"
+    "Namur" "Nassau"  "Neptune" "Newark"  "Newcastle" "Nonsuch" "Norfolk" "Northumberland"  "Norwich" "Nottingham"
+    "Orford"  "Orion" "Ossory"  "Oxford"
+    "Panther" "Pearl" "Pembroke"  "Pendennis" "Phoebe"  "Plymouth"  "Polyphemus"  "Portland"  "Powerful"  "Prince"  "Prince George" "Princess Amelia"
+    "Princess Caroline" "Princess Louisa" "Princess Royal"
+    "Queen" "Queen Charlotte"
+    "Ranelagh"  "Reserve" "Resolution"  "Restoration" "Revenge" "Robust"  "Rochester" "Roebuck" "Romney"  "Royal Anne"  "Royal Charles" "Royal George"
+    "Royal James" "Royal Katherine" "Royal Oak" "Royal Prince"  "Royal Sovereign" "Royal William" "Ruby"  "Rupert"  "Russell"
+    "Salisbury" "Sandwich"  "Sapphire"  "Saturn"  "Sedgemoor" "Seven Oaks"  "Severn"  "Shrewsbury"  "Sirius"  "Slothany"  "Somerset"  "Southampton" "Southsea Castle"
+    "St Albans" "St Andrew" "St David"  "St George" "St Michael"  "St Patrick"  "St Paul" "Stirling Castle" "Suffolk" "Sunderland"  "Superb"  "Sussex"  "Swallow" "Swiftsure"
+    "Terrible"  "Thunderer" "Tiger" "Tiger Prize" "Tilbury" "Tonnant" "Torbay"  "Torrington"  "Tremendous"  "Trident" "Triumph" "Two Lions"
+    "Union" "Unity"
+    "Valiant" "Vanguard"  "Vengeance" "Victory"
+    "Warspite"  "Warwick" "West Friesland"  "Weymouth"  "Winchester"  "Windsor" "Windsor Castle"  "Woolwich"  "Worcester"
+    "Yarmouth"  "York"  "Young Prince"
+    "Zealous"
+    "$PROVINCE$"
+}
+
+army_names = {
+	"Royal Army" "Army of Scotland" "Army of Ireland"
+
+}
+
+fleet_names = {
+	"Royal Navy" "Blue Squadron" "Red Squadron" "White Squadron" "North Sea Squadron" "Channel Squadron"
+}

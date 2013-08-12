@@ -1,0 +1,8 @@
+discovered_by = KAL
+discovered_by = NOR
+
+1501.1.1 = { discovered_by = POR } # Gaspar Corte-Real
+
+1550.1.1 = { discovered_by = western }
+
+

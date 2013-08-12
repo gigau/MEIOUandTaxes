@@ -1,0 +1,57 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 136  99  33 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Vijaya Raghava #0" = 20
+	"Ragunatha #0" = 20
+	"Achuthappa #0" = 20
+	"Cevvappa #0" = 20
+}
+
+leader_names = {
+	Chandrashekar
+	Varma
+	Devaraja
+	Yaduraya
+	Waidyar
+	Vaidya
+	Noorondayya
+	Vilasa
+	Visvesvaraya
+	Basavaraju
+	Devi
+	Rajbal
+}
+
+ship_names = {
+	Amirtha Amman Arul Bhima Chellam
+	Devi Durga Gayatri Iniya Krishna
+	Lakshmi Madhu Meenakshi Nalini
+	Pallar Parvati Payaswani Pennar
+	Ponni Radha Ratri Sarasvati Sita
+	Tamarai
+}

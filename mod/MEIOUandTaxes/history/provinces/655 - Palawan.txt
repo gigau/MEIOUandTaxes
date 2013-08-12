@@ -1,0 +1,51 @@
+# 655 - Palawan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = tagalog
+religion = austranasian
+capital = "Palawan"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+native_size = 30
+native_ferocity = 2
+native_hostileness = 9
+
+discovered_by = austranesian
+discovered_by = chinese
+
+1473.1.1 = {
+	discovered_by = BEI
+	owner = BEI
+	controller = BEI
+	add_core = BEI
+	citysize = 3250
+	trade_goods = fish
+	set_province_flag = trade_good_set
+} # Brunei kingdom, Bolkiah
+1500.1.1 = { citysize = 3988 }
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1550.1.1 = { citysize = 4560 }
+1600.1.1 = { citysize = 5250 }
+1650.1.1 = { citysize = 5895 }
+1700.1.1 = { citysize = 6435 }
+1703.1.1 = {
+	citysize = 0
+	native_size = 30
+	native_ferocity = 2
+	native_hostileness = 9
+	owner = XXX
+	controller = XXX
+	remove_core = BEI
+	trade_goods = crops
+} # Ceded to Mindanao
+1749.1.1 = {
+	owner = SPA
+	controller = SPA
+	trade_goods = fish
+} # Palawan is ceded to Spain
+1750.1.1 = { citysize = 7000 }
+1774.1.1 = { add_core = SPA }
+1800.1.1 = { citysize = 7250 }

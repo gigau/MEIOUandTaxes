@@ -1,0 +1,52 @@
+# 1522 - Tlemcen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLE
+controller = TLE 
+culture = kabyle
+religion = sunni
+capital = "Tlemcen"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 35772
+trade_goods = wine
+
+fort1 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1337.1.1 = {
+	owner = FEZ
+	controller = FEZ
+	add_core = TLE
+}
+1348.1.1 = {
+	owner = TLE
+	controller = TLE
+}
+1500.1.1 = { citysize = 36954 }
+1550.1.1 = { citysize = 37620 }
+1600.1.1 = { citysize = 38344 }
+1650.1.1 = { citysize = 39671 }
+1659.1.1 = { controller = REB } # Janissary revolt
+1660.1.1 = { controller = TLE } # Estimated
+1672.1.1 = {
+	owner = ALG
+	controller = ALG
+	add_core = ALG
+} # Estimated
+1700.1.1 = { citysize = 41980 }
+1750.1.1 = { citysize = 44305 }
+1800.1.1 = { citysize = 45641 }
+1845.1.1 = {
+	owner = FRA
+	controller = FRA
+}

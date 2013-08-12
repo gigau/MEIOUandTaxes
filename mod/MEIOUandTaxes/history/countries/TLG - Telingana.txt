@@ -1,0 +1,79 @@
+# TLG - Telingana
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = 2
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = 4
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = telegu
+religion = hinduism
+technology_group = indian
+capital = 545
+
+1356.1.1 = {
+	monarch = {
+		name = "Peda Vedagiri"
+		dynasty = "Velama"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1365.1.1 = {
+	capital = 546
+}
+
+1384.1.1 = {
+	heir = {
+		name = "Maada"
+		monarch_name = "Maada III"
+		dynasty = "Velama"
+		birth_date = 1375.1.1
+		death_date = 1425.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Peda Vedagiri"
+		dynasty = "Velama"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Lingama"
+		monarch_name = "Lingama"
+		dynasty = "Velama"
+		birth_date = 1390.1.1
+		death_date = 1475.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Lingama"
+		dynasty = "Velama"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

@@ -1,0 +1,30 @@
+# MKU - Kingdom of Makuria
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = nubian
+religion = oriental
+technology_group = soudantech
+capital = 2544 # Dongola
+
+1323.1.1 = {
+	monarch = {
+		name = "Karanbas"
+		dynasty = "al Maris"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

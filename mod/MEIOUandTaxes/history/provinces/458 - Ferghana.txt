@@ -1,0 +1,53 @@
+# 458 - Ferghana
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = kwarezhmi
+religion = sunni
+capital = "Ferghana"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 2000
+
+discovered_by = KSH
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+terrain3 = yes
+
+1356.1.10   = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+	set_province_flag = terrain3
+}
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = { citysize = 3270 }
+1600.1.1 = { citysize = 4170 }
+1650.1.1 = { citysize = 4777 }
+1700.1.1 = { citysize = 5680 }
+1750.1.1 = { citysize = 6438 }
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1 = { citysize = 7000 }
+1807.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+} # Annexed by Kokand

@@ -1,0 +1,56 @@
+# 1478 - Chiquinquira
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = guajiro
+religion = pantheism
+capital = "Chiquinquirá"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+discovered_by = new_world
+
+1539.1.1  = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 444
+	culture = castillian
+	religion = catholic
+	trade_goods = coffee
+	capital = "Tunja"
+	set_province_flag = trade_good_set
+}
+1564.1.1  = {
+	add_core = SPA
+}
+1600.1.1  = {
+	citysize = 1091
+}
+1650.1.1  = {
+	citysize = 1500
+}
+1700.1.1  = {
+	citysize = 2200
+}
+1750.1.1  = {
+	citysize = 3420
+	add_core = COL
+	culture = colombian
+}
+1800.1.1  = {
+	citysize = 4100
+}
+1810.7.20  = {
+	owner = COL
+	controller = COL
+} # Colombia declares independence
+1819.8.7   = {
+	remove_core = SPA
+} # Colombia's independence is recongnized
+
+# 1831.11.19 - Grand Colombia is dissolved

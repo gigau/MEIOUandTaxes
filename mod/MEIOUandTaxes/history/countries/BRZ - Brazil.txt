@@ -1,0 +1,55 @@
+# BRZ - Brazil
+# MEIOU-GG Govenemnt changes
+# 2010-jan-04 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = constitutional_monarchy_1
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = 2
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = brazilian
+capital = 756	# São Salvador
+
+1763.1.1 = { capital = 763 }	# Rio de Janeiro
+
+1822.9.7 = {
+	monarch = {
+		name = "Dom Pedro"
+		dynasty = "Braganza"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Dom Pedro Junior"
+		monarch_name = "Dom Pedro II"
+		dynasty = "Braganza"
+		birth_date = 1825.12.2
+		death_date = 1891.12.5
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1831.4.7 = {
+	monarch = {
+		name = "Dom Pedro II"
+		dynasty = "Braganza"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+# 1889.11.15 - A military coup overthrows the monarchy

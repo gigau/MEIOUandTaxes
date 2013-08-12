@@ -1,0 +1,39 @@
+#1154 - Ambuilla
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KON
+controller = KON
+add_core = KON
+culture = lunda
+religion = animism
+capital = "Ambuilla"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10500
+trade_goods = slaves
+
+marketplace = yes
+fort1 = yes
+
+discovered_by = NRI
+discovered_by = LOA
+discovered_by = KON
+discovered_by = NDO
+
+hre = no
+
+1483.1.1 = { discovered_by = POR } # Diogo Cão
+1500.1.1 = { citysize = 17800 }
+1550.1.1 = { citysize = 21700 }
+1600.1.1 = { citysize = 35000 }
+1650.1.1 = { citysize = 42200 }
+1671.1.1 = {
+	add_core = POR
+	owner = POR
+	controller = POR
+} # Conquered by the Portuguese
+1700.1.1 = { citysize = 59000 }
+1750.1.1 = { citysize = 65000 }
+1800.1.1 = { citysize = 69000 }

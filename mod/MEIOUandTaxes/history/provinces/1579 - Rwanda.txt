@@ -1,0 +1,42 @@
+# 1579 - Rwanda
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIT
+controller = KIT 
+culture = chwezi
+religion = animism
+capital = "Rwanda"
+trade_goods = ivory
+hre = no
+terrain1 = yes
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 3670
+add_core = KIT
+discovered_by = KIT
+discovered_by = ZIM
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1500.1.1   = { citysize = 4080 }
+1550.1.1   = { citysize = 4570 }
+1600.1.1   = { citysize = 4980 }
+1650.1.1   = { citysize = 5460 }
+1700.1.1   = { citysize = 5870 }
+1750.1.1   = { citysize = 6800 }
+1760.1.1 = {			#rwanda kingdom		
+	citysize = 0
+	owner = XXX
+	controller = XXX
+	native_size = 8000
+	native_ferocity = 2
+	native_hostileness = 5 
+	culture = chwezi
+	religion = animism
+	revolt_risk = 0
+	trade_goods = ivory
+	base_tax = 1
+	manpower = 1
+}

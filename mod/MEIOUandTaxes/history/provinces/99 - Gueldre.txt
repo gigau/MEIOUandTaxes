@@ -1,0 +1,73 @@
+# 99 - Geldre
+# Nijmegen , Arnhem , Zuthen, Roermond
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GEL
+controller = GEL
+culture = dutch
+religion = catholic
+capital = "Nijmegen"
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+trade_goods = wheat
+citysize = 8500
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { add_core = GEL }
+1399.1.1   = { citysize = 10000 }
+1453.1.1   = { add_core = BUR add_core = UTR citysize = 12000 }
+1473.2.23  = { owner = BUR controller = BUR } # Charles the Bold annexes Gelre
+1477.1.5   = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18  = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1492.1.1   = { owner = GEL controller = GEL  }
+1500.1.1   = { citysize = 21000 }
+1505.1.1   = { owner = HAB controller = HAB revolt_risk = 20 }
+1513.1.1   = { owner = GEL controller = GEL revolt_risk = 0  }
+1530.1.1   = { fort2 = yes }
+1543.9.7   = { owner = HAB controller = HAB } # Charles V annexes Gelre
+1549.11.4  = { add_core = NED remove_core = GEL }
+1550.1.1   = { courthouse = yes citysize = 21000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1   = { religion = reformed }
+1572.6.5   = { controller = REB } # Rebels rise up in Gelre & Zutphen
+1572.9.1   = { controller = SPA } # Don Frederique takes control of Gelre for Spain again
+1577.2.12  = { revolt_risk = 16 } # Eeuwig Edict accepted by Don Juan
+1579.1.23  = { owner = NED controller = NED remove_core = SPA revolt_risk = 0} # Union of Utrecht, Gelre joins
+1583.9.1   = { controller = SPA revolt_risk = 15 } # Alessandro Farnese captures Zutphen and the surrounding lands
+1592.7.4   = { controller = NED revolt_risk = 0 } # The Republic takes back Zutphen and surrounding areas
+1600.1.1   = { citysize = 25000 }
+1610.1.1   = { marketplace = yes }
+1648.1.1   = { university = yes } # University of Harderwijk founded (closed in 1811 by Napoleon)
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { fort3 = yes citysize = 27000 }
+1672.5.20  = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.8.10  = { controller = NED } # Peace of Nijmegen (Netherlands-France)
+1680.1.1   = { constable = yes }
+1681.1.1   = { base_tax = 9 } # Protestants expelled from France
+1700.1.1   = { citysize = 28000 }
+1730.1.1   = { fort4 = yes }
+1750.1.1   = { citysize = 29000 }
+1755.1.1   = { mint = yes }
+1760.1.1   = { regimental_camp = yes }
+1800.1.1   = { citysize = 35000 }
+1810.7.10  = { owner = RFR controller = RFR add_core = RFR } # Annexed by France
+1813.11.30 = { owner = NED controller = NED remove_core = RFR } # William returns to the Netherlands

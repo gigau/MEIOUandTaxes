@@ -1,0 +1,54 @@
+# 2279 - Settsu
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HKW
+controller = HKW
+culture = kansai
+religion = shinbutsu
+capital = "Osaka"
+trade_goods = chinaware
+hre = no
+cot = yes # Sakai
+base_tax = 6 # 10
+#manpower = 3 # 3
+manpower = 6 # 3
+citysize = 83000
+fort1 = yes
+temple = yes
+marketplace = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = HKW
+	add_core = MIY
+}
+1400.1.1   = { citysize = 85000 }
+1450.1.1   = { citysize = 87000 }
+1500.1.1   = { citysize = 90000 }
+1535.1.1   = {
+	owner = MIY
+	controller = MIY
+}
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 93000 }
+1572.1.1   = {
+	owner = ODA
+	controller = ODA
+}
+1583.1.1   = { fort2 = yes }
+1590.1.1   = { constable = yes }
+1600.1.1   = { citysize = 97000 }
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1620.1.1   = { customs_house = yes }
+1650.1.1   = { citysize = 101000 }
+1700.1.1   = { citysize = 105000 }
+1750.1.1   = { citysize = 110000 }
+1760.1.1   = { mint = yes }
+1800.1.1   = { citysize = 115000 }

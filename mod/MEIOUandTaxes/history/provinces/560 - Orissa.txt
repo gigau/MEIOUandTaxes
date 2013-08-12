@@ -1,0 +1,54 @@
+#Province: Orissa
+#file name: 560 - Orissa
+#MEIOU-FB India 1337+ mod Aug 08
+#note: it might be more accurate to consider Orissa a vassal of Delhi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ORI
+controller = ORI
+culture = oriya
+religion = hinduism
+capital = "Cuttack"
+trade_goods = rice
+hre = no
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 25450
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = ORI
+}
+#1361 Feroz of Delhi goes elephant hunting in Orissa
+1400.1.1 = { citysize = 29040 }
+1505.1.1 = { citysize = 36140 discovered_by = steppestech }
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1550.1.1 = { citysize = 40890 fort2 = yes }
+1592.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # The Mughal Empire
+1600.1.1 = { citysize = 46320 }
+1650.1.1 = { citysize = 52000 marketplace = yes }
+1700.1.1 = { citysize = 58578 workshop = yes }
+1707.5.12 = { discovered_by = GBR }
+1751.1.1 = {
+	owner = BHO
+	controller = BHO
+	remove_core = MUG
+	remove_core = GOC
+	mint = yes
+	citysize = 66300
+} # Marathan rule
+1800.1.1 = { citysize = 74487 courthouse = yes }
+1803.1.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = MAR
+}

@@ -1,0 +1,66 @@
+#Country Name: Pajajaran
+#Tag: PJJ
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 88  137  172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Prabu Susuktunggal #1" = 70
+	"Pangiri #0" = 10
+	"Guru #0" = 10
+	"Lingga #0" = 10
+	"Maharaja #0" = 10
+	"Raja #0" = 10
+	"Sasuk #0" = 10
+	"Baduga #0" = 10
+}
+
+leader_names = {
+	Ageng Ajigunawisesa
+	Brajawisesa Buana Bunisora
+	Dewageng Dharmasiksa Djajadiningrat Djojopoespito
+	Ernalia
+	Haringwasa
+	Jayadarma
+	Kancana Karsumaatmaja
+	Mollema
+	Nasution Nitisastro
+	Pucukwesi Prawiranega Purbacaraka
+	Sanghyang Subadio Sumual Suradipati
+	Wanayasa
+}
+
+ship_names = {
+	Surakarta Yogyakarta Semarang Salatiga
+	"Gunung Merbabu" Sragen Sukoharjo Wonosari
+	"Gunung Lawu" Delanggu Cepu Purwodarli
+	Ngawi Grobogan Boja Amgarawa
+	Dewageng Dharmasiksa Djajadiningrat Djojopoespito
+	Pucukwesi Prawiranega Purbacaraka
+	Sanghyang Subadio Sumual Suradipati
+}
+

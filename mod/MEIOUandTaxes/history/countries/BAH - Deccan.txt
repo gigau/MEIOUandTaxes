@@ -1,0 +1,397 @@
+# BAH - Deccan
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 3
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 4
+# land_naval = -4
+# quality_quantity = -2
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = indian
+religion = shiite
+primary_culture = telegu
+add_accepted_culture = marathi
+capital = 2212
+
+
+1397.1.1 = {
+	monarch = {
+		name = "Taj ud-Din Firuz"
+		dynasty = "Bahmanid"
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	leader = {	name = "Taj ud-Din Firuz"	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah I Wali"
+		dynasty = "Bahmanid"
+		birth_date = 1370.1.1
+		death_date = 1436.4.17
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Ahmad Shah I Wali"
+		dynasty = "Bahmanid"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1422.1.1 = {
+	heir = {
+		name = "Ala ud-Din Ahmad"
+		monarch_name = "Ala ud-Din Ahmad Shah II"
+		dynasty = "Bahmanid"
+		birth_Date = 1410.1.1
+		death_Date = 1458.5.6
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1424.1.1 = { capital = 2681 } # Bidar
+
+1436.4.17 = {
+	monarch = {
+		name = "Ala ud-Din Ahmad Shah II"
+		dynasty = "Bahmanid"
+		DIP = 4
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1436.4.17 = {
+	heir = {
+		name = "Ala ud-Din Humayun"
+		monarch_name = "Ala ud-Din Humanyun Shah"
+		dynasty = "Bahmanid"
+		birth_date = 1410.1.1
+		death_Date = 1461.9.4
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1458.5.6 = {
+	monarch = {
+		name = "Ala ud-Din Humayun Shah"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1458.5.6 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		birth_date = 1440.1.1
+		death_date = 1463.7.30
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1461.9.4 = {
+	monarch = {
+		name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1461.9.4 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad Shah III"
+		dynasty = "Bahmanid"
+		birth_date = 1440.1.1
+		death_date = 1482.3.26
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1463.7.30 = {
+	monarch = {
+		name = "Muhammad Shah III"
+		dynasty = "Bahmanid"
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1463.7.30 = {
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah II"
+		dynasty = "Bahmanid"
+		birth_date = 1450.1.1
+		death_date = 1518.12.18
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1482.3.26 = {
+	monarch = {
+		name = "Mahmud Shah II"
+		dynasty = "Bahmanid"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "Qasim I"  #An abstraction to be sure but the state that Mahmud Shah Bahmani pretended to rule really didn't exist anymore...
+		dynasty = "Barid Shahi"
+		DIP = 6
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1489.1.1 = {
+	heir = {
+		name = "Amir"
+		monarch_name = "Amir I"
+		dynasty = "Barid Shahi"
+		birth_date = 1489.1.1
+		death_date = 1542.1.1
+		claim = 95
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah III"
+		dynasty = "Bahmanid"
+		birth_Date = 1490.1.1
+		death_date = 1521.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Amir I"
+		dynasty = "Barid Shahi"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1504.1.1 = {
+	heir = {
+		name = "Ali"
+		monarch_name = "Ali"
+		dynasty = "Barid Shahi"
+		birth_date = 1504.1.1
+		death_date = 1580.1.1
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Ali"
+		dynasty = "Barid Shahi"
+		DIP = 4
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1542.1.1 = {
+	heir = {
+		name = "Ibrahim"
+		monarch_name = "Ibrahim"
+		dynasty = "Barid Shahi"
+		birth_date = 1542.1.1
+		death_date = 1587.1.1
+		claim = 95
+		DIP = 3
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "Barid Shahi"
+		DIP = 3
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Qasim"
+		monarch_name = "Qasim II"
+		dynasty = "Barid Shahi"
+		birth_date = 1548.1.1
+		death_date = 1591.1.1
+		claim = 95
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1587.1.1 = {
+	monarch = {
+		name = "Qasim II"
+		dynasty = "Barid Shahi"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1587.1.1 = {
+	heir = {
+		name = "Ali"
+		monarch_name = "Ali II"
+		dynasty = "Barid Shahi"
+		birth_date = 1587.1.1
+		death_date = 1591.8.1
+		claim = 95
+		DIP = 2
+		ADM = 1
+		MIL = 1
+	}
+}
+
+#Qasims infant son
+
+1591.1.1 = {
+	monarch = {
+		name = "Ali II"
+		dynasty = "Barid Shahi"
+		DIP = 2
+		ADM = 1
+		MIL = 1
+	}
+}
+
+1591.1.1 = {
+	heir = {
+		name = "Amir"
+		monarch_name = "Amir II"
+		dynasty = "Barid Shahi"
+		birth_date = 1560.1.1
+		death_date = 1601.1.1
+		claim = 55
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1591.8.1 = {
+	monarch = {
+		name = "Amir II"
+		dynasty = "Barid Shahi"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+}
+
+1591.8.1 = {
+	heir = {
+		name = "Mirza Ali"
+		monarch_name = "Mirza Ali"
+		dynasty = "Barid Shahi"
+		birth_date = 1570.1.1
+		death_date = 1609.1.1
+		claim = 55
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1601.1.1 = {
+	monarch = {
+		name = "Mirza Ali"
+		dynasty = "Barid Shahi"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1601.1.1 = {
+	heir = {
+		name = "Amir"
+		monarch_name = "Amir III"
+		dynasty = "Barid Shahi"
+		birth_date = 1580.1.1
+		death_date = 1619.1.1
+		claim = 95
+		DIP = 4
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "Amir III"
+		dynasty = "Barid Shahi"
+		DIP = 4
+		ADM = 5
+		MIL = 6
+	}
+}
+
+#Annexed by Bijapur 1619.

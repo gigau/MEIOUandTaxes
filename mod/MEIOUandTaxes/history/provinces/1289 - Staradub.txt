@@ -1,0 +1,66 @@
+# 1289 - Roslavlsky
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SMO
+controller = SMO     
+culture = russian
+religion = orthodox
+hre = no
+base_tax = 2
+trade_goods = wheat    
+#manpower = 2
+manpower = 4
+capital = "Roslavl"
+citysize = 5010
+fort1 = yes
+discovered_by = steppestech
+discovered_by = eastern
+discovered_by = western
+
+1356.1.1  = {
+	add_core = SMO
+	add_core = LIT
+}
+1408.1.1  = {
+	owner = LIT
+	controller = LIT
+}
+1450.1.1  = {
+	citysize = 5450
+}
+1500.1.1  = {
+	citysize = 6412
+}
+1514.1.1  = {
+	owner = MOS
+	controller = MOS
+}
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 7543 }
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 8874 }
+1610.9.27 = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Polish-Lithuanian occupation
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 10440 }
+1667.1.30  = {
+	owner = RUS
+	controller = RUS
+	remove_core = PLC
+} # Truce of Andrusovo
+1670.1.1  = { revolt_risk = 8 } # Stepan Razin
+1671.1.1  = { revolt_risk = 0 } # Razin is captured
+1682.1.1  = { constable = yes }
+1700.1.1  = { citysize = 12283 }
+1711.1.1  = { base_tax = 3 } # Governmental reforms and the absolutism
+1750.1.1  = { citysize = 14450 }
+1767.1.1  = { base_tax = 4 } # Legislative reform
+1800.1.1  = { citysize = 17000 }

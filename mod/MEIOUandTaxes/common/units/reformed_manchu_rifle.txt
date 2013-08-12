@@ -1,0 +1,28 @@
+# Reformed Manchu Rifle
+#Modified for MEIOU by FB 10.02.07
+#tech level 58 c1820
+
+unit_type = chinese
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 8
+#defensive_morale = 6
+#offensive_fire = 6
+#defensive_fire = 5
+#offensive_shock = 7
+#defensive_shock = 4
+#FB
+#offensive_morale = 12
+#defensive_morale = 10
+#offensive_fire = 8
+#defensive_fire = 8
+#offensive_shock = 7
+#defensive_shock = 6
+#Blxz - western morale is 11/11
+offensive_morale = 12
+defensive_morale = 10
+offensive_fire = 11
+defensive_fire = 10
+offensive_shock = 8
+defensive_shock = 8

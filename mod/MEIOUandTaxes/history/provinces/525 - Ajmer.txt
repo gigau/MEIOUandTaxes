@@ -1,0 +1,78 @@
+# 525 - Ajmer
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = dhundari
+religion = hinduism
+capital = "Ajmer"
+trade_goods = copper
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 7000
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = DLH
+}
+1365.1.1  = {
+	owner = MEW
+	controller = MEW
+}
+1390.1.1  = {
+	add_core = MEW
+	remove_core = DLH
+}
+1450.1.1  = { citysize = 8000 }
+1500.1.1  = { citysize = 9000 }
+1530.1.1  = {
+	owner = MUG
+	controller = MUG
+} # Mughal Conquest
+1540.1.1  = {
+	owner = MAW
+	controller = MAW
+} # Rajput again after the fall of Delhi
+1543.1.1  = {
+	owner = BNG
+	controller = BNG
+} # Conquered by Sher Shah Sur
+1550.1.1  = { citysize = 15000 }
+1553.1.1  = {
+	owner = DLH
+	controller = DLH
+} # Split of Suri Empire
+1558.1.1  = { controller = MUG }
+1558.2.1  = { owner = MUG  }
+1600.1.1  = { citysize = 26000 }
+1608.2.1  = { add_core = MUG }
+1650.1.1  = { citysize = 29000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 21000 }
+1707.1.1  = {
+	controller = MEW
+} # Independent
+1707.3.1  = {
+	owner = MAW
+	controller = MAW
+	remove_core = MUG
+} # Independent
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 24000 }
+1756.1.1  = {
+	owner = GWA
+	controller = GWA
+	add_core = GWA
+} # Independent
+1800.1.1  = { citysize = 28000 }
+1818.6.3  = {
+	owner = GBR
+	controller = GBR
+}

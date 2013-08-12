@@ -1,0 +1,392 @@
+# MLC - Malacca
+# MEIOU-FB Indonesia mod changes
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = -2
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = malayan
+religion = theravada
+technology_group = austranesian		#FB was:chinese
+capital = 596	# Selangor
+
+1356.1.1 = {
+	monarch = {
+		name = "Sam Agi"
+		dynasty = "Srivijaya"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1370.1.1 = {
+	heir = {
+		name = "Parameswara"
+		monarch_name = "Parameswara"
+		dynasty = "Srivijaya"
+		birth_date = 1370.1.1
+		death_Date = 1414.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Parameswara"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1402.1.1 = {
+	heir = {
+		name = "Megat Iskandar Shâh"
+		monarch_name = "Megat Iskandar Shâh"
+		dynasty = "Srivijaya"
+		birth_date = 1380.1.1
+		death_date = 1424.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 2
+	government = despotic_monarchy_3
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Megat Iskandar Shâh"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1414.1.1 = {
+	heir = {
+		name = "Muhammad Shâh"
+		monarch_name = "Muhammad Shâh"
+		dynasty = "Srivijaya"
+		birth_date = 1400.1.1
+		death_Date = 1444.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+		
+1424.1.1 = {
+	monarch = {
+		name = "Muhammad Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Abu Syahid"
+		monarch_name = "Abu Syahid"
+		dynasty = "Srivijaya"
+		birth_Date = 1424.1.1
+		death_Date = 1446.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Abu Syahid"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Muzaffar Shâh"
+		monarch_name = "Muzaffar Shâh"
+		dynasty = "Srivijaya"
+		birth_date = 1420.1.1
+		death_Date = 1459.1.1
+		claim = 95
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Muzaffar Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Mansûr Shâh"
+		monarch_name = "Mansûr Shâh"
+		dynasty = "Srivijaya"
+		birth_Date = 1440.1.1
+		death_Date = 1477.10.2
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1458.1.1 = { leader = {	name = "Hang Jebat"            	type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 1477.1.1 } }
+
+1459.1.1 = {
+	monarch = {
+		name = "Mansûr Shâh"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1459.1.1 = {
+	heir = {
+		name = "Ri'âyat Shâh"
+		monarch_name = "Ri'âyat Shâh"
+		dynasty  = "Srivijaya"
+		birth_Date = 1450.1.1
+		death_date = 1488.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 8
+		leader = { name = "Riâyat Shâh"		type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+
+1460.1.1 = { leader = {	name = "Hang Tuah"             	type = admiral	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1488.1.1 } }
+
+1477.10.2 = {
+	monarch = {
+		name = "Ri'âyat Shâh"
+		dynasty = "Srivijaya"
+		adm = 6
+		dip = 4
+		mil = 8
+		leader = { name = "Riâyat Shâh"		type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+
+1477.10.2 = {
+	heir = {
+		name = "Mahmûd Shâh"
+		monarch_name = "Mahmûd Shâh"
+		dynasty = "Srivijaya"
+		birth_Date = 1470.1.1
+		death_date = 1528.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Mahmûd Shâh"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Ri'âyat Shâh"
+		monarch_name = "Ri'âyat Shâh"
+		dynasty = "Srivijaya"
+		birth_Date = 1488.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1511.1.1 = { leader = {	name = "Hang Nadim"            	type = admiral	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1528.1.1 } }
+
+1528.1.1 = {
+	monarch = {
+		name = "Ri'âyat Shâh"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Muzaffar Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "'Abd al-Jalîl Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Ri'âyat Shâh II"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1613.1.1 = {
+	monarch = {
+		name = "Ma'ayat Shâh "
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "'Abd al-Jalîl Shâh II"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 8
+		mil = 8
+		leader = {	name = "Abd Jalîl Shâh II"     	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1 }
+	}
+}
+
+1677.1.1 = {
+	monarch = {
+		name = "Ibrâhîm Shâh "
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1685.2.15 = {
+	monarch = {
+		name = "Mahmûd Shâh"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1699.1.1 = {
+	monarch = {
+		name = "Ri'âyat Shâh"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Rahmat Shâh"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Sulaymân Badr Shâh"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Mu'azzam Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Mahmûd Ri'âyat Shâh"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "'Abd ar-Rahmân Shâh"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

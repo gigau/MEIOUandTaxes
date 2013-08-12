@@ -1,0 +1,54 @@
+# 939 - Onondaga
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = iroquois
+religion = midewiwin
+capital = "Onondaga"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 5
+
+1669.1.1  = {
+	discovered_by = FRA
+} # René Robert Cavelier, Sieur de La Salle
+1758.1.1   = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	capital = "Fort Schuyler"
+	citysize = 500
+	religion = anglican
+	culture = american
+	trade_goods = fur
+	base_tax = 3
+#	manpower = 3
+	manpower = 6
+	set_province_flag = trade_good_set
+	fort1 = yes
+}
+1773.1.1   = {
+	capital = "Utica"
+	add_core = GBR
+	add_core = USA
+	citysize = 2000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 0 }
+	revolt_risk = 9
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies

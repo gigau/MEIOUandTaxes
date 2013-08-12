@@ -1,0 +1,73 @@
+# 520 - Hadoti
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MEW					#Really controlled by Bundi kingdom in close marriage alliance with the Sisodiyas of Mewar.
+controller = MEW			#Really controlled by Bundi kingdom in close marriage alliance with the Sisodiyas of Mewar.
+culture = harauti
+religion = hinduism
+capital = "Kota"
+trade_goods = cotton
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 22800
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = HDT
+	add_core = MEW
+}
+1400.1.1  = { citysize = 23840 }
+1450.1.1  = { citysize = 25000 }
+1455.1.1  = {
+	controller = MLW
+} # Conquest by Malwa
+1456.1.1  = {
+	owner = MLW
+} # Conquest by Malwa
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 27000 }
+1531.1.1  = {
+	controller = REB
+	revolt = { type = nationalist_rebels size = 3 }
+}
+1532.1.1  = {
+	controller = MEW
+	owner = MEW
+	revolt = { }
+}
+1543.1.1  = {
+	owner = BNG
+	controller = BNG
+} # Sur expansion
+1550.1.1  = { citysize = 29000 }
+1553.1.1  = {
+	owner = HDT
+	controller = HDT
+} # Independent
+1569.3.1  = { controller = MUG } # Falls to Akbar
+1569.5.1  = { owner = MUG } # Annexed by Mughals
+1600.1.1  = { citysize = 31000 }
+1619.5.1  = { add_core = MUG }
+1650.1.1  = { citysize = 35000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 37000 }
+1707.5.12 = { discovered_by = GBR }
+1741.1.1  = { controller = GWA }	#Maratha expansion
+1743.1.1  = {
+	owner = GWA
+	add_core = GWA
+	remove_core = MUG
+} # Marathas
+1750.1.1  = { citysize = 39000 }
+1800.1.1  = { citysize = 41000 }
+1817.1.1  = {
+	owner = HDT
+	controller = HDT
+	remove_core = GWA
+} # Independent (british dependency)

@@ -1,0 +1,79 @@
+# 2690 - Tirhut
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = bihari
+religion = hinduism
+capital = "Sugauna"
+trade_goods = cotton
+hre = no
+base_tax = 9
+#manpower = 14
+manpower = 28
+citysize = 21000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = TRT
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = TRT
+	controller = TRT
+	revolt_risk = 0
+} #guessed date for independance from Delhi Sultanate
+1450.1.1  = { citysize = 22000 }
+1497.1.1  = {
+	controller = DLH
+}
+1498.1.1  = {
+	controller = TRT
+}
+1500.1.1  = { citysize = 24000 }
+1524.1.1  = {
+	controller = BNG
+}
+1524.3.1  = {
+	owner = BNG
+	capital = "Darbhanga"
+}
+1529.1.1  = {
+	revolt = { type = pretender_rebels }
+} # Sur control
+1538.1.1  = {
+	controller = BNG
+	revolt = { }
+} # Gaur has fallen
+1538.6.1  = {
+	controller = MUG
+} # Mughal Invasion
+1539.1.1  = {
+	controller = BNG
+} # Surs again in control
+1550.1.1  = { citysize = 25000 }
+1560.1.1  = { marketplace = yes }
+1575.1.1  = {
+	owner = MUG
+	controller = MUG
+  	add_core = MUG
+} # Annexed to the Mughal Empire
+1600.1.1  = { citysize = 28000 }
+1627.1.1  = { discovered_by = POR }
+1650.1.1  = { citysize = 30000 }
+1700.1.1  = { citysize = 34000 }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+}
+1750.1.1  = { citysize = 32000 }
+1765.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # Given to GBR by Mughal Empire (was formerly british puppet)
+1800.1.1  = { citysize = 36000 }

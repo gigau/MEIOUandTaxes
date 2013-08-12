@@ -1,0 +1,59 @@
+# 1331 - ayn Al Qusaymah
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = shami
+religion = sunni
+capital = " Bi'r Al-Saba"
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 15000
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = MAM
+	add_core = SYR
+}
+1500.1.1 = {
+	citysize = 16000
+}
+1516.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = MAM
+}
+1550.1.1 = {
+	citysize = 17000
+}
+1600.1.1 = {
+	citysize = 18000
+}
+1650.1.1 = {
+	citysize = 19000
+}
+1700.1.1 = {
+	citysize = 20000
+}
+1750.1.1 = {
+	citysize = 25000
+}
+1800.1.1 = {
+	citysize = 30000
+}
+#1831.1.1 = {
+#	controller = EGY
+#}
+#1833.6.1 = {
+#	owner = EGY
+#}

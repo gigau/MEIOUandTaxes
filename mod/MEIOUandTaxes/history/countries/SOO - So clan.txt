@@ -1,0 +1,349 @@
+# SOO - So clan
+# LS-GG Japanese Civil War
+
+government = japan_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 0
+primary_culture = kyushu
+religion = shinbutsu
+technology_group = chinese
+capital = 1021		# Tsushima island
+
+1349.1.1 = {
+	monarch = {
+		name = "Tsuneshige"
+		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1366.1.1 = {
+	monarch = {
+		name = "Sumishige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Yorishige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	set_country_flag = cav_country
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Sadashige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Sadamori"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1452.1.1 = {
+	monarch = {
+		name = "Shigemoto"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Sadakuni"
+		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Kimori"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Yoshimori"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Morinaga"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1525.1.1 = {
+	set_country_flag = mixed_country
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Masamori"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1539.1.1 = {
+	monarch = {
+		name = "Haruyasu"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.8.25 = {
+	set_country_flag = first_contactj
+	set_country_flag = fc_notified
+}
+
+1553.1.1 = {
+	monarch = {
+		name = "Yoshishige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Shigehisa"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1569.1.1 = {
+	monarch = {
+		name = "Yoshizumi"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Terukage"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1589.1.1 = {
+	monarch = {
+		name = "Yoshishige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Yoshitoshi"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "So Yoshinari"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1657.1.1 = {
+	monarch = {
+		name = "Yoshizane"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1692.1.1 = {
+	monarch = {
+		name = "Yoshitsugu"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1694.1.1 = {
+	monarch = {
+		name = "Yoshimichi"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1718.1.1 = {
+	monarch = {
+		name = "Yoshinobu"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Michihiro"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Yoshiyuki"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Yoshishige"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Yoshinaga"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "So Yoshikatsu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1785.1.1 = {
+	monarch = {
+		name = "Yoshikatsu"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "Yoshitada"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1838.1.1 = {
+	monarch = {
+		name = "Yoshiaya"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1842.1.1 = {
+	monarch = {
+		name = "Yoshinori"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1862.1.1 = {
+	monarch = {
+		name = "Yoshiaki"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1872.1.1 = {
+	monarch = {
+		name = "Shigemochi"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1923.1.1 = {
+	monarch = {
+		name = "Takeyuki"		dynasty = "So"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+

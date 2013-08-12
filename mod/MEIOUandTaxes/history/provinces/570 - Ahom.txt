@@ -1,0 +1,33 @@
+# 570 - Ahom
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DMS
+controller = DMS
+culture = assamese
+religion = sarna_dharam
+capital = "Dimapur"
+trade_goods = rice
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 12000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1 = { add_core = DMS }
+1450.1.1 = { citysize = 13000 }
+1500.1.1 = { citysize = 15000 }
+1526.2.1 = { controller = ASS }
+1531.1.1 = { owner = ASS }
+1550.1.1 = { citysize = 16000 }
+1581.1.1 = { add_core = ASS }
+1600.1.1 = { citysize = 18000 }
+1650.1.1 = { citysize = 20000 }
+1700.1.1 = { citysize = 23000 }
+1750.1.1 = { citysize = 25000 }
+1770.1.1 = { revolt_risk = 8 } # Moamoria rebellion
+1800.1.1 = { citysize = 28000 }
+1806.1.1 = { revolt_risk = 0 }

@@ -1,0 +1,630 @@
+# KMN - Kumaon
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+primary_culture = panjabi
+religion = hinduism
+capital = 523
+# historical_friend = VIJ
+
+1365.1.1 = {
+	monarch = {
+		name = "Garud Gyand"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Harihar"
+		monarch_name = "Harihar"
+		dynasty = "Chand"
+		birth_Date = 1370.1.1
+		death_Date = 1419.6.1
+		claim = 95
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Harihar"
+		dynasty = "Chand"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+	heir = {
+		name = "Udyan"
+		monarch_name = "Udyan"
+		dynasty = "Chand"
+		birth_Date = 1390.1.1
+		death_Date = 1421.1.1
+		claim = 95
+		DIP = 3
+		ADM = 4
+		MIL = 5
+	}
+}
+
+
+1419.6.1 = {
+	monarch = {
+		name = "Udyan"
+		dynasty = "Chand"
+		DIP = 3
+		ADM = 4
+		MIL = 5
+	}
+	heir = {
+		name = "Atma"
+		monarch_name = "Atma"
+		dynasty = "Chand"
+		birth_Date = 1390.1.1
+		death_Date = 1423.1.1
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Atma"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Vikram"
+		monarch_name = "Atma"
+		dynasty = "Chand"
+		birth_Date = 1395.1.1
+		death_Date = 1437.1.1
+		claim = 95
+		DIP = 5
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Vikram"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 3
+		MIL = 4
+	}
+	heir = {
+		name = "Bharati"
+		monarch_name = "Bharati"
+		dynasty = "Chand"
+		birth_Date = 1405.1.1
+		death_Date = 1461.1.1	#But abdicatesin favour of his son in 1450
+		claim = 95
+		DIP = 6
+		ADM = 5
+		MIL = 7
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Bharati"
+		dynasty = "Chand"
+		DIP = 6
+		ADM = 5
+		MIL = 7
+	}
+	heir = {
+		name = "Rattan"
+		monarch_name = "Rattan"
+		dynasty = "Chand"
+		birth_Date = 1437.1.1
+		death_Date = 1488.1.1
+		claim = 95
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Rattan"
+		dynasty = "Chand"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+	# centralization_decentralization = -2
+	heir = {
+		name = "Kirati"
+		monarch_name = "Kirati"
+		dynasty = "Chand"
+		birth_Date = 1450.1.1
+		death_Date = 1503.1.1
+		claim = 95
+		DIP = 5
+		ADM = 6
+		MIL = 6
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Kirati"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 6
+		MIL = 6
+	}
+	heir = {
+		name = "Partap"
+		monarch_name = "Partap"
+		dynasty = "Chand"
+		birth_Date = 1488.1.1
+		death_Date = 1517.1.1
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1503.1.1 = {
+	monarch = {
+		name = "Partap"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Tara"
+		monarch_name = "Tara"
+		dynasty = "Chand"
+		birth_Date = 1503.1.1
+		death_Date = 1533.1.1
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Tara"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+	heir = {
+		name = "Manik"
+		monarch_name = "Manik"
+		dynasty = "Chand"
+		birth_Date = 1517.1.1
+		death_Date = 1542.1.1
+		claim = 95
+		DIP = 6
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1533.1.1 = {
+	monarch = {
+		name = "Manik"
+		dynasty = "Chand"
+		DIP = 6
+		ADM = 4
+		MIL = 3
+	}
+	heir = {
+		name = "Kalyan"
+		monarch_name = "Kalyan"
+		dynasty = "Chand"
+		birth_Date = 1530.1.1
+		death_Date = 1551.1.1
+		claim = 95
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Kalyan"
+		dynasty = "Chand"
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+	heir = {
+		name = "Puran"
+		monarch_name = "Puran"
+		dynasty = "Chand"
+		birth_Date = 1517.1.1
+		death_Date = 1555.1.1
+		claim = 95
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+
+
+1551.1.1 = {
+	monarch = {
+		name = "Puran"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Bhisma"
+		monarch_name = "Bhisma"
+		dynasty = "Chand"
+		birth_Date = 1530.1.1
+		death_Date = 1555.1.1
+		claim = 95
+		DIP = 4
+		ADM = 6
+		MIL = 4
+	}
+}
+
+
+1555.1.1 = {
+	monarch = {
+		name = "Bhisma"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 6
+		MIL = 4
+	}
+	heir = {
+		name = "Balo"
+		monarch_name = "Balo Kalyan"
+		dynasty = "Chand"
+		birth_Date = 1545.1.1
+		death_Date = 1565.1.1
+		claim = 95
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+}
+
+
+1560.1.1 = {
+	monarch = {
+		name = "Balo Kalyan"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 6
+		MIL = 5
+	}
+	heir = {
+		name = "Rudra"
+		monarch_name = "Rudra"
+		dynasty = "Chand"
+		birth_Date = 1555.1.1
+		death_Date = 1597.1.1
+		claim = 95
+		DIP = 8
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Rudra"
+		dynasty = "Chand"
+		DIP = 8
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Lakshmi"
+		monarch_name = "Lakshmi"
+		dynasty = "Chand"
+		birth_Date = 1580.1.1
+		death_Date = 1621.1.1
+		claim = 95
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Lakshmi"
+		dynasty = "Chand"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1597.1.1 = {
+	heir = {
+		name = "Dalip"
+		monarch_name = "Dalip"
+		dynasty = "Chand"
+		birth_Date = 1597.1.1
+		death_Date = 1624.1.1
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1621.1.1 = {
+	monarch = {
+		name = "Dalip"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1621.1.1 = {
+	heir = {
+		name = "Bijai"
+		monarch_name = "Bijai"
+		dynasty = "Chand"
+		birth_Date = 1605.1.1
+		death_Date = 1625.1.1
+		claim = 95
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1624.1.1 = {
+	monarch = {
+		name = "Bijai"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1624.1.1 = {
+	heir = {
+		name = "Tirmal"
+		monarch_name = "Tirmal"
+		dynasty = "Chand"
+		birth_Date = 1605.1.1
+		death_Date = 1638.1.1
+		claim = 65
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1625.1.1 = {
+	monarch = {
+		name = "Tirmal"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 4
+		MIL = 3
+	}
+}
+
+1625.1.1 = {
+	heir = {
+		name = "Baz Bahadur"
+		monarch_name = "Baz Bahadur"
+		dynasty = "Chand"
+		birth_Date = 1605.1.1
+		death_Date = 1678.1.1
+		claim = 95
+		DIP = 6
+		ADM = 4
+		MIL = 7
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Baz Bahadur"
+		dynasty = "Chand"
+		DIP = 6
+		ADM = 4
+		MIL = 7
+	}
+}
+
+1638.1.1 = {
+	heir = {
+		name = "Udyot"
+		monarch_name = "Udyot"
+		dynasty = "Chand"
+		birth_Date = 1630.1.1
+		death_Date = 1698.1.1
+		claim = 95
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Udyot"
+		dynasty = "Chand"
+		DIP = 6
+		ADM = 5
+		MIL = 5
+	}
+}
+
+
+1678.1.1 = {
+	heir = {
+		name = "Gyan"
+		monarch_name = "Gyan"
+		dynasty = "Chand"
+		birth_Date = 1670.1.1
+		death_Date = 1708.1.1
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Gyan"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1698.1.1 = {
+	heir = {
+		name = "Jagat"
+		monarch_name = "Jagat"
+		dynasty = "Chand"
+		birth_Date = 1688.1.1
+		death_Date = 1720.1.1
+		claim = 95
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1708.1.1 = {
+	monarch = {
+		name = "Jagat"
+		dynasty = "Chand"
+		DIP = 5
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1708.1.1 = {
+	heir = {
+		name = "Devi"
+		monarch_name = "Devi"
+		dynasty = "Chand"
+		birth_Date = 1700.1.1
+		death_Date = 1726.1.1
+		claim = 95
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Devi"
+		dynasty = "Chand"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+1720.1.1 = {
+	heir = {
+		name = "Kalyan"
+		monarch_name = "Kalyan"
+		dynasty = "Chand"
+		birth_Date = 1710.1.1
+		death_Date = 1747.1.1
+		claim = 65
+		DIP = 3
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1726.1.1 = {
+	monarch = {
+		name = "Kalyan"
+		dynasty = "Chand"
+		DIP = 3
+		ADM = 3
+		MIL = 4
+	}
+}
+
+
+1726.1.1 = {
+	heir = {
+		name = "Dip"
+		monarch_name = "Dip"
+		dynasty = "Chand"
+		birth_Date = 1720.1.1
+		death_Date = 1754.1.1
+		claim = 65
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1747.1.1 = {
+	monarch = {
+		name = "Dip"
+		dynasty = "Chand"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1779.1.1 = {
+	monarch = {
+		name = "Parduman"
+		dynasty = "Parmar"
+		DIP = 3
+		ADM = 4
+		MIL = 5
+	}
+}

@@ -1,0 +1,73 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = VER
+controller = VER
+culture = venetian 
+religion = catholic
+capital = "Verona"
+
+base_tax = 9 
+#manpower = 6  
+manpower = 12  
+citysize = 35000 # Estimated      
+trade_goods = glassware 
+      
+fort1 = yes 
+temple = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes 
+
+1356.1.1   = {
+	citysize = 40000
+	add_core = VER
+	add_core = VEN
+	add_core = MLO
+}
+1387.1.1   = { controller = MLO owner = MLO remove_core = VER }
+1399.1.1   = { citysize = 45000 }
+1405.1.1   = { controller = VEN owner = VEN remove_core = MLO }
+1453.1.1   = { citysize = 50000 }
+1500.1.1   = { citysize = 58000 }
+1508.12.10 = { add_core = HAB } # War of the League of Cambrai 
+1509.6.1   = { controller = HAB } # Venice collapses
+1516.12.1  = { controller = VEN  remove_core = HAB } # Treaty of Brussels
+1550.1.1   = { citysize = 73000 } 
+1600.1.1   = { citysize = 86000 } 
+1618.1.1  =  { hre = no }
+1650.1.1   = { citysize = 55000 marketplace = yes } 
+1700.1.1   = { citysize = 67000 } 
+1750.1.1   = { citysize = 71000 }
+1796.11.15 = {
+	owner = ITC
+	controller = ITC
+	add_core = ITC
+	remove_core = HAB
+} # Transpadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITC
+} # Cisalpine Republic
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	remove_core = HAB
+}

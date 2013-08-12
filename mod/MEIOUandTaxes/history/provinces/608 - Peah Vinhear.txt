@@ -1,0 +1,36 @@
+# 608 - Tuol Basan  #### change localisation file
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = theravada
+capital = "Tuol Basan"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000	  
+trade_goods = rice ####
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1450.1.1 = { citysize = 5000 }
+1500.1.1 = { citysize = 5000 }
+1550.1.1 = { citysize = 5000 }
+1600.1.1 = { citysize = 6500 }
+1650.1.1 = { citysize = 7540 }
+1700.1.1 = { citysize = 8000 }
+1750.1.1 = { citysize = 8400 }
+1800.1.1 = { citysize = 8800 }
+1867.1.1 = { 			
+	owner = FRA
+	controller = FRA
+}

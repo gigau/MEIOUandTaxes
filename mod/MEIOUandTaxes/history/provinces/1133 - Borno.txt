@@ -1,0 +1,20 @@
+# 1133 - Borno
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanouri		
+religion = sunni		 
+capital = "Borno"
+fort1 = yes
+hre = no
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = pepper
+
+discovered_by = soudantech

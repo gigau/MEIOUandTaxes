@@ -1,0 +1,42 @@
+# 2291 - Echigo
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = USG
+controller = USG
+culture = chubu
+religion = shinbutsu
+capital = "Kasugayama"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 13800
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = USG
+}
+1400.1.1   = { citysize = 14500 }
+1450.1.1   = { citysize = 15340 }
+1500.1.1   = { citysize = 17665 }
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 19200 }
+1600.1.1   = { citysize = 21560 }
+1600.9.15  = {
+	owner = DTE
+	controller = DTE
+} # Battle of Sekigahara
+1630.1.1   = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1   = { citysize = 23300 }
+1700.1.1   = { citysize = 25534 }
+1750.1.1   = { citysize = 27570 }
+1800.1.1   = { citysize = 29800 }

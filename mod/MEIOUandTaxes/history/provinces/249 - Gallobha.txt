@@ -1,0 +1,38 @@
+#249 - Ayrshire
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SCO
+controller = SCO
+culture = lowland_scottish
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = lumber
+#manpower = 2
+manpower = 4
+capital = "Ayr"
+citysize = 7500
+add_core = SCO
+fort1 = yes
+terrain1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1   = { set_province_flag = terrain1 }
+1560.8.1  = { religion = reformed }
+1600.1.1  = { citysize = 10000 capital = "Glasgow" marketplace = yes fort2 = yes } #marketplace Estimated
+1645.8.1  = { controller = REB } #Estimated
+1645.9.13 = { controller = SCO } #Battle of Philiphaugh
+1651.4.1  = { controller = ENG }
+1652.4.21 = { controller = SCO } #Union of Scotland and the COmmonwealth
+1700.1.1  = { citysize = 13000 }
+1707.5.12 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}
+1750.1.1  = { citysize = 25000 workshop = yes mint = yes } #workshop, Tax Assessor Estimated
+1775.1.1  = { constable = yes customs_house = yes } #Estimated
+1780.1.1  = { shipyard = yes }
+1800.1.1  = { citysize = 77000 }

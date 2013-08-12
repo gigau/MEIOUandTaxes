@@ -1,0 +1,37 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = POR
+controller = POR
+culture = portugese
+religion = catholic
+capital = "Lisboa"
+trade_goods = naval_supplies
+hre = no
+cot = yes
+base_tax = 10
+#manpower = 4
+manpower = 8
+citysize = 50000
+add_core = POR
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+marketplace = yes
+temple = yes
+discovered_by = eastern
+
+1500.1.1   = { citysize = 62000 fine_arts_academy = yes }
+1520.1.1   = { constable = yes }
+1550.1.1   = { citysize = 100000 customs_house = yes }
+1580.8.25  = { controller = SPA }
+1580.8.26  = { controller = POR }
+1600.1.1   = { citysize = 150000 }
+1640.1.1   = { revolt_risk = 8 } # Revolt headed by John of Bragança
+1640.12.1  = { revolt_risk = 0 }
+1650.1.1   = { citysize = 180000 courthouse = yes }
+1700.1.1   = { citysize = 205000 mint = yes }
+1750.1.1   = { citysize = 249000 }
+1755.11.1  = { citysize = 208000 } # Lisbon earthquake 
+1800.1.1   = { citysize = 230000 }
+1807.12.1  = { controller = RFR } # Occupied by France
+1808.8.30  = { controller = POR }
+1810.5.10  = { fort2 = yes fort3 = yes } # Lines of Torres Vedras

@@ -1,0 +1,65 @@
+# 1339 - Matruh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = egyptian
+religion = sunni
+capital = "Marsa Matruh"
+trade_goods = millet
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5000
+fort1 = yes
+
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = MAM
+	add_core = EGY
+}
+1500.1.1 = {
+	citysize = 26000
+}
+1516.1.1 = { add_core = TUR remove_core = MAM } # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1517.1.1   = {
+	owner = TUR
+	controller = TUR
+} # Conquered by Ottoman troops
+1550.1.1 = {
+	citysize = 7000
+}
+1600.1.1 = {
+	citysize = 8000
+}
+1650.1.1 = {
+	citysize = 9000
+}
+1700.1.1 = {
+	citysize = 10000
+}
+1750.1.1 = {
+	citysize = 11000
+}
+1800.1.1 = {
+	citysize = 12000
+}
+1802.5.13  = {
+	controller = TUR
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

@@ -1,0 +1,49 @@
+# 1276 - Trencín
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = slovak
+religion = catholic
+capital = "Trencín"
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 7100
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 8020
+}
+1526.8.30  = {
+	owner = RHU
+	add_core = RHU
+	controller = RHU
+	add_core = HAB
+}
+1550.1.1   = {
+	citysize = 8000
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1710.1.1   = {
+	citysize = 6400
+} # A plague spreads in the town
+1790.1.1   = {
+	fort1 = no
+} # The town, along with the castle, burns down

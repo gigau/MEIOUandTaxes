@@ -1,0 +1,196 @@
+# DUL - Dulkadir
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 1
+# secularism_theocracy = 2
+primary_culture = yorouk
+religion = sunni
+technology_group = turkishtech
+unit_type = muslim
+capital = 329	# Sivas
+
+1353.11.13 = {
+	monarch = {
+		name = "Ghars ad-Din Khalil"
+		dynasty = Dulkadiroglu
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1386.1.1 = {
+	monarch = {
+		name = "Sha'ban Suli"
+		dynasty = Dulkadiroglu
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Sadaqa"
+		dynasty = Dulkadiroglu
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Nasr ad-Din Muhammad"
+		dynasty = Dulkadiroglu
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1442.1.1 = {
+	monarch = {
+		name = "Sulaymân Beg"
+		dynasty = Dulkadiroglu
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Malik"
+		monarch_name = "Malik Arslân Beg"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1399.1.1
+		death_date = 1465.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Malik Arslân Beg"
+		dynasty = Dulkadiroglu
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Bûdâq"
+		monarch_name = "Bûdâq Beg"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1430.1.1
+		death_date = 1465.10.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Bûdâq Beg"
+		dynasty = Dulkadiroglu
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Shâhsuwâr"
+		monarch_name = "Shâhsuwâr"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1430.1.1
+		death_date = 1472.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1465.10.1 = {
+	monarch = {
+		name = "Shâhsuwâr"
+		dynasty = Dulkadiroglu
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Bûdâq"
+		monarch_name = "Bûdâq Beg"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1450.1.1
+		death_date = 1479.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Bûdâq Beg"
+		dynasty = Dulkadiroglu
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "'Alâ' ad-Dîn Buzqûrd"
+		monarch_name = "'Alâ' ad-Dîn Buzqûrd"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1460.1.1
+		death_date = 1515.6.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Buzqûrd"
+		dynasty = Dulkadiroglu
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî Beg II"
+		dynasty = "Dulkadiroglu"
+		birth_date = 1479.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1515.6.1 = {
+	monarch = {
+		name = "'Alî Beg II"
+		dynasty = Dulkadiroglu
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

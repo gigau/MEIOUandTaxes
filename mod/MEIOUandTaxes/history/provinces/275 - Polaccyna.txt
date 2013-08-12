@@ -1,0 +1,56 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PLT 
+controller = PLT 
+culture = lithuanian
+religion = orthodox 
+hre = no
+base_tax = 5
+trade_goods = copper
+#manpower = 3
+manpower = 6
+capital = "Polack"
+citysize = 22000 
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = LIT
+	add_core = PLT
+}
+1377.1.1 = {
+	owner = LIT 
+	controller = LIT
+}
+1480.1.1   = { marketplace = yes } # Main center of trade in the state.
+1500.1.1   = { citysize = 25300 }
+1503.1.1   = { temple = yes } # Cathedral of Saint Sophia, established 1044 - 1066
+1550.1.1   = { citysize = 29095 fort2 = yes }
+1563.2.15  = { controller = RUS } # Captured by Ivan the Terrible, during the Livonian war
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1600.1.1   = { citysize = 33459 } 
+1623.1.1   = { revolt_risk = 4 } # Iosafat Kuntsevich overthrown and drowned
+1624.1.1   = { revolt_risk = 0 }
+1650.1.1   = { fort3 = yes citysize = 38478 }
+1700.1.1   = { citysize = 20000 } # After the devastating wars with Muscovy
+1750.1.1   = { citysize = 12000 } # Russian wars
+1772.8.5   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = PLC
+	culture = byelorussian
+} # First partition
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising, minimize the Russian influence
+1794.11.16 = { revolt_risk = 0 }
+1795.10.1  = {
+	add_core = LIT
+	remove_core = PLC
+}
+1800.1.1   = { citysize = 9000 }

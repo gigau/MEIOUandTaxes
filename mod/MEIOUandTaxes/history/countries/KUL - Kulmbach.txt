@@ -1,0 +1,394 @@
+# KUL - Kulmbach
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = eastfranconian
+religion = catholic
+capital = 72
+
+1332.1.1 = {
+	monarch = {
+		name = "Johann II"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 5
+    	}
+	heir = {
+		name = "Frederick"
+		monarch_name = "Frederick"
+		dynasty = "von Hohenzollern"
+		birth_date = 1332.1.1
+		death_date = 1398.1.21
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1358.1.1 = {
+	monarch = {
+		name = "Frederick"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 5
+    	}
+}
+
+1369.1.1 = {
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann III"
+		dynasty = "von Hohenzollern"
+		birth_date = 1369.1.1
+		death_date = 1420.6.11
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1398.1.21 = {
+	monarch = {
+		name = "Johann III"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 6
+    	}
+	heir = {
+		name = "Frederick"
+		monarch_name = "Frederick II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1371.9.21
+		death_date = 1440.9.21
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1420.6.11 = {
+	monarch = {
+		name = "Frederick II"
+		dynasty = "von Hohenzollern"
+		adm = 6
+		dip = 6
+		mil = 8
+    	}
+	heir = {
+		name = "Johann"
+		monarch_name = "Johann IV"
+		dynasty = "von Hohenzollern"
+		birth_date = 1406.1.1
+		death_date = 1464.11.16
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}#Frederick I, Elector of Brandenburg
+
+1440.9.21 = {
+	monarch = {
+		name = "Johann IV"
+		dynasty = "von Hohenzollern"
+		adm = 6
+		dip = 6
+		mil = 4
+    	}
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1486.3.11
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+}#John "the Alchemist"
+#John the Alchemist renounced his rights in 1457, whereupon Kulmbach (Bayreuth) passed to his brother, Albert Achilles, the Margrave of Brandenburg
+
+1458.1.1 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 8
+    	}
+}
+
+1468.9.27 = {
+	heir = {
+		name = "Siegmund"
+		monarch_name = "Siegmund"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1495.2.26
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1486.3.11 = {
+	monarch = {
+		name = "Siegmund"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 5
+    	}
+}
+
+1495.2.26 = {
+	monarch = {
+		name = "Friedrich III"
+		DIP = 5
+		dynasty = "von Hohenzollern"
+		adm = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Casimir"
+		monarch_name = "Casimir"
+		dynasty = "von Hohenzollern"
+		birth_date = 1481.12.27
+		death_date = 1527.9.21
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}#Frederick I, Margrave of Brandenburg-Ansbach
+
+1515.1.1 = {
+	monarch = {
+		name = "Casimir"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 5
+    	}
+}
+
+1522.3.28 = {
+	heir = {
+		name = "Albert"
+		monarch_name = "Albert Alcibiades"
+		dynasty = "von Hohenzollern"
+		birth_date = 1522.3.28
+		death_date = 1557.1.8
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+}
+
+1527.9.21 = {
+	monarch = {
+		name = "Albert Alcibiades"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		dip = 5
+		mil = 8
+    	}
+}#Margrave of Brandenburg-Kulmbach d.1557.1.8
+
+1539.4.5 = {
+	heir = {
+		name = "Georg Friedrich"
+		monarch_name = "Georg Friedrich"
+		dynasty = "von Hohenzollern"
+		birth_date = 1539.4.5
+		death_date = 1603.4.25
+		claim = 95
+		adm = 8
+		DIP = 6
+		MIL = 5
+	}
+}
+
+1543.12.27 = {
+	monarch = {
+		name = "Georg Friedrich"
+		dynasty = "von Hohenzollern"
+		adm = 8
+		DIP = 6
+		MIL = 5
+	}
+}#also Margrave of Brandenburg-Ansbach
+
+1556.4.19 = {
+	religion = protestant
+	# secularism_theocracy = -1
+}
+
+1581.1.30 = {
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian"
+		dynasty = "von Hohenzollern"
+		birth_date = 1581.1.30
+		death_date = 1655.5.30
+		claim = 95
+		adm = 5
+		DIP = 5
+		MIL = 5
+	}
+}
+
+1603.4.25 = {
+	monarch = {
+		name = "Christian"
+		dynasty = "von Hohenzollern"
+		adm = 5
+		DIP = 5
+		MIL = 5
+	}
+}
+
+1644.8.6 = {
+	heir = {
+		name = "Christian Ernst"
+		monarch_name = "Christian Ernst"
+		dynasty = "von Hohenzollern"
+		birth_date = 1644.8.6
+		death_date = 1712.5.20
+		claim = 95
+		adm = 3
+		DIP = 5
+		MIL = 6
+	}
+}
+
+1655.5.30 = {
+	monarch = {
+		name = "Christian Ernst"
+		dynasty = "von Hohenzollern"
+		adm = 3
+		DIP = 5
+		MIL = 6
+	}
+}#Brandenburg-Kulmbach renamed Brandenburg-Bayreuth
+
+1678.11.26 = {
+	heir = {
+		name = "Georg Wilhelm"
+		monarch_name = "Georg Wilhelm"
+		dynasty = "von Hohenzollern"
+		birth_date = 1678.11.26
+		death_date = 1726.12.18
+		claim = 95
+		adm = 7
+		DIP = 5
+		MIL = 7
+	}
+}
+
+1712.5.20 = {
+	monarch = {
+		name = "Georg Wilhelm"
+		dynasty = "von Hohenzollern"
+		adm = 7
+		DIP = 5
+		MIL = 7
+	}
+}
+
+1726.12.18 = {
+	monarch = {
+		name = "Georg Frederick Karl"
+		dynasty = "von Hohenzollern"
+		adm = 7
+		DIP = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Frederick"
+		monarch_name = "Frederick"
+		dynasty = "von Hohenzollern"
+		birth_date = 1711.5.10
+		death_date = 1763.2.26
+		claim = 95
+		adm = 7
+		DIP = 7
+		MIL = 5
+	}
+}
+
+1735.5.17 = {
+	monarch = {
+		name = "Frederick"
+		dynasty = "von Hohenzollern"
+		adm = 7
+		DIP = 7
+		MIL = 5
+	}
+	heir = {
+		name = "Frederick Christian"
+		monarch_name = "Frederick Christian"
+		dynasty = "von Hohenzollern"
+		birth_date = 1708.7.17
+		death_date = 1769.1.20
+		claim = 95
+		adm = 4
+		DIP = 4
+		MIL = 5
+	}
+}
+
+1763.2.26 = {
+	monarch = {
+		name = "Frederick Christian"
+		dynasty = "von Hohenzollern"
+		adm = 4
+		DIP = 4
+		MIL = 5
+	}
+	heir = {
+		name = "Karl Alexander"
+		monarch_name = "Karl Alexander"
+		dynasty = "von Hohenzollern"
+		birth_date = 1736.2.24
+		death_date = 1806.1.5
+		claim = 95
+		adm = 8
+		DIP = 6
+		MIL = 4
+	}
+}
+
+1769.1.20 = {
+	monarch = {
+		name = "Karl Alexander"
+		dynasty = "von Hohenzollern"
+		adm = 8
+		DIP = 6
+		MIL = 4
+	}
+} #also Margrave of Brandenburg-Ansbach
+
+#Merged with Prussia 1791.12.2

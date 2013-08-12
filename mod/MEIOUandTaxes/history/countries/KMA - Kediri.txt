@@ -1,0 +1,39 @@
+# Country: Kediri
+# file name: KMA - Kediri
+# MEIOU-FB Indonesia mod v3 - for IN+JV
+# Kediri is used to represent Kediri + Malang
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 1
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 1
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = javan
+religion = hinduism
+technology_group = austranesian
+capital = 626	# Kediri
+
+1337.1.1 = {
+	monarch = {
+		name = "Kertajaya"
+		dynasty = "Chandrakapala"  
+		adm = 5
+		dip = 5
+		mil = 5
+	}#Kertajaya ruled Kediri c1200
+}
+
+1550.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 1
+	government = despotic_monarchy_3
+}

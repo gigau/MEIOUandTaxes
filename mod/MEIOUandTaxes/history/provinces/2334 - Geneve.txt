@@ -1,0 +1,48 @@
+# 2334 - Genève
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNV
+controller = GNV  
+culture = arpitan
+religion = catholic
+capital = "Genève"
+trade_goods = livestock
+hre = yes
+base_tax = 9
+#manpower = 7
+manpower = 14
+citysize = 2000
+fort2 = yes
+add_core = GNV
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1 = { citysize = 2250 }
+1399.1.1 = { citysize = 2460 }
+1453.1.1 = { citysize = 2980}
+1500.1.1 = { citysize = 3420 }
+1550.1.1 = { citysize = 5000 marketplace = yes }
+1564.1.1 = { religion = reformed }
+1600.1.1 = { citysize = 6200 }
+1618.1.1  =  { hre = no }
+1650.1.1 = { citysize = 7500 constable = yes }
+1653.1.1 = { revolt_risk = 5 } # Peasant rebellion against overtaxation
+1654.1.1 = { revolt_risk = 0 }
+1656.1.1 = { revolt_risk = 7 } # Protestants are expelled from Schwyz which lead to the First War of Villmergen
+1657.1.1 = { revolt_risk = 2 } # An agreement is concluded at Villmergren but tensions remain
+1700.1.1 = { citysize = 9870 }
+1705.1.1 = { mint = yes }
+1750.1.1 = { citysize = 11000 }
+1798.3.5  = { controller = RFR } # French occupation
+1798.4.12 = {
+	owner = SWI
+	controller = SWI
+	add_core = SWI
+	hre = no
+} # The establishment of the Helvetic Republic
+1798.4.15 = { controller = REB } # The Nidwalden Revolt
+1798.9.1  = { controller = SWI } # The revolt is supressed
+1800.1.1  = { citysize = 12038 }
+1802.6.1  = { controller = REB } # Swiss rebellion
+1802.9.18 = { controller = SWI }

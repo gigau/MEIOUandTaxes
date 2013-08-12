@@ -1,0 +1,32 @@
+#728 - Sanxing
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = jurchen
+religion = mahayana
+capital = "Jixi"
+trade_goods = fur
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 10088
+add_core = MCH
+discovered_by = chinese
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 12210 }
+1550.1.1 = { citysize = 14055 }
+1600.1.1 = { citysize = 15100 }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+	culture = manchu
+} # The Qing Dynasty
+1650.1.1 = { citysize = 16806 }
+1700.1.1 = { citysize = 18200 }
+1750.1.1 = { citysize = 20055 }
+1800.1.1 = { citysize = 22800 }

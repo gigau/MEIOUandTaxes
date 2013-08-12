@@ -1,0 +1,31 @@
+# DAZ - Dazhou
+# LS - Chinese Civil War
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 2
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 3
+# secularism_theocracy = -3
+technology_group = chinese
+religion = confucianism
+primary_culture = hanyu
+capital = 1068
+
+1321.1.1 = {
+	monarch = {
+		name = "Zhang Shicheng"
+		dynasty = "Zhang"
+		ADM = 9
+		DIP = 5
+		MIL = 8
+	}
+	set_country_flag = rising_nation
+}

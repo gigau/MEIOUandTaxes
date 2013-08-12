@@ -1,0 +1,120 @@
+# HOJ - Hojo clan
+# LS/GG - Japanese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kanto
+religion = shinbutsu
+technology_group = chinese
+capital = 2293		# Musashi
+daimyo = yes
+
+1490.1.1 = {
+	monarch = {
+		name = "Soun" # 1453 - 1519 
+		dynasty = "Hojo"
+		adm = 7
+		dip = 6
+		mil = 7
+		}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Ujitsuna"
+		monarch_name = "Ujitsuna"
+		dynasty = "Hojo"
+		birth_date = 1487.1.1
+		death_date = 1541.8.10
+		claim = 90
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+	
+1519.9.18 = { 
+	monarch = {
+		name = "Ujitsuna"
+		dynasty = "Hojo"
+		adm = 7
+		dip = 6
+		mil = 6
+		}
+	}
+
+1519.9.18 = {
+	heir = {
+		name = "Ujiyasu"
+		monarch_name = "Ujiyasu"
+		dynasty = "Hojo"
+		birth_date = 1515.1.1
+		death_date = 1571.10.21
+		claim = 90
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1541.4.15 = { 
+	monarch = {
+		name = "Ujiyasu"
+		dynasty = "Hojo"
+		adm = 7
+		dip = 7
+		mil = 7
+		}
+	}
+
+1541.4.15 = {
+	heir = {
+		name = "Ujimasa"
+		monarch_name = "Ujimasa"
+		dynasty = "Hojo"
+		birth_date = 1538.1.1
+		death_date = 1590.8.10
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.10.21 = { 
+	monarch = {
+		name = "Ujimasa"
+		dynasty = "Hojo"
+		adm = 6
+		dip = 5
+		mil = 5
+		}
+	}
+
+1571.10.21 = {
+	heir = {
+		name = "Ujinao"
+		monarch_name = "Ujinao"
+		dynasty = "Hojo"
+		birth_date = 1562.1.1
+		death_date = 1591.12.19
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1590 - Toyotomi Hideyoshi takes Odawara Castle, Hojo Ujimasa commits seppuku 

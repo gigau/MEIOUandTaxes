@@ -1,0 +1,63 @@
+# 1287 - Voronezh
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU     
+culture = crimean
+religion = sunni
+hre = no
+base_tax = 5
+trade_goods = livestock    
+#manpower = 3
+manpower = 6
+capital = "Voronezh"
+citysize = 1909
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = BLU
+	revolt_risk = 4
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1441.1.1  = {
+	citysize = 2300
+	owner = CRI
+	controller = CRI
+	add_core = CRI
+	remove_core = GOL
+}
+1550.1.1  = { citysize = 2756 }
+1571.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+} # Estimated
+1585.1.1  = { fort1 = yes } # Founded by Feodor I
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { religion = orthodox citysize = 3430 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1648.1.1  = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Antifeudal insurrection
+#1648.1.1  = { culture = ukrainian add_core = UKR }
+1649.1.1  = { revolt = {} controller = RUS } 
+1650.1.1  = { citysize = 4212 }
+1670.1.1  = { revolt_risk = 8 } # Stepan Razin
+1671.1.1  = {
+	revolt_risk = 0
+	constable = yes
+}
+1700.1.1  = { citysize = 5838 }
+1750.1.1  = { citysize = 6780 }
+1773.1.1  = { revolt_risk = 5 } # Emelian Pugachev, Cossack insurrection
+1774.9.14 = { revolt_risk = 0 } # Pugachev is captured
+1800.1.1  = { citysize = 8000 }

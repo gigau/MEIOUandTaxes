@@ -1,0 +1,58 @@
+#Province: Ternate
+#file name: 649 - Ternate
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = moluccan
+religion = austranasian
+capital = "Ternate"
+trade_goods = clove			#FB Tidore & Ternate are famous for their cloves
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+discovered_by = chinese
+discovered_by = austranesian
+
+1356.1.1 = {
+	owner = TER
+	controller = TER
+	add_core = TER
+	citysize = 9000
+	religion = sunni
+}
+1512.1.1 = { discovered_by = POR } # Francisco Serrão
+1521.1.1 = { discovered_by = SPA }	#FB
+1522.1.1 = {
+	owner = POR
+	controller = POR
+	fort1 = yes
+	citysize = 10000
+}
+1570.1.1 = { revolt_risk = 8 } # Rebellion against the Portuguese
+#1575 The Portuguese are thrown out and the Ternate Sultanate is restablished
+1600.1.1 = { discovered_by = NED }
+1604.1.1 = { discovered_by = ENG }
+1606.1.1 = {
+	owner = SPA
+	controller = SPA
+	citysize = 12000
+} # Spanish forces arrive
+1607.1.1 = {
+	owner = NED
+	controller = NED
+	fort2 = yes
+} # Dutch attempt to control the clove trade
+1632.1.1 = { add_core = NED }
+1663.1.1 = {
+	citysize = 16000
+}
+1680.1.1 = { revolt_risk = 3 } # anti-Christian feelings
+1688.1.1 = { revolt_risk = 0 } # Dutch abandon conversion efforts
+1750.1.1 = { citysize = 22500 }
+1800.1.1 = { citysize = 25000 }
+1810.1.1 = { owner = GBR controller = GBR }
+1816.1.1 = { owner = NED controller = NED }

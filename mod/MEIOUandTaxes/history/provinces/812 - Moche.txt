@@ -1,0 +1,74 @@
+#812 - moche
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHM
+controller = CHM
+add_core = CHM
+culture = chimu
+religion = inti
+capital = "Moche"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = fish
+
+terrain1 = yes
+fort1 = yes
+temple = yes 
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1470.1.1   = {
+	owner = CZC
+	controller = CZC
+	add_core = CZC
+	remove_core = CHM
+}
+1480.1.1   = {
+	owner = INC
+	controller = INC
+	add_core = INC
+	remove_core = CZC
+	}
+1500.1.1   = { citysize = 25800 }
+1525.1.1   = { discovered_by = SPA }	#FB was 1524
+1532.9.1   = {
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+	culture = castillian
+	religion = catholic
+}
+1537.1.1  = { revolt_risk = 8 } # Fighting broke out when Almagro seized Cuzco
+1538.1.1  = { revolt_risk = 5 } # Almagro is defeated & executed
+1541.1.1  = { revolt_risk = 6 } # Pizzaro is assassinated by supporters of Almagro, his brother assumed control
+1548.1.1  = { revolt_risk = 0 } # Gonzalo Pizzaro is also executed & Spain succeeds in reasserting its authority
+1650.1.1   = {
+	citysize = 3500
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1  = {
+	citysize = 7500
+	add_core = PEU
+	culture = peruvian
+}
+1800.1.1   = {
+	citysize = 10000
+}
+1810.9.18  = {
+	owner = PEU
+	controller = PEU
+}
+1818.2.12  = {
+	remove_core = SPA
+}

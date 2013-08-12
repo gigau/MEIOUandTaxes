@@ -1,0 +1,76 @@
+# 1270 - Bácska
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Zombor"
+trade_goods = wheat
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 4710
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 5102 marketplace = yes
+}
+1506.1.1   = {
+	controller = REB
+} # Szekely rebellion
+1507.1.1   = {
+	controller = HUN
+} # Estimated
+1514.4.1   = {
+	controller = REB
+} # Peasant rebellion against Hungary's magnates
+1515.1.1   = {
+	controller = HUN
+} # Estimated
+1526.8.30  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	add_core = RHU
+} # The Ottomans defeat the Hungarians at the Battle of Mohács.
+1527.6.1   = {
+	fort2 = yes
+} # Pécs is rebuilt and fortified
+1550.1.1   = {
+	citysize = 5722 }
+1600.1.1   = {
+	citysize = 6770 }
+1650.1.1   = {
+	citysize = 7544
+	constable = yes
+}
+1690.1.1   = {
+	citysize = 5430
+} # Plague
+1699.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = TUR
+	remove_core = RHU
+} # The Ottomans surrender to the army led by Louis of Baden
+1700.1.1   = {
+	citysize = 7400
+	mint = yes
+}
+1750.1.1   = {
+	citysize = 8100
+}
+1800.1.1   = {
+	citysize = 9870
+}

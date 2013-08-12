@@ -1,0 +1,57 @@
+# Savolax
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+capital = "Olavinlinna"
+citysize = 1000 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+}
+1500.1.1   = { citysize = 1200 }
+1527.6.1   = { religion = protestant}
+1550.1.1   = { citysize = 1650 }
+1598.8.1   = { controller = POL } #Sigismund tries to reconquer his crown
+1599.8.16  = { controller = SWE } #Duke Karl get it back
+1600.1.1   = { trade_goods = lumber citysize = 898 } #Estimated Date
+1639.1.1   = { capital = "Savonlinna" } #Unknown date
+1650.1.1   = { citysize = 1800 }
+1700.1.1   = { citysize = 1920 }
+1714.7.29  = { controller = RUS } #The Great Nordic War-Captured by Apraksin
+1721.8.30  = { controller = SWE } #The Peace of Nystad
+1742.9.15  = { controller = RUS } #The War of the Hats-Estimated date
+1743.8.7   = { controller = SWE } #The Peace of Åbo
+1750.1.1   = { citysize = 2200 }
+1800.1.1   = { citysize = 2880 }
+1808.3.1   = { controller = RUS } # Overran by Russian troops
+1809.3.29  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.9.17 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}

@@ -1,0 +1,54 @@
+# BAC - Bacan
+# GG - Modified from Divide et Impera
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = -2
+primary_culture = moluccan
+religion = hinduism
+technology_group = austranesian
+capital = 2431	# Bacan
+
+
+1356.1.1 = {
+	monarch = {
+		name = "Kolano"
+		dynasty = "Madehe"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+1500.1.1 = { 
+	religion = sunni 
+	government = despotic_monarchy_2
+	# secularism_theocracy = 0 
+}
+
+1557.1.1 = {
+	religion = catholic
+	# secularism_theocracy = -1
+}
+
+1578.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 0
+} # Ternate invades and the king apostatizes
+
+1750.1.1 = {
+	monarch = {
+		name = "Sultan Hamarullah"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}

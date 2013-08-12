@@ -1,0 +1,2 @@
+discovered_by = NOV
+discovered_by = western

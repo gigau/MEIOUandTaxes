@@ -1,0 +1,4 @@
+discovered_by = austranesian
+
+#1511.1.1 = { discovered_by = POR }
+1521.1.1 = { discovered_by = SPA }	#FB - Magellan/del Cano

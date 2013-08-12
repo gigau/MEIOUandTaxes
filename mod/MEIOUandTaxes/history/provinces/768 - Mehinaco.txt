@@ -1,0 +1,54 @@
+# 768 - Mehinaco
+# MEIOU-GG
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = teremembe
+religion = pantheism
+capital = "Mehinaco"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 5
+
+1510.1.1   = {
+	discovered_by = POR
+	add_core = POR
+} # Pedro Álvares Cabral 
+1516.1.23 = {
+	discovered_by = SPA
+}
+1676.1.1   = {
+	owner = POR
+	controller = POR
+	capital = "Porto dos Cazaes"
+	citysize = 560
+	culture = portugese
+	religion = catholic
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+}
+1700.1.1   = {
+	citysize = 2530
+}
+1750.1.1   = {
+	citysize = 5700
+	add_core = BRZ
+	culture = brazilian
+}
+1773.1.1   = {
+	capital = "Porto Alegre"
+}
+1800.1.1   = {
+	citysize = 12000
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+}
+1825.1.1   = {
+	remove_core = POR
+}

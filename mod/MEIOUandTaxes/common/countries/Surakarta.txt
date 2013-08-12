@@ -1,0 +1,31 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 155 0 0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+leader_names = {
+	Swarga Bagus Sugih "Bangun Tapa" Purbaya Angabehi "Bangun Kadaton" Wicaksana Ngabehi Tedjawulan
+}
+
+monarch_names = {
+	"Pakubwono #4" = 10
+}
+
+ship_names = {
+	Surakarta Salatiga
+	"Gunung Merbabu" Sragen Sukoharjo Wonosari
+	"Gunung Lawu" Delanggu Cepu Purwodarli
+	Ngawi Grobogan Boja Amgarawa
+}

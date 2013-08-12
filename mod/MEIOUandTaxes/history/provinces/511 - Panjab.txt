@@ -1,0 +1,88 @@
+# 511 : Bhattiana
+# MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MUL
+controller = MUL
+culture = kanauji
+religion = hinduism
+capital = "Hisar"
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 28000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1 = {
+	owner = DLH
+	add_core = PUN
+	add_core = MUL
+	revolt = { type = nationalist_rebels size = 0 }
+	controller = REB
+}
+1398.8.1  = {
+	revolt = {  }
+	controller = TIM
+}
+1399.1.1  = {
+	owner = MUL
+	controller = MUL
+}
+1414.1.1  = {
+ 	owner = DLH
+	controller = DLH
+	remove_core = MUL
+}
+1522.1.1  = {
+	revolt = { type = pretender_rebels }
+	controller = REB
+} #Daulat Kahn Lodi revolt
+1524.1.1  = {
+	controller = DLH
+	revolt = { }
+}
+1526.2.1  = {
+	controller = KAB
+} # Babur's invasion
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = DLH
+} # Battle of Panipat
+1540.1.1  = {
+	religion = sikh
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} #Conquered by Sher Shah Suri
+1553.1.1  = {
+	owner = PUN
+	controller = PUN
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1554.6.1  = { controller = MUG } #Humayun invades
+1554.12.1 = { owner = MUG } #Aftermath of the battle of Sirhind
+1690.1.1  = { discovered_by = ENG }
+1707.5.12 = { discovered_by = GBR }
+1758.1.1  = {
+	controller = MAR
+	add_core = GWA
+} # Held by the Peshawas
+1760.1.1  = {
+	controller = MUG
+}
+1784.1.1  = {
+	controller = GWA
+	owner = GWA
+}
+1803.1.1  = {
+	owner = GBR
+	controller = GBR
+}

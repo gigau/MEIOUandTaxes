@@ -1,0 +1,47 @@
+# TEP - Tepanec
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 4
+primary_culture = nahuatl
+religion = teotl
+technology_group = new_world
+capital = 852
+
+1337.1.1 = {
+	monarch = {
+		name = "Aculhuacatl"
+		dynasty = "Yacateteltetl"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1367.1.1 = {
+	monarch = {
+		name = "Tezozomoc"
+		dynasty = "Yacateteltetl"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Maxtla"
+		dynasty = "Yacateteltetl"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

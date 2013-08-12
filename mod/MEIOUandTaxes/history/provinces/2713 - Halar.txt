@@ -1,0 +1,56 @@
+# 2713 - Halar (Jamnagar/Navanagar)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KAT
+controller = KAT
+culture = saurashtri
+religion = hinduism
+capital = "Nagnes"
+trade_goods = cotton
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 12000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = KAT
+	add_core = GUJ
+}
+1450.1.1  = { citysize = 14000 }
+1470.1.1  = {
+	owner = GUJ
+	controller = GUJ
+}
+1498.1.1 = {
+	discovered_by = POR
+}
+1500.1.1 = { citysize = 16000 }
+1519.1.1 = { capital = "Navanagar" }
+1550.1.1 = { citysize = 17000 }
+1556.1.1 = {
+	owner = KAT
+	controller = KAT
+} # Kathiawar independent while Ahmad Shahis are busy with internal conflicts
+1591.1.1 = {
+	controller = MUG
+} # Conquered by Mughals
+1592.1.1 = {
+	owner = MUG
+	add_core = MUG
+} # Conquered by Mughals
+1600.1.1 = { citysize = 19000 }
+1650.1.1 = { citysize = 22000 }
+1700.1.1 = { citysize = 24000 }
+1725.1.1 = {
+	owner = KAT
+	controller = KAT
+	remove_core = MUG
+} # Vassal of Gaikwads
+1750.1.1 = { citysize = 27000 }
+1800.1.1 = { citysize = 31000 }

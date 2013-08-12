@@ -1,0 +1,57 @@
+# YUA - Yuan
+# LS - Chinese Civil War
+
+government = altaic_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = 2
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -5
+# secularism_theocracy = 1
+technology_group = steppestech
+religion = mahayana
+primary_culture = khalkas
+capital = 708 # Dadu
+
+1356.1.1 = {
+	monarch = {
+		name = "Toghan-Temür"
+		dynasty = "Borjigin"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+	set_country_flag = wrath_of_god
+}
+
+1368.1.1  = {
+	capital = 726
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Biligtü"
+		dynasty = "Borjigin"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+}
+
+1375.1.1 = {
+	clr_country_flag = wrath_of_god
+}
+
+1378.1.1 = {
+	monarch = {
+		name = "Usakhal"
+		dynasty = "Borjigin"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+}

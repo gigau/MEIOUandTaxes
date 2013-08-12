@@ -1,0 +1,51 @@
+#Province: Semawa
+#file name: 632 - Semawa
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = balinese
+religion = hinduism
+capital = "Sumbawa"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+native_size = 5
+native_ferocity = 1
+native_hostileness = 5
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1337.1.1 = {
+	discovered_by = BIM
+	owner = BIM
+	controller = BIM
+	add_core = BIM
+	citysize = 4400
+	trade_goods = sandal
+	set_province_flag = trade_good_set
+	discovered_by = BIM
+}
+#1500.1.1 = {	
+#	citysize = 0
+#	native_size = 6
+#	native_ferocity = 1
+#	native_hostileness = 2	
+#	owner = XXX
+#	controller = XXX	
+#	remove_core = MPH
+#}
+1515.1.1 = { discovered_by = POR }
+1555.1.1 = {
+	owner = BLI
+	controller = BLI
+	add_core = BLI
+} # Conquered by Batu Renggong
+1600.1.1 = { citysize = 4800 }
+1639.1.1 = {
+	owner = BIM
+	controller = BIM
+	remove_core = BLI
+}

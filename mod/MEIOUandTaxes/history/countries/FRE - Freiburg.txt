@@ -1,0 +1,52 @@
+# County of Freiburg
+# Tag : FRE
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+technology_group = western
+primary_culture = schwabisch
+religion = catholic
+capital = 69	# Breisgau
+
+
+1316.1.1 = {
+	monarch = {
+		name = "Konrad II"
+		dynasty = "von Urach"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1350.1.1 = {
+	monarch = {
+		name = "Friedrich"
+		dynasty = "von Urach"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1358.1.1 = {
+	monarch = {
+		name = "Egino III"
+		dynasty = "von Urach"
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1368 - People buy freedom and seek protection from the Habsburgs

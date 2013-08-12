@@ -1,0 +1,51 @@
+# 2631 - Shekhawati
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAU
+controller = JAU
+culture = jati
+religion = hinduism
+capital = "Jaipur"
+trade_goods = copper
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 5000
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = JAU
+}
+1450.1.1  = { citysize = 7000 }
+1500.1.1  = { citysize = 12000 }
+1530.1.1  = {
+	owner = MUG
+	controller = MUG
+} # Mughal Conquest
+1540.1.1  = {
+	owner = JAU
+	controller = JAU
+} # Independent again after Mughals lose Delhi
+1544.1.1  = {
+	owner = BNG
+	controller = BNG
+} # Sur expansion
+1545.5.22 = {
+	owner = JAU
+	controller = JAU
+} # Independent again after death of Shere Shah Sur
+1550.1.1  = { citysize = 15000 }
+1600.1.1  = { citysize = 16000 }
+1650.1.1  = { citysize = 18000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 20000 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 22000 }
+1800.1.1  = { citysize = 26000 }
+	   

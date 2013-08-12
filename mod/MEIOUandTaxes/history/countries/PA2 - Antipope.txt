@@ -1,0 +1,95 @@
+# PA2 - Antipope
+#2011-jun-16 FB	add DG flags (moved from event 800000)
+
+government = papal_government
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 4
+primary_culture = umbrian
+religion = catholic
+technology_group = western
+capital = 202	# Avignon
+
+1378.3.27 = { set_country_flag = potential_schism }	#PA2 comes into existence (see province 202)
+
+1378.9.20 = {
+	monarch = {
+		name = "Clemens VII"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	set_country_flag = western_schism
+	set_country_flag = vote_for_anti_pope
+	set_country_flag = support_antipope
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Benedictus XIII"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1417.10.18 = {
+	clr_country_flag = potential_schism
+	clr_country_flag = western_schism
+	clr_country_flag = vote_for_anti_pope
+	clr_country_flag = support_antipope
+}	#PA2 ceases to exist (see province 202)
+
+1423.1.1 = {
+	monarch = {
+		name = "Clemens VIII"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Benedictus XIV"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1439.1.1 = {
+	monarch = {
+		name = "Felix V"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1471.7.27 = { set_country_flag = swiss_mercenaries }
+1492.12.5 = { set_country_flag = america1 }
+1494.6.7 = { set_country_flag = tordesillas } #Treaty of Tordesillas
+1500.1.1 = { set_country_flag = america2 }
+1506.1.2 = { set_country_flag = swiss_guard }
+1516.1.1 = { set_country_flag = new_latin_bible } #Textus Receptus (Erasmus)
+1527.5.6 = { set_country_flag = sack_of_rome } #Rome sacked by mercenaries in the employ of the Hapsburg emperor
+1537.5.29 = { set_country_flag = sublimus_dei } #Papal Bull Sublimus Dei banned enslavement of natives
+1540.9.27 = { set_country_flag = jesuits_founded }
+1549.9.17 = { set_country_flag = clerical_residence }
+1557.1.1 = { set_country_flag = forbidden_index }
+1563.12.4 = {
+	set_country_flag = counter_reformation
+	# secularism_theocracy = 5
+	set_country_flag = seminaries
+  }
+1567.1.1 = { set_country_flag = indulgences_banned }
+1648.10.24 = {
+	set_country_flag = decline_of_papacy
+	# secularism_theocracy = 4
+} #Peace of Westphalia

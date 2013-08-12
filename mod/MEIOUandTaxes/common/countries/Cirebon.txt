@@ -1,0 +1,53 @@
+#Country Name: Ceribon
+#Tag: CBT
+#Ceribon is used to represent Ceribon + Tegal
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 88 137 172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_elephant
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Ahmad Sepuh #0" = 100
+}
+
+leader_names = {
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Belait Tutong Tembureng Pandaruan Limbang
+	Bakong Tutoh Tinjar
+}
+
+ship_names = {
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	"Amgai Belait" "Amgai Tutong" "Amgai Tembureng"
+	Batang Trusan "Amgai Pandaruan" Lungai Limbang
+	Baram "Amgai Bakong" "Amgai Tutoh"
+	"Amgai Tinjar" "Kuala Belait" Batu Danau
+	Medamit Bangar Penanjong Lumut Telingan
+	Labi Sukang Baram
+}
+

@@ -1,0 +1,89 @@
+# PUR - Tzintzuntzàni
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 4
+primary_culture = purepechan
+religion = teotl
+technology_group = new_world
+capital = 1468
+
+1356.1.1   = {
+	monarch = {
+		name = "Taríacuri"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1360.1.1   = {
+	monarch = {
+		name = "Hiquingaje"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1390.1.1   = {
+	monarch = {
+		name = "Hiripan"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1430.1.1   = {
+	monarch = {
+		name = "Tangáxuan I"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1   = {
+	monarch = {
+		name = "Tzitzipandáquare"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1479.1.1   = {
+	monarch = {
+		name = "Zuangua"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.1.1   = {
+	monarch = {
+		name = "Tangáxuan II"
+		dynasty = "Tzimtzincha"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1530 - Submission to the Spanish conquistadores

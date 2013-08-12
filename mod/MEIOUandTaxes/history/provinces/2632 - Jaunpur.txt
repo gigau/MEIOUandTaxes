@@ -1,0 +1,79 @@
+# 2632 - Varanasi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AHM
+controller = AHM
+culture = bihari
+religion = hinduism
+capital = "Varanasi"
+trade_goods = cloth
+hre = no
+base_tax = 7
+#manpower = 7
+manpower = 14
+citysize = 37000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = AHM
+}
+1450.1.1  = { citysize = 39000 }
+1483.1.1  = {
+	owner = DLH
+	controller = DLH
+	add_core = DLH
+   }
+1500.1.1  = { citysize = 48000 }
+1526.4.1  = {
+	controller = KAB
+} #Conquered by Babur
+1526.4.21 = {
+	controller = BNG
+}
+1538.1.1 = {
+	owner = BNG
+	add_core = BNG
+	remove_core = DLH
+} # Sher Shah Triumphant
+1550.1.1 = { citysize = 45000 }
+1553.1.1 = {
+	owner = AHM
+	controller = AHM
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1558.12.1 = { capital = "Chunar" }
+1561.5.1  = { controller = MUG }
+1562.1.1  = {
+	owner = MUG
+	capital = "Varanasi"
+}
+1600.1.1  = { marketplace = yes citysize = 50000 }
+1622.1.1  = { add_core = MUG }
+1650.1.1  = { citysize = 60000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 70000 }
+1707.5.12 = { discovered_by = GBR }
+1724.1.1  = {
+	owner = ODH
+	controller = ODH
+	add_core = ODH
+	remove_core = MUG
+} # Foundation of the Oudh dynasty
+1750.1.1  = { citysize = 80000 }
+1772.1.1  = { revolt_risk = 5 } # Paharia revolt
+1780.1.1  = { revolt_risk = 7 } # Revolt led by Tilka Manjhi
+1785.1.1  = { revolt_risk = 2 }
+1794.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = ODH
+}
+1795.1.1  = { revolt_risk = 6 } # Tamar revolt, Munda revolt
+1800.1.1  = { citysize = 179000 }
+1802.1.1  = { revolt_risk = 0 }
+1819.1.1  = { revolt_risk = 7 } # Munda revolt
+1820.1.1  = { revolt_risk = 0 }

@@ -1,0 +1,329 @@
+# BGL - Bagelkhand
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = -3
+# land_naval = -2
+# quality_quantity = -2
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = bundeli
+capital = 2687	# Baghelkhand
+
+ 
+#Baghelas - Need to find more info about this dynasty
+
+1399.1.1 = {
+	monarch = {
+		name = "Vyaghra Dev" #Should be dead for atleast a few hundred years but have not been able to find info on this dynasty prior to 1495.
+		dynasty = "Baghela"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Shaktivan Deo"
+		dynasty = "Baghela"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Veer Singh"
+		monarch_name = "Veer Singh"
+		dynasty = "Baghela"
+		birth_Date = 1495.1.1
+		death_Date = 1540.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Veer Singh"
+		dynasty = "Baghela"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Virbhan"
+		monarch_name = "Virbhan Singh"
+		dynasty = "Baghela"
+		birth_Date = 1500.1.1
+		death_Date = 1555.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Virbhan Singh"
+		dynasty = "Baghela"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Ramachandra"
+		monarch_name = "Ramachandra Singh"
+		dynasty = "Baghela"
+		birth_Date = 1500.1.1
+		death_Date = 1555.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Ramachandra Singh"
+		dynasty = "Baghela"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1555.1.1 = {
+	heir = {
+		name = "Duryodhan"
+		monarch_name = "Duryodhan Singh"
+		dynasty = "Baghela"
+		birth_Date = 1555.1.1
+		death_Date = 1618.1.1 #Really deposed
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Duryodhan Singh"
+		dynasty = "Baghela"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1592.1.1 = {
+	heir = {
+		name = "Vikramaditya"
+		monarch_name = "Vikramaditya"
+		dynasty = "Baghela"
+		birth_Date = 1592.1.1
+		death_Date = 1630.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+		name = "Vikramaditya"
+		dynasty = "Baghela"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+}
+
+1618.1.1 = {
+	heir = {
+		name = "Amar"
+		monarch_name = "Amar Singh II"
+		dynasty = "Baghela"
+		birth_Date = 1618.1.1
+		death_Date = 1643.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Amar Singh II"
+		dynasty = "Baghela"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1630.1.1 = {
+	heir = {
+		name = "Anoop"
+		monarch_name = "Anoop Singh"
+		dynasty = "Baghela"
+		birth_Date = 1630.1.1
+		death_Date = 1660.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1643.1.1 = {
+	monarch = {
+		name = "Anoop Singh"
+		dynasty = "Baghela"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1643.1.1 = {
+	heir = {
+		name = "Bhao"
+		monarch_name = "Bhao Singh"
+		dynasty = "Baghela"
+		birth_Date = 1643.1.1
+		death_Date = 1690.1.1
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 8
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Bhao Singh"
+		dynasty = "Baghela"
+		adm = 3
+		dip = 7
+		mil = 8
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Anirudh"
+		monarch_name = "Anirudh Singh"
+		dynasty = "Baghela"
+		birth_Date = 1660.1.1
+		death_Date = 1700.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Anirudh Singh"
+		dynasty = "Baghela"
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+}
+
+1690.1.1 = {
+	heir = {
+		name = "Avadhut"
+		monarch_name = "Avadhut Singh"
+		dynasty = "Baghela"
+		birth_Date = 1690.1.1
+		death_Date = 1755.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Avadhut Singh"
+		dynasty = "Baghela"
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Ajit"
+		monarch_name = "Ajit Singh"
+		dynasty = "Baghela"
+		birth_Date = 1720.1.1
+		death_Date = 1809.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "Ajit Singh"
+		dynasty = "Baghela"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1755.1.1 = {
+	heir = {
+		name = "Jai"
+		monarch_name = "Jai Singh"
+		dynasty = "Baghela"
+		birth_Date = 1755.1.1
+		death_Date = 1835.1.1
+		claim = 95
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}
+
+1809.1.1 = {
+	monarch = {
+		name = "Jai Singh"
+		dynasty = "Baghela"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}

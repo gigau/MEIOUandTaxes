@@ -1,0 +1,259 @@
+# MRI - Mori clan
+# LS/GG - Japanese Civil War
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1026
+daimyo = yes
+
+1341.1.1 = {
+	monarch = {
+		name = "Motoharu" #1323 - ??
+		dynasty = "Mori"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1347.1.1 = {
+	heir = {
+		name = "Hirofusa"
+		monarch_name = "Hirofusa"
+		dynasty = "Mori"
+		birth_date = 1347.1.1
+		death_date = 1385.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1386.1.1 = {
+	heir = {
+		name = "Mitsufusa"
+		monarch_name = "Mitsufusa"
+		dynasty = "Mori"
+		birth_date = 1386.1.1
+		death_date = 1436.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Mitsufusa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.1.1 = {
+	heir = {
+		name = "Hiromoto"
+		monarch_name = "Hiromoto"
+		dynasty = "Mori"
+		birth_date = 1412.1.1
+		death_date = 1464.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Hiromoto" 
+		dynasty = "Mori"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Toyomoto"
+		monarch_name = "Toyomoto"
+		dynasty = "Mori"
+		birth_date = 1444.1.1
+		death_date = 1476.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1464.1.1 = {
+	monarch = {
+		name = "Toyomoto" 
+		dynasty = "Mori"
+		adm = 4
+		dip = 4
+		mil = 5
+		}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Hiromoto"
+		monarch_name = "Hiromoto"
+		dynasty = "Mori"
+		birth_date = 1466.1.1
+		death_date = 1506.2.3
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Hiromoto" 
+		dynasty = "Mori"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1492.1.1 = {
+	heir = {
+		name = "Okimoto"
+		monarch_name = "Okimoto"
+		dynasty = "Mori"
+		birth_date = 1492.1.1
+		death_date = 1516.9.21
+		claim = 90
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1506.2.3 = {
+	monarch = {
+		name = "Okimoto" 
+		dynasty = "Mori"
+		adm = 4
+		dip = 5
+		mil = 4
+		}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Komatsumaru"
+		monarch_name = "Komatsumaru"
+		dynasty = "Mori"
+		birth_date = 1515.1.1
+		death_date = 1523.8.25
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1516.9.21 = {
+	monarch = {
+		name = "Komatsumaru" 
+		dynasty = "Mori"
+		adm = 3
+		dip = 4
+		mil = 3
+		}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Motonari" 
+		dynasty = "Mori"
+		adm = 7
+		dip = 8
+		mil = 6
+		}
+}
+
+1523.8.25 = {
+	heir = {
+		name = "Takamoto"
+		monarch_name = "Takamoto"
+		dynasty = "Mori"
+		birth_date = 1523.1.1
+		death_date = 1563.9.18
+		claim = 90
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1557.1.1 = {
+	set_country_flag = shogun_contender
+	government = japan_monarchy_3
+}
+
+1563.9.18 = {
+	heir = {
+		name = "Terumoto"
+		monarch_name = "Terumoto"
+		dynasty = "Mori"
+		birth_date = 1553.2.4
+		death_date = 1625.6.2
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.7.6 = {
+	monarch = {
+		name = "Terumoto" 
+		dynasty = "Mori"
+		adm = 6
+		dip = 5
+		mil = 5
+		}
+}
+
+1571.7.6 = {
+	heir = {
+		name = "Hidenari"
+		monarch_name = "Hidenari"
+		dynasty = "Mori"
+		birth_date = 1595.11.19
+		death_date = 1651.2.24
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1598.1.1 = {
+	clr_country_flag = shogun_contender
+	government = japan_monarchy_5
+}

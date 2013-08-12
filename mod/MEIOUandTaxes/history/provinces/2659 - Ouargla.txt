@@ -1,0 +1,18 @@
+# 2659 - Ouargla
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = tuareg
+religion = sunni
+capital = "Ouargla"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 30
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = soudantech
+discovered_by = muslim
+discovered_by = turkishtech

@@ -1,0 +1,71 @@
+# 1020 - Bungo
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OTM
+controller = OTM
+culture = kyushu
+religion = shinbutsu
+capital = "Funai"
+trade_goods = rice
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 6100
+fort1 = yes
+temple = yes #Usa Jingu
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = OTM
+}
+1400.1.1 = {
+	citysize = 6300
+}
+1450.1.1 = {
+	citysize = 6500
+}
+1500.1.1 = {
+	citysize = 7540
+}
+1542.1.1 = {
+	discovered_by = POR 
+}
+1550.1.1 = {
+	citysize = 8955
+}
+1578.1.1 = {
+	owner = SMZ
+	controller = SMZ
+}
+1585.1.1   = {
+	religion = catholic
+}
+1600.1.1 = { 
+	citysize = 10168 
+	marketplace = yes
+}
+1615.1.1   = {
+	religion = shinbutsu
+}
+1650.1.1 = {
+	citysize = 12300
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1700.1.1 = {
+	citysize = 14857
+}
+1750.1.1 = {
+	citysize = 16200
+}
+1760.1.1 = {
+	mint = yes
+}
+1800.1.1 = {
+	citysize = 17550
+}

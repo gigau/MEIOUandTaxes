@@ -1,0 +1,49 @@
+# 476 - Otrat
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = kirgiz
+religion = sunni
+capital = "Otrat"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 4
+manpower = 8
+citysize = 5002
+
+discovered_by = muslim
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+terrain2 = yes
+
+1356.1.10   = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+	add_core = CHG
+	add_core = KZH
+	set_province_flag = terrain2
+}
+1500.1.1 = { citysize = 5670 }
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = { citysize = 6320 }
+1600.1.1 = { citysize = 7240 }
+1650.1.1 = { citysize = 7840 }
+1700.1.1 = { citysize = 8475 }
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+} # Independent principality established by Shaybanid Shahrukh
+1750.1.1 = { citysize = 9020 }
+1800.1.1 = { citysize = 9780 }
+

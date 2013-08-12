@@ -1,0 +1,102 @@
+# CEP - Corfu
+# MEIOU-GG Govenemnt changes
+# 2010-jan-04 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 1
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = 0
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = eastern
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+capital = 142
+
+1332.1.1 = {
+	monarch = {
+		name = "Robert"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Philip II"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+# 1373-80 to Naples directly
+
+1380.1.1 = {
+	monarch = {
+		name = "Charles of Durazzo"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+# after 1386 to Venice, Tocco family
+
+1381.1.1 = {
+	monarch = {
+		name = "Carlo Tocco"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Leonardo"
+		monarch_name = "Leonardo II"
+		dynasty = "Dagout"
+		birth_date = 1400.1.1
+		death_date = 1460.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Carlo II"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1448.1.1 = {
+	monarch = {
+		name = "Leonardo II"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1799.3.1 = {
+	monarch = {
+		name = "National Assembly"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

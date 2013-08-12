@@ -1,0 +1,67 @@
+# 1312 - Ryn Pustinya
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = astrakhani 
+religion = sunni
+capital = "Saray-Jük"
+
+base_tax = 3 
+#manpower = 2
+manpower = 4
+citysize = 3847
+trade_goods = wool 
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 7
+	add_core = BLU
+	add_core = AST
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1459.1.1 = {
+	owner = AST
+	controller = AST
+	remove_core = GOL
+} # Independance of Astrakhan
+1550.1.1   = {
+	citysize = 5324
+}
+1557.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = NOG
+} # Conquest of the Khanante by Ivan Grozny
+1600.1.1   = {
+	citysize = 6264
+	fort1 = yes
+	religion = orthodox
+}
+1650.1.1   = {
+	citysize = 7370
+}
+1700.1.1   = {
+	citysize = 8670
+}
+1750.1.1   = {
+	citysize = 10200
+}
+1800.1.1   = {
+	citysize = 12000
+}

@@ -1,0 +1,75 @@
+# 2629 - Coromandel
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = tamil
+religion = hinduism
+capital = "Nagapattinam"
+trade_goods = ebony
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 15340
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = GNG
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1405.1.1 = { discovered_by = chinese }
+1443.1.1 = {
+	controller = ORI
+} # Conquered by Gajapatis
+1445.1.1 = {
+	owner = ORI
+} # Conquered by Gajapatis
+1450.1.1 = { citysize = 20000 }
+1462.1.1 = {
+	controller = VIJ
+} # Reconquered by Vijayanagar
+1464.1.1 = {
+	owner = VIJ
+} # Reconquered by Vijayanagar
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 22000 }
+#1540.1.1 = { trading_post = yes decision = PIC_trade_post_setup } #Negapatnam
+1550.1.1 = { citysize = 26000 }
+1565.7.1 = {
+	owner = GNG
+	controller = GNG
+} # The Vijayanagar empire collapses, the Nayaks proclaimed themselves rulers
+1600.1.1 = { citysize = 31120 discovered_by = ENG discovered_by = FRA discovered_by = NED }
+1650.1.1 = { citysize = 35700 discovered_by = turkishtech }
+1690.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1700.1.1 = { citysize = 40370 }
+1702.1.1 = {
+	owner = MAD
+	controller = MAD
+} # Mughal power wanes
+1707.5.12 = { discovered_by = GBR }
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	add_core = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1750.1.1 = { citysize = 53520 workshop = yes }
+1800.1.1 = { citysize = 66400 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+}
+1826.1.1 = { add_core = GBR }

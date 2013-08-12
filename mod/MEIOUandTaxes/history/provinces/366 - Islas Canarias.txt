@@ -1,0 +1,81 @@
+# 366 - Achinet
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CNA
+controller = CNA
+culture = berber
+religion = animism
+capital = "Adege"
+
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 1000
+
+discovered_by = CNA
+discovered_by = western
+discovered_by = FEZ
+discovered_by = TLE
+discovered_by = MOR
+
+1356.1.1 = {
+	add_core = CNA
+}
+1402.1.1 = {
+	add_core = CAS
+}#Jean de Bethencourt vassal of castille conquier the islands
+1448.1.1  = {
+	controller = POR
+	owner = POR
+	add_core = POR
+} # Marie de Bethencourt sold the islands to portugal
+1459.1.1  = {
+	controller = CNA
+	owner = CNA
+} # portuguese expelled by castillan forces
+1479.9.4  = {
+	remove_core = POR
+} # Peace of Alcaçobas between Spain and Portugal. Portugal fully recognises Castillian suzerainty over the islands.
+1482.1.1  = {
+	religion = catholic
+	culture = castillian
+	trade_goods = sugar
+} #After a successful campaign, indigenous king Majarteme converts to catholicism and adopts the name Fernando
+1493.1.1  = {
+	citysize = 1200
+} # Conquest of the island of La Palma
+1498.1.1  = {
+	owner = CAS
+	controller = CAS
+	capital = "Santa Cruz"
+	citysize = 1500
+} # Conquest of Tenerife, the archipelago is fully incorporated into the crown, some indigenous redoubts still wage war
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+	remove_core = CAS
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+1550.1.1  = {
+	citysize = 1900
+}
+1600.1.1  = {
+	citysize = 2760
+}
+1650.1.1  = {
+	citysize = 3300
+}
+1700.1.1  = {
+	citysize = 5010
+}
+1730.1.1  = {
+	citysize = 2500
+} # volcanic eruption
+1750.1.1  = {
+	citysize = 3700
+}
+1800.1.1  = {
+	citysize = 5230
+}

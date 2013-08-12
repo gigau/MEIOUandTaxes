@@ -1,0 +1,65 @@
+# 2410 - Xalco
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEP
+controller = TEP
+add_core = TEP
+culture = nahuatl
+religion = teotl
+capital = "Xalco" 
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5000
+trade_goods = pepper
+
+fort1 = yes
+
+discovered_by = new_world
+
+1445.1.1  = {
+	owner = AZT
+	controller = AZT
+	add_core = AZT
+}
+1519.3.13  = {
+	discovered_by = SPA
+}
+1522.3.1   = {
+	owner = SPA
+	controller = SPA
+} #Pedro de Alvanado
+1547.1.1   = {
+	add_core = SPA
+}
+1572.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 5000
+}
+1650.1.1   = {
+	citysize = 10000
+}
+1700.1.1   = {
+	citysize = 20000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 35000
+}
+1800.1.1   = {
+	citysize = 75000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+

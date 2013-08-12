@@ -1,0 +1,118 @@
+# MOE - Morea
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = greek # frankish
+# add_accepted_culture = greek
+religion = orthodox # catholic
+capital = 145	# Nafplio
+
+# Despots of Morea #
+1354.6.17 = {
+	monarch = {
+		name = "Manuel"
+		dynasty = "Kantakouzenos"
+		DIP = 6
+		ADM = 6
+		MIL = 7
+	}
+	heir = {
+		name = "Matthaios"
+		monarch_name = "Matthaios"
+		dynasty = "Palaiologos"
+		birth_date = 1330.1.1
+		death_date = 1383.4.26
+		claim = 95
+		DIP = 4
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1380.3.22 = {
+	monarch = {
+		name = "Matthaios"
+		dynasty = "Kantakouzenos"
+		DIP = 4
+		ADM = 6
+		MIL = 3
+	}
+}
+
+1383.4.26 = {
+	monarch = {
+		name = "Demetrios"
+		dynasty = "Palaiologos"
+		DIP = 3
+		ADM = 3
+		MIL = 3
+	}
+	heir = {
+		name = "Theodoros"
+		monarch_name = "Theodoros"
+		dynasty = "Palaiologos"
+		birth_date = 1350.1.1
+		death_date = 1396.1.1
+		claim = 95
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1383.9.2 = {
+	monarch = {
+		name = "Theodoros"
+		dynasty = "Palaiologos"
+		DIP = 4
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1396.1.1 = {
+	heir = {
+		name = "Theodoros"
+		monarch_name = "Theodoros II"
+		dynasty = "Palaiologos"
+		birth_date = 1396.1.1
+		death_date = 1448.6.26
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1407.1.1 = {
+	monarch = {
+		name = "Theodoros II"
+		dynasty = "Palaiologos"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Demetrios II"
+		dynasty = "Palaiologos"
+		DIP = 3
+		ADM = 4
+		MIL = 3
+	}
+}
+
+# Conquered by the Ottomans 1460

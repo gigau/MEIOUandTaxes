@@ -1,0 +1,20 @@
+# KRL - Karelia
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_3
+# aristocracy_plutocracy = -1
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 2
+# serfdom_freesubjects = 4
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+technology_group = eastern
+religion = catholic
+primary_culture = finnish
+capital = 27	# Åbo

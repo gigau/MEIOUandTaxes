@@ -1,0 +1,15 @@
+# RIM - Rimini
+
+government = merchant_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+primary_culture = emilian
+religion = catholic
+technology_group = western
+capital = 114 # Romagna

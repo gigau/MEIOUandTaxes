@@ -1,0 +1,76 @@
+# 2439 - Mordoviya
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = kazani
+religion = orthodox
+capital = "Penza"
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1250
+trade_goods = wool
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+hre = no
+
+1356.1.1  = {
+	add_core = KAZ
+	add_core = BLU
+	revolt_risk = 10
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1438.1.1  = {
+	owner = KAZ
+	controller = KAZ
+	remove_core = GOL
+}
+1500.1.1   = { citysize = 2526 }
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1550.1.1   = { citysize = 3324 }
+1552.1.1  = {
+	owner = CRI
+	controller = CRI
+	remove_core = KAZ
+	add_core = RUS
+}
+1571.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+} # Conquest of the Khanante by Ivan Grozny
+1590.7.1  = {
+	fort1 = yes
+} # Construction of the Saratow fortress 
+1598.1.1  = {
+	revolt_risk = 5
+} # "Time of troubles"
+1600.1.1   = {
+	citysize = 6264
+	fort1 = yes
+	culture = russian
+	religion = orthodox
+	remove_core = KAZ
+}
+1650.1.1   = { citysize = 4770 }
+1663.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = KAZ
+}
+1700.1.1   = { citysize = 5670 }
+1750.1.1   = { citysize = 6200 }
+1800.1.1   = { citysize = 7000 }

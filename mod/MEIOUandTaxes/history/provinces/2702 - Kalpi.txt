@@ -1,0 +1,96 @@
+# 2702 - Kalpi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MLK
+controller = MLK
+culture = bundeli
+religion = hinduism
+capital = "Kalpi"
+trade_goods = cloth
+hre = no
+base_tax = 7
+#manpower = 7
+manpower = 14
+citysize = 25000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = MLK
+}
+1412.1.1  = {
+	controller = AHM
+} # Conquered by Jaunpur
+1413.1.1  = {
+	controller = MLK
+} # Conquered by Jaunpur
+1442.1.1  = {
+	controller = MLW
+} # Conquered by Jaunpur
+1443.1.1  = {
+	controller = MLK
+} # Conquered by Malwa
+1450.1.1  = { citysize = 28000 }
+1479.1.1  = {
+	controller = DLH
+} # Conquered by Delhi
+1480.1.1  = {
+	owner = DLH
+	add_core = DLH
+} # Conquered by Delhi
+1500.1.1  = { citysize = 27000 }
+1518.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels }
+} #Pretender
+1520.1.1  = {
+	controller = DLH
+	revolt = { }
+} #Pretender beaten
+1526.4.1  = {
+	controller = KAB
+} #Conquered by Babur
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = DLH
+} # Battle of Panipat
+1540.1.1 = {
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} # Sher Shah Conquers Delhi
+1550.1.1 = { citysize = 25000 }
+1553.1.1 = {
+	owner = DLH
+	controller = DLH
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1555.7.23 = {
+	owner = MUG
+	controller = MUG
+} # Humayun Returns
+1565.1.1  = { controller = REB revolt = { type = noble_rebels } }	#Revolt of Uzbek commanders
+1566.6.1  = { controller = MUG revolt = { } }
+1600.1.1  = { citysize = 30000 }
+1650.1.1  = { citysize = 33000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 35000 }
+1707.5.12 = { discovered_by = GBR }
+1737.1.1  = {
+	owner = GWA
+	controller = GWA
+	add_core = GWA
+	remove_core = MUG
+}
+1750.1.1  = { citysize = 42000 }
+1800.1.1  = { citysize = 58000 }
+1801.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = GWA
+}

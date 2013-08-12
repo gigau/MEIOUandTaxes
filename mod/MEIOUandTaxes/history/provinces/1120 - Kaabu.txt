@@ -1,0 +1,41 @@
+# 1120 - Kansala
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Kansala"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = slaves
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = DJO
+}
+1446.1.1 = { discovered_by = POR }
+1469.1.1  = {
+	owner = SON
+	controller = SON
+	add_core = SON
+}
+1549.1.1 = {
+	citysize = 0
+	native_size = 4000
+	native_ferocity = 4.5
+	native_hostileness = 8.5
+	owner = XXX
+	controller = XXX
+	remove_core = MAL
+ 	trade_goods = crops
+	base_tax = 1
+#	manpower = 1
+	manpower = 2
+}

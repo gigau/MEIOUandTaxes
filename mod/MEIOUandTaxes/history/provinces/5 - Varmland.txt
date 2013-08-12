@@ -1,0 +1,46 @@
+# Värmland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = iron
+#manpower = 1
+manpower = 2
+fort1 = yes
+capital = "Karlstad"
+citysize = 1150 #estimate
+discovered_by = eastern
+discovered_by = western
+
+1500.1.1  = { citysize = 1430 } #estimate
+1512.1.1  = { fort2 = yes }
+1527.6.1  = { religion = protestant}
+1560.1.1  = { marketplace = yes } #controller of trade route to Denmark
+1570.1.1  = { citysize = 1757 } 
+1610.1.1  = { citysize = 2288 }
+1624.1.1  = { regimental_camp = yes } #Närke-Värmlands regemente
+1625.1.1  = { fort3 = yes }
+1640.1.1  = { courthouse = yes } #minor court belonging to Göta Hovrätt
+1647.1.1  = { temple = yes } #Unknown date
+1650.1.1  = { citysize = 3521 }
+1670.1.1  = { mint = yes } #Due to the "Staplepolicy act"
+1680.1.1  = { fort4 = yes } 
+1690.1.1  = { citysize = 3820 } 
+1730.1.1  = { fort5 = yes } 
+1730.1.1  = { constable = yes } #Due to the support of manufactories
+1730.1.1  = { citysize = 4204 } 
+1770.1.1  = { citysize = 4587 }
+1810.1.1  = { citysize = 5233 } 
+  
+
+
+
+
+
+

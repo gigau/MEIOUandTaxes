@@ -1,0 +1,9 @@
+# 2472 - Inupiat
+
+1812.1.1   = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	culture = american
+	religion = anglican
+} # Treaty with Russian-American Colonial Trading Company

@@ -1,0 +1,33 @@
+#251 - Aberdeen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SCO
+controller = SCO
+culture = lowland_scottish #?
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = fish
+#manpower = 1
+manpower = 2
+capital = "Dundee"
+citysize = 5000
+add_core = SCO
+fort1 = yes
+terrain1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1   = { set_province_flag = terrain1 }
+1560.8.1  = { religion = reformed }
+1600.1.1  = { citysize = 7000 marketplace = yes fort2 = yes } #marketplace Estimated
+1644.9.13 = { controller = REB }
+1645.9.13 = { controller = SCO } #Battle of Philiphaugh
+1700.1.1  = { citysize = 10000 }
+1707.5.12 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	    }
+1750.1.1  = { citysize = 16000 }
+1800.1.1  = { citysize = 27000 }

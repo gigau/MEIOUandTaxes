@@ -1,0 +1,51 @@
+# 548 - Sambalpur
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GRJ
+controller = GRJ
+culture = sambalpuri
+religion = sarna_dharam
+capital = "Sambalpur"
+#trade_goods = naval_supplies
+trade_goods = copper
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 7000
+temple = yes
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = GRJ
+}
+1450.1.1  = { citysize = 12000 }
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 15000 }
+1550.1.1  = { citysize = 18000 }
+1600.1.1  = { citysize = 21000 }
+1650.1.1  = { citysize = 25000 marketplace = yes }
+1700.1.1  = { citysize = 27000 }
+1750.1.1  = { citysize = 19000 }
+1752.1.1   = {
+	owner = BHO
+	controller = BHO
+	add_core = BHO
+} # Marathas
+1800.1.1  = { citysize = 24000 }
+1803.1.1  = {
+	owner = GBR
+	controller = GBR
+}
+1806.1.1  = {
+	owner = BHO
+	controller = BHO
+} # Restored to Nagpur
+1816.1.1  = {
+	owner = GBR
+	controller = GBR
+}

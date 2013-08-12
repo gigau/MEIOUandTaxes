@@ -1,0 +1,56 @@
+# 338 - Arzew
+# LS - Maghreb
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLE
+controller = TLE 
+culture = algerian
+religion = sunni
+capital = "Arzew"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 22861
+trade_goods = olive
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1337.1.1  = {
+	owner = FEZ
+	controller = FEZ
+}
+1356.1.1  = {
+	add_core = TLE 
+	add_core = FEZ
+}
+1399.1.1  = {
+	owner = TLE
+	controller = TLE
+}
+1500.1.1  = { citysize = 24147 }
+1520.1.1 = {
+	owner = ALG
+	controller = ALG
+	add_core = ALG
+}
+1530.1.1  = { fort2 = yes } # Re-fortified
+1550.1.1  = { citysize = 26187 }
+1600.1.1  = { citysize = 28005 }
+1650.1.1  = { citysize = 30498 }
+1700.1.1  = { citysize = 31348 marketplace = yes }
+1750.1.1  = { citysize = 34022 }
+1760.1.1  = { mint = yes }
+1800.1.1  = { citysize = 37465 }
+1830.1.1 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}

@@ -1,0 +1,282 @@
+# NNB - Nanbu clan
+# LS/GG - Japanese Civil War
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = tohoku
+religion = shinbutsu
+technology_group = chinese
+capital = 2297		# Aomori
+daimyo = yes
+
+1352.1.1 = {
+	monarch = {
+		name = "Sukemasa"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1361.1.1 = {
+	monarch = {
+		name = "Shigetoki"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Nobunaga"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1379.1.1 = {
+	monarch = {
+		name = "Masayuki"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1388.1.1 = {
+	monarch = {
+		name = "Moriyuki"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1397.1.1 = {
+	monarch = {
+		name = "Yoshimasa"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1406.1.1 = {
+	monarch = {
+		name = "Masamori"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Sukemasa"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Mitsumasa"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Tokimasa"		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Michitsugu"
+		dynasty = "Nanbu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Nobutoki"
+		dynasty = "Nanbu"
+#		birth_date = 1442.1.1
+#		death_date = 1503.6.18
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Nobuyoshi"
+		monarch_name = "Nobuyoshi"
+		dynasty = "Nanbu"
+		birth_date = 1462.1.1
+		death_date = 1507.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1503.6.18 = {
+	monarch = {
+		name = "Nobuyoshi"
+		dynasty = "Nanbu"
+#		birth_date = 1462.1.1
+#		death_date = 1507.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Masayasu"
+		monarch_name = "Masayasu"
+		dynasty = "Nanbu"
+		birth_date = 1461.1.1
+		death_date = 1541.1.1
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Masayasu"
+		dynasty = "Nanbu"
+#		birth_date = 1461.1.1
+#		death_date = 1541.1.1
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Yasunobu"
+		monarch_name = "Yasunobu"
+		dynasty = "Nanbu"
+		birth_date = 1493.1.1
+		death_date = 1541.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Yasunobu"
+		dynasty = "Nanbu"
+#		birth_date = 1493.1.1
+#		death_date = 1541.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Harumasa"
+		monarch_name = "Harumasa"
+		dynasty = "Nanbu"
+		birth_date = 1517.1.1
+		death_date = 1582.1.27
+		claim = 90
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1541.1.1 = {
+	monarch = {
+		name = "Harumasa"		dynasty = "Nanbu"#		birth_date = 1517.1.1
+#		death_date = 1582.1.27
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1562.4.1 = {
+	heir = {
+		name = "Nobunao"
+		monarch_name = "Nobunao"
+		dynasty = "Nanbu"
+		birth_date = 1546.4.1
+		death_date = 1599.11.22
+		claim = 80
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Harutsugu"
+		monarch_name = "Harutsugu"
+		dynasty = "Nanbu"
+		birth_date = 1570.1.1
+		death_date = 1582.2.16
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1582.1.27 = {
+	monarch = {
+		name = "Harutsugu"		dynasty = "Nanbu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1582.2.16 = {
+	monarch = {
+		name = "Nobunao"		dynasty = "Nanbu"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1582.2.16 = {
+	heir = {
+		name = "Toshinao"
+		monarch_name = "Toshinao"
+		dynasty = "Nanbu"
+		birth_date = 1576.4.13
+		death_date = 1632.10.1
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

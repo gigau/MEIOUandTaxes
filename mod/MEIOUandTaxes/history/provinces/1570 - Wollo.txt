@@ -1,0 +1,62 @@
+#1570 - Tigray
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ETH
+controller = ETH
+add_core = ETH
+culture = tigrean
+religion = oriental
+capital = "Aksum"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = livestock
+
+fort1 = yes
+terrain2 = yes
+
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = ADA
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = { set_province_flag = terrain2 }
+1486.1.1 = { revolt_risk = 5 add_core = ADA } #Raids by Mahfuz Of Zayla
+1495.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1499.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1510.1.1 = { revolt_risk = 9 } #Raids by Mahfuz Of Zayla
+1514.1.1 = {	owner = ADA
+		controller = ADA
+		revolt_risk = 6
+	   } #Mahfuz drives Ethiopians out of Ifat region
+1517.7.1 = {	owner = ETH
+		controller = ETH
+	   } #Lebna Dengel occupies region during campaign that defeats Mahfuz
+1527.1.1 = { revolt_risk = 5 } #Raids by Ahmad Gran
+1529.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1530.1.1 = { religion = sunni } #Spread of Islam leads to shift in religion affiliation of region
+1531.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1532.1.1 = {	owner = ADA
+		controller = ADA
+		revolt_risk = 6
+	   } #Lebna Dengel defeated by Ahmad Gran at Ayfars
+1545.1.1 = {	owner = ETH
+		controller = ETH
+		remove_core = ADA
+	   } #Adal collapse in highlands in wake of Ahmad Gran's death
+1549.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1550.1.1 = { discovered_by = TUR }
+1553.1.1 = { revolt_risk = 5 } #Invasion by Adal 
+1558.1.1 = { revolt_risk = 5 } #Invasion by Adal 
+1564.1.1 = { controller = REB } #Oromo seize control of region
+1566.1.1 = { controller = ETH } #Sarsa Dengel defeats Oromo invaders
+1573.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1578.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1588.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1590.1.1 = { revolt_risk = 0 }

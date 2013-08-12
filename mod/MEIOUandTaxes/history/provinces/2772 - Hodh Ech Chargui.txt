@@ -1,0 +1,29 @@
+# 2772 - Hodh Ech Chargui
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TUA
+controller = TUA
+culture = tuareg
+religion = sunni
+capital = "Hodh Ech Chargui"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = salt
+
+fort1 = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = TUA
+}
+1591.1.1 = {
+	owner = MOR
+	controller = MOR
+}

@@ -1,0 +1,62 @@
+# 2442 - Ishim
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = khazak
+religion = sunni
+capital = "Ishim"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 1270
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = WHI
+	add_core = SIB
+	add_core = KZH
+	revolt_risk = 3
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1446.1.1 = {
+	owner = SHY
+	controller = SHY
+	remove_core = GOL
+}
+1450.1.1 = {
+	citysize = 1940
+	discovered_by = SIB
+}
+1465.1.1 = {
+	owner = KZH
+	controller = KZH
+	remove_core = SHY
+}
+1500.1.1 = { citysize = 2140 }
+1550.1.1 = { citysize = 2540 }
+1585.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SIB
+	culture = russian
+	religion = orthodox
+} # Yermak Timofeevich, annexed to Muscovy
+1600.1.1 = { citysize = 2997 }
+1622.1.1 = { discovered_by = RUS }
+1650.1.1 = { citysize = 3547 }
+1700.1.1 = { citysize = 4270 }
+1750.1.1 = { citysize = 4887 }
+1752.1.1 = {
+	capital = "Petropavl"
+}
+1800.1.1 = { citysize = 5544 }

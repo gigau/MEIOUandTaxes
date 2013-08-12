@@ -1,0 +1,21 @@
+# Dutch Maurician
+#Modified for MEIOU by FB 10.02.07
+#tech level 27 c1570
+
+unit_type = western
+type = infantry
+
+maneuver = 1
+#offensive_morale = 6
+#defensive_morale = 4
+#offensive_fire = 4
+#defensive_fire = 3
+#offensive_shock = 3
+#defensive_shock = 1
+#FB
+offensive_morale = 6
+defensive_morale = 6
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 4
+defensive_shock = 5

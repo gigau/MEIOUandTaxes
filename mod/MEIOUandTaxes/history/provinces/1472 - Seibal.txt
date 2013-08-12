@@ -1,0 +1,74 @@
+# 1472 - Lacatun
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAY
+controller = MAY
+add_core = MAY
+culture = mayan
+religion = teotl
+capital = "Lacam Tun" 
+
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = coffee 
+
+
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+
+1502.1.1   = {
+	discovered_by = CAS
+}
+1516.1.23  = {
+	discovered_by = SPA
+}
+1528.2.12  = {
+	owner = SPA
+	controller = SPA
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	
+}
+1553.1.1   = {
+	add_core = SPA
+	citysize = 5000
+}
+1600.1.1   = {
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 10000
+}
+1800.1.1   = {
+	citysize = 25000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordoba
+1832.10.1  = {
+	revolt_risk = 3
+} # Convention of 1832
+1833.4.1   = {
+	revolt_risk = 6
+} # Convention of 1833

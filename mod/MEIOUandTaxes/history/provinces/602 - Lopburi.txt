@@ -1,0 +1,41 @@
+# 602 - Lopburi (lawo)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = thai
+religion = theravada
+capital = "Lawo"
+
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 30000
+trade_goods = opium
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1500.1.1 = { citysize = 30000 }
+1550.1.1 = { citysize = 30000 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU }
+1600.1.1 = { citysize = 30000 }
+1650.1.1 = { citysize = 30000 }
+1700.1.1 = { citysize = 40000 }
+1750.1.1 = { citysize = 40000 }
+1767.4.1 = { revolt_risk = 7 } # The Ayutthaya kingdom began to crumble
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 60000 }

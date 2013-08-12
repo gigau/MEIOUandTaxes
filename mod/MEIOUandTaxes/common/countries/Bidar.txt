@@ -1,0 +1,77 @@
+#Country Name: bidar
+#Tag: BID
+#MEIOU-FB India 1337+ mod Aug 08 - NEW country
+
+graphical_culture = indiangfx
+
+color = { 183  152  131 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Qasim #0" = 50
+	"Amir #0" = 40
+	"Ibrahim #0" = 40
+	"Amir #0" = 40
+	"Bijjala #0" = 20
+	"Dariya #0" = 20
+	"Singhana #0" = 20
+}
+
+leader_names = {
+	Allauddin
+	Bahman Batuta
+	Chairul
+	Gangu
+	Hasan Hamzah Hasanuddin
+	Ibnu
+	Kyai
+	Mahat Mukhtar
+	Najamuddin Natzar Nazmizan
+	Madhani
+	Kunal
+	Deivan
+	Himani
+	Divecha
+	Jayaram
+	Gorawala
+	Gajraj
+	Khursh
+	Meka
+}
+
+ship_names = {
+	Siam Samandafa
+	"Malik ul Suhalia" "Malik Al-Suhalia"
+	Teunom Peusangen Jamboaye Alas Tripa "Simpang-kiri"
+	Alia Arusa Bori Fatimah Jalsena
+	Girna "Kala Jahazi" Khan "Lal Jahazi"
+	Narmada Nausena "Nav ka Yudh" Niknaz
+	"Nila Jahazi" Niloufa Noor Panjhra
+	Sagar Salima Shameena Suhalia Tapi
+	Yasmine Zahira
+}
+
+#army_names = { "Armee von $PROVINCE$" }
+
+#fleet_names = { }

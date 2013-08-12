@@ -1,0 +1,28 @@
+# Västerbotten
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+capital = "Umeå"
+fort1 = yes
+citysize = 1050 # Estimated
+discovered_by = eastern
+discovered_by = western
+
+1500.1.1 = { citysize = 1210 } # Estimated
+1527.6.1 = { religion = protestant}
+1550.1.1 = { citysize = 1550 } # Estimated
+1600.1.1 = { citysize = 1910 } # Estimated
+1650.1.1 = { citysize = 2365 }
+1700.1.1 = { citysize = 2610 }
+1750.1.1 = { citysize = 2738 }
+1800.1.1 = { citysize = 3105 }

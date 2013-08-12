@@ -1,0 +1,68 @@
+# 547 - Tirupati
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = telegu
+religion = hinduism
+capital = "Penukonda"
+trade_goods = gems
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 12540
+temple = yes
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1336.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1356.1.1 = {
+	add_core = GNG
+	add_core = VIJ
+}
+1385.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1400.1.1 = { citysize = 14289 }
+1500.1.1 = { citysize = 18085 }
+1507.1.1 = { add_core = GOC } # Qutb Shahi dynasty
+1550.1.1 = { citysize = 20327 }
+1570.1.1 = { revolt_risk = 0 }
+1592.1.1 = { capital = "Chandragiri" }
+1600.1.1 = { citysize = 22840 }
+1645.1.1 = {
+	controller = GOC
+} # Conquered by Golconda
+1646.1.1 = {
+	owner = GOC
+	remove_core = VIJ
+	capital = "Tirupati"
+} # Conquered by Golconda
+1650.1.1 = { citysize = 25760 discovered_by = turkishtech }
+1686.1.1 = {
+	controller = MUG
+}
+1687.1.1 = {
+	owner = MUG
+}
+1700.1.1 = { citysize = 28468 add_core = MUG }
+1707.5.12 = { discovered_by = GBR discovered_by = FRA }
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	add_core = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk of Hyderabad
+1750.1.1 = { citysize = 32300 workshop = yes }
+1800.1.1 = { citysize = 36400 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+}
+1826.1.1 = { add_core = GBR }

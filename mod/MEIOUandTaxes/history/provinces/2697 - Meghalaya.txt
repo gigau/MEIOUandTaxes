@@ -1,0 +1,5 @@
+# 2697 - Meghalaya
+
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese

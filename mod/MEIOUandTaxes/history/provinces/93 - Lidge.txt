@@ -1,0 +1,86 @@
+# 93 - Pricipaute episcopale de liege , Limbourg
+# Liege, Dinant, Maastricht
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LIE
+controller = LIE
+add_core = LIE
+culture = wallonian
+religion = catholic
+capital = "Liège"
+citysize = 12500
+
+base_tax = 6
+trade_goods = coal
+#manpower = 4
+manpower = 8
+
+marketplace = yes
+courthouse = yes
+temple = yes
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 15000 }
+1399.1.1   = { citysize = 17500 }
+1453.1.1   = { add_core = BUR citysize = 20000 }
+1465.1.1   = { revolt_risk = 4 } # Revolt imminent
+1465.4.22  = { controller = REB } # Citizens revolt
+1465.10.19 = { controller = LIE revolt_risk = 0 } # Peace is restored
+1467.1.1   = { owner = BUR controller = BUR revolt_risk = 5 } # Charles the Bold installs Louis de Bourbon
+1468.9.1   = { controller = REB } # Citizens rise up against the disliked Louis de Bourbon
+1468.9.4   = { controller = BUR } # Charles the Bold sacks Liège
+1477.1.5   = { owner = LIE controller = LIE remove_core = BUR add_core = HAB revolt_risk = 0 } # Charles the Bold dies and Liège is re-established
+1492.8.12  = { remove_core = HAB } # Liège signs a perpetual treaty of neutrality with Austria (and France)
+1500.1.1   = { citysize = 24000 constable = yes }
+1518.1.1   = { fort2 = yes }
+1530.1.1   = { temple = yes } # Saint Paul's Cathedral finished
+1550.1.1   = { citysize = 31000 }
+1579.1.6   = {add_core = EBU}
+
+1600.1.1   = { citysize = 38000 }
+1610.1.1   = { weapons = yes } # Liège was always a centre of arms production
+1630.1.1   = { workshop = yes }
+1650.1.1   = { fort3 = yes citysize = 46000 }
+1690.1.1   = { customs_house = yes }
+1700.1.1   = { citysize = 57000 }
+1715.1.1   = { fort4 = yes }
+1750.1.1   = { mint = yes citysize = 70500 }
+1789.12.3 = {
+	controller = REB
+	add_core = EBU
+}
+1790.1.11  = {
+	owner = EBU
+	controller = EBU
+	remove_core = LIE
+}
+1791.1.1   = {
+	owner = HAB
+	controller = HAB
+}
+1797.12.26 = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+	     } # Treaty of Campo Formio
+1800.1.1   = { citysize = 71000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16  = {	owner = NED
+		controller = NED
+		add_core = NED
+		remove_core = FRA
+	     } # The United Kingdom of the Netherlands
+1830.1.1    = {
+	owner = EBU
+	controller = EBU
+}

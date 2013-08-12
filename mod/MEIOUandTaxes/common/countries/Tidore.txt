@@ -1,0 +1,67 @@
+#Country Name: Tidore
+#Tag: TID
+#New Country added by MEIOU-FB Indonesia mod v2
+
+graphical_culture = indiangfx
+
+color = { 106	45	0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Ahmad #0" = 10
+	"Nuku  #0" = 10
+	"Enwer #0" = 10
+	"Mansyur #0" = 10
+	"Pangeran #0" = 10
+	"Malik #0" = 10
+	"Wahuwa #0" = 10
+	"Saifuddin #0" = 20
+	"al-Mansur #0" = 20
+}
+
+leader_names = {
+	Ebdulfeteh
+	Betute
+	Cheirul
+	Hemzeh
+	Hesenuddin
+	Ibnu
+	Kyei
+	Mehet
+	Mukhter
+	Nejemuddin
+	Netzer
+	Nezmizen
+	Roem
+	Syerifuddin
+	Zulkifli
+}
+
+ship_names = {
+	Muhammad Tahir Jamal Abidin Saifuddin Hasanuddin
+	Beleit Tutong Tembureng
+	Beteng Trusen Penderuen Lungei Limbeng
+	Tinjer Kuele Beleit Betu Deneu
+	Medemit Lumut Telingen
+	Lebi Sukeng Berem
+}

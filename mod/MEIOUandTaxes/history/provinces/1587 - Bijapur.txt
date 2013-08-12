@@ -1,0 +1,57 @@
+# 1587 - Bijapur
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Bijapur"
+trade_goods = tin
+hre = no
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 16410
+fort1 = yes
+temple =  yes
+marketplace = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = BIJ
+	add_core = BAH
+}
+1400.1.1  = { citysize = 18400 }
+1490.1.1  = {
+	owner = BIJ
+	controller = BIJ
+	remove_core = BAH
+} # The Breakup of the Bahmani sultanate
+1500.1.1  = { citysize = 22700 }
+1550.1.1  = { citysize = 26300 fort2 = yes }
+1600.1.1  = { citysize = 30300 discovered_by = turkishtech }
+1650.1.1  = { citysize = 34100 workshop = yes add_core = MAR }
+1687.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	courthouse = yes
+} # Conquered by the mughal emperor Aurangzeb
+1700.1.1  = { citysize = 38500 mint = yes }
+1707.5.12 = { discovered_by = GBR }
+1712.1.1  = { add_core = HYD }
+1724.1.1  = {
+	owner = HYD
+	controller = HYD
+}
+1750.1.1  = { citysize = 43500 }
+1760.1.1  = {
+	owner = MAR
+	controller = MAR
+	remove_core = MUG
+} # battle of Kharda
+1800.1.1  = { citysize = 48100 }
+1810.1.1  = {
+	add_core = MAR
+}

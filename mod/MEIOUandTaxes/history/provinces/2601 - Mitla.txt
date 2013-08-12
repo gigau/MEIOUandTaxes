@@ -1,0 +1,77 @@
+# 2601 - Mitclan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAP
+controller = ZAP
+add_core = ZAP
+culture = zapotec
+religion = teotl
+capital = "Mictlan" 
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 2000
+trade_goods = cacao
+
+marketplace = yes
+terrain2 = yes
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1450.1.1   = {
+	owner = AZT
+	controller = AZT
+	citysize = 1000
+	base_tax = 6
+#	manpower = 2
+	manpower = 4
+} # Conquest by Ahuitzotl, eighth tlatoani of Tenochtitlan
+1506.1.1   = {
+	add_core = AZT
+}
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1521.8.13  = {
+	owner = SPA
+	controller = SPA
+	citysize = 200
+} #Fall of Tenochtitlan
+1546.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 3000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 4000
+}
+1800.1.1   = {
+	citysize = 5000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

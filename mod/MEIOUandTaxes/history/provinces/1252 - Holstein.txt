@@ -1,0 +1,89 @@
+# Holstein
+# MEIOU - GG
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SHL
+owner = SHL
+controller = SHL
+culture = old_saxon
+religion = catholic
+hre = yes
+base_tax = 2
+trade_goods = wax
+#manpower = 3
+manpower = 6
+capital = "Kyle"
+fort1 = yes
+citysize = 10000 # Estimated
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 11000 }
+1399.1.1 = { citysize = 12000 }
+1453.1.1 = { citysize = 13000 }
+1460.1.1   = {
+	add_core = DEN
+}
+1500.1.1   = {
+	citysize = 14000
+	marketplace = yes
+}
+1523.6.21  = {
+	add_core = DAN
+	remove_core = DEN
+}
+1536.1.1   = {
+	religion = protestant
+}
+1550.1.1   = {
+	citysize = 15000
+}
+1600.1.1   = {
+	citysize = 16000
+}
+1644.1.12  = {
+	controller = SWE
+} #Torstenssons War-Captured by Lennart Torstensson
+1645.8.13  = {
+	controller = SHL
+} #The Peace of Brömsebro
+1650.1.1   = {
+	citysize = 17000
+}
+1657.10.23 = {
+	controller = SWE
+} #Karl X Gustavs First Danish War-Captured by Wrangel
+1658.2.26  = {
+	controller = SHL
+} #The Peace of Roskilde - Duchy fully independent
+1700.1.1   = {
+	citysize = 18000
+}
+1710.1.1   = {
+	mint = yes
+}
+1720.7.3   = {
+	remove_core = DAN
+} # Treaty of Frederiksborg
+1750.1.1   = {
+	citysize = 19000
+}
+1773.1.1   = {
+	add_core = DAN
+}
+1800.1.1   = {
+	citysize = 20000
+}
+1806.7.12 = {
+	hre = no
+} # The Holy Roman Empire is dissolved
+1807.7.9   = {
+	add_core = WES
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+	add_core = DEN
+	remove_core = DAN
+}

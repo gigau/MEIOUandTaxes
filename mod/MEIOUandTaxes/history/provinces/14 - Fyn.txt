@@ -1,0 +1,51 @@
+# 14 - Fyn
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DEN
+controller = DEN
+add_core = DEN
+culture = danish
+religion = catholic
+capital = "Othensø"
+
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 1650 # Estimated
+trade_goods = livestock
+
+terrain2 = yes
+fort1 = yes
+marketplace = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = DEN
+}
+1536.1.1  = { religion = protestant }
+1550.1.1  = { citysize = 2800 }
+1600.1.1  = { citysize = 3500 }
+1650.1.1  = { citysize = 4508 }
+1658.1.31 = {
+	controller = SWE
+} #Karl X Gustavs First Danish War-Captured by Karl X Gustav
+1658.2.26 = {
+	controller = DAN
+} #The Peace of Roskilde
+1672.1.1  = { citysize = 5808 }
+1750.1.1  = { citysize = 6209 }
+1769.1.1  = { citysize = 7609 }
+1800.1.1  = { citysize = 8000 }
+1814.5.17 = { owner = DEN controller = DEN add_core = DEN remove_core = DAN }

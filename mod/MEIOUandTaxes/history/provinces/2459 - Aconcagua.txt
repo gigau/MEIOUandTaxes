@@ -1,0 +1,17 @@
+# 2459 - Aconagua
+
+discovered_by = new_world
+
+1535.1.1  = {
+	discovered_by = SPA
+}
+1750.1.1  = {
+	owner = SPA
+	controller = SPA
+	culture = platean
+	religion = catholic
+}
+1810.9.18  = {
+	owner = CHL
+	controller = CHL
+}

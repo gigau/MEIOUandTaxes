@@ -1,0 +1,30 @@
+# LUC - Lucca
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = noble_republic
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -2			##1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2	##0
+# secularism_theocracy = -2
+technology_group = western
+primary_culture = tuscan
+religion = catholic
+capital = 115
+
+#1404.1.1 = {
+1356.1.1 = { #pending further research
+	monarch = {
+		name = "Repubblica"
+		dip = 6
+		mil = 6
+		adm = 6
+	}
+}

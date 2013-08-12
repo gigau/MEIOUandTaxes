@@ -1,0 +1,81 @@
+# 751 - Urubu kaapoor
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = tupinamba
+religion = pantheism
+capital = "Urubu'kaapoor"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 9
+
+1500.1.1   = {
+	discovered_by = CAS
+	discovered_by = POR
+	add_core = POR
+} # Pinzón, Pedro Álvares Cabral 
+1516.1.23  = {
+	discovered_by = SPA
+}
+1534.1.1   = {
+	owner = FRA
+	controller = FRA
+	capital = "Dieppe"
+	citysize = 560
+	culture = francien
+	religion = catholic
+	trade_goods = brazil
+	set_province_flag = trade_good_set
+}
+1600.1.1   = {
+	citysize = 1000
+}
+1615.1.1   = {
+	owner = POR
+	controller = POR
+	culture = portugese
+	capital = "Sao Luis"
+}
+1641.1.1   = {
+	owner = NED
+	controller = NED
+	culture = dutch
+	religion = reformed
+}
+1644.1.1   = {
+	owner = POR
+	controller = POR
+	culture = portugese
+	religion = catholic
+}
+1650.1.1   = {
+	citysize = 1530
+}
+1700.1.1   = {
+	citysize = 2530
+}
+1718.1.1  = {
+	revolt_risk = 6
+} # Natives led by Mandu Ladino rebelled against the Portugese expansion
+1725.1.1  = {
+	revolt_risk = 0
+} # The rebellion is subdued
+1750.1.1   = {
+	citysize = 5700
+	add_core = BRZ
+	culture = brazilian
+}
+1800.1.1   = {
+	citysize = 12000
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+}
+1825.1.1   = {
+	remove_core = POR
+}

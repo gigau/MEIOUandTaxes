@@ -1,0 +1,420 @@
+# KLN - Keladi Nayaja
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = kannada
+religion = hinduism
+technology_group = indian
+capital = 2676 
+
+1499.1.1 = {
+	monarch = {
+		name = "Chaudappa Nayaka"
+		dynasty = "Keladi"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+
+1499.1.1 = {
+	heir = {
+		name = "Sadashiva"
+		monarch_name = "Sadashiva Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1480.1.1
+		death_Date = 1566.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Sadashiva Nayaka"
+		dynasty = "Keladi"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Sankanna"
+		monarch_name = "Sankanna Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1500.1.1
+		death_Date = 1570.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Sankanna Nayaka"
+		dynasty = "Keladi"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1566.1.1 = {
+	heir = {
+		name = "Chikkasankanna"
+		monarch_name = "Chikkasankanna"
+		dynasty = "Keladi"
+		birth_date = 1550.1.1
+		death_Date = 1580.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Chikkasankanna"
+		dynasty = "Keladi"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Ramaraja"
+		monarch_name = "Ramaraja Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1560.1.1
+		death_Date = 1586.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Ramaraja Nayaka"
+		dynasty = "Keladi"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Hiriya Venkatappa"
+		monarch_name = "Hiriya Venkatappa Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1570.1.1
+		death_Date = 1629.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "Hiriya Venkatappa Nayaka"
+		dynasty = "Keladi"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1586.1.1 = {
+	heir = {
+		name = "Virabhadra"
+		monarch_name = "Virabhadra Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1570.1.1
+		death_Date = 1645.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1629.1.1 = {
+	monarch = {
+		name = "Virabhadra Nayaka"
+		dynasty = "Keladi"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1629.1.1 = {
+	heir = {
+		name = "Shivappa"
+		monarch_name = "Shivappa Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1610.1.1
+		death_Date = 1660.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+}
+
+1645.11.1 = {
+	monarch = {
+		name = "Shivappa Nayaka"
+		dynasty = "Keladi"
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+}
+
+1645.11.1 = {
+	heir = {
+		name = "Chikkavenkatappa"
+		monarch_name = "Chikkavenkatappa Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1640.1.1
+		death_Date = 1662.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Chikkavenkatappa Nayaka"
+		dynasty = "Keladi"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Bhadrappa"
+		monarch_name = "Bhadrappa Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1650.1.1
+		death_Date = 1664.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1662.1.1 = {
+	monarch = {
+		name = "Bhadrappa Nayaka"
+		dynasty = "Keladi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1662.1.1 = {
+	heir = {
+		name = "Somashekara"
+		monarch_name = "Somashekara"
+		dynasty = "Keladi"
+		birth_date = 1655.1.1
+		death_Date = 1672.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1664.1.1 = {
+	monarch = {
+		name = "Somashekara"
+		dynasty = "Keladi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+#Queen of Someshakara, ruler after his death
+
+1667.1.1 = {
+	heir = {
+		name = "Chennamma"
+		monarch_name = "Chennamma"
+		dynasty = "Keladi"
+		female = yes
+		birth_date = 1655.1.1
+		death_Date = 1697.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "Chennamma"
+		dynasty = "Keladi"
+		female = yes
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1672.1.1 = {
+	heir = {
+		name = "Basavappa"
+		monarch_name = "Basavappa"
+		dynasty = "Keladi"
+		birth_date = 1670.1.1
+		death_Date = 1714.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Basavappa"
+		dynasty = "Keladi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1697.1.1 = {
+	heir = {
+		name = "Somashekara"
+		monarch_name = "Somashekara II"
+		dynasty = "Keladi"
+		birth_date = 1675.1.1
+		death_Date = 1739.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Somashekara II"
+		dynasty = "Keladi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}	
+}
+
+1714.1.1 = {
+	heir = {
+		name = "Kiriya Basavappa"
+		monarch_name = "Kiriya Basavappa"
+		dynasty = "Keladi"
+		birth_date = 1690.1.1
+		death_Date = 1754.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1739.1.1 = {
+	monarch = {
+		name = "Kiriya Basavappa"
+		dynasty = "Keladi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1739.1.1 = {
+	heir = {
+		name = "Chennabasappa"
+		monarch_name = "Chennabasappa"
+		dynasty = "Keladi"
+		birth_date = 1710.1.1
+		death_Date = 1757.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1754.1.1 = {
+	monarch = {
+		name = "Chennabasappa"
+		dynasty = "Keladi"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1754.1.1 = {
+	heir = {
+		name = "Virammaji"
+		monarch_name = "Virammaji"
+		dynasty = "Keladi"
+		female = yes
+		birth_date = 1730.1.1
+		death_Date = 1763.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Virammaji"
+		dynasty = "Keladi"
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

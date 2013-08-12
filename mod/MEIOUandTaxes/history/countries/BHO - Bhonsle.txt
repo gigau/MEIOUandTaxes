@@ -1,0 +1,164 @@
+# BHO - Bhonsle
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 3
+# land_naval = -4
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+primary_culture = gondi
+religion = hinduism
+capital = 545 #Nagpur
+
+#Kingdom of Nagpur, primarily formable by gondwanese minors
+
+#Founded by Deogarh
+
+1690.1.1 = {
+	monarch = {
+		name = "Chand Sultan"
+		dynasty = "Deogadhi"
+		adm = 7
+		dip = 3
+		mil = 6
+	}
+}
+
+#Bhonsle Maharajas of Nagpur take control after succession struggle
+1739.1.1 = {
+	monarch = {
+		name = "Raghuji I"
+		dynasty = "Bhonsle"
+		adm = 8
+		dip = 6
+		mil = 8
+	}
+	government = administrative_monarchy_2b
+}
+
+1739.1.1 = {
+	heir = {
+		name = "Janoji"
+		monarch_name = "Janoji"
+		dynasty = "Bhonsle"
+		birth_date = 1730.1.1
+		death_date = 1772.5.18
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1755.3.2 = {
+	monarch = {
+		name = "Janoji"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1755.3.2 = {
+	heir = {
+		name = "Sabaji"
+		monarch_name = "Sabaji"
+		dynasty = "Bhonsle"
+		birth_date = 1750.1.1
+		death_date = 1775.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1772.5.18 = {
+	monarch = {
+		name = "Sabaji"
+		dynasty = "Bhonsle"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1772.5.18 = {
+	heir = {
+		name = "Raghuji"
+		monarch_name = "Raghuji II"
+		dynasty = "Bhonsle"
+		birth_date = 1750.1.1
+		death_date = 1775.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Raghuji II"
+		dynasty = "Bhonsle"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	heir = {
+		name = "Mudhoji"
+		monarch_name = "Mudhoji II"
+		dynasty = "Bhonsle"
+		birth_date = 1775.1.1
+		death_date = 1818.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1816.1.1 = {
+	monarch = {
+		name = "Mudhoji II"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1816.1.1 = {
+	heir = {
+		name = "Raghoji"
+		monarch_name = "Raghoji III"
+		dynasty = "Bhonsle"
+		birth_date = 1800.1.1
+		death_date = 1853.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Raghoji III"
+		dynasty = "Bhonsle"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}

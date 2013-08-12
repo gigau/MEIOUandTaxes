@@ -1,0 +1,26 @@
+# 1122 - Manes
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MNE
+controller = MNE
+culture = senegambian
+religion = sunni
+capital = "Manes"
+
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 12500
+trade_goods = gold
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+	add_core = DJO
+	add_core = MNE
+}

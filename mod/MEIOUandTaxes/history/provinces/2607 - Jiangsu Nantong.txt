@@ -1,0 +1,55 @@
+# 2607 - Jiangsu Nantong
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WUU
+controller = WUU
+culture = wuhan
+religion = confucianism
+capital = "Nantong"
+trade_goods = chinaware
+hre = no
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 25000
+add_core = WUU
+fort1 = yes
+discovered_by = chinese
+discovered_by = steppestech
+
+1231.1.1  = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1356.1.1  = {
+	add_core = DAZ
+	add_core = MNG
+}
+1358.1.1  = {
+	owner = MNG
+	controller = MNG
+}
+1400.1.1  = { citysize = 26000}
+1450.1.1  = { citysize = 27000}
+1500.1.1  = { citysize = 28000}
+1519.1.1  = { discovered_by = POR } # Tome Pires
+1535.1.1  = { fort2 = yes }
+1542.1.1  = { revolt_risk = 5 } # Assassination attemp on Shi Zong
+1543.1.1  = { revolt_risk = 0 }
+1550.1.1  = { citysize = 30000}
+1570.1.1  = { constable = yes }
+1600.1.1  = { citysize = 50000 }
+1630.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion
+1644.4.1  = { revolt_risk = 8 } # Beijing is attacked
+1645.6.25 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MNG
+} # The Qing Dynasty
+1650.1.1  = { citysize = 60000 }
+1700.1.1  = { citysize = 75000 }
+
+1750.1.1  = { citysize = 100000 }
+1800.1.1  = { citysize = 120000 }

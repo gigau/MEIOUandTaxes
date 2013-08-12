@@ -1,0 +1,14 @@
+# NAT - Natives
+# 2013-aug-07 - GG - EUIV changes
+
+# aristocracy_plutocracy = -5
+# centralization_decentralization = -5
+# innovative_narrowminded = -5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = -5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -5
+# secularism_theocracy = 5
+technology_group = new_world

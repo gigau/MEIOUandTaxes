@@ -1,0 +1,120 @@
+# KEL - Kelantan
+# GG - Adapted from Divide et Impera
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 2
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = mahayana
+technology_group = austranesian
+capital = 599	# Kelantan
+
+
+1353.8.1 = {
+	monarch = {
+		name = "Bahar Raja"
+		dynasty = "Choya"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+#1375-1411 to Ayutthaya
+
+1411.1.1 = {
+	monarch = {
+		name = "Kumar Raja"
+		dynasty = "Choya"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1416.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 2
+	government = despotic_monarchy_2
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Iskander Shah"
+		dynasty = "Choya"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Choya"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Husain"
+		dynasty = "Choya"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Pandak of Kubang Labu"
+		dynasty = "Long"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Yunus"
+		dynasty = "Long"
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1795.1.1 = {
+	monarch = {
+		name = "Muhammad Terengganu Sa-bagai Penangku"
+		dynasty = "Long"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Muhammad I ibni al-Marhum Long Yunus"
+		dynasty = "Long"
+		adm = 6
+		dip = 4
+		mil = 8
+	}
+}

@@ -1,0 +1,47 @@
+#souss (arabic) tamazirt (tachelhit)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FEZ
+controller = FEZ
+culture = berber
+religion = sunni
+capital = "Sus"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2146
+trade_goods = iron
+
+
+fort1 = yes
+
+discovered_by = TUA
+discovered_by = MAL
+discovered_by = muslim
+discovered_by = western
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	add_core = FEZ
+	add_core = MOR
+}
+1472.1.1 = {
+	owner = TUA # SUS
+	controller = TUA # SUS
+	remove_core = FEZ
+}
+1500.1.1 = { citysize = 3264 }
+1537.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1550.1.1 = { citysize = 4070 }
+1600.1.1 = { citysize = 4855 }
+1650.1.1 = { citysize = 5100 }
+1700.1.1 = { citysize = 6287 }
+1750.1.1 = { citysize = 7081 }
+1800.1.1 = { citysize = 7354 }

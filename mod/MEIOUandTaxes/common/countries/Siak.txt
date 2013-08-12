@@ -1,0 +1,80 @@
+#Country Name: Siak
+#Tag: SIJ
+#Siakis used to represent Siak + Jambi
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 9  127  38 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"'Abdu'l 'Alam #0" = 20
+	"'Abdu'l Jali #0" = 20
+	"'Abdu'l Mu'azzam #0" = 20
+	"Aladdin #0" = 20
+	"Ibrahim 'Abdu'l #0" = 20
+	"Iskander #0" = 20
+	"Ismail 'Abdu'l #0" = 20
+	"Jalil Jalal #0" = 100
+	"Jalil Khalil #0" = 100
+	"Jalil Muzaffar #0" = 100
+	"Jamal #0" = 20
+	"Khoja Ahmad #0" = 20
+	"Kiai Gede #0" = 20
+	"Mahmud 'Abdu'l #0" = 20
+	"Mara #0" = 20
+	"Mudari #0" = 20
+	"Muhammad 'Ali #0" = 20
+	"Muzaffar #0" = 20
+	"Rahmad #0" = 20
+	"Ri'ayat #0" = 20
+	"Sulaiman Muhammad #0" = 20
+	"Yahya 'Abdu'l #0" = 20
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi
+	Batuta
+	Chairul
+	Hamzah Hasanuddin
+	Ibnu
+	Kyai
+	Mahat Mukhtar
+	Najamuddin Natzar Nazmizan
+	Roem
+	Syarifuddin
+	Zulkifli
+}
+
+ship_names = {
+	Balla Bulu Lompo Sallo Karaeng Bambang
+	Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	Tunitangkalopi Batara Gowa Djallori Parisi Palonga
+	Butta "Karaeng Tunibatta" Parabung Pasulu
+	al-Khayr al-Mansûr al-Qudus
+	Abdulfatah Ahmad Amir Anwar Azmi
+	Najamuddin Natzar Nazmizan
+}
+

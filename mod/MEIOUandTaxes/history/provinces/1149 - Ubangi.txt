@@ -1,0 +1,26 @@
+# 1149 - Oeddei
+# FB - added discovered_by = DAR
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WAD
+controller = WAD
+culture = chadic
+religion = sunni
+capital = "Moundou"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = cotton
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = WAD
+	add_core = BAG
+}

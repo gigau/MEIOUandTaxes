@@ -1,0 +1,35 @@
+# 2316 - Agadez
+# LS -Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SON
+controller = SON
+add_core = SON
+add_core = TUA
+culture = tuareg
+religion = sunni
+capital = "Agadez"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 30000
+trade_goods = salt
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1493.1.1  = { revolt_risk = 9 } #Civil War between Sunni Baare and Muhammad Ture Sylla
+1494.1.1  = { revolt_risk = 0 religion = sunni } #Muhammad Ture Sylla establishes new dynasty
+1525.1.1  = { citysize = 15000 } #Revival under Askiya Muhammad
+1529.1.1  = { revolt_risk = 2 } #Musa overthrows father, becomes Askiya
+1550.1.1  = { citysize = 20000 } #Era of Prosperity under Askiya Dawud
+1575.1.1  = { citysize = 30000 } #Era of Prosperity under Askiya Dawud
+1591.3.15 = { discovered_by = MOR owner = MOR controller = MOR add_core = MOR } #Moroccan victory at Tondibi
+1592.1.1  = { citysize = 10000 } #Rapid Decline in wake of Moroccan occupation - city abandoned at first
+1618.1.1  = { owner = SON controller = SON  remove_core = MOR } #KINGDOM OF DENDI
+

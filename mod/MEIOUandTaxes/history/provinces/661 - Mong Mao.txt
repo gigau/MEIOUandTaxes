@@ -1,0 +1,68 @@
+# 661 - Dehong 
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLI
+controller = DLI
+culture = baizu
+religion = mahayana
+capital = "Ruili"
+trade_goods = tea
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 7907
+add_core = DLI
+discovered_by = chinese
+discovered_by = indian
+fort1 = yes
+terrain2 = yes
+
+1253.1.1 = {
+	owner = YUA
+	controller = YUA
+}
+1274.1.1 = {
+	add_core = YUA
+} #creation of yunan province
+1330.1.1 = {
+	owner = DLI		#mong mao
+	controller = DLI	#mong mao
+}
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1448.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+}
+1500.1.1 = { citysize = 8204 }
+1550.1.1 = { citysize = 9985 }
+1600.1.1 = { citysize = 10458 }
+1650.1.1 = { citysize = 11860 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	remove_core = MNG
+}# Wu Sangui appointed as viceroy
+1673.11.1 = {
+	add_core = QNG
+} # Wu Sangui revolt, core given to Qing for reconquering
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 12900 }
+1750.1.1 = { citysize = 14240 }
+1800.1.1 = { citysize = 16700 }

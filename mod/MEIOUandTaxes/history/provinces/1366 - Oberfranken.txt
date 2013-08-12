@@ -1,0 +1,35 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner       = WBG
+controller  = WBG
+add_core    = WBG
+culture     = eastfranconian
+religion    = catholic
+base_tax    = 3
+trade_goods = wine
+#manpower    = 2
+manpower    = 4
+fort1       = yes
+capital     = "Bamberg"
+hre         = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+citysize    = 9000
+
+1356.1.1    = { citysize = 10000 }
+1399.1.1    = { citysize = 11000 }
+1453.1.1    = { citysize = 12000 }
+1516.1.1    = { marketplace = yes }
+1525.1.1    = { customs_house = yes }
+1550.1.1    = { citysize = 13000 courthouse = yes }
+1580.1.1    = { constable = yes }
+1590.1.1    = { temple = yes }
+1599.1.1    = { regimental_camp = yes }
+1600.1.1    = { citysize = 14000 }
+1620.1.1    = { courthouse = yes }
+1647.1.1    = { university = yes } # (existed until 1803)
+1650.1.1    = { citysize = 16000 }
+1700.1.1    = { citysize = 18000 }
+1750.1.1    = { citysize = 22000 }
+1806.1.1 = { owner = BAV controller = BAV add_core = BAV }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

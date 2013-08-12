@@ -1,0 +1,32 @@
+#2263 - Lhassa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TIB
+controller = TIB
+culture = tibetan
+religion = mahayana
+capital = "Lhasa"
+trade_goods = carpet
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 6870
+add_core = TIB
+discovered_by = chinese
+discovered_by = steppestech
+terrain3 = yes
+fort1 = yes
+
+1356.1.1 = {
+	set_province_flag = terrain3
+}
+1500.1.1  = { citysize = 8130 }
+1550.1.1  = { citysize = 9564 }
+1600.1.1  = { citysize = 10058 }
+1650.1.1  = { citysize = 11654 }
+1700.1.1  = { citysize = 12899 }
+1750.1.1  = { citysize = 13400 }
+1755.10.4 = { revolt_risk = 7 } # Rebellion aginst the Chinese
+1757.10.4 = { revolt_risk = 0 }
+1800.1.1  = { citysize = 14750 }

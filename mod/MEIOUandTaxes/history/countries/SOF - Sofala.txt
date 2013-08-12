@@ -1,0 +1,560 @@
+#SOF - Sofala
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+primary_culture = kimwani
+religion = sunni
+technology_group = soudantech
+capital = 1176	# Sofala
+
+1000.1.1 = { set_country_flag = merchant_nation }
+
+1310.1.1 = {
+	monarch = {
+		name = "Abu al-Muzaffar Hasan"
+		dynasty = Mahdali
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Da'oud"
+		monarch_name = "Da'oud IV ibn Sulayman"
+		dynasty = Mahdali
+		birth_date = 1300.1.1
+		death_date = 1357.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+} #Abu al-Muzaffar Hasan was known to be the ruler in 1332
+
+1336.1.1 = {
+	monarch = {
+		name = "Da'oud IV ibn Sulayman"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Sulayman"
+		monarch_name = "Sulayman IV ibn Da'oud"
+		dynasty = Mahdali
+		birth_date = 1320.1.1
+		death_date = 1358.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Sulayman IV ibn Da'oud"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "al-Husayn"
+		monarch_name = "al-Husayn ibn Sulayman"
+		dynasty = Mahdali
+		birth_date = 1340.1.1
+		death_date = 1364.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1358.1.1 = {
+	monarch = {
+		name = "al-Husayn ibn Sulayman"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Talut"
+		monarch_name = "Talut II ibn al-Husayn"
+		dynasty = Mahdali
+		birth_date = 1358.1.1
+		death_date = 1366.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Talut II ibn al-Husayn"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Sulayman"
+		monarch_name = "Sulayman V ibn al-Husayn"
+		dynasty = Mahdali
+		birth_date = 1360.1.1
+		death_date = 1368.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1366.1.1 = {
+	monarch = {
+		name = "Sulayman V ibn al-Husayn"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1368.1.1 = {
+	monarch = {
+		name = "Sulayman VI ibn Sulayman"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Husayn"
+		monarch_name = "Husayn II ibn Sulayman"
+		dynasty = Mahdali
+		birth_date = 1364.1.1
+		death_date = 1416.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1392.1.1 = {
+	monarch = {
+		name = "Husayn II ibn Sulayman"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Muhammad ibn Sulayman al-Adil"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Sulayman"
+		monarch_name = "Sulayman VII ibn Muhammad"
+		dynasty = Mahdali
+		birth_date = 1400.1.1
+		death_date = 1454.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Sulayman VII ibn Muhammad"
+		dynasty = Mahdali
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = Mahdali
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1455.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = Mahdali
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Hasan VI"
+		dynasty = Mahdali
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1466.1.1 = {
+	monarch = {
+		name = "Sa'îd"
+		dynasty = Mahdali
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Sulaymân VII"
+		dynasty = Mahdali
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1477.1.1 = {
+	monarch = {
+		name = "'Abd Allâh"
+		dynasty = Mahdali
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "'Alî VI"
+		dynasty = Mahdali
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Hasan VII"
+		dynasty = Mahdali
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Ibrâhîm"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "al-Fudail"
+		dynasty = Mahdali
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Ibrâhîm II"
+		dynasty = Mahdali
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1505.7.23 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = Mahdali
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Hasan VIII"
+		dynasty = Mahdali
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = Mahdali
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Sâ'îd II"
+		dynasty = Mahdali
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1513.1.1 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = Mahdali
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+#Portuguese occupation of Kilwa. Mombasa becomes the most powerful independent Swahili state
+
+#Sultans of Mombasa
+
+1525.1.1 = {
+	monarch = {
+		name = "Abû Bakr"
+		dynasty = Mahdali
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Malindi"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Sabo"
+		dynasty = Mahdali
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1593.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = Mahdali
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+		name = "al-Hasan"
+		dynasty = Mahdali
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1614.1.1 = {
+	monarch = {
+		name = "Munganaye"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1630.8.24 = {
+	monarch = {
+		name = "Yûsuf"
+		dynasty = Mahdali
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+#Portuguese occupation of Mombasa.  Pate becomes the most powerful independent Swahili state
+
+#Sultans of Pate (Limu)
+
+1632.8.5 = {
+	monarch = {
+		name = "Abubakar bin Muhammad"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	monarch = {
+		name = "Bwana Mkuu bin Muhammad"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	monarch = {
+		name = "Abubakar bin Muhammad"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1691.1.1 = {
+	monarch = {
+		name = "Ahmad bin Abubakar"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Bwana Tamu Mkuu"
+		dynasty = Mahdali
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#Omani Occupation
+#1730.1.1 = {
+#	monarch = {
+#		name = "Omani Occupation"
+#		dynasty = Mahdali
+#		adm = 5
+#		dip = 5
+#		mil = 5
+#	}
+#
+#}
+
+#Sultans of Mombasa
+
+1744.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = Mahdali
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1746.1.1 = {
+	monarch = {
+		name = "'Alî"
+		dynasty = Mahdali
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Mas'ûd"
+		dynasty = Mahdali
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "'Abd Allâh"
+		dynasty = Mahdali
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = Mahdali
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "'Abd Allâh II"
+		dynasty = Mahdali
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}

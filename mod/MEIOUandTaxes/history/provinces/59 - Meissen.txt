@@ -1,0 +1,38 @@
+#59 - Meissen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MEI
+controller = MEI
+culture = high_saxon
+religion = catholic
+capital = "Meissen"
+trade_goods = copper
+hre = yes
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 4000
+
+fort1 = yes
+
+cot = yes
+
+add_core = MEI
+discovered_by = eastern
+discovered_by = western
+
+1423.1.6  = { owner = SAX controller = SAX add_core = SAX remove_core = MEI } # Meissen inherited Sachsen - Wittenberg
+1450.1.1  = { citysize = 4300 }
+1500.1.1  = { citysize = 4900 }
+1531.1.1  = { religion = protestant }
+1550.1.1  = { citysize = 5300 }
+1589.1.1  = { fort2 = yes } # Current structure of Festung Königstein is built
+1600.1.1  = { citysize = 5500 marketplace = yes }
+1650.1.1  = { citysize = 6220 }
+1700.1.1  = { citysize = 6800 }
+1710.1.1  = { workshop = yes } # First European porcelain is manufactured
+1750.1.1  = { citysize = 7460 }
+1790.8.1  = { revolt_risk = 5 } # Peasant revolt
+1791.1.1  = { revolt_risk = 0 }
+1800.1.1  = { citysize = 8000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

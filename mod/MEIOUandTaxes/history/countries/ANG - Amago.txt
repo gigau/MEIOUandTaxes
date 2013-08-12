@@ -1,0 +1,127 @@
+# ANG - Amago
+# LS/GG - Japanese Civil War
+# 2010-jan-20 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1028	# Izumo
+daimyo = yes
+
+1399.1.1 = {
+	monarch = {
+		name = "Mochihisa"
+		dynasty = "Amago"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Kiyosada"
+		monarch_name = "Kiyosada"
+		dynasty = "Amago"
+		birth_date = 1410.1.1
+		death_date = 1488.1.4
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1437.3.31 = { 
+	monarch = {
+		name = "Kiyosada"
+		dynasty = "Amago"
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+
+1458.12.25 = {
+	heir = {
+		name = "Tsunehisa"
+		monarch_name = "Tunehisa"
+		dynasty = "Amago"
+		birth_date = 1458.12.25
+		death_date = 1541.11.30
+		claim = 90
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+	
+1478.1.1 = { 
+	monarch = {
+		name = "Tsunehisa"
+		dynasty = "Amago"
+		adm = 6
+		dip = 7
+		mil = 7
+		}
+	}
+	
+1514.3.8 = {
+	heir = {
+		name = "Haruhisa"
+		monarch_name = "Haruhisa"
+		dynasty = "Amago"
+		birth_date = 1514.3.8
+		death_date = 1561.1.9
+		claim = 90
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+	
+1537.1.1 = { 
+	monarch = {
+		name = "Haruhisa"
+		dynasty = "Amago"
+		adm = 6
+		dip = 5
+		mil = 6
+		}
+	}
+	
+1540.1.1= {
+	heir = {
+		name = "Yoshihisa"
+		monarch_name = "Yoshihisa"
+		dynasty = "Amago"
+		birth_date = 1540.1.1
+		death_date = 1610.10.4
+		claim = 90
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1561.1.9 = {
+	monarch = {
+		name = "Yoshihisa"
+		dynasty = "Amago"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}

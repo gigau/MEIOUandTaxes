@@ -1,0 +1,74 @@
+#681 - Jiangxi Guanzhou
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+
+owner = WUU
+controller = WUU
+culture = hakka
+religion = confucianism
+capital = "guanzhou"
+trade_goods = copper
+hre = no
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 69732
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+0985.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1320.1.1 = {
+	remove_core = SNG
+	add_core = WUU
+}
+
+1351.1.1 = {
+	owner = DAA
+	controller = DAA
+	add_core = DAA
+}
+1361.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+}
+1368.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+	remove_core = DAA
+}
+1500.1.1 = { citysize = 72400 }
+1513.1.1 = { revolt_risk = 5 } # Peasant rebellion, Jiangxi
+1514.1.1 = { revolt_risk = 0 }
+1550.1.1 = { citysize = 74682 }
+1600.1.1 = { citysize = 76560 }
+1610.1.1 = { constable = yes }
+1645.6.25 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # The Qing Dynasty
+1650.1.1 = { citysize = 78905 }
+#1662.1.1 = {	owner = QNG
+#		controller = QNG
+#		add_core = QNG
+#		remove_core = MNG
+#	   } # The Qing Dynasty
+1662.1.1 = { remove_core = MNG } 
+1700.1.1 = { citysize = 800010 }
+1750.1.1 = { citysize = 72313 }
+1800.1.1 = { citysize = 74188 }

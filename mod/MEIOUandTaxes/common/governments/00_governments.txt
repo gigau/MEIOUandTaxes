@@ -1,0 +1,2188 @@
+#governments.txt
+# Do not change tags in here without changing every other reference to them.
+# If adding new forms of governemnts, make sure they are uniquely named.
+# Uses all 'modifiers' possible thats exported as a Modifier.
+###########################################################################
+####################      Based on Kaigon's ATAGE      ####################
+#################### Modified for MEIOU:Joan's Visions ####################
+###########################################################################
+#2010-dec-18 FB	DW changes (increase number of officials)
+#2011-feb-12 FB	DW 5.1 changes
+#2011-feb-17 FB	made altaic_monarchy tribal
+#2011-mar-04 FB japanese governments - royal_marriage = yes
+
+#Default values:
+#monarchy = yes
+#royal_marriage = yes
+##############################   Monarchic   ##############################
+##############################  Governments  ##############################
+
+### TIER  1 - Emperor
+
+despotic_monarchy_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 1.24
+	monarchy = yes
+	#bonus
+	officials = 1		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_1 = 0.5
+		absolute_monarchy_1 = 0.5
+		constitutional_monarchy_1 = 1.0
+		feudal_monarchy_1 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects = 1
+	}
+}
+
+feudal_monarchy_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 1.24
+	monarchy = yes
+	#bonus
+	officials = 0.7		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_1 = 0.5
+		absolute_monarchy_1 = 1.0
+		administrative_monarchy_1 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 1.14
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_1 = 0.5
+		despotic_monarchy_1 = 2.0
+	}
+}
+
+absolute_monarchy_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 0.89
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 6		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_1 = 0.5
+		despotic_monarchy_1 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 0.99
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 7		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_1 = 2.0
+	}
+}
+
+enlightened_despotism_1 = {
+	valid_for_new_country = no
+	adm_efficiency = 0.99
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_1 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 1.24
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 1		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_1b = 0.5
+		absolute_monarchy_1b = 0.5
+		constitutional_monarchy_1b = 1.0
+		feudal_monarchy_1b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects = 1
+	}
+}
+
+feudal_monarchy_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 1.24
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.7		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_1b = 0.5
+		absolute_monarchy_1b = 1.0
+		administrative_monarchy_1b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 1.14
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_1b = 0.5
+		despotic_monarchy_1b = 2.0
+	}
+}
+
+absolute_monarchy_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 0.89
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 6		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_1b = 0.5
+		despotic_monarchy_1b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 0.99
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 7		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_1b = 2.0
+	}
+}
+
+enlightened_despotism_1b = {
+	valid_for_new_country = no
+	adm_efficiency = 0.99
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_1b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+### TIER  2 - King
+
+despotic_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.25
+	monarchy = yes
+	#bonus
+	officials = 0.8		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_2 = 0.5
+		absolute_monarchy_2 = 0.5
+		constitutional_monarchy_2 = 1.0
+		feudal_monarchy_2 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.25
+	monarchy = yes
+	#bonus
+	officials = 0.6		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_2 = 0.5
+		absolute_monarchy_2 = 1.0
+		administrative_monarchy_2 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.15
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 3.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_2 = 0.5
+		despotic_monarchy_2 = 2.0
+	}
+}
+
+absolute_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.9
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 5		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_2 = 0.5
+		despotic_monarchy_2 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.0
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 6		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_2 = 2.0
+	}
+}
+
+enlightened_despotism_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.0
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 4.5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_2 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.25
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.8		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_2b = 0.5
+		absolute_monarchy_2b = 0.5
+		constitutional_monarchy_2b = 1.0
+		feudal_monarchy_2b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.25
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.6		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_2b = 0.5
+		absolute_monarchy_2b = 1.0
+		administrative_monarchy_2b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.15
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 3.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_2b = 0.5
+		despotic_monarchy_2b = 2.0
+	}
+}
+
+absolute_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.9
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 5		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_2b = 0.5
+		despotic_monarchy_2b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.0
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 6		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_2b = 2.0
+	}
+}
+
+enlightened_despotism_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.0
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 4.5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_2b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+### TIER  3 - Prince
+
+despotic_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.26
+	monarchy = yes
+	#bonus
+	officials = 0.7		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_3 = 0.5
+		absolute_monarchy_3 = 0.5
+		constitutional_monarchy_3 = 1.0
+		feudal_monarchy_3 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.26
+	monarchy = yes
+	#bonus
+	officials = 0.5	#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_3 = 0.5
+		absolute_monarchy_3 = 1.0
+		administrative_monarchy_3 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.16
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 3	#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_3 = 0.5
+		despotic_monarchy_3 = 2.0
+	}
+}
+
+absolute_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.91
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_3 = 0.5
+		despotic_monarchy_3 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.01
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 5		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_3 = 2.0
+	}
+}
+
+enlightened_despotism_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.01
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_3 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.26
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.7		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_3b = 0.5
+		absolute_monarchy_3b = 0.5
+		constitutional_monarchy_3b = 1.0
+		feudal_monarchy_3b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.26
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.5	#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_3b = 0.5
+		absolute_monarchy_3b = 1.0
+		administrative_monarchy_3b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.16
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 3	#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_3b = 0.5
+		despotic_monarchy_3b = 2.0
+	}
+}
+
+absolute_monarchy_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.91
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_3b = 0.5
+		despotic_monarchy_3b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.01
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 5		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_3b = 2.0
+	}
+}
+
+enlightened_despotism_3b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.01
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_3b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+### TIER  4 - Duke
+
+despotic_monarchy_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.27
+	monarchy = yes
+	#bonus
+	officials = 0.6		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_4 = 0.5
+		absolute_monarchy_4 = 0.5
+		constitutional_monarchy_4 = 1.0
+		feudal_monarchy_4 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.27
+	monarchy = yes
+	#bonus
+	officials = 0.4		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_4 = 0.5
+		absolute_monarchy_4 = 1.0
+		administrative_monarchy_4 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.17
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 2.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_4 = 0.5
+		despotic_monarchy_4 = 2.0
+	}
+}
+
+absolute_monarchy_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.92
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 3		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_4 = 0.5
+		despotic_monarchy_4 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.02
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 4		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_4 = 2.0
+	}
+}
+
+enlightened_despotism_4 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.02
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 3.5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_4 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.27
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.6		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_4b = 0.5
+		absolute_monarchy_4b = 0.5
+		constitutional_monarchy_4b = 1.0
+		feudal_monarchy_4b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.27
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.4		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_4b = 0.5
+		absolute_monarchy_4b = 1.0
+		administrative_monarchy_4b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.17
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 2.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_4b = 0.5
+		despotic_monarchy_4b = 2.0
+	}
+}
+
+absolute_monarchy_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.92
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 3		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_4b = 0.5
+		despotic_monarchy_4b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.02
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 4		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_4b = 2.0
+	}
+}
+
+enlightened_despotism_4b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.02
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 3.5		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_4b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+### TIER  5 - Marquess
+
+despotic_monarchy_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.28
+	monarchy = yes
+	#bonus
+	officials = 0.5		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_5 = 0.5
+		absolute_monarchy_5 = 0.5
+		constitutional_monarchy_5 = 1.0
+		feudal_monarchy_5 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.28
+	monarchy = yes
+	#bonus
+	officials = 0.35	#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_5 = 0.5
+		absolute_monarchy_5 = 1.0
+		administrative_monarchy_5 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.18
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 1.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_5 = 0.5
+		despotic_monarchy_5 = 2.0
+	}
+}
+
+absolute_monarchy_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.93
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 2		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_5 = 0.5
+		despotic_monarchy_5 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.03
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 3		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_5 = 2.0
+	}
+}
+
+enlightened_despotism_5 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.03
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 3		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_5 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.28
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.5		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_5b = 0.5
+		absolute_monarchy_5b = 0.5
+		constitutional_monarchy_5b = 1.0
+		feudal_monarchy_5b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.28
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.35	#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_5b = 0.5
+		absolute_monarchy_5b = 1.0
+		administrative_monarchy_5b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.18
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 1.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_5b = 0.5
+		despotic_monarchy_5b = 2.0
+	}
+}
+
+absolute_monarchy_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.93
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 2		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_5b = 0.5
+		despotic_monarchy_5b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.03
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 3		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_5b = 2.0
+	}
+}
+
+enlightened_despotism_5b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.03
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 3		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_5b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+### TIER  6 - Count
+
+despotic_monarchy_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.29
+	monarchy = yes
+	#bonus
+	officials = 0.4		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_6 = 0.5
+		absolute_monarchy_6 = 0.5
+		constitutional_monarchy_6 = 1.0
+		feudal_monarchy_6 = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.29
+	monarchy = yes
+	#bonus
+	officials = 0.3		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_6 = 0.5
+		absolute_monarchy_6 = 1.0
+		administrative_monarchy_6 = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.19
+	monarchy = yes
+	#bonus
+	production_efficiency = 0.04
+	officials = 0.6		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_6 = 0.5
+		despotic_monarchy_6 = 2.0
+	}
+}
+
+absolute_monarchy_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.94
+	monarchy = yes
+	#bonus
+	discipline = 0.05
+	officials = 1.5		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_6 = 0.5
+		despotic_monarchy_6 = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.04
+	monarchy = yes
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 2		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_6 = 2.0
+	}
+}
+
+enlightened_despotism_6 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.04
+	monarchy = yes
+	#bonus
+	global_spy_defence = 0.16
+	officials = 2		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_6 = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+despotic_monarchy_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.29
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.4		#FB-HT3
+	badboy_limit = 8
+	allowed_conversion = {
+		administrative_monarchy_6b = 0.5
+		absolute_monarchy_6b = 0.5
+		constitutional_monarchy_6b = 1.0
+		feudal_monarchy_6b = 2.0
+	}
+	maximum_policy = {
+		serfdom_freesubjects  = 1
+	}
+}
+
+feudal_monarchy_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.29
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.3		#FB-HT3
+	global_manpower_modifier = 0.12
+	land_forcelimit_modifier = 0.12
+	allowed_conversion = {
+		despotic_monarchy_6b = 0.5
+		absolute_monarchy_6b = 1.0
+		administrative_monarchy_6b = 1.0
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+}
+
+administrative_monarchy_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.19
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	production_efficiency = 0.04
+	officials = 0.6		#FB-HT3
+	allowed_conversion = {
+		constitutional_monarchy_6b = 0.5
+		despotic_monarchy_6b = 2.0
+	}
+}
+
+absolute_monarchy_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.94
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	discipline = 0.05
+	officials = 1.5		#FB-HT3
+	allowed_conversion = {
+		enlightened_despotism_6b = 0.5
+		despotic_monarchy_6b = 2.0
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+}
+constitutional_monarchy_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.04
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	prestige_decay = -0.02	#FB-HT3
+	officials = 2		#FB-HT3
+	merchant_cost = -0.4
+	allowed_conversion = {
+		administrative_monarchy_6b = 2.0
+	}
+}
+
+enlightened_despotism_6b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.04
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	global_spy_defence = 0.16
+	officials = 2		#FB-HT3
+	allowed_conversion = {
+		absolute_monarchy_6b = 2.0
+	}
+	minimum_policy = {
+		serfdom_freesubjects  = -3
+	}
+}
+
+##############################   Republic    ##############################
+##############################  Governments  ##############################
+
+noble_republic = { #Prince
+	valid_for_new_country = yes
+	adm_efficiency = 1.15
+	republic = yes
+	republican_name = yes
+	duration = 4
+	#bonus
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	officials = 0.6		#FB-HT3
+	allowed_conversion = {
+		administrative_republic = 0.5
+		republican_dictatorship = 1.0
+	}
+}
+
+merchant_republic_cot = { #Doge
+	valid_for_new_country = no
+	adm_efficiency = 1.15
+	republic = yes
+	republican_name = yes
+	royal_marriage = no
+	mercantile_diplomacy = yes	#FB-HT3
+	duration = 4
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	merchant_cost = -0.25
+	officials = 0.35	#FB-HT3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		aristocracy_plutocracy = 1
+	}
+}
+
+merchant_republic = { #Doge
+	valid_for_new_country = yes	#FB-HT3 was no
+	adm_efficiency = 1.15
+	republic = yes
+	republican_name = yes
+	royal_marriage = no
+	duration = 4
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	merchant_cost = -0.20
+	officials = 0.35	#FB-HT3
+	allowed_conversion = {
+		administrative_republic = 0.5
+		bureaucratic_despotism = 1.0
+	}
+	minimum_policy = {
+		aristocracy_plutocracy = 1
+	}
+}
+
+administrative_republic = { #Stadtholder
+	valid_for_new_country = yes
+	adm_efficiency = 1.05
+	republic = yes
+	republican_name = yes
+	royal_marriage = no
+	duration = 4
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	trade_efficiency = 0.04
+	officials = 1.5		#FB-HT3
+	allowed_conversion = {
+		constitutional_republic = 0.5
+		republican_dictatorship = 0.5
+		bureaucratic_despotism = 1.0
+		merchant_republic = 2.0
+		noble_republic = 2.0
+	}
+}
+
+crowned_republic = { #Stadtholder
+	valid_for_new_country = yes
+	adm_efficiency = 1.05
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	trade_efficiency = 0.04
+	officials = 4		#FB-HT3
+	allowed_conversion = {
+		constitutional_republic = 0.5
+		republican_dictatorship = 0.5
+		bureaucratic_despotism = 1.0
+		merchant_republic = 2.0
+		noble_republic = 2.0
+	}
+}
+
+republican_dictatorship = { #Lord Protector
+	valid_for_new_country = yes
+	adm_efficiency = 0.9
+	republic = yes
+	republican_name = yes
+	royal_marriage = no
+	duration = 4
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	land_morale = 0.08
+	naval_morale = 0.08
+	officials = 4		#FB-HT3 (HT3=1.5)
+	allowed_conversion = {
+		bureaucratic_despotism = 0.5
+		administrative_republic = 2.0
+	}
+}
+
+constitutional_republic = { #President
+	valid_for_new_country = yes
+	adm_efficiency = 1.0
+	republic = yes
+	republican_name = yes
+	royal_marriage = no
+	duration = 4
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	production_efficiency = 0.16
+	officials = 3		#FB-HT3
+	allowed_conversion = {
+		administrative_republic = 2.0
+	}
+}
+
+bureaucratic_despotism = { #First Council
+	valid_for_new_country = yes
+	adm_efficiency = 0.85
+	#FB-HT3	monarchy = yes
+	republic = yes	#FB-HT3
+	royal_marriage = no
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	stability_cost_modifier = -0.16
+	officials = 3.5		#FB-HT3
+	allowed_conversion = {
+		republican_dictatorship = 2.0
+	}
+}
+
+##############################   Religious   ##############################
+##############################  Governments  ##############################
+
+papal_government = { #Pope
+	valid_for_new_country = no	#DW 5.1
+	adm_efficiency = 1.25
+	papacy = yes
+	religion = yes
+	royal_marriage = no
+	#bonus
+	tolerance_own = 1	#FB-HT3
+	tolerance_heretic = -1	#FB-HT3
+	tolerance_heathen = -1	#FB-HT3
+	prestige = 0.01		#FB-HT3
+	officials = 5		#FB-HT3 (HT3=2.5)
+	missionary_placement_chance = 0.28
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 0
+	}
+}
+
+theocracy_1 = { #Prince-archbishop
+	valid_for_new_country = yes
+	adm_efficiency = 1.22
+	religion = yes
+	royal_marriage = no
+	#bonus
+	tolerance_own = 1	#FB-HT3
+	tolerance_heretic = -1	#FB-HT3
+	tolerance_heathen = -1	#FB-HT3
+	officials = 3		#FB-HT3
+	papal_influence = 0.3	#FB-HT3
+	missionary_placement_chance = 0.36
+	allowed_conversion = {
+		religious_order_1 = 2.0
+	}
+	minimum_policy = {
+		innovative_narrowminded = 0
+	}
+}
+
+religious_order_1 = { #Grand Master
+	valid_for_new_country = yes
+	adm_efficiency = 1.22
+	religion = yes
+	royal_marriage = no
+	republican_name = yes
+	#bonus
+	tolerance_own = 1	#FB-HT3
+	tolerance_heretic = -1	#FB-HT3
+	tolerance_heathen = -1	#FB-HT3
+	officials = 3		#FB-HT3
+	papal_influence = 0.15	#FB-HT3
+	missionary_placement_chance = 0.35
+	allowed_conversion = {
+		theocracy_1 = 2.0
+	}
+	minimum_policy = {
+		innovative_narrowminded = 0
+	}
+}
+
+theocracy_2 = { #Prince-bishop
+	valid_for_new_country = yes
+	adm_efficiency = 1.22
+	religion = yes
+	royal_marriage = no
+	#bonus
+	tolerance_own = 1	#FB-HT3
+	tolerance_heretic = -1	#FB-HT3
+	tolerance_heathen = -1	#FB-HT3
+	officials = 1.5		#FB-HT3
+	papal_influence = 0.15	#FB-HT3
+	missionary_placement_chance = 0.24
+	allowed_conversion = {
+		religious_order_2 = 2.0
+	}
+	minimum_policy = {
+		innovative_narrowminded = 0
+	}
+}
+
+religious_order_2 = { #Master
+	valid_for_new_country = yes
+	adm_efficiency = 1.22
+	religion = yes
+	royal_marriage = no
+	republican_name = yes
+	#bonus
+	tolerance_own = 1	#FB-HT3
+	tolerance_heretic = -1	#FB-HT3
+	tolerance_heathen = -1	#FB-HT3
+	officials = 1.5		#FB-HT3
+	papal_influence = 0.05	#FB-HT3
+	missionary_placement_chance = 0.30
+	allowed_conversion = {
+		theocracy_2 = 2.0
+	}
+	minimum_policy = {
+		innovative_narrowminded = 0
+	}
+}
+
+##############################     Other     ##############################
+##############################  Governments  ##############################
+
+japan_monarchy_1 = {
+	adm_efficiency = 0.8
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 1.5		#FB-HT3
+	production_efficiency = 0.05
+	technology_cost = -0.1
+	stability_cost_modifier = -0.15
+	global_manpower_modifier = +0.25
+	land_forcelimit_modifier = 1.00
+	land_morale = +0.25
+	army_tradition = 0.03
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = 0
+	}
+}
+
+japan_monarchy_2a = {
+	adm_efficiency = 0.9
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 1		#FB-HT3
+	global_manpower_modifier = 1.40
+	stability_cost_modifier = -0.15
+	land_morale = +0.25
+	army_tradition = 0.03
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		centralization_decentralization = -2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+japan_monarchy_2b = {
+	adm_efficiency = 1.5
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 1		#FB-HT3
+	global_manpower_modifier = 0.75 # Ashikaga shogunate was reliant on the military forces of its vassals
+	stability_cost_modifier = 0.25 # extended period of instability
+	technology_cost = 0.2
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+japan_monarchy_3 = {
+	adm_efficiency = 0.95
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 0.7		#FB-HT3
+	stability_cost_modifier = -0.15
+	global_manpower_modifier = 0.50
+	land_forcelimit_modifier = 0.50
+	technology_cost = 0.1
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		centralization_decentralization = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+japan_monarchy_4 = {
+	adm_efficiency = 0.9
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 0.6		#FB-HT3
+	stability_cost_modifier = -0.15
+	global_manpower_modifier = 0.75
+	land_forcelimit_modifier = 1.00
+	technology_cost = -0.15
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		centralization_decentralization = -2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+japan_monarchy_5 = {
+	adm_efficiency = 0.9
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 0.5		#FB-HT3
+	stability_cost_modifier = -0.15
+	global_manpower_modifier = 1.00
+	land_forcelimit_modifier = 1.00
+	technology_cost = 0.2
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+japan_monarchy_6 = {
+	adm_efficiency = 0.9
+	monarchy = yes
+	royal_marriage = yes
+	#bonus
+	officials = 0.4		#FB-HT3
+	stability_cost_modifier = 0.15
+	land_morale = -0.25
+	max_war_exhaustion = 3
+	merchant_compete_chance = 0.03
+	merchant_placement_chance = 0.03
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+eastern_monarchy_1 = {
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.7		#FB-HT3
+	production_efficiency = 0.06
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded  = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = 0
+	}
+}
+
+eastern_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.5		#FB-HT3
+	production_efficiency = 0.05
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded  = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+eastern_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.3		#FB-HT3
+	production_efficiency = 0.04
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded  = 0
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+indian_monarchy_1 = { #Maharaja
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	#bonus
+	officials = 2		#FB-HT3
+	trade_efficiency = 0.06
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = 0
+	}
+}
+
+indian_monarchy_2 = { #Raja
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	#bonus
+	officials = 1.5		#FB-HT3
+	trade_efficiency = 0.05
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+indian_monarchy_3 = { #Thakore
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	#bonus
+	officials = 0.6		#FB-HT3
+	trade_efficiency = 0.04
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_monarchy_1 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	tribal = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.7		#FB-HT3
+	global_revolt_risk = 1	#FB-HT3
+	global_manpower_modifier = 0.15
+	land_forcelimit_modifier = 0.15
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	tribal = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.5		#FB-HT3
+	land_forcelimit_modifier = 0.25
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_monarchy_3 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	tribal = yes
+	royal_marriage = no
+	#bonus
+	officials = 0.3		#FB-HT3
+	land_forcelimit_modifier = 0.20
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_republic_1 = {
+	republic = yes
+	tribal = yes
+#	nomad = yes
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	royal_marriage = no
+	#bonus
+	officials = 0.7		#FB-HT3
+	stability_cost_modifier = -0.30
+	#FB	technology_cost = 0.5
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_republic_2 = {
+	republic = yes
+	tribal = yes
+#	nomad = yes
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	royal_marriage = no
+	#bonus
+	officials = 0.5		#FB-HT3
+	stability_cost_modifier = -0.25
+	#FB	technology_cost = 0.5
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+tribal_republic_3 = {
+	republic = yes
+	tribal = yes
+#	nomad = yes
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	royal_marriage = no
+	#bonus
+	officials = 0.3		#FB-HT3
+	stability_cost_modifier = -0.20
+	#FB	technology_cost = 0.5
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		aristocracy_plutocracy = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+altaic_monarchy_1 = { #Khagan
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	tribal = yes	#FB
+	#bonus
+	officials = 0.7		#FB-HT3
+	land_forcelimit_modifier = 0.30
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+altaic_monarchy_2 = { #Khan
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	tribal = yes	#FB
+	#bonus
+	officials = 0.5		#FB-HT3
+	land_forcelimit_modifier = 0.25
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+altaic_monarchy_3 = { #Bey
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	tribal = yes	#FB
+	#bonus
+	officials = 0.3		#FB-HT3
+	land_forcelimit_modifier = 0.20
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+altaic_republic = { #Bey
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	republic = yes
+	royal_marriage = no
+	tribal = yes	#FB
+	#bonus
+	officials = 0.5		#FB-HT3
+	land_forcelimit_modifier = 0.25
+	#FB	technology_cost = 0.3
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		centralization_decentralization = -1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+# bureaucratic empire
+chinese_monarchy_1a = {
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 7		#FB-HT3
+	production_efficiency = 0.06
+	technology_cost = +0.15
+	stability_cost_modifier = -0.25
+	global_tax_modifier = 0.03
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		innovative_narrowminded = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+# administrative empire
+chinese_monarchy_1b = {
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 6		#FB-HT3
+	production_efficiency = 0.06
+	technology_cost =-0.10
+	stability_cost_modifier = 0.25
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+# cultural factions
+chinese_monarchy_2 = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.3
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 4		#FB-HT3
+	production_efficiency = 0.04
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+# warlord
+chinese_monarchy_2a = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.1
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 3		#FB-HT3
+	production_efficiency = 0.04
+	discipline = 0.05
+	global_manpower_modifier = 0.01
+	land_forcelimit_modifier = 0.01
+	allowed_conversion = {
+	}
+	maximum_policy = {
+		quality_quantity = -2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+}
+
+# mandarin
+chinese_monarchy_2b = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.5
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 4		#FB-HT3
+	production_efficiency = 0.04
+	global_tax_modifier = 0.03
+	global_manpower_modifier = 0.01
+	land_forcelimit_modifier = 0.01
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded  = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+# revolutionnary theocracy
+chinese_monarchy_2c = {
+	valid_for_new_country = yes
+	adm_efficiency = 1.1
+	monarchy = yes
+	royal_marriage = no
+	#bonus
+	officials = 3		#FB-HT3
+	production_efficiency = 0.04
+	global_manpower_modifier = 0.05
+	land_forcelimit_modifier = 0.05
+	land_morale = -0.1
+	badboy = -1
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+}
+
+##############################   Napoleon    ##############################
+##############################  Governments  ##############################
+
+revolutionary_republic = {
+	valid_for_new_country = yes
+	adm_efficiency = 0.8
+	republic = yes
+	duration = 4
+
+	allowed_conversion = {
+		revolutionary_empire = 1.0
+	}
+	republican_name = yes
+	royal_marriage = no
+	#bonus
+	tolerance_heretic = 1	#FB-HT3
+	tolerance_heathen = 1	#FB-HT3
+	army_tradition = 0.01
+	land_morale = 0.5
+	officials = 3		#FB-HT3
+	minimum_policy = {
+		aristocracy_plutocracy = 1
+	}
+}
+
+revolutionary_empire = {
+	adm_efficiency = 0.8
+	monarchy = yes
+	valid_for_new_country = no
+
+	allowed_conversion = {
+		revolutionary_republic = 2.0
+	}
+	#bonus
+	army_tradition = 0.01
+	global_manpower_modifier = 0.25
+	officials = 3		#FB-HT3
+}
+
+#############################   Magna Mundi   #############################
+#############################   Governments   #############################
+
+the_demesne = {
+	adm_efficiency = 400
+	republic = yes
+	allowed_conversion = {
+	}
+	republican_name = yes
+	royal_marriage = no
+	#bonus
+	officials = 3		#FB-HT3
+	prestige = 0.01
+}
+
+imperial_city = {
+	adm_efficiency = 1.22
+	republic = yes
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		serfdom_freesubjects = 1
+	}
+	republican_name = yes
+	royal_marriage = no
+	#bonus
+	officials = 1.5		#FB-HT3
+	stability_cost_modifier = -0.05
+}
+
+#############################   Divine Wind   #############################
+#############################   Governments   #############################
+
+steppe_horde_1 = {
+	monarchy = yes
+	tribal = yes
+	nomad = yes
+	royal_marriage = no
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+	minimum_policy = {
+		centralization_decentralization = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+	#bonus
+	badboy_limit = 10
+	badboy = -1
+	land_forcelimit_modifier = 1.0
+	#malus
+	technology_cost = 0.5
+	global_revolt_risk = 1
+}
+
+steppe_horde_2 = {
+	monarchy = yes
+	tribal = yes
+	nomad = yes
+	royal_marriage = no
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+	minimum_policy = {
+		centralization_decentralization = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+	#bonus
+	badboy_limit = 10
+	badboy = -1
+	land_forcelimit_modifier = 1.0
+	#malus
+	technology_cost = 0.5
+	global_revolt_risk = 1
+}
+
+steppe_horde_3 = {
+	monarchy = yes
+	tribal = yes
+	nomad = yes
+	royal_marriage = no
+	colonize_prov = yes
+	valid_for_new_country = no
+	adm_efficiency = 1.30
+	allowed_conversion = {
+	}
+	minimum_policy = {
+		innovative_narrowminded = 1
+	}
+	minimum_policy = {
+		centralization_decentralization = 2
+	}
+	maximum_policy = {
+		isolationist_expansionist = -1
+	}
+	#bonus
+	badboy_limit = 10
+	badboy = -1
+	land_forcelimit_modifier = 1.0
+	#malus
+	technology_cost = 0.5
+	global_revolt_risk = 1
+}
+
+celestial_empire = {
+	monarchy = yes
+	valid_for_new_country = no
+	royal_marriage = no
+	adm_efficiency = 1.20
+	maximum_policy = {
+		isolationist_expansionist = 0
+	}
+	allowed_conversion = {
+#		administrative_monarchy = 0.5
+#		absolute_monarchy = 0.5
+#		enlightened_despotism = 1.0
+#		constitutional_monarchy = 1.0
+#		noble_republic = 2.0
+#		theocratic_government = 2.0
+#		feudal_monarchy = 2.0
+	}
+	officials = 6
+	production_efficiency = 0.06
+}

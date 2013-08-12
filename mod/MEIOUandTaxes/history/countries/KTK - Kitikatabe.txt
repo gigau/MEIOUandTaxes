@@ -1,0 +1,164 @@
+# KTK - Kitikatabe clan
+# LS/GG - Japanese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kansai
+religion = shinbutsu
+technology_group = chinese
+capital = 2282	# Ise
+daimyo = yes
+
+1429.1.25 = {
+	monarch = {
+		name = "Noritomo"
+		dynasty = "Kitabatake"
+#		birth_date = 1423.1.1
+#		death_date = 1471.4.13
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1453.1.1 = {
+	heir = {
+		name = "Masasato"
+		monarch_name = "Masasato"
+		dynasty = "Kitabatake"
+		birth_date = 1448.1.1
+		death_date = 1508.12.4
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1471.4.13 = {
+	monarch = {
+		name = "Masasato"
+		dynasty = "Kitabatake"
+#		birth_date = 1423.1.1
+#		death_date = 1471.4.13
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1471.4.13 = {
+	heir = {
+		name = "Kichika"
+		monarch_name = "Kichika"
+		dynasty = "Kitabatake"
+		birth_date = 1468.1.1
+		death_date = 1517.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1508.12.4 = {
+	monarch = {
+		name = "Kichika"
+		dynasty = "Kitabatake"
+#		birth_date = 1468.1.1
+#		death_date = 1517.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1508.12.4 = {
+	heir = {
+		name = "Harutomo"
+		monarch_name = "Harutomo"
+		dynasty = "Kitabatake"
+		birth_date = 1503.1.1
+		death_date = 1563.10.4
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Harutomo"
+		dynasty = "Kitabatake"
+#		birth_date = 1503.1.1
+#		death_date = 1563.10.4
+		adm = 6
+		dip = 5
+		mil = 6
+		}
+}
+
+1528.1.1 = {
+	heir = {
+		name = "Tomonori"
+		monarch_name = "Tomonori"
+		dynasty = "Kitabatake"
+		birth_date = 1528.1.1
+		death_date = 1576.12.15
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1563.10.4 = {
+	monarch = {
+		name = "Tomonori"
+		dynasty = "Kitabatake"
+#		birth_date = 1528.1.1
+#		death_date = 1576.12.15
+		adm = 5
+		dip = 5
+		mil = 6
+		}
+}
+
+1563.10.4 = {
+	heir = {
+		name = "Tomofusa"
+		monarch_name = "Tomofusa"
+		dynasty = "Kitabatake"
+		birth_date = 1547.1.1
+		death_date = 1580.1.21
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1576.12.15 = {
+	monarch = {
+		name = "Nobukatsu"
+		dynasty = "Kitabatake" # Oda Nobukatsu, a son of Oda Nobunaga
+#		birth_date = 1558.1.1
+#		death_date = 1630.6.30
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

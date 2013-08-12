@@ -1,0 +1,27 @@
+# 1555 - Sokoto , Gobir
+#Province: Sokoto
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KTS
+controller = KTS
+add_core = KTS
+add_core = SOK
+culture = haussa		
+religion = sunni		 
+capital = "Sokoto"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = millet
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1807.1.1 = { owner = SOK controller = SOK add_core = SOK  }

@@ -1,0 +1,29 @@
+# ITC - Transpadane Republic
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = revolutionary_republic
+# aristocracy_plutocracy = -3
+# centralization_decentralization = -3
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+technology_group = western
+religion = catholic
+primary_culture = lombard
+capital = 104
+
+1796.10.15 = {
+	monarch = {
+		name = "Directoire"
+		DIP = 6
+		ADM = 6
+		MIL = 6
+	}
+}

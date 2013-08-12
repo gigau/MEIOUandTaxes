@@ -1,0 +1,45 @@
+# 310 - Velikiye Luki
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV   
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 4
+trade_goods = fur  
+#manpower = 1
+manpower = 2
+capital = "Velikiye Luki"
+citysize = 4809
+add_core = NOV
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+
+1478.1.14 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+#	manpower = 2
+	manpower = 4
+}
+1500.1.1  = { citysize = 5657 }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 6656 marketplace = yes }
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 7830 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1649.1.1  = { fort1 = yes } # Built to protect Muscovy against the Swedes
+1650.1.1  = { citysize = 9212 }
+1658.1.1  = { citysize = 8000 } # Large part of the orthodox pop. flees to Russia
+1700.1.1  = { citysize = 10838 }
+1750.1.1  = { trade_goods = iron citysize = 12750 workshop = yes } # Ironworking industries
+1800.1.1  = { citysize = 15000 }

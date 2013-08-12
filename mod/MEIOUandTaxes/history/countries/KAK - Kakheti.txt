@@ -1,0 +1,160 @@
+# KAK- Kakheti
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = georgian
+religion = orthodox
+technology_group = eastern
+capital = 422
+
+1466.1.1 = {
+	monarch = {
+		name = "Giorgi VIII"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Aleksandri I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Giorgi II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Levanti"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1574.1.1 = {
+	monarch = {
+		name = "Aleksandri II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Davit I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1604.1.1 = {
+	monarch = {
+		name = "Aleksandri II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Konstantini I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1606.1.1 = {
+	monarch = {
+		name = "Taimuraz I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Irakli I"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1703.1.1 = {
+	monarch = {
+		name = "Davit II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "Konstantini II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Teimuraz II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	monarch = {
+		name = "Erekle II"
+		dynasty = "Bagrationi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

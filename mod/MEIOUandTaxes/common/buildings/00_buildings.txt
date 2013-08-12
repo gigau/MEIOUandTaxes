@@ -1,0 +1,1291 @@
+#buildings.txt
+#
+#MEIOU changes
+#08.03.15 FB hemp, olive and silk added as bonus trade_goods for manufactories
+#08.05.29 GG removed fort6; more bonus trade_goods for manufactories
+#09.12.16 FB-HT3 changes: officers and cultural_tradition added
+#10.12.27 FB DW version modified for MEIOU
+#10.12.29 FB added MEIOU non-category buildings
+#11.02.12 FB DW 5.1 changes
+#11.02.13 FB replaced grain with wheat etc
+#2011-may-10 FB DW 5.1 May 10 - increased dock benefits
+#2011-may-12 FB reduce missionary conversion success rates (missionary_placement_chance)
+#2011-jun-07 FB	added minimum citysizes for some buildings
+#2011-aug-05 FB fine tuning/suggestions/annotations/questions
+#		?are owner level benefits a good idea?
+#		?why are all forts at fort_level = 1?
+#		?are the owner level benefits a good idea?
+#		(in large empires the cummulative effects of the owner benefits may be extreme)
+#2011-aug-15 YF reworking the buildings
+#		Standardising building base costs to 50/100/200/350/500/700 and const. times to 12/12/24/24/36/36
+#		Sorry fuzzbug for jumping you in the plaza thread, effects are often too extreme or too weak
+#		Rebalancing effects
+#2011-sep-26 P  Reducing monthly incomes in favour of yearly incomes, to try and reduce AI inflation. Might also help lower tech rates.
+#		Adding - spy defence to buildings that make it easier for people to move around
+#		Adding + spy defence to buildings that keep track of peoples movements
+#		Adding + revolt risk to high end military buildings
+#2011-sep-28 P	Typo fixes
+#		Removing defensivness from forts
+#		Moving missionary chance from forts to welfare
+#		Adding supply bonus to roads
+#		Removing all tax modifiers and replacing with direct tax, still too much money in monthly and not enough in yearly incomes
+#2011-oct-05 P 	Halving all production and trade modifiers
+#		minor typo fixes
+#		reduced merchants from buildings
+#		nerfing welfare pop growth a little
+#2012-feb-19 GG Adding my series of changes
+
+#Glossary
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# officials = x #==> number of magistrates to build (default 1)
+# previous = x # a building that is the prerequisite of this building
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# destroy_on_conquest = yes/no # destroy this building if conquered
+# onmap = yes/no # show as a sprite on the map
+# category = x # the category used for labels and such
+
+# Government
+constable = { #tier 1
+	#available at tech level 0 (production tech)
+	cost = 50	#FB was 150
+	time = 12	#GG changed back
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.15	#FB
+		#FB direct_tax_percentage = 0.25
+		local_revolt_risk = 1	#FB was 2
+		local_spy_defence = 0.05
+	}
+	destroy_on_conquest = no
+	category = 1
+}
+
+courthouse = { #tier 2
+	#available at tech level 12 (government tech)
+	previous = constable
+	cost = 100
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		stability_cost = -4	#FB is this a province modifier? #YF yes #P reduced to 4, is probably still too good for a T2 building
+		local_revolt_risk = -1  #P was 2
+		minimum_revolt_risk = -0.5 #YF moved from temple
+		#owner:
+		#~~government_tech_investment = 0.3
+		local_spy_defence = 0.1 #P Goverment/administrative building > spy defence
+	}
+	destroy_on_conquest = no
+	category = 1
+}
+
+glorious_monument = { #tier 3 #YF not sure if a "Glorious Monument" should be a mass-produced building #P this was really shit for its cost, better now, but still needs more
+	#available at tech level 21 (government tech)
+	previous = courthouse
+	cost = 200	#FB was 1000
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		local_regiment_cost = -0.1	#FB
+		local_manpower_modifier = 0.1	#P Inspires impresionable idiots to sign up	
+		local_revolt_risk = -1		#YF #P missing equals sign
+		#owner:
+		#~~cultural_tradition = 0.0005
+	}
+	destroy_on_conquest = yes
+	category = 1
+}
+
+town_hall = { #tier 4
+	#available at tech level 24 (government tech)
+	previous = glorious_monument
+	cost = 200	#FB was 50
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		#stability_cost = -2
+		#local_spy_defence = 0.25
+		local_tax_modifier = 0.25
+		local_production_efficiency = 0.15	#FB
+	}
+	destroy_on_conquest = no
+	category = 1
+}
+
+workshop = { #tier 5
+	#available at tech level 26 (production tech
+	previous = town_hall
+	cost = 500	#FB was 100
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.15	#FB was 0.25
+		local_production_efficiency = 0.25
+		#trade_efficiency = 0.001	#P was 0.3 production_efficiency is not how much gets produced but how effectively you can tax it  #P 0.15 > 0.05
+		local_trade_income_modifier = 0.15		#P this is how much of goods acctualy get produced, adds value to COT and to production income for province	#P 0.3 > 0.15		#owner:
+		#owner:
+		#production_tech_investment = 0.5	#FB
+		#FB production_tech_cost_modifier = -0.001
+	}
+	destroy_on_conquest = yes
+	category = 1
+}
+
+public_library = { #tier 6
+	#available at tech level 33 (government tech)
+	previous = workshop
+	cost = 700
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		#~~prestige = 0.005 #YF
+		local_revolt_risk = -1 #YF
+		#owner:
+		#~~cultural_tradition = 0.005
+		#~~stability_investment = 6	#P
+		#local_spy_defence = 0.05
+		#government_tech_investment = 0.3
+	}
+	destroy_on_conquest = yes
+	category = 1
+}
+
+# Land
+armory = { #tier 1
+	#available at tech level 4 (land tech)
+	cost = 50
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		local_manpower = 0.20
+		local_regiment_cost = -0.05
+		#local_manpower_modifier = 0.02	#FB
+		#FB local_manpower = 0.25
+		#owner:
+		regiment_recruit_speed = -0.05	#FB was -0.1 (more is better)
+		local_defensiveness = 0.05	#P having a pool of weapons/men in the province should add defensivness
+	}
+	destroy_on_conquest = yes
+	spare_on_core = yes
+	category = 2
+}
+
+training_fields = { #tier 2
+	#available at tech level 13 (land tech)
+	previous = armory
+	cost = 75
+	time = 9	#FB was 12
+	trigger = {
+	}
+	modifier = {
+		local_regiment_cost = -0.05
+		local_manpower_modifier = 0.2
+		#owner:
+		regiment_recruit_speed = -0.1	#FB was -0.1 (more is better)
+	}
+	destroy_on_conquest = yes
+	spare_on_core = yes
+	category = 2
+}
+
+barracks = { #tier 3
+	#available at tech level 20 (land tech)
+	previous = training_fields
+	cost = 200
+	time = 18
+	trigger = {
+	}
+	modifier = {
+		local_regiment_cost = -0.1
+		local_manpower_modifier = 0.2
+		#~~land_forcelimit = 1			#GG
+		local_defensiveness = 0.05	#P starting to have a large ammount of garrisoned troops, so more defensiveness
+		local_revolt_risk = 0.25	#P Noboy likes living next to a bunch of soldiers, and the soldiers themselves could be pretty uncontrolable
+	}
+	destroy_on_conquest = yes
+	spare_on_core = yes
+	category = 2
+}
+
+regimental_camp = { #tier 4
+	#available at tech level 24 (land tech)
+	previous = barracks
+	cost = 200
+	time = 18	#DW was 24
+	trigger = {
+		citysize = 4000
+	}
+	modifier = {
+		local_manpower_modifier = 0.2
+		garrison_growth = 0.5
+		#owner:
+		#~~land_forcelimit = 1			#GG
+		regiment_recruit_speed = -0.05	#FB was -0.25 (more is better)
+		local_defensiveness = 0.1	#P more garrisoned troops
+		local_revolt_risk = 0.5 	#P and more drunken riots
+	}
+	destroy_on_conquest = yes
+	category = 2
+}
+
+arsenal = { #tier 5
+	#available at tech level 28 (land tech)
+	previous = regimental_camp
+	cost = 250	#FB was 100
+	time = 24
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		local_manpower_modifier = 0.2
+		#owner:
+		regiment_recruit_speed = -0.1	#FB was -0.3 (more is better)
+		#~~land_forcelimit = 2			#GG
+		local_defensiveness = 0.1	#P Adding less soldiers this time, more about weapon storage - so no increase in riots either
+	}
+	destroy_on_conquest = yes
+	category = 2
+}
+
+conscription_center = { #tier 6
+	#available at tech level 37 (land tech)
+	previous = arsenal
+	cost = 500
+	time = 24
+	trigger = {
+		citysize = 20000
+	}
+	modifier = {
+		local_manpower_modifier = 0.3
+		#owner:
+		regiment_recruit_speed = -0.1
+		#~~land_forcelimit = 5			#GG
+		local_defensiveness = 0.05	#P new recruits arent going to be much use
+		local_revolt_risk = 1		#P nobody likes seeing their sons sent off to die
+	}
+	destroy_on_conquest = yes
+	category = 2
+}
+
+# Naval
+dock = { #tier 1
+	#available at tech level 6 (naval tech)
+	cost = 50
+	time = 12
+	trigger = {
+		port = yes
+	}
+	modifier = {
+		local_ship_repair = 0.15
+		#P local_production_efficiency = 0.25	#DW 5.1 May 10 - was 0.1
+		local_trade_income_modifier = 0.15
+	}
+	destroy_on_conquest = no
+ 	category = 3
+}
+
+drydock = { #tier 2
+	#available at tech level 11 (naval tech)
+ 	previous = dock
+	cost = 100	#was 50
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		local_ship_repair = 0.05		#P too much, this is still a small private owned yard total 15%
+		#owner:
+		#~~naval_forcelimit = 1
+		#P ship_recruit_speed = -0.33		#YF was 0.02	#removed, too early
+		#navy_tradition = 0.002 		#ADL: too early and sums up to an incredidible amount
+		#local_trade_income_modifier = 0.05	#P more about building ships than trading  #P 0.1 > 0.05
+	}
+	destroy_on_conquest = no
+  	category = 3
+}
+
+shipyard = { #tier 3
+	#available at tech level 18 (naval tech)
+	previous = drydock
+	cost = 200	#was 120
+	time = 24	#was 12
+	trigger = {
+	}
+	modifier = {
+		local_ship_cost = -0.05
+		#local_trade_income_modifier = 0.05
+		#owner:
+		#~~naval_forcelimit = 1
+		ship_recruit_speed = -0.02		#YF was 0.02 #P why does this suddenly change from repair to recruit? Still a private yard anyway, skilled workers for repair are going to be around, but not enough to build from scratch
+		local_ship_repair = 0.1			#P total 25%
+	}
+	destroy_on_conquest = yes
+	spare_on_core = yes
+ 	category = 3
+}
+
+grand_shipyard = { #tier 4
+	#available at tech level 24 (naval tech)
+ 	previous = shipyard
+	cost = 300	#DW was 50
+	time = 36	#DW was 12
+	trigger = {
+		citysize = 4000
+	}
+	modifier = {
+		local_ship_repair = 0.15		#p Now a large yard, with state owned facilities total 40%
+		local_ship_cost = -0.1
+		#owner:
+		#~~naval_forcelimit = 1
+		ship_recruit_speed = -0.05	#FB was -0.1 (more is better)
+		#local_trade_income_modifier = 0.1	#P still primarly commercial  #P 0.2 > 0.1
+	}
+	destroy_on_conquest = yes
+ 	category = 3
+}
+
+naval_arsenal = { #tier 5
+	#available at tech level 30 (naval tech)
+ 	previous = grand_shipyard
+	cost = 500	#was 250
+	time = 36	#was 24
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		local_ship_repair = 0.2		#P why was repair removed? Little could be done to speed up ship building time but large yards could do repairs quickly total 60%
+		local_ship_cost = -0.15		#P 0.2 > 0.15 total 35%
+		#owner:
+		#~~naval_forcelimit = 4
+		ship_recruit_speed = -0.1	#FB was -0.2 (more is better)
+		local_revolt_risk = 1		#P oh what will we do with a drunken sailor?
+	}
+	destroy_on_conquest = yes
+ 	category = 3
+}
+
+naval_base = { #tier 6
+	#available at tech level 41 (naval tech)
+ 	previous = naval_arsenal
+	cost = 700	#was 400
+	time = 36	#was 24
+	trigger = {
+		citysize = 20000
+	}
+	modifier = {
+		local_ship_repair = 0.25	#P might seem high but it should be navies focused on keeping thier current ships going as long as possible, not building new ones total 85%
+		local_ship_cost = -0.2		#P total 55% too high?
+		#owner:
+		#~~naval_forcelimit = 5
+		ship_recruit_speed = -0.25 	#YF was 0.02 #P 0.2 > 0.25
+		#P navy_tradition = 0.02 	#ADL: better here then at the drydock #YF maybe this should be knocked down a notch, two of these and you're set for life #P this is just way too much, moved to Admilitary to prevent spamming it
+		local_revolt_risk = 2		#P heard of the spithead mutinies?
+	}
+	destroy_on_conquest = yes
+	category = 3
+}
+
+# Welfare
+temple = { #tier 1
+	#available at tech level 2 (government tech)
+	cost = 100	#DW was 50
+	time = 24	#DW was 12
+	trigger = {
+	}
+	modifier = {
+		stability_cost = -4
+		local_missionary_placement_chance = 0.02 #FB was: 0.10
+		#owner:
+		minimum_revolt_risk = -0.05
+	}
+	destroy_on_conquest = no
+	category = 5
+}
+
+city_watch = { #tier 2
+	#available at tech level 6 (government tech)
+	previous = temple
+	cost = 100	#was 50
+	time = 12	#was 6
+	trigger = {
+	}
+	modifier = {
+		stability_cost = -1				#P
+		local_defensiveness = 0.05
+		local_revolt_risk = -2				#P 100 ducats for 5% defensivness? seriously?
+		local_spy_defence = 0.1				#P
+		local_missionary_placement_chance = 0.01	#P
+	}
+	destroy_on_conquest = no
+	category = 5
+}
+
+public_baths = { #tier 3
+	#available at tech level 10 (government tech)
+	previous = city_watch
+	cost = 200	#was 100
+	time = 24	#was 12
+	trigger = {
+		citysize = 4000
+	}
+	modifier = {
+		stability_cost = -2		#P
+		population_growth = 0.002	#YF was 0.001, a mere pittance and not worth building #P 0.01 > 0.015 still not worth building though #P 0.015 > 0.01
+	}
+	destroy_on_conquest = no
+	category = 5
+}
+
+hospital = { #tier 4
+	#available at tech level 18 (government tech)
+	previous = public_baths
+	cost = 200	#FB was 100
+	time = 24
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		population_growth = 0.002	#FB
+		stability_cost = -1		#P
+		garrison_growth = 0.05	#FB
+		local_manpower_modifier = 0.01	#P
+	}
+	destroy_on_conquest = yes
+	category = 5
+}
+
+water_works = { #tier 5
+	#available at tech level 25 (government tech)
+	previous = hospital
+	cost = 300	#FB was 100
+	time = 36
+	trigger = {
+	}
+	modifier = {
+		population_growth = 0.005	#FB
+		stability_cost = -3		#P
+		local_revolt_risk = -3 		#YF
+		garrison_growth = 0.02	#FB
+	}
+	destroy_on_conquest = yes
+	category = 5
+}
+
+schools = { #tier 6
+	#available at tech level 37 (government tech)
+	previous = water_works
+	cost = 200
+	time = 12	#FB was 24
+	trigger = {
+	}
+	modifier = {
+		population_growth = 0.005	#FB
+		#owner:
+		#~~government_tech_investment = 0.5	#FB
+		#~~cultural_tradition = 0.001	#FB
+		#~~officials = 0.05	#FB
+		#~~missionaries = 0.005	#FB
+	}
+	destroy_on_conquest = yes
+	category = 5
+}
+
+# Trade
+mill = { #tier 1
+	#available at tech level 6 (trade tech)
+	cost = 50	#FB was 300
+	time = 12	#FB was 36
+	trigger = {
+	}
+	modifier = {
+		#FB trade_income = 1
+		local_trade_income_modifier = 0.1
+		#local_tax_modifier = 0.01
+		#FB local_movement_speed = 0.1
+		#Plocal_manpower_modifier = 0.05		#YF was 0.005  #P why manpower?
+		population_growth = 0.01			#P population makes much more sense
+	}
+	destroy_on_conquest = no
+	category = 6
+}
+
+marketplace = { #tier 2
+	#available at tech level 9 (trade tech)
+	previous = mill
+	cost = 100	#YF was 50
+	time = 12
+	trigger = {
+	}
+	modifier = {
+		local_trade_income_modifier = 0.05
+		local_tax_modifier = 0.02
+		local_production_efficiency = 0.01	#P but trade taxes should #P 0.1 > 0.05
+		population_growth = 0.005
+		#owner:
+		#~~merchants = 0.01
+	}
+	destroy_on_conquest = no
+	category = 6
+}
+
+customs_house = { #tier 3
+	#available at tech level 13 (trade tech)
+	previous = marketplace
+	cost = 150
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+		#owner:
+		#trade_efficiency = 0.01
+		#~~officials = 0.01
+		local_production_efficiency = 0.1	#P increased control of trade  #P 0.2 > 0.1
+	}
+	destroy_on_conquest = no
+	category = 6
+}
+
+merchant_guild = { #tier 4
+	#available at tech level 18 (trade tech)
+	previous = customs_house
+	cost = 200
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.05
+		#local_revolt_risk = -1
+		#owner:
+		#trade_efficiency = 0.001
+		local_trade_income_modifier = 0.075  	#P more private bussiness  #P 0.15 > 0.075
+		local_production_efficiency = 0.025	#P but good luck wringing the profit out of protectionist guilds  #P 0.05 > 0.025
+		#~~merchants = 0.025
+	}
+	destroy_on_conquest = yes
+	spare_on_core = yes		#P
+	category = 6
+}
+
+factory = { #tier 5
+	#available at tech level 31 (production tech)
+	previous = merchant_guild
+	cost = 500	#was 100 (cost exception)
+	time = 36	#was 24
+	trigger = {
+	}
+	modifier = {
+		tax_income = 1					# local_tax_modifier = 0.01
+		local_production_efficiency = 0.05	#YF might be overpowered #P 0.4 > 0.1 #P 0.1 > 0.05local_production_efficiency = taxable income on trade, local_trade_income_modifier = production occuring
+		local_trade_income_modifier = 0.1
+		#owner:
+		#global_trade_income_modifier = 0.005
+		local_revolt_risk = 1			#P
+	}
+	destroy_on_conquest = yes	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			trade_efficiency = 2.0
+		}
+	}
+	category = 6
+}
+
+steam_powered_factory = { #tier 6
+	#available at tech level 46 (production tech)
+	previous = factory
+	cost = 1000
+	time = 36
+	trigger = {
+	}
+	modifier = {
+		tax_income = 1					# local_tax_modifier = 0.01
+		local_production_efficiency = 0.05	#YF  #P 0.4 > 0.15  #P 0.15 > 0.05
+		local_trade_income_modifier = 0.25	#FB
+		local_revolt_risk = 1
+		#owner:
+		#trade_efficiency = 0.01
+		#~~officials = 0.01
+	}
+	destroy_on_conquest = yes
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			trade_efficiency = 2.0
+		}
+	}
+	category = 6
+}
+
+# Fortresses
+fort1 = {
+	#available at tech level 4 (land tech)
+	cost = 50
+	time = 12
+	modifier = {
+		fort_level = 1
+		local_missionary_placement_chance = 0.01
+		supply_limit = 0.5
+		local_defensiveness = 0.05
+	}
+	destroy_on_conquest = no
+	category = 4
+}
+
+fort2 = {
+	#available at tech level 5 (land tech)
+	previous = fort1
+	cost = 250
+	time = 24
+	modifier = {
+		fort_level = 1
+		#P local_missionary_placement_chance = 0.01 # was: 0.02
+		supply_limit = 0.5
+		local_defensiveness = 0.1
+	}
+	destroy_on_conquest = no
+	category = 4
+}
+
+fort3 = {
+	#available at tech level 20 (land tech)
+	previous = fort2
+	cost = 500
+	time = 60
+	modifier = {
+		fort_level = 1
+		#P local_missionary_placement_chance = 0.01 # was: 0.03
+		supply_limit = 0.5
+		local_defensiveness = 0.15
+	}
+	destroy_on_conquest = no
+	category = 4
+}
+
+fort4 = {
+	#available at tech level 30 (land tech)
+	previous = fort3
+	cost = 500
+	time = 96
+	modifier = {
+		fort_level = 1
+		#P local_missionary_placement_chance = 0.01 # was: 0.04
+		supply_limit = 0.5
+		local_defensiveness = 0.2
+	}
+	destroy_on_conquest = no
+	category = 4
+}
+
+fort5 = {
+	#available at tech level 42 (land tech)
+	previous = fort4
+	cost = 1000
+	time = 120
+	modifier = {
+		fort_level = 1
+		#P local_missionary_placement_chance = 0.01 # was: 0.05
+		supply_limit = 1
+		local_defensiveness = 0.25
+	}
+	destroy_on_conquest = yes
+	category = 4
+}
+
+fort6 = {
+	#available at tech level 62 (land tech)
+	previous = fort5
+	cost = 1500
+	time = 180
+	modifier = {
+		fort_level = 1
+		#P local_missionary_placement_chance = 0.01 # was: 0.06
+		supply_limit = 1
+		local_defensiveness = 0.3
+	}
+	destroy_on_conquest = yes
+	category = 4
+}
+
+# One per country
+superintendance = {
+	#available at tech level 0 (government tech)
+	cost = 1
+	time = 1
+	trigger = {
+		is_capital = yes
+	}
+	modifier = {
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+mint = {
+	#available at tech level 8 (production tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		OR = {
+			is_capital = yes
+			base_tax = 9
+		}
+	}
+	modifier = {
+		#owner:
+		inflation_reduction = 0.05
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+treasury_office = {
+	#available at tech level 17 (production tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		OR = { is_capital = yes base_tax = 9 }
+	}
+	modifier = {
+		#owner:
+		inflation_reduction = 0.025
+		global_tax_modifier = 0.01	#FB
+		interest = -0.025	#P
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+royal_palace = {
+	#available at tech level 20 (government tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		#FB government = monarchy
+		OR = { is_capital = yes base_tax = 9 }
+	}
+	modifier = {
+		cultural_tradition = 0.0025		#P		
+		#P local_trade_income_modifier = 0.1
+		#owner:
+		legitimacy = 0.01
+		diplomats = 1				#P royalty of the period were the external face of the nation, the parliment (if it existed) was concerned with internal affairs.
+		badboy = -0.2				#P 0.4 > 0.2
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+parliament = {
+	#available at tech level 22 (government tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		is_capital = yes
+	}
+	modifier = {
+		#owner:
+		stability_cost_modifier	= -0.1	#FB
+		#FB diplomats = 1
+		officials = 2				#P bureaucrats
+		stability_investment = 10		#P replacing tollerance
+		global_tax_modifier = -0.01		#P someones got to pay for all these second homes
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+admiralty = {
+	#available at tech level 30 (naval tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		port = yes
+	}
+	modifier = {
+		#owner:
+		navy_tradition = 0.01
+		naval_forcelimit = 5	#P increased ablity to manage a large navy
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+war_college = {
+	#available at tech level 34 (land tech)
+	cost = 1000
+	time = 12
+	modifier = {
+		#owner:
+		army_tradition = 0.01
+		land_forcelimit = 5	#P
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+stock_exchange = {
+	#available at tech level 38 (production tech)
+	cost = 1000
+	time = 12
+	trigger = {
+		#FB is_core = THIS
+		base_tax = 10
+	}
+	modifier = {
+		population_growth = 0.005
+		#owner:
+		inflation_reduction = 0.03	#P why inflation reduction? could be much more logical bonuses 0.05 > 0.03
+		trade_efficiency = 0.001		#P
+		global_trade_income_modifier = 0.02  #P
+	}
+	destroy_on_conquest = yes
+	one_per_country = yes
+	category = 8
+}
+
+#Manufactories
+university = {
+	#available at tech level 8 (government tech)
+	cost = 3000	#DW was 1000
+	time = 72	#DW was 60
+	trigger = {
+		citysize = 5000
+	}
+	modifier = {
+		population_growth = 0.01
+		#owner:
+		government_tech_investment = 5
+		spies = 0.01
+		officials = 0.05
+		missionaries = 0.02
+		prestige = 0.005
+	}
+	manufactory = {
+	}
+	onmap = yes
+	category = 7
+}
+
+refinery = {
+	#available at tech level 19 (trade tech)
+	cost = 2000	#DW was 1000
+	time = 60
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		population_growth = 0.005
+		#owner:
+		trade_tech_investment = 5
+		production_tech_investment = 2
+	}
+	manufactory = {
+		wine
+		sugar
+		olive
+		beer
+		coffee
+		tobacco
+		carmine
+		indigo
+		cacao
+	}
+	onmap = yes
+	category = 7
+}
+
+weapons = {
+	#available at tech level 20 (land tech)
+	cost = 2000	#DW was 1000
+	time = 60
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		population_growth = 0.01
+		#owner:
+		land_tech_investment = 5
+		artillery_cost = -0.02
+		infantry_cost = -0.02
+	}
+	manufactory = {
+		copper
+		iron
+		lead
+		coal
+		tin
+		sulphur
+		steel
+		arms
+		ammunitions
+		hardware
+	}
+	onmap = yes
+	category = 7
+}
+
+wharf = {
+	#available at tech level 21 (naval tech)
+	cost = 2000	#DW was 1000
+	time = 60
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		population_growth = 0.01
+		#owner:
+		naval_tech_investment = 5
+		bigship_cost = -0.03
+		lightship_cost = -0.03
+		transport_cost = -0.03
+	}
+	manufactory = {
+		naval_supplies
+		hemp
+		lumber
+		lead
+		arms
+		ammunitions
+	}
+	onmap = yes
+	category = 7
+}
+
+textile = {
+	#available at tech level 23 (production tech)
+	cost = 1500	#DW was 1000
+	time = 60
+	trigger = {
+		citysize = 10000
+	}
+	modifier = {
+		population_growth = 0.01
+		local_tax_modifier = 0.1
+		#owner:
+		production_tech_investment = 5
+	}
+	manufactory = {
+		hemp
+		wool
+		cloth
+		linen
+		silk
+		cotton
+	}
+	onmap = yes
+	category = 7
+}
+
+fine_arts_academy = {
+	#available at tech level 27 (government tech)
+	cost = 3000	#DW was 1000
+	time = 72	#DW was 60
+	trigger = {
+		citysize = 4000
+	}
+	modifier = {
+		population_growth = 0.01
+		#owner:
+		stability_investment = 5
+		cultural_tradition = 0.02
+		prestige = 0.01
+		prestige_decay = -0.005
+	}
+	manufactory = {
+		chinaware
+		glassware
+		jewelery
+		marble
+	}
+	onmap = yes
+	category = 7
+}
+
+# MEIOU category 9 buildings
+# Transport
+paved_road = { #tier 1
+	#available at tech level 10 (trade tech)
+	cost = 50
+	time = 12
+	modifier = {
+		local_tax_modifier = 0.02
+		local_trade_income_modifier = 0.025	#P but they do increase the flow of goods and trade #P 0.05 > 0.025
+		local_movement_speed = 0.05	#FB
+		supply_limit = 0.1			#P
+	}
+	destroy_on_conquest = no
+	category = 9
+}
+
+toll_road = { #tier 2
+	#available at tech level 17 (trade tech)
+	previous = paved_road
+	cost = 100
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+		local_trade_income_modifier = 0.025	#P total 5%  #P 0.05 > 0.025
+		local_movement_speed = 0.05	#FB
+		supply_limit = 0.1			#P
+	}
+	destroy_on_conquest = no
+	category = 9
+}
+
+post_office = { #tier 3
+	#available at tech level 28 (trade tech)
+	#FB previous = road_with_tree_lines
+	previous = toll_road
+	cost = 200
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_production_efficiency = 0.05	#P they make it easier to keep track of and taxate trade though  #P 0.1 > 0.05
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+	}
+	destroy_on_conquest = yes
+	category = 9
+}
+
+road_network = { #tier 4
+	#available at tech level 24 (trade tech)
+	previous = post_office	#FB
+	cost = 300
+	time = 36
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+		local_movement_speed = 0.05	#FB
+		local_trade_income_modifier = 0.025	#P total 12.5% #P 0.05 > 0.025
+		supply_limit = 0.1			#P
+	}
+	destroy_on_conquest = no
+	category = 9
+}
+
+road_with_tree_lines = { #tier 5
+	#available at tech level 64 (trade tech)	#YF seriously you need trade tech 64 to know how to plant trees in a straight line? :D
+	#FB previous = road_network
+	previous = road_network	#FB
+	cost = 250
+	time = 24
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+		local_movement_speed = 0.05	#FB
+		local_trade_income_modifier = 0.05  #P
+		supply_limit = 0.1			#P
+	}
+	destroy_on_conquest = yes
+	category = 9
+}
+
+railway = { #tier 6
+	#available at tech level 77 (trade tech)
+	#FB previous = post_office
+	previous = road_with_tree_lines	#FB
+	cost = 1000
+	time = 36
+	trigger = {
+	}
+	modifier = {
+		local_tax_modifier = 0.01
+		local_revolt_risk = -1
+		local_movement_speed = 0.5	#FB
+		local_trade_income_modifier = 0.1	#P
+		supply_limit = 0.5			#P
+	}
+	destroy_on_conquest = yes
+	category = 9
+}
+
+#Indian Special Buildings
+caste_system = {
+	cost = 600
+	time = 24
+	modifier = {
+		local_manpower_modifier = -0.35
+		#local_production_efficiency = 0.05
+		stability_cost = -3.5
+		supply_limit = 1
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+#All effects listed are for the province owner, ie the not the company owner
+trading_post = {				#European Trading Post
+	previous = caste_system
+	cost = 600
+	time = 24
+	modifier = {
+		stability_cost = 1
+		population_growth = 0.01
+		local_trade_income_modifier = 0.05
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+company_factory = {				#European Factory
+	previous = trading_post
+	cost = 600
+	time = 24
+	modifier = {
+		stability_cost = 2
+		population_growth = 0.002
+		local_production_efficiency = 0.1
+		local_trade_income_modifier = 0.5
+		fort_level = 0.5
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+company_fort = {				#European Fort
+	previous = company_factory
+	cost = 600
+	time = 24
+	modifier = {
+		population_growth = 0.005
+		local_revolt_risk = 1
+		#trade_efficiency = -0.01
+		local_production_efficiency = 0.05
+		land_tech_investment = 3
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+major_european_settlement = {	 #Major European settlement
+	previous = company_fort
+	cost = 600
+	time = 24
+	modifier = {
+		population_growth = 0.012
+		local_revolt_risk = 1
+		#trade_efficiency = -0.01
+		local_production_efficiency = 0.05
+		local_trade_income_modifier = 0.05
+		land_tech_investment = 0.5
+		trade_tech_investment = 2
+		production_tech_investment = 3
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+farman = {						#Imperial Farman
+	previous = major_european_settlement
+	cost = 600
+	time = 24
+	modifier = {
+		population_growth = 0.01
+		local_revolt_risk = 1
+		#trade_efficiency = -0.1
+		local_trade_income_modifier = 0.1
+		land_tech_investment = 10
+		trade_tech_investment = 10
+		production_tech_investment = 10
+		local_tax_modifier = -0.25
+	}
+	destroy_on_conquest = no
+	category = 10
+}
+
+#MEIOU terrain defense bonuses
+terrain1 = {
+	cost = 1
+	time = 1
+	destroy_on_conquest = no
+	trigger = {
+		has_province_flag = terrain1
+	}
+	modifier = {
+		local_defensiveness = 0.25
+		population_growth = -0.005
+		local_missionary_placement_chance = -0.03
+	}
+	category = 11
+}
+
+terrain2 = {
+	cost = 1
+	time = 1
+	destroy_on_conquest = no
+	trigger = {
+		has_province_flag = terrain2
+	}
+	modifier = {
+		local_defensiveness = 0.60
+		population_growth = -0.01
+		local_movement_speed = -0.05
+		local_missionary_placement_chance = -0.03
+	}
+	category = 11
+}
+
+terrain3 = {
+	cost = 1
+	time = 1
+	destroy_on_conquest = no
+	trigger = {
+		has_province_flag = terrain3
+	}
+	modifier = {
+		local_defensiveness = 1.00
+		population_growth = -0.02
+		local_movement_speed = -0.10
+		local_missionary_placement_chance = -0.03
+	}
+	category = 11
+}
+
+hill_tribes = {
+	cost = 1
+	time = 1
+	destroy_on_conquest = no
+	trigger = {
+		has_province_flag = hill_tribes
+	}
+	modifier = {
+		population_growth = -0.01
+		local_tax_modifier = -0.15	
+		local_manpower_modifier = -0.25	
+		local_revolt_risk = 2	
+		stability_cost = 10	
+		local_spy_defence = -0.05	
+		supply_limit = -0.2
+	}
+	category = 11
+}

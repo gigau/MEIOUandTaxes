@@ -1,0 +1,59 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 23  110  90 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Tashi #0" = 10
+	"Takpabum #0" = 10
+	"Takbumde #0" = 10
+	"Bhagan #0" = 10
+	"Tsewang #0" = 10
+	"Jamyang #0" = 10
+	"Sengge #0" = 10
+	"Deldan #0" = 10
+}
+
+leader_names = {
+	Tashi
+	Takpabum
+	Takbumde
+	Bhagan
+	Tsewang
+	Jamyang
+	Sengge
+	Deldan
+}
+
+ship_names = {
+	Tashi
+	Takpabum
+	Takbumde
+	Bhagan
+	Tsewang
+	Jamyang
+	Sengge
+	Deldan
+}

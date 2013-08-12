@@ -1,0 +1,91 @@
+# 1376 - Salusse
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SAL
+controller = SAL
+culture = piedmontese
+religion = catholic
+hre = yes
+base_tax = 5
+trade_goods = iron
+#manpower = 3
+manpower = 6
+fort2 = yes
+capital = "Salusse"
+citysize = 4500 # Estimated
+add_core = SAL
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1 = { citysize = 7500 }
+1399.1.1 = { citysize = 9000 }
+1453.1.1 = { citysize = 10000 }
+1500.1.1 = {
+	citysize = 11000
+}
+1501.1.1 = {
+	temple = yes
+}
+1548.1.1 = {
+	controller = FRA
+	add_core = FRA
+	add_core = SAV
+	#manpower = 4
+	manpower = 8
+}
+1550.1.1 = {
+	citysize = 7000
+}
+1588.1.1 = {
+	controller = SAV
+}
+1600.1.1 = {
+	citysize = 8000
+	fort3 = yes
+}
+1601.1.1 = {
+	owner = SAV
+	remove_core = FRA
+	remove_core = SAL
+}
+1618.1.1  =  { hre = no }
+1650.1.1 = {
+	citysize = 8500
+}
+1700.1.1 = {
+	citysize = 9000
+	fort4 = yes
+}
+1713.4.11  = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+} # Treaty of Utrecht(2) gave Sicily to House of Savoy 
+1718.8.2  = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1750.1.1   = {
+	citysize = 11000
+}
+1792.4.20  = { controller = FRA } # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25 = { owner = RFR add_core = RFR } # The Republic of Alba
+1800.1.1   = {
+	citysize = 13000
+}
+1814.4.11  = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

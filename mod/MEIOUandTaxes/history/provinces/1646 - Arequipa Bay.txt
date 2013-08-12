@@ -1,0 +1,4 @@
+discovered_by = new_world
+
+1533.1.1 = { discovered_by = SPA }	#FB - was 1535.1.18
+

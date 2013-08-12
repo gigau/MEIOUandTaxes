@@ -1,0 +1,59 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#694 - Shanghai
+# LS - Alpha 5
+
+owner = WUU
+controller = WUU
+culture = wuhan
+religion = confucianism
+capital = "Shanghai"
+trade_goods = steel
+hre = no
+base_tax = 10
+#manpower = 6
+manpower = 12
+citysize = 150000
+add_core = WUU
+fort1 = yes
+marketplace = yes
+discovered_by = chinese
+discovered_by = steppestech
+
+1351.1.1  = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1356.1.1  = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+}
+1368.1.1  = { remove_core = YUA}
+1500.1.1  = { citysize = 150000 }
+1550.1.1  = { citysize = 150000 }
+1568.1.1  = { fort2 = yes }
+1600.1.1  = { citysize = 150000}
+1630.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion
+1640.1.1  = { controller = REB } # Financhial crisis
+1641.1.1  = { controller = MNG } 
+1645.6.25 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # The Qing Dynasty
+#1644.1.1 = {
+#	controller = MCH
+#}
+#1644.6.6 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1650.1.1  = { citysize = 150000 }
+1662.1.1 = { remove_core = MNG }
+1700.1.1  = { citysize = 200000 }
+1750.1.1  = { citysize = 250000 }
+1800.1.1  = { citysize = 300000 }

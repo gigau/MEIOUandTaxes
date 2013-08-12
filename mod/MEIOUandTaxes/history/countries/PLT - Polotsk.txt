@@ -1,0 +1,39 @@
+# PLT - Polotsk
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 2
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = byelorussian
+religion = orthodox
+technology_group = eastern
+capital = 275	# Polotsk
+
+1345.1.1 = {
+	monarch = {
+		name = "Andrei"
+		dynasty = "Gediminid"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1377.1.1 = {
+	monarch = {
+		name = "Skirgaila"
+		dynasty = "Gediminid"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+# 1397 - Incorporated into the Grand Duchy of Lithuania

@@ -1,0 +1,24 @@
+# 2763 - Wassoulou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = mali
+religion = sunni
+capital = "Wassoulou"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = ivory
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+}

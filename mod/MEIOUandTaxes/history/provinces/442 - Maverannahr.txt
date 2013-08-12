@@ -1,0 +1,65 @@
+# 442 - Khiva
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHI
+controller = KHI
+culture = turkmeni
+religion = sunni
+capital = "Khiva"
+trade_goods = salt
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 2700
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = KHI
+	add_core = KHO
+	add_core = KTD
+	add_core = TIM
+}
+1379.1.1 = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1 = {
+	owner = KTD
+	controller = KTD
+} #1409 Timurid Empire of Shah Rukh 1409 split between Shah Rukh and Ulugh Beg
+1500.1.1 = { citysize = 3070 }
+1501.1.1 = { controller = SHY } # Conquered by Muhammad Shaybani
+1505.1.1 = {
+	owner = SHY
+	controller = SHY
+} # Captured by the Shaybanid horde
+1511.1.1 = {
+	owner = KHI 
+	controller = KHI
+} # Khiva Independent
+1550.1.1 = {
+	citysize = 2920
+}
+1600.1.1 = {
+	citysize = 3438
+}
+1650.1.1 = {
+	citysize = 3724
+}
+1677.1.1 = { discovered_by = FRA }
+1700.1.1  = { citysize = 4887 }
+1740.1.1 = {
+	controller = PER
+} # Captured by Nadir Shah
+1741.1.1 = {
+	controller = KHI
+}
+1750.1.1 = {
+	citysize = 4915
+}
+1800.1.1 = {
+	citysize = 5350
+}

@@ -1,0 +1,30 @@
+#1150 - Zaire
+# LS - african setup alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIT
+controller = KIT 
+add_core = KIT
+culture = kingwana
+religion = animism
+capital = "Kisangani"
+
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2000
+trade_goods = gems
+
+terrain1 = yes
+
+discovered_by = KIT
+discovered_by = DAR
+discovered_by = ALW
+discovered_by = ETH
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+

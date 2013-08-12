@@ -1,0 +1,662 @@
+# MNG - Ming
+# LS - Chinese Civil War
+# 2010-jan-21 - FB - HT3 changes
+# 2011-jan-02 - FB - DW change : no_forbidden_city
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2c
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -5
+# quality_quantity = -2
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = wuhan
+add_accepted_culture = hanyu
+add_accepted_culture = zhongyuan
+capital = 695	# Nanjing
+
+# historical_friend = SNG
+
+1328.8.1   = {
+	monarch = {
+		name = "Zhu Yuanzhang"
+		dynasty = "Zhu"
+		adm = 9
+		dip = 9
+		mil = 9
+	}
+	set_country_flag = rising_nation
+	set_country_flag = no_forbidden_city
+}
+
+1368.1.1   = {
+	government = chinese_monarchy_1a
+}
+
+1398.6.24 = {
+	monarch = {
+		name = "Jianwen"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+#1398.6.24 = {
+#	heir = {
+#		name = "Yongle"
+#		monarch_name = "Yongle"
+#		dynasty = "Ming"
+#		birth_date = 1360.5.2
+#		death_date = 1424.8.12
+#		claim = 95
+#		adm = 4
+#		dip = 4
+#		mil = 5
+#		leader = { name = "Yongle"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 0 }
+#	
+#	}
+#}
+# Usurper
+	
+1402.7.13 = {
+	monarch = {
+		name = "Yongle"
+		dynasty = "Zhu"
+		adm = 4
+		dip = 4
+		mil = 5
+		leader = { name = "Yongle"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 0 }
+	}
+}
+
+1402.7.13 = {
+	heir = {
+		name = "Hongxi"
+		monarch_name = "Hongxi"
+		dynasty = "Zhu"
+		birth_date = 1378.8.16
+		death_date = 1425.5.29
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1405.1.1 = { leader = {	name = "Zheng He"	type = explorer	rank = 6	fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 1433.1.1 } }
+
+1420.1.1 = {
+	capital = 708
+} # Beijing
+
+1424.8.12 = {
+	monarch = {
+		name = "Hongxi"
+		dynasty = "Zhu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1424.8.12 = {
+	heir = {
+		name = "Xuande"
+		monarch_name = "Xuande"
+		dynasty = "Zhu"
+		birth_date = 1398.2.25
+		death_date = 1435.1.31
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+		leader = { name = "Xuande"	type = general rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+		
+1425.5.29 = {
+	monarch = {
+		name = "Xuande"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 3
+		mil = 3
+		leader = { name = "Xuande"	type = general rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+	}
+}
+
+1427.11.29 = {
+	heir = {
+		name = "Zhengtong"
+		monarch_name = "Zhengtong"
+		dynasty = "Zhu"
+		birth_date = 1427.11.29
+		death_date = 1464.2.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1428.9.21 = {
+	heir = {
+		name = "Jingtai"
+		monarch_name = "Jingtai"
+		dynasty = "Zhu"
+		birth_date = 1428.9.21
+		death_date = 1457.3.14
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1435.1.31 = {
+	monarch = {
+		name = "Zhengtong"
+		dynasty = "Zhu"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1449.11.23 = {
+	monarch = {
+		name = "Jingtai"
+		dynasty = "Zhu"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1449.11.23 = {
+	heir = {
+		name = "Tianshun"
+		monarch_name = "Tianshun"
+		dynasty = "Zhu"
+		birth_date = 1427.11.29
+		death_date = 1464.2.23
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1457.2.23 = {
+	monarch = {
+		name = "Tianshun"
+		dynasty = "Zhu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1457.2.23 = {
+	heir = {
+		name = "Chenghua"
+		monarch_name = "Chenghua"
+		dynasty = "Zhu"
+		birth_date = 1447.12.9
+		death_date = 1487.9.9
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	# offensive_defensive = 1
+	# land_naval = -4
+} # Repairing the Great Wall
+
+1464.3.24 = {
+	monarch = {
+		name = "Chenghua"
+		dynasty = "Zhu"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1470.7.30 = {
+	heir = {
+		name = "Hongchi"
+		monarch_name = "Hongchi"
+		dynasty = "Zhu"
+		birth_date = 1470.7.30
+		death_date = 1505.6.8
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+}
+
+1487.9.10 = {
+	monarch = {
+		name = "Hongchi"
+		dynasty = "Zhu"
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+}
+
+1491.10.26 = {
+	heir = {
+		name = "Zhengde"
+		monarch_name = "Zhengde"
+		dynasty = "Zhu"
+		birth_date = 1491.10.26
+		death_date = 1521.4.20
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1505.6.9 = {
+	monarch = {
+		name = "Zhengde"
+		dynasty = "Zhu"
+		adm = 4
+		dip = 7
+		mil = 3
+	}
+}
+
+1507.9.16 = {
+	heir = {
+		name = "Jiajing"
+		monarch_name = "Jiajing"
+		dynasty = "Zhu"
+		birth_date = 1507.9.16
+		death_date = 1521.4.21
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1521.4.21 = {
+	monarch = {
+		name = "Jiajing"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+1522.1.1 = { leader = {	name = "Qi Jiguang"	type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 1	death_date = 1585.1.1 } }
+
+1523.1.1 = {
+	# centralization_decentralization = -1
+} # Japanese Pirates Attack!
+
+1537.3.4 = {
+	heir = {
+		name = "Longqing"
+		monarch_name = "Longqing"
+		dynasty = "Zhu"
+		birth_date = 1537.3.4
+		death_date = 1572.7.5
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1557.1.1 = {
+	# innovative_narrowminded = 2
+	mercantilism = 0.1 # mercantilism_freetrade = -5
+	# isolationist_expansionist = -3
+} # The Closure of China
+
+1563.1.1 = {
+	# land_naval = -5
+	# offensive_defensive = -1
+} # Qi Jiguang's Army Reforms
+
+1567.1.24 = {
+	monarch = {
+		name = "Longqing"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1567.1.24 = {
+	heir = {
+		name = "Wanli"
+		monarch_name = "Wanli"
+		dynasty = "Zhu"
+		birth_date = 1563.9.4
+		death_date = 1620.8.18
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 7
+	}
+}
+
+1572.7.5 = {
+	monarch = {
+		name = "Wanli"
+		dynasty = "Zhu"
+		adm = 3
+		dip = 6
+		mil = 7
+	}
+}
+
+
+
+1581.1.1 = {
+	# innovative_narrowminded = 0
+	# secularism_theocracy = 1
+} # The Arrival of the Jesuits
+
+1582.8.28 = {
+	heir = {
+		name = "Taichang"
+		monarch_name = "Taichang"
+		dynasty = "Zhu"
+		birth_date = 1582.8.28
+		death_date = 1620.9.26
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1593.1.1 = { leader = {	name = "Li Rusong"		type = general		rank = 2	fire = 3	shock = 2	manuever = 1	siege = 0	death_date = 1598.4.3 } }
+
+1600.1.1 = {
+	set_country_flag = total_war_series
+	set_country_flag = total_war
+}
+
+1610.1.1 = {
+	# centralization_decentralization = 0
+} # Defacto control of northeast China is lost
+
+1619.1.1 = { leader = {	name = "Yuan Chonghuan"		type = general		rank = 4	fire = 4	shock = 5	manuever = 6	siege = 0	death_date = 1630.1.12 } }
+
+1620.8.27 = {
+	monarch = {
+		name = "Taichang"
+		dynasty = "Zhu"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1620.8.27 = {
+	heir = {
+		name = "Tianqi"
+		monarch_name = "Tianqi"
+		dynasty = "Zhu"
+		birth_date = 1605.12.23
+		death_date = 1627.9.30
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+1620.9.28 = {
+	monarch = {
+		name = "Tianqi"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Chongzhen"
+		monarch_name = "Chongzhen"
+		dynasty = "Zhu"
+		birth_date =  1611.2.6
+		death_date = 1644.4.25
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1627.9.30 = {
+	monarch = {
+		name = "Chongzhen"
+		dynasty = "Zhu"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+#1627.9.30 = {
+#	heir = {
+#		name = "Zhu Yousong"
+#		monarch_name = "Zhu Yousong"
+#		dynasty = "Ming"
+#		birth_date = 1607.1.1
+#		death_date = 1646.1.1
+#		claim = 95
+#		adm = 5
+#		dip = 6
+#		mil = 6
+#	}
+#}
+# Not an heir
+
+#1633.1.1 = { leader = {	name = "Li Zicheng"            	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1644.5.27 } }
+# He's a rebel leader
+
+1631.8.1 = { leader = {	name = "Wu Sangui"             	type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 2	death_date = 1644.3.19 } }
+# Death date altered to fall of Beijing, he wasn't de facto controlled by Ming anymore
+# Active date set to historical
+
+#1640.1.1 = { leader = {	name = "Zhang Xianzhang"       	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1665.1.1 } }
+# Also a rebel leader
+
+1643.7.1 = { leader = {	name = "Shi Kefa"             	type = general	rank = 2	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1645.5.24 } }
+
+1644.3.19 = {
+	monarch = {
+		name = "Hongguang"
+		dynasty = "Zhu"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1644.3.19 = {
+	capital = 695
+} # Nanjing
+
+#1644.1.1 = {
+#	heir = {
+#		name = "Longwu"
+#		monarch_name = "Longwu"
+#		dynasty = "Ming"
+#		birth_date = 1602.1.1
+#		death_date = 1646.1.1
+#		claim = 95
+#		adm = 4
+#		dip = 4
+#		mil = 3
+#	}
+#}
+#Not really an heir
+
+1644.3.19 = {
+	# centralization_decentralization = 1
+} # Fall of Bejing signals collapse of Ming dynasty
+
+1645.6.25 = {
+	monarch = {
+		name = "Longwu"
+		dynasty = "Zhu"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1645.6.25 = { leader = {	name = "Zheng Chenggong"	type = general	rank = 3	fire = 4	shock = 4	manuever = 4	siege = 3	death_date = 1659.1.1 } }
+
+#1645.6.20 = {
+#	heir = {
+#		name = "Yongli"
+#		monarch_name = "Yongli"
+#		dynasty = "Ming"
+#		birth_date = 1623.1.1
+#		death_date = 1662.1.1
+#		claim = 95
+#		adm = 6
+#		dip = 4
+#		mil = 3
+#	}
+#}
+# Not really an heir
+
+#1645.6.20 = {
+	# centralization_decentralization = 2
+} # Zhu Yousong's death signals the end of the Ming dynasty.
+
+1646.10.7 = {
+	monarch = {
+		name = "Yongli"
+		dynasty = "Zhu"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+# Skill improved from 6.4.3 to 7.5.7, he recovered a lot of land in 1648
+
+1647.1.20 = {
+	# centralization_decentralization = 2
+} # Another throne claimant lost Guangzhou to Qing
+
+#1650.1.1 = { leader = {	name = "Koxinga"	type = admiral	rank = 3	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1662.1.1 } }
+# Freezed, bad setting
+
+1648.1.1 = { leader = {	name = "Sun Kewang"       	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1657.1.1 } }
+
+1648.1.1 = { 
+	# centralization_decentralization = 0
+	# quality_quantity = 2
+ }
+# Former rebels sided with Ming against Qing
+
+1648.9.1 = {
+	# innovative_narrowminded = -2
+}
+#1648.10.1 = { religion = catholic }
+# Requested Portugal to help in exchange of free missionary access
+# Sent a letter to the Pope and requested more Jesuits to spread "The True Faith"
+# Imperial family baptized
+# Reserved, doing so may cripple them
+
+1650.1.1 = {
+	# centralization_decentralization = 2
+}
+# Situation went bad
+
+1654.1.1 = {
+	# centralization_decentralization = 1
+}
+# A series of victory
+
+1658.1.1 = {
+	# centralization_decentralization = 3
+}
+# Last stand
+
+# Not really Ming, will be moved to Tungning
+#1662.6.6 = {
+#	monarch = {
+#		name = "Cheng Ch'eng-kung"
+#		dynasty = "Ming"
+#		adm = 8
+#		dip = 8
+#		mil = 4
+#	}
+#}
+#
+#1662.6.6 = {
+#	heir = {
+#		name = "Chêng Ching"
+#		monarch_name = "Chêng Ching"
+#		dynasty = "Ming"
+#		birth_date = 1642.11.4
+#		death_date = 1681.3.17
+#		claim = 95
+#		adm = 6
+#		dip = 6
+#		mil = 3
+#	}
+#}
+#
+#1662.6.25 = {
+#	monarch = {
+#		name = "Chêng Ching"
+#		dynasty = "Ming"
+#		adm = 6
+#		dip = 6
+#		mil = 3
+#	}
+#}
+#
+#1670.8.13 = {
+#	heir = {
+#		name = "Cheng Keh-shuan"
+#		monarch_name = "Cheng Keh-shuan"
+#		dynasty = "Ming"
+#		birth_date = 1670.8.13
+#		death_date = 1717.9.22
+#		claim = 95
+#		adm = 5
+#		dip = 5
+#		mil = 6
+#	}
+#}
+#
+#1681.1.1 = {
+#	monarch = {
+#		name = "Cheng Keh-shuan"
+#		dynasty = "Ming"
+#		adm = 5
+#		dip = 5
+#		mil = 6
+#	}
+#}

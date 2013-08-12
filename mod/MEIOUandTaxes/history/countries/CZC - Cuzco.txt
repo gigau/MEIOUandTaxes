@@ -1,0 +1,170 @@
+# Cuzco city-state
+# Tag : CZC
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_1
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 3
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -1
+# secularism_theocracy = 4
+primary_culture = quechuan
+religion = inti
+technology_group = new_world
+capital = 2068	# Cuzco
+
+1356.1.1 = {
+	monarch = {
+		name = "Manco Capac"
+		dynasty = "Hanan"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	set_country_flag = rising_nation
+}
+
+1388.1.1 = {
+	monarch = {
+		name = "Inca Yupanqui"
+		dynasty = "Hanan"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Viracocha"
+		dynasty = "Hanan"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Inca Urco"
+		dynasty = "Hanan"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Pachacuti"
+		dynasty = "Hanan"
+		adm = 8
+		dip = 7
+		mil = 9
+	}
+}
+
+1471.1.1 = {
+	monarch = {
+		name = "Tupac-Yupanqui"
+		dynasty = "Hanan"
+		adm = 8
+		dip = 6
+		mil = 9
+	}
+}
+
+1493.1.1 = {
+	monarch = {
+		name = "Huayna-Capac"
+		dynasty = "Hanan"
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}
+
+1521.1.1 = {
+	# aristocracy_plutocracy = -4
+	# centralization_decentralization = 5
+	clr_country_flag = rising_nation
+	set_country_flag = wrath_of_god
+} # The Incan Civil War
+
+1523.1.1 = { leader = {	name = "Atoc"      	type = general	rank = 1	fire = 1	shock = 3	manuever = 2	siege = 0	death_date = 1532.1.1 } }
+
+1523.1.1 = {
+	monarch = {
+		name = "Huáscar I"
+		dynasty = "Hanan"
+		adm = 6
+		dip = 3
+		mil = 4
+		leader = { name = "Huáscar"	type = general	rank = 1	fire = 1	shock = 3	manuever = 2	siege = 0 }
+	}
+}
+
+1532.1.1 = {
+	monarch = {
+		name = "Atahuallpa"
+		dynasty = "Hanan"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1533.7.28 = {
+	monarch = {
+		name = "Tupac-Huallpa"
+		dynasty = "Hanan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1534.1.1 = {
+	monarch = {
+		name = "Manco"
+		dynasty = "Hanan"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Sayri-Tupac"
+		dynasty = "Hanan"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Titu-Cusi"
+		dynasty = "Hanan"
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Tupac-Amaru"
+		dynasty = "Hanan"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

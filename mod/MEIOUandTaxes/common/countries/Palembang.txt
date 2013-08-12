@@ -1,0 +1,72 @@
+#Country Name: Palembang
+#Tag: PLB
+#New Country added by MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = { 227  62  94 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Ananggavarman #1" = 10
+	"Adityawarman #1" = 10
+	"Parameswara #1" = 10
+	"Hyang Purwawisesa #1" = 10
+	"Pandan Solas #0" = 10
+	"Kertabumi #0" = 10
+	"Dyah Ranawijaya #0" = 10
+	"Pateudra #0" = 10
+	"Senapati Jimbun #0" = 10
+	"Sabrang Lor #0" = 10
+	"Tranggana #0" = 10
+	"Benawa #0" = 10
+	"Krapyak #0" = 10
+	"Amangkurat #0" = 10
+	"Prawata #0" = 10
+	"Aria Pangiri #0" = 10
+	"Mahmud Badruddin #2" = 10
+	"Ahmad Najmuddin #2" = 10
+}
+
+leader_names = {
+	Djajadiningrat Djojopoespito
+	Ernalia
+	Karsumaatmaja
+	Mollema
+	Nasution Nitisastro
+	Prawiranega Purbacaraka
+	Subadio Sumual
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+}
+
+ship_names = {
+	Ananggavarman Adityawarman Parameswara
+	"Mahmud Badruddin"
+	"Ahmad Najmuddin"
+	Kertabumi Pateudra Tranggana Prawata
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}

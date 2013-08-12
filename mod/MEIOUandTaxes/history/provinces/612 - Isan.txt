@@ -1,0 +1,49 @@
+# 612 - Khorat  **to rename (isan it's a much larger area)
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+culture = laotian
+religion = theravada
+capital = "Khorat"   #today's 'Nakhon Ratchasima'
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 14200
+trade_goods = copper
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	controller = AYU
+	add_core = KHM
+	add_core = AYU
+}
+1360.1.1 = {
+	controller = KHM
+}
+1500.1.1 = { citysize = 16870 }
+1550.1.1 = { revolt_risk = 6 citysize = 18670 controller = REB } # Khorat revolt
+1551.1.1 = { revolt_risk = 0 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU } 
+1600.1.1 = { citysize = 20154 }
+1650.1.1 = { citysize = 21548 }
+1700.1.1 = { citysize = 23500 }
+1750.1.1 = { citysize = 25980 }
+1767.4.1 = { revolt_risk = 7 } # The Ayutthaya Kingdom began to crumble
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 27350 }
+1811.1.1 = { controller = REB } # The Siamese-Cambodian Rebellion
+1812.1.1 = { controller = SIA }

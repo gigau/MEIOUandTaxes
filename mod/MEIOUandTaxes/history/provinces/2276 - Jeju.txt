@@ -1,0 +1,72 @@
+# 2295 - Jeju
+# FL - Korea Universalis
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+capital = "Jeju"
+trade_goods = chinaware
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4775
+fort1 = yes
+discovered_by = chinese
+discovered_by = steppestech
+
+1290.1.1  = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1356.1.1  = {
+	add_core = KOR
+	add_core = SOO
+}
+1374.1.1  = {
+	owner = KOR
+	controller = KOR
+	remove_core = YUA
+}
+1450.1.1  = {
+	citysize = 5830
+} # Historical population readjustment complete
+1500.1.1  = {
+	citysize = 7117
+}
+1550.1.1  = {
+	citysize = 8690
+}
+1593.1.1  = {
+	controller = JAP
+} # Japanese invasion
+1593.2.12 = {
+	controller = KOR
+} # With Chinese help the Japanese troops are driven back
+1597.8.16 = {
+	controller = JAP
+} # Second Japanese invasion
+1597.9.1  = {
+	controller = KOR
+} # The Japanese are forced to retreat
+1600.1.1  = {
+	citysize = 9550
+} # Great devastation as a result of the Japanese invasion
+1650.1.1  = {
+	citysize = 10645
+}
+1653.1.1  = {
+	discovered_by = NED
+} # Hendrick Hamel
+1700.1.1  = {
+	citysize = 11116
+}
+1750.1.1  = {
+	citysize = 11699
+}
+1800.1.1  = {
+	citysize = 12299
+}

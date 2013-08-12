@@ -1,0 +1,38 @@
+# CHM - Chimù
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+primary_culture = chimu
+religion = inti
+technology_group = new_world
+capital = 809	# Chan Chan
+
+1356.1.1 = {
+	monarch = {
+		name = "Nacen-Pinco"
+		dynasty = "Tacaynamo"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1462.1.1 = {
+	monarch = {
+		name = "Minchancaman"
+		dynasty = "Tacaynamo"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

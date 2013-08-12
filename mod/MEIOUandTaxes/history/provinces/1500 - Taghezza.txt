@@ -1,0 +1,41 @@
+#1500 - Taghezza
+#LS - ALPHA 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#owner = TUA
+#controller = TUA
+#add_core = TUA
+culture = tuareg
+religion = sunni
+capital = "Taghezza"
+
+base_tax = 1		#5
+#manpower = 1
+manpower = 2
+native_size = 60
+native_ferocity = 4.5
+native_hostileness = 9
+trade_goods = crops
+#base_tax = 4
+##manpower = 1
+#manpower = 2
+#citysize = 5000
+#trade_goods = salt
+#fort1 = yes
+#marketplace = yes
+
+discovered_by = CNA
+discovered_by = TLE
+discovered_by = TUA
+discovered_by = MAL
+discovered_by = MOR
+discovered_by = FEZ
+
+hre = no
+
+1591.1.1 = {
+	owner = MOR
+	controller = MOR
+	citysize = 5000
+	trade_goods = salt
+}

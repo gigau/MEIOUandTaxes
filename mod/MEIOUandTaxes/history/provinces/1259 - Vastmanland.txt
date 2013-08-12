@@ -1,0 +1,34 @@
+# Västmanland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = wax
+#manpower = 1
+manpower = 2
+fort1 = yes
+capital = "Västeraas"
+citysize = 1000 # Estimated
+temple = yes
+marketplace = yes
+discovered_by = western
+discovered_by = eastern
+
+1524.1.1   = { fort2 = yes }
+1527.6.1   = { religion = protestant}
+1560.1.1   = { fort3 = yes }
+1570.1.1   = { citysize = 2400 } # Estimated
+1610.1.1   = { citysize = 2980 } # Estimated
+1650.1.1   = { citysize = 4000 } # Estimated
+1730.1.1   = { constable = yes } # Due to the support of manufactories
+1770.1.1   = { citysize = 5000 } # Estimated
+1810.1.1   = { citysize = 6000 } # Estimated
+
+
+

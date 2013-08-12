@@ -1,0 +1,71 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 153  237  145 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Beersingh Deo #1" = 20
+	"Pulkit #1" = 20
+	"Dungar Singh #1" = 20
+	"Man Singh #1" = 20
+	"Uddhharandev #1" = 20
+	"Vikramdev #1" = 20
+	"Ganapatidev #1" = 20
+	"Dugarendrasingh #1" = 20
+	"Kalyanmalla #1" = 20
+}
+
+leader_names = {
+	Rajput
+	Babber
+	Bargujars
+	Bhoja
+	Chandelas
+	Chauhan
+	Jadeja
+	Kachwaha
+	Karmavati
+	Khumba
+	Paramaras
+	Pratap
+	Rathore
+	Singh
+	Tomaras
+	Mihirbhoj
+	Mahipala
+	Nagabhatta
+	Padmini
+	Vaghela
+	Vatsraja
+}
+
+ship_names = {
+	Chambal Devi Durga Gayatri Ghaggar
+	Godwar Jalsena "Kala Jahazi" Lakshmi
+	"Lal Jahazi" Luni Nausena "Marwar ka Nav"
+	"Merwar ka Nav" "Nav ka Yudh" "Nila Jahazi"
+	Parvati Radha Rani Ratri Sagar Sarasvati
+	Sekhawati Sita
+}

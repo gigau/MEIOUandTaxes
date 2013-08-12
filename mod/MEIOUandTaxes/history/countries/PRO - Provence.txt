@@ -1,0 +1,141 @@
+#PRO - Provence
+#MEIOU-GG Govenemnt changes
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = -3
+# land_naval = 4
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 1
+# secularism_theocracy = 0
+primary_culture = francien
+add_accepted_culture = provencal
+add_accepted_culture = angevin
+religion = catholic
+technology_group = western
+capital = 201
+
+
+1343.1.20 = {
+	monarch = {
+		name = "Jeanne"
+		dynasty = "d'Anjou"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis"
+		dynasty = "d'Anjou"
+		birth_date = 1320.1.1
+		death_date = 1384.9.20
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1381.7.16 = {
+	monarch = {
+		name = "Louis"
+		dynasty = "d'Anjou"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis II"
+		dynasty = "d'Anjou"
+		birth_date = 1350.1.1
+		death_date = 1403.9.25
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1384.9.20  = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "d'Anjou"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1403.9.25 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis III"
+		dynasty = "d'Anjou"
+		birth_date = 1403.9.25
+		death_date = 1434.11.12
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1417.1.1   = {
+	monarch = {
+		name = "Louis III"
+		dynasty = "d'Anjou"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "René"
+		monarch_name = "René"
+		dynasty = "d'Anjou"
+		birth_date = 1409.1.16
+		death_date = 1480.7.10
+		claim = 95
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1434.11.16 = {
+	monarch = {
+		name = "René"
+		dynasty = "d'Anjou"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "d'Anjou"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1515.1.1 = { government = despotic_monarchy_4 }
+
+1560.1.1 = {
+	religion = reformed
+	# secularism_theocracy = -2
+}
+
+1589.8.3 = { government = administrative_monarchy_4 }
+
+1661.3.9 = { government = absolute_monarchy_4 }

@@ -1,0 +1,236 @@
+# AZT - Aztec empire
+# MEIOU-GG Govenemnt changes
+# MEIOU-GG Religion changes
+# MEIOU-GG Mesoamerican mod v1
+# 2009-dec-29 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_1
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 5
+primary_culture = nahuatl
+religion = teotl
+technology_group = new_world
+capital = 1471 # Tenochtitlan
+
+1356.1.1 = {
+	set_country_flag = rising_nation
+	monarch = {
+		name = "Acamapichtli"
+		dynasty = "Tenoch"
+		adm = 6
+		dip = 8
+		mil = 6
+		leader = { name = "Acamapichtli" type = general	rank = 0 fire = 0 shock = 3 manuever = 3 siege = 0 }
+	}
+	heir = {
+		name = "Huitzilihuitl"
+		monarch_name = "Huitzilihuitl"
+		dynasty = "Tenoch"
+		birth_date = 1350.1.1
+		death_Date = 1397.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}
+
+1391.1.1 = {
+	monarch = {
+		name = "Huitzilihuitl"
+		dynasty = "Tenoch"
+		adm = 6
+		dip = 7
+		mil = 8
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Ohimalpopoca"
+		monarch_name = "Ohimalpopoca"
+		dynasty = "Tenoch"
+		birth_date = 1380.1.1
+		death_Date = 1426.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Ohimalpopoca"
+		dynasty = "Tenoch"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+	heir = {
+		name = "Itzcoatl"
+		monarch_name = "Itzcoatl"
+		dynasty = "Tenoch"
+		birth_date = 1396.1.1
+		death_Date = 1440.8.14
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Itzcoatl"
+		dynasty = "Tenoch"
+		adm = 7
+		dip = 6
+		mil = 8
+	}
+	heir = {
+		name = "Moctezuma Ilhuicamina"
+		monarch_name = "Moctezuma Ilhuicamina"
+		dynasty = "Tenoch"
+		birth_date = 1398.1.1
+		death_Date = 1468.11.22
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = { name = "Moctezuma" type = general rank = 0 fire = 3 shock = 4 manuever = 4 siege = 0 }
+	}
+}
+
+1440.8.14 = {
+	monarch = {
+		name = "Moctezuma Ilhuicamina"
+		dynasty = "Tenoch"
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = { name = "Moctezuma" type = general rank = 0 fire = 3 shock = 4 manuever = 4 siege = 0 }
+	}
+	heir = {
+		name = "Axayacatl"
+		monarch_name =" Axayacatl"
+		dynasty = "Tenoch"
+		birth_Date = 1420.1.1
+		death_Date = 1481.10.30
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+	government = tribal_monarchy_2
+}
+
+1468.11.22 = {
+	monarch = {
+		name = "Axayacatl"
+		dynasty = "Tenoch"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+	heir = {
+		name = "Tizoc"
+		monarch_name = "Tizoc"
+		dynasty = "Tenoch"
+		birth_Date = 1438.1.1
+		death_date = 1486.4.14
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+}
+
+1481.10.30 = {
+	monarch = {
+		name = "Tizoc"
+		dynasty = "Tenoch"
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+	heir = {
+		name = "Ahuitzotl"
+		monarch_name = "Ahuitzotl"
+		dynasty = "Tenoch"
+		birth_date = 1460.1.1
+		death_date = 1502.9.16
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 9
+		leader = { name = "Ahuitzotl" type = general rank = 0 fire = 3 shock = 5 manuever = 3 siege = 0 }
+	}
+}
+
+1486.4.14 = {
+	monarch = {
+		name = "Ahuitzotl"
+		dynasty = "Tenoch"
+		adm = 8
+		dip = 6
+		mil = 9
+		leader = { name = "Ahuitzotl" type = general rank = 0 fire = 3 shock = 5 manuever = 3 siege = 0 }
+	}
+	heir = {
+		name = "Moctezuma"
+		monarch_name = "Moctezuma II Xocoytzin"
+		dynasty = "Acampichtli"
+		birth_Date = 1466.1.1
+		death_Date = 1520.6.30
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Moctezuma II" type = general	rank = 0 fire = 2 shock = 3 manuever = 2 siege = 0 }
+	}
+	government = tribal_monarchy_1
+}
+
+1502.9.16 = {
+	monarch = {
+		name = "Moctezuma II Xocoytzin"
+		dynasty = "Tenoch"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Moctezuma II" type = general rank = 0 fire = 2 shock = 3 manuever = 2 siege = 0 }
+	}
+	heir = {
+		name = "Cuauhtemoc"
+		monarch_name = "Cuauhtemoc"
+		dynasty = "Tenoch"
+		birth_date = 1490.1.1
+		death_Date = 1525.2.28
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+	clr_country_flag = rising_nation
+	set_country_flag = wrath_of_god
+}
+
+1520.6.30 = {
+	monarch = {
+		name = "Cuauhtemoc"
+		dynasty = "Tenoch"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}

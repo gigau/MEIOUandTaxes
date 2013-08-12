@@ -1,0 +1,38 @@
+#Country: Surabaya
+#file name: SBT - Surabaya
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#Surabaya is used to represent Surabaya + Tuban
+#FB-TODO - rulers
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 1
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 1
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = javan
+religion = hinduism
+technology_group = indian
+capital = 2105	# Surabaya
+
+1337.1.1 = {
+	monarch = {
+		name = "Ainul Yaqin"
+		dynasty = Surabaya
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}#actually ruled from 1487
+
+1500.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 1
+	government = despotic_monarchy_3b
+}

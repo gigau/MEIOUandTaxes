@@ -1,0 +1,54 @@
+# 1324 - Tadmur
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAI
+controller = JAI
+culture = shami
+religion = sunni
+capital = "Tadmur"
+trade_goods = wheat
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 2544
+add_core = JAI
+add_core = SYR
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = TUR
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = western
+discovered_by = eastern
+
+1355.2.20 = {
+	owner = MAM
+	controller = MAM
+	add_core = MAM
+	remove_core = JAI
+} # Given to the Mameluks
+1450.1.1  = { citysize = 2770 }
+1500.1.1  = { citysize = 2930 }
+1516.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # Part of the Ottoman Empire
+1550.1.1  = { citysize = 3844 }
+1600.1.1  = { citysize = 4760 }
+1650.1.1  = { citysize = 5150 }
+1700.1.1  = { citysize = 6540 }
+1750.1.1  = { citysize = 7133 add_core = SYR }
+1800.1.1  = { citysize = 7810 }
+1831.1.1 = {
+	controller = EGY
+}
+1833.6.1 = {
+	owner = EGY
+}
+1841.2.1  = {
+	owner = TUR
+	controller = TUR
+} # Part of the Ottoman Empire

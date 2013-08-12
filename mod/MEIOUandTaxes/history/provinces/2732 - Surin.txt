@@ -1,0 +1,46 @@
+# 2732 - Surin
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+culture = khmer
+religion = theravada
+capital = "Surin"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 6800
+trade_goods = rice
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	controller = AYU
+	add_core = KHM
+	add_core = AYU
+}
+1360.1.1 = {
+	controller = KHM
+}
+1450.1.1 = { citysize = 9000 }
+1500.1.1 = { citysize = 7000 }
+1550.1.1 = { citysize = 7100 }
+1600.1.1 = { citysize = 7926 }
+1650.1.1 = { citysize = 8940 }
+1700.1.1 = { citysize = 11080 }
+1750.1.1 = { citysize = 12240 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 14800 }
+1811.1.1 = { controller = REB } # The Siamese-Cambodian Rebellion
+1812.1.1 = { controller = SIA }

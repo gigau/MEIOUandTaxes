@@ -1,0 +1,35 @@
+#Province: Minangkabau
+#file name: 619 - Minangkabau
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MKP
+controller = MKP
+add_core = MKP
+culture = minang
+religion = theravada
+capital = "Minangkabau"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 11600
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 11890 }
+1450.1.1 = { citysize = 12400 }
+1500.1.1 = { citysize = 12670 }
+1550.1.1 = { citysize = 13400 }
+#1550.1.1 = { owner = ATJ controller = ATJ add_core = ATJ }
+1600.1.1 = { citysize = 13890 religion = sunni }
+1650.1.1 = { citysize = 14256 }
+1688.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 14877 }
+1750.1.1 = { citysize = 15300 }
+1800.1.1 = { citysize = 15760 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

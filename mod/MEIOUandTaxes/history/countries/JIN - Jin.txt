@@ -1,0 +1,40 @@
+# JIN - Jin
+# LS - Chinese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = jinyu
+capital = 685
+
+# http://en.wikipedia.org/wiki/List_of_Chieftains_of_the_Jurchens
+1356.1.1 = {
+	monarch = {
+		name = "Jurchen Wang"
+		dynasty = Jurchen
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+	set_country_flag = rising_nation
+}
+
+
+
+
+
+
+

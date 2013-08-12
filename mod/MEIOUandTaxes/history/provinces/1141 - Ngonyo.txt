@@ -1,0 +1,26 @@
+#1141 - Ngonyo
+#lei -Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LOA
+controller = LOA
+add_core = LOA
+culture = bakongo
+religion = animism
+capital = "Ngonyo"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = lumber
+
+fort1 = yes
+
+discovered_by = soudantech
+discovered_by = sub_saharan
+
+hre = no
+
+
+1472.1.1 = { discovered_by = POR } # Frenão do Pó, add trade post

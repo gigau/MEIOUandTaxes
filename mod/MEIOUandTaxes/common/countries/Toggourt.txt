@@ -1,0 +1,82 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 120  2  196 } 
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	muslim_cavalry_archers
+	persian_footsoldier
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Muhammad #0" = 80
+	"Ahmad #0" = 50
+	"Mûsâ #0" = 20
+	"'Abdallâh #0" = 20
+	"Abû Tâshufîn #0" = 20
+	"al-Hasan #0" = 20
+	"'Abd ar-Rahmân #0" = 10
+	"'Abd al-Wâhid #0" = 10
+	"Sa'îd #0" = 10
+	"Yûsuf #0" = 10
+	"Baba Aruj #0" = 10
+	"Khidr Khair ad-Din #0" = 10
+	"Selim #0" = 10
+	"'Uthmân #0" = 5
+	"Yaghmurasân #0" = 5
+	"'Abd al-Karim #0" = 0
+	"Barakat #0" = 0
+	"Basir #0" = 0
+	"Dawud #0" = 0
+	"Fahd #0" = 0
+	"Faris #0" = 0
+	"Fuad #0" = 0
+	"Haidar #0" = 0
+	"Hashim #0" = 0
+	"Husam #0" = 0
+	"Iqbal #0" = 0
+	"Jabbar #0" = 0
+	"Jamal #0" = 0
+	"Junayd #0" = 0
+	"Malik #0" = 0
+	"Mustafa #0" = 0
+	"Najib #0" = 0
+	"Qasim #0" = 0
+	"Rahim #0" = 0
+	"Rashîd #0" = 0
+	"Safi #0" = 0
+	"Sakhr #0" = 0
+	"Umar #0" = 0
+	"Wahid #0" = 0
+	"Zahir #0" = 0
+}
+
+leader_names = {
+	Selmi
+	Amara
+	Behar
+	Ilaes
+	Benzine
+	Essaid
+	Hacini
+	Benzai
+	Kelkal
+	Merah
+}
+
+ship_names = {
+	Barr Muta'al Wali Batin Zahir Akhir _Awwal
+	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
+	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
+	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
+	Wakil Haqq Shahid Ba'ith
+}

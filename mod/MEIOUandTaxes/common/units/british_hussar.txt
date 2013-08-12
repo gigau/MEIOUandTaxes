@@ -1,0 +1,21 @@
+# British Hussar
+#Modified for MEIOU by FB 10.02.07
+#tech level 58 c1780
+
+unit_type = western
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 8
+#defensive_morale = 7
+#offensive_fire = 5
+#defensive_fire = 7
+#offensive_shock = 5
+#defensive_shock = 7
+#FB
+offensive_morale = 12
+defensive_morale = 10
+offensive_fire = 7
+defensive_fire = 7
+offensive_shock = 8
+defensive_shock = 9

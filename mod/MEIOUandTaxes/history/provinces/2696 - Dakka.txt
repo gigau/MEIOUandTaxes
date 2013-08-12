@@ -1,0 +1,58 @@
+# 2696 - Dakka
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BNG
+controller = BNG
+culture = bengali
+religion = hinduism
+capital = "Dakka"
+trade_goods = cloth
+hre = no
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 45000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1  = {
+	add_core = BNG
+}
+1450.1.1  = { citysize = 42000 }
+1500.1.1  = {
+	citysize = 39000
+	discovered_by = POR
+}
+1550.1.1  = { citysize = 38000 }
+1560.1.1  = { road_network = yes }
+1570.1.1  = {
+	base_tax = 9
+	religion = sunni
+} #Land reclamation
+1587.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Integrated into Mughal Empire
+1600.1.1  = { citysize = 175000 }
+1627.1.1  = { discovered_by = POR }
+1650.1.1  = {
+	citysize = 250000
+}
+1700.1.1  = { citysize = 200000 }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+}
+1750.1.1  = { citysize = 135000 }
+1760.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # Given to GBR by Mir Qasim
+1800.1.1 = { citysize = 110000 }
+1810.1.1  = {
+	add_core = GBR
+}

@@ -1,0 +1,65 @@
+# KTD - Kartid
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+technology_group = muslim
+primary_culture = persian
+religion = sunni
+capital = 447 # Herat
+
+1331.1.1   = {
+	monarch = {
+		name = "Mu'izzu'd-Din"
+		dynasty = "Kartid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Ghiyas"
+		monarch_name = "Ghiyas al-Din Pir 'Ali"
+		dynasty = "Kartid"
+		birth_date = 1320.1.1
+		death_date = 1390.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	set_country_flag = wrath_of_god
+}
+
+1370.1.1   = {
+	monarch = {
+		name = "Ghiyas al-Din Pir 'Ali"
+		dynasty = "Kartid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+# 1383 - Subjected to Tamerlane
+
+1760.1.1 = {
+	monarch = {
+		name = "Shah Rukh"
+		dynasty = "Afsharid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,79 @@
+# 136 - Spalato
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CRO
+controller = CRO
+culture = croatian
+religion = catholic
+capital = "Spalato"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 9817
+trade_goods = livestock
+
+hre = no
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	add_core = CRO
+	culture = dalmatian
+}
+1358.2.18  = {
+	owner = CRO
+	controller = CRO
+	culture = croatian
+} # Treaty of Zadar
+1420.1.1   = {
+	owner = VEN
+	controller = VEN
+	culture = dalmatian
+}
+1500.1.1   = { citysize = 10098 marketplace = yes }
+1540.10.2  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	culture = croatian
+} # A large part of Dalmatia is incorporated into the Ottoman empire
+1550.1.1   = { citysize = 12112 }
+1600.1.1   = { citysize = 13211 }
+1650.1.1   = { citysize = 14680 }
+1699.1.26  = {
+	owner = VEN
+	controller = VEN
+	remove_core = TUR
+	culture = dalmatian
+} # Peace of Karlowitz, Dalmatian hinterland given to Venice
+1700.1.1   = { citysize = 16120 }
+1720.1.1   = { customs_house = yes } # Intense economic and cultural growth
+1750.1.1   = { citysize = 17187 mint = yes }
+1757.1.1   = { workshop = yes } # The economic production increased in almost every aspect
+1797.10.17 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	culture = croatian
+} # Treaty of Campo Formio
+1800.1.1   = { citysize = 18130 }
+1805.12.26 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = HAB
+} # Treaty of Pressburg
+1813.9.20 = { controller = HAB } # Occupied by Austrian forces
+1814.4.6  = {
+	owner = HAB
+	add_core = HAB
+	remove_core = RFR
+} # Napoleon abdicates

@@ -1,0 +1,54 @@
+# 307 - Vladimir
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOS
+controller = MOS
+culture = russian
+religion = orthodox
+capital = "Vladimir"
+
+base_tax = 6   
+#manpower = 4
+manpower = 8
+citysize = 6732
+trade_goods = iron
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = MOS
+}
+1382.1.1  = {
+	add_core = GOL
+}
+1480.1.1  = {
+	remove_core = GOL
+}
+1500.1.1  = { citysize = 7920 }
+1503.1.1  = { temple = yes } # Assumption cathedral, destroyed in 1185, but rebuilt
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 9318 }
+1598.1.1  = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1  = { citysize = 10962 marketplace = yes }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1  = { citysize = 12897 }
+1682.1.1  = { constable = yes }
+1700.1.1  = { citysize = 15173 }
+1711.1.1  = { base_tax = 4 } # Governmental refoms and the absolutism
+1750.1.1  = { citysize = 17850 }
+1767.1.1  = { base_tax = 5 } # Legislative reform
+1773.1.1  = { revolt_risk = 5 } # Emelian Pugachev, Cossack insurrection
+1774.9.14 = { revolt_risk = 0 } # Pugachev is captured
+1800.1.1  = { citysize = 21000 }

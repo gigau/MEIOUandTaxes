@@ -1,0 +1,106 @@
+# WAD - Wadai
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+technology_group = soudantech
+religion = sunni
+primary_culture = chadic
+capital = 1220
+
+1356.1.1 = {
+	monarch = {
+		name = "Kolok"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1795.1.1 = {
+	monarch = {
+		name = "Muhammad Salih"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Abd al-Karim"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Muhammad Busata"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1813.6.1 = {
+	monarch = {
+		name = "Yusuf Kharifayn"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1829.1.1 = {
+	monarch = {
+		name = "Raqib"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1829.6.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1835.1.1 = {
+	monarch = {
+		name = "Adham"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1835.6.1 = {
+	monarch = {
+		name = "‘Izz ad-Din"
+		dynasty = "al-'Abbasi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

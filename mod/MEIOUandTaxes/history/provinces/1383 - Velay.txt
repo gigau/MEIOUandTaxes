@@ -1,0 +1,90 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FRA
+controller = FRA
+capital = "Mende"
+citysize = 8000
+culture = occitain
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = livestock
+#manpower = 3
+manpower = 6
+add_core = FRA
+fort1 = yes
+temple = yes # Cathedral of Le Puy-en-Velay
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1422.10.21 = {
+	owner = DAU
+	controller = DAU
+	add_core = DAU
+	remove_core = FRA
+}
+1429.7.17  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = DAU
+}
+1500.1.1   = { citysize = 11000 }
+1520.1.1   = {
+	marketplace = yes
+}
+1530.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 10000 }
+1560.1.1   = { religion = reformed }
+1565.1.1   = { revolt_risk = 8 } # France is restless once again as ultra-catholic intentions become clear
+1568.9.1   = { revolt_risk = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
+1570.8.8   = { revolt_risk = 10 } # Edict of Saint-Germain: temporary pacification
+1573.9.1   = { revolt_risk = 15 } # Saint Barthelew's Day Massacre: the consequences in the land
+1574.5.1   = { revolt_risk = 7 } # Charles IX dies, situation cools a bit	
+1584.1.1   = { revolt_risk = 12 } # Situation heats up again
+1588.12.1  = { revolt_risk = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1598.4.13  = { revolt_risk = 3 } # Edict of Nantes, alot more freedom to the protestants
+1598.5.2   = { revolt_risk = 0 } # Peace of Vervins, formal end to the Wars of Religion
+1600.1.1   = { citysize = 12000 }
+1610.1.1   = { constable = yes customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1636.1.1   = { revolt_risk = 5 }
+1640.1.1   = { fort3 = yes }
+1645.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 14000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1685.10.18 = { revolt_risk = 8 } # Edict of Nantes revoked by Louis XIV
+1686.1.17  = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism
+1689.1.1   = { revolt_risk = 0 } # War of the Grand Alliance erupts: Louis XIV can't persue his religious policy anymore
+1700.1.1   = { citysize = 16000 fort4 = yes }
+1701.1.1   = { revolt_risk = 7 } # War of Spanish Succession erupts: The Camisards see an opportunity to revolt against Louis XIV
+1702.1.1   = { controller = REB } # Camisard rebels in control
+1705.1.1   = { controller = FRA revolt_risk = 3 } # Camisard rebellion ends, isolated aggression continues until 1710
+1710.1.1   = { revolt_risk = 0 courthouse = yes }
+1720.1.1   = { mint = yes }
+1750.1.1   = { citysize = 18000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 20000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

@@ -1,0 +1,33 @@
+# 1464 - Arapaho
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = shoshone
+religion = midewiwin
+capital = "Arapaho"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 3
+native_hostileness = 6
+
+1805.1.1   = {
+	discovered_by = USA
+} # Lewis and Clarke expedition, opening the Oregon Trail
+1832.7.31  = {
+	owner = USA
+	controller = USA
+	capital = "Fort Hall"
+	culture = american
+	religion = protestant
+	citysize = 100
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} # Boston firm Tucker & Williams & Henry Hall
+1837.8.1   = {
+	owner = GBR
+	controller = GBR
+} # Sold to the Hudson's Bay Company

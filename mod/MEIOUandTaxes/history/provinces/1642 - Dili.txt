@@ -1,0 +1,45 @@
+#Province: Dili (East Timor)
+#file name: 1642 - Dili
+# MEIOU-FB Indonesia mod
+# GG-copied from Kupang
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = moluccan
+religion = austranasian
+capital = "Dili"
+trade_goods = sandal		#FB Timor was a major source of sandalwood
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+native_size = 9 #TM - land-focused fairly large tribals, different than the normal papuans
+native_ferocity = 1
+native_hostileness = 5 #TM - upped from 2 while they weren't as fierce as the Papuans (9) they weren't pushovers either.  Won over with religion.
+discovered_by = chinese
+discovered_by = austranesian
+
+1337.1.1 = { #TM - added core to reflect claim by Maja but they did not actually control it
+	owner = XXX
+	controller = XXX	
+	discovered_by = MPH
+	add_core = MPH
+}
+1500.1.1 = {
+	remove_core = MPH
+}
+1515.1.1 = { discovered_by = POR }
+1520.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+   	citysize = 1200
+   	revolt_risk = 4
+	religion = catholic #TM - this is essentially a small city with heavy missionaries
+} # Portuguese colony
+1563.1.1 = { fort1 = yes }
+1600.1.1 = { citysize = 1548 }
+#FB NED divided the island with the Portuguese - East Timor should remain Portuguese until the C20th
+1650.1.1 = { citysize = 1998 }
+1700.1.1 = { citysize = 2300 }
+1750.1.1 = { citysize = 2875 }
+1800.1.1 = { citysize = 3225 }

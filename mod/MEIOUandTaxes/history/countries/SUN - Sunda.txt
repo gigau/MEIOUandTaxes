@@ -1,0 +1,101 @@
+#SUN - Sunda
+#MEIOU-FB Indonesia mod
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 0
+technology_group = austranesian		# MEIOU-FB - was: chinese
+primary_culture = sundanese
+religion = hinduism
+capital = 2108	# Kalapa
+
+1333.1.1 = {
+	monarch = {
+		name = "Ajigunawisesa"
+		dynasty = "Prabu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1340.1.1 = {
+	monarch = {
+		name = "Maharaja Lingga Buana"
+		dynasty = "Prabu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Bunisora"
+		monarch_name = "Bunisora"
+		dynasty = "Prabu"
+		birth_date = 1320.1.1
+		death_date = 1371.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Bunisora"
+		dynasty = "Prabu"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1371.1.1 = {
+	monarch = {
+		name = "Raja Wastu"
+		dynasty = "Prabu"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Niskala Wastu Kancana"
+		dynasty = "Prabu"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Susuk Tunggal"
+		dynasty = "Prabu"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Sri Baduga Maharaja"
+		dynasty = "Prabu"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

@@ -1,0 +1,77 @@
+# 114 - Romagna
+# Imola, Faenza, Forlì, Cesena , Rimini, Ravenna, Cervia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAP
+controller = PAP
+culture = emilian 
+religion = catholic 
+capital = "Rèmin" 
+
+base_tax = 6   
+#manpower = 4   
+manpower = 8   
+citysize = 12500	# Estimated    
+trade_goods = salt
+    
+fort1 = yes 
+marketplace = yes
+university = yes	# Founded 1088
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no 
+
+1356.1.1 = {
+	add_core = PAP
+	add_core = RIM
+	controller = REB
+	citysize = 15000
+}
+1389.1.1 = { controller = PAP }
+1399.1.1 = { citysize = 18000 }
+1450.1.1 = { citysize = 20000 }
+1492.1.1 = { remove_core = RIM }
+1500.1.1 = { citysize = 25000 } 
+1503.9.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Loss of Papal authority after the death of Alexander III, Venetian influence
+1506.1.1 = { revolt = { } controller = PAP }
+1550.1.1 = { citysize = 32000 } 
+1600.1.1 = { citysize = 33000 } 
+1650.1.1 = { citysize = 29000 marketplace = yes } 
+1700.1.1 = { citysize = 33000 } 
+1750.1.1 = { citysize = 39000 } 
+1796.11.15 = {
+	owner = ITD
+	controller = ITD
+	add_core = ITD
+	remove_core = HAB
+} # Cispadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITD
+} # Cisalpine Republic
+1800.1.1 = { citysize = 41000 }
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = { owner = PAP controller = PAP add_core = PAP remove_core = ITA } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = PAP
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

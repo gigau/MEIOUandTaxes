@@ -1,0 +1,52 @@
+#135 - Szombathely
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Koszeg"
+trade_goods = livestock
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4981
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = HUN
+}
+1500.1.1  = { citysize = 5342 }
+1506.1.1  = { controller = REB } # Szekely rebellion
+1507.1.1  = { controller = HUN } # Estimated
+1514.4.1  = { controller = REB } # Peasant rebellion against Hungary's magnates
+1515.1.1  = { controller = HUN } # Estimated
+1520.1.1  = { marketplace = yes }
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1550.1.1  = { citysize = 5588 }
+1594.9.29 = { controller = TUR } # Ottoman capture of Gyor leads to domination of region
+1598.3.28 = { controller = RHU } # Gyor is liberated
+1600.1.1  = { citysize = 6710 }
+1650.1.1  = { citysize = 7120 constable = yes }
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1700.1.1  = { citysize = 8100 }
+1750.1.1  = { citysize = 8766 }
+1760.1.1  = { mint = yes }
+1800.1.1  = { citysize = 10100 }

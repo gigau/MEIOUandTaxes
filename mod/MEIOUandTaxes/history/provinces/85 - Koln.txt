@@ -1,0 +1,51 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FRK
+controller = FRK
+add_core = FRK
+culture = moselfranconian
+religion = catholic
+trade_goods = wheat
+capital = "Köln"
+base_tax = 8
+#manpower = 3
+manpower = 6
+citysize = 37500
+marketplace = yes
+fort1 = yes
+customs_house = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1  = { citysize = 40000 }
+1399.1.1  = { citysize = 42500 }
+1453.1.1  = { citysize = 45000 }
+1466.1.1  = { workshop = yes } # First Printer opens in Köln
+1500.1.1  = { citysize = 50000 regimental_camp = yes }
+1520.1.1  = { fort2 = yes constable = yes }
+1553.1.1  = { mint = yes } # Stock Exchange Founded
+1600.1.1  = { citysize = 55000 }
+1638.1.1  = { weapons = yes base_tax = 10 fort3 = yes } # Köln manages to stay neutral in the 30 years war and prospers through weapon sales. 
+1716.1.1  = { refinery = yes weapons = no base_tax = 12 } # Farnia begins exporting "Eau de Cologne" 
+1798.1.1  = { controller = RFR }
+1801.2.9  = {
+		owner = RFR
+		add_core = RFR
+	    } # Treaty of Lunéville
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11 = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	    } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20 = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	    } # Napoleon enters Paris
+1815.6.9  = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+	   	remove_core = RFR
+	    } # Congress of Vienna

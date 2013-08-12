@@ -1,0 +1,21 @@
+# Mataram Musketeer
+# Added in MEIOU by GG 2010.04.30
+# tech level 33 c1730
+
+unit_type = austranesian	
+type = infantry
+
+maneuver = 1
+#offensive_morale = 6
+#defensive_morale = 6
+#offensive_fire = 5
+#defensive_fire = 5
+#offensive_shock = 3
+#defensive_shock = 3
+#Blxz
+offensive_morale = 7
+defensive_morale = 7
+offensive_fire = 6
+defensive_fire = 7
+offensive_shock = 5
+defensive_shock = 6

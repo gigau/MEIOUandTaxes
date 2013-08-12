@@ -1,0 +1,42 @@
+# DAU - Valentinois
+#
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -1
+# centralization_decentralization = -5
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = -3
+primary_culture = provencal
+religion = catholic
+technology_group = western
+capital = 2335
+
+# historical_friend = FRA
+
+1345.1.1 = {
+	monarch = {
+		name = "Aymar VI"
+		dynasty = "de Poitiers"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1374.1.1 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "de Poitiers"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+# 1419 - Vendu par les héritiers au futur Charles VII

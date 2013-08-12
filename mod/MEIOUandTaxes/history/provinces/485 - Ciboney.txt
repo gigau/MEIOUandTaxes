@@ -1,0 +1,43 @@
+# 485 - Ciboney
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Ciboney"
+trade_goods = crops 
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1492.10.24 = { discovered_by = CAS } # Christopher Columbus's arrival
+1511.1.1   = {
+	owner = CAS
+	controller = CAS
+   	citysize = 540
+  	culture = castillian
+	religion = catholic
+	capital = "Santa Clara"
+	trade_goods = coffee
+	set_province_flag = trade_good_set
+} # Founded by Diego Velázquez
+1516.1.23  = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 1500
+}
+1522.1.1   = { revolt_risk = 2 } # Relatively small attack against the conquistadors
+1532.1.1   = { revolt_risk = 0 } # Guama is killed
+1536.1.1   = { add_core = SPA }
+1550.1.1   = { citysize = 3010 }
+1600.1.1   = { citysize = 3460 }
+1650.1.1   = { citysize = 3980 marketplace = yes }
+1700.1.1  = {
+	citysize = 4570
+	culture = caribean
+}1750.1.1   = { citysize = 5260 } 
+1800.1.1   = { citysize = 6050 }

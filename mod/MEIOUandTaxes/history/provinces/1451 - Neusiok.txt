@@ -1,0 +1,69 @@
+# 1451 - Neusiok
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = powhatan
+religion = midewiwin
+capital = "Neusiok"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1525.1.1 = {
+	discovered_by = FRA
+} # Giovanni da Verrazzano
+1670.1.1  = {
+	owner = ENG
+	controller = ENG
+	citysize = 100
+	religion = anglican
+	culture = english
+	trade_goods = cotton
+	base_tax = 2
+#	manpower = 2
+	manpower = 4
+	fort1 = yes
+	set_province_flag = trade_good_set
+}
+1695.1.1   = {
+	add_core = ENG
+}
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+}
+1710.1.1   = {
+	culture = alemanisch
+	religion = reformed
+	capital = "New Bern"
+	citysize = 1000
+	base_tax = 6
+#	manpower = 3
+	manpower = 6
+}
+1750.1.1   = {
+	add_core = USA
+	culture = american	
+	citysize = 5000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 0 }
+	revolt_risk = 6
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies

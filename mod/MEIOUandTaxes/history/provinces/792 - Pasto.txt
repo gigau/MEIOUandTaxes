@@ -1,0 +1,67 @@
+#792 - pasto
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = QUI
+controller = QUI
+add_core = QUI
+culture = quechuan
+religion = inti
+capital = "Pasto"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = maize
+
+terrain2 = yes
+fort1 = yes
+temple = yes 
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1480.1.1   = {
+	owner = INC
+	controller = INC
+	add_core = INC
+	remove_core = QUI
+	}
+1524.1.1   = { discovered_by = SPA }	#FB was 1524
+1532.9.1   = {
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+	culture = castillian
+	religion = catholic
+}
+1537.1.1  = { revolt_risk = 8 } # Fighting broke out when Almagro seized Cuzco
+1538.1.1  = { revolt_risk = 5 } # Almagro is defeated & executed
+1541.1.1  = { revolt_risk = 6 } # Pizzaro is assassinated by supporters of Almagro, his brother assumed control
+1548.1.1  = { revolt_risk = 0 } # Gonzalo Pizzaro is also executed & Spain succeeds in reasserting its authority
+1650.1.1   = {
+	citysize = 3500
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1  = {
+	citysize = 3420
+	add_core = COL
+	culture = colombian
+}
+1800.1.1  = { citysize = 4100 }
+1810.7.20  = {
+	owner = COL
+	controller = COL
+} # Colombia declares independence
+1819.8.7   = {
+	remove_core = SPA
+} # Colombia's independence is recongnized
+
+# 1831.11.19 - Grand Colombia is dissolved

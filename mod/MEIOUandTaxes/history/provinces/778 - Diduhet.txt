@@ -1,0 +1,54 @@
+# 778 - Diduhet
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = guarani
+religion = pantheism
+capital = "Diduhet"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 1
+
+1516.1.23  = { discovered_by = SPA } # Juan Díaz de Solís
+1535.1.1   = {
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	culture = castillian
+	citysize = 500
+	capital = "Rio de la Plata"
+	trade_goods = fish
+	set_province_flag = trade_good_set
+} # Pedro de Mendoza established a permanent colony
+1536.2.2   = {
+	capital = "Santa María del Buen Ayre"
+	revolt_risk = 5
+	citysize = 2000
+} # Founded by Pedro Mendoza. The Indian population became increasingly hostile
+1550.1.1   = { revolt_risk = 0 }
+1560.1.1   = { add_core = SPA }
+1580.1.1   = { capital = "Ciudad de Trinidad" citysize = 2320 } # Second foundation
+1600.1.1   = { citysize = 5000 }
+1650.1.1   = { citysize = 10000 }
+1700.1.1   = { citysize = 20000 }
+1750.1.1   = {
+	revolt_risk = 2
+	citysize = 30000
+   	add_core = LAP
+	culture = platean
+} # Spanish administration required all trade to pass via Lima, extracted taxes
+1780.1.1   = { revolt_risk = 4 } # The desire for independence grew
+1790.1.1   = { revolt_risk = 6 }
+1800.1.1   = { citysize = 40000 }
+1810.5.25  = {
+	owner = LAP
+	controller = LAP
+	revolt_risk = 0
+}
+1816.7.9   = {
+	remove_core = SPA
+}

@@ -1,0 +1,225 @@
+# HAD - Hadhramaut
+# MEIOU-FB Arabia mod v1
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = 3
+primary_culture = hadhrami
+religion = sunni
+technology_group = muslim
+capital = 465	# Kathiri
+
+1000.1.1 = {
+	set_country_flag = merchant_nation
+}
+
+1337.1.1 = {
+	monarch = {
+		name = "Badr ibn 'Abdallah"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1395.1.1 = {
+	monarch = {
+		name = "Badr as-Sahab ibn al-Habrali"
+		dynasty = "Al Kathir"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1430.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Ali"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Djaffar ibn 'Abdallah"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Djaffar ibn 'Abdallah II"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1516.1.1 = {
+	monarch = {
+		name = "Badr ibn 'Abdallah II"
+		dynasty = "Al Kathir"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Badr ibn 'Abdallah III"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1572.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah IV"
+		dynasty = "Al Kathir"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1590.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah V"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+} #FB - this one is invented by me
+
+1625.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah VI"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1649.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah VII"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+} #FB - this one is invented by me
+
+1675.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah VIII"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+} #FB - this one is invented by me
+
+1685.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah IX"
+		dynasty = "Al Kathir"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+} #FB - this one is invented by me
+
+1696.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah X"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1715.1.1 = {
+	monarch = {
+		name = "Muhammad ibn 'Abdallah XI"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1730.1.1 = {
+	monarch = {
+		name = "Djaffar ibn al-Habrali I"
+		dynasty = "Al Kathir"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1752.1.1 = {
+	monarch = {
+		name = "Djaffar ibn al-Habrali II"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1774.1.1 = {
+	monarch = {
+		name = "Djaffar ibn al-Habrali III"
+		dynasty = "Al Kathir"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1808.1.1 = {
+	monarch = {
+		name = "Djaffar ibn al-Habrali IV"
+		dynasty = "Al Kathir"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+} #FB - this one is invented by me
+
+1817.1.1 = {
+	monarch = {
+		name = "Djaffar ibn al-Habrali V"
+		dynasty = "Al Kathir"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+} #FB - this one is invented by me

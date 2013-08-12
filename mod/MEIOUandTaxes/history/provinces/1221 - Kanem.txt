@@ -1,0 +1,23 @@
+# 1221 - Kanem
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanouri		
+religion = sunni		 
+capital = "Mao"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+

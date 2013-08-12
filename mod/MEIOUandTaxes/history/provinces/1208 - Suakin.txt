@@ -1,0 +1,31 @@
+# 1208 - `Aydhab
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = nubian 
+religion = sunni
+capital = "'Aydhab"
+native_size = 50
+native_ferocity = 4.5
+native_hostileness = 9 
+#manpower = 1
+manpower = 2
+trade_goods = crops
+hre = no
+base_tax = 1
+
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1557.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	citysize = 1050
+	trade_goods = wool
+	revolt_risk = 6
+} # Ottomans occupy Massawa
+1588.1.1 = { revolt_risk = 7 } # Raids by Sarsa Dengel
+1589.1.1 = { revolt_risk = 0 }

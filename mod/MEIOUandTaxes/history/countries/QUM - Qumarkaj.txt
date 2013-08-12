@@ -1,0 +1,83 @@
+# QUM - Qumarkaj
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+technology_group = new_world
+primary_culture = quichean
+religion = teotl
+capital = 841
+
+# Rulers (Ajpop or Ahpop) of Q'umarkaj - Approximative dates
+
+1350.1.1 = {
+	monarch = {
+		name = "Konache"
+		dynasty = "Nima Kiche"	
+		adm = 7
+		dip = 5
+		mil = 7
+	}
+}
+
+1375.1.1 = {
+	monarch = {
+		name = "Kotuja" # Strengthned the links with Kiche allies with dynastic alliances
+		dynasty = "Nima Kiche"	
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Quqkumatz" # Greatest leader who expanded the kingdom by war
+		dynasty = "Nima Kiche"	
+		adm = 7
+		dip = 5
+		mil = 8
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Kiqab" # Another warry leader who defeated the Mam and Koja Maya
+		dynasty = "Nima Kiche"	
+		adm = 5
+		dip = 4
+		mil = 8
+	}
+}
+
+# decline due to revolts starts under Kiqab and continues under the following rules
+
+1475.1.1 = {
+	monarch = {
+		name = "Vahxak i-Kaam"
+		dynasty = "Nima Kiche"	
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Oxib Keh"
+		dynasty = "Nima Kiche"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+# 1524 - Conquest by Spanish conquistador Pedro de Alvarado

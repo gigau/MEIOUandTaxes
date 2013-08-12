@@ -1,0 +1,36 @@
+#Province: Sumba
+#file name: 634 - Sumba
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = melanesian
+religion = austranasian
+capital = "Sumba"
+trade_goods = sandal			#FB Sumba was a major source of sandalwood
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 5
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+#1337.1.1 = {
+#	discovered_by = MPH
+#	owner = MPH
+#	controller = MPH
+#	add_core = MPH
+#	citysize = 2000
+#}
+#1500.1.1 = {
+#	citysize = 0
+#	native_size = 6
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	owner = XXX
+#	controller = XXX
+#	remove_core = MPH
+#}
+1515.1.1 = { discovered_by = POR }

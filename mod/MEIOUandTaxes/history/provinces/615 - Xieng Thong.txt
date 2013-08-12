@@ -1,0 +1,68 @@
+# 615 Xieng Thong (luang prabang)
+# LS - Indochina set up
+# TM-Smiles indochina-mod for meiou 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = laotian
+religion = theravada
+capital = "Luang Prabang"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = lumber
+
+fort1 = yes
+terrain2 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1500.1.1 = { citysize = 5680 }
+1550.1.1 = { citysize = 6900 }
+1600.1.1 = { citysize = 7750 }
+1650.1.1 = { citysize = 8670 }
+1694.1.1 = { owner = TOK controller = TOK add_core = TOK } # After Soulingna Vongsa's death, Lan Xang came under vietnamese rule
+1700.1.1 = { citysize = 9680 }
+1707.1.1 = {	owner = LUA
+		controller = LUA
+		add_core = LUA
+		remove_core = LXA
+	   } # Declared independent, Lan Xang was partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1710.1.1 = { marketplace = yes }
+1750.1.1 = { citysize = 11255 }
+1771.1.1 = { add_core = TAU } # Vassal state of Burma
+1778.1.1 = {
+	remove_core = TAU
+	add_core = AYU
+} # Vassalhood of Burma ends, Vassal state to Siam
+1779.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+} # Vassal state
+1780.1.1 = { revolt_risk = 4 }
+1781.1.1 = {
+	owner = SIA
+	controller = SIA
+	revolt_risk = 0
+} # Annexed by Siam
+1800.1.1 = { citysize = 13480 }
+#1870s 'haw marauders' invasion
+1893.1.1 = {
+	owner = FRA
+	controller = FRA
+    	revolt_risk = 0
+}
+ 

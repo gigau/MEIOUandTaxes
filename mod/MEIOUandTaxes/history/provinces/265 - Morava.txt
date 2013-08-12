@@ -1,0 +1,56 @@
+#265 - Morava : brno (brunn)
+#2011-mar-12 FB	DW 5.1 March 9 - correction to 1750 citysize
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Olomóc"
+culture = czech
+religion = catholic
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 16000
+trade_goods = lumber
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+
+hre = yes
+
+1457.1.1  = { revolt_risk = 5 regimental_camp = yes } # George of Podiebrand had to secure recognition from the German and Catholic towns
+1464.1.1  = { revolt_risk = 1 } # The Catholic nobility is still undermines the crown.
+1471.1.1  = { revolt_risk = 0 }
+1526.8.30 = {
+	add_core = HAB
+} #Battle of Mohac where Lajos II dies -> Habsburg succession
+1550.1.1  = { citysize = 21000 marketplace = yes }
+1576.1.1  = { religion = reformed }
+1600.1.1  = { citysize = 24000 fort2 = yes }
+1618.4.23 = { revolt = { type = religious_rebels size = 2 } controller = REB } # Defenstration of Prague
+1619.3.1  = {
+	revolt = { }
+	owner = PAL
+	controller = PAL
+	add_core = PAL
+} #Friedrich V (Pawesternate) accepts to become King of Bohemia
+1620.11.8 = {
+	owner = HAB
+	controller = HAB
+	remove_core = PAL
+}# Tilly beats the Winterking at White Mountain. Deus Vult!
+1627.1.1  = { citysize = 22000 religion = catholic } # Order from Ferdinand II to reconvert to Catholism, many protestant leave the country
+1663.9.1  = { citysize = 20000 } # Large parts of Moravia are devastated
+1700.1.1  = { citysize = 21000 customs_house = yes }
+1750.1.1  = { citysize = 22000}
+1778.1.1  = { university = yes } # Transfered from Olmutz
+1800.1.1  = { citysize = 24000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

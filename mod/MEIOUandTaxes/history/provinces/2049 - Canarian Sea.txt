@@ -1,0 +1,7 @@
+
+discovered_by = CNA
+discovered_by = TUA
+discovered_by = western
+discovered_by = FEZ
+discovered_by = TLE
+discovered_by = MOR

@@ -1,0 +1,30 @@
+# SWA - Swabia
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+primary_culture = schwabisch
+religion = catholic
+technology_group = western
+capital = 77
+
+1050.1.1 = {
+	monarch = {
+		name = "Henry III"
+		dynasty = "Salian"
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1534.1.1 = {
+	religion = protestant
+	# secularism_theocracy = -2
+}

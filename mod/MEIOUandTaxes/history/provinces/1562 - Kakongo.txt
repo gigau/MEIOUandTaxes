@@ -1,0 +1,23 @@
+#1562 - Kakongo
+#lei -Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LOA
+controller = LOA
+add_core = LOA
+culture = bakongo
+religion = animism
+capital = "Kakongo"
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 5000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+discovered_by = sub_saharan
+
+hre = no

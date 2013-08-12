@@ -1,0 +1,200 @@
+# TRT - Tirut
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = bihari
+religion = hinduism
+technology_group = indian
+capital = 2690
+
+#http://en.wikipedia.org/wiki/History_of_Mithila#Kings_from_1326AD_to_1526_.28Oinwar_Dynasty.29
+
+1399.1.1 = {
+	monarch = {
+		name = "Padma Singh"
+		dynasty = "Oinwara"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Bishwas"
+		monarch_name = "Bishwas Devi"
+		dynasty = "Oinwara"
+		birth_date = 1360.1.1
+		death_Date = 1420.1.1
+		female = yes
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Bishwas Devi"
+		dynasty = "Oinwara"
+		female = yes
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Hari Singh"
+		monarch_name = "Hari Singh"
+		dynasty = "Oinwara"
+		birth_date = 1380.1.1
+		death_Date = 1440.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Hari Singh"
+		dynasty = "Oinwara"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Nar Singh"
+		monarch_name = "Nar Singh"
+		dynasty = "Oinwara"
+		birth_date = 1390.1.1
+		death_Date = 1459.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Nar Singh"
+		dynasty = "Oinwara"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Dhir Singh"
+		monarch_name = "Dhir Singh"
+		dynasty = "Oinwara"
+		birth_date = 1420.1.1
+		death_Date = 1480.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1459.1.1 = {
+	monarch = {
+		name = "Dhir Singh"
+		dynasty = "Oinwara"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1459.1.1 = {
+	heir = {
+		name = "Bhairav Singh"
+		monarch_name = "Bhairav Singh"
+		dynasty = "Oinwara"
+		birth_date = 1440.1.1
+		death_Date = 1515.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Bhairav Singh"
+		dynasty = "Oinwara"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Rambhadra Singh"
+		monarch_name = "Rambhadra Singh"
+		dynasty = "Oinwara"
+		birth_date = 1460.1.1
+		death_Date = 1520.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Rambhadra Singh"
+		dynasty = "Oinwara"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Laxminath Singh"
+		monarch_name = "Laxminath Singh"
+		dynasty = "Oinwara"
+		birth_date = 1470.1.1
+		death_Date = 1524.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Rambhadra Singh"
+		dynasty = "Oinwara"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+#Annexed by Delhi

@@ -1,0 +1,42 @@
+# 2118 - Charliq
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KAS
+controller = KAS
+culture = uyghur
+religion = mahayana
+capital = "Charliq"
+trade_goods = subsistence  #########
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 13487
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	owner = CHG
+	controller = CHG
+	add_core = CHG
+	add_core = KAS
+}
+1359.1.1 = {
+	religion = sunni
+}
+1482.1.1 = {
+	owner = KAS
+	controller = KAS
+   	remove_core = CHG
+}
+1678.1.1 = {
+	owner = UIG
+	controller = UIG
+	add_core = UIG
+	remove_core = KAS
+}
+1757.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Part of the Manchu empire

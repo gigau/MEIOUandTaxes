@@ -1,0 +1,27 @@
+# 2699 - Tripura
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TPR
+controller = TPR
+culture = assamese
+religion = hinduism
+capital = "Udaipur"
+trade_goods = cotton
+hre = no
+base_tax = 3
+#manpower = 5
+manpower = 10
+citysize = 10000
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1 = { add_core = TPR }
+1450.1.1 = { citysize = 12000 }
+1500.1.1 = { citysize = 13000 }
+1550.1.1 = { citysize = 14000 }
+1600.1.1 = { citysize = 15000 }
+1650.1.1 = { citysize = 15500 }
+1700.1.1 = { citysize = 16000 }
+1750.1.1 = { citysize = 17000 }
+1800.1.1 = { citysize = 18000 }

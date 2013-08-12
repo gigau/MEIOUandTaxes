@@ -1,0 +1,69 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = POL
+controller = POL
+add_core = POL
+capital = "Sandomierz"
+culture = polish
+religion = catholic
+trade_goods = hemp  
+hre = no
+base_tax = 9
+#manpower = 7
+manpower = 14
+citysize = 22870
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+temple = yes
+
+1500.1.1 = {
+	citysize = 25000
+}
+1550.1.1 = {
+	citysize = 35000
+}
+1569.7.1  = {	owner = PLC
+		controller = PLC
+		add_core = PLC
+	    } # Union of Lublin
+1600.1.1 = {
+	citysize = 30000
+}
+1650.1.1 = {
+	citysize = 35000
+}
+1656.1.1 = {
+	controller = SWE
+}
+1660.1.1 = {
+	controller = PLC
+}
+1700.1.1 = {
+	citysize = 35000
+}
+1750.1.1 = {
+	citysize = 55000
+}
+1795.10.24  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = POL
+	remove_core = PLC
+} # Third partition
+1800.1.1 = {
+	citysize = 70000
+}
+1809.10.14   = {
+	owner = POL
+	controller = POL
+     	remove_core = PRU
+} # The Duchy of Warsaw
+1812.12.12 = { controller = RUS }
+1815.6.9   = {
+	owner = RUS
+	add_core = RUS
+} # Congress Poland, under Russian control after the Congress of Vienna

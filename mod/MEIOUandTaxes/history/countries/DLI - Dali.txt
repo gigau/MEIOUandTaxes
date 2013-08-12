@@ -1,0 +1,131 @@
+# DLI - Dali culture=BAI , closely related to chinese, capital 660 Dali
+# LS - Chinese Civil War	actually dali ended in 1253, 1330-1448 MONG MAO kingdom (ok BAIZU culture in thai group)
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2a
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = chinese
+religion = mahayana
+primary_culture = baizu  
+capital = 661 #Mong mao in meiou 5.5.0
+
+historical_friend = SST
+
+1340.1.1 = {
+	monarch = {
+		name = "Si Kefa"
+		dynasty = "Hpa"
+		ADM = 7
+		DIP = 7
+		MIL = 7
+	}
+}
+1371.1.1 = {
+	monarch = {
+		name = "Zhao Bingfa"
+		dynasty = "Hpa"
+		ADM = 6
+		DIP = 7
+		MIL = 6
+	}
+}
+1378.1.1 = {
+	monarch = {
+		name = "Tai Bian"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 6
+		MIL = 5
+	}
+}
+1379.1.1 = {
+	monarch = {
+		name = "Zhao Xiaofa"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 5
+		MIL = 6
+	}
+}
+1380.1.1 = {
+	monarch = {
+		name = "Hso Wak"
+		dynasty = "Hpa"
+		ADM = 4
+		DIP = 5
+		MIL = 5
+	}
+}
+1382.1.1 = {
+	monarch = {
+		name = "Hso Long"
+		dynasty = "Hpa"
+		ADM = 7
+		DIP = 7
+		MIL = 5
+	}
+}
+1399.1.1 = {
+	monarch = {
+		name = "regency"
+		dynasty = "Hpa"
+		ADM = 4
+		DIP = 4
+		MIL = 3
+		regent = yes
+	}
+}
+1404.1.1 = {
+	monarch = {
+		name = "Si Xingfa"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 6
+		MIL = 5
+	}
+}
+1413.1.1 = {
+	monarch = {
+		name = "Hso Wen"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 7
+		MIL = 5
+	}
+}
+1445.1.1 = {
+	monarch = {
+		name = "Hso Si"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 5
+		MIL = 3
+	}
+}
+1449.1.1 = {
+	monarch = {
+		name = "Si Bufa"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 5
+		MIL = 3
+	}
+}
+1489.1.1 = {
+	monarch = {
+		name = "Si Lunfa"
+		dynasty = "Hpa"
+		ADM = 5
+		DIP = 4
+		MIL = 4
+	}
+}

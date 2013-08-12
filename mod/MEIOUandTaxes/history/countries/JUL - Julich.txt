@@ -1,0 +1,180 @@
+# JUL - Julich
+# Duchy of Jülich
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = moselfranconian
+religion = catholic
+technology_group = western
+capital = 1253
+
+1356.1.1 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm II"
+		dynasty = "von Jülich"
+		birth_Date = 1330.1.1
+		death_date = 1393.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1362.1.1 = {
+	monarch = {
+		name = "Wilhelm II"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm III"
+		dynasty = "von Jülich"
+		birth_Date = 1350.1.1
+		death_date = 1402.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+ 
+1393.1.1 = {
+	monarch = {
+		name = "Wilhelm III"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Rainald"
+		monarch_name = "Rainald"
+		dynasty = "von Jülich"
+		birth_Date = 1370.1.1
+		death_date = 1423.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+ 
+1402.1.1 = {
+	monarch = {
+		name = "Rainald"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Adolf"
+		monarch_name = "Adolf"
+		dynasty = "von Jülich"
+		birth_Date = 1400.1.1
+		death_date = 1437.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+ 
+1423.1.1 = {
+	monarch = {
+		name = "Adolf"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Gerhard"
+		monarch_name = "Gerhard"
+		dynasty = "von Jülich"
+		birth_Date = 1420.1.1
+		death_date = 1475.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+ 
+1437.1.1 = {
+	monarch = {
+		name = "Gerhard"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm IV"
+		dynasty = "von Jülich"
+		birth_Date = 1422.1.1
+		death_date = 1511.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Wilhelm IV"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Johan"
+		monarch_name = "Johan"
+		dynasty = "von Jülich"
+		birth_Date = 1460.1.1
+		death_date = 1521.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Johan"
+		dynasty = "von Jülich"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1521.1.1 - Part of the United Duchies of Jülich-Cleves-Berg

@@ -1,0 +1,88 @@
+# 466 - Al Batinah
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OMA
+controller = OMA
+add_core = OMA
+culture = omani
+religion = shiite
+capital = "Suhar"
+trade_goods = coffee
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 1200
+fort1 = yes
+
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = turkishtech
+
+1480.1.1 = {
+	discovered_by = TUR
+}
+1500.1.1 = {
+	citysize = 2010
+}
+1507.1.1 = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+}
+1533.1.1 = {
+	add_core = POR
+}
+1550.1.1 = {
+	citysize = 2333
+#	owner = TUR
+#	controller = TUR
+	add_core = TUR
+}
+#1581.1.1 = {
+#	owner = POR
+#	controller = POR
+#}
+#1588.1.1 = {
+#	owner = TUR
+#	controller = TUR
+#}
+1600.1.1 = {
+	citysize = 2879
+}
+1624.1.1 = {
+	owner = OMA
+	controller = OMA
+	remove_core = TUR
+	remove_core = POR
+}
+1630.1.1 = {
+	fort2 = yes
+}
+1650.1.1 = {
+	citysize = 3102
+	marketplace = yes
+}
+1679.1.1 = {
+	revolt_risk = 5
+}
+1700.1.1 = {
+	citysize = 3587
+}
+1741.1.1 = {
+	owner = PER
+	controller = PER
+	add_core = PER
+}
+1749.1.1 = {
+	owner = OMA
+	controller = OMA
+	remove_core = PER
+	revolt_risk = 0
+}
+1750.1.1 = {
+	citysize = 4100
+}
+1800.1.1 = {
+	citysize = 4968
+}

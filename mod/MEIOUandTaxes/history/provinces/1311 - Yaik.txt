@@ -1,0 +1,74 @@
+# 1311 - Yaik
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = tartar
+religion = sunni 
+capital = "Taipak"
+
+base_tax = 3 
+#manpower = 2
+manpower = 4
+citysize = 3847
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 4
+	add_core = BLU
+	add_core = KAZ
+	add_core = WHI
+	add_core = NOG
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	remove_core = WHI
+	revolt_risk = 0
+}
+1441.1.1   = {
+	owner = NOG
+	controller = NOG
+	remove_core = GOL
+}
+1500.1.1   = {
+	citysize = 4526
+}
+1550.1.1   = {
+	citysize = 5324
+}
+1557.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = NOG
+} # Conquest of the Khanante by Ivan Grozny
+1600.1.1   = {
+	citysize = 6264
+	fort1 = yes
+	culture = russian
+	religion = orthodox
+}
+1650.1.1   = {
+	citysize = 7370
+}
+1700.1.1   = {
+	citysize = 8670
+}
+1750.1.1   = {
+	citysize = 10200
+}
+1800.1.1   = {
+	citysize = 12000
+}

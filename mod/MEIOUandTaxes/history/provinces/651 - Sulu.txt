@@ -1,0 +1,32 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = SUL
+controller = SUL
+culture = tausug
+religion = sunni	#FB first evidence of Islam in Sulu is a tombstone dated 1310
+capital = "Jolo"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 4500
+add_core = SUL
+discovered_by = chinese
+discovered_by = austranesian
+discovered_by = indian
+
+1500.1.1 = { citysize = 4975 }
+1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
+1550.1.1 = { citysize = 5575 }
+1600.1.1 = { citysize = 6260 }
+1638.1.1 = {	owner = SPA
+		controller = SPA
+		fort1 = yes
+	   } # Spanish occupation
+1646.1.1 = {	owner = SUL
+		controller = SUL
+	   }
+1650.1.1 = { citysize = 6810 }
+1700.1.1 = { citysize = 7422 }
+1750.1.1 = { citysize = 8340 }
+1800.1.1 = { citysize = 8800 }

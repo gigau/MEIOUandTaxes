@@ -1,0 +1,100 @@
+# LGZ - Liegnitz
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 0
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+primary_culture = high_saxon
+religion = catholic
+capital = 2631
+
+1296.2.22 = {
+	monarch = {
+		name = "Boleslaw III"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1352.4.20 = {
+	monarch = {
+		name = "Wenzel"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1364.6.2 = {
+	monarch = {
+		name = "Ruprecht"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1409.1.12 = {
+	monarch = {
+		name = "Kazimierz"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1452.1.1 = {
+	monarch = {
+		name = "Kazimierz II"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1523.1.1 = {
+	monarch = {
+		name = "George II"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "George Rudolph"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "George Wilhelm I"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

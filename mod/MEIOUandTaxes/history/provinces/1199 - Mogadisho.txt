@@ -1,0 +1,41 @@
+# 1199 - Benadir
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOG
+controller = MOG
+add_core = MOG
+culture = somali
+religion = sunni
+capital = "Muqdisho"
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 9000
+trade_goods = slaves
+
+fort1 = yes
+marketplace = yes 
+
+
+discovered_by = ADA
+discovered_by = KIL
+discovered_by = muslim
+
+hre = no
+
+1729.10.1 = {
+	discovered_by = OMA
+	owner = OMA
+	controller = OMA
+} #Omanis establish direct control on way to occupy Mombasa
+1746.1.1  = {
+	owner = ZAN
+	controller = ZAN
+} #Mazrui sultans establish dominance in region
+1889.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}
+

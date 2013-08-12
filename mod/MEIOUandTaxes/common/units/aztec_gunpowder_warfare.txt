@@ -1,0 +1,22 @@
+# Aztec Gunpowder Warfare
+#Modified for MEIOU by FB 10.02.07
+#tech level 14 c1700
+
+unit_type = new_world
+type = infantry
+
+maneuver = 1
+#offensive_morale = 3
+#defensive_morale = 4
+#offensive_fire = 1
+#defensive_fire = 2
+#offensive_shock = 0
+#defensive_shock = 2
+#FB
+offensive_morale = 4
+defensive_morale = 4
+offensive_fire = 4
+defensive_fire = 3
+offensive_shock = 3
+defensive_shock = 3
+#Blxz - Equivalent to western

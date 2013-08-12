@@ -1,0 +1,89 @@
+# 1537 - Magua
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Magua"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 2
+native_hostileness = 3
+
+1492.12.5 = {
+	discovered_by = CAS
+} # Christopher Columbus's arrival
+1503.1.1  = {
+	owner = CAS
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 600
+	capital = "Les Cayes"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+}
+1516.1.23 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+}
+1520.1.1  = {
+	citysize = 1045
+}
+1528.1.1  = {
+	add_core = SPA
+}
+1550.1.1  = {
+	citysize = 1350
+}
+1600.1.1  = {
+	citysize = 1600
+}
+1606.1.1  = {
+	citysize = 230
+} # The Spanish colonial administration decided to abandon the region
+1650.1.1  = {
+	citysize = 1450
+} # French pirates established a colony, Spain still retained its formal claim to the region 
+1697.1.1  = {
+	owner = FRA
+	controller = FRA
+	remove_core = SPA
+	culture = creole
+} # Spain tried to retake the area, ended in dissaster. Treaty of Ryswick
+1700.1.1  = {
+	citysize = 5460
+}
+1707.1.1  = {
+	revolt_risk = 3
+} # Choiseul-Beaupré sought to get rid of the French pirates, when it became a French colony
+1708.1.1  = {
+	revolt_risk = 0
+} # Many of them became the first European inhabitants of the region
+1722.1.1  = {
+	add_core = FRA
+}
+1750.1.1  = {
+	citysize = 12450
+}
+1791.8.22 = {
+	controller = REB
+} # Civil war, The Great slave rebellion
+1792.9.21  = {
+	owner = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1  = {
+	citysize = 16300
+}
+1804.1.1  = {
+	owner = HAT
+	controller = HAT
+	add_core = HAT
+	remove_core = RFR
+} # Haiti declares independence

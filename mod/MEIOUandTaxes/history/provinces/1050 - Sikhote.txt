@@ -1,0 +1,33 @@
+# 1050 - Sikhote
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = jurchen
+religion = mahayana
+capital = "Deren"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 4
+manpower = 8
+citysize = 5500
+add_core = MCH
+discovered_by = chinese
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 7210 }
+1550.1.1 = { citysize = 9035 }
+1600.1.1 = { citysize = 10150 }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+	culture = manchu
+} # The Qing Dynasty
+1650.1.1 = { citysize = 12000 }
+1700.1.1 = { citysize = 14760 }
+1739.1.1 = { discovered_by = RUS } # Martin Spanberg
+1750.1.1 = { citysize = 16232 }
+1800.1.1 = { citysize = 18570 }

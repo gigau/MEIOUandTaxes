@@ -1,0 +1,36 @@
+owner = CAS		#Juan II of Castille
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = CAS
+add_core = CAS
+culture = asturian
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = iron 
+#manpower = 4
+manpower = 8
+fort1 = yes
+capital = "Santander" 
+citysize = 4200
+temple = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1475.6.2   = { controller = POR }
+1476.3.2   = { controller = CAS }
+1500.1.1   = { citysize = 4970 }
+1516.1.23  = {	controller = SPA
+		owner = SPA
+		add_core = SPA
+	     } # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1   = { citysize = 5200 }
+1576.12.30 = { citysize = 4000 } # After epidemy started in 1572
+1600.1.1   = { citysize = 6200 }
+1608.9.21  = { university = yes } # University of Oviedo opens its doors
+1640.1.1   = { citysize = 8000 } # Province doubles its population with american products
+1700.11.1  = { citysize = 13000 } # Population increases again
+1713.4.11  = { remove_core = CAS }
+1717.1.1   = { courthouse = yes } #Audiencia de Asturias
+1750.1.1   = { citysize = 15910 }
+1800.1.1   = { citysize = 17240 }

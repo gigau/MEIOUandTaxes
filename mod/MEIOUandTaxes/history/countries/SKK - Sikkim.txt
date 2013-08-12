@@ -1,0 +1,173 @@
+# SIK - Sikkim
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 3
+# land_naval = -4
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = nepali
+religion = mahayana
+technology_group = indian
+capital = 562
+
+1642.1.1 = {
+	monarch = {
+		name = "Phuntsog"
+		dynasty = "Namgyal"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1642.1.1 = {
+	heir = {
+		name = "Tensung"
+		monarch_name = "Tensung"
+		dynasty = "Namgyal"
+		birth_Date = 1632.1.1
+		death_date = 1700.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Tensung"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Chakdor"
+		monarch_name = "Chakdor"
+		dynasty = "Namgyal"
+		birth_Date = 1660.1.1
+		death_date = 1717.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Chakdor"
+		dynasty = "Namgyal"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1700.1.1 = {
+	heir = {
+		name = "Gyurmed"
+		monarch_name = "Gyurmed"
+		dynasty = "Namgyal"
+		birth_Date = 1690.1.1
+		death_date = 1733.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Gyurmed"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1717.1.1 = {
+	heir = {
+		name = "Phuntsog"
+		monarch_name = "Phuntsog II"
+		dynasty = "Namgyal"
+		birth_Date = 1700.1.1
+		death_date = 1780.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1733.1.1 = {
+	monarch = {
+		name = "Phuntsog II"
+		dynasty = "Namgyal"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1733.1.1 = {
+	heir = {
+		name = "Tenzing"
+		monarch_name = "Tenzing"
+		dynasty = "Namgyal"
+		birth_Date = 1720.1.1
+		death_date = 1793.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1780.1.1 = {
+	monarch = {
+		name = "Tenzing"
+		dynasty = "Namgyal"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1785.1.1 = {
+	heir = {
+		name = "Tsugphud"
+		monarch_name = "Tsugphud"
+		dynasty = "Namgyal"
+		birth_Date = 1785.1.1
+		death_date = 1863.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1793.1.1 = {
+	monarch = {
+		name = "Tsugphud"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+#Annexed by Great Britain 1861

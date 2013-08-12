@@ -1,0 +1,56 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = OLD
+controller = OLD
+culture = old_saxon
+religion = catholic
+capital = "Oldenburg"
+trade_goods = salt
+hre = yes
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+fort1 = yes
+add_core = OLD
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 10500 }
+1399.1.1 = { citysize = 11000 }
+1453.1.1 = { citysize = 11500 }
+1500.1.1 = { citysize = 12300 }
+1531.1.1 = { religion = protestant }
+1550.1.1 = { citysize = 13200 }
+1600.1.1 = { citysize = 13900 }
+1607.1.1 = { fort2 = yes }
+1650.1.1 = { citysize = 1600 }
+1667.1.1 = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	citysize = 14100	
+} # United in a Dynastic union with Denmark after Count Anton Guenther's death. Plague
+1680.1.1 = { marketplace = yes }
+1682.1.1 = { fort2 = yes }
+1700.1.1 = { citysize = 15000 }
+1750.1.1 = { citysize = 16100 }
+1773.1.1  = {
+	owner = OLD
+	controller = OLD
+	remove_core = DAN
+} # Oldenburg is sold to the house of Holstein-Gottorp
+1800.1.1  = { citysize = 16900 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1810.12.13 = {
+	owner = RFR
+	controller = RFR
+     	add_core = RFR
+     	remove_core = WES
+} # Annexed by France
+1813.1.1  = {
+	owner = OLD
+	controller = OLD
+	add_core = OLD
+	remove_core = WES
+} # Control is returned

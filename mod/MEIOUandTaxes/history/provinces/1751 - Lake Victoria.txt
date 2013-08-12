@@ -1,0 +1,4 @@
+discovered_by = KIT
+discovered_by = ZIM
+discovered_by = DAR
+discovered_by = ZAN

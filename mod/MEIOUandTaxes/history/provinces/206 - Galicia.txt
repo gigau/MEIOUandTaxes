@@ -1,0 +1,42 @@
+owner = CAS		#Juan II of Castille
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = CAS
+add_core = CAS
+add_core = LEO
+culture = galician
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = tin
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Santiago de Compostela" 
+citysize = 5000
+temple = yes # Santiago de Compostela pilgrimage
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1467.1.1   = { revolt_risk = 4 } # Second war of the "irmandiños"
+1470.1.1   = { revolt_risk = 0 } # End of the Second war of the "irmandiños"
+1475.6.2   = { controller = POR }
+1476.3.2   = { controller = CAS }
+1500.1.1   = { citysize = 6800 }
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+	remove_core = CAS
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
+1550.1.1   = { citysize = 7105 marketplace = yes }
+1600.1.1   = { citysize = 8560 textile = yes }
+1650.1.1   = { citysize = 10776 }
+1700.1.1   = { citysize = 14350 }
+1713.4.11  = { remove_core = LEO }
+1750.1.1   = { citysize = 19870 }
+1800.1.1   = { citysize = 22700 }
+1808.6.6   = { controller = REB }
+1809.1.1   = { controller = SPA }
+1812.10.1  = { controller = REB }
+1813.12.11 = { controller = SPA }

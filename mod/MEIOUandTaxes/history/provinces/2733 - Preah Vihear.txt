@@ -1,0 +1,45 @@
+# 2733 - Preah Vihear
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+culture = khmer
+religion = theravada
+capital = "Preah Vihear"  # or Koh Ker
+
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 6000
+trade_goods = gems #rubis
+
+temple = yes
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	add_core = KHM
+}
+1450.1.1 = { citysize = 10000 }
+1500.1.1 = { citysize = 5000 }
+1550.1.1 = { citysize = 5000 base_tax = 3 }
+1600.1.1 = { citysize = 7026 manpower = 3 }
+1650.1.1 = { citysize = 7640 }
+1700.1.1 = { citysize = 8580 }
+1750.1.1 = { citysize = 8840 }
+1800.1.1 = { citysize = 8880 base_tax = 2 }
+1811.1.1 = { controller = REB } # The Siamese-Cambodian Rebellion
+1812.1.1 = { controller = KHM }
+1867.1.1 = { 			# agreement with France
+	owner = SIA
+	controller = SIA
+}
+1904.1.1 = { 			
+	owner = FRA
+	controller = FRA
+}

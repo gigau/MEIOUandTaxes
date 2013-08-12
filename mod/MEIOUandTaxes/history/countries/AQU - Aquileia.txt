@@ -1,0 +1,98 @@
+# AQU - Aquileia
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 111	# Friuli
+
+1350.1.1 = {
+	monarch = {
+		name = "Nicolas"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+1359.1.1 = {
+	monarch = {
+		name = "Ludwig"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1365.1.1 = {
+	monarch = {
+		name = "Marquard von Randeck"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+1381.1.1 = {
+	monarch = {
+		name = "Philippe II"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+1387.1.1 = {
+	monarch = {
+		name = "Jan V Sobieslaw"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Antonio"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Antonio II"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Antonio III"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Lodovico II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+# To Venice in 1420

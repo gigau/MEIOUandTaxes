@@ -1,0 +1,60 @@
+# 1288 - Rostofa (vieux norrois) rostov
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ROS
+controller = ROS
+culture = russian
+religion = orthodox
+capital = "Rostov"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 14250
+trade_goods = wheat
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+hre = no
+
+1356.1.1  = {
+	add_core = YAR
+	add_core = MOS
+	add_core = ROS
+}
+1463.1.1  = {
+	owner = MOS
+	controller = MOS
+}
+1500.1.1  = {
+	citysize = 15000
+}
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = {
+	citysize = 15750
+} 
+1600.1.1  = {
+	citysize = 14800
+}
+1650.1.1  = {
+	citysize = 14667
+}
+1700.1.1  = {
+	citysize = 15491
+}
+1750.1.1  = {
+	citysize = 16460
+}
+1800.1.1  = {
+	citysize = 17600
+}

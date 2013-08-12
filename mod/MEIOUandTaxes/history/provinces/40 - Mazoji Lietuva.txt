@@ -1,0 +1,57 @@
+# Memel
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEU
+controller = TEU
+culture = old_prussian
+religion = catholic
+capital = "Memel"
+trade_goods = livestock
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 4809
+fort1 = yes
+add_core = TEU
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = steppestech
+
+1453.1.1   = { add_core = POL }
+1454.3.6   = { controller = REB } # Thirteen years' war
+1466.10.19 = {	controller = TEU
+		marketplace = yes
+	     	culture = prussian
+	     } # "Peace of Torun", became a Polish fief
+1500.1.1   = { citysize = 5657 }
+1525.1.1   = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = TEU
+		remove_core = POL
+		religion = protestant
+	     } # Albert of Prussia
+1540.1.1   = { fort2 = yes } # Fortress established in Memel
+1550.1.1   = { citysize = 6656 }
+1593.1.1   = { shipyard = yes } # Commercial shipbuilding
+1600.1.1   = { citysize = 7830 }
+1618.8.28  = {	owner = BRA
+		controller = BRA
+		add_core = BRA
+	     } # Prussia in a personal union with Brandenburg
+1627.1.1   = { fort3 = yes } # Fortifications around the city
+1650.1.1   = { citysize = 10212 }
+1667.1.1   = { mint = yes }
+1700.1.1   = { citysize = 8838 } # Great plague
+1701.1.18  = {	owner = PRU
+		controller = PRU
+		remove_core = BRA
+	     } # Kingdom of Prussia
+1723.1.1   = { fort3 = yes }
+1750.1.1   = { citysize = 11750 }
+1757.1.1   = { add_core = RUS } # Dependent on Russia
+1762.1.1   = { remove_core = RUS }
+1800.1.1   = { citysize = 15000 }

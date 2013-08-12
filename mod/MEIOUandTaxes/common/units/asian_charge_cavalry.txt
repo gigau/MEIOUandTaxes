@@ -1,0 +1,21 @@
+# Asian Charge Cavalry
+#Modified for MEIOU by FB 10.02.07
+#tech level 23 c1600
+
+unit_type = chinese
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 5
+#defensive_morale = 4
+#offensive_fire = 3
+#defensive_fire = 2
+#offensive_shock = 5
+#defensive_shock = 3
+#FB
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 5
+defensive_shock = 4

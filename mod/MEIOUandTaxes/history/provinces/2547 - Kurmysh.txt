@@ -1,0 +1,46 @@
+# 2547 - Kurmysh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = kazani
+religion = shamanism
+capital = "Kurmysh"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 2
+native_hostileness = 5
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1372.1.1 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	religion = orthodox
+	culture = pomor
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} # Stefan of Perm mission
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1595.1.1 = { citysize = 1000 religion = orthodox culture = russian }
+1600.1.1 = { citysize = 2920 }
+1606.1.1 = { add_core = RUS revolt_risk = 3 } # Rebellions against Russian rule
+1608.1.1 = { revolt_risk = 5 }
+1610.1.1 = { revolt_risk = 2 }
+1616.1.1 = { revolt_risk = 6 }
+1620.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 3588 }
+1700.1.1 = { citysize = 3932 }
+1750.1.1 = { citysize = 4430 }
+1800.1.1 = { citysize = 4961 }

@@ -1,0 +1,368 @@
+# GRJ - Garjat
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 3
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = sambalpuri
+capital = 552	# Sambalpur
+
+#Using the royal house of Kalahandi
+
+1366.1.1 = {
+	monarch = {
+		name = "Haria Deo"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Jugasai"
+		monarch_name = "Jugasai Deo II"
+		dynasty = "Gangavanshi"
+		birth_Date = 1380.1.1
+		death_Date = 1436.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Jugasai Deo II"
+		dynasty = "Gangavanshi"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Pratapnayan"
+		monarch_name = "Pratapnayan Deo II"
+		dynasty = "Gangavanshi"
+		birth_Date = 1400.1.1
+		death_Date = 1468.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Pratapnayan Deo II"
+		dynasty = "Gangavanshi"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1436.1.1 = {
+	heir = {
+		name = "Harirudra"
+		monarch_name = "Harirudra Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1400.1.1
+		death_Date = 1496.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Harirudra Deo"
+		dynasty = "Gangavanshi"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1468.1.1 = {
+	heir = {
+		name = "Anku"
+		monarch_name = "Anku Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1450.1.1
+		death_Date = 1528.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1496.1.1 = {
+	monarch = {
+		name = "Anku Deo"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1496.1.1 = {
+	heir = {
+		name = "Pratap"
+		monarch_name = "Pratap Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1490.1.1
+		death_Date = 1564.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Pratap Deo"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1528.1.1 = {
+	heir = {
+		name = "Raghunath"
+		monarch_name = "Raghunath Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1525.1.1
+		death_Date = 1594.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Raghunath Deo"
+		dynasty = "Gangavanshi"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Biswambhar"
+		monarch_name = "Biswambhar Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1560.1.1
+		death_Date = 1627.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1594.1.1 = {
+	monarch = {
+		name = "Biswambhar Deo"
+		dynasty = "Gangavanshi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1594.1.1 = {
+	heir = {
+		name = "Raisingh"
+		monarch_name = "Raisingh Deo II"
+		dynasty = "Gangavanshi"
+		birth_Date = 1590.1.1
+		death_Date = 1658.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Raisingh Deo II"
+		dynasty = "Gangavanshi"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1627.1.1 = {
+	heir = {
+		name = "Dusmant"
+		monarch_name = "Dusmant Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1610.1.1
+		death_Date = 1693.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1658.1.1 = {
+	monarch = {
+		name = "Dusmant Deo"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1658.1.1 = {
+	heir = {
+		name = "Jugasai"
+		monarch_name = "Jugasai Deo III"
+		dynasty = "Gangavanshi"
+		birth_Date = 1650.1.1
+		death_Date = 1721.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1693.1.1 = {
+	monarch = {
+		name = "Jugasai Deo III"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1693.1.1 = {
+	heir = {
+		name = "Khadag Rai"
+		monarch_name = "Khadag Rai Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1650.1.1
+		death_Date = 1747.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "Khadag Rai Deo"
+		dynasty = "Gangavanshi"
+		adm = 5
+		dip = 6
+		mil = 7
+	}
+}
+
+1721.1.1 = {
+	heir = {
+		name = "Raisingh"
+		monarch_name = "Raisingh Deo III"
+		dynasty = "Gangavanshi"
+		birth_Date = 1700.1.1
+		death_Date = 1771.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1747.1.1 = {
+	monarch = {
+		name = "Raisingh Deo III"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1747.1.1 = {
+	heir = {
+		name = "Purusottam"
+		monarch_name = "Purusottam Deo"
+		dynasty = "Gangavanshi"
+		birth_Date = 1720.1.1
+		death_Date = 1796.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1771.1.1 = {
+	monarch = {
+		name = "Purusottam Deo"
+		dynasty = "Gangavanshi"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1771.1.1 = {
+	heir = {
+		name = "Jugasai"
+		monarch_name = "Jugasai Deo IV"
+		dynasty = "Gangavanshi"
+		birth_Date = 1750.1.1
+		death_Date = 1831.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1796.1.1 = {
+	monarch = {
+		name = "Jugasai Deo IV"
+		dynasty = "Gangavanshi"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

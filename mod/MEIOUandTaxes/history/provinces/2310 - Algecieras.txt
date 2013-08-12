@@ -1,0 +1,43 @@
+# 2310 - Cadíz
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GRA		# Mustapha Sa'd King of Granada
+controller = GRA
+add_core = GRA
+culture = maure
+religion = sunni
+hre = no
+base_tax = 6
+trade_goods = salt 
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Cadíz" 
+citysize = 25000
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1344.1.1  = {
+	add_core = CAS
+	owner = CAS
+	controller = CAS
+	set_province_flag = spanish_name
+} # Conquest of Gibraltar by King Enrique of Castilla
+1499.12.1 = { revolt_risk = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.
+1500.1.1  = { citysize = 32580 }
+1502.2.1  = { revolt_risk = 0 religion = catholic } # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+	remove_core = CAS
+} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1  = { citysize = 38900 marketplace = yes }
+1600.1.1  = { citysize = 43000 }
+1610.1.12 = { culture = andalucian } # Decree for the expulsion of the morisques in Andalucía, which is speedily and uneventfully performed
+1650.1.1  = { citysize = 47800 }
+1700.1.1  = { citysize = 55800 }
+1750.1.1  = { citysize = 63200 }
+1800.1.1  = { citysize = 78000 }

@@ -1,0 +1,37 @@
+#1140 - Loango
+#lei -Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LOA
+controller = LOA
+add_core = LOA
+culture = bakongo
+religion = animism
+capital = "Mpemba"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = lumber
+
+fort1 = yes
+hre = no
+
+discovered_by = soudantech
+discovered_by = sub_saharan
+
+1472.1.1 = { discovered_by = POR } # Frenão do Pó, add trade post
+
+1483.1.1 = { discovered_by = POR } # Diogo Cão
+1500.1.1 = { citysize = 1780 }
+1550.1.1 = { citysize = 2170 }
+1600.1.1 = { citysize = 3500 }
+1650.1.1 = { citysize = 4220 }
+1671.1.1 = {	add_core = POR
+		owner = POR
+		controller = POR
+	    } # Conquered by the Portuguese
+1700.1.1 = { citysize = 5900 }
+1750.1.1 = { citysize = 6500 }
+1800.1.1 = { citysize = 6900 }

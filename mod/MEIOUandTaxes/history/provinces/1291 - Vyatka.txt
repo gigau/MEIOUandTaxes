@@ -1,0 +1,67 @@
+# 1291 - Galich-Merskiy
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOS # NOV
+controller = MOS # NOV
+capital = "Galich-Merskiy"
+culture = russian
+religion = orthodox
+trade_goods = copper
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 100
+fort1 = yes
+
+discovered_by = NOR
+discovered_by = SWE
+discovered_by = RSW
+discovered_by = eastern
+
+1356.1.1  = {
+	add_core = MOS # NOV
+}
+1438.1.1  = {
+	discovered_by = KAZ
+}
+1450.1.1  = {
+	citysize = 150
+	discovered_by = SIB
+}
+1453.1.1  = {
+	discovered_by = western
+	discovered_by = eastern
+}
+#1472.1.1  = {
+#	controller = MOS
+#	add_core = MOS
+#} # Conquest of Novgorod
+1500.1.1  = {
+	citysize = 200
+}
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = {
+	citysize = 500
+}
+1600.1.1  = {
+	citysize = 1000
+}
+1650.1.1  = {
+	citysize = 2000
+}
+1700.1.1  = {
+	citysize = 3000
+}
+1750.1.1  = {
+	citysize = 4000
+}
+1800.1.1  = {
+	citysize = 5000
+}

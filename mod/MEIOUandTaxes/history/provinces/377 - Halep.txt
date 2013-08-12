@@ -1,0 +1,60 @@
+#377 - Aleppo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = shami
+religion = sunni
+capital = "Halab"
+trade_goods = linen
+hre = no
+base_tax = 7
+#manpower = 6
+manpower = 12
+citysize = 43415
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = MAM
+	add_core = SYR
+}
+1500.1.1 = { citysize = 50344 }
+1516.1.1 = {	owner = TUR
+		controller = TUR
+		add_core = TUR
+	remove_core = MAM
+	   } # Part of the Ottoman Empire
+1550.1.1 = { citysize = 57240 constable = yes }
+1600.1.1 = { citysize = 64560 }
+1606.1.1 = { revolt_risk = 5 } # Rebellion against the Ottomans
+1607.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 70022 }
+1658.1.1 = { revolt_risk = 4 } # Revolt, Abaza Hasan Pasha
+1659.1.1 = { revolt_risk = 0 }
+1700.1.1 = { citysize = 85650 }
+1750.1.1 = { citysize = 107500 }
+1775.1.1 = { revolt_risk = 4 } # Janissary revolt
+1776.1.1 = { revolt_risk = 0 }
+1780.1.1 = { mint = yes }
+1784.1.1 = { revolt_risk = 4 } # Janissary revolt
+1785.1.1 = { revolt_risk = 2 }
+1787.1.1 = { revolt_risk = 0 }
+1791.1.1 = { revolt_risk = 5 }
+1792.1.1 = { revolt_risk = 0 }
+1800.1.1 = { citysize = 114250 }
+1831.1.1 = {
+	controller = EGY
+}
+1833.6.1 = {
+	owner = EGY
+}
+1841.2.1  = {
+	owner = TUR
+	controller = TUR
+} # Part of the Ottoman Empire

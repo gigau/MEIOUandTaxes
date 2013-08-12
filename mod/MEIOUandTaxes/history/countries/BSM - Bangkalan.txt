@@ -1,0 +1,74 @@
+# Country: Bangkalan
+# file name: BSM - Bangkalan
+# MEIOU-FB Indonesia mod v3 - for IN+JV
+# for performance reasons BSM represents all the city-states on Madura island
+# FB-TODO - more rulers
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 1
+# secularism_theocracy = 0
+primary_culture = javan
+religion = hinduism
+technology_group = austranesian
+capital = 2104	# Madura
+
+1478.1.1 = {
+	monarch = {
+		name = "Ario Lembu Peteng"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # First ruler of Madura
+
+1485.1.1 = {
+	monarch = {
+		name = "Ario Menger"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # Successor, date invented
+
+1499.1.1 = {
+	monarch = {
+		name = "Ario Patikal"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # Successor, date invented
+
+1513.1.1 = {
+	monarch = {
+		name = "Nyai Ageng Boedo"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # Successor, date invented
+
+1531.1.1 = {
+	monarch = {
+		name = "Kiai Demong"
+		dynasty = "Rajasanagara"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # Last independent ruler
+
+# 1625 - Conquered by Mataram

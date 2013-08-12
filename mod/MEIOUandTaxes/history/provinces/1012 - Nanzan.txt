@@ -1,0 +1,46 @@
+# 1012 - Nanzan (Southern Mountain)
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RYU
+controller = RYU
+culture = ryukyuan
+religion = shinto
+capital = "Pirara"
+trade_goods = fish	#chinaware
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+fort1 = yes
+citysize = 3000
+add_core = RYU
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1450.1.1 = { citysize = 3100 }
+1500.1.1 = { citysize = 3500 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 3400 }
+1600.1.1 = { citysize = 4300 }
+1605.1.1 = { marketplace = yes }
+1609.1.1 = { controller = SMZ } # occupation de Satsuma, King Sho Nei was taken prisoner
+1611.1.1 = { controller = RYU } # Sho Nei is released
+1624.1.1 = { 
+	owner = SMZ
+	controller = SMZ
+	religion = shinto 
+} # Annexion par les Shimazu de Satsuma
+1650.1.1 = {
+	citysize = 4900
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1700.1.1 = { citysize = 5100 }
+1750.1.1 = { citysize = 5700 }
+1800.1.1 = { citysize = 6600 }
+

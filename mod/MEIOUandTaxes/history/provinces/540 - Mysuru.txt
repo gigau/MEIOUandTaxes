@@ -1,0 +1,59 @@
+# 540 - Mysuru
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MYS
+controller = MYS
+culture = kannada
+religion = hinduism
+capital = "Seringapatanam"
+trade_goods = steel
+hre = no
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 16354
+fort1 = yes
+marketplace = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = VIJ
+	controller = VIJ
+	add_core = MYS
+}
+1376.1.1 = {
+	owner = MYS
+	controller = MYS
+}
+1400.1.1 = { citysize = 14054 temple = yes }
+1500.1.1 = { citysize = 17004 }
+1511.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}	#Vijayanagara finaly defeats the Ummatur cheifs, also marks the rise of the Wodeyars in Vijayanagara service
+1529.1.1 = {
+	owner = MYS
+	controller = MYS
+	add_core = MYS
+} #After the death of Krishna raja the Wodeyar cheifs slipped central obligations and ruled with increasing independence
+1550.1.1 = { citysize = 18763 }
+1600.1.1 = { citysize = 20865 discovered_by = turkishtech }
+1649.1.1 = {
+	controller = BIJ
+} #Bijapuri Expansion
+1650.1.1 = { citysize = 23044 }
+1662.1.1 = {
+	owner = BIJ
+} #Bijapuri Expansion
+1684.1.1 = {
+	owner = MYS
+	controller = MYS
+} #Independent
+1700.1.1 = { citysize = 26457 workshop = yes }
+1702.1.1 = {
+	owner = MYS
+	controller = MYS
+} # Mughal power wanes
+1750.1.1 = { citysize = 28760 }
+1800.1.1 = { citysize = 32500 }

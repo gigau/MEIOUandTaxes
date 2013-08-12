@@ -1,0 +1,21 @@
+# 1225 - Sara
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YAO
+controller = YAO
+add_core = YAO
+culture = chadic
+religion = sunni
+capital = "Sarh"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no

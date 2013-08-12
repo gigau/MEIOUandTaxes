@@ -1,0 +1,3 @@
+discovered_by = new_world
+
+1534.1.1  = { discovered_by = SPA }

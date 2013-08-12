@@ -1,0 +1,3 @@
+discovered_by = chinese
+1519.1.1 = { discovered_by = POR } # Tome Pires
+#1535.1.1 = { discovered_by = POR }

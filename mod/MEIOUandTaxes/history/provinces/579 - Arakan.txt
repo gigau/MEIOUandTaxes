@@ -1,0 +1,43 @@
+# Province: Arakan
+# file name: 579 - Arakan
+# TM-Smiles indochina-mod for meiou
+# MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARK
+controller = ARK
+culture = burmese			#FB was: bengali
+religion = theravada
+capital = "Thandwe"
+trade_goods = fish
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize =7500
+add_core = ARK
+discovered_by = indian
+discovered_by = chinese
+discovered_by = muslim
+
+1509.1.1 = { citysize = 8320 discovered_by = POR }
+1550.1.1 = { citysize = 10274 }
+1600.1.1 = { citysize = 12387 }
+1650.1.1 = { citysize = 14000 }
+1700.1.1 = { citysize = 15464 }
+1750.1.1 = { citysize = 17300 }
+1752.2.28 = { add_core = BRM }
+1784.12.31 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+} # Annexed by Burma
+1800.1.1  = { citysize = 19875 }
+1811.1.1  = { controller = REB }
+1815.1.1  = { controller = BRM }
+1826.2.24 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+} # Treaty of Yandabo
+ 

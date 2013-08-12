@@ -1,0 +1,68 @@
+# 475 - Qostanai
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = khazak
+religion = sunni
+capital = "Qostanai"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 2000
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = KZH
+	add_core = WHI
+	revolt_risk = 3
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1446.1.1 = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = GOL
+}
+1465.1.1 = {
+	owner = KZH
+	controller = KZH
+	remove_core = SHY
+}
+1500.1.1 = {
+	citysize = 1970
+}
+1550.1.1 = {
+	citysize = 2670
+	discovered_by = TUR
+}
+1600.1.1 = {
+	citysize = 3870
+}
+1622.1.1 = {
+	discovered_by = RUS
+}
+1650.1.1 = {
+	citysize = 4270
+}
+1700.1.1 = {
+	citysize = 5250
+}
+1730.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+} # What began as mere assistance resulted in permanent control
+1750.1.1 = {
+	citysize = 6011
+}
+1800.1.1 = {
+	citysize = 6734
+}

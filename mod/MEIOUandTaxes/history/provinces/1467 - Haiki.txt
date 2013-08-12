@@ -1,0 +1,53 @@
+# 1467 - Tahues
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = taracahitan
+religion = teotl
+capital = "Culiacan"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 5
+native_hostileness = 6
+discovered_by = new_world
+
+1533.1.1 = {
+	discovered_by = SPA
+}
+1614.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "Navojoa"
+	citysize = 100
+	culture = castillian
+	religion = catholic
+	set_province_flag = trade_good_set
+	trade_goods = maize
+	fort1 = yes
+}
+1664.1.1   = {
+	add_core = SPA
+	citysize = 500
+}
+1700.1.1   = {
+	citysize = 2000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 4000
+}
+1800.1.1   = {
+	citysize = 8000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

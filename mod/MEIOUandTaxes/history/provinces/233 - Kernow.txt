@@ -1,0 +1,56 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = ENG
+controller = ENG
+culture = cornish
+religion = catholic
+hre = no
+base_tax = 6
+trade_goods = tin
+#manpower = 2
+manpower = 4
+capital = "Plymouth"
+citysize = 7500
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1  = {
+	add_core = ENG
+#	add_core = CRN
+}
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+	add_core = UEF
+	remove_core = ENG
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = UEF
+}
+1453.1.1  = { revolt_risk = 5 } #Start of the War of the Roses
+1461.6.1  = { revolt_risk = 2 } #Coronation of Edward IV
+1467.1.1  = { revolt_risk = 5 } #Rivalry between Edward IV & Warwick
+1470.9.1  = { controller = REB }
+1470.10.6 = { controller = ENG } #Readeption of Henry VI
+1471.1.1  = { revolt_risk = 8 } #Unpopularity of Warwick & War with Burgundy
+1471.5.4  = { revolt_risk = 2 } #Murder of Henry VI & Restoration of Edward IV
+1483.6.26 = { revolt_risk = 8 } #Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23 = { revolt_risk = 0 } #Battle of Bosworth Field & the End of the War of the Roses
+1550.1.1  = { citysize = 8000 }
+1575.1.1  = { religion = anglican }
+1600.1.1  = { citysize = 9000 religion = reformed fort2 = yes }
+1650.1.1  = { citysize = 10000 marketplace = yes } #marketplace Estimated
+1675.1.1  = { customs_house = yes } #Estimated
+1690.1.1  = { shipyard = yes } #Plymouth Dockyard
+1700.1.1  = { citysize = 14000 }
+1707.5.12 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+		remove_core = ENG
+	    } 
+1750.1.1  = { citysize = 16000 capital = "Plymouth" }
+1800.1.1  = { citysize = 40000 }

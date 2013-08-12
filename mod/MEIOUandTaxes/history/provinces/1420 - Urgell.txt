@@ -1,0 +1,64 @@
+#1420 - Urgell Pallars Aran
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARA		#Alfons V of Aragon
+controller = ARA
+add_core = ARA
+culture = catalan
+religion = catholic
+capital = "Urgell"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4500	
+trade_goods = wool
+
+fort1 = yes 
+terrain2 = yes
+	
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = { set_province_flag = terrain2 }
+1462.4.11  = { revolt_risk = 5 } # Catalan nobility revolts against King Joan, later the Remença peasant revolt erupts.
+1473.1.1   = { citysize = 3300 revolt_risk = 0 } # census of 1473 (population lost due to the war)
+1484.1.1   = { revolt_risk = 3 } # Second Remença revolt
+1486.4.21  = { revolt_risk = 0 } # King Ferràn arbit rates a resolution between the revolted peasants and the catalan nobles. 
+1497.1.1   = { citysize = 6000 temple = yes } # census of 1497 
+1506.1.1   = { citysize = 4500 } # Epidemic
+1515.1.1   = { citysize = 6000 } # census of 1515, population stagnated due to epidemics
+1516.1.23  = { controller = SPA owner = SPA add_core = SPA } #Ferdinand the Catholic dies, Charles inherits Aragon and becomes regent of Castille
+1525.1.1   = { citysize = 4300 } # Epidemic
+1540.1.1   = { constable = yes }
+1553.1.1   = { citysize = 7800 } # census of 1553
+1568.1.1   = { marketplace = yes } # Opening of the "Taula de Canvi"
+1600.1.1   = { citysize = 8100 }
+1640.6.7   = {
+	controller = REB
+	revolt_risk = 5
+	add_core = CAT
+} # Guerra dels Segadors 
+1641.1.26  = {
+	revolt_risk = 0
+	owner = CAT
+	controller = CAT
+} # Proclamation of the Republic of Catalonia
+1641.2.27  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+} # Death of Pau Claris i Casademunt, proclamation of Louis XIII de France as count of Barcelona.
+1650.1.1   = { citysize = 8900 }
+1652.10.11 = {
+	owner = SPA
+	controller = SPA
+	remove_core = FRA
+} # Barcelona surrenders
+1700.1.1   = { citysize = 9360 }
+1750.1.1   = { citysize = 10500 }
+1800.1.1   = { citysize = 11070 }

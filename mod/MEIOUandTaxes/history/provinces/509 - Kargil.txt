@@ -1,0 +1,56 @@
+# Province : Ladakh
+# MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LDK
+controller = LDK
+culture = ladakhi
+religion = mahayana
+capital = "Leh"
+trade_goods = carpet
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 14572
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+terrain3 = yes
+
+1356.1.1  = {
+	add_core = LDK
+	set_province_flag = terrain3
+}
+1400.1.1  = { citysize = 16480 }
+1450.1.1 = {
+	citysize = 5000
+	owner = KSH
+	controller = KSH
+} #Shah Mirs
+1500.1.1  = { citysize = 19570 temple = yes }
+1550.1.1  = { citysize = 22870 }
+1570.1.1 = {
+	owner = LDK
+	controller = LDK
+}
+1600.1.1  = { citysize = 25480 }
+1650.1.1  = { citysize = 28122 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 31805 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 35760 workshop = yes }
+1800.1.1  = { citysize = 39400 }
+1834.1.1  = {
+	owner = PUN
+	controller = PUN
+}
+1849.3.30 = {
+	owner = GBR
+	controller = GBR
+} # End of the Second Anglo-Sikh War
+

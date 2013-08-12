@@ -1,0 +1,40 @@
+# 2694 - Koch Behar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KMT
+controller = KMT
+culture = bengali
+religion = hinduism
+capital = "Kamatapur"
+trade_goods = cotton
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 73000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+discovered_by = chinese
+
+1356.1.1 = { add_core = KMT }
+1450.1.1 = { citysize = 60000 }
+1500.1.1 = { citysize = 55000 }
+1550.1.1 = { citysize = 90000 }
+1587.1.1 = { citysize = 5000 capital = "Atharokotha" }
+1627.1.1 = { discovered_by = POR }
+1650.1.1 = { citysize = 8000 }
+1660.1.1 = { controller = MUG }
+1661.1.1 = { owner = MUG }
+1680.1.1 = { controller = KMT owner = KMT } #Independent but bhutanese puppet
+1700.1.1 = { citysize = 12000 }
+1714.1.1 = { capital = "Cooch Behar" }
+1750.1.1 = { citysize = 14000 }
+1772.3.1 = { controller = BHU } # 1772 Bhutan annexes Koch Bihar
+1772.5.1 = { owner = BHU } # 1772 Bhutan annexes Koch Bihar
+1774.4.25 = {
+	owner = KMT
+	controller = KMT
+	remove_core = BHU
+} #April 25, 1774 British Vassal
+1800.1.1 = { citysize = 22000 }

@@ -1,0 +1,69 @@
+# 472 - Khazakh
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = khazak
+religion = sunni
+hre = no
+base_tax = 2 
+trade_goods = salt
+#manpower = 2
+manpower = 4
+capital = "Sygnaq"
+citysize = 2000
+discovered_by = SIB
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = KZH
+	add_core = WHI
+	revolt_risk = 3
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1446.1.1 = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = GOL
+}
+1465.1.1 = {
+	owner = KZH
+	controller = KZH
+	remove_core = SHY
+}
+1500.1.1  = {
+	citysize = 1834
+}
+1550.1.1  = {
+	citysize = 2340
+	discovered_by = TUR
+}
+1600.1.1  = {
+	citysize = 3210
+}
+1622.1.1 = {
+	discovered_by = RUS
+}
+1650.1.1  = {
+	citysize = 3867
+}
+1700.1.1  = {
+	citysize = 4280
+}
+#1730.1.1 = {
+#	owner = RUS
+#	controller = RUS
+#	add_core = RUS
+#}
+1750.1.1  = {
+	citysize = 5270
+}
+1800.1.1  = {
+	citysize = 5848
+}

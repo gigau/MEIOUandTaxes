@@ -1,0 +1,82 @@
+# Blekinge
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DEN
+controller = DEN
+culture = danish
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = wheat
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Rotnaeby"
+citysize = 1600
+marketplace = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = DEN
+}
+1360.1.1   = {
+	owner = DEN
+	controller = DEN
+	remove_core = RSW
+}
+1480.1.1  = { fort2 = yes }
+1500.1.1  = { citysize =1900 }
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = DEN
+}
+1525.1.1  = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #Prelude to 'Grevefejden'(Sören Norrby)
+1525.5.10 = {
+	revolt = {  }
+	controller = DAN
+} #Sören Norrby is defeated
+1534.8.15 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #'Grevefejden'(Christofer of Oldenburg)
+1536.3.15 = {
+	revolt = {  }
+	controller = DAN
+} #Liberated by Sweden
+1536.3.15 = { religion = protestant} #Unknown date
+1570.1.1  = { citysize = 2217 }
+1590.1.1  = { fort3 = yes }
+1610.1.1  = { citysize = 2945 }
+1614.1.1  = {
+	capital = "Kristianstad"
+}
+1650.1.1  = { citysize = 3535 }
+1658.2.26 = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = DAN
+} #The Peace of Roskilde
+1658.2.26 = {
+	courthouse = yes
+	regimental_camp = yes
+}
+1672.1.1  = { fort4 = yes }
+1680.1.1  = {
+	citysize = 3900
+	capital = "Karlskrona"
+	shipyard = yes
+	wharf = yes
+}
+1690.1.1  = { citysize = 4864 }
+1722.1.1  = { culture = swedish } #The backbone of danishness is finally broken
+1730.1.1  = { citysize = 8300 }
+1770.1.1  = { citysize = 10200 }
+1810.1.1  = { citysize = 10639 }
+1820.1.1  = { citysize = 12000 } #Interpolated

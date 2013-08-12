@@ -1,0 +1,267 @@
+#MEIOU-GG Govenemnt changes
+#MEIOU-GG Religion changes
+
+government = eastern_monarchy_2	# noble_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 3
+# land_naval = -5		##-2
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = tibetan
+religion = mahayana
+technology_group = chinese
+capital = 2263	# Lhasa
+
+1347.1.1 = {
+	monarch = {
+		name = "Lotro Gyaltsen"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Jamyang Shakya Gyaltsen"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1373.1.1 = {
+	monarch = {
+		name = "Drakpa Changchub"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1381.1.1 = {
+	monarch = {
+		name = "Sonam Drakpa"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1391.1.1 = {
+	monarch = {
+		name = "Gendun Drup"
+		dynasty = "Phagmodrupa"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+#1399.1.1 = { decision = monastic_education }
+
+1443.1.1 = {
+	monarch = {
+		name = "Trakpa Chunge"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Sangye Gyantesen Pal"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Dön-yö Dorje"
+		dynasty = "Phagmodrupa"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Ngawang Namgye"
+		dynasty = "Phagmodrupa"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Töndap Tseten"
+		dynasty = "Phagmodrupa"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Karma Tseten"
+		dynasty = "Phagmodrupa"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Lhawang Dorje"
+		dynasty = "Rinpungpa"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Phüntso Namgye"
+		dynasty = "Rinpungpa"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Karma Tsen-Kyong"
+		dynasty = "Rinpungpa"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+# 1642.1.1 = { government = theocracy_1 }
+
+1642.1.1 = {
+	monarch = {
+		name = "Gursi"
+		dynasty = "Khoshut"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Dayan"
+		dynasty = "Khoshut"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1668.1.1 = {
+	monarch = {
+		name = "Tenzin Dalai"
+		dynasty = "Khoshut"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Lhabzang"
+		dynasty = "Khoshut"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1717.1.1 = {
+	monarch = {
+		name = "Tsewang Arabtan"
+		dynasty = "Phola"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Phola Sonam Tobgye"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1747.3.13 = {
+	monarch = {
+		name = "Gyurme Namgyal"
+		dynasty = "Phola"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1750.11.12 = {
+	government = theocracy_1
+	monarch = {
+		name = "Kezang Gyatso"
+		adm = 8
+		dip = 8
+		mil = 7
+	}
+}
+
+1758.1.1 = {
+	monarch = {
+		name = "Jampel Gyatso"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Luntok Gyatso"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Tshultrin Gyatso"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}

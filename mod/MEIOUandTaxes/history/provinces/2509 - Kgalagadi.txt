@@ -1,0 +1,3 @@
+# 2509 - Kgalagadi
+
+discovered_by = NDO

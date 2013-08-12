@@ -1,0 +1,137 @@
+# 43 - Pòmòrskô
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEU
+controller = TEU
+capital = "Tëchòlô"					# (Kashubian), Tuchola (Polish), Tuchel (German)
+culture = kashubian					# pommeranian
+religion = catholic
+trade_goods = wheat
+hre = no
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 17000
+fort1 = yes
+add_core = TEU
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1454.3.6   = {
+	add_core = POL
+	marketplace = yes
+} # Beginning of the "Thirteen years war"
+1466.10.19 = {
+	owner = POL
+	controller = POL
+	remove_core = TEU
+	culture = prussian
+	capital = "Tuchel"
+} # Peace treaty, "Peace of Torun"
+1500.1.1   = {
+	citysize = 20000
+}
+1524.1.25  = {
+	revolt_risk = 6
+} # Debt crisis
+1525.1.1   = {
+	revolt_risk = 0
+	religion = protestant
+}
+1529.1.1   = {
+	citysize = 18000
+} # Epidemic
+1550.1.1   = {
+	citysize = 26000
+}
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1572.1.1   = {
+	revolt_risk = 6
+} # Sigismund II dies
+1575.1.1   = {
+	regimental_camp = yes
+}
+1576.1.1   = {
+	revolt_risk = 8
+} # Danzig rebellion
+1577.6.13  = {
+	controller = PLC
+} # Danzig War, under siege by Poland
+1580.1.1   = {
+	constable = yes
+}
+1588.1.1   = {
+	controller = REB
+} # Civil war
+1589.1.1   = {
+	controller = PLC
+	revolt_risk = 0
+} # Coronation of Sigismund III
+1600.1.1   = {
+	fort2 = yes
+	citysize = 50000
+}
+1650.1.1   = {
+	courthouse = yes
+	citysize = 77000
+}
+1660.5.3   = {
+	citysize = 70000
+} # Oliwa incorporated into Danzig
+1667.1.1   = {
+	mint = yes
+}
+1670.1.1   = {
+customs_house = yes
+}
+1703.1.1   = {
+	citysize = 50400
+}
+1704.1.1   = {
+	controller = SWE
+} # Under siege by Sweden
+1709.1.1   = {
+	controller = PLC
+} # The Swedes lost the battle of Poltava
+1710.1.1   = {
+	citysize = 40000
+} # Plague
+1733.1.1   = {
+	controller = REB
+} # The war of Polish succession
+1735.1.1   = {
+	controller = PLC
+}
+1750.1.1   = {
+	citysize = 46000
+}
+1772.2.17  = {
+	fort3 = yes
+}
+1772.8.5   = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = PLC
+} # First partition
+1794.3.24  = {
+	revolt_risk = 5
+} # Kosciuszko uprising
+1794.11.16 = {
+	revolt_risk = 0
+} # The end of the uprising
+1800.5.24  = {
+	citysize = 51000
+}
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1807.3.1   = {
+	controller = RFR
+} # Occupied by French troops
+1807.7.9   = {
+	controller = PRU
+}

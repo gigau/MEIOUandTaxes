@@ -1,0 +1,9 @@
+# 2470 - Muskwa
+
+1812.1.1   = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+	culture = american
+	religion = anglican
+} # North West Company and the Hudson's Bay Company

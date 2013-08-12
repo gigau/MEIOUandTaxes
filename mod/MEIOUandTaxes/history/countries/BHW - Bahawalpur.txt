@@ -1,0 +1,167 @@
+# BHW - Bahawalpur
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 4
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = multani
+religion = sunni
+technology_group = indian
+capital = 2721
+
+ 
+1399.1.1 = { decision = jizya_tax }
+
+#Daudaputras
+
+1701.1.1 = {
+	monarch = {
+		name = "Mubarak I"
+		dynasty = "Daudaputra"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1701.1.1 = {
+	heir = {
+		name = "Sadiq Muhammed"
+		monarch_name = "Sadiq Muhammed I"
+		dynasty = "Daudaputra"
+		birth_date = 1680.1.1
+		death_date = 1749.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1723.1.1 = {
+	monarch = {
+		name = "Sadiq Muhammed I"
+		dynasty = "Daudaputra"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1723.1.1 = {
+	heir = {
+		name = "Muhammed Bahawal"
+		monarch_name = "Muhammed Bahawal I"
+		dynasty = "Daudaputra"
+		birth_date = 1710.1.1
+		death_date = 1749.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	monarch = {
+		name = "Muhammed Bahawal I"
+		dynasty = "Daudaputra"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	heir = {
+		name = "Mubarak"
+		monarch_name = "Mubarak II"
+		dynasty = "Daudaputra"
+		birth_date = 1720.1.1
+		death_date = 1773.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1749.1.1 = {
+	monarch = {
+		name = "Mubarack II"
+		dynasty = "Daudaputra"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1749.1.1 = {
+	heir = {
+		name = "Muhammed Bahawal"
+		monarch_name = "Muhammed Bahawal II"
+		dynasty = "Daudaputra"
+		birth_date = 1730.1.1
+		death_date = 1809.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Muhammed Bahawal II"
+		dynasty = "Daudaputra"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1773.1.1 = {
+	heir = {
+		name = "Sadiq Muhammed"
+		monarch_name = "Sadiq Muhammed II"
+		dynasty = "Daudaputra"
+		birth_date = 1750.1.1
+		death_date = 1825.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1809.1.1 = {
+	monarch = {
+		name = "Sadiq Muhammed II"
+		dynasty = "Daudaputra"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1809.1.1 = {
+	heir = {
+		name = "Muhammed Bahawal"
+		monarch_name = "Muhammed Bahawal III"
+		dynasty = "Daudaputra"
+		birth_date = 1780.1.1
+		death_date = 1852.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}

@@ -1,0 +1,16 @@
+# 2462 - Sawatch
+
+1700.1.1   = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	culture = castillian
+	religion = catholic
+}
+1750.1.1   = {
+	culture = mexican
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+}

@@ -1,0 +1,21 @@
+# Commanche Swarm
+#Modified for MEIOU by FB 10.02.07
+#tech level 20 c1780
+
+unit_type = new_world
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 4
+#defensive_morale = 3
+#offensive_fire = 3
+#defensive_fire = 3
+#offensive_shock = 3
+#defensive_shock = 1
+#FB
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 6
+defensive_shock = 6

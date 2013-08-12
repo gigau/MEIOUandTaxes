@@ -1,0 +1,52 @@
+# BAW - Bayern-Ingolstadt
+# 2009-dec-31 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 1509
+
+#1392 Bavaria-Landshut split into Bavaria-Landshut Bavaria-Ingolstadt Bavaria-Munich
+1392.1.1 = {
+	monarch = {
+		name = "Stephan III der Prächtige"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+    	}
+}
+
+1413.9.26 = {
+	monarch = {
+		name = "Ludwig VII der Bärtige"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1443.5.1 = {
+	monarch = {
+		name = "Ludwig VIII der Höckrige"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1445.4.7 => Annexation by the duchy of Bayern-Landshut

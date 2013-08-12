@@ -1,0 +1,81 @@
+# 1268 - Doniji Kraji
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CRO
+controller = CRO
+culture = croatian
+religion = catholic
+capital = "Banja Luka"
+trade_goods = lumber
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2412
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+#1385.1.1   = {
+1356.1.1   = {
+	owner = BOS
+	controller = BOS
+	add_core = BOS
+	add_core = CRO
+}
+1394.1.1   = {
+	owner = CRO
+	controller = CRO
+	remove_core = BOS
+}
+1500.1.1   = {
+	citysize = 8765
+}
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1540.1.1   = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = RHU
+} # The Bihac fort would become the westernmost fort taken by the Ottoman army
+1550.1.1   = {
+	citysize = 8341
+}
+1560.1.1   = {
+	marketplace = yes
+}
+1600.1.1   = {
+	citysize = 9865
+}
+1650.1.1   = {
+	citysize = 10683
+	culture = bosnian
+	religion = sunni
+}
+1671.1.1   = {
+	revolt_risk = 5
+} # Conspiracy against Habsburg rule uncovered
+1671.5.1   = {
+	revolt_risk = 0
+	courthouse = yes
+} # Estimated, the conspirators are executed
+1700.1.1   = {
+	citysize = 10274
+	revolt_risk = 7
+}
+1750.1.1   = {
+	citysize = 12476
+}
+1800.1.1   = {
+	citysize = 13000
+}
+1813.1.1   = {
+	revolt_risk = 3
+} # Croatian national revival (Hrvatski narodni preporod)

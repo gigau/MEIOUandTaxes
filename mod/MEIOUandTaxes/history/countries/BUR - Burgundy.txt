@@ -1,0 +1,178 @@
+# BUR - Burgundy
+# MEIOU-GG Govenemnt changes
+# 2010-jan-04 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -1
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 0
+# secularism_theocracy = -3
+primary_culture = burgundian
+add_accepted_culture = francien
+add_accepted_culture = wallonian
+add_accepted_culture = flemish
+religion = catholic
+technology_group = western
+capital = 192	# Dijon
+
+# historical_friend = FLA
+
+1349.4.20 = {
+	monarch = {
+		name = "Philippe"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+	heir = {
+		name = "Philippe"
+		monarch_name = "Philippe II"
+		dynasty = "de Bourgogne"
+		birth_date = 1341.1.1
+		death_date = 1404.1.1
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1363.7.18 = {
+	monarch = {
+		name = "Philippe II"
+		dynasty = "de Bourgogne"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1371.5.28 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "de Bourgogne"
+		birth_date = 1371.5.28
+		death_date = 1419.9.11
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Jean"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Philip"
+		monarch_name = "Philip III"
+		dynasty = "de Bourgogne"
+		birth_date = 1396.7.31
+		death_date = 1467.6.16
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1408.1.1 = { leader = {	name = "Jean de Pressy"   	type = general	rank = 3	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1437.1.1 } }
+
+1419.9.11 = {
+	monarch = {
+		name = "Philippe III"
+		dynasty = "de Bourgogne"
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = { name = "Philippe III"   	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1 }
+	}
+}
+
+1428.7.3 = { add_accepted_culture = dutch }
+
+1433.11.10 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles le Téméraire"
+		dynasty = "de Bourgogne"
+		birth_date = 1433.11.10
+		death_date = 1477.1.6
+		claim = 95
+		ADM = 5
+		DIP = 3
+		MIL = 7
+	}
+}
+
+1467.6.16 = {
+	monarch = {
+		name = "Charles le Téméraire"
+		dynasty = "de Bourgogne"
+		adm = 5
+		dip = 3
+		mil = 7
+		leader = { name = "Charles le Téméraire"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1}
+	}
+	heir = {
+		name = "Marie"
+		monarch_name = "Marie"
+		dynasty = "de Bourgogne"
+		birth_date = 1457.2.13
+		death_date = 1482.3.27
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+		female = yes
+	}
+}
+
+1477.1.6 = {
+	monarch = {
+		name = "Marie"
+		dynasty = "de Bourgogne"
+		adm = 6
+		dip = 7
+		mil = 5
+		female = yes
+	}
+}
+
+1482.3.27 = {
+	primary_culture = bourguignon
+} # Burgundy is owned by the Habsburgs at this point
+
+1506.9.26 = {
+	government = despotic_monarchy_4
+}
+
+1560.1.1 = {
+	# innovative_narrowminded = 3
+} # Dutch Nobility demands General Estates
+
+1589.8.3 = {
+	government = administrative_monarchy_4
+}
+
+1648.1.1 = {
+	# centralization_decentralization = 2
+} # The Repatriation of the Netherlands
+
+1661.3.9 = {
+	government = absolute_monarchy_4
+}

@@ -1,0 +1,24 @@
+#1551 - Nupe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NUP
+controller = NUP
+culture = yorumba
+religion = animism
+capital = "Nupe"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = pepper
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = NUP
+}

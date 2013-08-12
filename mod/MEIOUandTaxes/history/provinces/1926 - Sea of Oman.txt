@@ -1,0 +1,7 @@
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = indian
+discovered_by = MNG
+
+1480.1.1 = { discovered_by = TUR }
+1488.1.1 = { discovered_by = POR }

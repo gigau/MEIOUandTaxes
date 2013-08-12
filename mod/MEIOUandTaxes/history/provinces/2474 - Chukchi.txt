@@ -1,0 +1,9 @@
+# 2474 - Chukchi
+
+1812.1.1   = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	culture = american
+	religion = anglican
+}

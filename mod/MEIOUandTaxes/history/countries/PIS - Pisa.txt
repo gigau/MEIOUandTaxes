@@ -1,0 +1,87 @@
+#PIS - Pisa.txt
+#MEIOU-GG Govenemnt changes
+#2011-jan-15 FB Ghibelline Alliances
+
+government = merchant_republic
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 4
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+capital = 1380	# Pisa
+
+#Ghibelline Alliances:
+# historical_friend = MOD
+# historical_friend = SIE
+# historical_friend = URB
+
+1356.1.1 = {
+	monarch = {
+		name = "Gian dell'Angelo"
+		adm = 3
+		dip = 6
+		mil = 7
+	}
+}
+
+1369.3.22 = {
+	monarch = {
+		name = "Pietro Gambacorta"
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+
+1392.1.7 = {
+	monarch = {
+		name = "Jacopo Appiani"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Giordano Appiani"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1402.7.1 = {
+	monarch = {
+		name = "Gabriel Maria Visconti"
+		adm = 6
+		dip = 8
+		mil = 5
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Gian Gambacorta"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Simone Orlandi"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}

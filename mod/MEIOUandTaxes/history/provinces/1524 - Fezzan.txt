@@ -1,0 +1,29 @@
+#1524 - Fezzan 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KBO
+controller = KBO
+culture = toubous
+religion = sunni
+capital = "Sabha"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2034
+trade_goods = wool
+
+
+fort1 = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1350.1.1 = {
+	add_core = YAO
+	add_core = KBO
+	add_core = TRP
+}

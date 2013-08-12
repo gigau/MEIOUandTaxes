@@ -1,0 +1,73 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#56 - Osnabrück
+
+owner = MUN
+controller = MUN
+culture = old_saxon
+religion = catholic
+capital = "Osnabrück"
+trade_goods = salt
+hre = yes
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 6000
+fort1 = yes
+add_core = MUN
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 6500 }
+1399.1.1   = { citysize = 7000 }
+1453.1.1   = { citysize = 7500 }
+1500.1.1   = { citysize = 8800 }
+1550.1.1   = { citysize = 10800 marketplace = yes }
+1585.1.1   = { owner = KOL controller = KOL add_core = KOL }
+1600.1.1   = { citysize = 12080 courthouse = yes }
+1610.1.1   = { fort2 = yes }
+1648.10.24 = { add_core = LUN } # Peace of Westphalia
+1650.1.1   = { owner = MUN controller = MUN }
+1650.1.1   = { citysize = 13600 }
+1700.1.1   = { citysize = 14300 }
+1723.1.1   = { owner = KOL controller = KOL }
+1740.1.1   = { mint = yes }
+1750.1.1   = { citysize = 15000 }
+1800.1.1   = { citysize = 16500 }
+1803.1.1   = {	owner = HAN
+		controller = HAN
+		add_core = HAN
+		remove_core = KOL 
+	     } # Taken into possession of Hannover
+1803.7.5   = { controller = RFR } # Occupied by French forces
+1805.12.15 = {	owner = PRU
+		controller = PRU
+		add_core = PRU
+		remove_core = HAN
+	     } # Treaty of Schoenbrunn, ceded to Prussia
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9   = {
+	owner = WES
+	controller = WES
+	add_core = WES
+	remove_core = PRU
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1810.12.13 = {
+	owner = RFR
+	controller = RFR
+     	add_core = RFR
+     	remove_core = WES
+} # Annexed by France
+1813.10.13 = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+	remove_core = RFR
+} # The kingdom is dissolved
+1866.1.1   = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = HAN
+}

@@ -1,0 +1,83 @@
+#95 Breda (staats brabant)
+#breda tilburg bois-le-duc
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRB
+controller = BRB 
+add_core = BRB
+culture = flemish
+religion = catholic
+capital = "Breda"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 11245
+trade_goods = linen
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 13560 }
+1399.1.1   = { citysize = 15900 }
+1430.1.1   = { owner = BUR controller = BUR add_core = BUR }
+1453.1.1   = { citysize = 18000 }
+1477.1.5   = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18  = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1492.7.12  = { revolt_risk = 0 } # Peace of Cadzand, peace returns
+1500.1.1   = { citysize = 26000 }
+1525.1.1   = { temple = yes } # Sint-John's Cathedral finished in 's Hertogenbosch
+1530.1.1   = { fort2 = yes }
+1540.1.1   = { courthouse = yes }
+1542.1.1   = { controller = GEL } # Gelre occupies Noord-Brabant in the Austro-Gelrian War
+1543.1.1   = { controller = HAB } # Charles V is back in control
+1549.11.4  = { add_core = NED remove_core = BRB }
+1550.1.1   = { citysize = 33000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 marketplace = yes constable = yes } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1   = { religion = reformed }
+1577.2.12  = { revolt_risk = 16 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.23  = { owner = NED controller = NED remove_core = SPA revolt_risk = 0 } # Union of Utrecht - Noord-Brabant joins
+1581.7.2   = { controller = SPA revolt_risk = 12 } # Alessandro Farnese takes Breda
+1590.3.4   = { controller = NED revolt_risk = 0 } # Breda is retaken after a succesful diversion
+1595.1.1   = { regimental_camp = yes } # Later on: Generality Lands, military important
+1600.1.1   = { fort3 = yes citysize = 30000 }
+1616.1.1   = { textile = yes } # Vereenigte Westindische Compagnie
+1620.1.1   = { workshop = yes }
+1625.4.3   = { controller = SPA revolt_risk = 15 } # After the 12-year armistice, the fight is resume: Spinola takes Breda 
+1629.1.1   = { controller = NED revolt_risk = 0 } # Frederik Hendrik captures 's Hertogenbosch
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { citysize = 33000 }
+1672.5.15  = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.8.10  = { controller = NED } # Peace of Nijmegen (Netherlands-France)
+1681.1.1   = { base_tax = 10 } # Protestants expelled from France
+1700.1.1   = { citysize = 39000 }
+1710.1.1   = { customs_house = yes }
+1715.1.1   = { fort4 = yes }
+1720.1.1   = { mint = yes }
+1747.9.18  = { controller = FRA } # French troops storm and take Bergen-op-Zoom
+1748.10.18 = { controller = NED } # Peace of Aachen
+1750.1.1   = { citysize = 33000 }
+1800.1.1   = { citysize = 39000 }
+1810.7.10  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+	     } # Annexed by France
+1813.11.30 = {	owner = NED
+		controller = NED
+		remove_core = RFR
+	     } # William returns to the Netherlands

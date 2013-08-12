@@ -1,0 +1,119 @@
+# 452 - Kandahar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KAB
+controller = KAB
+culture = pashtun			#FB was: tajihk
+religion = sunni
+capital = "Kandahar"
+trade_goods = cloth
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2540
+add_core = MIH
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = TIM
+	add_core = BAL
+	add_core = KAB
+	add_core = KHO
+}
+1369.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1   = {
+	owner = KHO
+	controller = KHO
+} #Death of Shah Rukh, Ulugh Begh inherits and becomes ruler of Khorasan
+1479.1.1  = {
+	owner = KAB
+	controller = KAB
+} #Afghans independent
+1500.1.1 = { citysize = 3057 }
+1519.1.1  = {
+	controller = TIM
+} # Babur
+1520.1.1  = {
+	owner = TIM
+} # Babur
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Battle of Panipat & Tag Change
+1537.1.1 = {
+	owner = PER
+	controller = PER
+} # Persia
+1545.1.1 = {
+	owner = MUG
+	controller = MUG
+} # Back to Mughals
+1550.1.1 = { citysize = 3897 }
+1566.6.1 = { revolt = { }
+	owner = KAB
+	controller = KAB
+}	#Independent of Mughals for a long while
+1585.1.1 = {
+	controller = MUG
+}	# Man Singh occupies Kabulistan after death of Mirza Hakim
+1585.2.1 = {
+	owner = MUG
+} # Annexed into empire again
+1600.1.1  = { citysize = 4378 }
+1618.1.1  = {
+	controller = PER
+} # Persia again
+1622.1.1  = {
+	owner = PER
+} # Persia again
+1637.1.1  = {
+	controller = MUG
+} # Back to Mughals
+1638.1.1  = {
+	owner = MUG
+} # Back to Mughals
+1647.1.1  = {
+	controller = PER
+} # Back to Persia
+1648.1.1  = {
+	owner = PER
+} # Back to Persia
+1650.1.1  = { citysize = 5047 }
+1677.1.1  = { discovered_by = FRA }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 6324 }
+1707.5.12 = { discovered_by = GBR }
+1708.1.1  = { controller = REB revolt_risk = 8 } # Mir Wais rebelled against Persian rule
+1709.1.1  = {
+	controller = REB
+	revolt = { type = nationalist_rebels size = 3 }
+} # Widespread tribal uprisings
+1711.1.1  = {
+	controller = PER
+	revolt = { }
+}
+1715.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels size = 3 }
+} # Tribal Uprising
+1722.1.1  = {
+	controller = PER
+	revolt = { }
+}
+1736.1.1  = { revolt_risk = 0 } # Persia reasserts control over Qandahar
+1747.10.1 = {
+	owner = DUR
+	controller = DUR
+	add_core = DUR
+	remove_core = MUG
+} # Ahmad Shah established the Durrani empire
+1750.1.1 = { citysize = 8240 }
+1800.1.1 = { citysize = 10540 }

@@ -1,0 +1,37 @@
+# 1357 - Bremen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRB
+controller = FRB
+culture = old_saxon
+religion = catholic
+capital = "Bremen"
+trade_goods = fish
+hre = yes
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 16500
+
+fort1 = yes
+temple = yes
+
+cot = yes
+
+add_core = FRB
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1500.1.1   = { citysize = 18000 }
+1510.1.1   = { fort2 = yes }
+1529.1.1   = { religion = protestant }
+1540.1.1   = { marketplace = yes }
+1550.1.1   = { citysize = 20400 constable = yes }
+1600.1.1   = { citysize = 22870 regimental_camp = yes }
+1620.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 24600 fort4 = yes }
+1700.1.1   = { citysize = 26230 mint = yes }
+1750.1.1   = { citysize = 28000 }
+1800.1.1   = { citysize = 36000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved

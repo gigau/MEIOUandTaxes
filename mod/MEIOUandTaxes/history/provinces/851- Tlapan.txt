@@ -1,0 +1,73 @@
+# 851 - Tlapán
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OTO
+controller = OTO
+add_core = OTO
+culture = totonecan
+religion = teotl
+capital = "Tlappan" 
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 15000
+trade_goods = fish 
+
+fort1 = yes
+
+hre = no
+
+discovered_by = new_world
+
+1487.1.1   = {
+	owner = AZT
+	controller = AZT
+	citysize = 10000
+	base_tax = 6
+#	manpower = 2
+	manpower = 4
+	trade_goods = maize
+} # Conquest by Ahuitzotl, eighth tlatoani of Tenochtitlan
+1506.1.1   = {
+	add_core = AZT
+}
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1521.8.13  = {
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+} #Fall of Tenochtitlan
+1546.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 5000
+}
+1650.1.1   = {
+	citysize = 10000
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 25000
+}
+1800.1.1   = {
+	citysize = 30000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

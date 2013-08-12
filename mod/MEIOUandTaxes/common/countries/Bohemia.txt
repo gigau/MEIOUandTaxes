@@ -1,0 +1,134 @@
+#common\Countries\Bohemia.txt
+
+graphical_culture = latingfx
+
+color = { 161  139  40 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Václav #4" = 50
+	"Jirí #0" = 40
+	"Karel #5" = 5
+	"Premysl #0" = 10
+	"Premysl Otakar #3" = 10
+	"Zikmund #0" = 0
+	"Frantisek #0" = 0
+	"Jindrich #0" = 5
+	"Josef #0" = 5
+	"Frantisek Josef #0" = 0
+	"Bocek #0" = 0
+	"Jan Jirí #0" = 5
+	"Ludvík #0" = 0
+	"Vladislav #0" = 20
+	"Vladimír #0" = 20
+	"Vilém #0" = 5
+	"Petr #0" = 5
+	"Jan Petr #0" = 5
+	"Viktorín #0" = 0
+	"Jan Václav #0" = 0
+	"Josef Václav #0" = 0
+	"Karel Josef #0" = 0
+	"Matyáš #0" = 0
+	"Ferdinand #0" = 5
+	"Otakar #0" = 10
+	"Vratislav #3" = 5
+	"Boleslav #4" = 10
+	"Jaromír #0" = 0
+	"Vilém #0" = 0
+	"Viktor #0" = 0
+	"Jaromír #0" = 5
+	"Jaroslav #0" = 1
+	"Anezka #0" = -1
+	"Eliska #0" = -1
+	"Katerina #0" = -1
+	"Marie #0" = -1
+	"Ludmila #0" = -1
+	"Alzbeta #0" = -1
+}
+
+leader_names = {
+	Zizka
+	Rohac
+	Valdstejn
+	Prokop
+	Zajíc
+	Jiskra
+	Zelezný
+	Veliký
+	Borek
+	Krusina
+	Capek
+	Thurn
+	Kolowrat
+	Schwarzenberg
+	Rozmberk
+	Velen
+	Radecký
+	Sokol
+	Zerotín
+	"z Husi"
+	"z Polzic"
+	Komenský
+	"z Brandýsa"
+	Purkyne
+	Prazský
+	"z Veleslavína"
+	"z Rozmitálu"
+	Vok
+	Berka
+	"z Pardubic"
+	Kaspar
+	Reiner
+	Schikaneder
+	Loew
+	Meisel
+	Ashkenazi
+}
+
+ship_names = {
+	"Svatý Vaclav"
+	"Svatý Mikulás"
+	"Svatý Jirí"
+	"Svatá Anezká"
+	"Nejsvatejsí Trojice"
+	"Král Karel"
+	"Král Boleslav"
+	"Král Premysl"
+	"Panna Maria Vitezná"
+	"Jan Hus"
+	Sárka
+	Ctirad
+	Cechy
+	Moravy
+	Budvar
+	Libuse
+	Odvázný
+	Orel
+	Sokol
+	Slezsko
+	Sipká
+	Hvezda
+}
+army_names = {
+	"Královské vojsko" "Moravské vojsko" "Armáda $PROVINCE$"
+}

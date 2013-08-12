@@ -1,0 +1,6 @@
+# 2505 - Kongo
+
+discovered_by = YAO
+discovered_by = NRI
+discovered_by = DAR
+discovered_by = KIT

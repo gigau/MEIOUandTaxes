@@ -1,0 +1,73 @@
+# 2704 - Ranthambore
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MEW	
+controller = MEW
+culture = harauti
+religion = hinduism
+capital = "Ranthambore"
+trade_goods = cloth
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 15000
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = HDT
+	add_core = MEW
+}
+1450.1.1 = { citysize = 17000 }
+1455.1.1 = {
+	controller = MLW
+} # Conquest by Malwa
+1456.1.1 = {
+	owner = MLW
+} # Conquest by Malwa
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 20000 }
+1531.1.1 = {
+	controller = REB
+	revolt = { type = nationalist_rebels size = 3 }
+}
+1532.1.1 = {
+	controller = MEW
+	owner = MEW
+	revolt = { }
+}
+1543.1.1 = {
+	owner = BNG
+	controller = BNG
+} # Conquered by Sher Shah Sur
+1550.1.1 = { citysize = 16000 }
+1553.1.1 = {
+	owner = HDT
+	controller = HDT
+} # Independent
+1569.3.1 = { controller = MUG  } # Falls to Akbar
+1569.5.1 = { owner = MUG } # Annexed by Mughals
+1600.1.1 = { citysize = 18000 }
+1619.5.1 = { add_core = MUG }
+1650.1.1 = { citysize = 22000 }
+1700.1.1 = { citysize = 26000 }
+1707.1.1 = { controller = JAU } # Independent
+1707.3.1 = {
+	owner = JAU
+	remove_core = MUG
+} # Independent
+1743.1.1 = {
+	owner = GWA
+	controller = GWA
+} # Marathas
+1750.1.1 = { citysize = 29000 }
+1800.1.1 = { citysize = 33000 }
+1817.1.1 = {
+	owner = GBR
+	controller = GBR
+}

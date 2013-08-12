@@ -1,0 +1,73 @@
+#188 - Trois=Eveches
+#Principal cities: Metz, Thionville
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MTV
+controller = MTV
+add_core = MTV
+culture = burgundian
+religion = catholic
+capital = "Metz"
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 18000
+trade_goods = iron
+hre = yes
+fort1 = yes
+marketplace = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1500.1.1   = { citysize = 20000 constable = yes }
+1515.1.1   = { fort2 = yes } # Earlier than usual, Metz always was a very fortified city
+1520.1.1   = { temple = yes } # Saint Stephen's Cathedral finished
+1550.1.1   = { citysize = 23500 weapons = yes }
+1551.4.10  = { controller = FRA } # Franco-Habsburg War (1551-1559): France takes Metz
+1559.4.3   = { owner = FRA add_core = FRA fort3 = yes } # Peace of Cateau-Cambrésis, France annexes Metz
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 31000 regimental_camp = yes }
+1610.1.1   = { customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1633.1.1   = { courthouse = yes } # Le Parlement de Metz inaugurated
+1636.7.10  = { controller = HAB } # Habsburg forces ravage North Eastern France
+1636.10.24 = { controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { citysize = 28000 fort4 = yes }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1651.4.1   = { revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1674.1.1   = { fort4 = yes } # Vauban's 'pointed' forts in Metz & Thionville
+1690.1.1   = { mint = yes }
+1700.1.1   = { citysize = 30000 }
+1720.1.1   = { workshop = yes }
+1730.1.1   = { fort5 = yes } # Cormontaigne's forts
+1749.1.1   = { base_tax = 8 } # Machault & the 5% tax
+1750.1.1   = { citysize = 39000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 51000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

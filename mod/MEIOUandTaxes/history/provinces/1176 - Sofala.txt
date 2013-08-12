@@ -1,0 +1,32 @@
+# 1176 - Sofala
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SOF
+controller = SOF
+add_core = KIL
+add_core = SOF
+culture = kimwani
+religion = sunni
+capital = "Sofala"
+
+base_tax = 7
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = gold
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = ZIM
+discovered_by = ZAN
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+
+hre = no
+
+1498.3.16 = { discovered_by = POR } #Vasco Da Gama
+1500.1.1  = { citysize = 5000 }
+1505.1.1  = { owner = POR controller = POR add_core = POR }
+1600.1.1  = { citysize = 6000 discovered_by = TUR }

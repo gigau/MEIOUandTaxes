@@ -1,0 +1,50 @@
+# 2297 - Ulleung
+# FL - Korea Universalis
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+capital = "Ulleung"
+trade_goods = fish	#chinaware
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1683
+fort1 = yes
+discovered_by = chinese
+
+1356.1.1  = {
+	add_core = KOR
+	add_core = SOO
+}
+1450.1.1  = {
+	citysize = 2054
+} # Historical populatioin adjustment complete
+1500.1.1  = {
+	citysize = 2508
+}
+1550.1.1  = {
+	citysize = 3063
+}
+1600.1.1  = {
+	citysize = 3367
+} # Great devastation as a result of the Japanese invasion
+1650.1.1  = {
+	citysize = 3753
+}
+1653.1.1  = {
+	discovered_by = NED
+} # Hendrick Hamel
+1700.1.1  = {
+	citysize = 3920
+}
+1750.1.1  = {
+	citysize = 4121
+}
+1800.1.1  = {
+	citysize = 4332
+}
+

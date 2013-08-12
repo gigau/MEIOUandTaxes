@@ -1,0 +1,31 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = MAP
+controller = MAP
+culture = mapuche
+religion = pantheism
+capital = "Mapuche"
+trade_goods = fish
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 25400
+add_core = MAP
+discovered_by = new_world
+
+1520.1.1   = {
+	discovered_by = SPA
+	add_core = SPA
+} # Discovered by Ferdinand Magellan
+1750.1.1  = {
+	add_core = CHL
+	remove_core = SPA
+}
+1860.1.1   = {
+	owner = CHL
+	controller = CHL
+	culture = platean
+	religion = catholic
+	citysize = 200
+	trade_goods = fish
+}

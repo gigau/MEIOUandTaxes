@@ -1,0 +1,69 @@
+# FLA - Duchy of Flanders
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+religion = catholic
+primary_culture = flemish
+capital = 90
+
+1322.1.1 = {
+	monarch = {
+		name = "Louis I"
+		dynasty = "de Dampierre"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1346.1.1 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "de Dampierre"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1384.1.1 = {
+	monarch = {
+		name = "Margarethe III"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+		female = yes
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "John the Fearless"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+1419.1.1 = {
+	monarch = {
+		name = "Philipp III"
+		DIP = 5
+		ADM = 7
+		MIL = 5
+	}
+}
+
+# 1467 - End of Independance

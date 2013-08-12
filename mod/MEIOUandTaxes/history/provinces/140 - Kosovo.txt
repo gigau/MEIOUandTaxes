@@ -1,0 +1,81 @@
+# 140 - Kosovo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SER
+controller = SER
+culture = serbian
+religion = orthodox
+capital = "Pristina"
+trade_goods = gold
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5300
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = SER
+}
+1453.5.29 = {
+	add_core = TUR
+}
+1455.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+1500.1.1  = { citysize = 7095 }
+1550.1.1  = { citysize = 9009 culture = albanian }
+1600.1.1  = { citysize = 12061 constable = yes }
+1650.1.1  = { citysize = 16270 }
+1670.1.1  = { marketplace = yes }
+1683.1.1  = {
+	controller = HAB
+}
+1699.1.1  = {
+	controller = TUR
+}
+1700.1.1  = { citysize = 19660 }
+1730.1.1  = { mint = yes }
+1738.1.1  = {
+	revolt_risk = 5
+} # The constant fighting, increased taxation caused tax revolts
+1740.1.1  = {
+	revolt_risk = 8
+}
+1750.1.1  = {
+	citysize = 21325
+	revolt_risk = 0
+}
+1766.1.1  = {
+	religion = sunni 
+}
+1800.1.1  = {
+	citysize = 3009
+}
+1806.1.8  = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The first Serbian uprising
+1813.1.1  = {
+	revolt = { }
+	controller = TUR
+}
+1815.4.23 = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The second Serbian uprising
+1817.1.1  = {
+	revolt = { }
+	controller = TUR
+}

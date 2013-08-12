@@ -1,0 +1,59 @@
+#Province: Purvanchal
+#file name: 2210 - Purvanchal
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = bihari
+religion = hinduism
+capital = "Jaunpur"
+trade_goods = silk
+hre = no
+base_tax = 10
+#manpower = 8
+manpower = 16
+citysize = 50700
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = AHM
+	revolt_risk = 6
+}
+1394.1.1 = {
+	owner = AHM
+	controller = AHM
+	revolt_risk = 0
+	marketplace = yes
+	citysize = 56970
+}
+1500.1.1  = { citysize = 70970 discovered_by = steppestech }
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1534.1.1 = {
+	owner = BNG
+	controller = BNG
+} # Sher Shah Suri
+1550.1.1  = { citysize = 79187 }
+1556.11.5 = {
+	owner = MUG
+	controller = MUG 
+	add_core = MUG
+} #2nd battle of Panipat - Mughals defeat Suri army under Hemu
+1600.1.1  = { citysize = 90000 }
+1650.1.1  = { citysize = 101400 workshop = yes }
+1700.1.1  = { citysize = 115780 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 130187 }
+1765.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # British authority
+1772.1.1  = { revolt_risk = 5 } # Paharia revolt
+1780.1.1  = { revolt_risk = 7 } # Revolt led by Tilka Manjhi
+1785.1.1  = { revolt_risk = 2 add_core = GBR }
+1795.1.1  = { revolt_risk = 6 } # Tamar revolt, Munda revolt
+1800.1.1  = { citysize = 143400 revolt_risk = 0 }

@@ -1,0 +1,99 @@
+# Antankarana
+# Tag : ANT
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = madagascan
+religion = austranasian
+technology_group = sub_saharan
+capital = 1521
+
+1350.1.1 = {
+	monarch = {
+		name = "Tribal Elders"
+		dynasty = "Zafinifotsy"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+1675.1.1 = {
+	monarch = {
+		name = "Kazobe"
+		dynasty = "Zafinifotsy"
+		DIP = 6
+		ADM = 9
+		MIL = 7
+	}
+}
+
+1710.8.1 = {
+	monarch = {
+		name = "Lototso"
+		dynasty = "Zafinifotsy"
+		DIP = 4
+		ADM = 6
+		MIL = 9
+	}
+}
+
+1740.5.1 = {
+	monarch = {
+		name = "Andriantsirotso"
+		dynasty = "Zafinifotsy"
+		DIP = 3
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1765.1.1 = {
+	monarch = {
+		name = "Lamboina"
+		dynasty = "Zafinifotsy"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1790.3.1 = {
+	monarch = {
+		name = "Tshimbola"
+		dynasty = "Zafinifotsy"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "Tsialama"
+		dynasty = "Zafinifotsy"
+		DIP = 7
+		ADM = 8
+		MIL = 7
+	}
+}
+
+1825.1.1 = {
+	monarch = {
+		name = "Tsimiharo"
+		dynasty = "Zafinifotsy"
+		DIP = 7
+		ADM = 8
+		MIL = 7
+	}
+}

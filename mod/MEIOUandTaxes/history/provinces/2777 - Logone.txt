@@ -1,0 +1,25 @@
+# 1222 - Baguirmi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAG
+controller = BAG
+culture = kanouri
+religion = sunni
+capital = "Logone"
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = BAG
+	add_core = WAD
+}

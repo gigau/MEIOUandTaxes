@@ -1,0 +1,64 @@
+# 305 - Sharukan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRK
+controller = BRK 
+culture = ruthenian
+religion = orthodox
+capital = "Kursk"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3526
+trade_goods = livestock
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+#1321.1.1  = {
+#	owner = LIT
+#	controller = LIT
+#}
+1356.1.1  = {
+	add_core = BRK
+	add_core = KIE
+	add_core = LIT      
+}
+1362.1.1  = {
+	owner = LIT
+	controller = LIT
+}
+1482.1.1   = { citysize = 4500 } # Burned by Crimean Tatars
+1500.1.1   = { citysize = 4750 }
+1503.3.21  = { owner = MOS add_core = MOS }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 7898 }
+1600.1.1   = { citysize = 9292 }
+1613.1.1   = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1650.1.1   = { citysize = 10931 fort2 = yes } # Military and territorial unit at the time
+1654.1.1   = {
+	add_core = RUS
+}
+1667.1.30  = {
+	capital = "Kharkhiv"
+	remove_core = PLC
+}
+1680.1.1   = { regimental_camp = yes } # Ivan Mazeppa’s baroque army building.
+1700.1.1   = { citysize = 12861 }
+1750.1.1   = { citysize = 15130 }
+1772.8.5   = {
+	culture = byelorussian
+} # First partition
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising, minimize the Russian influence
+1794.11.16 = { revolt_risk = 0 }
+1800.1.1   = { citysize = 17800 }

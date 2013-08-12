@@ -1,0 +1,34 @@
+# 721 - Ikeres
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = daur
+religion = shamanism
+capital = "Kölün buyir"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 5400
+
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = MCH
+}
+1500.1.1 = { citysize = 6359 }
+1550.1.1 = { citysize = 7285 }
+1600.1.1 = { citysize = 8944 }
+1632.1.1 = { discovered_by = RUS }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+} # The Qing Dynasty
+1650.1.1 = { citysize = 10465 }
+1700.1.1 = { citysize = 12487 }
+1750.1.1 = { citysize = 14000 }
+1800.1.1 = { citysize = 15231 }

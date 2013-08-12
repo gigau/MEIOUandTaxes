@@ -1,0 +1,31 @@
+#MEIOU-GG Governemnt changes
+
+government = imperial_city
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+primary_culture = bavarian
+religion = catholic
+technology_group = western
+capital = 80	# Ulm
+
+1356.1.1 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1530.1.1 = {
+	religion = protestant
+	# secularism_theocracy = -2
+}

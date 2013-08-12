@@ -1,0 +1,58 @@
+#Province: Kannur
+#file name: 533 - Kannur
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TRV
+controller = TRV
+culture = kannada
+religion = hinduism
+capital = "Tellicherry"
+trade_goods = rice
+hre = no
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 10760
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1336.1.1 = {
+	owner = VIJ
+	controller = VIJ
+} #FB strictly speaking, should be ruled by the Alupas as vassals of VIJ
+1356.1.1  = {
+	add_core = TRV
+	add_core = VIJ
+}
+1400.1.1 = { citysize = 12380 }
+1500.1.1 = { citysize = 15600 temple = yes }
+1550.1.1 = { citysize = 17380 add_core = POR }
+1565.7.1 = {
+	owner = KLN
+	controller = KLN
+	capital = "Bednur"
+	remove_core = VIJ
+} #Independent Nayaka after Talikota
+1573.1.1 = {
+	controller = BIJ
+} #Bijapuri expansion
+1574.1.1 = {
+	controller = KLN
+}
+1596.2.1 = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1 = { citysize = 18975 discovered_by = turkishtech discovered_by = ENG discovered_by = FRA }
+1650.1.1 = { citysize = 20850 }
+1700.1.1 = { citysize = 23330 marketplace = yes }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1 = { citysize = 26758 workshop = yes }
+1763.1.1 = {
+	owner = MYS
+	controller = MYS
+}
+1799.1.1 = {
+	owner = GBR
+	controller = GBR
+} # Third Anglo-Mysore War
+1800.1.1 = { citysize = 30205 }

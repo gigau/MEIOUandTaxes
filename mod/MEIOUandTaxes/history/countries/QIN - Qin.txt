@@ -1,0 +1,17 @@
+#MEIOU-GG Govenemnt changes
+
+government = chinese_monarchy_2a
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = jurchen
+capital = 695	# Beijing

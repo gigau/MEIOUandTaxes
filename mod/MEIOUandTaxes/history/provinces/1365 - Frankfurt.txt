@@ -1,0 +1,44 @@
+#1365 - Frankfurt
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRF
+controller = FRF
+culture = hessian
+religion = catholic
+capital = "Frankfurt"
+trade_goods = linen
+hre = yes
+base_tax = 4
+#manpower = 1
+manpower = 2
+citysize = 5000
+fort1 = yes
+add_core = FRF
+university = yes
+marketplace = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1500.1.1 = { citysize = 7500 }
+1510.1.1 = { fort2 = yes }
+1550.1.1 = { citysize = 10000 constable = yes }
+1556.1.1 = { religion = protestant }
+1600.1.1 = { citysize = 15000 }
+1650.1.1 = { citysize = 19000 }
+1700.1.1 = { citysize = 20000 }
+1710.1.1 = { mint = yes }
+1750.1.1 = { citysize = 22200 }
+1800.1.1 = { citysize = 37000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1807.7.9 = {
+	owner = WES
+	controller = WES
+	add_core = WES
+} # The Second Treaty of Tilsit, the kingdom of Westfalia
+1813.10.14 = {
+	owner = HES
+	controller = HES
+	add_core = HES
+	remove_core = WES
+} # Westfalia is dissolved after the Battle of Leipsig

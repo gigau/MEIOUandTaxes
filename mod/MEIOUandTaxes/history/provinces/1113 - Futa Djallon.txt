@@ -1,0 +1,26 @@
+# 1113 - Beyla
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MNE
+controller = MNE
+culture = senegambian
+religion = sunni
+capital = "Bambuk"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5000
+trade_goods = iron
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+	add_core = DJO
+	add_core = MNE
+}

@@ -1,0 +1,165 @@
+# Country: Jaffna
+# file name: JAF - Jaffna
+# MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG Govenemnt changes
+# MEIOU-GG Religion changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2		#FB was eastern_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+technology_group = indian
+religion = theravada
+primary_culture = sinhala
+capital = 572	# Jaffna
+
+1356.1.1 = {
+	monarch = {
+		name = "Virodaya"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1380.1.1 = {
+	monarch = {
+		name = "Jeyaveera"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Gunaveera"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Kanakasooriya"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Sapumal"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Kanakasooriya II"
+		dynasty = "Cinkaiariyan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Singai"
+		dynasty = "Pararasasegaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name = "Cankili"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1561.1.1 = {
+	monarch = {
+		name = "Puviraja"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Periyapillai"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Puviraja"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Ethirimana Cinkam"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1616.1.1 = {
+	monarch = {
+		name = "Cankili II"
+		dynasty = "Pandaram"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1619.1.1 = {
+	monarch = {
+		name = "Phelipe"
+		dynasty = "de Oliveira"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1619 - Part of the Portuguese Empire

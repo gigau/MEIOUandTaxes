@@ -1,0 +1,57 @@
+#Province: Ahmadabad
+#file name: 516 - Ahmadabad
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = gujarati
+religion = hinduism
+capital = "Ahmadabad"
+trade_goods = rice
+hre = no
+base_tax = 6
+#manpower = 5
+manpower = 10
+citysize = 35870
+fort1 = yes
+marketplace = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = GUJ
+}
+1396.1.1 = {
+	owner = GUJ
+	controller = GUJ
+	citysize = 40200
+} #guessed date for independance from Delhi Sultanate
+1502.1.1 = { citysize = 50897 workshop = yes discovered_by = POR }
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1550.1.1 = { citysize = 57300 }
+1573.6.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1 = { citysize = 64505 fort2 = yes }
+1650.1.1 = { citysize = 72370 }
+1700.1.1 = { citysize = 81540 textile = yes }
+1707.5.12 = { discovered_by = GBR }
+1721.1.1 = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+	remove_core = MUG
+} # Conquered by the Marathas
+1750.1.1 = { citysize = 90000 add_core = GAK }
+1761.1.1 = { owner = GAK controller = GAK } # The Gaekwads gained control as the Marathan rule weakened
+1800.1.1 = { citysize = 102400 }
+1803.12.30 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}

@@ -1,0 +1,25 @@
+# 1546 - Zinder
+# LS -Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SON
+controller = SON
+add_core = SON
+culture = songhai
+religion = sunni
+capital = "Zinder"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = millet
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+

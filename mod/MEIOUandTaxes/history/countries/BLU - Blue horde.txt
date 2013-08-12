@@ -1,0 +1,134 @@
+# BLU - Blue Horde
+# MEIOU-GG Government changes
+# 2011-jan-02 - FB - DW changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = steppe_horde_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 3
+primary_culture = tartar
+religion = sunni
+technology_group = steppestech
+capital = 1310	# Sarai
+
+1356.1.1 = {
+	monarch = {
+		name = "Berdi Beg"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	set_country_flag = wrath_of_god
+}
+
+1360.5.28 = {
+	monarch = {
+		name = "Hizr"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1361.8.1 = {
+	monarch = {
+		name = "Temur Hoja"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1362.2.14 = {
+	monarch = {
+		name = "Amurat"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1367.10.27 = {
+	monarch = {
+		name = "Aziz Hoja"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1369.1.5 = {
+	monarch = {
+		name = "Jani Beg II"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1370.6.4 = {
+	monarch = {
+		name = "Tulun Beg Khanum"
+		dynasty = "Borjigin"
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1373.3.19 = {
+	monarch = {
+		name = "Ai Beg"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1378.1.1 = {
+	monarch = {
+		name = "Mamai"
+		dynasty = "Borjigin"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1380.9.8 = {
+	monarch = {
+		name = "Tokhtamysh"
+		dynasty = "Borjigin"
+		adm = 9
+		dip = 9
+		mil = 9
+		leader = {
+			name = "Tokhtamysh"
+			type = general
+			rank = 1
+			fire = 4
+			shock = 4
+			manuever = 5
+			siege = 0
+			death_date = 1406.1.1
+		}
+	}
+}
+
+# Unification of the Golden Horde under one banner

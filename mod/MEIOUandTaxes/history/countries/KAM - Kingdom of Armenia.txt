@@ -1,0 +1,71 @@
+# KAM - Kingdom of Armenia
+# aka Armenian Kingdom of Cilicia 
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 3
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 3
+# land_naval = 0
+# quality_quantity = -3
+# serfdom_freesubjects = 3
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = armenian
+religion = orthodox
+technology_group = western
+capital = 327 # Adana
+
+1320.7.20 = {
+	monarch = {
+		name = "Leon IV"
+		dynasty = "Hethumid" 
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1341.8.28 = {
+	monarch = {
+		name = "Gosdantin II"
+		dynasty = "Lusignan" 
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1344.4.17 = {
+	monarch = {
+		name = "Gosdantin III"
+		dynasty = "Lusignan" 
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1362.12.21 = {
+	monarch = {
+		name = "Gosdantin IV"
+		dynasty = "Lusignan"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1374.1.1 = {
+	monarch = {
+		name = "Leon V"
+		dynasty = "Lusignan"
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+} # last king of Armenia

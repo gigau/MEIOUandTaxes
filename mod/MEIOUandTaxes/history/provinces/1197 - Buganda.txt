@@ -1,0 +1,29 @@
+#1197 - Buganda
+# LS - african setup alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIT
+controller = KIT 
+add_core = KIT
+culture = chwezi
+religion = animism
+capital = "Ganda"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 4000
+trade_goods = iron
+
+terrain1 = yes
+
+discovered_by = KIT
+discovered_by = DAR
+discovered_by = ALW
+discovered_by = ETH
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}

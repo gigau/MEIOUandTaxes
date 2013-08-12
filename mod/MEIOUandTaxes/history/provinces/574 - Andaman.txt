@@ -1,0 +1,33 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = monic
+religion = theravada
+capital = "Andaman"
+trade_goods = fish
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+
+discovered_by = austranesian
+
+1505.1.1 = { discovered_by = POR }	#FB was 1500.1.1 = { discovered_by = POR }
+1788.11.1 = {
+	owner = BNG
+	controller = BNG
+	citysize = 100
+} # Bengalian penal colony
+1789.1.1 = {
+	owner = GBR
+	controller = GBR
+	capital = "Port Cornwallis"
+	citysize = 200
+}
+1796.5.1 = {
+	citysize = 0
+#	manpower = 1
+	manpower = 2
+	native_size = 5
+	native_ferocity = 1
+	owner = XXX
+	controller = XXX
+} # The colony is abandoned

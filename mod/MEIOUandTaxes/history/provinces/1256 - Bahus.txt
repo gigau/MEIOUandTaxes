@@ -1,0 +1,44 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = NOR
+controller = NOR
+add_core = NOR
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 2
+trade_goods = fish
+#manpower = 2
+manpower = 4
+capital = "Kungahälla"
+citysize = 1000 # Estimated
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1337.1.1  = {
+	fort2 = yes
+}
+1500.1.1  = { citysize = 1340 }
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+}
+1536.1.1  = { religion = protestant } #Unknown date
+1550.1.1  = { citysize = 1625 }
+1600.1.1  = { citysize = 2110 }
+1612.1.1  = {
+	capital = "Kungälv"
+}
+1650.1.1  = { citysize = 3100 }
+1658.2.26  = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = DAN
+} #The Peace of Roskilde
+1700.1.1  = { citysize = 5400 }
+1750.1.1  = { citysize = 7000 }
+1800.1.1  = { citysize = 11900 }

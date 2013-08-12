@@ -1,0 +1,85 @@
+#Province: Delhi (was Agra)
+#file name: 2163 - Delhi CHANGED NAME
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = kanauji
+religion = hinduism
+capital = "Delhi"
+trade_goods = cloth
+hre = no
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 44870
+fort1 = yes
+temple = yes
+cot = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = DLH
+}
+1398.8.1  = { citysize = 25000 } # Sacked by Timur
+1400.1.1  = { citysize = 50200 }
+1405.1.1  = { controller = DLH }
+1500.1.1  = { citysize = 65200 }
+1526.4.1  = {
+	controller = KAB
+} #Conquered by Babur
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = DLH
+} # Battle of Panipat
+1540.1.1 = {
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} # Sher Shah Conquers Delhi
+1550.1.1 = { citysize = 76210 }
+1553.1.1 = {
+	owner = DLH
+	controller = DLH
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1555.7.23 = {
+	owner = MUG
+	controller = MUG
+} # Humayun Returns
+1556.10.7 = { controller = DLH }	# Hemu
+1556.11.5 = { controller = MUG }	#Aftermath to second battle of Panipat
+1566.1.1 = { revolt = { type = noble_rebels size = 1 } }
+1566.6.1 = { revolt = { } }
+1600.1.1 = { citysize = 83280 }
+1638.1.1 = {
+	fort2 = yes
+	capital = "Shahjahanabad"
+} # Delhi became the capital & grew in importance again
+1640.1.1 = { marketplace = yes }
+1650.1.1 = { citysize = 96585 }
+1660.1.1 = { trade_goods = sugar workshop = yes }
+1700.1.1 = { citysize = 110706 courthouse = yes }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1 = { citysize = 125760 }
+1770.1.1 = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+	remove_core = MUG
+} # The Marathas
+1784.1.1 = {
+	capital = "Delhi"
+} # The Marathas install puppet
+1800.1.1 = { citysize = 144540 fort3 = yes }
+1803.12.30 = {
+	owner = GBR
+	controller = GBR
+}
+1818.6.3 = { remove_core = MAR }

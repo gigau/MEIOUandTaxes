@@ -1,0 +1,54 @@
+# 1261 - Norrbotten
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = sapmi
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+capital = "Tornio"
+citysize = 1250
+fort1 = yes
+discovered_by = eastern
+discovered_by = western
+
+1500.1.1 = {
+	citysize = 1500
+	base_tax = 2
+}
+1527.6.1 = {
+	religion = protestant
+}
+1550.1.1 = {
+	citysize = 1750
+	base_tax = 3
+}
+1600.1.1 = {
+	citysize = 2000
+}
+1621.1.1 = {
+	citysize = 3000
+}
+1750.1.1 = {
+	base_tax = 2
+}
+1808.9.14 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.3.29 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}
+1810.1.1 = {
+	base_tax = 1
+}

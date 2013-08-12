@@ -1,0 +1,104 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 66  120  158 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_medieval_infantry
+	druzhina_cavalry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	ottoman_new_model
+	ottoman_lancer
+	hungarian_hussar
+	germanized_pike
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+}
+
+monarch_names = {
+	"John #0" = 20
+	"Basil #0" = 10
+	"Constantine #0" = 20
+	"Alexius #0" = 45
+	"Andronicus #0" = 10
+	"Nikephoros #0" = 5
+	"Michael #0" = 10
+	"Leo #0" = 45
+	"Manuel #0" = 5
+	"Zoe #0" = -5
+	"Georgios #0" = 0
+	"Aineias #0" = 0
+	"Demetrius #0" = 0
+	"Thomas #0" = 0
+	"Andreas #0" = 0
+	"Skantarios #0" = 0
+	"David #0" = 0
+	"Alexandros #0" = 0
+	"Ambrosios #0" = 0
+	"Bartholomaios #0" = 0
+	"Chrysanthos #0" = 0
+	"Diogenes #0" = 0
+	"Dionysos #0" = 0
+	"Eirenaios #0" = 0
+	"Elpidios #0" = 0
+	"Gregorios #0" = 0
+	"Hektor #0" = 0
+	"Herakles #0" = 0
+	"Iason #0" = 0
+	"Kastor #0" = 0
+	"Matthaios #0" = 0
+	"Nestor #0" = 0
+	"Nikolaos #0" = 0
+	"Nikomedes #0" = 0
+	"Orestes #0" = 0
+	"Palaemon #0" = 0
+	"Pavlos #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philemon #0" = 0
+	"Philippos #0" = 0
+	"Prokopios #0" = 0
+	"Stefanos #0" = 0
+	"Theodoros #0" = 0
+}
+
+leader_names = {
+	Argyrus Artavasdus
+	Basileus
+	Diogenes Ducas
+	Monomachus
+	Romanus
+	Stauracius Stratioticus
+	Vataces
+	Zimisces
+	Kommenus
+	Paleologus
+}
+
+ship_names = {
+	Hydra
+	Lesbos Limnos
+	Mikonios
+	Pezopoulos
+	Salamis 
+	Samos 
+	Simitzopoulos
+	Themistoklis
+	Votsis
+}

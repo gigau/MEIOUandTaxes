@@ -1,0 +1,109 @@
+# NRI - Nri Kingdom
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 3
+technology_group = soudantech
+religion = animism
+primary_culture = igbo
+capital = 1136	# Fang
+
+1300.1.1   = {
+	monarch = {
+		name = "Eze Nri Jief"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1391.1.1   = {
+	monarch = {
+		name = "Eze Nri Amalonyeso"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1465.1.1   = {
+	monarch = {
+		name = "Eze Nri Anyamata"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1512.1.1   = {
+	monarch = {
+		name = "Eze Nri Fenenu"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1582.1.1   = {
+	monarch = {
+		name = "Eze Nri Ag"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1677.1.1   = {
+	monarch = {
+		name = "Eze Nri Apia"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1701.1.1   = {
+	monarch = {
+		name = "Eze Nri Ezimilo"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1724.1.1   = {
+	monarch = {
+		name = "Eze Nri Èwenétem"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1795.1.1   = {
+	monarch = {
+		name = "Eze Nri Ènweleána"
+		dynasty = "Nri"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

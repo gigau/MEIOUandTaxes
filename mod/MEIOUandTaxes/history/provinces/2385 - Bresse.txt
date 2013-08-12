@@ -1,0 +1,81 @@
+#203 - Bresse
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SAV
+controller = SAV
+add_core = SAV
+culture = arpitan
+religion = catholic
+capital = "Bourc"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = livestock
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1349.1.1   = { add_core = FRA } # Dauphiné is sold to Philippe VI
+1467.6.15  = { add_core = BUR } # Charles the Bold ascends to the throne and lays claims
+1477.1.5   = { remove_core = BUR } # Charles the Bold dies
+1536.4.1   = {
+	 controller = FRA
+} 
+1550.1.1   = {
+	citysize = 5000
+}
+1559.1.1   = {
+	controller = SAV
+} 
+1601.1.1  = {
+	owner = FRA
+	controller = FRA
+} 
+1625.1.1   = { fort3 = yes }
+1632.1.1   = { revolt_risk = 3 }
+1634.1.1   = { revolt_risk = 0 }
+1641.1.1   = { revolt_risk = 3 }
+1644.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 7000 }
+1650.1.14  = { revolt_risk = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.3.1   = { revolt = { type = noble_rebels size = 2 } controller = REB revolt_risk = 3 } # Fronde rebels take control
+1651.4.1   = { revolt = { } controller = FRA revolt_risk = 4 } # An unstable peace is concluded
+1651.12.1  = { revolt_risk = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1652.10.21 = { revolt_risk = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
+1670.1.1   = { mint = yes }
+1680.1.1   = { fort4 = yes }
+1700.1.1   = { citysize = 8000 workshop = yes }
+1715.1.1   = { fort5 = yes }
+1750.1.1   = { citysize = 10000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 118000 }
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

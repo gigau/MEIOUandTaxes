@@ -1,0 +1,45 @@
+#1117 - Gao
+#FB added discovered_by = ASH MSI SEG
+#FB removed MAL & SEG control
+#FB according to my references, apart from the brief period of Morrocan control, Gao remained an independant city state until it lost its significance through decline in C18
+#LS - alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = songhai
+religion = sunni
+capital = "Gao"
+
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 22000
+trade_goods = gold
+hre = no
+
+fort1 = yes
+regimental_camp = yes
+marketplace = yes
+
+discovered_by = soudantech
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = MAL
+	add_core = SON
+}
+1433.1.1  = { owner = TUA controller = TUA citysize = 60000 }
+1458.1.1  = { owner = SON controller = SON }	
+1493.1.1  = { revolt_risk = 9 } #Civil War between Sunni Baare and Muhammad Ture Sylla
+1494.1.1  = { revolt_risk = 0 religion = sunni } #Muhammad Ture Sylla establishes new dynasty
+1525.1.1  = { citysize = 35000 } #Revival under Askiya Muhammad
+1529.1.1  = { revolt_risk = 2 } #Musa overthrows father, becomes Askiya
+1550.1.1  = { discovered_by = MOR citysize = 40000 } #Era of Prosperity under Askiya Dawud
+1585.1.1  = { citysize = 45000 } #historical data
+1591.3.15 = { owner = MOR controller = MOR add_core = MOR } #Moroccan victory at Tondibi
+1592.1.1  = { citysize = 10000 base_tax = 6 } #Rapid Decline in wake of Moroccan occupation - city abandoned at first
+1660.1.1  = { owner = SEG controller = SEG remove_core = MOR }	#kingdom of dendi
+#FB although in decline Gao remained a city state
+#FB question: was Gao eventually a part of the Sokoto Caliphate?
+

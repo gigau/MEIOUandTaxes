@@ -1,0 +1,285 @@
+# Country : Basel
+# Tag : BSL
+# 2013-aug-07 - GG - EUIV changes
+
+government = imperial_city
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = suisse
+religion = catholic
+technology_group = western
+capital = 2359	# Basel
+
+1335.1.1 = {
+	monarch = {
+		name = "Johann II von Munsingen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Jean III de Vienne"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Imer von Ramstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+ 1392.1.1 = {
+	monarch = {
+		name = "Friedrich von Blankenheim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Konrad Munch von Landskron"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Humbrecht von Neuenburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Hartmann II von Munchenstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Johann IV von Fleckenstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Friedrich von der Pfalz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Arnold von Rothburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1458.1.1 = {
+	monarch = {
+		name = "Johann V von Venningen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1479.1.1 = {
+	monarch = {
+		name = "Caspar von Mühlhausen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1502.1.1 = {
+	monarch = {
+		name = "Christoph von Utenheim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Philipp von Gundelsheim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	religion = protestant
+	# secularism_theocracy = -1
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Melchior von Lichtenfels"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Jakob Christoph Blarer von Wartensee"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1608.1.1 = {
+	monarch = {
+		name = "Wilhelm Rink von Baldenstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Johann Heinrich von Ostheim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1646.1.1 = {
+	monarch = {
+		name = "Beatus Albrecht von Ramstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1651.1.1 = {
+	monarch = {
+		name = "Johann Franz von Schonau-Zell"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1656.1.1 = {
+	monarch = {
+		name = "Johann Konrad I von Roggenbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1693.1.1 = {
+	monarch = {
+		name = "Wilhelm Jakob Rink von Baldenstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1705.1.1 = {
+	monarch = {
+		name = "Johann Konrad II von Reinach-Hirtzbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Jakob Sigismund von Reinach-Steinbrunn"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1744.1.1 = {
+	monarch = {
+		name = "Josef Wilhelm Rink von Baldenstein"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Simon Nikolas von Froburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1775.1.1 = {
+	monarch = {
+		name = "Ludwig von Wangen-Geroldseck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1782.1.1 = {
+	monarch = {
+		name = "Sigismund von Roggenbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1794.1.1 = {
+	monarch = {
+		name = "Franz Xaver von Neveu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

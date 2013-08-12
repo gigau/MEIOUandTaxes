@@ -1,0 +1,32 @@
+# 2065 - Galepagos
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = guajiro
+religion = inti
+capital = "Galepagos"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3
+
+1535.3.10  = {
+	discovered_by = SPA
+} # Dominican Fray Tomás de Berlanga
+1593.1.1   = {
+	discovered_by = ENG
+} # Richard Hawkins
+1832.2.12  = {
+	owner = ECU
+	controller = ECU
+	add_core = ECU
+	capital = "Islas Galápagos"
+	citysize = 100
+	trade_goods = fish
+	culture = colombian
+	religion = catholic
+	set_province_flag = trade_good_set
+}

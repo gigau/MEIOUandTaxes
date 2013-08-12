@@ -1,0 +1,45 @@
+# 2756 - Mainz
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+capital = "Mainz"
+culture = hessian
+religion = catholic
+trade_goods = beer
+owner = MAI
+base_tax = 8
+#manpower = 4
+manpower = 8
+fort1 = yes
+citysize = 15500
+controller = MAI
+add_core = MAI
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 21000 }
+1399.1.1   = { citysize = 26500 }
+1453.1.1   = { citysize = 32000 temple = yes marketplace = yes } # The Kaiserdom in Speyer is on of the oldest and greatest in the HRE, built over the 11th and 12th century
+1495.1.1   = { courthouse = yes }
+1500.1.1   = { constable = yes } # The Reichskammergericht (1495-1806) is the highest court in the HRE situated in Worms and after 1527 Speyer
+1546.4.19  = { religion = protestant } # #Friedrich II converts the coutnry to protestant
+1590.1.1   = { regimental_camp = yes }
+1600.1.1   = { citysize = 42000 }
+1620.1.1   = { fort2 = yes customs_house = yes }
+1630.1.1   = { fort3 = yes }
+1648.1.1   = { citysize = 55000 }
+1689.1.1   = { fort3 = no }
+#1689.8.1   = {
+#	base_tax = 5
+#	fort2 = no
+#	controller = FRA
+#} # French troops burn, pillage and destroy in the succession wars.
+1700.1.1   = { citysize = 60000 fort2 = yes }
+1750.1.1   = { citysize = 74000 fort3 = yes }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.9  = {
+	owner = HES
+	controller = HES
+	add_core = HES
+} # Congress of Vienna

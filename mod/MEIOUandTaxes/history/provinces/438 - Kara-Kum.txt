@@ -1,0 +1,64 @@
+# 438 - Kara-Kum
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHI
+controller = KHI
+culture = turkmeni
+religion = sunni
+capital = "Kara Kum"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 4
+manpower = 8
+citysize = 1736
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = KHI
+	add_core = TIM
+	add_core = KHO
+	add_core = KTD
+}
+1379.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1 = {
+	owner = KTD
+	controller = KTD
+} #1409 Timurid Empire of Shah Rukh 1409 split between Shah Rukh and Ulugh Beg
+1419.1.1 = {
+	owner = NOG
+	controller = NOG
+	add_core = NOG
+}
+1500.1.1 = { citysize = 2250 }
+1505.1.1  = {
+	owner = KHO
+	controller = KHO
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = {
+	citysize = 2920
+}
+1600.1.1 = {
+	citysize = 3438
+}
+1650.1.1 = {
+	citysize = 3724
+}
+1677.1.1 = { discovered_by = FRA }
+1700.1.1 = {
+	citysize = 4576
+}
+1750.1.1 = {
+	citysize = 4915
+}
+1800.1.1 = {
+	citysize = 5350
+}

@@ -1,0 +1,92 @@
+# 1348 - Pàdoa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAD
+controller = PAD
+culture = venetian  
+religion = catholic
+capital = "Pàdoa"
+
+base_tax = 7
+#manpower = 4 
+manpower = 8 
+citysize = 4000       
+trade_goods = fish
+       
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes 
+
+1311.1.1 = {
+	owner = VER
+	controller = VER
+	add_core = PAD
+	add_core = VEN
+	add_core = VER
+}
+1318.1.1 = {
+	owner = PAD
+	controller = PAD
+}
+1356.1.1 = {
+	citysize = 5000
+}
+1399.1.1 = {
+	citysize = 7500
+}
+1405.1.1 = {
+	owner = VEN
+	controller = VEN
+}
+1453.1.1 = {
+	citysize = 10000
+}
+1492.1.1 = { remove_core = PAD }
+1544.1.1 = {
+	fort2 = yes
+}
+1618.1.1  =  { hre = no }
+1750.1.1 = {
+	citysize = 15000
+}
+1796.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = VER
+}
+1796.11.15 = {
+	owner = ITC
+	controller = ITC
+	add_core = ITC
+	remove_core = HAB
+} # Transpadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITC
+} # Cisalpine Republic
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = ITA
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1866.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

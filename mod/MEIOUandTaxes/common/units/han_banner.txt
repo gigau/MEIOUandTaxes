@@ -1,0 +1,28 @@
+# Han Banner
+#Modified for MEIOU by FB 10.02.07
+#tech level 31 c1690
+
+unit_type = chinese
+type = infantry
+
+maneuver = 1
+#offensive_morale = 3
+#defensive_morale = 2
+#offensive_fire = 3
+#defensive_fire = 3
+#offensive_shock = 3
+#defensive_shock = 2
+#FB
+#offensive_morale = 7
+#defensive_morale = 7
+#offensive_fire = 5
+#defensive_fire = 5
+#offensive_shock = 4
+#defensive_shock = 4
+#Blxz
+offensive_morale = 8
+defensive_morale = 6
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 7
+defensive_shock = 4

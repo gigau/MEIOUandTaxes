@@ -1,0 +1,56 @@
+# 1269 - Moldova iasi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOL
+controller = MOL  
+add_core = MOL
+culture = moldovian
+religion =  orthodox
+capital = "Siret"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 7368
+trade_goods = livestock
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+hre = no
+
+1388.1.1 = {
+	capital = "Suceava"
+}
+1498.1.1  = {
+	add_core = TUR
+} # Bayezid II forces Stephen the Great to accept Ottoman suzereignty.
+1500.1.1  = {
+	citysize = 8668
+}
+1520.1.1  = {
+	base_tax = 4
+} # Moldovia stops issuing its own coinage.
+1550.1.1  = {
+	citysize = 9700
+}
+1564.1.1  = {
+	capital = "Iasi"
+}
+1600.1.1  = {
+	citysize = 10445
+}
+1660.1.1  = {
+	marketplace = yes
+}
+1663.1.1  = {
+	base_tax = 3
+} # Moldovia suffers the impact  the impact of the Great Turkish War.
+1700.1.1  = {
+	citysize = 11997
+}

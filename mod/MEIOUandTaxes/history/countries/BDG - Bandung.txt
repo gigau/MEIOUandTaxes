@@ -1,0 +1,48 @@
+# BDG - Bandung
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 1
+primary_culture = sulawesi
+technology_group = austranesian
+religion = sunni
+capital = 625	# Bandung
+
+1678.1.1 = {
+	monarch = {
+		name = "Pangeran"
+		dynasty = "Adipati"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Wiranatakusuma I"
+		dynasty = "Adipati"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1792.1.1 = {
+	monarch = {
+		name = "Wiranatakusuma II"
+		dynasty = "Adipati"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

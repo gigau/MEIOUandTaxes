@@ -1,0 +1,99 @@
+# 1390 - Novara
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MLO
+controller = MLO
+culture = lombard
+religion = catholic
+capital = "Novara"
+
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2000	# Estimated 
+trade_goods = livestock
+
+fort1 = yes
+terrain3 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes
+
+1356.1.1 = {
+	set_province_flag = terrain3
+	citysize = 3000
+	add_core = MLO
+}
+1399.1.1   = { citysize = 4000 }
+1453.1.1   = { citysize = 5000 add_core = FRA }
+1481.1.1   = { university = yes } # University of Milano est. Before that: Pavia est. 1361 
+1499.1.1   = { controller = FRA } # Louis XII of France invades...
+1499.6.1   = { owner = FRA } # ...and seizes Milan
+1500.1.1   = {
+	citysize = 6000
+}
+1512.1.1   = { owner = MLO controller = MLO } # Massimiliano Sforza restored by the Swiss
+1515.1.1   = { controller = FRA } # Francis I of France invades...
+1516.8.1   = { owner = FRA } # ...and seizes Milan, Treaty of Noyon
+1521.1.1   = { owner = MLO controller = MLO } # The Spanish invade and restores the Sforzas
+1526.2.1   = { controller = HAB } # Milan joined the League of Cognac, and is invaded by the Emperor
+1529.8.3   = { controller = MLO } # Treaty of Cambrai restores the Sforzas and includes renounciation of French claims
+1535.1.1   = {
+	owner = SPA
+	controller = SPA
+    	add_core = SPA
+}  # Annexed to Spain after the last Sforza died
+1550.1.1   = {
+	citysize = 7500
+}
+1559.8.5   = {
+	remove_core = FRA
+}
+1600.1.1   = {
+	citysize = 10000
+}
+1618.1.1  =  { hre = no }
+1650.1.1   = {
+	citysize = 12000
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1706.1.1   = {
+	add_core = SPI
+}
+1714.9.7   = {
+	owner = HAB
+ 	controller = HAB
+ 	add_core = HAB
+ 	remove_core = SPA
+}  # Treaty of Baden
+1738.11.18 = {
+	owner = SPI
+	controller = SPI
+}
+1750.1.1   = {
+	citysize = 20000
+}
+1792.4.20  = {
+	controller = FRA
+} # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25 = { owner = RFR add_core = RFR } # The Republic of Alba
+1814.4.11  = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

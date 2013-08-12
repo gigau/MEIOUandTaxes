@@ -1,0 +1,64 @@
+#Province: Buru   (was Ambwan)
+#file name: 646 - Buru
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = moluccan
+religion = austranasian
+capital = "Buru"
+trade_goods = clove	#historical war in 1648 where VOC burned clove to spite Makassar
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+native_size = 2 #TM - trimmed down from 6
+native_ferocity = 1
+native_hostileness = 0 #TM - not at all hostile, constantly claimed and reclaimed they didn't care
+discovered_by = MKS
+discovered_by = MPH
+discovered_by = MTR
+discovered_by = TER #TM - they claimed it at one point even but didn't do anything about it
+discovered_by = chinese
+discovered_by = austranesian
+
+#1337.1.1 = {
+#	owner = MPH
+#	controller = MPH
+#	add_core = MPH
+#	citysize = 1300
+#}
+#1400.1.1 = { citysize = 1400 }
+1500.1.1 = { #TM approximate death of Majahapit Kingdom, controlled by Makassar (still animist)
+#	remove_core = MPH
+	owner = MKS
+	controller = MKS
+	add_core = MKS
+	fort1 = yes #TM - they actually built a fort and had troops/boats here though the exact date is unknown
+	citysize = 1500
+}
+1512.1.1 = { discovered_by = POR }	#FB - Antonio de Abreu (was 1511)
+1600.1.1 = { citysize = 1800 religion = sunni } #TM - match Makassar's conversion date
+1648.1.1 = { #TM - wiped out by VOC, clove fields burned to keep Makassar out
+	trade_goods = rice
+	citysize = 0
+	fort1 = no
+	native_size = 2
+	native_ferocity = 1
+	native_hostileness = 0 #TM - Buru are pretty relaxed!
+	owner = XXX
+	controller = XXX
+	remove_core = MPH
+	religion = sunni
+}
+1658.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = POR 
+	fort1 = yes 		#TM - Returned with 4 cannons, 24 soldiers, built a fort and...
+	citysize = 2024 	#TM - ...forcibly relocated 2000 natives...
+	trade_goods = clove #TM - ...to work the newly replanted clove fields!
+} 
+1667.1.1 = { remove_core = MKS } #TM - Makassar itself conquered
+1750.1.1 = { citysize = 2400 }
+1800.1.1 = { citysize = 2600 }

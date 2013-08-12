@@ -1,0 +1,410 @@
+# KNP - Kingdom of Naples
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2011-jan-15 - FB - friendship with Venice
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0	##-3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = 1		##-1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0	##1
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+capital = 2531	# Napoli
+
+# historical_friend = VEN
+
+1309.1.1 = {
+	monarch = {
+		name = "Roberto the Wise"
+		dynasty = "d'Anjou"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1343.1.1 = {
+	monarch = {
+		name = "Jeanne"
+		dynasty = "d'Anjou"
+		dip = 5
+		mil = 5
+		adm = 5
+		female = yes
+	}
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis"
+		dynasty = "d'Anjou"
+		birth_date = 1339.7.23
+		death_date = 1384.9.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Louis"
+		dynasty = "d'Anjou"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis II"
+		dynasty = "d'Anjou"
+		birth_date = 1377.1.1
+		death_date = 1417.4.29
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1384.9.20  = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "d'Anjou"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1403.9.25 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis III"
+		dynasty = "d'Anjou"
+		birth_date = 1403.9.25
+		death_date = 1434.11.16
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1417.4.29   = {
+	monarch = {
+		name = "Louis III"
+		dynasty = "d'Anjou"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1434.11.16 = {
+	monarch = {
+		name = "René I d'Anjou"
+		dynasty = "d'Anjou"
+		adm = 6
+		dip = 8
+		mil = 3
+	}
+}
+
+1442.1.1 = {
+	set_country_flag = trastamara
+	monarch = {
+		name = "Alfonso the Magnanimous"
+		dynasty = "de Trastámara"
+		adm = 5
+		dip = 7
+		mil = 9
+	}
+	heir = {
+		name = "Fernando"
+		monarch_name = "Fernando"
+		dynasty = "de Trastámara"
+		birth_date = 1423.6.2
+		death_date = 1494.1.25
+		claim = 95
+		adm = 7
+		dip = 9
+		mil = 8
+	}
+}
+
+1458.6.27 = {
+	monarch = {
+		name = "Fernando"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	heir = {
+		name = "Alfonso"
+		monarch_name = "Alfonso II"
+		dynasty = "de Trastámara"
+		birth_date = 1448.11.4
+		death_date = 1495.12.18
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1494.1.25 = {
+	monarch = {
+		name = "Alfonso II"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	heir = {
+		name = "Fernando"
+		monarch_name = "Fernando II"
+		dynasty = "de Trastámara"
+		birth_date = 1469.8.26
+		death_date = 1496.9.7
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1495.12.18 = {
+	monarch = {
+		name = "Fernando II"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	heir = {
+		name = "Frederick"
+		monarch_name = "Frederick"
+		dynasty = "de Trastámara"
+		birth_date = 1452.4.19
+		death_date = 1504.11.9
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1496.9.7 = {
+	monarch = {
+		name = "Frederick"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1501.8.1 = {
+	clr_country_flag = trastamara
+	monarch = {
+		name = "Louis XII"
+		dynasty = "de Valois"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Fernando III"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Carlos IV"
+		dynasty = "von Habsburg"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1527.5.21 = {
+	heir = {
+		name = "Felipe"
+		monarch_name = "Felipe II"
+		dynasty = "von Habsburg"
+		birth_date = 1527.5.21
+		death_date = 1598.9.13
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1554.1.1 = {
+	monarch = {
+		name = "Felipe I"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1578.4.14 = {
+	heir = {
+		name = "Felipe"
+		monarch_name = "Felipe II"
+		dynasty = "von Habsburg"
+		birth_date = 1578.4.14
+		death_date = 1621.3.31
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1598.9.13 = {
+	monarch = {
+		name = "Felipe II"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1605.4.8 = {
+	heir = {
+		name = "Felipe"
+		monarch_name = "Felipe III"
+		dynasty = "von Habsburg"
+		birth_date = 1605.4.8
+		death_date = 1665.9.17
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1621.3.31 = {
+	monarch = {
+		name = "Felipe III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1661.11.6 = {
+	heir = {
+		name = "Carlos"
+		monarch_name = "Carlos II"
+		dynasty = "von Habsburg"
+		birth_date = 1661.11.6
+		death_date = 1700.11.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1665.9.17 = {
+	monarch = {
+		name = "Carlos II"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1683.12.19 = {
+	heir = {
+		name = "Felipe"
+		monarch_name = "Felipe V"
+		dynasty = "de Bourbon"
+		birth_date = 1683.12.19
+		death_date = 1746.7.9
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1700.11.1 = {
+	monarch = {
+		name = "Felipe V"
+		dynasty = "de Bourbon"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Karl VI"
+		dynasty = "von Habsburg"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1734.1.1 = {
+	monarch = {
+		name = "Carlos III"
+		dynasty = "de Bourbon"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1751.1.12 = {
+	heir = {
+		name = "Fernando"
+		monarch_name = "Fernando IV"
+		dynasty = "de Bourbon"
+		birth_date = 1751.1.12
+		death_date = 1825.1.4
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1759.1.1 = {
+	monarch = {
+		name = "Fernando IV"
+		dynasty = "de Bourbon"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

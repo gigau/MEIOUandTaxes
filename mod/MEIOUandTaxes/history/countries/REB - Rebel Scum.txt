@@ -1,0 +1,21 @@
+# Rebel scum
+# REB
+
+# aristocracy_plutocracy = -5
+# centralization_decentralization = -5
+# innovative_narrowminded = -5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -5
+# secularism_theocracy = 0
+technology_group = western
+
+1000.1.1 = { set_country_flag = idea_naval_fighting_instruction }
+1000.1.1 = { set_country_flag = idea_grand_navy }
+1000.1.1 = { set_country_flag = idea_sea_hawks }
+1000.1.1 = { set_country_flag = idea_naval_provisioning }
+1000.1.1 = { set_country_flag = idea_naval_glory }
+1000.1.1 = { set_country_flag = excellent_shipwrights }

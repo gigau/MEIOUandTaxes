@@ -1,0 +1,52 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = HKW
+controller = HKW
+culture = shikoku
+religion = shinbutsu
+capital = "Nakamura"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 8500
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = HKW
+	add_core = CSK
+}
+1400.1.1 = { citysize = 8800 }
+1420.1.1 = {
+	regimental_camp = yes
+	owner= CSK
+	controller = CSK
+}
+1450.1.1 = { citysize = 9100 }
+1500.1.1 = { citysize = 9500 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 11007 }
+1599.7.11 = {
+	owner = ODA
+	controller = ODA
+} # Ch?sokabe Motochika dies heirless 
+1600.1.1 = { 
+	citysize = 13480
+	fort2 = yes
+}
+1600.9.15  = {
+	owner = TGW
+	controller = TGW
+} # Battle of Sekigahara
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 15300 }
+1700.1.1 = { citysize = 17560 }
+1750.1.1 = { citysize = 21480 }
+1800.1.1 = { citysize = 23100 }

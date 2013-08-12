@@ -1,0 +1,42 @@
+owner = CAS		#Juan II de Castilla
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = CAS
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = wine
+#manpower = 2
+manpower = 4
+fort1 = yes
+capital = "Logroño" 
+citysize = 5000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = CAS
+	add_core = NAV
+}
+1500.1.1   = { citysize = 5380 }
+1511.1.1   = { marketplace = yes }
+1512.7.24  = {
+	remove_core = NAV
+} # End of the Kingdom of Navarra.
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+} # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1   = { citysize = 6280 }
+1600.1.1   = { citysize = 7100 }
+1630.1.1   = { revolt_risk = 3 } # Riots in Vizcaya against the imposition of war taxes by the Count of Olivares
+1631.1.3   = { revolt_risk = 0 } # End of the rioting
+1650.1.1   = { citysize = 8460 constable = yes }
+1700.1.1   = { citysize = 10760 }
+1713.4.11  = { remove_core = CAS }
+1750.1.1   = { citysize = 12800 }
+1800.1.1   = { citysize = 14350 }
+1813.6.21  = { controller = REB }
+1813.12.11 = { controller = SPA }

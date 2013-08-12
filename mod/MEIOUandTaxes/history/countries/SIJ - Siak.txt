@@ -1,0 +1,229 @@
+#Country: Siak
+#file name: SIJ - Siak
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#for performance reasons SIJ represents Siak + Jambi + Riau
+#FB-TODO rulers c1600-1723
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 1
+# land_naval = 3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = theravada
+technology_group = austranesian
+capital = 2095	# Siak
+
+#Majapahit installed Adityawarman as the king of Jambi to prevent the revival of Srivijaya
+
+1347.1.1 = {
+	monarch = {
+		name = "Adityawarman"
+		dynasty = Perak 
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Sri Iskander"
+		monarch_name = "Sri Iskander"
+		dynasty = "Perak"
+		birth_date = 1330.1.1
+		death_date = 1400.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1381.1.1 = {
+	monarch = {
+		name = "Sri Iskander"
+		dynasty = Perak 
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = Perak 
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Khoja Ahmad"
+		dynasty = Perak 
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1440.1.1 = {
+	monarch = {
+		name = "Jamal"
+		dynasty = Perak 
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 2
+	government = despotic_monarchy_3
+} #Sultanat founded
+
+1458.1.1 = {
+	monarch = {
+		name = "Mudari"
+		dynasty = Perak 
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Mara"
+		dynasty = Perak 
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Aladdin"
+		dynasty = Perak 
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Sulaiman Muhammad"
+		dynasty = Perak 
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1687.1.1 = {
+	monarch = {
+		name = "Kiai Gede"
+		dynasty = Perak 
+		adm = 5
+		dip = 5
+		mil = 7
+	}#sultan of Jambi to 1719
+}
+
+1723.1.1 = {
+	monarch = {
+		name = "'Abdu'l Jalil Rahmad"
+		dynasty = Perak 
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Mahmud 'Abdu'l Jalil Jalal ud-Din Muzaffar"
+		dynasty = Perak 
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Ismail 'Abdu'l Jalil Jalal ud-Din"
+		dynasty = Perak 
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "'Abdu'l Jalil 'Alam ud-din Ri'ayat"
+		dynasty = Perak 
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1766.1.1 = {
+	monarch = {
+		name = "Muhammad 'Ali 'Abdu'l Jalil Mu'azzam"
+		dynasty = Perak 
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1779.1.1 = {
+	monarch = {
+		name = "Ismail 'Abdu'l Jalil Jalal ud-Din"
+		dynasty = Perak 
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "Yahya 'Abdu'l Jalil Muzaffar"
+		dynasty = Perak 
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1797.1.1 = {
+	monarch = {
+		name = "'Ali 'Abdu'l Jalil Saif ud-Din"
+		dynasty = Perak 
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1811.1.1 = {
+	monarch = {
+		name = "Ibrahim 'Abdu'l Jalil Khalil ud-Din"
+		dynasty = Perak 
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}

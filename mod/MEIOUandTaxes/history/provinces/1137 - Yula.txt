@@ -1,0 +1,27 @@
+# 1137 - Yula
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZZZ
+controller = ZZZ
+culture = haussa		
+religion = sunni		 
+capital = "Yula"
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = pepper
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = ZZZ
+}
+1807.1.1 = {
+	owner = SOK
+	controller = SOK
+	add_core = SOK
+}

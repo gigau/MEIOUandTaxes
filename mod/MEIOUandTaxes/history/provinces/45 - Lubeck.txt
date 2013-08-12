@@ -1,0 +1,54 @@
+#45 - Lübeck
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRL
+controller = FRL
+add_core = FRL
+culture = pommeranian
+religion = catholic
+hre = yes
+cot = yes
+base_tax = 8
+trade_goods = beer
+#manpower = 3
+manpower = 6
+fort1 = yes
+fort2 = yes
+marketplace = yes
+capital = "Lübeck"
+citysize = 20000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 21500 }
+1399.1.1 = { citysize = 22500 }
+1453.1.1 = { citysize = 23500 }
+1490.1.1 = { customs_house = yes }
+1500.1.1 = { citysize = 24000 }
+1525.1.1 = { citysize = 24500 constable = yes }
+1530.1.1 = { shipyard = yes }
+1531.1.1 = { religion = protestant }
+1550.1.1 = { citysize = 25000 regimental_camp = yes base_tax = 7 } #gradual shift in trading power from Lübeck to Hamburg
+1575.1.1 = { citysize = 24000 }
+1600.1.1 = { citysize = 23000 base_tax = 6 shipyard = no } #gradual shift in trading power from Lübeck to Hamburg
+#1617.1.1 = { cot = yes } #Stockholm commanded the Baltic Sea trade
+1625.1.1 = { citysize = 27000 }
+1650.1.1 = { citysize = 31000 }
+1660.1.1 = { fort3 = yes workshop = yes }
+1675.1.1 = { citysize = 29000 courthouse = yes }
+1700.1.1 = { citysize = 28000 }
+1725.1.1 = { citysize = 26000 }
+1750.1.1 = { citysize = 25000 mint = yes fort4 = yes }
+1775.1.1 = { citysize = 24000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1810.12.13 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Annexed by France
+1814.4.11  = {
+	owner = MKL
+	controller = MKL
+	remove_core = RFR
+} # Napoleon abdicates undconditionally

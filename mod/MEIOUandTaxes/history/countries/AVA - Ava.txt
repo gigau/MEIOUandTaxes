@@ -1,0 +1,402 @@
+# AVA - Ava
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = burmese
+religion = theravada
+technology_group = chinese
+capital = 584
+
+1350.1.1 = {
+	monarch = {
+		name = "Kyanswange"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1359.1.1 = {
+	monarch = {
+		name = "Narathu II"
+		dynasty = "Myinsaing"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1364.1.1 = {
+	monarch = {
+		name = "Uzana Pyaung"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1364.5.1 = {
+	monarch = {
+		name = "Thadominbya"
+		dynasty = "Myinsaing"
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+}
+
+1368.1.1 = {
+	monarch = {
+		name = "Minkyiswasawke"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Tarabya"
+		dynasty = "Myinsaing"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.5.1 = {
+	monarch = {
+		name = "Minhkaung"
+		dynasty = "Myinsaing"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Thihathu"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "Minhlange"
+		dynasty = "Myinsaing"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1426.5.1 = {
+	monarch = {
+		name = "Kalekyetaungnvo"
+		dynasty = "Myinsaing"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Mohnyinthado"
+		dynasty = "Myinsaing"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Minrekyawswa"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Narapati"
+		dynasty = "Myinsaing"
+		adm = 8
+		dip = 8
+		mil = 6
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Zalahtinyan"
+		dynasty = "Myinsaing"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Sithukyawhtin"
+		dynasty = "Myinsaing"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sithunge"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Minkyinyo"
+		dynasty = "Myinsaing"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1530.12.1 = {
+	monarch = {
+		name = "Tabinshwehti"
+		dynasty = "Myinsaing"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Bayinnaung"
+		dynasty = "Myinsaing"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1581.12.1 = {
+	monarch = {
+		name = "Nanda Bayin"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Htin"
+		dynasty = "Myinsaing"
+		adm = 8
+		dip = 8
+		mil = 6
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Anaukpetlun"
+		dynasty = "Myinsaing"
+		adm = 8
+		dip = 5
+		mil = 8
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Minredeippa"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1629.1.1 = {
+	monarch = {
+		name = "Thalun"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1636.1.1 = {
+	capital = 584
+}
+
+1647.8.1 = {
+	monarch = {
+		name = "Pindale"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1661.1.1 = {
+	monarch = {
+		name = "Pye"
+		dynasty = "Myinsaing"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1672.4.1 = {
+	monarch = {
+		name = "Narawara"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1673.3.1 = {
+	monarch = {
+		name = "Minrekyawdin"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Sane"
+		dynasty = "Myinsaing"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1714.1.1 = {
+	monarch = {
+		name = "Taninganwe"
+		dynasty = "Myinsaing"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1733.12.1 = {
+	monarch = {
+		name = "Mahadammayaza-Dipati"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Alaungpaya"
+		dynasty = "Myinsaing"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+}
+
+1760.5.12 = {
+	monarch = {
+		name = "Naugdawgyi"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1763.11.1 = {
+	monarch = {
+		name = "Hsinbyushin"
+		dynasty = "Myinsaing"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1776.6.1 = {
+	monarch = {
+		name = "Singu Min"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.2.1 = {
+	monarch = {
+		name = "Maung Maung"
+		dynasty = "Myinsaing"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1782.3.1 = {
+	monarch = {
+		name = "Bodawpaya"
+		dynasty = "Myinsaing"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1819.6.6 = {
+	monarch = {
+		name = "Bagyidaw"
+		dynasty = "Myinsaing"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}

@@ -1,0 +1,62 @@
+# 2244 - Berar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Illichpur"
+trade_goods = copper
+hre = no
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 19000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = BAH
+	add_core = BRR
+}
+1400.1.1   = { citysize = 21563 }
+1490.1.1   = {
+	owner = BRR
+	controller = BRR
+	add_core = BRR
+	remove_core = BAH
+} # The Breakup of the Bahmani sultanate
+1492.1.1   = { citysize = 26163 }
+1550.1.1   = { citysize = 29780 temple = yes }
+1574.4.1   = {
+	owner = BAS
+	controller = BAS
+} # Annexed by Ahmadnagar
+1596.1.1   = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by the Mughals
+1600.1.1   = { citysize = 34763 discovered_by = turkishtech }
+1650.1.1   = { citysize = 39210 add_core = MAR }
+1700.1.1   = { citysize = 44670 }
+1707.5.12  = { discovered_by = GBR }
+1712.1.1   = { add_core = HYD }	#Viceroyalty of the Deccan
+1724.1.1   = {
+	owner = HYD
+	controller = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk
+1750.1.1   = { citysize = 49000 }
+1752.1.1   = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+} # The territory is formally given to the Marathas
+1800.1.1   = { citysize = 55570 workshop = yes }
+1803.12.30 = {
+	owner = HYD
+	controller = HYD
+}
+1828.1.1   = { add_core = HYD }

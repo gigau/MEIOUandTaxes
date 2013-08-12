@@ -1,0 +1,106 @@
+# 205 - Savoue maurienne chablais genevois
+# chambery suse annecy thonon
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SAV
+controller = SAV
+culture = arpitan
+religion = catholic
+capital = "Chanberie"
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 5000		# Estimated
+trade_goods = hemp
+
+fort1 = yes
+terrain2 = yes
+marketplace = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = {
+	citysize = 6000
+	add_core = SAV
+	set_province_flag = terrain2
+}
+1399.1.1   = {
+	citysize = 8000
+}
+1453.1.1   = {
+	citysize = 9800
+}
+1499.1.1   = {
+	controller = FRA
+} 
+1500.1.1   = {
+	citysize = 10040
+}
+1529.1.1   = {
+	controller = SAV
+} 
+1536.4.1   = {
+	 controller = FRA
+} 
+1550.1.1   = {
+	citysize = 11070
+}
+1559.1.1   = {
+	controller = SAV
+} 
+1600.1.1   = {
+	citysize = 10350
+}
+1618.1.1  =  { hre = no }
+1650.1.1   = {
+	citysize = 11580
+	marketplace = yes
+}
+1680.1.1   = {
+	courthouse = yes
+}
+1700.1.1   = {
+	citysize = 11000
+	mint = yes
+}
+1713.4.12  = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+	remove_core = SAV
+} # Treaty of Utrecht(2) gave Sicily to the House of Savoy 
+1718.8.2   = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1750.1.1   = {
+	citysize = 11500
+}
+1792.9.21  = {
+	controller = RFR
+} # Occupied by French troops
+1792.11.27 = {
+	owner = RFR
+	add_core = RFR
+} # Savoie is annexed
+1800.1.1   = {
+	citysize = 12000
+}
+1814.4.11  = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Napoleon abdicates and Victor Emmanuel is able to return to Turin
+1860.1.13   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = SPI
+}

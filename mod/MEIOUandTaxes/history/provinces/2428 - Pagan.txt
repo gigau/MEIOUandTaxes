@@ -1,0 +1,58 @@
+# 2428 - Pagan
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AVA
+controller = AVA
+culture = burmese
+religion = theravada
+capital = "Pagan"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 8200
+trade_goods = rice
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1500.1.1 = { citysize = 10200 }
+1527.1.1 = {
+	owner = SST
+	controller = SST
+}
+1550.1.1 = { citysize = 11820 }
+1555.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = SST
+	remove_core = PEG
+}
+1600.1.1 = { citysize = 13450 }
+1650.1.1 = { citysize = 16011 }
+1700.1.1 = { citysize = 17855 }
+1750.1.1 = { citysize = 19600 }
+1752.2.28 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+	remove_core = TAU
+	remove_core = AVA
+}
+1800.1.1 = { citysize = 20400 }
+1885.1.1 = {		
+	owner = GBR
+	controller = GBR
+}

@@ -1,0 +1,112 @@
+# 167 - Caux
+# MEIOU-GG
+# Anarchovampire - corrections
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRA
+controller = FRA
+culture = normand
+religion = catholic
+capital = "Rouen"
+
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 31000
+trade_goods = linen
+
+fort1 = yes
+marketplace = yes
+temple = yes # La Notre Dame de Rouen
+#cot = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1066.1.1   = {
+	owner = ENG
+	controller = ENG
+}
+1204.6.24  = {
+	owner = FRA
+	controller = FRA
+}
+1343.1.1 = {
+	add_core = NRM
+	add_core = FRA
+	add_core = NAV
+	add_core = ENG
+}
+1378.1.1 = {
+	remove_core = NAV
+}
+1419.1.19  = {
+	owner = ENG
+	controller = ENG
+}
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+}
+1449.1.1   = {
+	owner = FRA
+	controller = FRA
+}
+1467.6.15  = { add_core = BUR } # Charles the Bold ascends to the throne and lays claims
+1471.1.1   = { controller = BUR } # Charles the Bold invades France and ravages the country as far as Rouen
+1471.8.1   = { controller = FRA } # Charles the Bold has to retire
+1475.8.29  = {
+	remove_core = ENG
+} # Treaty of Picquigny, ending the Hundred Year War
+1477.1.5   = { remove_core = BUR } # Charles the Bold dies at Nancy
+1500.1.1   = { citysize = 42000 }
+1525.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 69000 courthouse = yes shipyard = yes }
+1570.1.1   = { constable = yes }
+1571.1.1   = { revolt_risk = 5 } # Unrest spreads in catholic territory: massacres of protestants in Rouen, Orange & Paris
+1574.4.1   = { revolt_risk = 0 } # Charles IX dies, situation cools a bit
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1590.1.1   = { customs_house = yes } # Henri IV's quest to eliminate corruption and establish state control
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 66000 regimental_camp = yes }
+1625.1.1   = { fort3 = yes }
+1631.1.1   = { revolt_risk = 5 } # Region is rebellious until about 1639
+1641.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 90000 }
+1660.1.1   = { fort4 = yes }
+1670.1.1   = { mint = yes }
+1680.1.1   = { fort5 = yes } # Vauban's 'pointed' fort in Dieppe
+1700.1.1   = { citysize = 73000 workshop = yes }
+1750.1.1   = { citysize = 81000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 90000 }
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

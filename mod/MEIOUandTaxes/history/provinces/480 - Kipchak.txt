@@ -1,0 +1,52 @@
+# 480 - Kipchak
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WHI
+controller = WHI
+culture = khazak
+religion = sunni
+capital = "Kerey"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 1870
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = KZH
+	add_core = WHI
+	revolt_risk = 3
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = WHI
+}
+1446.1.1 = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = GOL
+}
+1460.1.1 = {
+	owner = KZH
+	controller = KZH
+	remove_core = SHY
+}
+1500.1.1 = { citysize = 2340 }
+1550.1.1 = { citysize = 3340 }
+1600.1.1 = { citysize = 3997 }
+1622.1.1 = { discovered_by = RUS }
+1650.1.1 = { citysize = 4547 }
+1700.1.1 = { citysize = 5270 }
+1730.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1750.1.1 = { citysize = 5887 }
+1800.1.1 = { citysize = 6544 }

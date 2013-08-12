@@ -1,0 +1,42 @@
+#file name: 1190 - Mzizimi
+#LS - african setup alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIL
+controller = KIL
+add_core = KIL
+culture = kimgao
+religion = sunni
+capital = "Kilwa"
+
+base_tax = 8
+#manpower = 2
+manpower = 4
+citysize = 20000
+trade_goods = gold
+
+terrain1 = yes
+marketplace = yes
+temple = yes
+cot = yes
+
+discovered_by = ADA
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1498.3.16 = { discovered_by = POR } #Vasco Da Gama
+1500.1.1  = { citysize = 15000 }
+1503.1.1  = { owner = POR controller = POR add_core = POR }
+1512.1.1  = { owner = KIL controller = KIL remove_core = POR }
+1600.1.1  = { citysize = 16000 discovered_by = TUR }
+1700.1.1  = { citysize = 17000 }
+1763.1.1  = { revolt_risk = 7 }
+1784.1.1  = { owner = OMA controller = OMA add_core = OMA }
+1800.1.1  = { citysize = 16500 }

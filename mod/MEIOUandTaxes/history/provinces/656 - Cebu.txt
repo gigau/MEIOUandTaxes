@@ -1,0 +1,37 @@
+# 656 - Manilla
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = cebuano
+religion = austranasian
+capital = "Manila"
+trade_goods = crops
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+native_size = 70
+native_ferocity = 2
+native_hostileness = 9
+discovered_by = chinese
+discovered_by = austranesian
+
+1521.1.1  = { discovered_by = SPA } # Ferdinand Magellan 
+1570.1.1  = {
+	owner = SPA
+	controller = SPA
+   	citysize = 200
+   	religion = catholic
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+}
+1595.1.1  = { add_core = SPA }
+1600.1.1  = { citysize = 1500 }
+1650.1.1  = { citysize = 3600 }
+1700.1.1  = { citysize = 6258 }
+1750.1.1  = { citysize = 11650 }
+1762.10.6 = {
+	controller = GBR
+	revolt_risk = 6
+} # Captured by the British East India Company. Diego Silang rebellion
+1763.2.10 = { controller = SPA } # Spain regained control
+1800.1.1  = { citysize = 13540 }

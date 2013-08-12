@@ -1,0 +1,57 @@
+# Satakunta
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+capital = "Ulvila"
+citysize = 1250 # Estimated
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+}
+1472.1.1   = { fort2 = yes } # Early 1470s
+1500.1.1   = { citysize = 1420 }
+1527.6.1   = { religion = protestant}
+1558.1.1   = {
+	trade_goods = lumber
+	citysize = 1755
+	capital = "Pori"
+} #Estimated Date
+1598.8.1   = { controller = POL } #Sigismund tries to reconquer his crown
+1599.9.17  = { controller = SWE } #Duke Karl get it back
+1600.1.1   = { citysize = 1950 }
+1650.1.1   = { citysize = 2170 }
+1700.1.1   = { citysize = 2500 }
+1750.1.1   = { citysize = 2850 }
+1800.1.1   = { citysize = 3180 }
+1808.3.1   = { controller = RUS } # Overran by Russian troops
+1809.3.29  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.9.17 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}

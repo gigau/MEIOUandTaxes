@@ -1,0 +1,195 @@
+# QNG - Qing
+# 10.02.12 GG - Manchu kingdom after the conquest of China
+
+government = chinese_monarchy_1a
+# aristocracy_plutocracy = -5
+# centralization_decentralization = -1
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -2
+# land_naval = -5
+# quality_quantity = -3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+primary_culture = manchu
+religion = confucianism
+technology_group = chinese
+capital = 708	# Beijing
+
+1626.9.30 = {
+	monarch = {
+		name = "Huang Taiji"
+		dynasty = "Aisin Gioro"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Huang Taiji"   	type = general		rank = 0	fire = 0	shock = 5	manuever = 3	siege = 0 }
+	}
+}
+
+1628.1.1 = { leader = {	name = "Dorgon"			type = general		rank = 1	fire = 4	shock = 4	manuever = 5	siege = 2	death_date = 1650.12.31 } }
+
+1638.3.15 = {
+	heir = {
+		name = "Shunzhi"
+		monarch_name = "Shunzhi"
+		dynasty = "Aisin Gioro"
+		birth_date = 1638.3.15
+		death_date = 1661.2.5
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1643.9.22 = {
+	monarch = {
+		name = "Shunzhi"
+		dynasty = "Aisin Gioro"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1654.5.4 = {
+	heir = {
+		name = "Kangxi"
+		monarch_name = "Kangxi"
+		dynasty = "Aisin Gioro"
+		birth_date = 1654.5.4
+		death_date = 1722.12.20
+		claim = 95
+		adm = 9
+		dip = 9
+		mil = 9
+	}
+}
+
+1661.2.5 = {
+	monarch = {
+		name = "Kangxi"
+		dynasty = "Aisin Gioro"
+		adm = 9
+		dip = 9
+		mil = 9
+	}
+}
+
+1678.12.13 = {
+	heir = {
+		name = "Yongzheng"
+		monarch_name = "Yongzheng"
+		dynasty = "Aisin Gioro"
+		birth_date = 1678.12.13
+		death_date = 1735.10.8
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 7
+	}
+}
+
+1683.1.1 = {
+	# centralization_decentralization = 0
+} # Ming is conquered
+
+1689.1.1 = {
+	# quality_quantity = -2
+} # The treaty of Nerchiinsk
+
+1722.12.21 = {
+	# innovative_narrowminded = 3
+	# centralization_decentralization = 1
+} # The expulsion of the Jesuits
+
+1722.12.21 = {
+	monarch = {
+		name = "Yongzheng"
+		dynasty = "Aisin Gioro"
+		adm = 9
+		dip = 8
+		mil = 7
+	}
+}
+
+1722.12.21 = {
+	heir = {
+		name = "Qianlong"
+		monarch_name = "Qianlong"
+		dynasty = "Aisin Gioro"
+		birth_date = 1711.9.25
+		death_date = 1799.2.7
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+1735.10.10 = {
+	monarch = {
+		name = "Qianlong"
+		dynasty = "Aisin Gioro"
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+1736.1.1 = { leader = { name = "Lung"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1761.1.1 } }
+
+1760.11.13 = {
+	heir = {
+		name = "Jiaqing"
+		monarch_name = "Jiaqing"
+		dynasty = "Aisin Gioro"
+		birth_date = 1760.11.13
+		death_date = 1820.9.2
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1770.1.1 = {
+	# centralization_decentralization = 0
+	# innovative_narrowminded = 4
+} # The appointment of Heshen
+
+1796.2.9 = {
+	monarch = {
+		name = "Jiaqing"
+		dynasty = "Aisin Gioro"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1796.2.9 = {
+	heir = {
+		name = "Daoguang"
+		monarch_name = "Daoguang"
+		dynasty = "Aisin Gioro"
+		birth_date = 1782.9.16
+		death_date = 1850.2.25
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1820.9.3 = {
+	monarch = {
+		name = "Daoguang"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

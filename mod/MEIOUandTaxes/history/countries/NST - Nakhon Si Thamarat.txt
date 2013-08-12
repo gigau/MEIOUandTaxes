@@ -1,0 +1,34 @@
+# NST - Nakhon Si Thamarat
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4
+# secularism_theocracy = 1
+primary_culture = monic
+religion = theravada
+technology_group = chinese
+capital = 592
+
+# historical_friend = AYU
+# historical_friend = SIA
+# historical_friend = PEG
+# historical_friend = KHM
+
+1350.1.1 = {
+	monarch = {
+		name = "Ramathibodi"
+		dynasty = "Uthong"
+		adm = 5
+		dip = 5
+		mil = 5	
+	}
+}

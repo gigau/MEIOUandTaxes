@@ -1,0 +1,45 @@
+# 4 - Kopparberg
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = swedish
+religion = catholic
+capital = "Falun"
+
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 1200 #estimate
+trade_goods = copper
+
+fort1 = yes
+temple = yes
+
+discovered_by = eastern
+discovered_by = western
+
+hre = no
+
+1527.6.1  = { religion = protestant}
+1544.1.1  = { fort2 = yes } #Västerås Castle
+1560.1.1  = { marketplace = yes } #controller of trade route from the Swedish Mine Region
+1570.1.1  = { citysize = 1948 }
+1601.1.1  = { weapons = yes } #a lot of weapon factories in this region
+1610.1.1  = { citysize = 2580 }
+1617.1.1  = {
+	base_tax = 5
+} #Iron is king!
+1625.1.1  = { regimental_camp = yes } #Västmanlandsregemente
+1625.1.1  = { fort3 = yes } 
+1635.1.1  = { courthouse = yes } #minor court belonging to Svea Hovrätt
+1650.1.1  = { citysize = 3344 }
+1670.1.1  = { mint = yes } #Due to the "Staplepolicy act"
+1690.1.1  = { citysize = 3606 }
+1730.1.1  = { citysize = 4116 }
+1730.1.1  = { customs_house = yes } #Due to the support of manufactories
+1755.1.1  = { fort4 = yes } 
+1770.1.1  = { citysize = 4547 }
+1810.1.1  = { citysize = 49731 }

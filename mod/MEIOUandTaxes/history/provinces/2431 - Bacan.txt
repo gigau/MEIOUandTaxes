@@ -1,0 +1,42 @@
+# 2431 - Bacan
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAC
+controller = BAC
+add_core = BAC
+culture = moluccan
+religion = austranasian
+capital = "Bacan"
+trade_goods = clove
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2000
+discovered_by = MKS
+discovered_by = MPH
+discovered_by = MTR
+discovered_by = TER
+discovered_by = chinese
+discovered_by = austranesian
+
+1500.1.1 = { religion = sunni }
+1513.1.1 = {
+	discovered_by = POR
+}
+1557.1.1 = {
+	add_core = POR
+}
+1658.1.1 = {
+	discovered_by = NED
+	owner = NED
+	controller = NED
+} # Dutch control
+1683.1.1 = { add_core = NED }
+1700.1.1  = {
+	citysize = 1100
+	culture = batavian
+}
+1750.1.1 = { citysize = 1465 }
+1800.1.1 = { citysize = 1900 }

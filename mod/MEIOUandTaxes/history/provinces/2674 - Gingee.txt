@@ -1,0 +1,87 @@
+# 2674 - Gingee
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = tamil
+religion = hinduism
+capital = "Gingee"
+trade_goods = rice
+hre = no
+base_tax = 9
+#manpower = 4
+manpower = 8
+citysize = 15000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = GNG
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1428.1.1 = { add_core = VIJ }
+1450.1.1 = { citysize = 16000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 18000 }
+1513.1.1 = {
+	controller = VIJ
+} # Substantial Vijayanagar expansion
+1519.8.1 = {
+	owner = VIJ
+} # Substantial Vijayanagar expansion
+1550.1.1 = { citysize = 30000 }
+1565.7.1 = {
+	owner = GNG
+	controller = GNG
+} # The Vijayanagar empire collapses, the Nayaks proclaimed themselves rulers
+1600.1.1 = { citysize = 32000 }
+1649.1.1 = {
+	controller = BIJ
+} # Conquered by Bijapur
+1649.12.1 = {
+	owner = BIJ
+} # Conquered by Bijapur
+1650.1.1 = { citysize = 33000 }
+1685.1.1 = {
+	controller = MUG
+}
+1686.1.1 = {
+	owner = MUG
+}
+1700.1.1 = { citysize = 24000 }
+1710.1.1 = {
+	owner = KRK
+	controller = KRK
+	add_core = KRK
+} # Nawab of Arcot / Carnatic
+1740.5.1 = {
+	controller = MAR
+} # Arcot falls to the Marathas
+1743.3.1 = {
+	controller = KRK
+} # Arcot falls to the Nizam
+1750.1.1 = { citysize = 26000 }
+1751.9.1 = {
+	controller = GBR
+}	#Conquered by Clive
+1754.1.1 = {
+	controller = KRK
+}
+1761.1.1 = {
+	controller = GBR
+}
+1764.1.1 = {
+	controller = KRK
+}
+1800.1.1 = { citysize = 20000 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+}

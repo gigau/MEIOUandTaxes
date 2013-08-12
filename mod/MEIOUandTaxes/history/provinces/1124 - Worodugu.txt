@@ -1,0 +1,34 @@
+# 1124 - Worodugu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = fulani
+religion = sunni
+capital = "Worodugu"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1  = {
+	add_core = MAL
+}
+1469.1.1  = {
+	owner = SON
+	controller = SON
+	add_core = SON
+}
+1490.1.1 = {
+	owner = FLO
+	controller = FLO
+	add_core = FLO
+}

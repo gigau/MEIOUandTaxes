@@ -1,0 +1,65 @@
+# BAZ - Bayern-Straubing (1353-1426)
+# also counts of Hainaut Holland and Zeeland (+ Friesland?) 1354-1417.5.31
+# 2009-dec-31 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 64
+
+#1354.1.1 Lower Bavaria divided into Bayern-Straubing and Bayern-Landshut
+#Wilhelm unites Hainaut-Holland in a PU with Bayern-Straubing
+1354.1.1 = {
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 4
+		mil = 4
+    	}
+}
+
+1389.1.1 = {
+	monarch = {
+		name = "Albrecht I"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+1404.12.13 = {
+	monarch = {
+		name = "Wilhelm II"
+		dynasty = "von Wittelsbach"
+		adm = 4
+		dip = 4
+		mil = 5
+    	}
+}
+
+1417.5.31  = {
+	monarch = {
+		name = "Johann III"
+		dynasty = "von Wittelsbach"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+#1426-1429 interregnum
+#1429 reunited with Bavaria-Munich
+#(for game purposes reunited 1426.1.1)
+#1426.1.1 end of PU with Hainaut-Holland

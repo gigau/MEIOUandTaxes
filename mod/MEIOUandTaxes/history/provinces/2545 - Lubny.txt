@@ -1,0 +1,76 @@
+# 2545 - Lubny
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = ruthenian
+religion = orthodox	
+capital = "Lubny"
+
+base_tax = 4
+#manpower = 2	
+manpower = 4	
+citysize = 1706
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+#1321.1.1  = {
+#	owner = LIT
+#	controller = LIT
+#}
+1356.1.1  = {
+	add_core = KIE   
+	add_core = LIT
+	add_core = BLU    
+}
+1362.12.25 = {
+	owner = LIT
+	controller = LIT
+} # Aftermath of the Battle of Blue Waters
+1482.1.1   = { citysize = 2500 } # Burned by Crimean Tatars
+1500.1.1   = { citysize = 3750 }
+1550.1.1   = { citysize = 4898 }
+1555.1.1  = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+}
+1569.7.1  = {
+	add_core = PLC
+	remove_core = LIT
+} # Union of Lublin
+1600.1.1   = { citysize = 5292 }
+1610.1.1   = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+	add_core = PLC
+	remove_core = RUS
+}
+#1648.1.1   = { culture = ukrainian } # Chmielnicki Rebellion
+1650.1.1   = { citysize = 6931 fort2 = yes } # Military and territorial unit at the time
+1654.1.1  = {
+	add_core = RUS
+} # Treaty of Pereyaslav
+1667.1.30  = {
+	remove_core = PLC
+} # Truce of Andrusovo
+1680.1.1   = { regimental_camp = yes } # Ivan Mazeppa’s baroque army building.
+1700.1.1   = { citysize = 7861 }
+1750.1.1   = { citysize = 6130 }
+1775.5.7   = {
+	owner = RUS
+	controller = RUS
+} # Host disbanded by Empress Catherine II
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising, minimize the Russian influence
+1794.11.16 = { revolt_risk = 0 }
+1800.1.1   = { citysize = 7800 }

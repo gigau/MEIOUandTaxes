@@ -1,0 +1,24 @@
+# 1503 - Ashanti
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ASH
+controller = ASH
+culture = yorumba
+religion = animism
+capital = "Kumasi"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = ASH
+}

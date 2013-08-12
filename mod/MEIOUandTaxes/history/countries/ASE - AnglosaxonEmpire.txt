@@ -1,0 +1,22 @@
+# ASE - Anglosaxon Empire
+# Unification nation
+# MEIOU-GG Governement change
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_1
+# aristocracy_plutocracy = 3
+# centralization_decentralization = -1
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 3
+# secularism_theocracy = -2
+primary_culture = high_saxon
+add_accepted_culture = english
+religion = catholic
+elector = no
+technology_group = western
+capital = 236 # London

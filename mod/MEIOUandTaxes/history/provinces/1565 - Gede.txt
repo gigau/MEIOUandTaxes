@@ -1,0 +1,46 @@
+#1565 Gede
+#LS - african set up alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+culture = kiunguja
+religion = sunni
+capital = "Gede"
+
+citysize = 8000
+base_tax = 4
+#manpower = 2
+manpower = 4
+trade_goods = slaves
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = ADA
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = muslim
+
+hre = no
+
+1498.4.1 = { discovered_by = POR } #Vasco Da Gama
+1500.1.1 = { citysize = 8500 }
+1505.1.1 = {	owner = POR
+		controller = POR
+		add_core = POR
+	   }
+1600.1.1 = { citysize = 9500 discovered_by = TUR }
+
+1698.1.1 = {	owner = OMA
+		controller = OMA
+		add_core = OMA
+	   } #Omanis establish direct control of Swahili coast
+1700.1.1 = { citysize = 10000 }
+1746.1.1 = {	owner = ZAN
+		controller = ZAN
+		remove_core = OMA
+	   } #Mazrui sultans establish dominance in region
+1762.1.1 = { revolt_risk = 7 } #Kamba migrations in wake of Maasai expansion disturb region
+1800.1.1 = { citysize = 11000 }

@@ -1,0 +1,40 @@
+#Province: Sabah
+#file name: 637 - Sabah
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BEI
+controller = BEI
+culture = malayan
+religion = theravada			#FB this region began to be Islamified c1500
+capital = "Sandakan"
+trade_goods = fish			#FB too much clove
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 4500
+add_core = BEI
+discovered_by = chinese
+discovered_by = austranesian
+discovered_by = indian
+
+1400.1.1 = { citysize = 4600 }
+1450.1.1 = { citysize = 5000 }
+1500.1.1 = { citysize = 5400 }
+1521.1.1 = { discovered_by = SPA }
+1550.1.1 = { citysize = 5980 religion = sunni }
+1600.1.1 = { citysize = 6430 }
+1650.1.1 = { citysize = 7102 }
+1672.1.1 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # Civil war over succession
+1673.1.1 = { revolt = {} controller = BEI }
+1700.1.1 = { citysize = 7570 }
+1703.1.1 = {
+	owner = SUL
+	controller = SUL
+	add_core = SUL
+	remove_core = BEI
+} # Ceded to the Sultanate of Sulu
+1750.1.1 = { citysize = 8540 }
+1800.1.1 = { citysize = 9980 }

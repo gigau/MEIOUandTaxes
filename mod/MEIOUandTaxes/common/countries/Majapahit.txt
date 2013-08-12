@@ -1,0 +1,72 @@
+#Country Name: Majapahit
+#Tag: MPH
+#New Country added by MEIOU-FB Indonesia mod v2
+
+graphical_culture = indiangfx
+
+color = { 201  28  54 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	indian_shock_cavalry
+	rajput_musketeer
+	south_indian_musketeer
+	reformed_mughal_musketeer
+	tipu_sultan_rocket
+	indian_rifle
+}
+
+monarch_names = {
+	"Girindrawardhana #0" = 20
+	"Girishawardhana #0" = 20
+	"Kertabumi #0" = 20
+	"Kertawijaya #0" = 20
+	"Rajasawardhana #0" = 20
+	"Suraprabhawa #0" = 20
+	"Wikramawardhana #0" = 20
+	"Hayam Wuruk #1" = 15
+	"Kalagamet #1" = 15
+	"Raden Wijaya #1" = 15
+	"Suhita #0" = -15
+	"Sri Gitarja #1" = -10
+	"Kertawardhana #0" = 10
+	"Raden Sotor #0" = 10
+	"Raden Sumirat #0" = 10
+	"Singhawardhana #0" = 10
+}
+
+leader_names = {
+	Agung
+	Budi
+	Djajadiningrat Djojopoespito
+	Ernalia
+	Hamengku Harto
+	Harto
+	Karno Karsumaatmaja Kencono
+	Mas
+	Mollema
+	Nasution Nitisastro
+	Prawiranega Purbacaraka
+	Ratri
+	Slamet
+	Wani
+}
+
+ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+	Surakarta Yogyakarta Semarang Salatiga
+	"Gunung Merbabu" Sragen Sukoharjo Wonosari
+	"Gunung Lawu" Delanggu Cepu Purwodarli
+	Ngawi Grobogan Boja Amgarawa
+}

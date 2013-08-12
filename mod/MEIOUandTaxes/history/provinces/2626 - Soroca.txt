@@ -1,0 +1,53 @@
+# 2626 - Basarabia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOL
+controller = MOL  
+add_core = MOL
+culture = moldovian
+religion =  orthodox
+capital = "Soroca"
+
+trade_goods = wine
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 3968
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1498.1.1  = {
+	add_core = TUR
+} # Bayezid II forces Stephen the Great to accept Ottoman suzereignty.
+1500.1.1  = {
+	citysize = 4668
+}
+1520.1.1  = {
+	base_tax = 4
+} # Moldovia stops issuing its own coinage.
+1550.1.1  = {
+	citysize = 5100
+}
+1600.1.1  = {
+	citysize = 5745
+}
+1660.1.1  = {
+	marketplace = yes
+}
+1663.1.1  = {
+	base_tax = 3
+} # Moldovia suffers the impact  the impact of the Great Turkish War.
+1700.1.1  = {
+	citysize = 6397
+}
+1812.5.28 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+} # Treaty of Bucarest ending the Russo-Turkidh War

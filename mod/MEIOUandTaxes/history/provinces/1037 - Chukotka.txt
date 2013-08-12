@@ -1,0 +1,28 @@
+# 1037 - Nizhe-Kolymsk
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = yukaghir
+religion = shamanism
+capital = "Nizhe-Kolymsk"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3
+
+1648.1.1 = { discovered_by = RUS }
+1732.1.1 = {
+	owner = RUS
+	controller = RUS
+	citysize = 350
+   	culture = russian
+   	religion = orthodox
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} # Conquered by Russia
+1750.1.1 = { citysize = 870 }
+1757.1.1 = { add_core = RUS }
+1782.1.1 = { citysize = 1100 }

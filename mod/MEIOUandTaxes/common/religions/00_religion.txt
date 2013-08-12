@@ -1,0 +1,847 @@
+# MEIOU:CW
+# 2013-07-31 GG New Version
+
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+christian = {
+	defender_of_faith = yes
+
+	catholic = {
+		color = { 0.8 0.8 0 } #yellow
+		allowed_conversion = { #Used only for force-conversion
+			reformed
+			protestant
+			hussite
+			gnostic
+	  		}
+		province = {
+			stability_cost = 20
+		}
+		country = { #AI value 1,458
+			diplomats = 1 #The Vatican brokers treaties; cardinals and bishops can act as neutral diplomats
+			interest = 0.02 #Usury is forbidden and moneylenders problematic
+			global_tax_modifier = -0.05 #Tithes and annates, up to a third of all land owned by the church
+			land_morale = 0.05 #Crusading zeal
+			missionaries = 0.20 #A strong missionary tradition
+			missionary_cost = -0.20 #The church funds missionary work
+			missionary_placement_chance = 0.02	#FB was: 0.09
+			production_efficiency = 0.025 #Monasticism meant free colonization, villages and industries
+			production_tech_cost_modifier = -0.05 #Monasticism was often at the forefront of innovation and adoption of new ideas
+			trade_tech_cost_modifier = 0.05 #A lack of capital for investment made trade more difficult
+			tolerance_own = 1
+			tolerance_heretic = -1
+		}
+		on_convert = {
+			change_religion = catholic
+			add_stability = -3
+		}
+		papacy = yes	#Can influence cardinals and become Curia Controller
+		date = 870.2.28 #Patriarch of Constantinople is deposed in the Council of Constantinople
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	protestant = {
+		color = { 0.0 0.0 0.7 } #Blue
+		allowed_conversion = { #Used only for force-conversion
+			reformed
+			catholic
+			hussite
+			gnostic
+		}
+		province = {
+			stability_cost = 20
+		}
+		country = { #AI weight 1,397
+			global_tax_modifier = 0.10 #State confiscation of church lands
+			#government_tech_cost_modifier = -0.025 #Breaking from tradition
+			missionary_placement_chance = 0.02	#FB was: 0.09
+			production_efficiency = 0.05 #Protestant work ethic
+			stability_cost_modifier = -0.10 #Church subordinate to the state
+			tolerance_heretic = 1 #Comparatively tolerant of other Christian denominations
+			idea_cost = -0.10
+		}
+		on_convert = {
+			change_religion = protestant
+			add_stability = -3
+### check the modifiers to be removed
+#			remove_country_modifier = counter_reformation
+#			remove_country_modifier = the_statue_in_restraint_of_appeals
+#			remove_country_modifier = bavarian_jesuits
+#			remove_country_modifier = the_societas_jesu
+#			remove_country_modifier = the_declaration_of_indulgence
+#			remove_country_modifier = de_heretico_comburendo
+			
+			if = {
+				limit = {
+					NOT = { has_country_flag = reformation_money }
+				}
+				add_years_of_income = 1.0
+			}
+			set_country_flag = reformation_money
+		}
+		date = 1517.10.31 #Martin Luther nails his 95 theses to the door of Wittemburg Church
+		heretic = { BAPTIST CONGREGATIONALIST METHODIST PIETIST EVANGELICAL }
+	}
+
+	reformed = {
+		color = { 0.49 .0588 0.843 } #Dark Purple
+		allowed_conversion = { #Used only for force-conversion
+			protestant
+			catholic
+			hussite
+			gnostic
+		}
+		province = {
+			local_missionary_strength = -0.03
+			stability_cost = 30
+		}
+		country = { #AI weight 1,420
+			global_tax_modifier = 0.05 #State confiscation of church lands
+			merchant_cost = -0.10 #Individual accountability encourages capitalism and the concentration of wealth
+			missionary_placement_chance = 0.015	#FB was: 0.06
+			missionary_cost = -0.10
+			interest = -0.02
+			stability_cost_modifier = 0.10 #Emphasis on individual over the state results in squabbles
+			trade_efficiency = 0.05 #Individual accountability encourages capitalism and the concentration of wealth
+			trade_tech_cost_modifier = -0.05 #Individual accountability encourages capitalism and the concentration of wealth
+			advisor_pool = 1
+		}
+		on_convert = {
+			change_religion = reformed
+			add_stability = -3
+### check the modifiers to be removed
+#			remove_country_modifier = counter_reformation
+#			remove_country_modifier = the_statue_in_restraint_of_appeals
+#			remove_country_modifier = bavarian_jesuits
+#			remove_country_modifier = the_societas_jesu
+#			remove_country_modifier = the_declaration_of_indulgence
+#			remove_country_modifier = de_heretico_comburendo
+			if = {
+				limit = {
+					NOT = { has_country_flag = reformation_money }
+				}
+				add_years_of_income = 1.0
+			}
+			set_country_flag = "reformation_money" 
+		}
+		date = 1536.5.1 #"Institutes of the Christian Religion" is published, defining Calvinism
+		heretic = { CONFESSIONALIST AMYRALDIST HIGH_CALVINIST DOMINIONIST THEONOMIST PRESBYTERIAN }
+	}
+
+	anglican = {
+		color = { 0.0 0.0 0.35 } #Blue
+		allowed_conversion = { #Used only for force-conversion
+			reformed
+			catholic
+			hussite
+			gnostic
+		}
+		province = {
+			local_missionary_strength = -0.03
+			stability_cost = 20
+		}
+		country = { #AI weight 1,397
+			global_tax_modifier = 0.05 #State confiscation of church lands
+			missionaries = 0.10
+			missionary_placement_chance = 0.02	#FB was: 0.08
+			trade_efficiency = 0.05
+			trade_tech_cost_modifier = -0.025
+			stability_cost_modifier = -0.05
+			tolerance_heretic = 1
+		}
+		on_convert = {
+			change_religion = anglican
+			add_stability = -3
+### check the modifiers to be removed
+#			remove_country_modifier = counter_reformation
+#			remove_country_modifier = the_statue_in_restraint_of_appeals
+#			remove_country_modifier = bavarian_jesuits
+#			remove_country_modifier = the_societas_jesu
+#			remove_country_modifier = the_declaration_of_indulgence
+#			remove_country_modifier = de_heretico_comburendo
+			if = {
+				limit = {
+					NOT = { has_country_flag = reformation_money }
+				}
+				add_years_of_income = 1.0
+			}
+			set_country_flag = "reformation_money" 
+		}
+	}
+
+	gallican = {
+		color = { 0.25 .02 0.42 } #Dark Purple
+		allowed_conversion = { #Used only for force-conversion
+			protestant
+			catholic
+			hussite
+			gnostic
+		}
+		province = {
+			local_missionary_strength = -0.03
+			stability_cost = 30
+		}
+		country = { #AI weight 1,420
+			global_tax_modifier = -0.02
+			missionaries = 0.10
+			missionary_placement_chance = 0.015	#FB was: 0.08
+			stability_cost_modifier = 0.05
+			production_efficiency = 0.03
+			production_tech_cost_modifier = -0.03
+			tolerance_heretic = 1
+		}
+		on_convert = {
+			change_religion = gallican
+			add_stability = -3
+### check the modifiers to be removed
+#			remove_country_modifier = counter_reformation
+#			remove_country_modifier = the_statue_in_restraint_of_appeals
+#			remove_country_modifier = bavarian_jesuits
+#			remove_country_modifier = the_societas_jesu
+#			remove_country_modifier = the_declaration_of_indulgence
+#			remove_country_modifier = de_heretico_comburendo
+			if = {
+				limit = {
+					NOT = { has_country_flag = reformation_money }
+				}
+				add_years_of_income = 1.0
+			}
+			set_country_flag = "reformation_money" 
+		}
+		date = 1536.5.1 #"Institutes of the Christian Religion" is published, defining Calvinism
+		heretic = { CONFESSIONALIST AMYRALDIST HIGH_CALVINIST DOMINIONIST THEONOMIST PRESBYTERIAN }
+	}
+
+	orthodox = {
+		color = { 0.7 0.5 0 } #Brown
+		allowed_conversion = { #Used only for force-conversion
+			oriental
+		}
+		province = {
+			stability_cost = 20
+		}
+		country = { #AI Weight 1,460
+			global_tax_modifier = -0.03 #Church-owned land drains money from the state
+			missionary_cost = -0.10
+			missionary_placement_chance = 0.02	#FB was: 0.09 #A strong monastic tradition
+			production_efficiency = 0.05 #A strong monastic tradition
+			production_tech_cost_modifier = -0.05 #A strong monastic tradition
+			stability_cost_modifier = -0.1 #Church subordinate to the state
+			tolerance_own = 1
+		}
+		has_patriarchs = yes		# Uses patriarch authority
+		misguided_heretic = yes		#other christians hate them less
+		date = 870.2.28 #Patriarch of Constantinople is deposed in the Council of Constantinople; Orthodox Christians reject the council's authority
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	oriental = {
+		color = { 0.831 0.686 0.215 } #Gold
+		allowed_conversion = { #Used only for force-conversion
+			orthodox
+		}
+		province = {
+			stability_cost = 20
+		}
+		country = {
+			global_tax_modifier = -0.03 #Church-owned land drains money from the state
+			missionary_cost = -0.10
+			missionary_placement_chance = 0.02	#FB was: 0.09 #A strong monastic tradition
+			production_efficiency = 0.05 #A strong monastic tradition
+			production_tech_cost_modifier = -0.05 #A strong monastic tradition
+			stability_cost_modifier = -0.1 #Church subordinate to the state
+			tolerance_own = 1
+		}
+		has_patriarchs = yes		# Uses patriarch authority
+		misguided_heretic = yes		#other christians hate them less
+		date = 451.11.1 #Council of Chalcedon ends with Oriental Orthodoxy labelled as heresy
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	gnostic = {
+		color = { 0.8627 1.0 0.0 } #pale yellow tinted with green
+		allowed_conversion = {
+			reformed
+			protestant
+			catholic
+			hussite
+		}
+		province = {
+			stability_cost = 20
+			local_revolt_risk = -3 #Pacifists
+			local_manpower_modifier = -0.20
+			local_tax_modifier = -0.10 #Refused to pay taxes ('render unto caesar')
+			local_missionary_strength = 0.03
+		}
+		country = { #AI Weight 1,363
+			land_morale = -0.25 #Pacifistic
+			missionaries = +0.2 #A strong missionary element
+			missionary_cost = -0.20
+			missionary_placement_chance = 0.01	#FB was: 0.09 #At one point an amazingly fast conversion
+			stability_cost_modifier = -0.1 #Church subordinate to the state
+			tolerance_own = 1
+			tolerance_heretic = +1
+		}
+		date = 969.1.1 #Approximate
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	hussite = {
+		color = { 0.0  0.4314 0.70588 } #Light blue
+		allowed_conversion = { #Used only for force-conversion
+			reformed
+			protestant
+			catholic
+			gnostic
+		}
+		province = {
+			stability_cost = 30 #Competing denominations
+			local_missionary_strength = -0.03
+		}
+		country = { #AI Weight 1,332
+			interest = 0.02 #Egalitarian, disliked moneylenders and debt
+			global_manpower_modifier = 0.10 #Rallied the peasants to fight with great success
+			government_tech_cost_modifier = -0.10 #Radical ideas about government and democracy
+			missionary_cost = -0.10
+			missionary_placement_chance = 0.015	#FB was: 0.06 #Did not spread outside of Bohemia
+			land_morale = 0.50 #Fanatical warriors, able to hold off half of Europe
+			stability_cost_modifier = -0.05 #Popular support
+			trade_tech_cost_modifier = 0.10 #Radical elements believed in shared wealth
+			tolerance_heretic = -1
+		}
+		date = 1415.7.6 #Jan Hus is burned at the stake at the Council of Constance
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+	crusade_name = CRUSADE
+}
+
+muslim = {
+	defender_of_faith = yes
+
+	sunni = {
+		color = { 0.0 0.6 0 } #Green
+		allowed_conversion = { #Used only for force-conversion
+			shiite
+			wahhabi
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.02
+		}
+		country = { #AI Weight 1,381
+			global_manpower_modifier = -0.10 #Only muslims were conscripted for military service
+			government_tech_cost_modifier = -0.05 #Law and governance were advanced
+			land_tech_cost_modifier = -0.05 #Adopted new weapons quickly
+			local_missionary_strength = -0.02
+			naval_tech_cost_modifier = 0.05 #Failed to adapt in the ocean
+			production_tech_cost_modifier = 0.05 #Fell behind in production
+			stability_cost_modifier = 0.10 #No one central church authority
+			tolerance_heathen = +1 #Non-muslims formed their own communities free from forced conversion
+			trade_efficiency = 0.05 #Famous traders who travelled around the world
+			heir_chance = 1.0
+		}
+		uses_piety = yes				# Uses piety mechanics
+		date = 622.7.16 #Traditional date of the expulsion of Muhammad's followers from Mecca (although probably in September)
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	shiite = {
+		color = { 0.6471 0.9608 0.3922 } #Light Green
+		allowed_conversion = { #Used only for force-conversion
+			sunni
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.02
+		}
+		country = { #AI Weight 1,789 (but the AI overvalues them)
+			missionary_placement_chance = 0.01	#FB was: 0.06
+			land_morale = 0.5 #Jihad is enshrined as the sixth pillar of Islam
+			global_tax_modifier = 0.10 #khums - muslims pay 1/5 of profits and war booty
+			stability_cost_modifier = -0.10 #Imams serve as a central authority
+			technology_cost = 0.05 #Very conservative, slow to adopt new ideas
+			heir_chance = 1.0
+		}
+		uses_piety = yes				# Uses piety mechanics
+		date = 680.1.1 #Martyrdom of Husayn
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	wahhabi = {
+		color = { 0.313 0.784 0.470 } #Emerald
+		allowed_conversion = { #Used only for force-conversion
+			sunni
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.02
+		}
+		country = { #AI Weight 1,383
+			global_manpower_modifier = -0.10 #Only muslims were conscripted for military service
+			government_tech_cost_modifier = 0.05 #Socially conservative
+			interest = 0.02 #Usury is forbidden and moneylenders problematic
+			land_morale = 0.10
+			land_tech_cost_modifier = -0.05 #Technologically progressive
+			missionary_cost = -0.10 #A strong missionary tradition
+			missionary_placement_chance = 0.02	#FB was: 0.09
+			naval_tech_cost_modifier = -0.05 #Technologically progressive
+			production_tech_cost_modifier = -0.05 #Technologically progressive
+			trade_tech_cost_modifier = 0.05 #Socially conservative
+			heir_chance = 1.0
+		}
+		uses_piety = yes				# Uses piety mechanics
+		date = 1740.1.1
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+	crusade_name = JIHAD
+}
+
+japan_group = {
+
+	shinbutsu = {
+		color = { 0.8 0.0 0.0 }
+		allowed_conversion = { #Used only for force-conversion
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.02
+		}
+		country = { #AI weight 1,438
+			global_manpower_modifier = 0.05 #Warrior monks
+			missionary_placement_chance = 0.01	#FB was: 0.06
+			stability_cost_modifier = -0.10 #Communal good is emphasized over individual rights
+			land_tech_cost_modifier = -0.05 #Enthusiastically adopted new weapons and tactics
+			tolerance_heathen = -1
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	shinto = {
+		color = { 0.6 0.4 0.3 }
+		allowed_conversion = { #Used only for force-conversion
+		}
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.06
+			local_missionary_cost = -0.10
+		}
+		country = { #AI weight 359
+			land_morale = 0.50 #A faith that has warrior gods and encourages bravery in battle
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			leader_shock = 0.50 #Personal heroism emphasized, battle considered a way of life for leaders
+			merchant_cost = 0.10 #Suspicious of outsiders, disparaging of merchants, lacks capital
+			missionaries = -0.10 #Led by shamen but not an organized religion
+			missionary_cost = 0.10 #Not an organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated land society
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			tolerance_heathen = -1
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	crusade_name = CRUSADE
+}
+
+taoic = {
+
+	confucianism = {
+		color = { 0.8 0.0 0.8 }
+		allowed_conversion = { #Used only for force-conversion
+			mahayana
+			taoist
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.03
+		}
+		country = { #AI weight 1,386
+			#tolerance_own = -1 #Not exactly a religion; does not inspire holy figures or crusaders
+			tolerance_heretic = +1 #By the early Ming dynasty Neo-Confucianism dominated, fusing together Confucian, Taoist and Buddhist elements; fairly tolerant of these sects
+			build_cost = -0.10 #An organized, efficient civil service
+			global_manpower_modifier = -0.10 #Bureaucratic system encouraged underrepresentation in census
+			global_revolt_risk = -1 #A very stable religion and an emphasis on civil society
+			global_spy_defence = 0.10 #Highly organized
+			global_tax_modifier = 0.05 #Very efficient tax collection and regular censuses
+			government_tech_cost_modifier = -0.05 #Meritocratic government and an emphasis on civil society
+			land_morale = -0.50 #Civil society valued much more than the military
+			missionary_placement_chance = 0.01	#FB was: 0.06
+			stability_cost_modifier = -0.15 #Allowed for social mobility (meritocracy), emphasized harmony and community
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	mahayana = {
+		color = { 0.8 0.15 0.15 }
+		allowed_conversion = { #Used only for force-conversion
+			confucianism
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.03
+		}
+		country = { #AI weight 1,438
+			global_manpower_modifier = 0.05 #Warrior monks
+			missionary_placement_chance = 0.01	#FB was: 0.06
+			stability_cost_modifier = -0.10 #Communal good is emphasized over individual rights
+			land_tech_cost_modifier = -0.05 #Enthusiastically adopted new weapons and tactics
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	taoist = {
+		color = { 0.5098 1.0 0.6667 }
+		allowed_conversion = { #Used only for force-conversion
+			confucianism
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.03
+		}
+		country = { #to be added
+			global_revolt_risk = -1
+			missionary_placement_chance = 0.01	#FB was: 0.06 #Weak missionary tradition
+			stability_cost_modifier = -0.20 #Saw the ruler as the only one capable of influencing the Tao
+			tolerance_heathen = 1
+			tolerance_heretic = 1
+			#tolerance_own = -1
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+	crusade_name = CRUSADE
+}
+
+dharmic = {
+
+	hinduism = {
+		color = { 0.0 0.8 0.8 }
+		allowed_conversion = { #syncretic religions
+			theravada
+		}
+		province = {
+			stability_cost = 20
+		}
+		country = { #AI weight 1,445
+			advisor_cost = -0.05 #The caste system resulted in a large number of administrators
+			government_tech_cost_modifier = 0.05 #The caste system discouraged changes to the system
+			land_tech_cost_modifier = -0.05 #Enthusiastically adopted guns
+			missionary_placement_chance = 0.01	#FB was: 0.09 #A missionary religion
+			stability_cost_modifier = -0.10 #An emphasis on community welfare and duty
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	theravada = {
+		color = { 0.8 0.3 0.0 }
+		allowed_conversion = { #syncretic religions
+			hinduism
+		}
+		province = {
+			stability_cost = 15 #A greater emphasis on individual rights led to demands for participation in government
+		}
+		country = { #AI weight 1,419
+			government_tech_cost_modifier = -0.05 #Buddhism encouraged public education
+			land_morale = -0.50 #A pacifist creed
+			land_tech_cost_modifier = 0.05 #Pacifist
+			missionary_placement_chance = 0.01	#FB was: 0.09 #A strong missionary tradition
+			naval_tech_cost_modifier = 0.05 #Pacifist
+			production_tech_cost_modifier = -0.05 #Public education
+			tolerance_heretic = 1 #A very tolerant faith
+			trade_tech_cost_modifier = -0.05 #Public education
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	sikh = {
+		color = { 0.0 1.0 0.70588 }
+		allowed_conversion = { #Used only for force-conversion
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.05
+			regiment_recruit_speed = -0.25 #Martial training for all adult males
+		}
+		country = { #AI weight 1,403
+			global_manpower_modifier = 0.10 #All adult males receive military training
+			global_tax_modifier = -0.05 #Tithes towards the guru ka langar and training
+			government_tech_cost_modifier = 0.05 #Fractious governments due to infighting
+			land_morale = 0.50 #Martial training for all adult males, a militant outlook
+			land_tech_cost_modifier = -0.05 #Martial training for all adult males, a militant outlook
+			leader_fire = 0.5
+			missionary_placement_chance = 0.015	#FB was: 0.06
+			naval_tech_cost_modifier = 0.01 #An emphasis on land warfare over naval
+			stability_cost_modifier = 0.10 #Found it difficult to cooperate because of local warlords
+			tolerance_heathen = +1 #emphasized the equality of all people, sexes, castes, religion or color and provided a social safety net (population growth, peace)
+			trade_tech_cost_modifier = 0.01 #Somewhat insular
+		}
+		date = 1606.5.30 #Martyrdom of the fifth Guru
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	zoroastrian = {
+		color = { 0.6 0.866 1 } #Columbia blue
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.04
+		}
+		country = {
+			build_cost = 0.05 #Zoroastrian kings were expected to show their royalty through art and public works
+			global_tax_modifier = 0.05 #Advanced bureaucracy and taxation system
+			land_morale = -0.25 #Did not seem to inspire religious loyalty
+			missionaries = -0.10 #No missionary tradition
+			missionary_placement_chance = 0.01	#FB was: 0.06
+			prestige = 0.005 #Zoroastrian kings were expected to show their royalty through art and public works
+			tolerance_heathen = +1 #Perhaps TOO tolerant of Christians!
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+	
+	sarna_dharam = {			#Assam & Gondwana, Santhali religion
+		color = { 0.4 0.8 0.4 }
+		province = {
+			stability_cost = 15
+			local_missionary_strength = -0.10
+			population_growth = -0.025
+		}
+		country = {
+			tolerance_heretic = 2
+		}
+		
+		heretic = { BHAKTI }
+		
+	}
+
+	crusade_name = CRUSADE
+}
+
+pagan = {
+
+	shamanism = { #Tengriist
+		color = { 0.5 0.3 0.3 }
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight 359
+			land_morale = 0.50 #A faith that has warrior gods and encourages bravery in battle
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			leader_shock = 0.50 #Personal heroism emphasized, battle considered a way of life for leaders
+			merchant_cost = 0.10 #Suspicious of outsiders, disparaging of merchants, lacks capital
+			missionaries = -0.10 #Led by shamen but not an organized religion
+			missionary_cost = 0.10 #Not an organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #The Steppes is their home
+			spies_cost = 0.10 #Difficult to fit in to other societies
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	inti = {
+		color = { 0.6 0.7 0.6 } #
+		province = {
+			stability_cost = 20
+			local_missionary_strength = 0.10
+		}
+		country = { #AI Weight -2,936
+			badboy_limit = -5 #Not considered to be equals
+			government_tech_cost_modifier = -0.05 #An advanced bureaucracy
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			production_efficiency = 0.05 #An organized bureaucracy
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = -0.20 #Society focused on the Inca alone
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+		annex = yes
+	}
+
+	teotl = {
+		color = { 0.2 0.5 0.0 }
+		province = {
+			stability_cost = 25
+			local_missionary_strength = 0.10
+		}
+		country = { #AI Weight -2,941
+			badboy = 0.01 #Flower wars and human sacrifice caused friction with neighbors
+			badboy_limit = -5 #Not considered to be equals
+			land_morale = 0.50 #Warlike with constant practice
+			land_tech_cost_modifier = -0.05 #Focused on war
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = 0.10 #Constant internal wars
+			tolerance_heretic = 1 #A relatively accepting religion
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+		annex = yes
+	}
+
+	midewiwin = {
+		color = { 1.0 0.4 0.0 } #Orange
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight -3,034
+			badboy_limit = -5 #Not considered to be equals
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			land_morale = 0.25 #No compunctions against killing, martial priests
+			land_tech_cost_modifier = -0.05 #Eagerly adopted horses and guns
+			leader_shock = 0.25 #Fierce warriors
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = 0.10 #religious rivalries could exist
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+		annex = yes
+	}
+
+	austranasian = {
+		color = { 0.1 0.4 0.3 }
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight -3,150
+			badboy_limit = -5 #Not considered to be equals
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			land_morale = 0.10 #No compunctions against killing
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = -0.10 #Omens can bring people together, close clan bonds
+			tolerance_heathen = 1 #A relatively accepting religion
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	pantheism = {
+		color = { 0.3 0.4 0.3 }
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight -3,150
+			badboy_limit = -5 #Not considered to be equals
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			land_morale = 0.10 #No compunctions against killing
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = -0.10 #Omens can bring people together, close clan bonds
+			tolerance_heathen = 1 #A relatively accepting religion
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+		annex = yes
+	}
+
+	animism = {
+		color = { 0.6 0.478 0.552 } #Mountbatten
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight -3,150
+			badboy_limit = -5 #Not considered to be equals
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			land_morale = 0.10 #No compunctions against killing
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = -0.10 #Omens can bring people together, close clan bonds
+			tolerance_heathen = 1 #A relatively accepting religion
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+
+	baltic_pagan = {
+		color = { 0.5 0.1 0.0 }
+		province = {
+			stability_cost = 20
+			local_colonist_placement_chance = 0.2
+			local_missionary_strength = 0.10
+		}
+		country = { #AI weight -3,150
+			badboy_limit = -5 #Not considered to be equals
+			global_spy_defence = 0.10 #Suspicious of outsiders
+			land_morale = 0.10 #No compunctions against killing
+			merchant_cost = 0.10 #Suspicious of outsiders, more fluid castes lack capital
+			missionaries = -0.10 #Lack of organized religion
+			missionary_cost = 0.10 #Lack of organized religion
+			missionary_placement_chance = 0.005	#FB was: 0.03 #Not an organized religion
+			naval_tech_cost_modifier = 0.05 #Isolated
+			spies_cost = 0.10 #Difficult to fit in to other societies
+			stability_cost_modifier = -0.10 #Omens can bring people together, close clan bonds
+			tolerance_heathen = 1 #A relatively accepting religion
+			trade_tech_cost_modifier = 0.05 #Isolated
+		}
+		heretic = { FUNDAMENTALIST SECTARIAN POPULIST REACTIONARY MILLENARIAN APOCALYPTIC ULTRAORTHODOX HUMANISTIC SYNCRETIC MESSIANIC }
+	}
+	crusade_name = CRUSADE
+}
+
+judaic = {
+	jewish = {
+		color = { 0.98 0.7451 0.5294 } #Cream
+		allowed_conversion = { #Used only for force-conversion
+		}
+		province = {
+			stability_cost = 20
+			local_missionary_strength = -0.90
+			local_tax_modifier = 0.02 #large middle class
+		}
+		country = { #AI weight 1,561
+			advisor_cost = 0.05 #best and brightest may leave for other courts
+			badboy_limit = -2 #suspicion of Jews in foreign courts
+			global_spy_defence = 0.05 #close-knit society
+			government_tech_cost_modifier = -0.05 #emphasis on education, especially law
+			interest = -0.02 #no compunction against usury; longstanding tradition of moneylending
+			land_tech_cost_modifier = 0.01 #suspicion of Jews in foreign courts
+			merchant_cost = -0.10 #well established banking and insurance
+			merchants = 0.1 #well educated middle class, many contacts worldwide
+			missionary_cost = 0.20 #strictures against conversion
+			missionary_placement_chance = 0.01	#FB was: 0.03
+			missionaries = -0.20 #strictures against conversion
+			naval_tech_cost_modifier = -0.01 #suspicion of Jews in foreign courts
+			spies = 0.1 #well educated middle class, many contacts worldwide
+			tolerance_heathen = 1
+			trade_tech_cost_modifier = -0.05 #emphasis on education, global contacts in commerce
+			trade_efficiency = 0.05 #contacts throughout the world in Jewish communities
+		}
+		heretic = { HUMANISTIC HASIDIC SEPHARDIC MIZRAHI KARAITE HAREDI ORTHODOXY }
+	}
+	crusade_name = CRUSADE
+}

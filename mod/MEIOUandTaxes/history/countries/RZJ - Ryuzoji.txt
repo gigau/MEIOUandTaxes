@@ -1,0 +1,101 @@
+# RZJ - Ryuzoji clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kyushu
+religion = shinbutsu
+technology_group = chinese
+capital = 1018	# Hizen
+daimyo = yes
+
+1430.1.1 = { 
+	monarch = {
+		name = "Yasuie"
+		dynasty = "Ryuzoji"
+		adm = 4
+		dip = 4
+		mil = 5
+		}
+	}
+
+1454.1.1 = {
+	heir = {
+		name = "Iekane"
+		monarch_name = "Iekane"
+		dynasty = "Ryuzoji"
+		birth_date = 1454.1.1
+		death_date = 1546.4.10
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Iekane"
+		dynasty = "Ryuzoji"
+		adm = 6
+		dip = 6
+		mil = 6
+		}
+	}
+
+1529.3.24 = {
+	heir = {
+		name = "Takanobu"
+		monarch_name = "Takanobu"
+		dynasty = "Ryuzoji"
+		birth_date = 1529.3.24
+		death_date = 1584.5.4
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+	
+1546.4.10 = { 
+	monarch = {
+		name = "Takanobu"
+		dynasty = "Ryuzoji"
+		adm = 5
+		dip = 5
+		mil = 7
+		}
+	}
+	
+1556.1.1 = {
+	heir = {
+		name = "Masaie"
+		monarch_name = "Masaie"
+		dynasty = "Ryuzoji"
+		birth_date = 1556.1.1
+		death_date = 1607.11.21
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1584.5.4 = { 
+	monarch = {
+		name = "Masaie"
+		dynasty = "Ryuzoji"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}

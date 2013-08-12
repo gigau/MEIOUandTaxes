@@ -1,0 +1,67 @@
+#Country Name: Aru
+#Tag: ARU
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 115  65  125 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_elephant
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Abdul Jalil #0" = 20
+	"Deva #0" = 20
+	"Ma'ruf #0" = 20
+	"Malik #0" = 20
+	"Muhammad 'Ali #0" = 20
+	"Muhammad Husain #0" = 50
+	"Muhammad Mahrum #0" = 50
+	"Musa #0" = 20
+	"Muzaffar #0" = 20
+	"Rahmad #0" = 20
+	"Sa'id #0" = 20
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi
+	Batuta
+	Chairul
+	Hamzah Hasanuddin
+	Ibnu
+	Kyai
+	Mahat Mukhtar
+	Najamuddin Natzar Nazmizan
+	Roem
+	Syarifuddin
+	Zulkifli
+}
+
+ship_names = {
+	"Sungai Belait" "Sungai Tutong" "Sungai Tembureng"
+	Batang Trusan "Sungai Pandaruan" "Lungai Limbang"
+	"Batang Baram" "Sungai Bakong" "Sungai Tutoh"
+	"Sungai Tinjar" "Kuala Belait" "Batu Danau"
+	"Kuala Medamit" Bangar Penanjong Lumut Telingan
+	Labi Sukang "Kuala Baram"
+}
+

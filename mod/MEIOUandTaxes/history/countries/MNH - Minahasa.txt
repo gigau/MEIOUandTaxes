@@ -1,0 +1,25 @@
+# MNH - Minahasa
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -4
+# land_naval = -4
+# quality_quantity = -3
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -4
+primary_culture = sulawesi
+religion = austranasian
+technology_group = chinese
+capital = 644 # Menade
+
+1608.1.1 = {
+	religion = sunni
+}
+
+1820.1.1 = {
+	religion = reformed
+}

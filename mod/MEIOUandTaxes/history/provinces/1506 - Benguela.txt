@@ -1,0 +1,37 @@
+# 1506 - Benguela
+# FB - added discovered_by = POR
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = khoisan
+religion = animism
+capital = "Namib"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+trade_goods = crops # slaves
+hre = no
+
+native_size = 40
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = NDO
+
+1481.1.1 = { discovered_by = POR } # Bartolomeu Dias
+1617.1.1 = {
+	fort1 = yes
+	owner = POR
+	controller = POR
+	add_core = POR
+	citysize = 144
+	capital = "Saõ Felipe de Benguela"
+	trade_goods = slaves
+	set_province_flag = trade_good_set
+}
+1641.1.1 = { owner = NED controller = NED } # Captured by the Dutch
+1648.1.1 = { owner = POR controller = POR } # A Brazilian-Portuguese expedition expelled the Dutch
+1650.1.1 = { citysize = 895 }
+1700.1.1 = { citysize = 1650 }
+1750.1.1 = { citysize = 1975 }
+1800.1.1 = { citysize = 2800 }

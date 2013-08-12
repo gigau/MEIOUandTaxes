@@ -1,0 +1,42 @@
+#Province: Lampung
+#file name: 623 - Lampung
+# MEIOU-FB Indonesia mod
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LPG
+controller = LPG
+culture = sumatran
+religion = hinduism
+capital = "Lampung"
+trade_goods = pepper
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 3500
+add_core = LPG
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 3890 }
+1500.1.1 = { citysize = 4310 }
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1550.1.1 = { citysize = 4655 religion = sunni }
+1552.1.1 = {
+	owner = BAN
+	controller = BAN
+	add_core = BAN
+}
+1600.1.1 = { citysize = 5130 discovered_by = NED }
+1650.1.1 = { citysize = 5780 }
+1700.1.1 = {  citysize = 6200 }
+1725.1.1 = {
+	owner = NED
+	controller = NED
+	trade_goods = gold
+} # The Dutch gradually gained control
+1750.1.1 = { citysize = 6870 add_core = NED remove_core = BAN }
+1800.1.1 = { citysize = 7433 }

@@ -1,0 +1,52 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = TAM
+controller = TAM
+add_core = TAM
+culture = madagascan
+religion = austranasian
+capital = "Betsimisaraka"
+citysize = 8000
+#manpower = 2
+manpower = 4
+trade_goods = ebony
+hre = no
+base_tax = 4
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+
+1500.9.1 = {
+	discovered_by = POR
+	citysize = 6000
+} # Diego Dias
+
+1550.1.1 = {
+	citysize = 7500
+}
+
+1600.1.1 = {
+	citysize = 9000
+}
+
+1650.1.1 = {
+	citysize = 11000
+}
+
+1700.1.1 = {
+	citysize = 14000
+}
+
+1750.1.1 = {
+	citysize = 16000
+}
+
+1800.1.1 = {
+	citysize = 20000
+}
+
+1832.1.1 = {
+	owner = MER
+	controller = MER
+	add_core = MER
+}

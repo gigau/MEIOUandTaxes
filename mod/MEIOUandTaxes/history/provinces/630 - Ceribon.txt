@@ -1,0 +1,56 @@
+#Province: Cirebon (was Kalapa)
+#file name: 630 - Cirebon
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SUN
+controller = SUN
+culture = sundanese
+religion = hinduism
+capital = "Cirebon"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 9000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = SUN
+	add_core = CBT
+}
+1400.1.1 = { citysize = 10890 }
+1450.1.1 = { citysize = 12000 }
+1478.1.1 = {
+	owner = CBT
+	controller = CBT
+	religion = sunni
+	remove_core = SUN
+	add_core = PJJ
+	discovered_by = DEM
+}  # Cirebon founded
+1512.1.1 = { discovered_by = POR citysize = 14100 }	#FB Antonio de Abreu
+1599.1.1 = { discovered_by = NED citysize = 18100 }
+1617.1.1 = {
+	owner = MTR
+	controller = MTR
+	add_core = MTR
+} # The Sultanate of Mataram
+1650.1.1 = { citysize = 21670 }
+1700.1.1 = { citysize = 25111 }
+1741.7.1 = { revolt_risk = 1 } #FB Mataram joins forces with Chinese - revolt becomes war
+1743.11.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 1
+}
+1750.1.1 = { citysize = 27346 }
+1800.1.1 = { citysize = 29880 add_core = NED revolt_risk = 0 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED remove_core = GBR } # Returned to the Dutch

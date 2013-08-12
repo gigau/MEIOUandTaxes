@@ -1,0 +1,25 @@
+# 1554 - Kano
+#Province: Sokoto
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KNO
+controller = KNO
+add_core = KNO
+culture = haussa		
+religion = sunni		 
+capital = "Kano"
+
+base_tax = 8
+#manpower = 6
+manpower = 12
+citysize = 40000
+trade_goods = millet
+
+fort1 = yes
+cot = yes
+
+discovered_by = soudantech
+
+hre = no
+

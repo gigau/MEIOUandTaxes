@@ -1,0 +1,21 @@
+# Topchis Artillery
+#Modified for MEIOU by FB 10.02.07
+#tech level 28 c1630
+	
+unit_type = muslim
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 3
+#defensive_morale = 2
+#offensive_fire = 2
+#defensive_fire = 1
+#offensive_shock = 2
+#defensive_shock = 1
+#FB
+offensive_morale = 7
+defensive_morale = 5
+offensive_fire = 3
+defensive_fire = 3
+offensive_shock = 4
+defensive_shock = 3

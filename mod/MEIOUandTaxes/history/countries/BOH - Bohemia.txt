@@ -1,0 +1,435 @@
+# BOH - Bohemia
+# MEIOU-GG Govenemnt changes
+# 2009-dec-19 - FB - HT3 changes
+# 2011-jun-16 - FB - add DG flags (moved from event 800000)
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = czech
+religion = catholic
+capital = 268	# Praha
+technology_group = western
+
+1310.1.1  = {
+    monarch = {
+	name = "Jan"   #John of Luxemburg - Son-in-law of Václav II
+	dynasty = "von Luxemburg"
+	adm = 4      # could not cope with beligerent lords - delegated admin to his son
+	dip = 6      # seems to have been welcome in most courts in Europe
+	mil = 4      # brave but foolish
+    }
+}
+
+1346.8.26 = {
+	monarch = {
+		name = "Karl IV"
+		dynasty = "von Luxemburg"
+		adm = 7      # responsible for the Golden Bull
+		dip = 6      # managed to stay in power in an extremely diffcult era
+		mil = 4      # seems to have been good at avoiding fights
+	}
+	emperor = yes
+    elector = yes	#AdL: BOH was one of 7 electors of the Golden Bull
+}
+
+1355.12.25 = { decision = kaiserliches_rechtsbuch }
+
+1378.11.29 = {
+	monarch = {
+		name = "Wenzel IV"
+		dynasty = "von Luxemburg"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1415.5.4 = {
+	# secularism_theocracy = 1
+} # Council of Constance and execution of Jan Huss
+
+1419.1.1 = { leader = {	name = "Jan Zizka"	type = general	rank = 1	fire = 6	shock = 3	manuever = 5	siege = 0	death_date = 1424.10.11 } }
+
+1419.1.1 = { leader = {	name = "Prokop Veliký"	type = general	rank = 1	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
+
+#1419.8.16 = { elector = yes }		#AdL: no longer needed
+
+# Personal Union with Hungary under Sigismund I 1419-1437
+
+1419.8.16 = {
+	monarch = {
+		name = "Sigismund"
+		dynasty = "von Luxemburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1419.11.1 = {
+		# secularism_theocracy = 2
+		set_country_flag = hussite_crusade
+} #start of Hussite wars
+
+1424.1.1 = {
+	clr_country_flag = hussite_crusade
+	set_country_flag = hussite_negotiation
+}
+
+1436.7.5 = {
+	# secularism_theocracy = -3
+	clr_country_flag = hussite_negotiation
+	set_country_flag = hussite_compacta
+} #Hussite wars end, freedom to worship
+
+# Personal Union with Habsburg under Albrecht II 1437-1439
+
+1439.10.27 = {
+	monarch = {
+		name = "Landfriedens"
+		regent = yes
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Personal Union with Habsburg under Ladislaus Postumus 1453-1457
+
+1457.11.24 = {
+	monarch = {
+		name = "Jiriz"
+		dynasty = "z Podebrad"
+		adm = 8
+		dip = 6
+		mil = 5
+	}
+}
+
+1462.3.31 = { set_country_flag = compacta_keep }
+
+1471.3.23 = {
+	monarch = {
+		name = "Vladislav II"
+		dynasty = "Jagiellon"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+	heir = {
+		name = "Ludvik"
+		monarch_name = "Ludvik"
+		dynasty = "Jagiellon"
+		birth_date = 1463.1.1
+		death_date = 1526.8.30
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Ludvik"
+		dynasty = "Jagiellon"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1526.8.26 = {
+	elector = no
+	government = despotic_monarchy_2
+}
+
+#1526.8.30 Part of the Habsburg domain
+
+1526.8.30 = {
+	monarch = {
+		name = "Ferdinand"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1556.10.2 = {
+	government = absolute_monarchy_2
+}
+
+1562.9.17 = {
+	monarch = {
+		name = "Maximilian II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1564.7.27 = {
+	heir = {
+		name = "Rudolf"
+		monarch_name = "Rudolf II"
+		dynasty = "von Habsburg"
+		birth_date = 1552.7.18
+		death_date = 1612.1.22
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1576.10.14 = {
+	monarch = {
+		name = "Rudolf II"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Matthias"
+		monarch_name = "Matthias"
+		dynasty = "von Habsburg"
+		birth_date = 1557.2.24
+		death_date = 1619.3.22
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1610.1.1 = { leader = {	name = "Christian of Anhalt"   	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1630.4.17 } }
+
+1612.1.22 = {
+	monarch = {
+		name = "Mathias"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand II"
+		dynasty = "von Habsburg"
+		birth_date = 1578.7.9
+		death_date = 1637.2.15
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1615.1.1 = { leader = {	name = "Thurn"                 	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1640.1.28 } }
+
+1615.1.1 = { leader = {	name = "Wallenstein"           	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1634.2.25 } }
+
+1619.3.22 = {
+	monarch = {
+		name = "Ferdinand II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1620.11.8 = {
+	# secularism_theocracy = 2
+} #Battle of white mtn, protestant forces defeated and non-catholic services banned
+
+1621.1.1 = {
+	decision = judiciary_act
+}
+
+1637.2.15 = {
+	monarch = {
+		name = "Ferdinand III"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 4
+		mil = 8
+	}
+}
+
+1640.6.9 = {
+	heir = {
+		name = "Luitpold"
+		monarch_name = "Luitpold"
+		dynasty = "von Habsburg"
+		birth_date = 1640.6.9
+		death_date = 1705.5.7
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1656.4.4 = {
+	monarch = {
+		name = "Luitpold"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1678.7.26 = {
+	heir = {
+		name = "Josef"
+		monarch_name = "Josef"
+		dynasty = "von Habsburg"
+		birth_date = 1678.7.26
+		death_date = 1711.4.19
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1705.5.7 = {
+	monarch = {
+		name = "Josef"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl VI"
+		dynasty = "von Habsburg"
+		birth_date = 1685.10.1
+		death_date = 1740.10.22
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1711.4.19 = {
+	monarch = {
+		name = "Karl VI"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1717.5.13 = {
+	heir = {
+		name = "Maria Theresia"
+		monarch_name = "Maria Theresia"
+		dynasty = "von Habsburg"
+		birth_date = 1717.5.13
+		death_date = 1780.11.30
+		claim = 90
+		adm = 8
+		dip = 8
+		mil = 7
+		female = yes
+	}
+}
+
+1740.10.22 = {
+	monarch = {
+		name = "Maria-Theresa"
+		dynasty = "von Habsburg"
+		adm = 8
+		dip = 8
+		mil = 7
+		female = yes
+	}
+}
+
+1741.3.13 = {
+	heir = {
+		name = "Josef"
+		monarch_name = "Josef II"
+		dynasty = "von Habsburg"
+		birth_date = 1741.3.13
+		death_date = 1790.2.20
+		claim = 95
+		adm = 8
+		dip = 9
+		mil = 7
+	}
+}
+
+1780.11.30 = {
+	monarch = {
+		name = "Josef II"
+		dynasty = "von Habsburg"
+		adm = 8
+		dip = 9
+		mil = 7
+	}
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold II"
+		dynasty = "von Habsburg"
+		birth_date = 1747.5.5
+		death_date = 1792.3.1
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1790.2.20 = {
+	monarch = {
+		name = "Luitpold II"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1792.3.3 = {
+	monarch = {
+		name = "Franz II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1793.4.19 = {
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand"
+		dynasty = "von Habsburg"
+		birth_date = 1793.4.19
+		death_date = 1875.6.29
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}

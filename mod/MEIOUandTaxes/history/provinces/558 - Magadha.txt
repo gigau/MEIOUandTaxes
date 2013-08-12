@@ -1,0 +1,92 @@
+# 558 - Patna
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = bihari
+religion = hinduism
+capital = "Patna"
+trade_goods = silk
+hre = no
+base_tax = 8
+#manpower = 12
+manpower = 24
+citysize = 35000
+fort1 = yes
+marketplace = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = AHM
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = AHM
+	controller = AHM
+	revolt_risk = 0
+} #guessed date for independance from Delhi Sultanate
+1450.1.1  = { citysize = 40000 }
+1486.1.1  = {
+	owner = DLH
+	controller = DLH
+	add_core = DLH
+	remove_core = AHM
+} # Bahlul Lodi places his eldest surviving son Barbak Shah Lodi on the throne of Jaunpur
+1500.1.1  = { citysize = 50000 }
+1526.4.21 = {
+	controller = BNG
+} # Contested area with lots of different factions fighting eachother after Panipat
+1529.1.1  = {
+	owner = BNG
+	controller = REB
+	revolt = { type = pretender_rebels }
+} # Sur control
+1538.1.1  = {
+	controller = BNG
+	revolt = { }
+} # Gaur has fallen
+1538.6.1  = {
+	controller = MUG
+} # Mughal Invasion
+1539.1.1  = {
+	controller = BNG
+} # Surs again in control
+1550.1.1  = { citysize = 80000 }
+1553.1.1  = {
+	owner = AHM
+	controller = AHM
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1562.1.1  = {
+	owner = BNG
+	controller = BNG
+} #Remaining Sur lands unified
+1575.1.1  = {
+	owner = MUG
+	controller = MUG
+   	add_core = MUG
+} # Annexed to the Mughal Empire
+1600.1.1  = { citysize = 180000 }
+1627.1.1  = { discovered_by = POR }
+1630.1.1  = { marketplace = yes }
+1650.1.1  = { citysize = 170000 }
+1700.1.1  = { citysize = 175000 }
+1707.3.15 = {
+	owner = BNG
+	controller = BNG
+}
+1750.1.1  = { citysize = 200000 }
+1765.1.1  = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # Given to GBR by Mughal Empire (was formerly british puppet)
+1772.1.1  = { revolt_risk = 5 } # Paharia revolt
+1780.1.1  = { revolt_risk = 7 } # Revolt led by Tilka Manjhi
+1785.1.1  = { revolt_risk = 2 }
+1795.1.1  = { revolt_risk = 6 } # Tamar revolt, Munda revolt
+1800.1.1  = { citysize = 235000 }

@@ -1,0 +1,76 @@
+# 840 - Poqomam
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAY
+controller = MAY
+add_core = MAY
+culture = quichean
+religion = teotl
+capital = "Jilotepec"
+
+
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 30000
+trade_goods = coffee
+
+fort1 = yes
+temple = yes
+marketplace = yes
+
+discovered_by = new_world
+
+hre = no
+
+1522.1.1   = {
+	discovered_by = SPA
+}
+1536.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "Gracias"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	base_tax = 4
+#	manpower = 2
+	manpower = 4
+	trade_goods = coffee
+	fort1 = yes
+}
+1561.1.1   = {
+	add_core = SPA
+	citysize = 500
+}
+1600.1.1   = {
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 10000
+}
+1800.1.1   = {
+	citysize = 25000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+	add_core = CAM
+} # Treaty of Cord�ba
+1823.7.10  = {
+	owner = CAM
+	controller = CAM
+	remove_core = MEX
+}

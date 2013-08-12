@@ -1,0 +1,90 @@
+# 1377 - Monfrà
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MFT
+controller = MFT
+culture = piedmontese
+religion = catholic
+hre = yes
+base_tax = 5
+trade_goods = wine
+#manpower = 4
+manpower = 8
+fort1 = yes
+capital = "Monfrà"
+citysize = 5000 # Estimated
+add_core = MFT
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1 = { citysize = 6000 }
+1399.1.1 = { citysize = 7500 }
+1453.1.1 = { citysize = 10000 }
+1500.1.1 = {
+	citysize = 11000
+}
+1533.1.1 = {
+	controller = SPA
+}
+1536.1.1 = {
+	owner = MAN
+	controller = MAN
+	add_core = MAN
+	add_core = SAV
+}
+1550.1.1 = {
+	citysize = 12500
+}
+1600.1.1 = {
+	citysize = 15000
+	fort3 = yes
+}
+1618.1.1  =  { hre = no }
+1650.1.1 = {
+	citysize = 17500
+}
+1700.1.1 = {
+	citysize = 20000
+	fort4 = yes
+}
+1708.6.30 = {
+	controller = SAV
+	owner = SAV
+	remove_core = MAN
+	remove_core = MFT
+}
+1713.4.11  = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+} # Treaty of Utrecht(2) gave Sicily to House of Savoy 
+1718.8.2  = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1750.1.1   = {
+	citysize = 25000
+}
+1792.4.20  = {
+	controller = FRA
+} # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25 = { owner = RFR add_core = RFR } # The Republic of Alba
+1800.1.1   = {
+	citysize = 30000
+}
+1814.4.11  = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

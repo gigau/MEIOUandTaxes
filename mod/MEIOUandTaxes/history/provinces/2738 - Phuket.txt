@@ -1,0 +1,51 @@
+#  - Phuket
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NST
+controller = NST
+culture = monic
+religion = theravada
+capital = "Thalang"
+
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 1700
+trade_goods = tin
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = NST
+}
+1467.4.8 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = NST
+	revolt_risk = 0
+}
+1500.1.1 = { citysize = 1965 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 2850 }
+1600.1.1 = { citysize = 3220 }  
+## add prov modif chinese_merchants_minority
+1650.1.1 = { citysize = 3654 }
+1682.1.1 = { owner = FRA controller = FRA }
+1688.6.1 = { owner = AYU controller = AYU }
+##1689.4.10  controller = FRA   ??war fra-ayu??
+##1690.1.10  CONTROLLER = AYU
+1690.1.1 = { citysize = 3000 }
+1750.1.1 = { citysize = 3700 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 4000 }

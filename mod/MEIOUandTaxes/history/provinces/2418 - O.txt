@@ -1,0 +1,49 @@
+# 2418 - Bo Chinh
+# LS - Indochina set up
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHA
+controller = CHA
+add_core = CHA
+culture = cham
+religion = hinduism
+capital = "Hue"		####"Bo Chinh"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 15000
+trade_goods = fish
+
+fort1 = yes
+terrain1 = yes
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1471.4.1 = { owner = DAI controller = DAI add_core = DAI culture = vietnamese religion = mahayana citysize = 12000 manpower = 4 } # Severe defeat against the Vietnamese
+1500.1.1 = { citysize = 14000 }
+1535.1.1 = { discovered_by = POR }
+1558.1.1 = { owner = ANN controller = ANN add_core = ANN  manpower = 6 }
+1600.1.1 = { citysize = 21000 }
+#1650.1.1 = { citysize = 20000}
+1692.1.1 = { revolt_risk = 6 } # Rebellion against the Vietnamese
+1693.1.1 = { revolt_risk = 0 citysize = 10000} # Plague
+#1700.1.1 = { citysize = 20000 }
+#1750.1.1 = { citysize = 20000}
+1786.1.1 = { revolt_risk = 5 } # Unsuccessful revolt
+1787.1.1 = { revolt_risk = 0 }
+#1800.1.1 = { citysize = 20000 }
+1802.7.21 = { owner = DAI controller = DAI add_core = DAI remove_core = ANN }
+1883.8.25 = { 
+	owner = FRA
+	controller = FRA
+}

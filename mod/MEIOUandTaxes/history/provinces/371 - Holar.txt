@@ -1,0 +1,41 @@
+# East Iceland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ICE
+controller = ICE
+add_core = ICE
+culture = norse
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+#manpower = 1
+manpower = 2
+capital = "Akureyri"
+citysize = 1100		# Estimated
+
+discovered_by = western
+
+1262.1.1   = {
+	owner = NOR
+	controller = NOR
+	add_core = NOR 
+	remove_core = ICE
+}
+1500.1.1 = { citysize = 1250 }
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = NOR
+}
+1540.1.1 = { religion = protestant }
+1550.1.1 = { citysize = 1600 }
+1600.1.1 = { citysize = 1950 }
+1650.1.1 = { citysize = 2400 }
+1700.1.1 = { citysize = 2900 }
+1752.1.1 = { trade_goods = wool citysize = 3060 } # Wool becomes more important.
+1783.6.8 = { citysize = 3660 } # Volcanic eruptions, one quarter dies of starvation
+1800.1.1 = { citysize = 4300 }
+1814.5.17 = { owner = DEN controller = DEN add_core = DEN remove_core = DAN }

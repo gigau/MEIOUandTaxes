@@ -1,0 +1,82 @@
+# BUL - Bulgaria
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -3
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1331.1.1 = {
+	monarch = {
+		name = "Ivan Alexander"
+		dynasty = "Asen"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Michail"
+		monarch_name = "Michail Asen"
+		dynasty = "Asen"
+		birth_date = 1325.1.1
+		death_date = 1393.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1371.1.1 = {
+	monarch = {
+		name = "Ivan Schischman"
+		dynasty = "Asen"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Ivan Stratsimir"
+		dynasty = "Asen"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Konstantinos"
+		monarch_name = "Konstantinos II"
+		dynasty = "Asen"
+		birth_date = 1371.1.1
+		death_date = 1441.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1396.1.1 = {
+	monarch = {
+		name = "Konstantinos II"
+		dynasty = "Asen"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+# 1422 conquest by the Ottomans

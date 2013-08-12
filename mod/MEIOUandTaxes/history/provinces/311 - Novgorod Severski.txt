@@ -1,0 +1,69 @@
+# 311 - Starodub
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIE
+controller = KIE
+culture = ruthenian
+religion = orthodox	
+capital = "Starodub"
+
+base_tax = 5
+#manpower = 3	
+manpower = 6	
+citysize = 5706
+trade_goods = iron
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1  = {
+	add_core = KIE   
+	add_core = LIT    
+}
+1362.12.25 = {
+	owner = LIT
+	controller = LIT
+} # Aftermath of the Battle of Blue Waters
+1482.1.1   = { citysize = 4500 } # Burned by Crimean Tatars
+1500.1.1   = { citysize = 4750 }
+1503.1.1   = { controller = MOS }
+1503.3.21  = { owner = MOS add_core = MOS }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 7898 }
+1598.1.1   = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1   = { citysize = 9292 }
+1610.1.1   = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+	add_core = PLC
+	remove_core = RUS
+}
+1613.1.1   = { revolt_risk = 0 } # Order returned, Romanov dynasty
+#1648.1.1  = { add_core = UKR culture = ukrainian } # Chmielnicki uprising, civil war
+1650.1.1   = { citysize = 10931 fort2 = yes } # Military and territorial unit at the time
+1654.1.1   = {
+	add_core = RUS
+}
+1680.1.1   = { regimental_camp = yes } # Ivan Mazeppa’s baroque army building.
+1700.1.1   = { citysize = 12861 }
+1750.1.1   = { citysize = 15130 }
+1775.5.7   = {
+	owner = RUS
+	controller = RUS
+} # Host disbanded by Empress Catherine II
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising, minimize the Russian influence
+1794.11.16 = { revolt_risk = 0 }
+1800.1.1   = { citysize = 17800 }

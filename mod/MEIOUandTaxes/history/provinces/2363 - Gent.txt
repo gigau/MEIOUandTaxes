@@ -1,0 +1,123 @@
+#2363 - Gent
+#Cities : gent, oudenaarde
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+ 
+owner = FLA
+controller = FLA
+add_core = FLA
+culture = flemish
+religion = catholic
+capital = "Gent"
+
+base_tax = 13
+#manpower = 7
+manpower = 14
+citysize = 60000
+trade_goods = cloth
+
+marketplace = yes
+courthouse = yes # Exception, organised in this region
+textile = yes
+workshop = yes
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1   = { citysize = 65000 }
+1385.1.1   = { revolt = { type = nationalist_rebels size = 0 } owner = BUR controller = BUR add_core = BUR add_core = FRA }
+1399.1.1   = { citysize = 70000 }
+1453.7.23  = { citysize = 80000 controller = BUR revolt = { } } # Battle of Gavere, Flemish cities under the leadership of Ghent defeated
+1477.1.5  = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18 = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1488.1.1   = { controller = REB } # Flanders rises up against Maximilian of Austria
+1492.7.12  = { controller = HAB revolt_risk = 0 } # Peace of Cadzand, the power of the cities is broken
+1500.1.1   = { citysize = 110000 }
+1510.1.1   = { fort2 = yes }
+1528.1.1   = { revolt_risk = 5 } # Charles V begins to raise taxes
+1529.8.3   = { remove_core = FRA } # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces its claims
+1537.8.15  = { controller = REB } # Citizens of Ghent rise up against Charles V
+1540.4.30  = { controller = HAB revolt_risk = 0 } # Charles V punishes Ghent severely, power of the city broken
+1548.6.26  = { hre = yes } # Flanders incorporated into the Holy Roman Empire
+1549.11.4  = { add_core = NED remove_core = FLA }
+1550.1.1   = { citysize = 175000 }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics established in the Lowlands create an outrage
+1560.1.1   = { fort3 = yes } # Strenghtened 'dwangforten' in Antwerp & Ghent
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I advocates harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1566.8.1   = { revolt_risk = 4 } # 'Beeldenstorm' at hand
+1566.8.10  = { controller = REB } # 'Beeldenstorm' sweeps through Flanders
+1567.1.20  = { controller = SPA } # Spain regains control
+1567.9.10  = { revolt_risk = 5 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 7 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 11 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 17 constable = yes } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1   = { religion = reformed }
+1577.2.12  = { revolt_risk = 11 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1577.10.28 = { controller = REB } # A Calvinist coup d'état hits Ghent and expands through Flanders
+1579.1.6   = { add_core = EBU }
+1579.1.23  = { controller = NED revolt_risk = 0 } # Union of Utrecht - Flanders joins
+1585.1.1   = { regimental_camp = yes } # Staging point for most armies
+1585.8.27  = { controller = SPA revolt_risk = 5 religion = catholic  } # Alessandro Farnese captures Antwerp after a 14-month long siege
+1590.1.1   = { workshop = yes } # Ahead of its time
+1600.1.1   = { citysize = 105000 }
+1600.7.2   = { controller = NED } # Maurice of Nassau beats the Spanish at Nieuwpoort, but has to retreat soon after
+1604.1.1   = { controller = SPA } # Spinola retakes Ostend and most of Flanders
+1630.1.1   = { customs_house = yes }
+1648.1.30  = { remove_core = NED revolt_risk = 0 } # Peace of Münster/Westphalia
+1650.1.1   = { citysize = 150000 } 
+1665.9.17  = { add_core = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
+1672.5.1   = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19  = { controller = SPA } # Treaty of Nijmegen (France-Spain)
+1700.1.1   = { citysize = 159000 } 
+1707.5.12  = { controller = GBR }
+1713.4.11  = { owner = HAB controller = HAB add_core = HAB remove_core = SPA } # Treaty of Utrecht
+1715.1.1   = { fort4 = yes } # Barrier cities against France after the 'Barrier Treaty'
+1715.9.1   = { remove_core = FRA } # Louis XIV passes away
+1725.1.1   = { mint = yes }
+1744.4.1   = { controller = FRA } # France captures Flanders in the Austrian War of Succession
+1744.7.1   = { controller = HAB } # France withdraws
+1745.5.10  = { controller = FRA } # France takes back most of Flanders
+1748.10.18 = { controller = HAB } # Peace of Aachen
+1750.1.1   = { citysize = 113000 }
+1789.11.13 = { controller = REB}
+1790.1.11  = {
+	owner = EBU
+	controller = EBU
+}
+1791.1.1   = {
+	owner = HAB
+	controller = HAB
+}
+1792.12.1  = { controller = RFR } # Conquered by the French troops under Dumouriez
+1793.3.18  = { controller = HAB } # Reconquered by Prince Josias of Coburg
+1795.5.16  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Treaty of Den Haag, ceded to the French Republic
+1798.10.12 = { controller = REB } # Revolt against French rule, "Boerenkrijg"
+1798.12.1  = { controller = RFR }
+1800.1.1   = { citysize = 143000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.16   = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = FRA
+} # The United Kingdom of the Netherlands
+1830.1.1    = {
+	owner = EBU
+	controller = EBU
+}

@@ -1,0 +1,73 @@
+# 550 - Gird
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GWA
+controller = GWA
+culture = bundeli
+religion = hinduism
+capital = "Gwalior"
+trade_goods = cloth
+hre = no
+base_tax = 6
+#manpower = 6
+manpower = 12
+citysize = 50000
+add_core = GWA
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1415.1.1 = {
+	controller = DLH
+} # Conquered by Delhi
+1416.1.1 = {
+	owner = DLH
+	add_core = DLH
+} # Conquered by Delhi
+1450.1.1 = { citysize = 78000 }
+1500.1.1 = { citysize = 90000 }
+1526.4.1  = {
+	controller = KAB
+} #Conquered by Babur
+1526.4.21 = {
+	owner = GWA
+	controller = GWA
+} # Panipat
+1527.1.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Mughals
+1540.1.1 = {
+	owner = GWA
+	controller = GWA
+} # Sher Shah Conquers Delhi
+1543.1.1 = {
+	owner = BNG
+	controller = BNG
+	fort4 = yes
+} # Suri Expansion
+1550.1.1 = { citysize = 70000 }
+1553.1.1 = {
+	owner = DLH
+	controller = DLH
+	remove_core = BNG
+ } #Death of Islam Shah Sur, Suri empire split
+1558.1.1  = { controller = MUG }	#Gwalior surrenders after almost a two year seige
+1558.2.1  = { owner = MUG  }
+1600.1.1  = { citysize = 55000 }
+1650.1.1  = { citysize = 39000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 30000 }
+1707.5.12 = { discovered_by = GBR }
+1737.1.1  = {
+	owner = GWA
+	controller = GWA
+	add_core = GWA
+	remove_core = MUG
+}
+1750.1.1  = { citysize = 45000 }
+1800.1.1  = { citysize = 60000 }

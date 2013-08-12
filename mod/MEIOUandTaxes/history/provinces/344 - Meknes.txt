@@ -1,0 +1,44 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FEZ
+controller = FEZ
+add_core = MOR
+add_core = FEZ  
+culture = fassi
+religion = sunni
+capital = "Meknes"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 60478
+trade_goods = olive
+
+fort1 = yes
+marketplace = yes
+
+
+discovered_by = TUA
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1500.1.1 = { citysize = 62044 }
+1511.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1550.1.1 = { citysize = 63571 }
+1600.1.1 = { citysize = 65778 }
+1603.1.1 = { revolt_risk = 5 } # The death of the Saadita Ahmad I al-Mansur
+1604.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 67020 }
+1659.1.1 = { revolt_risk = 7 } # The last ruler of Saadi is overthrown
+1660.1.1 = { revolt_risk = 3}
+1672.1.1 = { revolt_risk = 4 } # Oppositions against Ismail, & the idea of a unified state
+1700.1.1 = { citysize = 68302 }
+1727.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 69647 }
+1800.1.1 = { citysize = 71660 }

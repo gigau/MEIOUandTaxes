@@ -1,0 +1,102 @@
+# Kingdom of Naples
+# KNP
+
+graphical_culture = latingfx
+
+#color = { 25  191  154 }
+color = { 25  141  104 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+}
+
+monarch_names = {
+	"Francesco #0" = 200
+	"Carlo #0" = 140
+	"Alfonso #0" = 120
+	"Ferdinando #0" = 100
+	"Vittorio Amedeo #0" = 80
+	"Federigo #0" = 60
+	"Cosimo #0" = 60
+	"Ercole #0" = 60
+	"Ludovico #0" = 40
+	"Amedeo #0" = 40
+	"Alessandro #0" = 40
+	"Borso #0" = 40
+	"Carlo Emanuele #0" = 40
+	"Filiberto #0" = 40
+	"Filippo #0" = 40
+	"Francesco #0 Maria" = 40
+	"Guidobaldo #0" = 40
+	"Ranuccio #0" = 40
+	"Vincenzo #0" = 40
+	"Antonio #0" = 20
+	"Carlo Felice #0" = 20
+	"Cesare #0" = 20
+	"Emanuele Filiberto #0" = 20
+	"Fabio #0" = 20
+	"Francesco Giacinto #0" = 20
+	"Francesco #0 Stefano" = 20
+	"Galeazzo Maria #0" = 20
+	"Gian Galeazzo #0" = 20
+	"Gian Gastone #0" = 20
+	"Giovanni Maria #0" = 20
+	"Guglielmo #0" = 20
+	"Ludovico #4 Maria" = 20
+	"Lorenzo #0" = 20
+	"Massimiliano #0" = 20
+	"Odoardo #0" = 20
+	"Ottavio #0" = 20
+	"Pier Luigi #0" = 20
+	"Pietro Leopoldo #0" = 20
+	"Rafaello #0" = 20
+	"Rinaldo #0" = 20
+	"Bernardo #1" = 10
+	"Sigismondo #1" = 10
+	"Folco #0" = 10
+	"Gaspare #0" = 10
+	"Gherardo #0" = 10
+	"Girolamo #0" = 10
+	"Giulio #0" = 10
+	"Obizzo #0" = 10
+	"Pietro #0" = 10
+	"Vittorio #0" = 10
+}
+
+leader_names = {
+	"d'Appiani d'Aragona" "Arborio Mella" 
+	Barberini Barzagli Boncompagni Borghese Borromeo Buonarroti "di Busca"
+	"di Campofregoso" Carafa "di Cardé" "del Carreto" Casanova Castagna
+	Castagnaro "di Cavour" Chigi Colonna Contarini Conti Corsini Cybo 
+	"Doria di Cirié" Doria-Landi Doria-Pamphili
+	d'Este 	"di Farnese" "di Ferrari"
+	"Gaetani dell'Aquila" Galilei Gambacorta Gentileschi Giustiniani Gonzaga Grimaldi
+	Ludovisi Malaspina "di Medici" Melzi Montefeltro Orsini
+	"di Paesana" "Paleologi Montferrato" Pallavicini Paradisi Petrucci Pico Pignatelli
+	"dalla Rosa" "della Rovere"
+	"di Saluzzo" "di Savoia" Sfondrati Sforza Spinola
+	"della Torre" "della Ubaldini" Vico Visconti
+}
+
+ship_names = {
+	Medea Vulcano Gloria Minerva Laatea
+	Diligenza Vittoria Eolo Concordia Forza 
+	Fama Sirena Falcon Ercole Idra "San Andrea"
+	"San Zaccaria" "San Spiridon" "San Gaetano"
+	"Fortuna Guerriera" Terror Aquileta Constanza
+	"Regina del Mar" "San Nicolo" Nettuno Rosa
+	Fenice Iride Aurora Tigre Giove "Rizzo d'Oro"
+	"Amazzone Guerriera"
+}

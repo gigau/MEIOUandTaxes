@@ -1,0 +1,118 @@
+# CRO - Croatia
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 2388		# Solin, with Zadar and Biograd, capital of Medieval Croatia
+
+1342.7.16 = {
+	monarch = {
+		name = "Lajos"
+		dynasty = "Angevin"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1382.9.10 = {
+	monarch = {
+		name = "Mária"
+		dynasty = "Angevin"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1387.3.31 = {
+	monarch = {
+		name = "Zsigmond"
+		dynasty = "von Luxemburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+1437.12.9 = {
+	monarch = {
+		name = "Albert"
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1439.10.27 = {
+	monarch = {
+		name = "Wladyslaw III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1444.11.11 = {
+	monarch = {
+		name = "László V"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1457.11.24 = {
+	monarch = {
+		name = "Hunyadi Mátyás"
+		dynasty = "Corvin"
+		adm = 7
+		dip = 8
+		mil = 8
+	}
+}
+1490.4.7 = {
+	monarch = {
+		name = "Ulászló II"
+		dynasty = "Jagiellon"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+1516.3.14 = {
+	monarch = {
+		name = "Lajos II"
+		dynasty = "Jagiellon"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1526.8.30 = {
+	monarch = {
+		name = "János"
+		dynasty = "Szapolyai"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+1557.1.1  = {
+	capital = 131 	# Zagreb
+}

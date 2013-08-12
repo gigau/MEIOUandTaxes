@@ -1,0 +1,39 @@
+#Severniy Ural
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SIB
+controller = SIB
+culture = siberian
+religion = shamanism
+capital = "Kudymkar"
+trade_goods = fur
+hre = no
+base_tax = 5
+#manpower = 1
+manpower = 2
+citysize = 1000
+
+discovered_by = SIB
+discovered_by = BLU
+discovered_by = WHI
+
+1356.1.1 = {
+	add_core = SIB
+}
+1500.1.1 = { citysize = 2400 }
+1570.1.1 = { religion = sunni }
+1585.1.1 = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SIB
+	citysize = 1633
+	culture = russian
+	religion = orthodox
+} # Yermak Timofeevich, annexed to Muscovy
+1600.1.1 = { citysize = 2350 }
+1650.1.1 = { citysize = 3555 }
+1700.1.1 = { citysize = 4800 }
+1750.1.1 = { citysize = 5917 }
+1800.1.1 = { citysize = 6100 }

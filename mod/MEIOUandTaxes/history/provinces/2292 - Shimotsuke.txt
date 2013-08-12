@@ -1,0 +1,41 @@
+# 2292 - Shimotzuke
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = USG
+controller = USG
+culture = kanto
+religion = shinbutsu
+capital = "Minowa"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 55500
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = USG
+}
+1400.1.1 = { citysize = 56000 }
+1450.1.1 = { citysize = 57000 }
+1500.1.1 = { citysize = 59000 }
+1550.1.1 = { citysize = 61000 }
+1600.1.1 = { citysize = 64000 }
+1600.9.15 = {
+	owner = TGW
+	controller = TGW
+} # Battle of Sekigahara
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 67000 }
+1700.1.1 = { citysize = 71000 }
+1750.1.1 = { citysize = 75000 }
+1800.1.1 = { citysize = 80000 }

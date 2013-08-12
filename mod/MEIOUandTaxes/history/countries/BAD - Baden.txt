@@ -1,0 +1,501 @@
+# BAD - Baden
+# 2009-dec-28 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = schwabisch
+religion = catholic
+technology_group = western
+capital = 1349 # Durlach	
+
+1291.7.12 = {
+	monarch = {
+		name = "Rudolf IV"
+		dynasty = "von Baden"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Rudolf"
+		monarch_name = "Rudolf VI"
+		dynasty = "von Baden"
+		birth_date = 1291.7.12
+		death_date = 1353.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1348.6.25 = {
+	monarch = {
+		name = "Friedrich III"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Rudolf"
+		monarch_name = "Rudolf VI"
+		dynasty = "von Baden"
+		birth_date = 1320.1.1
+		death_date = 1360.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1353.1.1 = {
+	monarch = {
+		name = "Rudolf VI"
+		dynasty = "von Baden"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1360.1.1 = {
+	heir = {
+		name = "Bernhard"
+		monarch_name = "Bernhard"
+		dynasty = "von Baden"
+		birth_date = 1360.1.1
+		death_date = 1431.5.6
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Bernhard"
+		dynasty = "von Baden"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1397.3.1 = {
+	heir = {
+		name = "Jakob"
+		monarch_name = "Jakob"
+		dynasty = "von Baden"
+		birth_date = 1397.3.1
+		death_date = 1453.10.14
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}
+
+1431.5.6 = {
+	monarch = {
+		name = "Jakob"
+		dynasty = "von Baden"
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Bernhard"
+		monarch_name = "Bernhard II"
+		dynasty = "von Baden"
+		birth_date = 1428.1.1
+		death_date = 1458.7.13
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1453.10.14 = {
+	monarch = {
+		name = "Bernhard II"
+		dynasty = "von Baden"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl"
+		dynasty = "von Baden"
+		birth_date = 1429.1.1
+		death_date = 1475.2.23
+		claim = 90
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1458.7.13 = {
+	monarch = {
+		name = "Karl"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Christoph"
+		monarch_name = "Christoph"
+		dynasty = "von Baden"
+		birth_date = 1453.11.13
+		death_date = 1527.3.19
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+}
+
+1475.2.23 = {
+	monarch = {
+		name = "Christoph"
+		dynasty = "von Baden"
+		adm = 7
+		dip = 7
+		mil = 3
+	}
+	heir = {
+		name = "Bernhard"
+		monarch_name = "Bernhard III"
+		dynasty = "von Baden"
+		birth_date = 1474.10.7
+		death_date = 1536.6.29
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1515.4.20 = {
+	monarch = {
+		name = "Bernhard III"
+		dynasty = "von Baden"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	leader = {
+		name = "Georg Truchsess"
+	      	type = general
+		rank = 0
+		fire = 1
+		shock = 2
+		manuever = 3
+		siege = 1
+		death_date = 1543.1.1
+	}
+}
+
+1536.1.22 = {
+	heir = {
+		name = "Philibert"
+		monarch_name = "Philibert"
+		dynasty = "von Baden"
+		birth_date = 1536.1.22
+		death_date = 1569.10.4
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+1536.6.30 = {
+	monarch = {
+		name = "Philibert"
+		dynasty = "von Baden"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+}
+
+1559.2.19 = {
+	heir = {
+		name = "Philipp"
+		monarch_name = "Philipp II"
+		dynasty = "von Baden"
+		birth_date = 1559.2.19
+		death_date = 1588.6.12
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1569.10.4 = {
+	monarch = {
+		name = "Philipp II"
+		dynasty = "von Baden"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Eduard Fortunatus"
+		monarch_name = "Eduard Fortunatus"
+		dynasty = "von Baden"
+		birth_date = 1565.9.17
+		death_date = 1600.6.18
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1588.6.12 = {
+	monarch = {
+		name = "Eduard Fortunatus"
+		dynasty = "von Baden"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Ernst Friedrich"
+		monarch_name = "Ernst Friedrich"
+		dynasty = "von Baden"
+		birth_date = 1560.10.17
+		death_date = 1604.4.15
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "Ernst Friedrich"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+	heir = {
+		name = "Georg Friedrich"
+		monarch_name = "Georg Friedrich"
+		dynasty = "von Baden"
+		birth_date = 1573.1.30
+		death_date = 1638.9.24
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 7
+	}
+}
+
+1604.4.15 = {
+	monarch = {
+		name = "Georg Friedrich"
+		dynasty = "von Baden"
+		adm = 7
+		dip = 4
+		mil = 7
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm I"
+		dynasty = "von Baden"
+		birth_date = 1593.7.30
+		death_date = 1677.5.23
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1622.4.13 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Baden"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1655.4.8 = {
+	heir = {
+		name = "Ludwig Wilhelm"
+		monarch_name = "Ludwig Wilhelm"
+		dynasty = "von Baden"
+		birth_date = 1655.4.8
+		death_date = 1707.1.5
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 7
+		leader = { 
+			name = "Ludwig-Wilhelm"
+			type = general
+			rank = 0
+			fire = 2
+			shock = 3
+			manuever = 2
+			siege = 0
+		}
+	}
+}
+
+1677.5.23 = {
+	monarch = {
+		name = "Ludwig Wilhelm"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 7
+		mil = 7
+		leader = {
+			name = "Ludwig-Wilhelm"
+			type = general
+			rank = 0
+			fire = 2
+			shock = 3
+			manuever = 2
+			siege = 0
+		}
+	}
+}
+
+1702.6.7 = {
+	heir = {
+		name = "Georg Simpert"
+		monarch_name = "Ludwig Georg Simpert"
+		dynasty = "von Baden"
+		birth_date = 1702.6.7
+		death_date = 1761.10.22
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1707.1.5 = {
+	monarch = {
+		name = "Ludwig Georg Simpert"
+		dynasty = "von Baden"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "August"
+		monarch_name = "August Georg Simpert"
+		dynasty = "von Baden"
+		birth_date = 1706.1.14
+		death_date = 1771.10.22
+		claim = 95
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+}
+
+1761.10.23 = {
+	monarch = {
+		name = "August Georg Simpert"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+	heir = {
+		name = "Karl Friedrich"
+		monarch_name = "Karl Friedrich"
+		dynasty = "von Baden"
+		birth_date = 1728.11.22
+		death_date = 1811.6.11
+		claim = 95
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+}
+
+1771.10.22 = {
+	monarch = {
+		name = "Karl Friedrich"
+		dynasty = "von Baden"
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+}
+
+1786.6.8 = {
+	heir = {
+		name = "Karl Ludwig Friedrich"
+		monarch_name = "Karl Ludwig Friedrich"
+		dynasty = "von Baden"
+		birth_date = 1786.6.8
+		death_date = 1818.12.5
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1811.6.11 = {
+	monarch = {
+		name = "Karl Ludwig Friedrich"
+		dynasty = "von Baden"
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+}
+
+1818.12.5 = {
+	monarch = {
+		name = "Ludwig"
+		dynasty = "von Baden"
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold"
+		dynasty = "von Baden"
+		birth_date = 1790.8.29
+		death_date = 1852.4.24
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 4
+	}
+}

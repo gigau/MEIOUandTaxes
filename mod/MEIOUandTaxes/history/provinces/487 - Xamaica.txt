@@ -1,0 +1,89 @@
+# 487 - Xamaica
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Xamaica"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 15 
+native_ferocity = 2
+native_hostileness = 6
+
+1494.1.1  = {
+	discovered_by = CAS
+	owner = CAS
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 350
+	capital = "Port Royal"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # Christopher Columbus
+1500.1.1  = {
+	citysize = 1670
+} 
+1516.1.23 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+}
+1519.1.1  = {
+	add_core = SPA 
+	citysize = 2670
+}
+1550.1.1  = {
+	citysize = 10200
+} 
+1600.1.1  = {
+	citysize = 12000
+}
+1650.1.1  = {
+	citysize = 7300
+} # Earhtquakes
+1655.1.1  = {
+	owner = ENG
+	controller = ENG
+	culture = english
+	religion = anglican
+	remove_core = SPA
+} # General Venables seized the island
+1680.1.1  = {
+	add_core = ENG
+}
+1685.1.1  = {
+	marketplace = yes
+} # During the British rule, Jamaica became the worlds largest sugar exporting nation
+1693.1.1  = {
+	capital = "Kingston" }
+1700.1.1  = {
+	citysize = 12610
+} # African slave labor
+1707.5.12 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}
+1750.1.1  = {
+	citysize = 19550
+}
+1760.1.1  = {
+	revolt_risk = 4
+} # Slave rebellion
+1761.1.1  = {
+	revolt_risk = 0
+}
+1795.1.1  = {
+	revolt_risk = 4
+} # Slave rebellion
+1796.1.1  = {
+	revolt_risk = 0
+}
+1800.1.1  = {
+	citysize = 23000
+}

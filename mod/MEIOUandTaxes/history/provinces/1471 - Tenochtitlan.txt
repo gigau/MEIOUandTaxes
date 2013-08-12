@@ -1,0 +1,113 @@
+# 1471 - Tenochtitlan
+# GG - 28/07/2008
+# Mesoamerican mod v1
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEN
+controller = TEN
+add_core = TEN
+culture = nahuatl
+religion = teotl
+capital = "Mexihco" 
+
+base_tax = 12
+#manpower = 6
+manpower = 12
+citysize = 100000
+trade_goods = gold 
+
+fort1 = yes
+cot = yes
+temple = yes
+marketplace = yes
+terrain3 = yes
+
+hre = no
+
+discovered_by = new_world
+
+1356.1.1 = {
+	set_province_flag = terrain3
+}
+1375.1.1  = {
+	citysize = 150000
+}
+1400.1.1  = {
+	citysize = 200000
+	base_tax = 13
+#	manpower = 7
+	manpower = 14
+}
+1428.1.1  = {
+	citysize = 250000
+	owner = AZT
+	controller = AZT
+	add_core = AZT
+	remove_core = TEN
+}
+1450.1.1  = {
+	citysize = 300000
+	base_tax = 14
+#	manpower = 8
+	manpower = 16
+}
+1475.1.1  = {
+	citysize = 350000
+}
+1500.1.1  = {
+	citysize = 400000
+	base_tax = 15
+#	manpower = 9
+	manpower = 18
+}
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1521.8.13  = {
+	owner = SPA
+	controller = SPA
+	citysize = 10000
+	base_tax = 10
+#	manpower = 5
+	manpower = 10
+} #Fall of Tenochtitlan
+1524.8.1   = {
+	capital = "Mexico"
+}
+1546.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 20000
+}
+1650.1.1   = {
+	citysize = 40000
+}
+1700.1.1   = {
+	citysize = 60000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 150000
+}
+1800.1.1   = {
+	citysize = 300000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+1832.10.1  = {
+	revolt_risk = 3
+} # Convention of 1832
+1833.4.1   = {
+	revolt_risk = 6
+} # Convention of 1833

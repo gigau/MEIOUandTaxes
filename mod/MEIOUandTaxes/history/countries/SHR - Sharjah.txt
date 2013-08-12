@@ -1,0 +1,67 @@
+# SHR - Sharjah
+
+government = noble_republic
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4
+# secularism_theocracy = 1
+technology_group = muslim
+religion = shiite
+primary_culture = bahrani
+capital = 467	# Sharjah
+
+1719.1.1= {
+	monarch = {
+		name = "Rashid"
+		dynasty = "Al Qasimi"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1777.1.1 = {
+	monarch = {
+		name = "Saqr I"
+		dynasty = "Al Qasimi"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Sultan I"
+		dynasty = "Al Qasimi"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "ah-Husayn"
+		dynasty = "Al Qasimi"
+		DIP = 3
+		ADM = 6
+		MIL = 5
+	}
+}
+
+1814.1.1 = {
+	monarch = {
+		name = "al-Hasan"
+		dynasty = "Al Qasimi"
+		DIP = 4
+		ADM = 5
+		MIL = 5
+	}
+}

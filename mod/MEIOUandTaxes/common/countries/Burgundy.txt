@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+color = { 148  30  70 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	halberd_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+
+	"Antoine #0" = 0
+	"Charles #0" = 40
+	"Claude #0" = 0
+	"Etienne #0" = 0
+	"Eudes #4" = 5
+	"Geoffroy #0" = 0
+	"Girard #0" = 0
+	"Guillaume #0" = 0
+	"Guy #0" = 0
+	"Henri #2" = 5
+	"Hugues #5" = 5
+	"Jacques #0" = 0
+	"Jean #0" = 40
+	"Michel #0" = 0
+	"Nicolas #0" = 0
+	"Philippe #1" = 80
+	"Pierre #0" = 0
+	"Robert #2" = 5
+}
+
+leader_names = {
+	d'Auxy
+	Armenier Bouton Chuffaing Perron Poinceot Pot
+	"le Marlet"
+	"de l'Aubespin" "de la Guiche" "de la Trémoille" "des Barres"
+	"de Baubigny" "de Bauffremont" "de Blaisy" "de Brimeu" "de Buxy"
+	"de Châlon" "de Chancey" "de Chantemerle" "de Chaugy" "de Choiseul" "de Clugny" "de Couches" "de Courcelles" "de Courtiamble" "de Créquy" "de Croy" "de Crux"
+	"de Damas"
+	"de Frolois"
+	"de Grailly" "de Grancey" "de Granson"
+	"de Janly" "de Jaucourt"
+	"de Lalaing" "de Lannoy" "de Larrey" "de Lugny"
+	"de Mailly" "de Masmines" "de Mello" "de Montaigu" "de Montconis" "de Neufchâtel"
+	"de Noyelles" "de Noyers"
+	"de Pontailler"
+	"de Ray" "de Rochefort" "de Roussillon" "de Roye"
+	"de Salins" "de Saulx" "de Sercey" "de Sombernon"
+	"de Tenarre" "de Ternant" "de Thil" "de Thoisy" "de Toulongeon"
+	"de Vergy" "de Vienne" "de Villers"
+#        d'Aban d'Abonde Arbelot d'Auxy
+#        "de Balay" "de Bauffremont" "de Beaumont" "de Beugre" "de Boulay" "de Bourgeois" Bourgogne-Montaigu "de Brachet" "de Brimeu"
+#        "de Castaing" "de Chabot" "de Châlon" "de Châlon-Arlay" "de Chandieu" "de Chastellux" "de Chin" "de Cicon" "de Coligny" "de Créquy" "de Cuiseaux"
+#        "de Damas" "de Dammartin" "de Donzy" "de Dyo"
+#        "d'Egmont"
+#        "de Ferrette"
+#        "de Lalaing" "de Lannoy" "Le Corgne" "de Lugny"
+#        "de Marle" "de Melun" "de Montfaucon"
+#        "Nagu de Varennes" "de Nanton" "de Neufchâtel" "de Noyelles"
+#        "de Pontailler" "de la Porte"
+#        "Pot de la Roche" "de Rochebaron" "de Rochechouart" "de Roye"
+#        "de Scorailles" "de Sémur"
+#        "de Ternant" "de Tonnerre" "de Toucy" "de Toulonjon"
+#        "de Vaubresson" "de Vaudrey" "de Vellexon" "de Vergy" "de Vienne" "de Villaines" "de Villiers"
+}
+
+ship_names = {
+	Armançon Arroux
+	Bourgogne Brugge
+	Cambrai "Castrum Divionense" Childebert "Childebert II" Chilperic Citeaux Chlothar Cluny Comtesse "Côte-d'Or" 
+	Dijon "Duc de Bourgogne" Duchesse 
+	Gebicca Giselher Godegisel Godomar Gunderic Gundobad Gundomar "Gundomar II" Gunther Guntram
+	"Jean sans Peur"
+	"Marie de Bourgogne"
+	"Philippe le Bon" "Philippe le Hardi"
+	"Richard de Bourgogne"
+	Saône Sigismund
+	Theudebert "Theuderic II"
+	Vézelay
+}
+
+army_names = {
+         "Armée du Charolais"     "Armée de Chalon"    "Armée du Comté" 
+         "Armée de l'Autunois"    "Armée du Mâconnais" "Armée de l'Auxerrois"
+         "Armée de l'Avallonnais" "Armée de Tonnerre"  "Armée de l'Auxonnois"
+         "Armée de la Saone"      
+"Armée de $PROVINCE$" 
+}

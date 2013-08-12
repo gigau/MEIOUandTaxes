@@ -1,0 +1,99 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FRA
+controller = FRA 
+culture = picard
+religion = catholic
+capital = "Calais"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = fish
+
+customs_house = yes # Exception to the rule, trade junction & established here
+fort1 = yes
+marketplace = yes # 'The Brightest Jewel in the English Crown'
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1347.8.4   = {
+	owner = ENG
+	controller = ENG
+	add_core = FRA
+	add_core = ENG
+	add_core = FLA
+	citysize = 3000
+	culture = anglois
+} # England conquer and expeled french inhabitants after siege
+1350.1.1   = { citysize = 5000 }
+1370.1.1   = { citysize = 7000 }
+1400.1.1   = { citysize = 10000 }
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+	add_core = UEF
+	remove_core = ENG
+}
+1429.4.29  = {
+	culture = english
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = UEF
+}
+1430.1.1   = { citysize = 13000 }
+1453.1.1   = { add_core = BUR citysize = 15000}
+1459.1.1   = { revolt_risk = 7 } # War of the Roses in England
+1459.11.1  = { controller = REB revolt_risk = 3 } # Yorkist control over Calais
+1461.6.1   = { controller = ENG revolt_risk = 0 } # Edward VI crowned King of England
+1477.1.5   = { remove_core = BUR } # Charles the Bold dies
+1500.1.1   = { citysize = 18000 }
+1550.1.1   = { citysize = 17000 }
+1558.1.7   = { controller = FRA } # France captures the weakened Calais
+1559.4.3   = {
+	owner = FRA
+	remove_core = ENG
+	culture = picard
+} # Peace of Cateau-Cambrésis, France annexes Calais from England
+1560.1.1   = { fort2 = yes } # Very late, English neglected Calais' forts the last few decades
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1596.1.1   = { controller = SPA } # The Spanish take hold of Calais
+1598.1.1   = { controller = FRA } # Treaty of Vervins, Calais back to France
+1600.1.1   = { citysize = 19000 constable = yes }
+1640.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 22000 }
+1670.1.1   = { fort4 = yes }
+1680.1.1   = { fort5 = yes } # Vauban's 'pointed' fort in Calais
+1700.1.1   = { citysize = 24000 }
+1720.1.1   = { courthouse = yes }
+1750.1.1   = { citysize = 26000 mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 35000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

@@ -1,0 +1,56 @@
+# 439 - Mangyshlak
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHO
+controller = KHO
+culture = turkmeni
+religion = sunni
+capital = "Mangyshlak"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1521
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = {
+	add_core = KHO
+}
+1419.1.1 = {
+	owner = NOG
+	controller = NOG
+	add_core = NOG
+}
+1500.1.1 = { citysize = 2250 }
+1505.1.1  = {
+	owner = KHO
+	controller = KHO
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1 = {
+	citysize = 2920
+}
+1600.1.1 = {
+	citysize = 3438
+}
+1650.1.1 = {
+	citysize = 3724
+}
+1677.1.1 = { discovered_by = FRA }
+1700.1.1 = {
+	citysize = 4576
+}
+1750.1.1 = {
+	citysize = 4915
+}
+1800.1.1 = {
+	citysize = 5350
+}

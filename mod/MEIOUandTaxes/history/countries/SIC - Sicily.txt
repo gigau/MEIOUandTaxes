@@ -1,0 +1,146 @@
+#SIC - Sicily
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = sicilian
+add_accepted_culture = neapolitan
+add_accepted_culture = greek
+add_accepted_culture = sardinian
+add_accepted_culture = maltese
+capital = 125	# Palermo
+
+
+1337.6.26 = {
+	monarch = { 
+		name = "Pietro II"
+		dynasty = "d'Aragó"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	heir = {
+		name = "Ludovico"
+		monarch_name = "Ludovico"
+		dynasty = "d'Aragó"
+		birth_Date = 1337.1.1
+		death_date = 1355.10.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1342.8.15 = {
+	monarch = { 
+		name = "Ludovico"
+		dynasty = "d'Aragó"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	heir = {
+		name = "Federico"
+		monarch_name = "Federico III"
+		dynasty = "d'Aragó"
+		birth_Date = 1341.9.1
+		death_date = 1377.1.27
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1355.10.16 = {
+	monarch = { 
+		name = "Federico III"
+		dynasty = "d'Aragó"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+1363.7.2 = {
+	heir = {
+		name = "Maria"
+		monarch_name = "Maria"
+		dynasty = "d'Aragó"
+		birth_Date = 1363.7.2
+		death_date = 1401.5.25
+		claim = 50
+		dip = 6
+		mil = 7
+		adm = 5
+		female = yes
+	}
+}
+
+1377.1.27 = {
+	monarch = { 
+		name = "Maria"
+		dynasty = "d'Aragó"
+		dip = 6
+		mil = 7
+		adm = 5
+		female = yes
+	}
+}
+
+1401.5.25 = {
+	monarch = { 
+		name = "Martino"
+		dip = 7
+		mil = 6
+		adm = 6
+	}
+}
+
+1410.5.31 = {
+	monarch = {
+		name = "Compromís de Casp"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1713.4.12 = {
+	monarch = {
+		name = "Vittorio Amedeo II"
+		dynasty = "di Savoia"
+		adm = 7
+		dip = 9
+		mil = 8
+		leader = { name = "Vittorio Amedeo II" type = general rank = 0 fire = 4 shock = 4 manuever = 2 siege = 2 }
+	}
+}
+
+# 1720.1.1 Vittorio Amedeo II becomes king of Sardinia-Piemont
+
+1806.3.11 = { government = enlightened_despotism_2 }
+
+# Ferdinand/Ferrante flees to Sicily
+1806.3.11 = {
+	monarch = {
+		name = "Ferrante IV"
+		dynasty = "de Bourbon"
+		dip = 3
+		mil = 3
+		adm = 3
+	}		
+}

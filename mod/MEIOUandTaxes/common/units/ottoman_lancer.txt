@@ -1,0 +1,21 @@
+# Ottoman Lancer
+#Modified for MEIOU by FB 10.02.07
+#tech level 64 c1815
+
+unit_type = turkishtech
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 9
+#defensive_morale = 7
+#offensive_fire = 0
+#defensive_fire = 0
+#offensive_shock = 9
+#defensive_shock = 5
+#FB
+offensive_morale = 13
+defensive_morale = 11
+offensive_fire = 3
+defensive_fire = 5
+offensive_shock = 10
+defensive_shock = 7

@@ -1,0 +1,92 @@
+# ACO - Acolhua
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 5
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -1
+# secularism_theocracy = 3
+primary_culture = nahuatl
+religion = teotl
+technology_group = new_world
+capital = 2200 # Texcoco
+
+1337.1.1 = {
+	monarch = {
+		name = "Quina II"
+		dynasty = "Xolotl"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1377.1.1 = {
+	monarch = {
+		name = "Techotlala"
+		dynasty = "Xolotl"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1409.1.1 = {
+	monarch = {
+		name = "Ixtlilxochitl"
+		dynasty = "Xolotl"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+# 1418 - 1428 ruled by Azcapotzalco
+
+1431.1.1 = {
+	monarch = {
+		name = "Nezahualcoyotl"
+		dynasty = "Xolotl"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Nezahualpilli"
+		dynasty = "Xolotl"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Cacamatzin"
+		dynasty = "Xolotl"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Coanacoch"
+		dynasty = "Xolotl"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+#1521.8.13 #Fall of Tenochtitlan to Spain

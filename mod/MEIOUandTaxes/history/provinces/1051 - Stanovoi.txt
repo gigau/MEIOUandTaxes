@@ -1,0 +1,35 @@
+#1051 - Uchurskoye
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = yakut
+religion = shamanism
+capital = "Uchurskoye"
+trade_goods = crops
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 3
+
+1632.1.1 = { discovered_by = RUS }
+1643.1.1 = {
+	owner = RUS
+   	controller = RUS
+   	religion = orthodox
+   	culture = russian
+   	citysize = 500
+	trade_goods = fur
+	set_province_flag = trade_good_set
+}
+1655.1.1 = { revolt_risk = 7 } # Yakutsk rebellion
+1660.1.1 = { revolt_risk = 0 }
+1668.1.1 = {
+	add_core = RUS
+   	citysize = 1400
+}
+1684.1.1 = { revolt_risk = 4 } # Yakut rebellion
+1686.1.1 = { revolt_risk = 0 }
+1693.1.1 = { citysize = 1622 }
+1750.1.1 = { citysize = 1880 }

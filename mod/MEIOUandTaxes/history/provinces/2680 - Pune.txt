@@ -1,0 +1,56 @@
+# 2680 - Pune
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Pune"
+trade_goods = rice	#Millet
+hre = no
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 9000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+
+1356.1.1  = {
+	add_core = BAH
+	add_core = BAS
+}
+1450.1.1  = { citysize = 12000 }
+1490.1.1  = {
+	remove_core = BAH
+	controller = BAS
+	owner = BAS
+} # The Breakup of the Bahmani sultanate
+1498.1.1  = { discovered_by = POR }
+1500.1.1  = { citysize = 14000 }
+1550.1.1  = { citysize = 16000 }
+1600.1.1  = { citysize = 19000 }
+1633.7.27 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Shah Jahan
+1650.1.1  = {
+	citysize = 22000
+	add_core = MAR #Maratha Identity
+}
+1657.1.1  = {
+	owner = MAR
+	controller = MAR
+	remove_core = MUG
+	fort2 = yes
+} # Inheritance of Shivaj
+1680.1.1  = { fort3 = yes }
+1700.1.1  = { citysize = 25000 }
+1736.1.1  = { fort4 = yes }
+1750.1.1  = { citysize = 40000 }
+1800.1.1  = { citysize = 100000 }
+1818.6.3  = {
+	owner = GBR
+	controller = GBR
+}	

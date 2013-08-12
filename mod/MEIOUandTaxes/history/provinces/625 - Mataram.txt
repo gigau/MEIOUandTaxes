@@ -1,0 +1,70 @@
+#Province: Mataram (was Pakuan)
+#file name: 625 - Mataram
+# MEIOU-FB Indonesia mod
+#note: Java is in general one of the most fertile areas on earth and this area
+#is one of the most fertile parts of Java. Consequently the area was able to sustain
+##large city-states whose manpower was a counterbalance to the trading advantages of the
+#large city-states whose manpower was a counterbalance to the trading advantages of the
+#city states on the north coast of Java
+#Note: if MEIOU ever has a start date prior to 1293 then this province should be part of the
+#Singhasari Empire.
+#
+#Future enhancement possibility:
+#Make owner Pajang (new country) from c1500 to MTR takeover
+#(Pajang may have been an islamic vassal of Demak from c1530)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MPH
+controller = MPH
+culture = javan
+religion = hinduism
+capital = "Yogyakarta"
+trade_goods = tin
+hre = no
+base_tax = 6
+#manpower = 6
+manpower = 12
+citysize = 29000
+
+temple = yes				#FB Prambanan & Borobodur
+
+add_core = MPH
+add_core = MTR
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1  = { citysize = 31090 }
+1450.1.1  = { citysize = 34490 }
+1500.1.1  = { citysize = 38890 }
+1570.1.1 = {
+	owner = MTR
+	controller = MTR
+	remove_core = MPH
+	religion = sunni
+} # The Sultanate of Mataram
+1613.1.1 = { discovered_by = NED citysize = 47000 } # The Dutch arrived
+1617.1.1 = { revolt_risk = 2 } # Rebellion against Mataram rule
+1630.1.1 = { revolt_risk = 0 }
+1647.1.1 = { capital = "Plered" }
+1650.1.1 = { citysize = 50910 }
+1657.1.1 = { revolt_risk = 3 } # Amangkurat's murderous regime becomes increasingly unpopular
+1661.1.1 = { revolt_risk = 5 } # open hostility between Amangkurat and his son
+1677.7.13 = { revolt_risk = 2 } # Amangkurat's death
+1680.1.1 = { capital = "Kartosuro" }
+1681.12.1 = { revolt_risk = 0 } # defeat of Puger by VOC establishes sole claimant to throne
+1700.1.1 = { citysize = 52340 }
+1719.6.1 = { revolt_risk = 4 } #2nd war of Javanese Succession
+1721.1.1 = { revolt_risk = 1 } #success in war reduces discontent
+1746.2.1 = { capital = "Surakarta" }
+1746.5.1 = { revolt_risk = 2 } #3rd war of Javanese Succession starts as rebellion
+1750.1.1 = { citysize = 53887 }
+1755.2.13 = { revolt_risk = 2 } #Mataram divided between Pakubuwana III & Hamengkubuwana I
+#but Mas Said and others keep anti-dutch/Pakubuwana III war alive
+1757.3.1 = { revolt_risk = 0 } #Mas Said submits
+1800.1.1 = { citysize = 55630 }
+1812.7.1 = {
+	owner = GBR
+	controller = GBR
+} # British capture Yogyakarta
+1816.1.1 = { owner = NED controller = NED } # Given to the Dutch

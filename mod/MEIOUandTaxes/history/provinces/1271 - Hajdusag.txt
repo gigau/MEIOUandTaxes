@@ -1,0 +1,69 @@
+# 1271 - Hajdúság
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Várad"
+trade_goods = livestock
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 1710
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 2102
+}
+1526.8.30  = {
+	owner = TRA
+	controller = TRA
+	add_core = RHU
+	add_core = HAB
+	add_core = HUN
+	add_core = TRA
+}
+1550.1.1   = {
+	citysize = 2722
+}
+1570.8.16  = {
+	owner = RHU
+	controller = RHU
+} # Abdication of Janos II as king of Hungary, becomes prince of Transylvania
+1596.1.1   = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1600.1.1   = {
+	citysize = 2770 }
+1650.1.1   = {
+	citysize = 2544 }
+1688.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = RHU
+	remove_core = TUR
+}
+1703.8.1   = {
+	controller = TRA
+} # The town supports Francis II Rákóczi in his rebellion against the Habsburgs
+1711.5.1   = {	controller = HAB } # Ceded to Austria The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+1750.1.1   = {
+	citysize = 3100
+	base_tax = 7	
+}
+1800.1.1   = {
+	citysize = 3870
+}

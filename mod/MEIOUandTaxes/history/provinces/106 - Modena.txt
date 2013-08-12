@@ -1,0 +1,68 @@
+# 106 - Modena
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MOD
+controller = MOD
+culture = emilian 
+religion = catholic 
+hre = yes 
+base_tax = 5        
+trade_goods = wax
+#manpower = 2        
+manpower = 4        
+fort1 = yes 
+capital = "Mòdna" 
+citysize = 20000	# Estimated 
+temple = yes		# 12th century
+# university = yes	# Founded 1175, closed between 1338-1680
+add_core = MOD
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = { citysize = 22500 }
+1399.1.1  = { citysize = 25000 }
+1453.1.1  = { citysize = 27000 }
+1500.1.1  = { citysize = 28000 marketplace = yes }
+1550.1.1  = { citysize = 29000 }
+1600.1.1  = { citysize = 32000 }
+1618.1.1  = { hre = no }
+1650.1.1  = { citysize = 25000 }
+1680.1.1  = { university = yes } # University reopened
+1700.1.1  = { citysize = 34000 }
+1750.1.1  = { citysize = 34000 }
+1796.11.15 = {
+	owner = ITD
+	controller = ITD
+	add_core = ITD
+	remove_core = HAB
+} # Cispadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITD
+} # Cisalpine Republic
+1800.1.1  = { citysize = 40000 }
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11 = { owner = MOD controller = MOD remove_core = ITA }
+1859.8.20= { controller = REB }
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = MOD
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

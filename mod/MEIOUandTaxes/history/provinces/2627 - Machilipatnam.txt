@@ -1,0 +1,81 @@
+# 2627 - Machilipatnam
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RED
+controller = RED
+culture = telegu
+religion = hinduism
+capital = "Machilipatnam"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5340
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = RED
+	add_core = GOC
+}
+1400.1.1  = { citysize = 7231 }
+1428.1.1  = {
+	owner = VIJ
+	controller = VIJ
+	revolt = { }
+} # Conquered by Vijayanagar
+1443.1.1  = {
+	controller = ORI
+} # Conquered by Gajapatis
+1445.1.1  = {
+	owner = ORI
+} # Conquered by Gajapatis
+1462.1.1  = {
+	controller = VIJ
+} # Reconquered by Vijayanagar
+1464.1.1  = {
+	owner = VIJ
+} # Reconquered by Vijayanagar
+1484.1.1  = {
+	controller = ORI
+} # Conquered by Gajapatis
+1485.1.1  = {
+	owner = ORI
+} # Conquered by Gajapatis
+1498.1.1  = { discovered_by = POR }
+1505.1.1  = { citysize = 11764 discovered_by = POR }
+1513.1.1  = {
+	controller = VIJ
+} # Substantial Vijayanagar expansion
+1519.8.1 = {
+	owner = VIJ
+} # Substantial Vijayanagar expansion
+1550.1.1  = { citysize = 14444 }
+1577.1.1  = { controller = GOC }
+1598.1.1  = { owner = GOC }
+1600.1.1  = { citysize = 15120 discovered_by = ENG discovered_by = FRA discovered_by = NED }
+1616.1.1  = {
+	owner = NED
+	controller = NED
+	base_tax = 7
+}
+1650.1.1  = {
+	citysize = 35700
+	discovered_by = turkishtech
+	add_core = NED
+}
+1700.1.1  = { citysize = 40370 }
+1707.5.12 = { discovered_by = GBR }
+1744.1.1  = {
+	owner = FRA
+	controller = FRA
+}
+1750.1.1  = { citysize = 46100 }
+1759.1.1  = {
+	owner = GBR
+	controller = GBR
+} # Captured by Colonel Forde
+1784.1.1  = { add_core = GBR }
+1800.1.1  = { citysize = 60600 }

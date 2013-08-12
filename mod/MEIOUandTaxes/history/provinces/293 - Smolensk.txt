@@ -1,0 +1,64 @@
+# 293 - Smolensk
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SMO
+controller = SMO   
+culture = russian
+religion = orthodox
+hre = no
+base_tax = 10
+trade_goods = wheat  
+#manpower = 6
+manpower = 12
+capital = "Smolensk"
+citysize = 8200	 
+fort1 = yes 
+temple = yes		# Assumption cathedral, 1150
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = SMO
+	add_core = LIT
+}
+1408.1.1  = {
+	owner = LIT
+	controller = LIT
+}
+1450.1.1  = { citysize = 9450 }
+1460.1.1  = { marketplace = yes }
+1500.1.1  = { citysize = 11500 }
+1514.1.1  = {
+	owner = MOS
+	controller = MOS
+}
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 13225 remove_core = SMO }
+1569.7.4  = { add_core = PLC } # Polish-Lithuanian Commonwealth
+1597.1.1  = { fort2 = yes } # The city was heavily fortified
+1600.1.1  = { citysize = 9050 }
+1610.9.27 = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Polish-Lithuanian occupation
+1650.1.1  = { citysize = 7408 } # Starvation and epidemics since 1610
+1654.10.3 = { controller = RUS } # Reqonquered
+1667.1.30  = {
+	owner = RUS
+	controller = RUS
+	remove_core = PLC
+} # Truce of Andrusovo1650.1.1  = { citysize = 10408 } # Starvation and epidemics since 1610
+1700.1.1  = { citysize = 8969 }
+1708.1.1  = { fort3 = yes } # Valued by the tsars as a key fortress
+1711.1.1  = { base_tax = 5 } # Governmental reforms and the absolutism
+1750.1.1  = { citysize = 9200 }
+1800.1.1  = { citysize = 10200 }
+1812.8.17 = { controller = RFR } # Battle of Smolensk
+1812.11.9 = { controller = RUS }

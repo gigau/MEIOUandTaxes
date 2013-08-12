@@ -1,0 +1,74 @@
+# 100 - Emden
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRI
+controller = FRI
+capital = "Emden"
+citysize = 5000
+culture = frisian
+religion = catholic
+hre = yes
+base_tax = 5
+trade_goods = fish 
+#manpower = 4
+manpower = 8
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1   = {
+	citysize = 7500
+	add_core = FRI
+}
+1399.1.1   = { citysize = 10000 }
+1453.1.1   = { add_core = BUR citysize = 11000 }
+1477.1.5   = { remove_core = BUR }
+1500.1.1   = { citysize = 18000 }
+1550.1.1   = { fort2 = yes courthouse = yes citysize = 26000 remove_core = HOL add_core = NED }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics established in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, harsh persecution of Calvinists advocated by Philip I
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.1.1   = { religion = protestant }
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the tax system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12  = { revolt_risk = 16 } # The 'Perpetual Edict' (Eeuwig Edict) is accepted by Don Juan
+1585.1.1   = { university = yes } # University of Franeker founded (closed in 1811 by Napoleon)      
+1600.1.1   = { citysize = 30000 }
+1640.1.1   = { marketplace = yes }
+1650.1.1   = { citysize = 35000 }
+1660.1.1   = { fort3 = yes }
+1681.1.1   = { base_tax = 9 } # Protestants expelled from France
+1700.1.1   = { citysize = 35000 }
+1705.1.1   = { constable = yes }
+1730.1.1   = { fort4 = yes }
+1744.6.23   = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = FRI
+}
+1750.1.1   = { citysize = 35000 }
+1760.1.1   = { mint = yes }
+1800.1.1   = { citysize = 40000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1810.12.13 = {
+	owner = RFR
+	controller = RFR
+     	add_core = RFR
+     	remove_core = WES
+} # Annexed by France
+1813.10.13 = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+	remove_core = RFR
+} # The kingdom is dissolved
+1866.1.1   = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = HAN
+}

@@ -1,0 +1,36 @@
+#1499 - Waalo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#Province: Waalo
+#LS -ALPHA 5
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Diourbel"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = slaves
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = FLO
+	add_core = MAL
+	add_core = DJO
+}
+1444.1.1 = {
+	discovered_by = POR
+}
+1549.1.1 = {
+	owner = FLO
+	controller = FLO
+}

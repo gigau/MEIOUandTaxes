@@ -1,0 +1,32 @@
+# 727 - Hailanpao
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = yakut
+religion = mahayana
+capital = "Hailanpao"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 2
+manpower = 4
+citysize = 4070
+add_core = MCH
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 5785 }
+1550.1.1 = { citysize = 6799 }
+1600.1.1 = { citysize = 6800 }
+1643.1.1 = { discovered_by = RUS }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+	culture = manchu
+} # The Qing Dynasty
+1650.1.1 = { citysize = 7465 }
+1700.1.1 = { citysize = 8100 }
+1750.1.1 = { citysize = 8653 }
+1800.1.1 = { citysize = 9240 }

@@ -1,0 +1,72 @@
+#Country Name: Sunda
+#Tag: SUN
+#New Country added by MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = {  255  188  225  }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Hyang Purwawisesa #0" = 10
+	"Pandan Solas #0" = 10
+	"Kertabumi #0" = 10
+	"Dyah Ranawijaya #0" = 10
+	"Pateudra #0" = 10
+	"Senapati Jimbun #0" = 10
+	"Sabrang Lor #0" = 10
+	"Tranggana #0" = 10
+	"Benawa #0" = 10
+	"Krapyak #0" = 10
+	"Amangkurat #0" = 30
+	"Prawata #0" = 10
+	"Aria Pangiri #0" = 10
+	"Prabu Guru #1" = 10
+	"Prabu Lingga #1" = 10
+	"Prabu Maharaja #1" = 10
+	"Prabu Raja #1" = 10
+	"Prabu Sasuk #1" = 10
+	"Sri Baduga #1" = 10
+}
+
+leader_names = {
+	Ageng Ajigunawisesa
+	Brajawisesa Buana Bunisora
+	Dewageng Dharmasiksa Djajadiningrat Djojopoespito
+	Ernalia
+	Haringwasa
+	Jayadarma
+	Kancana Karsumaatmaja
+	Mollema
+	Nasution Nitisastro
+	Pucukwesi Prawiranega Purbacaraka
+	Sanghyang Subadio Sumual Suradipati
+	Wanayasa
+}
+
+ship_names = {
+	Surakarta Yogyakarta Semarang Salatiga
+	"Gunung Merbabu" Sragen Sukoharjo Wonosari
+	"Gunung Lawu" Delanggu Cepu Purwodarli
+	Ngawi Grobogan Boja Amgarawa
+}

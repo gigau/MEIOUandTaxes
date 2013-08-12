@@ -1,0 +1,35 @@
+#Province: Kathiri
+#file name: 465 - Kathiri
+#MEIOU-FB Arabia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YEM
+controller = YEM
+culture = hadhrami
+religion = sunni
+capital = "Al Seiyun"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2586
+
+discovered_by = ADA
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = YEM
+	add_core = HAD
+}
+1480.1.1 = { discovered_by = TUR }
+1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+1500.1.1 = { citysize = 6877 }
+1547.1.1 = { controller = POR } # Occupied by Portugal
+1550.1.1 = { citysize = 7700 }
+1551.1.1 = { owner = HAD controller = HAD }
+1600.1.1 = { citysize = 9120 }
+1650.1.1 = { citysize = 10356 }
+1700.1.1 = { citysize = 13768 marketplace = yes }
+1750.1.1 = { citysize = 14377 }
+1800.1.1 = { citysize = 16320 }

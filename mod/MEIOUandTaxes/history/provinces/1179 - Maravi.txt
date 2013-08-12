@@ -1,0 +1,30 @@
+# 1179 - Rwanda
+# LS - african setup alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#owner = KIT
+#controller = KIT
+#add_core = KIT
+culture = shona
+religion = animism
+capital = "Kigali"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+trade_goods = crops # livestock
+
+terrain1 = yes
+native_size = 700
+native_ferocity = 2
+native_hostileness = 6
+
+hre = no
+
+discovered_by = KIT
+discovered_by = ZIM
+discovered_by = QLM
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}

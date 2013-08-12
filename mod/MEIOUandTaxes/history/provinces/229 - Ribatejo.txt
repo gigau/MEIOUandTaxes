@@ -1,0 +1,34 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = POR
+controller = POR
+culture = portugese
+religion = catholic
+capital = "Santarem"
+trade_goods = fish
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 7000
+add_core = POR
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+fort1 = yes
+
+1500.1.1   = { citysize = 6900 }
+1550.1.1   = { citysize = 7500 }
+1580.8.25  = { controller = SPA }
+1580.8.26  = { controller = POR }
+1600.1.1   = { citysize = 8000 }
+1640.1.1   = { revolt_risk = 8 } # Revolt headed by John of Bragança
+1640.12.1  = { revolt_risk = 0 }
+1650.1.1   = { citysize = 9900 constable = yes }
+1700.1.1   = { citysize = 10300 courthouse = yes }
+1710.1.1   = { mint = yes }
+1750.1.1   = { citysize = 11870 }
+1800.1.1   = { citysize = 12400 }
+1807.11.30 = { controller = RFR } # Occupied by France
+1808.8.30  = { controller = POR }
+1810.7.25  = { controller = RFR } # Invaded after the battle of Côa
+1811.1.1   = { controller = POR } # The Napoleonic army retreats from Portugal

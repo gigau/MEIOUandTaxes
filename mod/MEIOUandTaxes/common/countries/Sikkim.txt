@@ -1,0 +1,60 @@
+#Country Name: Please see filename.
+
+graphical_culture = chinesegfx
+
+color = { 150  27  25 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Phuntsog #0" = 20
+	"Tensung #0" = 20
+	"Chakdor #0" = 20
+	"Pendiongmu #0" = -10
+	"Gurmed #0" = 20
+	"Phunstok #0" = 20
+	"Tenzing #0" = 20
+	"Tshudpud #0" = 20
+}
+
+leader_names = {
+	Phuntsog
+	Tensung
+	Chakdor
+	Gurmed
+	Phunstok
+	Tenzing
+	Tshudpud
+}
+
+ship_names = {
+	Barkam
+	Dartsendo
+	Gyantse Gartse
+	Lhasa Lhotse
+	Makalu 
+	Nagqu Nyingchi Nedong
+	Pelbar
+	Qamdo
+	Shigatse Sakya
+	Tinggri
+}

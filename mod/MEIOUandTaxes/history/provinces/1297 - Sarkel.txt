@@ -1,0 +1,78 @@
+# 1297 - Sarkel
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+add_core = BLU
+add_core = CRI
+add_core = AST
+culture = tartar
+religion = sunni
+capital = "Cherkassk"
+
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 4
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1441.1.1 = {
+	owner = CRI
+	controller = CRI
+}
+1475.1.1 = {
+	add_core = TUR
+}
+1500.1.1 = {
+	citysize = 4000
+}
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1550.1.1 = {
+	citysize = 5000
+}
+1571.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+}
+1600.1.1 = {
+	citysize = 6000
+	culture = russian
+	religion = orthodox
+}
+1650.1.1 = {
+	citysize = 7000
+}
+1700.1.1 = {
+	citysize = 8000
+}
+1750.1.1 = {
+	citysize = 9000
+}
+1800.1.1 = {
+	citysize = 10000
+}

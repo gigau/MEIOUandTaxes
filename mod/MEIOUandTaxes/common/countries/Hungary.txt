@@ -1,0 +1,147 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+#color = { 152  85  92 }
+#color = { 250  170 120 }
+color = { 250  75  75 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	bardiche_infantry
+	druzhina_cavalry
+	slavic_stradioti
+	austrian_hussar
+	austrian_tercio
+	austrian_grenzer
+	austrian_jaeger
+	austrian_white_coat
+	british_hussar
+	french_dragoon
+	french_impulse
+	french_cuirassier
+	hungarian_hussar
+	germanized_pike
+	prussian_drill
+	saxon_infantry
+	russian_cossack
+	russian_cuirassier
+	russian_lancer
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_knights
+	eastern_skirmisher
+	eastern_carabinier
+}
+
+monarch_names = {
+	"András #3" = 60
+	"Béla #4" = 40
+	"István #5" = 40
+	"László #4" = 30
+	"Imre #1" = 30
+	"Lajos #1" = 20
+	"Mátyás #0" = 20
+	"Zsigmond #0" = 20
+	"János Zsigmond #0" = 15
+	"Károly #1" = 15
+	"Ulászló #0" = 10
+	"János #0" = 10
+	"Géza #0" = 5
+	"József #0" = 5
+	"Albert #0" = 0
+	"Barnabás #0" = 0
+	"Bertalan #0" = 0
+	"Dávid #0" = 0
+	"Edvárd #0" = 0
+	"Ferenc #0" = 0
+	"György #0" = 0
+	"Kálmán #0" = 0
+	"Kázmér #0" = 0
+	"Kelemen #0" = 0
+	"Lõrinc #0" = 0
+	"Lukács #0" = 0
+	"Márk #0" = 0
+	"Miklós #0" = 0
+	"Ottó #0" = 0
+	"Patrik #0" = 0
+	"Péter #0" = 0
+	"Tamás #0" = 0
+	"Vencel #0" = 0
+	"Ede #0" = 0
+	"Leó #0" = 0
+	"Ulrik #0" = 0
+	"Huba #0" = 0
+	"Álmos #0" = 0
+	"Elõd #0" = 0
+	"Zalán #0" = 0
+	"Hunor #0" = 0
+	"Bánk #0" = 0
+	"Ond #0" = 0
+	"Örs #0" = 0
+	"Máté #0" = 0
+	"Maximilián #0" = 0
+	"Max #0" = 0
+	"Solt #0" = 0
+	"Gyarmat #0" = 0
+	"Gellért #0" = 0
+	"Erzsébet #0" = -20 # Elizabeth in Hungarian
+	"Mária #0" = -20 # Maria I reigned between 1382-95
+	"Margit #0" = -15
+	"Anna #0" = -5
+	"Eszter #0" = -5
+	"Éva #0" = -0
+	"Terézia #0" = -0
+	"Mária Terézia #0" = -0
+	"Annamária #0" = -0
+}
+
+leader_names = {
+	Andrássy Alvinczy
+	Bocskay Bethlen Báthory Batthyány Beleznay
+	Csák
+	Dessewffy Damjanich
+	Esterházy
+	Festetics Frangepán Fekete Fehér Farkas Fodor
+	Horváth
+	Garay
+	Hunyadi Hadik Horthy Horváth
+	Juhász
+	Kinizsi Károlyi Kán Kovács Kemény Kiss Knézich
+	Lackovics Losonci Lakatos Lahner Lázár
+	Mészáros Milványi Molnár
+	Nadasdy Nagy Németh
+	Pintér Papp
+	Rákóczi Rozgonyi Rácz
+	Széchenyi Szabó Szûcs Szilágyi
+	Török Takács
+	Varga Vécsey
+	Zrinyi Zápolya Zichy
+}
+
+ship_names = {
+	"Szent István" "Szent László" "II. István" "III. István" "IV. István" "V. István" "I. Béla" "II. Béla" "III. Béla" "IV. Béla" "I.András" "II.András" "III. András" "Könyves Kálmán" "Nagy Lajos" "Károly Róbert" #Rulers, kings of Hungary (until Lajos I)
+	Árpád Álmos Géza Zoltán Lehel Örs Hunor Magor # Leaders of the Hungarian tribes
+	"Szent Imre" "Szent Gellért" "Szent Erzsébet" "Szent Anna" "Szent Margit" "Szent Miklós" "Szent Pál" "Pál apostol" Máté Márk Lukács "Szent Mária" "Szûz Mária" # Saints, great religious people
+	"Kárpátok bércei" Erdély Magyarország Székelyföld Pannónia Felvidék Alföld Szászföld Kisalföld Túrócföld Bánság Tátra Mátra Vas Somogy Temes Heves Ipolyság Bodrogköz Szigetköz "Nyulak szigete" # Regions of Hungary
+	Nándorfehérvár Buda Pest Esztergom Kolozsvár Temesvár Komárom Fiume Tengerfehérvár Zágráb Kaposvár Gyula Bákó Sopron Gyõr Pécs Bécs Prága Bécsújhely Pozsony Érsekújvár Újvidék Szabadka Arad Gyulafehérvár Brassó Eger Gyöngyös Miskolc Kassa Ungvár Magyarkanizsa Kanizsa Szombathely Kõszeg Szigetvár # Hungarian cities and towns
+	Duna Tisza Kõrös Maros Száva Rába Rábca Vág Aranyos Kondor Zagyva Tarna Ikva Garam Olt Szamos Szeret Dráva Mura Temes Bodrog Sajó Ipoly # Hungarian rivers and brooks
+	Aranybulla Turulmadár "Szent jobb" "Kárpátok sóhajtása" Pálinka "Árpád gyermeke" "Isten fia" Szentlélek "Isten ostora" "Tengerek ura" "Krisztus vére" Korona Országalma Rézangyal "Vissza Erdélyt" "Szent határ" "Fekete gyöngy"# Hungarian symbols and etc.
+}
+
+army_names = {
+	"1. Magyar Hadsereg" "2. Magyar Hadsereg" "3. Magyar Hadsereg" "1. Királyi Hadsereg" "2. Királyi Hadsereg" "3. Királyi Hadsereg" "Pannon Hadsereg" "Erdély Hadsereg" "Hungárusok serege" "Kárpátok serege" "Északi sereg" "Déli sereg" "Végvái vitézek" "$PROVINCE$ Serege" "Fekete Sereg" "Fehér sereg" "Seregek gyöngye"
+}
+
+fleet_names = {
+	"Adriai Flotta" "Királyi Flotta" "Fekete Flotta" "Magyar Flotta" "Fehér flotta" "Tengerek korbácsa" "Viharflotta" "A kékség vándora" "Tengeri flotta" "Csatahajók serege" "Haditengerészet"
+}
+

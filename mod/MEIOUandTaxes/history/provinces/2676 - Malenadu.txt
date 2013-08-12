@@ -1,0 +1,62 @@
+# 2676 - Malenadu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VIJ
+controller = VIJ
+culture = kannada
+religion = hinduism
+capital = "Ikkeri"
+trade_goods = naval_supplies
+hre = no
+base_tax = 6
+#manpower = 5
+manpower = 10
+citysize = 5000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = VIJ
+	add_core = KLN
+}
+1450.1.1 = { citysize = 7000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 10000 }
+1550.1.1 = { citysize = 13000 }
+1565.7.1 = {
+	owner = KLN
+	controller = KLN
+	remove_core = VIJ
+} #Independent Nayaka after Talikota
+1573.1.1 = {
+	controller = BIJ
+} #Bijapuri expansion
+1574.1.1 = {
+	controller = KLN
+} #Bijapuri expansion
+1600.1.1 = { citysize = 16000 }
+1650.1.1 = { citysize = 19000  }
+1660.1.1 = {
+	owner = BIJ
+	controller = BIJ
+}
+1685.1.1 = {
+	controller = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1686.1.1 = {
+	owner = MYS	#Beaten by the mughals and sold to Mysore
+	controller = MYS
+ }
+1700.1.1 = { citysize = 23000 }
+1750.1.1 = { citysize = 27000 }
+1756.1.1 = {
+	owner = MAR
+	controller = MAR
+	add_core = MAR
+} # To Marathas
+1763.1.1 = {
+	owner = MYS	
+	controller = MYS
+}
+1800.1.1 = { citysize = 34000 }

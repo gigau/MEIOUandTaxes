@@ -1,0 +1,57 @@
+# 1463 - Cocotame
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = coahuiltecan
+religion = teotl
+capital = "Cocotame"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 2
+native_hostileness = 5
+discovered_by = new_world
+
+1519.3.13 = {
+	discovered_by = SPA
+}
+1577.1.1   = {
+	owner = SPA
+	controller = SPA
+	citysize = 200
+	capital = "Monterrey"
+	culture = castillian
+	religion = catholic
+	set_province_flag = trade_good_set
+	trade_goods = maize
+}
+1715.1.1   = {
+	add_core = SPA
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+}
+1750.1.1   = {
+	capital = "Ciudad Victoria"
+	citysize = 1000
+	fort1 = yes
+}
+1800.1.1   = {
+	citysize = 5000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+1832.10.1  = {
+	revolt_risk = 3
+} # Convention of 1832
+1833.4.1   = {
+	revolt_risk = 6
+} # Convention of 1833

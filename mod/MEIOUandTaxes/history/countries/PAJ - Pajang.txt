@@ -1,0 +1,38 @@
+# PAJ - Pajang
+# GG - Adapted from Divide et Impera
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+primary_culture = sulawesi
+religion = sunni
+technology_group = austranesian
+capital = 629	# Pajang
+
+1568.1.1 = {
+	monarch = {
+		name = "Jaka Tingir Pangeran Adivijaya Surya Alam"
+		dynasty = "Rajasanagara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1586.1.1 = {
+	monarch = {
+		name = "Pangeran Benawa"
+		dynasty = "Rajasanagara"
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+}

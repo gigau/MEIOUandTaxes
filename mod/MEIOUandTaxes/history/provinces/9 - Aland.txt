@@ -1,0 +1,32 @@
+# Ahvenanmaa
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+#manpower = 1
+manpower = 2
+fort1 = yes
+capital = "Sund"
+citysize = 1100 # Estimated
+discovered_by = eastern
+discovered_by = western
+
+1527.6.1  = { religion = protestant}
+1560.1.1  = { fort2 = yes } #
+1570.1.1  = { citysize = 1524 }
+1610.1.1  = { citysize = 1930 }
+1650.1.1  = { citysize = 2508 }
+1670.1.1  = { mint = yes } #Due to the "Staplepolicy act"
+1690.1.1  = { citysize = 2803 }
+1730.1.1  = { citysize = 3741 }
+1730.1.1  = { constable = yes } #Due to the support of manufactories
+1770.1.1  = { citysize = 4014 }
+1800.1.1  = { citysize = 5558 }
+

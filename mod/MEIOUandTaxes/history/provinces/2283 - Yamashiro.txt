@@ -1,0 +1,70 @@
+# 2283 - Yamashiro
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAP
+controller = JAP
+culture = kansai
+religion = shinbutsu
+capital = "Kyoto"
+trade_goods = chinaware
+hre = no
+base_tax = 14 # 7
+#manpower = 2 # 3
+manpower = 4 # 3
+citysize = 150000
+fort1 = yes
+marketplace = yes
+workshop = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = JAP
+#	owner = AKG
+#	controller = AKG
+#	remove_core = JAP
+}
+1400.1.1   = { citysize = 151800 }
+1450.1.1   = {
+	citysize = 153800
+#	owner = YMN
+#	controller = YMN
+}
+#1475.1.1   = {
+#	owner = HKW
+#	controller = HKW
+#}
+1489.1.1   = { temple = yes } # Jishoji Temple
+#1490.1.1    = {
+#	owner = HKY
+#	controller = HKY
+#}
+1500.1.1   = { citysize = 155800 }
+#1540.1.1   = {
+#	owner = MIY
+#	controller = MIY
+#}
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 159700 }
+#1568.1.1   = {
+#	owner = ODA
+#	controller = ODA
+#}
+1573.1.1   = { fort2 = yes } # Jurakudai Palace
+1579.1.1   = { fort3 = yes } # Azuchi-jo Castle
+#1596.1.1   = {
+#	owner = TGW
+#	controller = TGW
+#}
+1600.1.1   = { citysize = 164310 }
+#1615.6.4 = {
+#	owner = JAP
+#	controller = JAP
+#	add_core = JAP
+#}
+1650.1.1   = { citysize = 172234 }
+1700.1.1   = { citysize = 182320 }
+1750.1.1   = { citysize = 192750 }
+1800.1.1   = { citysize = 210005 }

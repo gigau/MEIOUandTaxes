@@ -1,0 +1,53 @@
+#Province: Aceh
+#file name: 617 - Aceh
+# MEIOU-FB Indonesia mod
+#Before the Europeans arrived Indonesia was a region of city states. At times some cities
+#grew more powerfull and dominated the region for a time but generally speaking prior to the Dutch
+#this dominance was largely a matter of tribute and trade hegemony. This situation is not one that
+#is easy to model in EU3. Moreover it is not sensible to create dozens of new countries in EU3
+#to represent the city-states that only dominanted one EU3 province for 10 or 20 years (even if
+#there were adequate historical records to do this accurately). Consequently in EU3 the history of
+#Indonesia must be greatly simplified. In particular, "empires" are deemed to last until a new empire
+#arises or the Europeans take over even if in reality the empire had declined and the province(s)
+#had reverted to being a collection of city-states.
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ATJ
+controller = ATJ
+add_core = ATJ
+culture = acehenese
+religion = sunni				#this region began to be Islamified c1200
+capital = "Banda Aceh"
+trade_goods = pepper
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 30000
+
+discovered_by = ATJ
+discovered_by = MLC
+discovered_by = AYU
+discovered_by = MPH
+discovered_by = BLI
+discovered_by = MKS
+discovered_by = BEI
+discovered_by = chinese
+discovered_by = muslim
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 32890 }
+1405.1.1 = { discovered_by = MNG }
+1450.1.1 = { citysize = 35000 }
+1500.1.1 = { citysize = 38270 marketplace = yes }
+1509.1.1 = { discovered_by = POR }
+#1592 ENG had a TP here according to MC Ricklefs "A History of Modern Indonesia"
+1550.1.1 = { citysize = 42800 }
+1596.5.1 = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1 = { citysize = 46008 }
+1650.1.1 = { citysize = 49760 }
+1700.1.1 = { citysize = 51620 }
+1750.1.1 = { citysize = 52577 }
+1800.1.1 = { citysize = 56250 }

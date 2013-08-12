@@ -1,0 +1,41 @@
+# 2436 - Oki-guntó
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YMN
+controller = YMN
+culture = chugoku
+religion = shinbutsu
+capital = "Okinoshima"
+trade_goods = fish
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 1300
+fort1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	add_core = YMN
+}
+1400.1.1 = { citysize = 1400 }
+1450.1.1 = { citysize = 1500 }
+1500.1.1 = { citysize = 1650 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 1800 }
+1582.1.1 = {
+	owner = ODA
+	controller = ODA
+}
+1600.1.1 = {
+	citysize = 20000
+}
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 2200 }
+1700.1.1 = { citysize = 2500 }
+1750.1.1 = { citysize = 2800 }
+1800.1.1 = { citysize = 3200 }

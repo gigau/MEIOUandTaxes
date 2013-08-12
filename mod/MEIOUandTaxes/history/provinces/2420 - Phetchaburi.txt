@@ -1,0 +1,38 @@
+# 2420 - Phetchaburi
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = monic
+religion = theravada
+capital = "Phetchaburi"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = fish
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1500.1.1 = { citysize = 5740 culture = thai }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 7351 }
+1600.1.1 = { citysize = 8858 }
+1650.1.1 = { citysize = 10450 }
+1700.1.1 = { citysize = 12230 }
+1750.1.1 = { citysize = 14223 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 16570 }

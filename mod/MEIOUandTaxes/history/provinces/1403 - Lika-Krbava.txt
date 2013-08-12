@@ -1,0 +1,78 @@
+# 1403 - Lika-Krbava
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CRO
+controller = CRO
+add_core = HUN
+add_core = CRO
+culture = croatian
+religion = catholic
+capital = "Senj"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 2412
+trade_goods = fish
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+
+hre = no
+
+1479.1.1  = {
+	regimental_camp = yes
+}
+1500.1.1  = {
+	citysize = 10765
+} # The town sheltered thousands of refugees from the nearby occupied areas.
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1550.1.1  = {
+	citysize = 11341
+}
+1558.1.1  = {
+	fort3 = yes
+} # The Nehaj fortress was completed on a hill near the town in 1558.
+1600.1.1  = {
+	citysize = 12865
+}
+1650.1.1  = {
+	citysize = 13683
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1700.1.1  = {
+	citysize = 13274
+}
+1750.1.1  = {
+	citysize = 14476
+}
+1800.1.1  = { citysize = 15000
+}
+1809.10.14 = {
+	controller = RFR
+	owner = RFR
+	add_core = RFR
+	add_core = HAB
+	remove_core = VEN
+}#treaty of schonnbrunn
+1815.1.1   = {
+	controller = HAB
+	owner = HAB
+	remove_core = RFR
+}

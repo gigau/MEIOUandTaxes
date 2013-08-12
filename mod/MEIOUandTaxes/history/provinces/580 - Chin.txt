@@ -1,0 +1,50 @@
+# 580 - Chin
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARK
+controller = ARK
+culture = chin
+religion = theravada
+capital = "Chin"
+trade_goods = sandal
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5800
+terrain1 = yes
+discovered_by = chinese
+discovered_by = indian
+
+1356.1.1 = {
+	add_core = ARK
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+	set_province_flag = terrain1
+}
+1500.1.1 = { citysize = 6300 }
+1550.1.1 = { citysize = 7540 }
+1559.1.1 = { owner = TAU controller = TAU revolt_risk = 2 }
+1600.1.1 = { citysize = 8900 }
+1650.1.1 = { citysize = 9654 }
+1700.1.1 = { citysize = 10500 }
+1730.1.1 = { add_core = MLB } #Manipur kingdom
+1750.1.1 = { citysize = 11350 }
+1752.2.28 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+	remove_core = TAU
+	remove_core = AVA
+	remove_core = PEG
+	remove_core = SST
+} # Annexed by Burma
+1800.1.1 = { citysize = 12570 }
+1885.1.1 = {		
+	owner = GBR
+	controller = GBR
+	revolt_risk = 8
+}
+1896.1.1 = { revolt_risk = 0 }

@@ -1,0 +1,191 @@
+# ABK - Abkhazia
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = -2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -5
+primary_culture = georgian
+religion = orthodox
+technology_group = muslim
+capital = 1300
+
+1455.1.1  = {
+	monarch = {
+		name = "Rabia"
+		dynasty = "Chachba"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1491.1.1  = {
+	monarch = {
+		name = "Solomon I"
+		dynasty = "Chachba"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1512.1.1  = {
+	monarch = {
+		name = "David Hutuni"
+		dynasty = "Chachba"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1520.1.1  = {
+	monarch = {
+		name = "Arsqan"
+		dynasty = "Chachba"
+		adm = 4
+		dip = 6
+		mil = 8
+	}
+}
+
+1580.1.1  = {
+	monarch = {
+		name = "Putu"
+		dynasty = "Chachba"
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}
+
+1620.1.1  = {
+	monarch = {
+		name = "Seteman"
+		dynasty = "Chachba"
+		adm = 8
+		dip = 3
+		mil = 4
+	}
+}
+
+1640.1.1  = {
+	monarch = {
+		name = "Sustar"
+		dynasty = "Chachba"
+		adm = 3
+		dip = 4
+		mil = 8
+	}
+}
+
+1665.1.1  = {
+	monarch = {
+		name = "Zagnak"
+		dynasty = "Chachba"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1700.1.1  = {
+	monarch = {
+		name = "Rostom"
+		dynasty = "Chachibaia"
+		adm = 4
+		dip = 3
+		mil = 8
+	}
+}
+
+1730.1.1  = {
+	monarch = {
+		name = "Manuchar"
+		dynasty = "Chachibaia"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1757.1.1   = {
+	religion = sunni
+}
+
+1757.1.1  = {
+	monarch = {
+		name = "Manuchar II"
+		dynasty = "Chachibaia"
+		adm = 5
+		dip = 8
+		mil = 3
+	}
+}
+
+1770.1.1  = {
+	monarch = {
+		name = "Zurab"
+		dynasty = "Chachibaia"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1780.1.1  = {
+	monarch = {
+		name = "Keilash Ahmed-Bey"
+		dynasty = "Chachibaia"
+		adm = 6
+		dip = 5
+		mil = 8
+	}
+}
+
+1808.1.1  = {
+	monarch = {
+		name = "Aslan-Bey"
+		dynasty = "Chachibaia"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1810.1.1  = {
+	monarch = {
+		name = "Sefer Ali-Bey"
+		dynasty = "Chachibaia"
+		adm = 4
+		dip = 7
+		mil = 7
+	}
+}
+
+1821.1.1  = {
+	monarch = {
+		name = "Dmitry"
+		dynasty = "Chachibaia"
+		adm = 5
+		dip = 6
+		mil = 8
+	}
+}
+
+1823.1.1  = {
+	monarch = {
+		name = "Mikhail"
+		dynasty = "Chachibaia"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}

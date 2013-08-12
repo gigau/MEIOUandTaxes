@@ -1,0 +1,39 @@
+# 2078 - Nambiquana
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = amazonian
+religion = pantheism
+capital = "Nambiquana"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1700.1.1   = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	citysize = 10
+	trade_goods = cacao
+	set_province_flag = trade_good_set
+}
+1750.1.1   = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+	add_core = BRZ
+	remove_core = SPA
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+}
+1825.1.1   = {
+	remove_core = POR
+}

@@ -1,0 +1,57 @@
+# 2253 - A-la-chan
+# LS - Alpha 5
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YUA
+controller = YUA
+culture = khalkas
+religion = mahayana
+capital = "Lintao"
+trade_goods = wool
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 4000
+fort1 = yes
+terrain2 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = YUA
+	add_core = KHA
+	set_province_flag = terrain2
+}
+1375.1.1 = {
+	owner = KHA
+	controller = KHA
+}
+1454.1.1 = {
+	owner = OIR
+	controller = OIR
+}
+1500.1.1 = { citysize = 4987 }
+1550.1.1 = { citysize = 5536 }
+1552.1.1 = {
+	owner = KHA
+	controller = KHA
+} # The Oirads are defeated & Mongolia is reunited under Altan Khan
+1586.1.1 = { religion = mahayana } # State religion
+1600.1.1 = { citysize = 6800 }
+1634.1.1 = {
+	owner = MCH
+	controller = MCH
+} # Part of the Manchu empire
+1640.1.1 = { controller = REB } # Financhial crisis
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+} # The Qing Dynasty
+1650.1.1 = { citysize = 7450 }
+1700.1.1 = { citysize = 8100 }
+1750.1.1 = { citysize = 8653 }
+1800.1.1 = { citysize = 9240 }

@@ -1,0 +1,56 @@
+#Province: Gujaràtta
+#file name: 515 - Gujaratta
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = gujarati
+religion = hinduism
+capital = "Khambat"
+trade_goods = fish
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 125000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = GUJ
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = GUJ
+	controller = GUJ
+	revolt_risk = 0
+}
+1450.1.1 = { citysize = 125500 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 125000 }
+1540.1.1 = { capital = "Baroda" } #Khambat's port no longer as useful
+1550.1.1 = { citysize = 95000 }
+1573.6.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1 = { citysize = 70000 }
+1650.1.1 = {
+	citysize = 64000
+	add_core = GAK
+}
+1700.1.1 = { citysize = 50000 }
+1707.5.12 = {
+	discovered_by = GBR
+}
+1721.1.1 = {
+	owner = GAK
+	controller = GAK
+}
+1750.1.1 = { citysize = 50000 }
+1800.1.1 = { citysize = 80000 }

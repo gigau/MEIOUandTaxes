@@ -1,0 +1,55 @@
+# 2727 - Mae Hong Song
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SST
+controller = SST
+culture = shan
+religion = theravada
+capital = "Mae Hong Song"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 1000
+trade_goods = lumber
+terrain1 = yes
+# hill_tribes = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1400.1.1 = { citysize = 1000 }
+1500.1.1 = { citysize = 1000 }
+1550.1.1 = { citysize = 1000 } 
+1555.1.1 = {
+	owner = TAU
+	controller = TAU
+} # The Shan dynasty is overthrown
+#1581.1.1 = {
+#	owner = SST
+#	controller = SST
+#  	remove_core = TAU
+#} # Very loosely controlled
+1599.1.1 = { controller = REB }	#Shan states revolt after burmese dinasty's crisis
+1600.1.1 = { citysize = 1154 }
+1605.1.1 = { controller = TAU }
+1650.1.1 = { citysize = 1248 }
+1700.1.1 = { citysize = 1300 }
+1750.1.1 = { citysize = 1400 }
+1752.2.28 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+}
+1775.2.14 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 1600 }
+1850.1.1 = { citysize = 1700 }
+

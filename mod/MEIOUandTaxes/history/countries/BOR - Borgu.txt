@@ -1,0 +1,18 @@
+# BOR - Kingdom of Borgu
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+primary_culture = mali
+religion = animism
+technology_group = soudantech
+capital = 1495

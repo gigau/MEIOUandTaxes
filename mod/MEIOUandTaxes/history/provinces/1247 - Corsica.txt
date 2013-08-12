@@ -1,0 +1,90 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = PIS
+controller = PIS
+culture = tuscan
+religion = catholic
+capital = "Bastia"
+hre = no
+base_tax = 3
+trade_goods = wine
+#manpower = 2
+manpower = 4
+fort1 = yes
+citysize = 3500
+add_core = PIS
+add_core = GEN
+add_core = COR
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1298.1.1   = { add_core = ARA }
+1325.1.1   = { revolt = { type = nationalist_rebels size = 0 } controller = REB }
+1347.1.1   = { revolt = { } controller = GEN owner = GEN remove_core = PIS }
+1356.1.1   = { citysize = 4000 }
+1399.1.1   = { citysize = 4500 }
+1453.1.1   = { citysize = 5570 }
+1464.1.1   = {	owner = MLO
+		controller = MLO
+	     	add_core = MLO
+	     }
+1481.1.1   = { controller = REB }
+1486.1.1   = { controller = MLO }
+1499.1.1   = {	owner = GEN
+		controller = GEN
+	     	remove_core = MLO
+	     }
+1500.1.1   = { citysize = 6008 }
+1501.1.1   = { remove_core = ARA }
+1550.1.1   = { citysize = 6250 }
+1553.1.1   = {	owner = FRA
+		controller = FRA
+	     	add_core = FRA
+	     } # Occupied by the French
+1559.1.1   = {	owner = GEN
+		controller = GEN
+	     	remove_core = FRA
+	     } # Treaty of Cateau-Cambrésis
+1600.1.1   = { citysize = 7800 }
+1618.1.1  =  { hre = no }
+1650.1.1   = { citysize = 8120 marketplace = yes }
+1700.1.1   = { citysize = 9057 }
+1729.1.1   = { revolt_risk = 7 } # Revolt against the Genoese
+1732.5.1   = { revolt_risk = 3 } # Charles VI sends military assistance & the rebels surrender
+1733.11.17 = { revolt_risk = 5 } # Mistrust in the Genoese administration resulted in another Corsican revolt
+1735.1.1   = { revolt_risk = 0 controller = REB } # The Corsican assembly declared Corsica independent
+1736.4.15  = { owner = COR controller = COR }
+1743.1.1   = { owner = GEN controller = GEN } # The Corsicans laid down their arms
+1745.1.1   = { controller = REB } # Third Corsican revolt, declared themselves independent in 1746
+1750.1.1   = { citysize = 10300 }
+1753.10.1  = { owner = COR controller = COR }
+1755.7.15  = { controller = REB } # Fourth Corsican revolt lead by Pascal Paoli
+1768.5.15  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+	     	remove_core = GEN
+	     } # Ceded to France, since the Republic of Genoa is unable to restore control
+1769.6.13  = { controller = FRA } # France managed to overcome the resistance & Paoli flees
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 11050 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

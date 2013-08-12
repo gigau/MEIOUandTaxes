@@ -1,0 +1,39 @@
+# Country : Tsardom of Dobrogea
+# Tag : DOB
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_3
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 2381	# Karvuna
+
+1320.1.1 = {
+	monarch = {
+		name = "Balik"
+		dynasty = "Karvuna"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}
+
+1347.1.1 = {
+	monarch = {
+		name = "Dobritsa"
+		dynasty = "Karvuna"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}

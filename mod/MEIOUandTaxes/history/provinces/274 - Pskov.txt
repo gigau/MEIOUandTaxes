@@ -1,0 +1,49 @@
+# 274 - Pskov
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PSK
+controller = PSK
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 5
+trade_goods = wheat
+#manpower = 5
+manpower = 10
+capital = "Pskov"
+citysize = 2000
+fort1 = yes
+temple = yes		# Trinity cathedral, founded in 1138
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1356.1.1  = { add_core = PSK }
+1470.1.1  = { revolt_risk = 5 } # Struggles between the boyars and smerds
+1490.1.1  = { revolt_risk = 0 } 
+1500.1.1  = { citysize = 5000 }
+1510.1.24 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	fort2 = yes
+    	remove_core = PSK
+} # Vasili III put an end to the Pskov republic, still remained a strategic fortress
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 5750 }
+1553.1.1  = { marketplace = yes } 
+1598.1.1  = { revolt_risk = 8 } # "Time of troubles"
+1600.1.1  = { citysize = 6613 }
+1613.1.1  = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1615.10.9 = { citysize = 5604 } # Swedish assault, during the Ingrian war
+1672.1.1  = { base_tax = 7 } # Tax revenues increased
+1700.1.1  = { citysize = 8745 }
+1750.1.1  = { citysize = 10057 }
+1773.1.1  = { revolt_risk = 5 } # Peasant uprising, Pugachev
+1774.1.1  = { revolt_risk = 0 }
+1800.1.1  = { citysize = 11565 }

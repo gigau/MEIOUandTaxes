@@ -1,0 +1,33 @@
+# DAX - Daxia
+# LS - Chinese Civil War
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 5
+# land_naval = -2
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+technology_group = chinese
+religion = mahayana
+primary_culture = sichuanhua
+add_accepted_culture = lanyin
+add_accepted_culture = tibetan
+capital = 685
+
+1333.1.1 = {
+	monarch = {
+		name = "Ming Yuzhen"
+		dynasty = "Ming"
+		ADM = 9
+		DIP = 6
+		MIL = 8
+	}
+	set_country_flag = rising_nation
+}

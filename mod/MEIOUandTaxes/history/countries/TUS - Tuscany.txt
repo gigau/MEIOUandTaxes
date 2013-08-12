@@ -1,0 +1,306 @@
+# TUS - Duchy of Tuscany
+# MEIOU-GG Governemnt changes
+
+government = merchant_republic
+# aristocracy_plutocracy = 0	###1
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -3			###1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1	###0
+# secularism_theocracy = -1
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+capital = 116	# Firenze
+
+#For much of the time between 1115 and 1537 Florence was a republic dominanted
+#by various combinations of nobles, merchants, guilds and peoples representatives
+#At times, the republic was so dominated by one person or family that it was
+#in effect a dictatorship or oligarchy
+
+1343.1.1 = {
+	monarch = {
+		name = "Podestà"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}#Podestà is the name given to certain high officials, mainly as Chief magistrate
+
+1375.1.1 = {
+	monarch = {
+		name = "Piero degli Albizzi"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+1378.1.1 = {
+	monarch = {
+		name = "Michelle di Ando"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Maso degli Albizzi"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Rinaldo degli Albizzi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Giovanni I de Medici"
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+
+1429.2.20 = {
+	monarch = {
+		name = "Cosimo di Medici"
+		adm = 9
+		dip = 8
+		mil = 8
+	}
+}
+
+1464.8.3 = {
+	monarch = {
+		name = "Piero I Gottoso di Medici"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.12.4 = {
+	monarch = {
+		name = "Lorenzo I il Magnifico"
+		adm = 9
+		dip = 7
+		mil = 6
+	}
+}
+
+1490.1.1 = { leader = {	name = "Uffreducci"            	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1503.1.1 }}
+
+1490.1.1 = { leader = {	name = "Vitellozzo Vitelli"     type = general	rank = 1	fire = 1	shock = 2	manuever = 4	siege = 0 death_date = 1502.12.31 }}
+
+1492.4.11 = {
+	monarch = {
+		name = "Piero II di Medici"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1498.1.1 = { leader = {	name = "Machiavelli"           	type = general	rank = 2	fire = 1	shock = 1	manuever = 3	siege = 2 death_date = 1512.8.1 }}
+
+1502.9.23 = {
+	monarch = {
+		name = "Piero Soderino"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1512.9.17 = {
+	monarch = {
+		name = "Giuliano"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1513.8.2 = {
+	monarch = {
+		name = "Lorenzo II"
+		dynasty = "di Medici"
+		adm = 8
+		dip = 9
+		mil = 6
+	}
+}
+
+1519.5.5 = {
+	monarch = {
+		name = "Giulio"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 9
+		mil = 6
+	}
+}
+
+1523.11.2 = {
+	monarch = {
+		name = "Alessandro"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1531.1.1 = { government = despotic_monarchy_4 }
+
+1537.1.6 = {
+	monarch = {
+		name = "Cosimo I"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 8
+		mil = 7
+	}
+}
+
+1574.4.22 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "di Medici"
+		adm = 5
+		dip = 7
+		mil = 3
+	}
+}
+
+1587.10.20 = {
+	monarch = {
+		name = "Ferdinando I"
+		dynasty = "di Medici"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1609.2.7 = {
+	monarch = {
+		name = "Cosimo II"
+		dynasty = "di Medici"
+		adm = 3
+		dip = 7
+		mil = 4
+	}
+}
+
+1621.2.24 = {
+	monarch = {
+		name = "Ferdinando II"
+		dynasty = "di Medici"
+		adm = 3
+		dip = 8
+		mil = 6
+	}
+}
+
+1670.5.24 = {
+	monarch = {
+		name = "Cosimo III"
+		dynasty = "di Medici"
+		adm = 3
+		dip = 7
+		mil = 7
+	}
+}
+
+1723.10.30 = {
+	monarch = {
+		name = "Gian Gastone"
+		dynasty = "di Medici"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1737.7.12 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "di Medici"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	government = absolute_monarchy_4
+}
+
+1740.1.1 = { government = enlightened_despotism_4 }
+
+1745.1.21 = { emperor = yes }
+
+1765.8.18 = {
+	monarch = {
+		name = "Pietro Leopoldo I"
+		dynasty = "di Medici"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1790.7.22 = {
+	monarch = {
+		name = "Ferdinando III"
+		dynasty = "di Medici"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1814.4.27 = {
+	monarch = {
+		name = "Ferdinando III"
+		dynasty = "di Medici"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1824.6.18 = {
+	monarch = {
+		name = "Leopoldodo II"
+		dynasty = "di Medici"
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1859.6.21 = {
+	monarch = {
+		name = "Ferdinando IV"
+		dynasty = "di Medici"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

@@ -1,0 +1,7 @@
+discovered_by = western
+discovered_by = FEZ
+discovered_by = TLE
+discovered_by = MOR
+discovered_by = HAF
+discovered_by = eastern
+discovered_by = turkishtech

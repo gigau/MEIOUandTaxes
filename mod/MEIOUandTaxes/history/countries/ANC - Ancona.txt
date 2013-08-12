@@ -1,0 +1,50 @@
+# ANC - Anconna
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic
+# aristocracy_plutocracy = 2
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 2
+# land_naval = 0		#-1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = umbrian
+religion = catholic
+technology_group = western
+capital = 119	# Ancona
+
+
+1355.1.1 = {
+	monarch = {
+		name = "Republican Council"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1434.1.1 = {
+	government = feudal_monarchy_4
+	# centralization_decentralization = 2
+	monarch = {
+	name = "Francesco I Sforza"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+
+1443.1.1 = {
+	government = merchant_republic
+	# centralization_decentralization = 4
+	monarch = {
+		name = "Republican Council"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

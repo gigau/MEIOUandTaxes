@@ -1,0 +1,21 @@
+# 870 - Wintoon
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = shoshone
+religion = midewiwin
+capital = "Wintoon"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 3
+native_hostileness = 6
+
+1812.1.1   = {
+	discovered_by = GBR
+	owner = GBR
+	controller = GBR
+} # North West Company and the Hudson's Bay Company

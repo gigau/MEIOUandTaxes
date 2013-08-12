@@ -1,0 +1,37 @@
+# 1823 - Mi-wuk
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = shoshone
+religion = midewiwin
+capital = "Mi-wuk"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 3
+native_hostileness = 6
+
+1770.1.1   = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	citysize = 20
+	culture = mexican
+	religion = catholic
+	trade_goods = fur
+	set_province_flag = trade_good_set
+}
+1800.1.1   = {
+	add_core = SPA
+	add_core = MEX
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

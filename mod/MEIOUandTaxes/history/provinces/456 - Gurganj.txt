@@ -1,0 +1,69 @@
+# 456 - Gurganj
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHI
+controller = KHI
+culture = turkmeni
+religion = sunni
+capital = "Gurganj"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 1736
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = KHI
+	add_core = KTD
+	add_core = TIM
+}
+1361.1.1 = {
+	owner = TIM
+	controller = TIM
+}
+1447.3.12 = {
+	owner = KTD
+	controller = KTD
+}
+1469.2.17 = {
+	owner = TIM
+	controller = TIM
+}
+1495.1.1 = {
+	owner = SHY
+	controller = SHY
+} # Captured by the Shaybanid horde
+1500.1.1 = {
+	citysize = 2250
+}
+1511.1.1 = {
+	owner = KHI 
+	controller = KHI
+} # Khiva Independent
+1550.1.1 = {
+	citysize = 2920
+}
+1600.1.1 = {
+	citysize = 3438
+}
+1650.1.1 = {
+	citysize = 3724
+}
+1677.1.1 = {
+	discovered_by = FRA
+}
+1700.1.1 = {
+	citysize = 4576
+}
+1750.1.1 = {
+	citysize = 4915
+}
+1800.1.1 = {
+	citysize = 5350
+}

@@ -1,0 +1,66 @@
+#Province: Charabom
+#file name: 2110 - Charabom
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MPH
+controller = MPH
+culture = javan
+religion = hinduism		#FB this region began to be Islamified c1300
+capital = "Semarang"
+trade_goods = rice
+hre = no
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 25000
+add_core = MPH
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 28890 religion = sunni }
+1450.1.1 = { citysize = 32000 }
+1478.1.1 = {
+	owner = DEM
+	controller = DEM
+	add_core = DEM
+	capital = "Demak"
+	discovered_by = CBT
+}
+#exact date Demak could be said to be the dominant city in this province is uncertain
+#1478 is based on MC Ricklefs "A History of Modern Indonesia"
+1512.1.1 = { discovered_by = POR citysize = 35000 }	#FB Antonio de Abreu
+1599.1.1 = { discovered_by = NED citysize = 42000 }	#FB
+1625.1.1 = {
+	owner = MTR
+	controller = MTR
+	add_core = MTR
+	add_core = CBT
+	remove_core = MPH
+	remove_core = DEM
+	capital = "Semarang"
+	revolt_risk = 2
+}
+1650.1.1 = { citysize = 45200 revolt_risk = 1 }
+1676.10.15 = { controller = REB } #rebels defeat Mataram army at Gogodog
+1677.7.13 = {
+	controller = MTR
+	revolt_risk = 2
+} # Amangkurat's death
+#after 1680 MTR had little real control in this province
+1700.1.1 = { citysize = 47877 revolt_risk = 1 }
+1717.1.1 = { controller = REB } #Surabaya rebellion/2nd war of Javanese Succession
+1721.1.1 = { controller = MTR revolt_risk = 2 }
+1743.11.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 1
+}
+1750.1.1 = { citysize = 48404 trade_goods = sugar}
+1800.1.1 = { citysize = 51240 add_core = NED revolt_risk = 0 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

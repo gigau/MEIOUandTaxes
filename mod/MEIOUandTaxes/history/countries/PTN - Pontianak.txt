@@ -1,0 +1,156 @@
+#PTN - Pontianak
+#MEIOU-FB Indonesia mod v2
+#Pontianak was founded in 1771 but it is used to represent the various city-states
+#that thrived in this area during the EU3 timeframe e.g. Sambas
+#MEIOU-GG Govenemnt changes
+#FB-TODO rulers c1400 to 1670
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = indian_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = malayan
+religion = theravada
+technology_group = austranesian
+capital = 629	# Pontianak
+
+1337.1.1 = {
+	monarch = {
+		name = "Ratu Winata Kusuma"
+		dynasty = "Pangeran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1390.1.1 = {
+	monarch = {
+		name = "Sanggau"
+		dynasty = "Pangeran"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1580.1.1 = {
+	monarch = {
+		name = "Ratu Sepudak"
+		dynasty = "Pangeran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}#last Majapahit Governor of Sambas
+
+1609.1.1 = {
+	religion = sunni
+	# secularism_theocracy = 1
+	government = despotic_monarchy_3
+	monarch = {
+		name = "Tuanku Muhammad"
+		dynasty = "Tuanku"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}#first islamic ruler of Sambas
+
+1670.1.1 = {
+	monarch = {
+		name = "Muhammad Tajuddin"
+		dynasty = "Tuanku"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}#Sambas Sultanate formed 1670
+
+1708.1.1 = {
+	monarch = {
+		name = "Umar Akamaddin"
+		dynasty = "Tuanku"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1732.1.1 = {
+	monarch = {
+		name = "Abu Bakar Kamaluddin"
+		dynasty = "Tuanku"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Umar Akamaddin II"
+		dynasty = "Tuanku"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1771.1.1 = {
+	monarch = {
+		name = "Abdul Rahman"
+		dynasty = "Rahman"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}#Pontianak Sultanate formed 1771
+
+1798.1.1 = {
+	monarch = {
+		name = "Usman Paku Negara"
+		dynasty = "Rahman"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Sharif Quasim"
+		dynasty = "Rahman"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1814.1.1 = {
+	monarch = {
+		name = "Muhammad Ali"
+		dynasty = "Rahman"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1819.1.1 = {
+	monarch = {
+		name = "Sharif Othman"
+		dynasty = "Rahman"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}

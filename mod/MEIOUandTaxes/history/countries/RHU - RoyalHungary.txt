@@ -1,0 +1,317 @@
+# RHU - Royal Hungary
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = absolute_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 1
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 1
+# serfdom_freesubjects = -5
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+primary_culture = hungarian
+religion = catholic
+technology_group = western
+capital = 1274 # Pressburg
+
+
+1520.1.2 = {
+	monarch = {
+		name = "Ferdinand"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+}
+
+1558.1.1 = {
+	# secularism_theocracy = -2
+} #Transylvanian diet of turda, free practive of catholic and lutheran religions but noyt calvinism
+
+1564.7.27 = {
+	monarch = {
+		name = "Maximilian II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+	heir = {
+		name = "Rudolf"
+		monarch_name = "Rudolf II"
+		dynasty = "von Habsburg"
+		birth_date = 1552.7.18
+		death_date = 1612.1.22
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1568.1.1 = {
+	# secularism_theocracy = -3
+} #free practice of catholic, lutheran, and calvinist
+
+1576.10.14 = {
+	monarch = {
+		name = "Rudolf II"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Matthias"
+		monarch_name = "Matthias"
+		dynasty = "von Habsburg"
+		birth_date = 1557.2.24
+		death_date = 1619.3.22
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1612.1.22 = {
+	monarch = {
+		name = "Matthias"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand II"
+		dynasty = "von Habsburg"
+		birth_date = 1578.7.9
+		death_date = 1637.2.15
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1619.3.22 = {
+	monarch = {
+		name = "Ferdinand II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand III"
+		dynasty = "von Habsburg"
+		birth_date = 1608.7.13
+		death_date = 1658.7.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 8
+	}
+}
+
+1637.2.15 = {
+	monarch = {
+		name = "Ferdinand III"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 4
+		mil = 8
+	}
+}
+
+1640.6.9 = {
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold I"
+		dynasty = "von Habsburg"
+		birth_date = 1640.6.9
+		death_date = 1705.5.7
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1658.7.1 = {
+	monarch = {
+		name = "Leopold"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+
+1678.7.26 = {
+	heir = {
+		name = "Josef"
+		monarch_name = "Josef"
+		dynasty = "von Habsburg"
+		birth_date = 1678.7.26
+		death_date = 1711.4.19
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1705.5.7 = {
+	monarch = {
+		name = "Josef"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl II"
+		dynasty = "von Habsburg"
+		birth_date = 1685.10.1
+		death_date = 1740.10.22
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1711.4.19 = {
+	monarch = {
+		name = "Karl II"
+		dynasty = "von Habsburg"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1717.5.13 = {
+	heir = {
+		name = "Maria Theresia"
+		monarch_name = "Maria Theresia"
+		dynasty = "von Habsburg"
+		birth_date = 1717.5.13
+		death_date = 1780.11.30
+		claim = 90
+		adm = 8
+		dip = 8
+		mil = 7
+		female = yes
+	}
+}
+
+1740.10.22 = {
+	monarch = {
+		name = "Maria Theresia"
+		dynasty = "von Habsburg"
+		adm = 8
+		dip = 8
+		mil = 7
+		female = yes
+	}
+}
+
+1741.3.13 = {
+	heir = {
+		name = "Josef"
+		monarch_name = "Josef II"
+		dynasty = "von Habsburg"
+		birth_date = 1741.3.13
+		death_date = 1790.2.20
+		claim = 95
+		adm = 8
+		dip = 9
+		mil = 7
+	}
+}
+
+1780.11.30 = {
+	monarch = {
+		name = "Josef II"
+		dynasty = "von Habsburg"
+		adm = 8
+		dip = 9
+		mil = 7
+	}
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold II"
+		dynasty = "von Habsburg"
+		birth_date = 1747.5.5
+		death_date = 1792.3.1
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1789.9.20 = {
+	# aristocracy_plutocracy = -2
+	# serfdom_freesubjects = 2
+	# innovative_narrowminded = 5
+	# secularism_theocracy = 2
+} # The Reactionary Reforms of 1791
+
+1790.2.20 = {
+	monarch = {
+		name = "Leopold II"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Franz"
+		monarch_name = "Franz II"
+		dynasty = "von Habsburg"
+		birth_date = 1768.2.12
+		death_date = 1835.3.2
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1792.3.3 = {
+	monarch = {
+		name = "Franz II"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1793.4.19 = {
+	heir = {
+		name = "Ferdinand"
+		monarch_name = "Ferdinand"	
+		dynasty = "von Habsburg"
+		birth_date = 1793.4.19
+		death_date = 1875.6.29
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1849.7.1 = {
+	# secularism_theocracy = -1
+} #parliment enacted frist laws of minority rights

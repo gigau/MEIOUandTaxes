@@ -1,0 +1,88 @@
+# 737 - Jeolla
+# FL - Korea Universalis
+# LS - Alpha 5
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KOR
+controller = KOR
+add_core = KOR
+culture = korean
+religion = mahayana #FB-ASSA become confucianism in 1392
+capital = "Naju"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 40000
+trade_goods = chinaware
+
+fort1 = yes
+terrain1 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1  = {
+	set_province_flag = terrain1
+	revolt = {
+		type = wokou_pirates
+		size = 1
+	}
+	controller = REB
+	revolt_risk = 3
+} # Wokou pirates effectively control south Korea
+1360.1.1  = {
+	revolt = { }
+	controller = KOR
+	revolt_risk = 0
+} # Pirates chased
+1392.1.1  = {
+	religion = confucianism
+}
+1500.1.1  = {
+	citysize = 40000
+}
+1550.1.1  = {
+	citysize = 40000
+}
+1593.1.1  = {
+	controller = ODA
+} # Japanese invasion
+1593.2.12 = {
+	controller = KOR
+} # With Chinese help the Japanese troops are driven back
+1597.8.16 = {
+	controller = ODA
+} # Second Japanese invasion
+1597.9.1  = {
+	controller = KOR
+} # The Japanese are forced to retreat
+1600.1.1  = {
+	citysize = 30000
+} # Great devastation as a result of the Japanese invasion
+1637.1.1  = {
+	add_core = MNG
+} # Tributary of Qing China
+1644.1.1  = {
+	add_core = QNG
+	remove_core = MNG
+} # Part of the Manchu empire
+1650.1.1  = {
+	citysize = 30000
+}
+1653.1.1  = {
+	discovered_by = NED
+} # Hendrick Hamel
+1700.1.1  = {
+	citysize = 40000
+}
+1750.1.1  = {
+	citysize = 50000
+}
+1800.1.1  = {
+	citysize = 60000
+}

@@ -1,0 +1,32 @@
+# 740 - Changtang
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+#owner = TIB
+#controller = TIB
+#culture = tibetan
+#religion = mahayana
+#capital = "Gê'gyai"
+#trade_goods = wool
+#hre = no
+#base_tax = 3
+##manpower = 1
+#manpower = 2
+#citysize = 10890
+#add_core = TIB
+discovered_by = chinese
+discovered_by = indian
+discovered_by = steppestech
+#temple = yes
+#terrain3 = yes
+#fort1 = yes
+#
+#1356.1.1 = {
+#	set_province_flag = terrain3
+#}
+#1720.1.1  = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#} # Qing Empire
+#1755.10.4 = { revolt_risk = 7 } # Rebellion aginst the Chinese
+#1757.10.4 = { revolt_risk = 0 }

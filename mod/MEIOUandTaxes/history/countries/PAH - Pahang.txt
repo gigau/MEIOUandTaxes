@@ -1,0 +1,277 @@
+#PAH - Pahang
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 1
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = sunni
+technology_group = austranesian
+capital = 597	# Johor
+
+1354.1.1 = {
+	monarch = {
+		name = "Muhammad Tahir"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+#1377-1451 to Ayutthaya
+
+1451.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Bendahara"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name ="Ahmad"
+		dynasty = "Bendahara"
+		birth_date = 1430.1.1
+		death_date = 1497.1.1
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Bendahara"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Mansur"
+		dynasty = "Bendahara"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Mahmud"
+		monarch_name ="Mahmud"
+		dynasty = "Bendahara"
+		birth_date = 1460.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1519.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Muzaffar"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Zainal - Abidin"
+		monarch_name ="Zainal - Abidin"
+		dynasty = "Bendahara"
+		birth_date = 1490.1.1
+		death_date = 1555.1.1
+		claim = 95
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Zainal - Abidin"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+	heir = {
+		name = "Mansur"
+		monarch_name ="Mansur II"
+		dynasty = "Bendahara"
+		birth_date = 1520.1.1
+		death_date = 1560.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1555.1.1 = {
+	monarch = {
+		name = "Mansur II"
+		dynasty = "Bendahara"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1560.1.1 = {
+	monarch = {
+		name = "Abdul Jamal"
+		dynasty = "Bendahara"
+		adm = 6
+		dip = 4
+		mil = 8
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name ="Ahmad II"
+		dynasty = "Bendahara"
+		birth_date = 1540.1.1
+		death_date = 1592.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Bendahara"
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Abdul Ghafur"
+		dynasty = "Bendahara"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+	heir = {
+		name = "Abdul Jalil"
+		monarch_name ="Abdul Jalil"
+		dynasty = "Bendahara"
+		birth_date = 1580.1.1
+		death_date = 1617.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Abdul Jalil"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1617.1.1 = {
+	monarch = {
+		name = "bin Aladdin"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Abdul Jalil"
+		dynasty = "Bendahara"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1777.1.1 = {
+	monarch = {
+		name = "Abdul Majid"
+		dynasty = "Bendahara"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name ="Muhammad"
+		dynasty = "Bendahara"
+		birth_date = 1750.1.1
+		death_date = 1803.1.1
+		claim = 95
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1802.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Bendahara"
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1803.1.1 = {
+	monarch = {
+		name = "Koris"
+		dynasty = "Bendahara"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "'Ali"
+		dynasty = "Bendahara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

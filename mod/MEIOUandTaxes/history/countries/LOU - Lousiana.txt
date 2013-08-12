@@ -1,0 +1,22 @@
+# LOU - Louisiana
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = constitutional_republic
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 1
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = acadian
+religion = catholic
+capital = 922	# Mobile
+
+1720.1.1 = { capital = 921 } # Biloxi

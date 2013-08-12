@@ -1,0 +1,70 @@
+# ZPA - Zapotecs
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 4
+primary_culture = zapotec
+religion = teotl
+technology_group = new_world
+capital = 2600
+
+1356.1.1 = {
+	monarch = {
+		name = "Zaachilla"
+		dynasty = "Yoo"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Zaachilla II"
+		dynasty = "Yoo"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Zaachilla III"
+		dynasty = "Yoo"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Cociyocza"
+		dynasty = "Yoo"
+		adm = 7
+		dip = 5
+		mil = 3
+	}
+
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Cociyopu"
+		dynasty = "Yoo"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+
+}

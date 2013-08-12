@@ -1,0 +1,12 @@
+# 2460 - Michinmahuida
+
+discovered_by = MAP
+discovered_by = AYM
+
+1535.1.1  = {
+	discovered_by = SPA
+}
+1900.1.1  = {
+	owner = CHL
+	controller = CHL
+}

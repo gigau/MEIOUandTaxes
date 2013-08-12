@@ -1,0 +1,5 @@
+# 2506 - Sahara
+
+discovered_by = KON
+discovered_by = NDO
+discovered_by = KIT

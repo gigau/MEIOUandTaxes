@@ -1,0 +1,145 @@
+# RHU - Royal Hungary
+
+graphical_culture = latingfx
+
+color = { 152  85  92 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	bardiche_infantry
+	druzhina_cavalry
+	slavic_stradioti
+	austrian_hussar
+	austrian_tercio
+	austrian_grenzer
+	austrian_jaeger
+	austrian_white_coat
+	british_hussar
+	french_dragoon
+	french_impulse
+	french_cuirassier
+	hungarian_hussar
+	germanized_pike
+	prussian_drill
+	saxon_infantry
+	russian_cossack
+	russian_cuirassier
+	russian_lancer
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_knights
+	eastern_skirmisher
+	eastern_carabinier
+}
+
+monarch_names = {
+	"Ulászló #0" = 10
+	"Lászlo #4" = 20
+	"Lájos #1" = 20
+	"Albert #0" = 20
+	"János #0" = 20
+	"Mátyás #0" = 20
+	"Zsigmond #0" = 20
+	"András #3" = 15
+	"Károly #2" = 15
+	"István #5" = 10
+	"Anna #0" = -10
+	"Béla #4" = 5
+	"Barnabás #0" = 0
+	"Bertalan #0" = 0
+	"Dávid #0" = 0
+	"Edvárd #0" = 0
+	"Ferenc #0" = 0
+	"György #0" = 0
+	"József #0" = 0
+	"Kálmán #0" = 0
+	"Kázmér #0" = 0
+	"Kelemen #0" = 0
+	"Lörinc #0" = 0
+	"Lukacs #0" = 0
+	"Márk #0" = 0
+	"Miklós #0" = 0
+	"Otto #0" = 0
+	"Patrik #0" = 0
+	"Péter #0" = 0
+	"Tamás #0" = 0
+	"Vencel #0" = 0
+	"Zoltán #3" = 5
+}
+
+leader_names = {
+	Andrássy Alvinczy
+	Bocskay Bethlen Báthory Batthyány Beleznay
+	Csák
+	Dessewffy Damjanich
+	Esterházy
+	Festetics Frangepán Fekete Fehér Farkas Fodor
+	Horváth
+	Garay
+	Hunyadi Hadik Horthy Horváth
+	Juhász
+	Kinizsi Károlyi Kán Kovács Kemény Kiss Knézich
+	Lackovics Losonci Lakatos Lahner Lázár
+	Mészáros Milványi Molnár
+	Nadasdy Nagy Németh
+	Pintér Papp
+	Rákóczi Rozgonyi Rácz
+	Széchenyi Szabó Szûcs Szilágyi
+	Török Takács
+	Varga Vécsey
+	Zrinyi Zápolya Zichy
+}
+
+ship_names = {
+	"Szent István"
+	"II. István"
+	"III. István"
+	"IV. István"
+	"V. István"
+	"I. Béla"
+	"II. Béla"
+	"III. Béla"
+	"IV. Béla"
+	"I.András"
+	"II.András"
+	"III. András"
+	"Géza"
+	"Szent Imre"
+	"Szent Gellért"
+	"Szent Erzsébet"
+	"Szent Anna"
+	"Szent Margit"
+	"Szent László"
+	"Könyves Kálmán"
+	"Nagy Lajos"
+	"Károly Róbert"
+	"Hunyadi János"
+	"Hunyadi Mátyás"
+	Kárpátia
+	Erdély
+	Pannónia
+	Felvidék
+	Alföld
+	Aranybulla 
+	Árpád
+	Álmos
+	Turulmadár
+	Magyar
+}
+
+army_names = {
+	"1. Magyar Hadsereg" "2. Magyar Hadsereg" "3. Magyar Hadsereg" "1. Királyi Hadsereg" "2. Királyi Hadsereg" "3. Királyi Hadsereg" "Pannónia Hadsereg" "Erdély Hadsereg" "$PROVINCE$ Serege" "Fekete Sereg"
+}
+
+fleet_names = {
+	"Adria Flotta" "Királyi Flotta" "Nemzeti Flotta" "Fekete Flotta" "Magyar Flotta"
+}
+

@@ -1,0 +1,19 @@
+# RSP - Revolutionary Spain
+
+government = revolutionary_republic
+# aristocracy_plutocracy = 5
+# centralization_decentralization = -3
+# innovative_narrowminded = 4
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -1
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 3
+# secularism_theocracy = -5
+primary_culture = castillian
+add_accepted_culture = catalan
+religion = catholic
+technology_group = western
+# historical_friend = RFR
+capital = 219	# Toledo

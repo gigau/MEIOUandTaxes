@@ -1,0 +1,27 @@
+# 1223 - Logone
+# FB - added discovered_by = DAR
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YAO
+controller = YAO
+add_core = YAO
+culture = chadic
+religion = sunni
+capital = "Logone"
+
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = KBO
+discovered_by = YAO
+discovered_by = KNO
+discovered_by = ZZZ
+discovered_by = NRI
+discovered_by = DAR
+
+hre = no

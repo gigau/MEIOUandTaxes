@@ -1,0 +1,32 @@
+# 1048 - Udskoye
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MCH
+controller = MCH
+culture = jurchen
+religion = mahayana
+capital = "Udskoye"
+trade_goods = fur
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 16100
+add_core = MCH
+discovered_by = chinese
+discovered_by = steppestech
+
+1500.1.1 = { citysize = 18240 }
+1550.1.1 = { citysize = 20004 }
+1600.1.1 = { citysize = 22895 }
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+	culture = manchu
+} # The Qing Dynasty
+1650.1.1 = { citysize = 24244 }
+1700.1.1 = { citysize = 26240 }
+1750.1.1 = { citysize = 28955 }
+1800.1.1 = { citysize = 30600 }

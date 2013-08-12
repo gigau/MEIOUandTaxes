@@ -1,0 +1,34 @@
+#58 - Anhalt
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ANH
+controller = ANH  
+culture = low_saxon
+religion = catholic
+capital = "Dessau"
+trade_goods = copper
+hre = yes
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3000
+fort1 = yes
+add_core = ANH
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = { citysize = 3500 }
+1399.1.1 = { citysize = 4000 }
+1453.1.1 = { citysize = 4500 }
+1500.1.1 = { citysize = 4890 }
+1529.1.1 = { religion = protestant }
+1547.1.1 = { revolt_risk = 2 } # Wolfgang is placed under the ban by Charles V
+1550.1.1 = { citysize = 5340 }
+1552.1.1 = { revolt_risk = 0 } # Wolfgang bought his land back
+1600.1.1 = { citysize = 5800 marketplace = yes }
+1650.1.1 = { citysize = 6500 }
+1700.1.1 = { citysize = 7100 constable = yes }
+1750.1.1 = { citysize = 7990 }
+1800.1.1 = { citysize = 8700 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

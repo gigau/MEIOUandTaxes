@@ -1,0 +1,41 @@
+# CIR - Cherkassia
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = -2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -5
+primary_culture = circassian
+religion = orthodox
+technology_group = muslim
+capital = 1302
+
+1333.1.1 = {
+	monarch = {
+		name = "Verzacht"
+		dynasty = "Zichia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1471.1.1 = {
+	monarch = {
+		name = "Petrezok"
+		dynasty = "Zichia"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1600.1.1   = {
+	religion = sunni
+}

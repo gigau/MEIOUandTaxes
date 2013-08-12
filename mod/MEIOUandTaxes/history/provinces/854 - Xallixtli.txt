@@ -1,0 +1,73 @@
+# 854 - Cihuatlan
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NAH
+controller = NAH
+add_core = NAH
+culture = nahuatl
+religion = teotl
+capital = "Cihuatlan" 
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 15000
+trade_goods = fish 
+
+fort1 = yes
+
+hre = no
+
+discovered_by = new_world
+
+1487.1.1   = {
+	owner = AZT
+	controller = AZT
+} # Conquest by Ahuitzotl, eighth tlatoani of Tenochtitlan
+1506.1.1   = {
+	add_core = AZT
+}
+
+1522.1.1 = {
+	discovered_by = SPA
+}
+1533.5.19  = {
+	owner = SPA
+	controller = SPA
+	capital = "Guadalajara"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	base_tax = 2
+	trade_goods = livestock
+	fort1 = yes
+} # Spanish explorer Cristóbal de Oñate
+1558.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1600.1.1   = {
+	citysize = 2000
+}
+1650.1.1   = {
+	citysize = 5000
+}
+1700.1.1   = {
+	citysize = 10000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 20000
+}
+1800.1.1   = {
+	citysize = 50000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

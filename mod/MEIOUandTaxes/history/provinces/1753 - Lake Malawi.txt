@@ -1,0 +1,5 @@
+discovered_by = ZIM
+discovered_by = ZAN
+discovered_by = KIT
+discovered_by = KIL
+discovered_by = QLM

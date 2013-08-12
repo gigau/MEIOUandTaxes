@@ -1,0 +1,41 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 104  153  103 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	indian_rifle
+}
+
+monarch_names = {
+	"Bharani #0" = 10
+	"Manavikrama #0" = 10
+	"Putiya #0" = 10
+	"Kilakke #0" = 10
+}
+
+leader_names = {
+	Tirunal Kovilakam
+}
+
+ship_names = {
+	Alia Arusa Jalsena
+	Ganges
+	Nausena "Nav ka Yudh" Niknaz
+	Noor Spiti
+	Suhalia Yamuna
+}

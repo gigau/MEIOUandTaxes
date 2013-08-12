@@ -1,0 +1,61 @@
+#702 - Henan Zhengzhou
+# LS - Alpha 5
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LNG
+controller = LNG
+culture = zhongyuan
+religion = confucianism
+capital = "Changzhi"
+trade_goods = rice
+hre = no
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 50000
+add_core = LNG
+
+fort1 = yes
+marketplace = yes
+
+
+discovered_by = chinese
+discovered_by = steppestech
+
+1231.1.1  = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1368.1.1  = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+}
+1500.1.1  = { citysize = 75998 }
+1505.1.1  = { marketplace = yes }
+1540.1.1  = { fort2 = yes }
+1550.1.1  = { citysize = 78574 }
+1556.1.23 = { citysize = 51480 } # Earthquake
+1560.1.1  = { constable = yes }
+1600.1.1  = { citysize = 56000 }
+1630.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion
+1640.1.1  = { controller = REB } # Financhial crisis
+1641.1.1  = { controller = MNG } 
+1644.1.1 = {
+	controller = MCH
+}
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+#	remove_core = MNG
+} # The Qing Dynasty
+1645.5.27 = { revolt_risk = 0 } # The rebellion is defeated
+1650.1.1  = { citysize = 62240 }
+1662.1.1 = { remove_core = MNG }
+1700.1.1  = { citysize = 67655 }
+1740.1.1  = { mint = yes }
+1750.1.1  = { citysize = 75800 }
+1800.1.1  = { citysize = 82540 }

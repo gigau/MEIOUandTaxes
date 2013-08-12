@@ -1,0 +1,56 @@
+# 1 - Uppland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = swedish
+religion = catholic
+capital = "Stockholm"
+
+trade_goods = iron
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 6500
+
+hre = no
+fort1 = yes
+workshop = yes #"Stockholms borgarskap"
+marketplace = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1435.1.1   = { citysize = 8000 temple = yes } #"Domkyrkan i Uppsala"
+1477.1.1   = { university = yes } #Uppsala University
+1523.6.7   = { regimental_camp = yes } #Kgl.Drabantkåren/Svea Livgarde
+1527.6.1   = { religion = protestant}
+1537.1.1   = { fort2 = yes } #Gripsholms Castle
+1570.1.1   = { citysize = 10000 }
+1598.8.12  = { controller = POL } #Sigismund tries to reconquer his crown
+1598.12.15 = { controller = SWE } #Duke Karl get it back
+1608.1.1   = { constable = yes } #The men around Axel Oxenstierna
+1614.1.1   = { courthouse = yes } #Svea Hovrätt
+1617.1.1   = {
+	cot = yes
+	base_tax = 8
+#	manpower = 5
+	manpower = 10
+} #Stockholm become Baltic Metropol
+1621.1.1   = { fort3 = yes } # Key forts defending roads to Stockholm
+1630.1.1   = { citysize = 20000 }
+1634.1.1   = {
+	shipyard = yes
+} #Skeppsholmen issued as naval base by GIIA
+1650.1.1   = { citysize = 38000 }
+1654.1.1   = { mint = yes } #Result of "The Great Reduction"
+1680.1.1   = { fort4 = yes } # Added forts giving coastal defense of region
+1690.1.1   = { citysize = 59000 }
+1710.1.1   = { customs_house = yes } #Baron v. Görtz new institution
+1730.1.1   = { citysize = 60000 }
+1730.1.1   = { fort5 = yes } # estimated date
+1770.1.1   = { citysize = 70000 }
+1810.1.1   = { citysize = 75000 }

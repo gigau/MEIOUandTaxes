@@ -1,0 +1,209 @@
+# Maison d'Albret
+# Tag : DAL
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -1
+# centralization_decentralization = -1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 4
+# land_naval = -4
+# quality_quantity = -1
+# serfdom_freesubjects = 1
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+technology_group = western
+religion = catholic
+primary_culture = gascon
+add_accepted_culture = occitain
+capital = 194
+
+1326.1.1 = {
+	monarch = {
+		name = "Bernard-Ezy V"
+		dynasty = "d'Albret"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1338.8.4 = {
+	heir = {
+		name = "Arnaud"
+		monarch_name = "Arnaud-Amanieu"
+		dynasty = "d'Albret"
+		birth_date = 1338.8.4
+		death_date = 1401.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1358.1.1 = {
+	monarch = {
+		name = "Arnaud-Amanieu"
+		dynasty = "d'Albret"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1360.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles"
+		dynasty = "d'Albret"
+		birth_date = 1360.1.1
+		death_date = 1415.10.25
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Charles"
+		dynasty = "d'Albret"
+		DIP = 7
+		ADM = 7
+		MIL = 5
+		leader = { name = "Charles d'Albret" type = general rank = 0 fire = 1 shock = 3 manuever = 2 siege = 2 }
+	}#died at the battle of Agincourt
+}
+
+1407.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles II"
+		dynasty = "d'Albret"
+		birth_date = 1407.1.1
+		death_date = 1471.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1415.10.25 = {
+	monarch = {
+		name = "Charles II"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Alain"
+		monarch_name = "Alain"
+		dynasty = "d'Albret"
+		birth_date = 1440.1.1
+		death_date = 1522.1.1
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1471.1.1 = {
+	monarch = {
+		name = "Alain"
+		dynasty = "d'Albret"
+		ADM = 7
+		DIP = 7
+		MIL = 6
+	}
+}
+
+1503.4.18 = {
+	heir = {
+		name = "Henri"
+		monarch_name = "Henri II"
+		dynasty = "d'Albret"
+		birth_date = 1503.4.18
+		death_date = 1555.5.25
+		claim = 95
+		adm = 7
+		dip = 7
+		mil = 6
+	}
+}
+
+1512.9.1 = { government = despotic_monarchy_6 }
+
+1522.1.1 = {
+	monarch = {
+		name = "Henri II"
+		dynasty = "d'Albret"
+		DIP = 7
+		ADM = 7
+		MIL = 6
+	}
+}
+
+1528.1.7 = {
+	heir = {
+		name = "Jeanne"
+		monarch_name = "Jeanne III"
+		dynasty = "d'Albret"
+		birth_date = 1528.1.7
+		death_date = 1572.6.9
+		claim =85
+		adm = 7
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}
+
+1555.5.25 = {
+	monarch = {
+		name = "Jeanne III"
+		dynasty = "d'Albret"
+		adm = 7
+		dip = 7
+		mil = 4
+		female = yes
+	}
+}#spiritual and political leader of the French Huguenot movement
+
+1560.1.1 = { 
+	religion = reformed 
+	government = administrative_monarchy_6 
+	# secularism_theocracy = -3
+}
+
+1562.1.1 = { leader = {	name = "Louis I de Condé" type = general rank = 0 fire = 2 shock = 3 manuever = 4 siege = 3 death_date = 1569.1.1 } }
+
+1572.6.9 = {
+	monarch = {
+		name = "Henri III"
+		dynasty = "Bourbon"
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+	government = administrative_monarchy_4
+	leader = {
+ 		name = "Henri III"
+		type = general
+		rank = 0
+		fire = 4
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1589.1.1
+	}
+}
+
+# 1589 : Henri III becomes Henri IV of France

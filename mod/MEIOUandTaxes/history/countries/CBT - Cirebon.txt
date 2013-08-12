@@ -1,0 +1,112 @@
+# Country: Cirebon
+# file name: CBT - Cirebon
+# MEIOU-FB Indonesia mod v3 - for IN+JV
+# Cirebon is used to represent Cirebon + Tegal
+# FB-TODO real rulers?
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3b
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 1
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = -4
+# secularism_theocracy = 0
+primary_culture = sulawesi
+religion = sunni
+technology_group = indian
+capital = 630	# Cirebon
+
+1390.1.1 = {
+	monarch = {
+		name = "Syamsuddin"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Jamaluddin"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Muhammad  I"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1590.1.1 = {
+	monarch = {
+		name = "Sapiuddin"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1640.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Joharuddin"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Syamsuddin I"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Syamsuddin II"
+		dynasty = "Sepuh"
+		DIP = 5
+		MIL = 7
+		ADM = 5
+	}
+}

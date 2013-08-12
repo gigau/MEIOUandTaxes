@@ -1,0 +1,87 @@
+# 529 - Konkan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Thana"
+trade_goods = cloth	#Silk
+hre = no
+base_tax = 6
+#manpower = 6
+manpower = 12
+citysize = 39000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = BAH
+	add_core = BAS
+}
+1399.1.1   = {
+	add_core = GUJ
+}
+1430.1.1   = {
+	controller = GUJ
+}
+1432.1.1   = {
+	owner = GUJ
+	remove_core = BAH
+	fort2 = yes
+}
+1450.1.1   = { citysize = 43000 }
+1498.1.1   = {
+	discovered_by = POR
+}
+1500.1.1   = { citysize = 36000 }
+1534.12.23   = {
+	owner = POR
+	controller = POR
+	capital = "Bombay"
+}  # Portuguese lease
+1550.1.1  = { citysize = 37000 }
+1570.1.1  = { marketplace = yes }
+1600.1.1  = { citysize = 34000 }
+1650.1.1  = {
+	citysize = 38000
+	add_core = MAR #Maratha Identity
+}
+1661.5.11  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+}  # Marriage treaty of Charles II of England and Catherine of Portugal
+1670.1.1   = { courthouse = yes citysize = 54000 }
+1689.2.15  = {
+	controller = MUG #1688 war with England
+}  # Yakut Khan
+1690.1.1   = {		#1690.6.8 BUT war ends in 1690.1.1
+	controller = ENG
+}  # England buys Bombay back from Aurangzeb
+1700.1.1   = { citysize = 42000 }
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+   	remove_core = ENG
+}
+1715.1.1   = { fort2 = yes }
+1718.1.1   = { temple = yes }
+1720.1.1   = { cot = yes }
+1739.1.1   = {
+	owner = MAR
+	controller = MAR
+} 
+1750.1.1   = {
+	citysize = 77000
+}
+1782.5.17  = {
+	owner = GBR
+	controller = GBR
+} # Treaty of Salbai
+1800.1.1   = {	citysize = 174000 }
+

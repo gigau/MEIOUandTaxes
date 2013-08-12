@@ -1,0 +1,57 @@
+# Hämee
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fur
+#manpower = 1
+manpower = 2
+fort1 = yes #Tavastehus
+capital = "Hämeenlinna"
+citysize = 1050 # Estimated
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+}
+1500.1.1   = { citysize = 1280 }
+1527.6.1   = { religion = protestant}
+1540.1.1   = { marketplace = yes }
+1550.1.1   = { citysize = 1500 }
+1598.8.1   = { controller = POL } #Sigismund tries to reconquer his crown
+1599.7.15  = { controller = SWE } #Duke Karl get it back
+1600.1.1   = { trade_goods = lumber citysize = 1540 } #Estimated Date
+1650.1.1   = { citysize = 1800 }
+1700.1.1   = { citysize = 2890 }
+1713.10.6  = { controller = RUS } #The Great Nordic War-Captured by Apraksin
+1721.8.30  = { controller = SWE } #The Peace of Nystad
+1742.10.30 = { controller = RUS } #The War of the Hats-Estimated date
+1743.8.7   = { controller = SWE } #The Peace of Åbo
+1750.1.1   = { citysize = 3500 }
+1800.1.1   = { citysize = 4100 }
+1808.3.1   = { controller = RUS } # Overran by Russian troops
+1809.3.29  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.9.17 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}

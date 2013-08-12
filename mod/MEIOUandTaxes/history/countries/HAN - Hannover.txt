@@ -1,0 +1,168 @@
+# HAN - Hannover
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+primary_culture = old_saxon
+religion = catholic
+technology_group = western
+capital = 61
+
+
+1529.1.1  = {
+	religion = protestant
+	# secularism_theocracy = 0
+}
+
+#Dukes of Braunschweig-Kalenberg
+1636.1.1 = {
+	monarch = {
+		name = "Georg"
+		dynasty = "von Hannover"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Christian Ludwig"
+		monarch_name = "Christian Ludwig"
+		dynasty = "von Hannover"
+		birth_date = 1622.2.25
+		death_date = 1665.3.15
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 7
+	}
+}
+
+1641.4.12 = {
+	monarch = {
+		name = "Christian Ludwig"
+		dynasty = "von Hannover"
+		DIP = 4
+		ADM = 3
+		MIL = 7
+	}
+	heir = {
+		name = "Georg Wilhelm"
+		monarch_name = "Georg II Wilhelm"
+		dynasty = "von Hannover"
+		birth_date = 1624.1.26
+		death_date = 1705.8.28
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+}
+
+1648.12.10 = {
+	monarch = {
+		name = "Georg II Wilhelm"
+		dynasty = "von Hannover"
+		DIP = 7
+		ADM = 5
+		MIL = 6
+	}
+	heir = {
+		name = "Johann Friedrich"
+		monarch_name = "Johann Friedrich"
+		dynasty = "von Hannover"
+		birth_date = 1625.4.25
+		death_date = 1679.12.18
+		claim = 95
+		adm = 7
+		dip = 8
+		mil = 6
+	}
+}
+
+1665.12.10 = {
+	monarch = {
+		name = "Johann Friedrich"
+		dynasty = "von Hannover"
+		DIP = 8
+		ADM = 7
+		MIL = 6
+	}
+	heir = {
+		name = "Ernst August"
+		monarch_name = "Ernst August"
+		dynasty = "von Hannover"
+		birth_date = 1629.11.20
+		death_date = 1698.1.23
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+}
+
+#Electors of Hannover (from 1698), also Kings of England (from 1714)
+
+1679.12.28 = {
+	monarch = {
+		name = "Ernst August"
+		dynasty = "von Hannover"
+		DIP = 7
+		ADM = 6
+		MIL = 6
+	}
+	heir = {
+		name = "Georg Ludwig"
+		monarch_name = "Georg Ludwig"
+		dynasty = "von Hannover"
+		birth_date = 1660.5.28
+		death_date = 1727.6.11
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1692.1.1 = { elector = yes }	
+
+1698.1.23 = {
+	monarch = {
+		name = "Georg Ludwig"
+		dynasty = "von Hannover"
+		DIP = 6
+		ADM = 6
+		MIL = 8
+	}
+}
+
+1727.6.11 = {
+	monarch = {
+		name = "Georg II"
+		dynasty = "von Hannover"
+		DIP = 7
+		ADM = 6
+		MIL = 7
+	}
+}
+
+1760.10.25 = {
+	monarch = {
+		name = "Georg III"
+		dynasty = "von Hannover"
+		DIP = 4
+		ADM = 4
+		MIL = 7
+	}
+}
+
+1806.7.12 = { elector = no } # The HRE is formally abolished

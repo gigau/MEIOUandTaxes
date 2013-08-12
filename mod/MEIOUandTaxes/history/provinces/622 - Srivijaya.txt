@@ -1,0 +1,60 @@
+#Province: Srivijaya
+#file name: 622 - Srivijaya
+# MEIOU-FB Indonesia mod
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be the capital of the
+#Srivijaya Empire.
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SRV
+controller = SRV
+culture = sumatran
+religion = theravada
+capital = "Palembang"
+trade_goods = pepper		#FB: Palembang & Jambi were major sources of pepper for China
+# during the C17th pepper (increasingly in oversupply worldwide) gave way to tin as the major export)
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 21000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = SRV
+	add_core = MPH
+	add_core = PLB
+}
+1377.1.1 = {
+	owner = MPH
+	controller = MPH
+	remove_core = SRV
+} # Majapahit destroys the remains of the Srivijaya
+1400.1.1 = { citysize = 22890 }
+1405.1.1 = { discovered_by = MNG }
+1478.1.1 = {
+	owner = PLB
+	controller = PLB
+	remove_core = MPH
+	religion = sunni
+} # Destruction of Majapahit 
+1500.1.1 = { citysize = 24520 }
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1550.1.1 = { citysize = 25100 }
+1587.1.1 = {
+	owner = MTR
+	controller = MTR
+}
+1600.1.1 = { citysize = 25642 discovered_by = NED }
+1650.1.1 = { citysize = 26010 }
+1682.1.1 = {
+	owner = PLB
+	controller = PLB
+}
+1684.1.1 = { add_core = NED fort1 = yes }
+1700.1.1 = { citysize = 26340 trade_goods = copper }
+1750.1.1 = { citysize = 26980 }
+1754.1.1 = { revolt_risk = 4 } #opposition to the Dutch gets fierce
+1800.1.1 = { citysize = 27580 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

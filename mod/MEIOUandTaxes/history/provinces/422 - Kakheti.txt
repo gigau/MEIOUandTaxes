@@ -1,0 +1,59 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = GEO
+controller = GEO
+culture = georgian
+religion = orthodox
+capital = "Telavi"
+trade_goods = wool
+hre = no
+base_tax = 4
+#manpower = 5
+manpower = 10
+citysize = 4530
+fort1 = yes
+add_core = GEO
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1458.1.1  = { revolt_risk = 5 } # Safavid campaign against Georgia
+1460.1.1  = { revolt_risk = 0 } # Defeated by Shirwan Shah
+1466.1.1  = {
+	owner = KAK
+	controller = KAK
+	add_core = KAK
+	remove_core = GEO
+}
+1500.1.1  = { citysize = 5020 }
+1550.1.1  = { citysize = 6344 }
+1600.1.1  = { citysize = 8900 }
+1603.9.26 = {
+	controller = PER
+} # Persian reconquest
+1612.11.20 = {
+	controller = KAK
+} # Part of Persia1650.1.1  = { citysize = 6500 }
+1617.1.1  = { revolt_risk = 2 citysize = 5240 } # Thousands were killed or resettled in Iran
+1623.1.1  = { revolt_risk = 8 } # Insurrection, headed by Giorgi Saakadze
+1624.1.1  = {
+	revolt_risk = 0
+	controller = PER
+}
+1638.12.24 = { controller = KAK }
+1650.1.1  = { citysize = 6500 }
+1700.1.1  = { citysize = 8560 }
+1727.1.1  = {
+	owner = GEO
+	controller = GEO
+	add_core = GEO
+}
+1750.1.1  = { citysize = 10287 }
+1800.1.1  = { citysize = 14200 }
+1810.2.20 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+} # Annexed by Russia

@@ -1,0 +1,24 @@
+# 1557 - Wukari
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JUK
+controller = JUK
+culture = igbo		
+religion = animism		 
+capital = "Wukari"
+
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 5000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = JUK
+}

@@ -1,0 +1,74 @@
+# 682 - Jiangxi Nanchang
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = WUU
+controller = WUU
+culture = hakka
+religion = confucianism
+capital = "Nanchang"
+trade_goods = chinaware
+hre = no
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 109732
+fort1 = yes
+marketplace = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+0985.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+}
+1276.1.1 = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1320.1.1 = {
+	remove_core = SNG
+	add_core = WUU
+}
+1351.1.1 = {
+	owner = DAA
+	controller = DAA
+	add_core = DAA
+}
+1361.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+}
+1368.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+	remove_core = DAA
+}
+1500.1.1 = { citysize = 112400 }
+1513.1.1 = { revolt_risk = 5 } # Peasant rebellion, Jiangxi
+1514.1.1 = { revolt_risk = 0 }
+1550.1.1 = { citysize = 114682 }
+1600.1.1 = { citysize = 116560 }
+1610.1.1 = { constable = yes }
+1645.6.25 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # The Qing Dynasty
+1650.1.1 = { citysize = 118905 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = { remove_core = MNG }
+1700.1.1 = { citysize = 120010 }
+1750.1.1 = { citysize = 122313 }
+1800.1.1 = { citysize = 124188 }

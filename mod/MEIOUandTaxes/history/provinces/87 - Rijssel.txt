@@ -1,0 +1,97 @@
+#87 - Rijssel
+#Douai, Rijssel(Lille), Orchies
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FLA
+controller = FLA
+culture = flemish
+religion = catholic
+capital = "Douay"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 20000
+trade_goods = cloth
+
+fort1 = yes
+customs_house = yes # Exception to the rule, trade junction & established here
+marketplace = yes 
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1356.1.1   = {
+	citysize = 11000
+	add_core = FLA
+	add_core = BUR
+}
+1385.1.1   = { owner = BUR controller = BUR  }
+1399.1.1   = { citysize = 12500 }
+1453.1.1   = { citysize = 15000 }
+
+1477.1.5  = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18 = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria} # Frederick III dies, Charles VII cedes Artois to Maximilian I von Habsburg
+1500.1.1   = { citysize = 18000 }
+1548.6.26  = { hre = yes } # Flanders incorporated into the Holy Roman Empire
+1550.1.1   = { citysize = 17000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1566.8.10  = { controller = REB } # 'Beeldenstorm' also hits parts of Artois
+1567.1.8   = { controller = SPA } # Spain is back in control
+1569.1.1   = { revolt_risk = 7 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = {
+	revolt_risk = 11
+	constable = yes
+} # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12  = { revolt_risk = 5 } # The 'Perpetual Edict' (Eeuwig Edict) is accepted by Don Juan
+1579.1.6   = { add_core = EBU add_core = ARS } # traite d'arras
+1600.1.1   = { citysize = 19000 constable = yes }
+1640.1.1   = { fort3 = yes }
+1650.1.1   = { citysize = 22000 }
+1667.1.1   = {
+	controller = FRA
+}
+1668.5.2   = {
+	owner = FRA
+	add_core = FRA
+	hre = no
+} # Treaty of Aix-la-Chapelle
+1670.1.1   = { fort4 = yes }
+1680.1.1   = { fort5 = yes } # Vauban's 'pointed' fort in Calais
+1700.1.1   = { citysize = 24000 }
+1708.1.1   = {
+	controller = HAB
+}
+1713.4.11  = {
+	controller = FRA
+} # Treaty of Utrecht
+1720.1.1   = { courthouse = yes }
+1750.1.1   = { citysize = 26000 mint = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

@@ -1,0 +1,62 @@
+#Country Name: Tamatave
+#Tag: TAM
+#MEIOU-FB - African/Sudan tech group split Nov 08
+
+graphical_culture = chinesegfx
+
+color = { 150 150 250 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	african_spearmen
+	african_hill_warfare
+	bantu_tribal_warfare
+	bantu_plains_warfare
+	bantu_gunpowder_warfare
+	african_western_franchise_warfare
+	westernized_bantu
+	zulu_chest_and_horns
+}
+
+monarch_names = {
+	"Andriamandisoarivo #0" = 0
+	"Andriamahatindriarivo #0" = 0
+	"Andrianahilitsy #0" = 0
+	"Andrianiveniarivo #0" = 0
+	"Andrianihoatra #0" = 0
+	"Andrianikeniarivo #0" = 0
+	"Andrianaginarivo #0" = 0
+	"Tombola #0" = 0
+	"Ravahiny #0" = 0
+	"Tsimalomo #0" = 0
+	"Maka #0" = 0
+	"Andriantsoly #0" = 0
+	"Oantitsy #0" = 0
+	"Tsiomeko #0" = 0
+	"Andriandahifotsy #0" = 0
+	"Ramitraho #0" = 0
+	"Ranavalona #0" = 0
+	"Radama #0" = 0
+}
+
+leader_names = {
+	Addy
+	Afrifa
+	Sadami
+	Sabah
+	Zakari
+	Offei
+	Donkor
+	Akoto
+	Sribor
+	Moyoyo
+}
+
+ship_names = {
+	Antankarana Antanarivo
+	Betsileo Betsmisaraka Boina
+	Ihorombe Morondava Sakalava
+	Sihanaka Taomasina Tsimiheki
+}

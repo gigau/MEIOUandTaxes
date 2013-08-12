@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+color = { 106  127  253 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	prussian_frederickian
+	prussian_uhlan
+}
+
+monarch_names = {
+	"Jacques #0" = 20
+	"Jean #0" = 20
+	"Henri #0" = 20
+	"Charlotte #0" = -10
+	"Hugues #0" = 20
+	"Guy #0" = 20
+	"Eudes #0" = 20
+	"Philippe #0" = 20
+	"Sibylle #0" = -10
+	"Melisende #0" = -10
+	"Badouin #0" = 20
+	"Amalric #0" = 20
+	"Pierre #0" = 20
+    	"Guillaume #0" = 20
+    	"Antoine #0" = 10
+	"Pierre #0" = 10
+    	"Claude #0" = 10
+	"Nicolas #0" = 10
+	"Jean-Baptiste #0" = 10
+	"Gaspard #0" = 10
+	"Amaury #0" = 10
+	"Gilles #0" = 10
+	"René #0" = 10
+	"Armand #0" = 10
+	"Michel #0" = 10
+	"Raymond #0" = 10
+	"Bailan #0" = 10
+}
+
+leader_names = {
+	"d'Aubusson" "d'Amboise"
+	"de Blanchefort"
+	"del Carretto" "de la Cassière" "de Clermont-Gessant" Cotoner Carafa Caracciolo "de Corneillan"
+	Despuig
+	"de Fonseca"
+	Garzez "de Gozon"
+	"de Homedes" "von Hormpesch" "de Heredia"
+	"de Juilliac"
+	"de Lastic" "de L'Isle-Adam" "de Lascaris-Castellar"
+	"de Milly" "del Monte"
+	"de Naillac"
+	Orsini
+	"del Ponte" "de Paule" "Perellos y Roccaful" "de Pins"
+	"de la Rivère" "de Redin" "de Rohan-Polduc"
+	"de Saint-Jaille" "de la Sengle"
+	"de Texada"
+	"de La Vallette-Parisot" "de Verdala" "de Vasconcellos" "de Vilhena" "de Villaret"
+	"de Wignacourt" "d'Ibelin" "de Lusignan"
+}
+
+ship_names = {
+	"The Blessed Gerard"
+	"Raymond du Puy de Provence"
+	"Auger de Balben"
+	"Arnaud de Comps"
+	"Gilbert d'Aissailly"
+	"Gastone de Murols"
+	"Gilbert of Syria"
+	"Roger de Moulins"
+	"Hélion de Villeneuve"
+	"Hermangard d'Asp"
+	"Garnier de Naplous"
+	"Geoffroy de Donjon"
+	"Alfonse of Portugal"
+	"Geoffrey le Rat"
+    "Sanctus Bonaventura" "Sanctus Cassianus" "Sanctus Cyprianus" "Sanctus Dominicus" "Sanctus Ferdinandus"
+	"Sanctus Franciscus" "Sanctus Hieronymus" "Sanctus Hilarius" "Sanctus Hippolytus" "Sanctus Iohannes"
+	"Sanctus Iosephus" "Sanctus Isidorus" "Sanctus Iudas" "Sanctus Leo I" "Sanctus Linus" "Sanctus Lucas"
+	"Sanctus Mattheus" "Sanctus Matthias" "Sanctus Patricius" "Sanctus Paulus" "Sanctus Petronius" "Sanctus Petrus"
+}
+
+army_names = {
+	"Armée Royal"
+	"Armée de la Mésopotamie"
+	"Armée des rivières"
+	"Armée de Bagdad"
+	"Armée de $PROVINCE$"
+}
+
+fleet_names = {
+	"Marine Royal"
+	"Flotte du Golfe"
+	"Flotte de $PROVINCE$"
+}

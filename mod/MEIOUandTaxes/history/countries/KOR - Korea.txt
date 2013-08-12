@@ -1,0 +1,620 @@
+# KOR - Korea
+# MEIOU-GG Governemnt changes
+# MEIOU-GG Religion changes
+# 2010-jan-21 - FB - HT3 changes
+# 2010-dec-31 - FB - ASSA, changes recommended by assalala (use personal names)
+# http://en.wikipedia.org/wiki/List_of_Korean_monarchs
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2a # no Warlord -_- Wang! plz fix it
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = -1
+primary_culture = korean
+religion = mahayana #FB-ASSA become confucianism in 1392
+technology_group = chinese
+capital = 735	# Hanseong
+
+1351.9.5 = {
+	monarch = {
+		name = "Jeon"
+		dynasty = "Wang"
+		adm = 6
+		dip = 7
+		mil = 9
+	}
+}
+
+1365.1.1 = {
+	heir = {
+		name = "U"
+		monarch_name = "U"
+		dynasty = "Wang"
+		birth_date = 1365.1.1
+		death_date = 1389.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1374.6.1 = {
+	monarch = {
+		name = "U"
+		dynasty = "Wang"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1380.3.21 = {
+	heir = {
+		name = "Chang"
+		monarch_name = "Chang"
+		dynasty = "Wang"
+		birth_date = 1380.2.11
+		death_date = 1389.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}	#FB-ASSA
+
+1388.7.18 = {
+	monarch = {
+		name = "Chang"		#FB-ASSA - was T'ae-jo II
+		dynasty = "Wang"	#FB-ASSA - was Joseon
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1389.4.17 = {
+	monarch = {
+		name = "Yo"
+		dynasty = "Wang"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}	#FB-ASSA
+
+1392.1.1 = {
+	religion = confucianism	#FB-ASSA
+	monarch = {
+		name = "Seong gye"
+		dynasty = "Yi"
+		adm = 7
+		dip = 6
+		mil = 7
+		leader = {	name = "Seong gye"            	type = general	rank = 0	fire = 6	shock = 5	manuever = 5	siege = 1}
+	}	#FB-ASSA
+	heir = {
+		name = "Bang-gwa"
+		monarch_name = "Bang-gwa"
+		dynasty = "Yi"
+		birth_date = 1357.2.11
+		death_date = 1419.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}	#FB-ASSA
+}
+
+1398.1.1 = {
+	monarch = {
+		name = "Bang-gwa"	#FB-ASSA - was Chongjong III
+		dynasty = "Yi"		#FB-ASSA - was Joseon
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Bang won"	#FB-ASSA - was Taejong
+		monarch_name = "Bang won"
+		dynasty = "Yi"
+		birth_date = 1367.1.1
+		death_date = 1418.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Bang won"	#FB-ASSA - was Taejong
+		dynasty = "Yi"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+	heir = {
+		name = "Do"		#FB-ASSA - was Sejong
+		monarch_name = "Do"
+		dynasty = "Yi"
+		birth_date = 1397.5.6
+		death_date = 1450.5.18
+		claim = 95
+		adm = 9
+		dip = 8
+		mil = 9
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Do"		#FB-ASSA - was Sejong
+		dynasty = "Yi"
+		adm = 9
+		dip = 8
+		mil = 9
+	}
+	heir = {
+		name = "Hyang"		#FB-ASSA - was Munjong II
+		monarch_name = "Hyang"
+		dynasty = "Yi"
+		birth_date = 1414.1.1
+		death_date = 1452.6.12
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "Hyang"		#FB-ASSA - was Munjong II
+		dynasty = "Yi"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Hong wi"		#FB-ASSA - was Danjong
+		monarch_name = "Hong wi"
+		dynasty = "Yi"
+		birth_date = 1441.1.1
+		death_date = 1457.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1452.6.12 = {
+	monarch = {
+		name = "Hong wi"		#FB-ASSA - was Danjong
+		dynasty = "Yi"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Yu"		#FB-ASSA - was Se-jo
+		monarch_name = "Yu"
+		dynasty = "Yi"
+		birth_date = 1417.1.1
+		death_date = 1468.10.2
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1456.1.1 = {
+	monarch = {
+		name = "Yu"		#FB-ASSA - was Se-jo
+		dynasty = "Yi"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Gwang"		#FB-ASSA - was Ye-jong
+		monarch_name = "Gwang"
+		dynasty = "Yi"
+		birth_date = 1450.1.1
+		death_date = 1469.1.10
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1468.10.2 = {
+	monarch = {
+		name = "Gwang"		#FB-ASSA - was Ye-jong
+		dynasty = "Yi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Hyeol"		#FB-ASSA - was Seongjong
+		monarch_name = "Hyeol"
+		dynasty = "Yi"
+		birth_date = 1457.1.1
+		death_date = 1494.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1469.1.10 = {
+	monarch = {
+		name = "Hyeol"		#FB-ASSA - was Seongjong
+		dynasty = "Yi"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1476.1.1 = {
+	heir = {
+		name = "Yung"		#FB-ASSA - was Yeonsangun
+		monarch_name = "Yung"
+		dynasty = "Yi"
+		birth_date = 1476.1.1
+		death_date = 1506.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1495.1.30 = {
+	monarch = {
+		name = "Yung"		#FB-ASSA - was Yeonsangun
+		dynasty = "Yi"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Yeok"		#FB-ASSA - was Jungjong
+		monarch_name = "Yeok"
+		dynasty = "Yi"
+		birth_date = 1488.1.1
+		death_date = 1544.12.5
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1506.1.1 = {
+	monarch = {
+		name = "Yeok"		#FB-ASSA - was Jungjong
+		dynasty = "Yi"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1515.1.1 = {
+	heir = {
+		name = "Ho"		#FB-ASSA - was Injong
+		monarch_name = "Ho"
+		dynasty = "Yi"
+		birth_date = 1515.1.1
+		death_date = 1545.8.18
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1544.12.5 = {
+	monarch = {
+		name = "Ho"		#FB-ASSA - was Injong
+		dynasty = "Yi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1544.12.5 = {
+	heir = {
+		name = "Hwan"		#FB-ASSA - was Myeongjong
+		monarch_name = "Hwan"
+		dynasty = "Yi"
+		birth_date = 1534.1.1
+		death_date = 1567.8.13
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1545.8.18 = {
+	monarch = {
+		name = "Hwan"		#FB-ASSA - was Myeongjong
+		dynasty = "Yi"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1552.1.1 = {
+	heir = {
+		name = "Yeon"		#FB-ASSA - was Seonjo
+		monarch_name = "Yeon"
+		dynasty = "Yi"
+		birth_date = 1552.1.1
+		death_date = 1608.3.7
+		claim = 95
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1567.8.13 = {
+	monarch = {
+		name = "Yeon"		#FB-ASSA - was Seonjo
+		dynasty = "Yi"
+		adm = 7
+		dip = 3
+		mil = 5
+	}
+}
+
+1574.1.1 = {
+	heir = {
+		name = "Hon"		#FB-ASSA - was Gwanghaegun
+		monarch_name = "Hon"
+		dynasty = "Yi"
+		birth_date = 1574.1.1
+		death_date = 1641.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1576.1.1 = { leader = {	name = "Yi Sun-sin"            	type = admiral	rank = 1	fire = 6	shock = 6	manuever = 6	siege = 0	death_date = 1598.11.1 } }
+
+1588.1.1 = {
+	# land_naval = 1
+} # Construction of Turtle Ships
+
+1608.3.7 = {
+	monarch = {
+		name = "Hon"		#FB-ASSA - was Gwanghaegun
+		dynasty = "Yi"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+# Coup
+
+1623.4.13 = {
+	monarch = {
+		name = "Jong"		#FB-ASSA - was In-jo
+		dynasty = "Yi"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Ho"		#FB-ASSA - was Hyojong
+		monarch_name = "Ho"
+		dynasty = "Yi"
+		birth_date = 1619.1.1
+		death_date = 1659.6.24
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1649.7.5 = {
+	monarch = {
+		name = "Ho"		#FB-ASSA - was Hyojong
+		dynasty = "Yi"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Yeon"	#FB-ASSA - was Hyeonjong
+		monarch_name = "Yeon"
+		dynasty = "Yi"
+		birth_date = 1641.1.1
+		death_date = 1674.9.19
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1654.1.1 = {
+	# land_naval = 0
+	# quality_quantity = -1
+} # Hyo-jong's northern expedition
+
+1659.6.24 = {
+	monarch = {
+		name = "Yeon"	#FB-ASSA - was Hyeonjong
+		dynasty = "Yi"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+
+1661.8.15 = {
+	heir = {
+		name = "Sun"	#FB-ASSA - was Sukjong
+		monarch_name = "Sun"
+		dynasty = "Yi"
+		birth_date = 1661.8.15
+		death_date = 1720.7.13
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1674.9.19 = {
+	monarch = {
+		name = "Sun"	#FB-ASSA - was Sukjong
+		dynasty = "Yi"
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}
+
+1688.1.1 = {
+	heir = {
+		name = "Yun"	#FB-ASSA - was Gyeonjong
+		monarch_name = "Yun"
+		dynasty = "Yi"
+		birth_date = 1688.1.1
+		death_date = 1724.10.7
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1720.7.13 = {
+	monarch = {
+		name = "Yun"	#FB-ASSA - was Gyeonjong
+		dynasty = "Yi"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Geum"	#FB-ASSA - was Yeongjo
+		monarch_name = "Geum"
+		dynasty = "Yi"
+		birth_date = 1694.9.13
+		death_date = 1776.3.5
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1724.10.7 = {
+	monarch = {
+		name = "Geum"	#FB-ASSA - was Yeongjo
+		dynasty = "Yi"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1752.9.22 = {
+	heir = {
+		name = "San"	#FB-ASSA - was Jeongjo
+		monarch_name = "San"
+		dynasty = "Yi"
+		birth_date = 1752.9.22
+		death_date = 1800.6.28
+		claim = 95
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+
+1776.1.1 = {
+	monarch = {
+		name = "San"	#FB-ASSA - was Jeongjo
+		dynasty = "Yi"
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+1790.1.1 = {
+	heir = {
+		name = "Gong"	#FB-ASSA - was Sunjo
+		monarch_name = "Gong"
+		dynasty = "Yi"
+		birth_date = 1790.1.1
+		death_date = 1827.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+
+1800.8.19 = {
+	monarch = {
+		name = "Gong"	#FB-ASSA - was Sunjo
+		dynasty = "Yi"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1827.1.1 = {
+	heir = {
+		name = "Hwan"	#FB
+		monarch_name = "Hwan"
+		dynasty = "Yi"
+		birth_date = 1827.1.1
+		death_date = 1849.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1834.1.1 = {
+	monarch = {
+		name = "Hwan"	#FB
+		dynasty = "Yi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

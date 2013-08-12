@@ -1,0 +1,82 @@
+# 75 - s'Elsass
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ALS
+controller = ALS 
+capital = "Straßburg"
+citysize = 16000
+culture = schwabisch
+religion = catholic
+hre = yes
+base_tax = 7
+trade_goods = wine
+#manpower = 5
+manpower = 10
+add_core = ALS
+fort1 = yes
+marketplace = yes # Trade Center
+temple = yes # La Notre Dame de Strasbourg (finished 1439)
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1467.6.15  = { add_core = BUR } # Charles the Bold ascends and lays claims on the Alsace
+1469.1.1   = { owner = BUR controller = BUR } # Upper Alsace given to Charles the Bold by Archduke Sigismund
+1474.1.1   = { revolt_risk = 7 } # Breisgau and Upper Alsace revolt against Charles the Bold
+1474.5.9   = { controller = REB } # Rebels arrest & execute Charles' puppet von Hagenbach
+1477.1.5   = { owner = ALS controller = ALS remove_core = BUR revolt_risk = 0 } # Charles the Bold dies, Alsace re-established
+1500.1.1   = { citysize = 20000 fort2 = yes }
+1525.1.1   = { religion = protestant revolt_risk = 5 } # Unrest in the Alsace
+1525.5.1   = { revolt_risk = 15 } # Heavy unrests now: Peasant's War about to start
+1525.5.14  = { controller = REB } # Rebels take control of Strasbourg in the Peasant's War
+1525.6.15  = { controller = ALS revolt_risk = 10 } # Duke Antoine of Lorraine takes back the land and punishes the peasant's brutally
+1525.6.23  = { revolt_risk = 15 } # Duke Antoine executes a few leaders of the rebellion: heavy unrest again
+1525.9.18  = { revolt_risk = 5 } # The Offenburg Agreement: Peace is being restored
+1526.1.1   = { revolt_risk = 0 } # Peace restored everywhere
+1550.1.1   = { citysize = 24000 }
+1580.1.1   = { constable = yes }
+1600.1.1   = { citysize = 28000 courthouse = yes }
+1621.1.1   = { university = yes } # Académie de Strasbourg elevated to University
+1625.1.1   = { fort3 = yes }
+1632.1.1   = {
+	controller = SWE
+} # Swedish, supported by France, invaded the country, during the Thirty Years' War
+1634.1.1   = {
+	controller = FRA
+	add_core = FRA
+} # The Swedes ceded their fortresses to the French.
+1648.10.24 = {
+	owner = FRA
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { citysize = 23000 }
+1674.1.1   = { fort4 = yes } # Vauban's forts in Strasbourg & Haguenau
+1685.10.18 = { revolt_risk = 8 } # Edict of Nantes revoked by Louis XIV
+1686.1.17  = { religion = catholic revolt_risk = 0 } # Dragonnard campaign succesful: region reverts back to Catholicism
+1700.1.1   = { citysize = 30000 customs_house = yes mint = yes }
+1730.1.1   = { fort5 = yes } # Cormontaigne's forts
+1749.1.1   = { base_tax = 8 } # Machault & the 5% tax
+1750.1.1   = { citysize = 40000 regimental_camp = yes }
+1760.1.1   = { workshop = yes }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 48000 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

@@ -1,0 +1,237 @@
+# PRK - Perak
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 1
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = malayan
+religion = sunni
+technology_group = austranesian
+capital = 595	# Perak
+
+1451.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Srivijaya"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+}
+
+1503.1.1 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Muzzafar I"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Mansur I"
+		dynasty = "Srivijaya"
+		adm = 8
+		dip = 7
+		mil = 6
+	}
+}
+
+1577.1.1 = {
+	monarch = {
+		name = "Ahmad Tajuddin"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1584.1.1 = {
+	monarch = {
+		name = "Tajul Ariffin"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1594.1.1 = {
+	monarch = {
+		name = "Aladdin"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1603.1.1 = {
+	monarch = {
+		name = "Mukaddam"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 8
+		mil = 6
+	}
+}
+
+1619.1.1 = {
+	monarch = {
+		name = "Mansur II"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+		name = "Mahmud I"
+		dynasty = "Srivijaya"
+		adm = 6
+		dip = 4
+		mil = 8
+	}
+}
+
+1630.1.1 = {
+	monarch = {
+		name = "Salehuddin"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Muzzafar II"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 7
+		mil = 7
+	}
+}
+
+1653.1.1 = {
+	monarch = {
+		name = "Mahmud Iskandar"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1720.1.1 = {
+	monarch = {
+		name = "Aladdin Mughayat"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Muzzafar III"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1752.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Srivijaya"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1752.5.1 = {
+	monarch = {
+		name = "Iskandar Dzulkarnain"
+		dynasty = "Srivijaya"
+		adm = 5
+		dip = 8
+		mil = 8
+	}
+}
+
+1765.1.1 = {
+	monarch = {
+		name = "Mahmud II"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1773.1.1 = {
+	monarch = {
+		name = "Aladdin Mansur"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Ahmaddin"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1806.1.1 = {
+	monarch = {
+		name = "Abdul Malik Mansur"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1819.1.1 = {
+	monarch = {
+		name = "Abdullah Muazzam"
+		dynasty = "Srivijaya"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

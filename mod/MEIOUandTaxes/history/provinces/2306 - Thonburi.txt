@@ -1,0 +1,48 @@
+# 2306 - Thonburi
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYU
+controller = AYU
+add_core = AYU
+culture = thai
+religion = theravada
+capital = "Thonburi"
+
+base_tax = 2			#increased +7 by decision if made capital
+#manpower = 3
+manpower = 6
+citysize = 3000		#30000
+trade_goods = fish
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1456.1.1 = { citysize = 3600 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU }
+1600.1.1 = { citysize = 4000 }
+1700.1.1 = { citysize = 4200 }
+1750.1.1 = { citysize = 4200 }
+1767.4.1 = { revolt_risk = 7 } # The Ayutthaya kingdom began to crumble
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+	base_tax = 9			
+	manpower = 5
+	citysize = 10000
+	cot = yes
+}
+1768.1.1 = { fort1 = yes }
+1782.1.1 = { 
+	capital = "Bangkok" 
+	citysize = 13000
+	trade_goods = jewelery
+}
+1800.1.1 = { citysize = 16000 }

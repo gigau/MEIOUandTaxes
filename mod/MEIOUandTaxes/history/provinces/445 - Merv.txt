@@ -1,0 +1,78 @@
+# 445 - Merv
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KTD
+controller = KTD
+culture = turkmeni
+religion = shiite
+capital = "Marv"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 10867
+discovered_by = mongol_tech
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = KTD
+	add_core = TIM
+}
+1383.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1  = {
+	owner = KTD
+	controller = KTD
+	remove_core = TIM
+} #1409 Timurid Empire of Shah Rukh 1409 split between Shah Rukh and Ulugh Beg
+1449.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels size = 1 }
+} #Civil War
+1459.1.1  = {
+	controller = KTD
+	revolt = { }
+} #Civil War
+1500.1.1 = {
+	citysize = 12200
+}
+1507.1.1 = { controller = SHY }
+1509.1.1 = { owner = SHY }
+1510.1.1  = {
+	controller = SAM
+}
+1511.1.1  = {
+	owner = SAM
+}
+1512.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+	remove_core = TIM
+	religion = shiite
+} # The Safavids took over, Shi'ism became the state religion	
+1550.1.1 = {
+	citysize = 12834
+}
+1600.1.1 = {
+	citysize = 13450
+}
+1650.1.1 = {
+	citysize = 13941
+}
+1700.1.1 = {
+	citysize = 14267
+}
+1750.1.1 = {
+	citysize = 14720
+}
+1800.1.1 = {
+	citysize = 15110
+}

@@ -1,0 +1,40 @@
+owner = CAS		#Juan II of Castille
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+controller = CAS
+add_core = CAS
+culture = maure
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = marble # iron
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Jaén" 
+citysize = 5000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = { set_province_flag = spanish_name }
+1500.1.1   = { citysize = 6800 }
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castilla
+1550.1.1   = { citysize = 7105 marketplace = yes }
+1570.10.28 = {
+	culture = andalucian
+} # To quell the revolt, the morisques in Granada are forcefully deported to other Spanish territories
+1600.1.1   = { citysize = 8560 textile = yes }
+1650.1.1   = { citysize = 10776 }
+1700.1.1   = { citysize = 14350 }
+1713.4.11  = { remove_core = CAS }
+1750.1.1   = { citysize = 19870 }
+1800.1.1   = { citysize = 22700 }
+1808.6.6   = { controller = REB }
+1809.1.1   = { controller = SPA }
+1812.10.1  = { controller = REB }
+1813.12.11 = { controller = SPA }

@@ -1,0 +1,190 @@
+# MEIOU-GG
+# Duchy of Opole
+# Tag : OPO
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 0
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+primary_culture = silesian
+religion = catholic
+capital = 1278
+
+1316.1.1 = {
+	monarch = {
+		name = "Bolko II"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Bolko III"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1367.1.1 = {
+	monarch = {
+		name = "Wladyslaw II"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Bolko IV"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Jan I"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Mikolaj I"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1476.1.1 = {
+	monarch = {
+		name = "Mikolaj II"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Jan II Dobry"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Jerzy Fryderyk Brandenburski"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Ferdynand Austriacki"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Zygmunt Zapolya"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Jerzy Fryderyk Brandenburski"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Zygmunt Batory"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1622.1.1 = {
+	monarch = {
+		name = "Gabriel Bethlen"
+		dynasty = "Piast"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Wladyslaw IV"
+		dynasty = "Waza"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "Karol Ferdynand"
+		dynasty = "Waza"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+		name = "Jan Kazimierz"
+		dynasty = "Waza"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

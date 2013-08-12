@@ -1,0 +1,28 @@
+# Sudan Western Franchise Warfare
+#Modified for MEIOU by FB 10.02.07
+#tech level 43 c1800
+
+unit_type = soudantech
+type = infantry
+
+maneuver = 1
+#offensive_morale = 6
+#defensive_morale = 3
+#offensive_fire = 4
+#defensive_fire = 3
+#offensive_shock = 4
+#defensive_shock = 3
+#FB
+#offensive_morale = 9
+#defensive_morale = 9
+#offensive_fire = 6
+#defensive_fire = 6
+#offensive_shock = 5
+#defensive_shock = 6
+#Blxz
+offensive_morale = 9
+defensive_morale = 9
+offensive_fire = 7
+defensive_fire = 7
+offensive_shock = 7
+defensive_shock = 7

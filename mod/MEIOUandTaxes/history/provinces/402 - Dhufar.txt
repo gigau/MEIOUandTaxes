@@ -1,0 +1,32 @@
+#Province: Dhúfar
+#file name: 402 - Dhúfar
+#MEIOU-FB Arabia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YEM
+controller = YEM
+culture = hadhrami
+religion = shiite
+capital = "Mahra"
+trade_goods = fish
+hre = no
+base_tax = 1
+#manpower = 2
+manpower = 4
+citysize = 1025
+
+discovered_by = ADA
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = HAD
+}
+1480.1.1 = { discovered_by = TUR }
+1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+1500.1.1 = { citysize = 1205 }
+1550.1.1 = { citysize = 1442 }
+1600.1.1 = { citysize = 1930 }
+1650.1.1 = { citysize = 2570 }
+1700.1.1 = { citysize = 3087 }
+1750.1.1 = { citysize = 3520 }
+1800.1.1 = { citysize = 4170 }

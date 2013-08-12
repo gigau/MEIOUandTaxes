@@ -1,0 +1,35 @@
+# 604 - Chatomukh
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = theravada
+capital = "Phnom Penh"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 37500
+trade_goods = rice
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1500.1.1 = { citysize = 41450 }
+1550.1.1 = { citysize = 44890 }
+1600.1.1 = { citysize = 46205 }
+1650.1.1 = { citysize = 52700 }
+1700.1.1 = { citysize = 55100 }
+1750.1.1 = { citysize = 58500 }
+1800.1.1 = { citysize = 59348 }
+1811.1.1 = { controller = REB } # The Siamese-Cambodian Rebellion
+1812.1.1 = { controller = KHM }
+1867.1.1 = { 			
+	owner = FRA
+	controller = FRA
+}

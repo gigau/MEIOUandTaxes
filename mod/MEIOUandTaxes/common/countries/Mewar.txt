@@ -1,0 +1,82 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 139  131  22 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Lakha #1" = 10
+	"Mokal #0" = 10
+	"Kumbha #0" = 10
+	"Udai Singh #0" = 10
+	"Raimal #0" = 10
+	"Sangha #0" = 10
+	"Ratan Singh #0" = 10
+	"Vikramaditya Mahthan #0" = 10
+	"Pratap Singh #0" = 10
+	"Amar Singh #0" = 10
+	"Karan #0" = 10
+	"Jagat Singh #0" = 10
+	"Raaj Singh #0" = 10
+	"Jay Singh #0" = 10
+	"Sangrama Singh #1" = 10
+	"Ari Singh #1" = 10
+	"Hammir #1" = 10 
+	"Bhim Singh #1" = 10 
+}
+
+leader_names = {
+	Rajput
+	Jhala Maansinh
+	Babber
+	Bargujars
+	Bhoja
+	Chandelas
+	Chauhan
+	Jadeja
+	Kachwaha
+	Karmavati
+	Hakim Khan Sur Pathan
+	Khumba
+	Paramaras
+	Pratap
+	Rathore
+	Singh
+	Tomaras
+	Mihirbhoj
+	Mahipala
+	Nagabhatta
+	Padmini
+	Vaghela
+	Vatsraja
+}
+
+ship_names = {
+	Chambal Devi Durga Gayatri Ghaggar
+	Godwar Jalsena "Kala Jahazi" Lakshmi
+	"Lal Jahazi" Luni Nausena
+	"Merwar ka Nav" "Nav ka Yudh" "Nila Jahazi"
+	Parvati Radha Rani Ratri Sagar Sarasvati
+	Sekhawati Sita
+}

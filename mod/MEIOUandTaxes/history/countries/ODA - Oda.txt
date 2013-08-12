@@ -1,0 +1,168 @@
+# ODA - Oda clan
+# LS/GG - Japanese Civil War
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chubu
+religion = shinbutsu
+technology_group = chinese
+capital = 2287		# Owari
+daimyo = yes
+
+1250.1.1   = {
+	monarch = {
+		name = "Taira no Chikazane"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.3.3   = {
+	monarch = {
+		name = "Hisanaga"
+		dynasty = "Oda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1485.1.1   = {
+	monarch = {
+		name = "Sukenobu"
+		dynasty = "Oda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "Nobusada"
+		dynasty = "Oda"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1520.1.1 = {
+	heir = {
+		name = "Nobuhide"
+		monarch_name = "Nobuhide"
+		dynasty = "Oda"
+		birth_date = 1510.1.1
+		death_date = 1551.4.8
+		claim = 80
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+	
+1527.1.1 = { 
+	monarch = {
+		name = "Nobuhide"
+		dynasty = "Oda"
+		adm = 6
+		dip = 5
+		mil = 6
+		}
+	}
+	
+1534.6.23 = {
+	heir = {
+		name = "Nobunaga"
+		monarch_name = "Nobunaga"
+		dynasty = "Oda"
+		birth_date = 1534.6.23
+		death_date = 1582.6.21
+		claim = 90
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+}
+	
+1551.4.8 = { 
+	monarch = {
+		name = "Nobunaga"
+		dynasty = "Oda"
+		adm = 7
+		dip = 7
+		mil = 8
+		}
+	}
+
+1557.1.1 = {
+	heir = {
+		name = "Nobutada"
+		monarch_name = "Nobutada"
+		dynasty = "Oda"
+		birth_date = 1557.1.1
+		death_date = 1582.6.21
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1573.1.1   = {
+	shogun = 60
+	set_country_flag = new_shogun
+	set_country_flag = shogun
+	government = japan_monarchy_2a
+}
+
+1582.6.21  = {
+	monarch = {
+		name = "Hideyoshi"
+		dynasty = "Toyotomi"
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+}
+
+1598.9.18  = {
+	monarch = {
+		name = "Ishida Mitsunari"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1600.9.15  = {
+	government = japan_monarchy_3
+	clr_country_flag = shogun
+	set_country_flag = shogun_contender
+}
+
+1600.11.6   = {
+	monarch = {
+		name = "Hideyori"
+		dynasty = "Toyotomi"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1615.6.4   = {
+	government = japan_monarchy_5
+	clr_country_flag = shogun_contender
+}

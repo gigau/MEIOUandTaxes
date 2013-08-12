@@ -1,0 +1,10 @@
+bookmark =
+{
+	name = "THREE_POWERS_NAME"
+	desc = "THREE_POWERS_DESC"
+	date = 1802.7.21
+
+	country = BRM
+	country = SIA
+	country = DAI
+}

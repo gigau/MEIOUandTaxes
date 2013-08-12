@@ -1,0 +1,71 @@
+#393 - Jabal Shammar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = IRQ
+controller = IRQ
+culture = iraqi
+religion = shiite
+capital = "Jabal Shammar"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 3300
+discovered_by = muslim
+discovered_by = turkishtech
+
+1399.1.1   = {
+	owner = JAI
+	controller = JAI
+	add_core = JAI
+	add_core = IRQ
+}
+1432.1.1   = {
+	owner = QAR
+	controller = QAR
+}
+1450.1.1   = { citysize = 3900 }
+1453.1.1   = { discovered_by = VEN }
+1468.1.1   = {
+	controller = AKK
+}
+1470.1.1   = {
+	owner = AKK
+}
+1500.1.1   = { citysize = 4207 }
+1507.1.1   = {
+	controller = SAM
+}
+1508.2.1   = {
+	owner = SAM
+}
+1512.1.1   = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+	remove_core = JAI
+} # Safawids "form persia"
+1529.1.1   = {
+	revolt = { type = anti_tax_rebels size = 1 }
+	controller = REB
+} # Ottomans instigate rebellion
+1534.11.28 = {
+	revolt = {}
+	owner = IRQ
+	controller = IRQ
+}
+1547.1.1   = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1550.1.1   = { citysize = 5317 }
+1600.1.1   = { citysize = 5970 }
+1623.1.1   = { controller = PER }
+1638.12.24 = { controller = TUR }
+1650.1.1   = { citysize = 6855 }
+1700.1.1   = { citysize = 7700 }
+1705.1.1   = { capital = "Kuwait" }
+1750.1.1   = { citysize = 9230 }

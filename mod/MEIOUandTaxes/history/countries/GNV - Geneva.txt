@@ -1,0 +1,346 @@
+# Bishopric of Genève
+# Tag : GNV
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = arpitan
+religion = catholic
+#elector = yes		#AdL: not a Golden Bull elector
+technology_group = western
+capital = 185
+
+1342.1.1 = {
+	monarch = {
+		name = "Allemand de Saint-Geoire"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1366.1.1 = {
+	monarch = {
+		name = "Guillaume de Marcossay"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1377.1.1 = {
+	monarch = {
+		name = "Jean de Murol"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Aymar Favre"
+		adm = 9
+		dip = 7
+		mil = 5
+	}
+}
+
+1388.1.1 = {
+	monarch = {
+		name = "Guillaume de Lornay"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1408.1.1 = {
+	monarch = {
+		name = "Jean de Bertrand"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Jean de la Rochetaillée"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Jean Courtecuisse"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Jean de Brogny"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1426.1.1 = {
+	monarch = {
+		name = "François de Metz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Amédée de Savoie"
+		adm = 5
+		dip = 8
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Pierre de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Jean-Louis de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Jean de Compey"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "François de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1490.1.1 = {
+	monarch = {
+		name = "Antoine Champion"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Philippe de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1509.1.1 = {
+	monarch = {
+		name = "Charles de Seyssel"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1513.1.1 = {
+	monarch = {
+		name = "Jean de Savoie"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Pierre de la Baume"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1544.1.1 = {
+	monarch = {
+		name = "Louis de Rye"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Philibert de Rye"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "François de Bachod"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "Ange Justiniani"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Claude de Granier"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1602.1.1 = {
+	monarch = {
+		name = "François de Sales"
+		adm = 8
+		dip = 8
+		mil = 5
+	}
+}
+
+1622.1.1 = {
+	monarch = {
+		name = "Jean-François de Sales"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1639.1.1 = {
+	monarch = {
+		name = "Juste Guérin"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1645.1.1 = {
+	monarch = {
+		name = "Charles-Auguste de Sales"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1661.1.1 = {
+	monarch = {
+		name = "Jean d'Alex"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Michel-Gabriel de Bernex"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1741.1.1 = {
+	monarch = {
+		name = "Joseph-Nicolas de Chaumont"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1764.1.1 = {
+	monarch = {
+		name = "Jean-Pierre Biord"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Joseph-Marie Paget"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1802.1.1 = {
+	monarch = {
+		name = "René de Moustiers"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Irénée-Yves de Solle"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

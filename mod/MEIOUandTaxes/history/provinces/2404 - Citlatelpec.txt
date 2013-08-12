@@ -1,0 +1,68 @@
+# 2404 - Otompan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHI
+controller = CHI
+add_core = CHI
+culture = otomian
+religion = teotl
+capital = "Paxtitlan" 
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 6000
+trade_goods = maize 
+
+fort1 = yes
+temple = yes
+marketplace = yes
+
+hre = no
+
+discovered_by = new_world
+
+1428.1.1  = {
+	owner = AZT
+	controller = AZT
+	add_core = AZT
+}
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1521.8.13  = {
+	owner = SPA
+	controller = SPA
+	
+} #Fall of Tenochtitlan
+1546.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 15000
+}
+1650.1.1   = {
+	citysize = 25000
+}
+1700.1.1   = {
+	citysize = 40000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 60000
+}
+1800.1.1   = {
+	citysize = 100000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

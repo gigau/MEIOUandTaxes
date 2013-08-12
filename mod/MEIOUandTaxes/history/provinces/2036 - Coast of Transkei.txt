@@ -1,0 +1,8 @@
+#Province: Coast of Transkei
+#file name: 2036 - Coast of Transkei
+#FB - Vasco Da Gama came this way in about January 1498
+
+discovered_by = SOF
+
+1498.1.1 = { discovered_by = POR }
+

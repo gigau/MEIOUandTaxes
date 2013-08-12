@@ -1,0 +1,43 @@
+# Feroë islands
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOR
+controller = NOR 
+culture = norse
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+#manpower = 1
+manpower = 2
+capital = "Torshavn"
+citysize = 1500
+fort1 = yes
+add_core = NOR
+discovered_by = western
+
+1490.1.1   = {
+	temple = yes
+} # Established during the 12th century
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = NOR
+}
+1538.1.1   = {
+	religion = reformed
+} #First Protestant Minister Arrives in the Orkneys
+1750.1.1   = {
+	citysize = 1100
+} # Severe smallpox
+1752.1.1 = {
+	trade_goods = wool
+} # Wool becomes more important.
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+	add_core = DEN
+	remove_core = DAN
+}

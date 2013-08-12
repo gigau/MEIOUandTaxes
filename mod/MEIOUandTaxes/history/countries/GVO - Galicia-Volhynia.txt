@@ -1,0 +1,80 @@
+# Kingdom of Halych-Volhynia (Regnum Galiciæ et Lodomeriæ)
+# Tag : GVO
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -4
+# quality_quantity = 1
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 260	# Galich
+
+1340.1.1 = {
+	monarch = {
+		name = "Liubartas"
+		dynasty = "Gediminai"
+		adm = 4
+		dip = 4
+		mil = 4		
+	}
+}
+
+1366.1.1 = {
+	monarch = {
+		name = "Aleksandras Karijotaitis"
+		dynasty = "Gediminai"
+		adm = 4
+		dip = 4
+		mil = 4		
+	}
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Liubartas"
+		dynasty = "Gediminai"
+		adm = 4
+		dip = 4
+		mil = 4		
+	}
+}
+
+1384.1.1 = {
+	monarch = {
+		name = "Teodoras Liubartaitis"
+		dynasty = "Gediminai"
+		adm = 4
+		dip = 4
+		mil = 4		
+	}
+}
+
+1431.1.1 = {
+	monarch = {
+		name = "Švitrigaila Algirdaitis"
+		adm = 4
+		dip = 4
+		mil = 4		
+	}
+}
+
+#Halych-Volhynia
+#dynasty - Gediminai
+#Liubartas (1300(?)-1384) ruler - 1342-1384
+#heir - Teodoras Liubartaitis(son) - ?-1431)
+#Aleksandras Karijotaitis - Liubartas nephew and ruler a part of Hlaych-Volynia
+#Luibertas about 1366 lost a port of his reign.
+#Hlaych Volynia dynasty coherence and politics was very complicate and difficult
+#Švitrigaila Algirdaitis (1370-1452)
+#Volynia ruler - 1440-1452

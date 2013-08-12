@@ -1,0 +1,74 @@
+# 845 - Ah Canul
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KKM
+controller = KKM
+add_core = KKM
+culture = mayan
+religion = teotl
+capital = "Can Pech" 
+
+base_tax = 10
+#manpower = 6
+manpower = 12
+citysize = 50000
+trade_goods = cacao 
+
+marketplace = yes
+temple = yes
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+
+1517.1.1   = {
+	discovered_by = SPA
+}
+1540.1.1   = {
+	owner = SPA
+	controller = SPA
+	capital = "San Francisco de Campèche"
+	base_tax = 4
+#	manpower = 2
+	manpower = 4
+} #Pedro de Alvanado
+
+1565.1.1   = {
+	add_core = SPA
+}
+1590.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 7500
+}
+1650.1.1   = {
+	citysize = 10000
+}
+1700.1.1   = {
+	citysize = 20000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 35000
+}
+1800.1.1   = {
+	citysize = 75000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+1832.10.1  = {
+	revolt_risk = 3
+} # Convention of 1832
+1833.4.1   = {
+	revolt_risk = 6
+} # Convention of 1833

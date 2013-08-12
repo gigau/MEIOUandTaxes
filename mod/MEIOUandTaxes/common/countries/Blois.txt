@@ -1,0 +1,122 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+color = { 60  90  160 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_carabinier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Louis #0" = 80
+	"Charles #0" = 60
+	"Louis Philippe #0" = 40
+	"Philippe #0" = 40
+	"Gaston #0" = 20
+	"Henri Alexandre #0" = 20
+	"Nicolas #0" = 20
+	"Alexandre Louis #0" = 10
+	"Claudine #0" = -10
+	"François #0" = 10
+	"Jean #0" = 5		
+	"Antoine Philippe #0" = 5
+	"Hughes #0" = 1
+	"Robert #0" = 1
+	"Alexandre #0" = 0
+	"Ambroise #0" = 0
+	"Armand #0" = 0
+	"Barthélémy #0" = 0
+	"Bernard #0" = 0
+	"Claude #0" = 0
+	"Denis #0" = 0
+	"Eudes #0" = 0
+	"Gui #0" = 0
+	"Guillaume #0" = 0
+	"Gustave #0" = 0
+	"Henri #0" = 0
+	"Jacques #0" = 0
+	"Jean-Baptiste #0" = 0
+	"Jean-Philippe #0" = 0
+	"Jules #0" = 0
+	"Marc #0" = 0
+	"Maurice #0" = 0
+	"Maximiliem #0" = 0
+	"Michel #0" = 0
+	"Pierre #0" = 0
+	"Raoul #0" = 0
+	"René #0" = 0
+	"Simon #0" = 0
+	"Thibaut #0" = 0
+	"Xavier #0" = 0
+}
+
+leader_names = {
+        d'Ancenis d'Angennes d'Argentré
+        "de Bain" "de Beaudiez" "de Beaumetz" "de Boisguéhenneuc" "de Bouëtiez"
+        "de Chateaubriand" "de Châtillon" "de Coatgoureden" "de Coëtivy" "de Coëtmen" "Couasnon de la Barillière" "de Craon" 
+        "de Dol"
+        d'Elbène
+        "de Francheville"
+        "de Goulaine" "de Gourcuff"
+        "de Halgoet" "de la Haye Saint Hilaire" 
+        "Kalbean de Cardelan" "de Kerdrel" "de Kerellec" "de Kergoulay" "de Kerguenech" "de Kerguerron" "de Kersauzon" "de Kersulguen" 
+        "de Lamballe" "de Locmaria" 
+        "de Machecoule" Madec "de Malestroit" "de Mercoeur" "de Monfort"
+        "de la Nouë-Bogat"
+        "de Penguem" "de Penhoadic" "de Penthièvre" "de Pontbriand" 
+        "de Rieux" "de Rodellec" "de Rohan" "de Roscoat" "de Rostrenen"
+        "de Saint Hoularn" "de Saint Meleuc" "de Sévigné"
+        "de Talhouët" "de Tasher de la Pagerie" "de Tintériac" "de Tonquedec" "de Tournemine" "de Trémereuc" "de la Trémoille" "de Trogoff" "de Tromelin"
+        "de Vitré"
+}
+
+ship_names = {
+        Achille Actif Active Admirable Aglaé
+        Aimable Alcide Algésiras Alose Amazone
+        Ambition Amphion Anémone Annibal Apollon
+        Argonaute Artésien Audacieux Auguste Avenant
+        Badine Barbue Beaumont Bécasse Belliqueux
+        Bergère Berryer "Bien Aimé" Bienfaisant Bon
+        Bretagne Bretonne Brillant Brutus Caché
+        Célèbre Centaure Chameau Comte Courageux
+        Défenseur Diadème Diamant Dictateur Diligent
+        Dragon Duc Elephant Elisabeth Emerillon
+        Entreprenant Eole Fleuron Formidable Fortuné
+        Foudroyant Fougueux Fourgon Furieux Glorieux
+        "Grande Hermine" Impétueux Indien Indomptable Jupiter
+        Léopard Loire Massiac Neptune Nestor
+        Orion Pégase "Petite Hermine" Portefaix Profond
+        Protée Rolland "Saint Guillaume" Sarcelle Sévère
+        Six-Corps Solide Solitaire Souverain Sphère
+        Sphinx Superbe Tardif Téméraire Terrible
+        Thésée Tonnant Triomphant Triton Union
+        Vaillant Vengeur Victoire Vigilant Volante
+}
+
+army_names = {
+         "Armée du Trégor"       "Armée de Cornouaille"  "Armée du Léon"         
+         "Armée du Vannetais"    "Armée du Pays de Dol"  "Armée du Pays de Saint Brieuc"
+         "Armée du Pays Rennais" "Armée du Pays Nantais" "Armée du Pays de Saint Malo"
+         "Armée de Broërec"      "Armée de Tréguier"     "Armée de Penthièvre"
+         "Armée de Porhoët"
+"Armée de $PROVINCE$" 
+}

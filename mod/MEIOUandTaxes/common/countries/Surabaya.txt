@@ -1,0 +1,64 @@
+#Country Name: Surabaya
+#Tag: SBT
+#Surabaya is used to represent Surabaya + Tuban
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 88  137  172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_elephant
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Ainul Yaqin #1" = 100
+}
+
+leader_names = {
+	Adi
+	Purnimi
+	Raharji
+	Santisi
+	Aman
+	Damar
+	Bimi
+	Harjuni
+	Kresni
+	Puntidewi
+}
+
+ship_names = {
+	Adi
+	Ainul
+	"Ainul Yaqin"
+	Aman
+	Bimi
+	Damar
+	Harjuni
+	Kresni
+	Puntidewi
+	Purnimi
+	Raharji
+	Santisi
+	Yaqin
+}
+

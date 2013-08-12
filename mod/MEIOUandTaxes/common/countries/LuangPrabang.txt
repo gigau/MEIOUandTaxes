@@ -1,0 +1,56 @@
+#Country Name: Please see filename.
+
+graphical_culture = chinesegfx
+
+color = { 110  249  146 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	siamese_elephant
+	siamese_footsoldier
+	east_asian_spearmen
+	asian_arquebusier
+	siamese_charge_elephant
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+}
+
+monarch_names = {
+	"Kitsarath #0" = 10
+	"Khamane Nai #0" = 10
+	"Int'a Som #0" = 10
+	"Sotika Koumane #0" = 10
+	"Tiao Vong #0" = 10
+        "Anourout #0" = 10
+        "Mantha Thourat #0" = 5
+        "Souka Seum #0" = 5
+        "Thiantha Koumane #0" = 5
+        "Oum Kham #0" = 5
+	"Zakarine #0" = 5
+	"Sisavang Vong #0" = 5
+	"Savang Vatthana #0" = 5
+}
+
+leader_names = {
+	Ounla
+	Singthong
+	Toukta
+	Chay
+	Lae
+	Anny
+	Panh
+	Toi
+	Boi
+	Phai
+}
+
+ship_names = {
+	Ayutthaya
+	Mengrai "Muang Sua" "Muang Then,"
+	Hamsavati
+	"Khun Lo" "Khun Borom" "Khun Sung"
+	Shan "Siang Khwang" "Sipsong Pan Na"
+}

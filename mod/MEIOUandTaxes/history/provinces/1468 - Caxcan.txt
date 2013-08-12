@@ -1,0 +1,71 @@
+# 1468 - Michoacan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PUR
+controller = PUR
+add_core = PUR
+culture = purepechan
+religion = teotl
+capital = "Patzcuaro"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 1500
+trade_goods = maize 
+
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1450.1.1   = {
+	capital = "Tzintzuntzan"
+}
+1473.1.1   = {
+	owner = AZT
+	controller = AZT
+} # Conquest by Axayacati, sixth tlatoani of Tenochtitlan
+1498.1.1   = {
+	add_core = AZT
+}
+1531.1.1   = {
+	discovered_by = SPA
+} # Francisco Vázquez de Coronado y Luján
+1576.1.20  = {
+	owner = SPA
+	controller = SPA
+	capital = "Villa de Leon"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	base_tax = 2
+	trade_goods = livestock
+	fort1 = yes
+} # Spanish explorer Cristóbal de Oñate
+1601.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 10000
+}
+1800.1.1   = {
+	citysize = 20000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

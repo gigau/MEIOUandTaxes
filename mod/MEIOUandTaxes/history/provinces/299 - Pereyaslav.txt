@@ -1,0 +1,68 @@
+#299 -Pereyaslav
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIE
+controller = KIE
+culture = ruthenian
+religion = orthodox	
+capital = "Pereyaslavl"
+
+base_tax = 3
+#manpower = 2	
+manpower = 4	
+citysize = 8674
+trade_goods = wheat
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+#1321.1.1  = {
+#	owner = LIT
+#	controller = LIT
+#}
+1356.1.1  = {
+	add_core = KIE   
+	add_core = LIT    
+}
+1362.12.25 = {
+	owner = LIT
+	controller = LIT
+} # Aftermath of the Battle of Blue Waters
+1500.1.1  = { citysize = 10205 }
+1550.1.1  = { citysize = 12000 }
+1555.1.1  = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+}
+1569.7.1  = {
+	add_core = PLC
+	remove_core = LIT
+} # Union of Lublin
+1595.1.1  = { revolt_risk = 4 } # Union of Brest, religious struggles
+1596.1.1  = { revolt_risk = 0 } 
+1600.1.1  = { citysize = 14120 }
+#1648.1.1  = { add_core = UKR culture = ukrainian } # Chmielnicki uprising, civil war
+1650.1.1  = { citysize = 16620 }
+1654.1.1  = {
+	add_core = RUS
+} # Treaty of Pereyaslav
+1667.1.30  = {
+	remove_core = PLC
+} # Truce of Andrusovo
+1700.1.1  = { citysize = 19550 }
+1750.1.1  = { citysize = 23000 }
+1768.1.1  = { revolt_risk = 8 } # Kolivshchyna rebellion, peasant uprising
+1769.1.1  = { revolt_risk = 0 } # Suppressed by Polish and Russian troops
+1775.5.7   = {
+	owner = RUS
+	controller = RUS
+} # Host disbanded by Empress Catherine II
+1800.1.1  = { citysize = 30000 }

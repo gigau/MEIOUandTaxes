@@ -1,0 +1,55 @@
+# 2695 - Koch Hajo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KMT
+controller = KMT
+culture = assamese
+religion = hinduism
+capital = "Gauhauti"
+trade_goods = cotton
+hre = no
+base_tax = 5
+#manpower = 8
+manpower = 16
+citysize = 30000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim 
+discovered_by = chinese
+
+1356.1.1 = { add_core = KMT }
+1450.1.1 = { citysize = 32000 }
+1500.1.1 = { citysize = 34000 }
+1502.1.1 = { controller = BNG }
+1502.6.1 = { owner = BNG }	#Conquered by Bengal
+1518.1.1 = {
+	controller = KMT
+	owner = KMT
+}	#Koch dynasty consolidates area
+1550.1.1 = { citysize = 36000 }
+1584.1.1 = {
+	owner = ASS
+	controller = ASS
+	add_core = ASS
+} # Koch Hajo independent but seeking support of Assam
+1600.1.1 = { citysize = 38000 }
+1612.1.1 = { controller = MUG   } #Mughals
+1614.1.1 = { owner = MUG   } #Mughals
+1627.1.1 = { discovered_by = POR }
+1650.1.1 = { citysize = 38000 }
+1664.1.1 = { add_core = MUG }
+1682.1.1 = {
+	owner = ASS
+	controller = ASS
+} # Retaken by Assam
+1700.1.1 = { citysize = 39000 }
+1750.1.1 = { citysize = 40000 }
+1757.1.1 = {
+	owner = GBR
+	controller = GBR
+	remove_core = MUG
+} # Battle of Plassey, British rule
+1800.1.1 = { citysize = 42000 }
+1807.1.1 = {
+	add_core = GBR
+}

@@ -1,0 +1,6 @@
+#Galley
+type = galley
+
+hull_size = 11
+base_cannons = 15 
+sail_speed = 8

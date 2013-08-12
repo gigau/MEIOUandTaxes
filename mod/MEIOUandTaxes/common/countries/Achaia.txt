@@ -1,0 +1,94 @@
+#Country Name: Please see filename
+
+graphical_culture = latingfx
+
+color = { 148  100  91 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Geoffrey #2" = 40
+	"William #2" = 10
+	"Charles #2" = 10
+	"Isabel #0" = -10
+	"Philip #0" = 10
+	"Guy #0" = 5
+	"Gautier #0" = 5
+	"Jean #0" = 5
+	"Guillaume #0" = 5
+	"Florent #0" = 5
+	"Louis #0" = 5
+	"Matilda #0" = -5
+	"James #0" = 5
+	"Frederick #0" = 0
+	"Gustav #0" = 0
+	"Francesco #0" = 0
+	"Giovanni #0" = 0
+	"Carlo #0" = 0
+	"Antonio #0" = 0
+	"Federico #0" = 0
+	"Arnold #0" = 0
+	"Robert #0" = 0
+	"Richard #0" = 0
+	"Eric #0" = 0
+	"Hanry #0" = 0
+	"Sancho #0" = 0
+	"Dimitri #0" = 0
+	"Paul #0" = 0
+	"Gerhard #0" = 0
+	"Enrique #0" = 0
+	"Alfonso #0" = 0
+	"Elias #0" = 0
+	"Emmanuele #0" = 0
+	"Evangelos #0" = 0
+	"George #0" = 0
+	"Gregory #0" = 0
+	"John #0" = 0
+	"Constantine #0" = 0
+	"Peter #0" = 0
+	"Stephan #0" = 0
+	"Oscar #0" = 0
+}
+
+leader_names = { 
+	Acciajuoli
+	Brienne Burgundienne
+	Contarini Crispo
+	"de Champlitte" Deslaur Doria "de Villehardouin" "de Anjou"	
+	"di Taranto" "da Gravina" "de Baux" Fadrigue
+	Melissinos "of Kent" "da Angelis" Napoletano
+	Palaeologus Plethon
+	Rendis
+	Saraceno 
+	Tocco "von Hainaut"
+	Zaccaria Zorzi 
+}
+
+ship_names = {
+	"Agios Thomas" 	Achaia
+	Felves 
+	Laouses 
+	Makronisi
+	Patroklou Petalioi
+	Salamina Styra
+	Ypsili
+}

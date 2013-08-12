@@ -1,0 +1,19 @@
+# CAM - United Provinces of Central america
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = constitutional_republic
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 2
+# serfdom_freesubjects = 0
+# isolationist_expansionist = -1
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = mexican
+capital = 841	# Guatemala city

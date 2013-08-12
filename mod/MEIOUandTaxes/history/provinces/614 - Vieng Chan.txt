@@ -1,0 +1,69 @@
+# 614 Vieng Chan
+# LS - Indochina set up
+# TM-Smiles indochina-mod for meiou 
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = laotian
+religion = theravada
+capital = "Vientiane"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 28700
+trade_goods = lumber
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1354.1.1 = { owner = LXA }
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1500.1.1 = { citysize = 32985 }
+1550.1.1 = { citysize = 37000 }
+1574.1.1 = { add_core = TAU } # Burmese vassal
+1579.1.1 = { revolt_risk = 5 } # Revolt against vassalization
+1580.1.1 = { revolt_risk = 0 }
+1582.1.1 = { owner = VIE controller = VIE add_core = VIE } # After the Burmese attack, Luang Prabang & Vientiane ruled in place of Lane Xang
+1593.1.1 = { revolt_risk = 4 } # Revolt against Burmese vassalization
+1600.1.1 = { citysize = 42888 }
+1603.1.1 = { revolt_risk = 0 remove_core = TAU }
+1627.1.1 = { revolt_risk = 6 }
+1633.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 48700 }
+1694.1.1 = {	owner = TOK
+		controller = TOK
+		add_core = TOK
+	   } # Under vietnamese rule after Soulingna Vongsa's death
+1700.1.1 = { citysize = 50900 }
+1707.1.1 = { owner = VIE controller = VIE remove_core = LXA } # Declared independent, Lan Xang was partitioned into 4 kingdoms; Vientiane, Champasak & Luang Prabang + Muang Phuan
+1750.1.1 = { citysize = 52250 }
+1765.1.1 = { add_core = BRM } 	# vassal of Burma
+1779.1.1 = {
+    	add_core = SIA
+	remove_core = BRM
+} # Vassal of Siam
+1780.1.1 = { revolt_risk = 4 }
+1800.1.1 = { citysize = 54570 }
+#1826-1829 LAOTIAN REBELLION
+1829.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	revolt_risk = 0
+} # Annexed by Siam
+1893.1.1 = {
+	owner = FRA
+	controller = FRA
+    	revolt_risk = 0
+}
+ 

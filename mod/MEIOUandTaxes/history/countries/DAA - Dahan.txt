@@ -1,0 +1,44 @@
+# DAA - Dahan
+# LS - Chinese Civil War
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2a
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = -3
+technology_group = chinese
+religion = confucianism
+primary_culture = hakka
+add_accepted_culture = wuhan
+add_accepted_culture = ganyu
+capital = 682
+
+1320.1.1 = {
+	monarch = {
+		name = "Chen Youliang"
+		dynasty = "Chen"
+		ADM = 6
+		DIP = 5
+		MIL = 9
+	}
+	set_country_flag = rising_nation
+
+	heir = {
+		name = "Chen Li"
+		monarch_name = "Chen Li"
+		dynasty = "Chen"
+		birth_date = 1340.1.10
+		death_date = 1372.6.10
+		claim = 70
+		ADM = 7
+		DIP = 4
+		MIL = 6
+	}
+}

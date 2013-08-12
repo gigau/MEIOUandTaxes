@@ -1,0 +1,82 @@
+# HUS - Hussites
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = republican_dictatorship
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 3
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = -3
+# land_naval = -3
+# quality_quantity = -2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 0
+# secularism_theocracy = -3
+primary_culture = czech
+religion = hussite
+capital = 266	#Prag
+technology_group = western
+
+
+
+1419.1.1 = {
+	monarch = {
+		name = "Jan Zizka"
+		adm = 7
+		dip = 4
+		mil = 9
+		leader = {
+			name = "Jan Zizka"
+			type = general
+			rank = 0
+			fire = 6
+			shock = 3
+			manuever = 5
+			siege = 2
+		}
+	}
+}
+
+1421.1.1 = {
+	leader = {
+		name = "Prokop Holý"
+		type = general
+		rank = 1
+		fire = 5
+		shock = 2
+		manuever = 5
+		siege = 1
+	}
+}
+
+1424.10.11 = {
+	monarch = {
+		name = "Prokop Holý"
+		adm = 7
+		dip = 5
+		mil = 8
+	}
+}
+
+1434.5.30 = {
+	monarch = {
+		name = "Utrakvisté"
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+	# offensive_defensive = 0
+	# aristocracy_plutocracy = -1
+	# serfdom_freesubjects = 0
+}
+
+1457.11.24 = {
+	monarch = {
+		name = "Jiriz Podebrad"
+		adm = 8
+		dip = 5
+		mil = 6
+	}
+}

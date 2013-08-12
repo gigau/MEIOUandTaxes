@@ -1,0 +1,72 @@
+#Country Name: Ternate
+#Tag: TER
+#New Country added by MEIOU-FB Indonesia mod v2
+
+graphical_culture = indiangfx
+
+color = { 134  166  117 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Ahmad #0" = 20
+	"Amir #0" = 20
+	"Anwar #0" = 10
+	"Azmi #0" = 10
+	"Tsandawimala #0" = 10
+	"Thado #0" = 10
+	"Muhammad #0" = 20
+	"Iskandar #0" = 20
+}
+
+leader_names = {
+	Abdulfatah
+	Batuta
+	Chairul
+	Hamzah
+	Hasanuddin
+	Ibnu
+	Kyai
+	Mahat
+	Mukhtar
+	Najamuddin
+	Natzar
+	Nazmizan
+	Roem
+	Syarifuddin
+	ul-Rahman
+	ul-Mukarram
+	ul-Bahrain
+	Zulkifli
+}
+
+ship_names = {
+	Muhammad Saifuddin Iskandar Wahuwa
+	ul-Bahrain ul-Mukarram ul-Rahman
+	Belait Tutong Tembureng
+	Batang Trusan Pandaruan Lungai Limbang
+	Batang Baram Bakong Tutoh
+	Tinjar Kuala Belait Batu Danau
+	Medamit Lumut Telingan
+	Labi Sukang Baram
+}
+

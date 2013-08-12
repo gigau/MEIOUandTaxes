@@ -1,0 +1,71 @@
+# 660 - Dali
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLI
+controller = DLI
+culture = sichuanhua 	#BAI , closely related to chinese
+religion = mahayana
+capital = "Dali"
+trade_goods = gems #marble (dali stone)
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 37907
+add_core = DLI
+discovered_by = chinese
+discovered_by = steppestech
+discovered_by = indian
+fort2 = yes 
+terrain3 = yes
+temple = yes
+
+1253.1.1 = {
+	owner = YUA
+	controller = YUA
+	set_province_flag = terrain3
+}
+1274.1.1 = {
+	add_core = YUA
+} #creation of yunan province
+1350.1.1 = {
+	owner = DLI		#actually never under Mong Mao kingdom
+	controller = DLI
+}
+1356.1.1 = {
+	set_province_flag = terrain3
+}
+1380.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+}
+1500.1.1 = { citysize = 38204 }
+1550.1.1 = { citysize = 39985 }
+1600.1.1 = { citysize = 40458 }
+1650.1.1 = { citysize = 41860 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	remove_core = MNG
+}# Wu Sangui appointed as viceroy
+1673.11.1 = {
+	add_core = QNG
+} # Wu Sangui revolt, core given to Qing for reconquering
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 42900 }
+1750.1.1 = { citysize = 44240 }
+1800.1.1 = { citysize = 46700 }

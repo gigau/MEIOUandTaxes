@@ -1,0 +1,590 @@
+# ALG - Al Djazair
+# 2009-dec-19 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+technology_group = muslim
+religion = sunni
+primary_culture = algerian
+capital = 338	# Al-Djazair
+
+
+1352.1.1 = {
+	monarch = {
+		name = "Abu Hammu Musa II"
+		dynasty = "Zayyanid"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "al-Rahman"
+		monarch_name = "Abd al-Rahman II"
+		dynasty = "Zayyanid"
+		birth_date = 1340.1.1
+		death_date = 1394.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+1389.1.1 = {
+	monarch = {
+		name = "Abd al-Rahman II"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+	heir = {
+		name = "Yusuf"
+		monarch_name = "Abu'l-Hajjaj Yusuf II"
+		dynasty = "Zayyanid"
+		birth_date = 1355.1.1
+		death_date = 1395.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1394.1.1 = {
+	monarch = {
+		name = "Abu'l-Hajjaj Yusuf II"
+		dynasty = "Zayyanid"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Zayyanid"
+		birth_date = 1370.1.1
+		death_date = 1400.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+1395.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Abdallah"
+		monarch_name = "Abdallah"
+		dynasty = "Zayyanid"
+		birth_date = 1385.1.1
+		death_date = 1402.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1400.1.1 = {
+	monarch = {
+		name = "Abdallah"
+		dynasty = "Zayyanid"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad IV"
+		dynasty = "Zayyanid"
+		birth_date = 1400.1.1
+		death_date = 1411.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1402.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Zayyanid"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Abd al-Wahid"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad V"
+		dynasty = "Zayyanid"
+		birth_date = 1400.1.1
+		death_date = 1430.7.27
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad II"
+		dynasty = "Zayyanid"
+		birth_date = 1420.1.1
+		death_date = 1462.2.2
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+
+1430.7.27 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Zayyanid"
+		adm = 7
+		dip = 4
+		mil = 5
+		leader = { name = "Ahmad II" type = general rank = 0 fire = 3 shock = 2 manuever = 3 siege = 0 }
+	}
+}
+1440.7.27 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad V"
+		dynasty = "Zayyanid"
+		birth_date = 1440.7.27
+		death_date = 1468.1.1
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1462.2.2 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad VI"
+		dynasty = "Zayyanid"
+		birth_date = 1460.1.1
+		death_date = 1505.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Zayyanid"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+1480.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad VII"
+		dynasty = "Zayyanid"
+		birth_date = 1480.1.1
+		death_date = 1516.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Muhammad VII"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Mûsa"
+		monarch_name = "Mûsa III"
+		dynasty = "Zayyanid"
+		birth_date = 1497.1.1
+		death_date = 1527.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	leader = { name = "Barberus" type = admiral rank = 0 fire = 4 shock = 5 manuever = 5 siege = 0 death_date = 1530.1.1 }
+}
+
+#MEIOU - Algiers appears on map 1516.1.1
+1516.1.1 = {
+	monarch = {
+		name = "Mûsa III"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Allâh"
+		monarch_name = "'Abd Allâh III"
+		dynasty = "Zayyanid"
+		birth_date = 1515.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "'Abd Allâh III"
+		dynasty = "Zayyanid"
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad III"
+		dynasty = "Zayyanid"
+		birth_date = 1527.1.1
+		death_date = 1550.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Ahmad III"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "al-Hasan"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+#############################
+
+1710.1.1 = {
+	monarch = {
+		name = "'Ali"
+		dynasty = "Muhammadid"
+		adm = 6
+		dip = 7
+		mil = 8
+		leader = { name = "'Ali I" type = general rank = 0 fire = 3 shock = 3 manuever = 3 siege = 0 }
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad"
+		dynasty = "Muhammadid"
+		birth_date = 1670.1.1
+		death_date = 1724.5.19
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1718.4.5 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "'Abdi"
+		monarch_name = "'Abdi"
+		dynasty = "Muhammadid"
+		birth_date = 1690.1.1
+		death_date = 1731.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1724.5.19 = {
+	monarch = {
+		name = "'Abdi"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Ibrâhîm"
+		monarch_name = "Ibrâhîm"
+		dynasty = "Muhammadid"
+		birth_date = 1710.1.1
+		death_date = 1745.11.3
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Ibrâhîm"
+		dynasty = "Muhammadid"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Ibrâhîm"
+		monarch_name = "Ibrâhîm II"
+		dynasty = "Muhammadid"
+		birth_date = 1730.1.1
+		death_date = 1748.2.2
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1745.11.3 = {
+	monarch = {
+		name = "Ibrâhîm II"
+		dynasty = "Muhammadid"
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+}
+
+1748.2.2 = {
+	monarch = {
+		name = "Muhammad II"
+		dynasty = "Muhammadid"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî II"
+		dynasty = "Muhammadid"
+		birth_date = 1735.1.1
+		death_date = 1766.2.2
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1754.12.13 = {
+	monarch = {
+		name = "'Alî II"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Muhammad III"
+		dynasty = "Muhammadid"
+		birth_date = 1752.1.1
+		death_date = 1791.7.23
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1766.2.2 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Muhammadid"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Muhammadid"
+		birth_date = 1766.2.2
+		death_date = 1798.6.2
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1791.7.23 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Muhammadid"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1798.6.2 = {
+	monarch = {
+		name = "Mustafa"
+		dynasty = "Muhammadid"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Ahmed"
+		monarch_name = "Ahmed"
+		dynasty = "Muhammadid"
+		birth_date = 1770.1.1
+		death_date = 1808.11.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1805.7.2 = {
+	monarch = {
+		name = "Ahmed"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "'Alî"
+		monarch_name = "'Alî III"
+		dynasty = "Muhammadid"
+		birth_date = 1790.1.1
+		death_date = 1815.4.4
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1808.11.16 = {
+	monarch = {
+		name = "'Alî III"
+		dynasty = "Muhammadid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "'Umar"
+		monarch_name = "'Umar"
+		dynasty = "Muhammadid"
+		birth_date = 1806.1.1
+		death_date = 1817.5.3
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1815.4.4 = {
+	monarch = {
+		name = "'Umar"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1817.5.3 = {
+	monarch = {
+		name = "'Alî IV"
+		dynasty = "Muhammadid"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1818.3.3 = {
+	monarch = {
+		name = "Husain III"
+		dynasty = "Muhammadid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}

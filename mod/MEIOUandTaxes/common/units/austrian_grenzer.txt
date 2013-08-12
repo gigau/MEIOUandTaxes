@@ -1,0 +1,21 @@
+# Austrian Grenzer
+#Modified for MEIOU by FB 10.02.07
+#tech level 36 c1670
+
+unit_type = western
+type = infantry
+
+maneuver = 1
+#offensive_morale = 6
+#defensive_morale = 8
+#offensive_fire = 3
+#defensive_fire = 4
+#offensive_shock = 2
+#defensive_shock = 6
+#FB
+offensive_morale = 8
+defensive_morale = 8
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 6
+defensive_shock = 7

@@ -1,0 +1,48 @@
+# 1334 - Tyrus
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = shami
+religion = catholic
+capital = "Bayrut"
+trade_goods = lumber
+hre = no
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 11177
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = MAM
+	add_core = SYR
+}
+1500.1.1 = { citysize = 13440 fort1 = yes }
+1516.1.1 = {	owner = TUR
+		controller = TUR
+		add_core = TUR
+	remove_core = SYR
+	   } # Part of the Ottoman empire
+1550.1.1 = { citysize = 16989 }
+1600.1.1 = { citysize = 18211 }
+1650.1.1 = { citysize = 19570 }
+1700.1.1 = { citysize = 21200 }
+1750.1.1 = { citysize = 30600 mint = yes }
+1800.1.1 = { citysize = 36100 }
+1831.1.1 = {
+	controller = EGY
+}
+1833.6.1 = {
+	owner = EGY
+}
+1841.2.1  = {
+	owner = TUR
+	controller = TUR
+} # Part of the Ottoman Empire

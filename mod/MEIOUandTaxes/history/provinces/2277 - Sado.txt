@@ -1,0 +1,43 @@
+# 2277 - Sado
+# FL - Korea Universalis
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = USG
+controller = USG
+culture = chubu
+religion = shinbutsu
+capital = "Sado"
+
+trade_goods = silver
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1140
+
+hre = no
+fort1 = yes
+
+discovered_by = chinese
+
+1356.1.1   = {
+	add_core = USG
+}
+1450.1.1   = { citysize = 2613 }
+1500.1.1   = { citysize = 3190 }
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 3895 }
+1600.1.1   = { citysize = 4280 }
+1600.9.15  = {
+	owner = TGW
+	controller = TGW
+	add_core = TGW
+}
+1630.1.1   = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1   = { citysize = 4771 }
+1700.1.1   = { citysize = 4982 }
+1750.1.1   = { citysize = 5238 }
+1800.1.1   = { citysize = 5506 }

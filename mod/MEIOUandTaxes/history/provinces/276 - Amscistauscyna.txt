@@ -1,0 +1,79 @@
+# 1433 - Amsciauscyna
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GVO
+controller = GVO
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 3
+trade_goods = wheat
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Vinnica"
+citysize = 3000
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = GVO
+	add_core = LIT
+}
+1362.12.25 = {
+	owner = LIT
+	controller = LIT
+} # Aftermath of the Battle of Blue Waters
+1480.1.1  = {
+	fort2 = yes
+}
+1500.1.1  = {
+	citysize = 3500
+}
+1555.1.1  = {
+	owner = ZAZ
+	controller = ZAZ
+	add_core = ZAZ
+#	culture = ukrainian
+}
+1569.1.1  = {
+	add_core = PLC
+	remove_core = POL
+}	
+1570.1.1  = {
+	citysize = 4000
+}
+1610.1.1  = {
+	citysize = 4500
+}
+1650.1.1  = {
+	citysize = 5000
+}
+1654.1.1  = {
+	add_core = RUS
+}
+1690.1.1  = {
+	citysize = 6000
+}
+1730.1.1  = {
+	citysize = 7500
+}
+1770.1.1  = {
+	citysize = 10000
+}
+1775.5.7   = {
+	owner = RUS
+	controller = RUS
+} # Host disbanded by Empress Catherine II
+1795.1.1   = {
+	remove_core = PLC
+}
+1810.1.1  = {
+	citysize = 15000
+}
+1820.1.1  = {
+	citysize = 20000
+}

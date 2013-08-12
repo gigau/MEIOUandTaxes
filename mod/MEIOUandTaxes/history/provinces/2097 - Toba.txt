@@ -1,0 +1,36 @@
+#Province: Toba
+#file name: 2097 - Toba
+#MEIOU-FB Indonesia mod v3
+#Note: only really under very lose Aceh control - would be better as natives?
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ATJ
+controller = ATJ
+culture = batak			#the Bataks - fiercely independant
+religion = hinduism			#this region remained hinduism/pagan until C19.
+capital = "Sibolga"
+trade_goods = lumber
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 4000
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = ATJ
+	add_core = MKP
+#	add_core = PGY
+}
+1400.1.1 = { citysize = 4520 }
+1500.1.1 = { citysize = 5020 }
+1600.1.1 = { citysize = 5640 }
+1650.1.1 = { citysize = 6010 }
+1688.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 6340 }
+1750.1.1 = { citysize = 6980 }
+1800.1.1 = { citysize = 7580 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

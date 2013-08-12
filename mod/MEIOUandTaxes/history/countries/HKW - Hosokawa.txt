@@ -1,0 +1,258 @@
+# HKW - Hosokawa clan
+# LS/GG - Japanese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kansai
+religion = shinbutsu
+technology_group = chinese
+capital = 2279		# Settsu
+daimyo = yes
+
+1352.4.5 = {
+	monarch = {
+		name = "Yoriyuki"
+		dynasty = "Hosokawa"
+		adm = 7
+		dip = 6
+		mil = 5
+		}
+}
+
+1352.4.5 = {
+	heir = {
+		name = "Yorimoto"
+		monarch_name = "Yorimoto"
+		dynasty = "Hosokawa"
+		birth_date = 1343.1.1
+		death_date = 1397.6.2
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1392.3.25 = {
+	monarch = {
+		name = "Yorimoto" 
+		dynasty = "Hosokawa"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1392.3.25 = {
+	heir = {
+		name = "Mitsumoto"
+		monarch_name = "Mitsumoto"
+		dynasty = "Hosokawa"
+		birth_date = 1378.1.1
+		death_date = 1426.11.15
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1397.6.2 = {
+	monarch = {
+		name = "Mitsumoto" 
+		dynasty = "Hosokawa"
+		adm = 6
+		dip = 5
+		mil = 5
+		}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Mochimoto"
+		monarch_name = "Mochimoto"
+		dynasty = "Hosokawa"
+		birth_date = 1399.1.1
+		death_date = 1429.8.14
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1426.11.15 = {
+	monarch = {
+		name = "Mochimoto" 
+		dynasty = "Hosokawa"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1429.8.14 = {
+	monarch = {
+		name = "Mochiyuki" 
+		dynasty = "Hosokawa"
+		adm = 5
+		dip = 5
+		mil = 4
+		}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Katsumoto"
+		monarch_name = "Katsumoto"
+		dynasty = "Hosokawa"
+		birth_date = 1430.1.1
+		death_date = 1473.6.6
+		claim = 90
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1442.9.8 = {
+	monarch = {
+		name = "Katsumoto" 
+		dynasty = "Hosokawa"
+		adm = 5
+		dip = 6
+		mil = 5
+		}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Masamoto"
+		monarch_name = "Masamoto"
+		dynasty = "Hosokawa"
+		birth_date = 1466.1.1
+		death_date = 1507.8.1
+		claim = 90
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1473.11.15 = {
+	monarch = {
+		name = "Masamoto" 
+		dynasty = "Hosokawa"
+		adm = 4
+		dip = 5
+		mil = 4
+		}
+}
+
+1489.1.1 = {
+	heir = {
+		name = "Sumiyuki"
+		monarch_name = "Sumiyuki"
+		dynasty = "Hosokawa"
+		birth_date = 1399.1.1
+		death_date = 1507.9.7
+		claim = 60
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1503.5.1 = {
+	heir = {
+		name = "Sumimoto"
+		monarch_name = "Sumimoto"
+		dynasty = "Hosokawa"
+		birth_date = 1489.1.1
+		death_date = 1520.6.24
+		claim = 70
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1507.8.1 = {
+	monarch = {
+		name = "Sumiyuki" 
+		dynasty = "Hosokawa"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1507.9.7 = {
+	monarch = {
+		name = "Sumitomo" 
+		dynasty = "Hosokawa"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1514.1.1 = {
+	heir = {
+		name = "Harumoto"
+		monarch_name = "Harumoto"
+		dynasty = "Hosokawa"
+		birth_date = 1514.1.1
+		death_date = 1563.3.24
+		claim = 80
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1520.6.24 = {
+	monarch = {
+		name = "Takakuni" 
+		dynasty = "Hosokawa"
+		adm = 5
+		dip = 6
+		mil = 6
+		}
+}
+
+1531.7.21 = {
+	monarch = {
+		name = "Harumoto" 
+		dynasty = "Hosokawa"
+		adm = 6
+		dip = 6
+		mil = 5
+		}
+}
+
+1548.1.1 = {
+	heir = {
+		name = "Akimoto"
+		monarch_name = "Akimoto"
+		dynasty = "Hosokawa"
+		birth_date = 1548.1.1
+		death_date = 1592.1.1
+		claim = 70
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,11 @@
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = indian
+discovered_by = turkishtech
+discovered_by = MNG
+discovered_by = ETH
+discovered_by = ADA
+discovered_by = SEN
+discovered_by = MKU
+discovered_by = KIL

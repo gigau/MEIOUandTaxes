@@ -1,0 +1,41 @@
+# 2284 - Echizen
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SBA
+controller = SBA
+culture = chubu
+religion = shinbutsu
+capital = "Kanazawa"
+trade_goods = chinaware
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 28000
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	add_core = SBA
+}
+1400.1.1 = { citysize = 29000 }
+1450.1.1 = { citysize = 30000 }
+# 1479 - to the Asakura clan
+1500.1.1 = { citysize = 32000 }
+1550.1.1 = { citysize = 34000 }
+1598.1.1 = {
+	owner = TGW
+	controller = TGW
+}
+1600.1.1 = { citysize = 37000 }
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 40000 }
+1700.1.1 = { citysize = 44000 }
+1750.1.1 = { citysize = 48000 }
+1800.1.1 = { citysize = 53000 }

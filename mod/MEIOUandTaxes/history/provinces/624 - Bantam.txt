@@ -1,0 +1,57 @@
+#Province: Banten
+#file name: 624 - Banten
+# MEIOU-FB Indonesia mod
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PJJ
+controller = PJJ
+culture = sundanese
+religion = hinduism
+capital = "Banten"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 15000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1  = {
+	add_core = PJJ
+	add_core = SUN
+}
+1400.1.1  = { citysize = 18890 }
+1450.1.1  = { citysize = 22700 }
+#PJJ assumes the mantle of the last hinduism state in western Java
+1550.1.1 = { add_core = BAN }
+1579.1.1  = {
+	owner = BAN
+	controller = BAN
+	religion = sunni
+	citysize = 28775
+	remove_core = SUN
+}  # Banten became an independent sultanate
+1596.6.27 = { discovered_by = NED } # Cornelis de Houtman
+1602.1.1  = { discovered_by = ENG citysize = 29505 } # English settlement
+#1602 ENG TP
+#1603 NED TP
+1650.1.1  = { citysize = 31105 }
+#1682 NED destroy ENG TP
+1707.5.12 = { discovered_by = GBR citysize = 32700 }
+1750.10.1 = { revolt_risk = 4 } #FB: Kyai Tapa's rebellion
+1753.1.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 1
+} # Conquered by the Dutch
+1783.1.1 = { add_core = NED revolt_risk = 0 }
+1800.1.1 = { citysize = 35465 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

@@ -1,0 +1,52 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = VEN
+controller = VEN
+culture = greek
+religion = orthodox
+capital = "Chalkis"
+trade_goods = wine
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 3008
+fort2 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = VEN
+	add_core = BYZ
+}
+1453.5.29 = {
+	remove_core = BYZ
+	add_core = TUR
+} # Constantinople has fallen
+1470.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+1500.1.1  = { citysize = 4500 }
+1550.1.1  = { citysize = 4987 }
+1555.1.1  = { revolt_risk = 5 } # General discontent with the Janissaries' dominance
+1556.1.1  = { revolt_risk = 0 }
+1600.1.1  = { citysize = 5002 }
+1620.1.1  = { marketplace = yes }
+1650.1.1  = { citysize = 4570 }
+1700.1.1  = { citysize = 4790 }
+1750.1.1  = { citysize = 5781 add_core = GRE }
+1800.1.1  = { citysize = 8000 }
+1821.3.1  = {
+	controller = REB
+}
+1829.1.1  = {
+	owner = GRE
+	controller = GRE
+}
+1832.5.7  = {
+	remove_core = TUR
+} # Treaty of Constantinople

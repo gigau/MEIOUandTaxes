@@ -1,0 +1,94 @@
+# 2353 - Cambresis
+# cambrai , Valenciennes , Maubeuge
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HOL
+controller = HOL
+culture = wallonian
+religion = catholic
+capital = "Cambrai"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 12500
+trade_goods = linen
+
+temple = yes
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+hre = yes
+
+1299.11.10  = {
+	add_core = HAI
+	add_core = FLA
+	add_core = HOL
+} #John unites Holland and Hainaut in personal union until 1433.1.1 when absorbed by Burgundy
+1356.1.1   = { citysize = 25000 }
+1399.1.1   = { citysize = 27500 }
+1433.1.1   = { owner = BUR controller = BUR add_core= BUR remove_core = FLA }
+1453.1.1   = { citysize = 30000 add_core = FRA }
+1477.1.5   = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Charles the Bold dies, Lowlands to Austria
+1500.1.1   = { marketplace = yes citysize = 40000 }
+1512.1.1   = { fort2 = yes }
+1529.8.3   = { remove_core = FRA } # 'Ladies Peace' (Damesvrede) of Cambrai: France renounces its claims
+1535.1.1   = { courthouse = yes }
+1540.1.1   = { textile = yes }
+1550.1.1   = { citysize = 40000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics established in the Lowlands create an outrage
+1566.8.1   = { revolt_risk = 4 } # 'Beeldenstorm' at hand
+1566.8.10  = { controller = REB } # 'Beeldenstorm' also hits Hainaut
+1567.1.8   = { controller = SPA } # Spain is back in control
+1567.9.10  = { revolt_risk = 5 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 7 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 10 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 13 constable = yes } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.5.24  = { controller = REB } # Louis of Nassau captures Mons
+1572.8.1   = { controller = SPA } # Don Felipé takes back Mons
+1577.2.12  = { revolt_risk = 5 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.6   = { revolt_risk = 0 } # Union of Arras established
+1600.1.1   = { citysize = 35000 }
+1630.1.1   = { workshop = yes } # Start of switch to industry
+1635.1.1   = { controller = FRA } # French troops capture parts of the Southern Lowlands
+1640.1.1   = { fort3 = yes }
+1648.1.30  = { controller = SPA } # Peace of Münster/Westphalia
+1650.1.1   = { trade_goods = iron textile = no citysize = 33000 } # Focus more and more on iron & coal industry
+1665.9.17  = { add_core = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
+1667.9.25  = { controller = FRA } # Maréchal captures alot of cities in the region for Louis XIV
+1668.5.2   = { controller = SPA } # Peace of Aachen
+1672.5.5   = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19  = {
+	owner = FRA
+	add_core = FRA
+	hre = no
+} # Peace of Nijmegen (France-Spain)
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+	hre = no
+} # Proclamation of the First Republic
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

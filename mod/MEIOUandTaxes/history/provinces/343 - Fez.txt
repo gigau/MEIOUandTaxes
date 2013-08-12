@@ -1,0 +1,60 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = FEZ
+controller = FEZ
+add_core = FEZ
+add_core = MOR  
+culture = fassi
+religion = sunni
+capital = "Fez"
+
+base_tax = 10
+#manpower = 5
+manpower = 10
+citysize = 100000
+trade_goods = olive
+
+fort1 = yes
+terrain1 = yes
+temple = yes	# Kariouyine mosque
+university = yes # universit� AL Quaraouiyine 
+marketplace = yes 
+workshop = yes
+customs_house = yes
+
+cot = yes
+
+discovered_by = TUA
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1400.1.1 = { citysize = 400000 }
+1450.1.1 = { citysize = 300000 }
+1500.1.1 = { citysize = 250000 }
+1548.1.1 = { fort2 = yes }
+1550.1.1 = { citysize = 200000 }
+
+1554.1.1 = { owner = MOR
+		controller = MOR
+		add_core = MOR}
+
+1600.1.1 = { citysize = 100000 } # Moor Refugees from Al-Andalus
+1603.1.1 = {	owner = FEZ
+		controller = FEZ
+		revolt_risk = 5
+	   } # The death of the Saadita Ahmad I al-Mansur
+1604.1.1 = { revolt_risk = 0 }
+1641.1.1 = { owner = MOR controller = MOR remove_core = FEZ }
+1650.1.1 = { citysize = 150000 }
+1659.1.1 = { revolt_risk = 7 } # The last ruler of Saadi is overthrown
+1660.1.1 = { revolt_risk = 3 }
+1672.1.1 = { revolt_risk = 4 } # Oppositions against Ismail, & the idea of a unified state
+1700.1.1 = { citysize = 100000 }
+1727.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 120000 mint = yes }
+1800.1.1 = { citysize = 140000 }

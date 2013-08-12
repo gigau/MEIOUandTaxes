@@ -1,0 +1,48 @@
+#396 - Bahrain
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AHS
+controller = AHS
+culture = bahrani
+religion = shiite
+capital = "Manama"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 2
+manpower = 4
+citysize = 1100
+
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = AHS
+}
+1480.1.1 = { discovered_by = TUR }
+1500.1.1 = { citysize = 1657 }
+1521.1.1 = {	discovered_by = POR 
+		owner = POR
+		controller = POR
+		add_core = POR
+	   } # Invaded by the Portuguese
+1550.1.1 = { citysize = 2340 }
+1600.1.1 = { citysize = 3100 }
+1602.1.1 = {	owner = PER
+		controller = PER
+		add_core = PER
+		remove_core = POR
+	   } # Invaded by the Persians under Shah Abbas I
+1650.1.1 = { citysize = 4205 }
+1700.1.1 = { citysize = 4888 }
+1750.1.1 = { citysize = 5340 }
+1783.1.1 = {	owner = NAJ
+		controller = NAJ
+		remove_core = PER
+	   } # Reconquered by the Bani Utubs
+1799.1.1 = {	owner = OMA
+		controller = OMA
+		add_core = OMA
+	   } # Ruled by the Sultanate of Oman
+1800.1.1 = { citysize = 6230 }

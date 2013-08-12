@@ -1,0 +1,91 @@
+# 2358 - Minorca
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARA		
+controller = ARA
+culture = catalan
+religion = catholic
+capital = "Ciutadella"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = salt
+
+fort1 = yes 
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1  = {
+	add_core = ARA
+	add_core = BLE
+}
+1462.1.1  = {
+	revolt_risk = 2
+} # Remença peasant revolt, in parallel with the Catalan civil war.
+1472.1.1  = {
+	revolt_risk = 0 } # End of the First Remença revolt
+1500.1.1  = {
+	citysize = 2554 }
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+1521.3.16 = {
+	controller = REB
+} # The Germanies movement reaches the archipelago, the viceroy is deposed by the revolters
+1523.3.8  = {
+	controller = SPA
+} # The royal army retakes the city of Palma
+1550.1.1  = {
+	citysize = 3400
+}
+1600.1.1  = {
+	citysize = 5000
+}
+1650.1.1  = {
+	citysize = 6000
+}
+1700.1.1  = {
+	citysize = 7370
+}
+1708.1.1  = {
+	controller = GBR
+} # War of Spanish Succession
+1713.4.11 = {
+	owner = GBR
+	capital = "Maó"
+	add_core = GBR
+} # Treaty of Utrecht
+1750.1.1  = {
+	citysize = 8800
+}
+1756.6.29 = {
+	controller = SPA
+} # Seven Year War
+1763.2.10 = {
+	controller = GBR
+} # Treaty of Paris
+1782.2.5  = {
+	controller = SPA
+} # American War of Independance
+1783.9.3  = {
+	owner = SPA
+} # Treaties of Versailles
+1798.1.1  = {
+	controller = GBR
+} # War of Second Coalition
+1800.1.1  = {
+	citysize = 10000
+}
+1802.3.25 = {
+	controller = SPA
+	remove_core = GBR
+} # Treaty of Amiens

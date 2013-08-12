@@ -1,0 +1,91 @@
+# 202 Avignon - Principal cities: Avignon
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAP
+controller = PAP
+capital = "Avinho"
+citysize = 20000
+culture = provencal
+religion = catholic
+hre = no
+base_tax = 7
+trade_goods = silk
+#manpower = 4
+manpower = 8
+courthouse = yes # Exception, Papal justice well established
+fort1 = yes
+fort2 = yes
+fort3 = yes # Large exception: Le Palais des Papes is super strong, and build on and beneath a natural rock formation
+marketplace = yes
+mint = yes # Exception: center of banking and finance
+temple = yes # La Palais des Papes
+#university = yes # L'Université d'Avignon
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = {
+#	add_core = PA2
+	add_core = PAP
+}
+#1378.3.27  = {
+#	owner = PA2
+#	controller = PA2
+#}
+1378.9.20  = {
+	owner = PA2
+	controller = PA2
+	add_core = PA2
+}
+1417.10.18 = {
+	owner = PAP
+	controller = PAP
+	remove_core = PA2
+}
+#1439.1.1   = {
+#	owner = PA2
+#	controller = PA2
+#	add_core = PA2
+#}
+#1449.1.1   = {
+#	owner = PAP
+#	controller = PAP
+#	remove_core = PA2
+#}
+1500.1.1   = {
+	citysize = 22000
+}
+1530.1.1   = { constable = yes }
+1550.1.1   = { citysize = 24000 customs_house = yes }
+1600.1.1   = { citysize = 26000 }
+1650.1.1   = { citysize = 27000 }
+1670.1.1   = { add_core = FRA } # Louis XIV wants to annex the city-state (Chambres de Réunion)
+1700.1.1   = { citysize = 28000 }
+1750.1.1   = { citysize = 25000 }
+1791.9.14  = {
+	owner = FRA
+	controller = FRA
+	remove_core = PAP
+} # Avignon is incorporated into France
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 25500 }
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

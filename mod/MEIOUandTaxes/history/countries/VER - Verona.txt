@@ -1,0 +1,73 @@
+# Verona
+# VER
+
+government = merchant_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 1 ###4
+# innovative_narrowminded = 0	###-1
+mercantilism = 0.1 # mercantilism_freetrade = -4  ###
+# offensive_defensive = 1  ###
+# land_naval = -3   	###
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0	###-2
+primary_culture = venetian 
+religion = catholic
+technology_group = western
+capital = 108	# Verona
+
+1329.7.23 = {
+	monarch = {
+		name = "Alberto II"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}
+
+1352.9.14 = {
+	monarch = {
+		name = "Cangrande II"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+
+1359.12.15 = {
+	monarch = {
+		name = "Alboino II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Cansignorio"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1375.10.19 = {
+	monarch = {
+		name = "Bartolomeo II"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+1381.1.1 = {
+	monarch = {
+		name = "Antonio"
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+

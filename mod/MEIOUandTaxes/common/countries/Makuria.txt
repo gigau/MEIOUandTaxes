@@ -1,0 +1,89 @@
+# Tag : MKU
+# Name : Makuria
+
+graphical_culture = africangfx
+
+color = { 184  20  192 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	nubian_knight
+	african_spearmen
+	bantu_tribal_warfare
+	african_hill_warfare
+	adal_gunpowder_warfare
+	westernized_adal
+	adal_guerilla_warfare
+}
+
+monarch_names = {
+	"Aarôn #0" = 0
+	"Abraham #1" = 20
+	"Andreas #0" = 0
+	"Balô #0" = 0
+	"Barak #1" = 20
+	"Basileios #1" = 20
+	"Diônisios #0" = 0
+	"Dios #0" = 5
+	"Epiphanios #0" = 0
+	"Gabriel #0" = 5
+	"Geôrgios #4" = 80
+	"Hêlias #0" = 0
+	"Ïêsou #0" = 10
+	"Iôhannês #1" = 40
+	"Ioseph #0" = 0
+	"Kernabes #1" = 20
+	"Khaël #0" =  0
+	"Kuriakos #1" = 10
+	"Marios #0" = 0
+	"Markos #1" = 20
+	"Merkourios #1" = 20
+	"Michaêl #1" = 30
+	"Michaêlkouda #0" = 0
+	"Mouses #0" = 10
+	"Orna #0" = 0
+	"Paulos #0" = 0
+	"Petros #0" = 0
+	"Petrou #0" = 0
+	"Philotheos #0" = 0
+	"Dauid #1" = 40
+	"Enôch #0" = 1
+	"Iakôb #0" = 10
+	"Isaak #0" = 0
+	"Raphael #1" = 20
+	"Semamun #2" = 40
+	"Solomôn #1" = 40
+	"Stephanos #1" = 20
+	"Theodôros #0" = 0
+	"Hoasse #0" = 0
+	"Kollouthos #0" = 0
+	"Marturophoros #0" = 0
+	"Prochoros #0" = 0
+	"Qalidurut #1" = 1
+	"Sentikol #0" = 0
+	"Zacharias #3" = 60
+}
+
+leader_names = {
+	Alwah
+	Blemmyes
+	Dau
+	Debba
+	Dotawo
+	Faras
+	Garamantes
+	Ghazali
+	Hayya
+	Malakal
+	Nobatae
+	Sinkat	
+	Soba	
+	Tawkar
+}
+
+ship_names = {
+	Apedemak Bes Dedwen Arensnuphis Amon
+	Mandulis Amenirdis Taweret Mut Tefnut Khnum
+}

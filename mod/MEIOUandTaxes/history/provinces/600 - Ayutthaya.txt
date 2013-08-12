@@ -1,0 +1,80 @@
+# 600 - Ayutthaya
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYU 
+controller = AYU
+add_core = AYU
+culture = thai
+religion = theravada
+capital = "Ayutthaya"
+
+
+base_tax = 13
+#manpower = 9
+manpower = 18
+citysize = 100000
+trade_goods = rice
+
+fort1 = yes
+marketplace = yes
+workshop = yes
+temple = yes
+cot = yes
+terrain2 = yes		#an island sorrounded by rivers
+
+discovered_by = chinese
+discovered_by = indian
+
+
+hre = no
+
+1356.1.1 = { set_province_flag = terrain2 }
+1500.1.1 = {
+	citysize = 200000
+	royal_palace = yes
+}
+1550.1.1 = {
+	citysize = 300000
+}
+1564.2.1 = {
+	add_core = TAU
+} # Burmese vassal
+1584.5.3 = {
+	remove_core = TAU
+} 
+1600.1.1 = {
+	citysize = 400000
+	marketplace = yes
+}
+1650.1.1 = {
+	citysize = 600000
+	customs_house = yes
+}
+1700.1.1 = {
+	citysize = 1000000
+}
+1750.1.1 = {
+	citysize = 700000
+}
+1760.1.1 = {
+	citysize = 500000
+} # Sacked
+1767.4.1 = {
+	revolt_risk = 7
+} # The Ayutthaya kingdom began to crumble
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+	base_tax = 6			
+	manpower = 7
+	citysize = 100000
+	cot = no
+}
+1800.1.1 = {
+	citysize = 50000
+}
+

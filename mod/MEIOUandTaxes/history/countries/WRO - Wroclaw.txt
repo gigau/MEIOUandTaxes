@@ -1,0 +1,447 @@
+# MEIOU-GG
+# Duchy of Lower Silesia
+# Tag : WRO
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = 0
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+primary_culture = silesian
+religion = catholic
+capital = 1359
+
+
+#Duchy of Jawor-Swidnica (Jauer-Schweidnitz)
+1326.1.1 = {
+	monarch = {
+		name = "Bolko II"
+		dynasty = "Piast"
+		adm = 6
+		dip = 9
+		mil = 7
+		leader = {
+			name = "Bolko II"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 1
+		}
+	}
+}
+#Duchy of Olesnica (Oels) from now on
+#This line of Piast dukes had a very confusing manner of naming all of their sons Konrad and making them all joint rulers.
+#The game does not handle this, so some unhistorical meddling had to be made in order to keep the numbering.
+1338.3.25 = {
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad II"
+		dynasty = "Piast"
+		birth_date = 1338.3.25
+		death_date = 1403.6.10
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1368.7.28 = {
+	monarch = {
+		name = "Konrad II"
+		dynasty = "Piast"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad III"
+		dynasty = "Piast"
+		birth_date = 1359.1.1
+		death_date = 1412.12.28
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+1403.6.10 = {
+	monarch = {
+		name = "Konrad III"
+		dynasty = "Piast"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad IV"
+		dynasty = "Piast"
+		birth_date = 1380.1.1
+		death_date = 1416.1.1
+		claim = 95
+		adm = 3
+		dip = 7
+		mil = 6
+	}
+}
+1412.12.28 = {
+	monarch = {
+		name = "Konrad IV"
+		dynasty = "Piast"
+		adm = 3
+		dip = 7
+		mil = 6
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad V"
+		dynasty = "Piast"
+		birth_date = 1382.1.1
+		death_date = 1427.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+1416.1.1 = {
+	monarch = {
+		name = "Konrad V"
+		dynasty = "Piast"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad VI"
+		dynasty = "Piast"
+		birth_date = 1386.1.1
+		death_date = 1427.12.31
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1427.1.1 = {
+	monarch = {
+		name = "Konrad VI"
+		dynasty = "Piast"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad VII"
+		dynasty = "Piast"
+		birth_date = 1400.1.1
+		death_date = 1439.9.10
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+1427.12.31 = {
+	monarch = {
+		name = "Konrad VII"
+		dynasty = "Piast"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad VIII"
+		dynasty = "Piast"
+		birth_date = 1401.1.1
+		death_date = 1452.2.14
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1439.9.10 = {
+	monarch = {
+		name = "Konrad VIII"
+		dynasty = "Piast"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad IX"
+		dynasty = "Piast"
+		birth_date = 1415.1.1
+		death_date = 1471.8.14
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1452.2.14 = {
+	monarch = {
+		name = "Konrad IX"
+		dynasty = "Piast"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad X"
+		dynasty = "Piast"
+		birth_date = 1415.1.1
+		death_date = 1492.9.21
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+1471.8.14 = {
+	monarch = {
+		name = "Konrad X"
+		dynasty = "Piast"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Konrad"
+		monarch_name = "Konrad X"
+		dynasty = "Piast"
+		birth_date = 1415.1.1
+		death_date = 1492.9.21
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+}
+1492.9.21 = {
+	monarch = {
+		name = "Henryk I"
+		dynasty = "z Podebrad"
+		adm = 6
+		dip = 7
+		mil = 3
+	}
+	heir = {
+		name = "Karol"
+		monarch_name = "Karol I"
+		dynasty = "z Podebrad"
+		birth_date = 1476.5.4
+		death_date = 1536.5.31
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+}
+1498.6.24 = {
+	monarch = {
+		name = "Karol I"
+		dynasty = "z Podebrad"
+		adm = 3
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Henryk"
+		monarch_name = "Henryk II"
+		dynasty = "z Podebrad"
+		birth_date = 1507.5.29
+		death_date = 1548.8.2
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1536.5.31 = {
+	monarch = {
+		name = "Henryk II"
+		dynasty = "z Podebrad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan I"
+		dynasty = "z Podebrad"
+		birth_date = 1509.11.5
+		death_date = 1565.2.28
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1548.8.2 = {
+	monarch = {
+		name = "Jan I"
+		dynasty = "z Podebrad"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Karol"
+		monarch_name = "Karol II"
+		dynasty = "z Podebrad"
+		birth_date = 1545.4.15
+		death_date = 1617.1.28
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+1565.2.28 = {
+	monarch = {
+		name = "Karol II"
+		dynasty = "z Podebrad"
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Karol Fryderyk"
+		monarch_name = "Karol I Fryderyk"
+		dynasty = "z Podebrad"
+		birth_date = 1593.10.18
+		death_date = 1647.5.31
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+}
+1617.1.28 = {
+	monarch = {
+		name = "Karol I Fryderyk"
+		dynasty = "z Podebrad"
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	heir = {
+		name = "Sylwiusz"
+		monarch_name = "Sylwiusz I"
+		dynasty = "von Württemberg"
+		birth_date = 1622.5.2
+		death_date = 1664.4.24
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+}
+1647.5.31 = {
+	monarch = {
+		name = "Sylwiusz I"
+		dynasty = "von Württemberg"
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Karol"
+		monarch_name = "Karol II"
+		dynasty = "von Württemberg"
+		birth_date = 1650.1.1
+		death_date = 1669.12.12
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+}
+1664.4.24 = {
+	monarch = {
+		name = "Karol II"
+		dynasty = "von Württemberg"
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Sylwiusz"
+		monarch_name = "Sylwiusz II"
+		dynasty = "von Württemberg"
+		birth_date = 1651.2.21
+		death_date = 1697.7.3
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+1669.12.12 = {
+	monarch = {
+		name = "Sylwiusz II"
+		dynasty = "von Württemberg"
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Krystian"
+		monarch_name = "Krystian I"
+		dynasty = "von Württemberg"
+		birth_date = 1652.4.19
+		death_date = 1704.4.5
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1697.7.3 = {
+	monarch = {
+		name = "Krystian I"
+		dynasty = "von Württemberg"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Karol Fryderyk"
+		monarch_name = "Karol II Fryderyk"
+		dynasty = "von Württemberg"
+		birth_date = 1690.2.7
+		death_date = 1761.12.14
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+1704.4.5 = {
+	monarch = {
+		name = "Karol II Fryderyk"
+		dynasty = "von Württemberg"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}

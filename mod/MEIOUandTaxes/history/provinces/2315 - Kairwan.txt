@@ -1,0 +1,63 @@
+# 2315 - Kairwan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HAF
+controller = HAF
+add_core = HAF
+culture = tunisian
+religion = sunni
+capital = "Kairwan"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 6042
+trade_goods = millet
+
+
+fort1 = yes
+temple = yes
+
+discovered_by = KBO
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1489.1.1  = { revolt_risk = 4 } # Abu Zikriya Yahya overthrown by Abul Mumin
+1490.1.1  = { revolt_risk = 0 } # Abu Yahya recaptures the power
+1500.1.1  = { citysize = 95467 }
+1534.1.1  = { revolt_risk = 5 } # Ottoman invasion
+1535.1.1  = { revolt_risk = 0  }
+1550.1.1  = { citysize = 96752 }
+1574.9.13 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	add_core = TUN
+	remove_core = HAF
+} # Directly controlled
+1591.1.1  = { revolt_risk = 6 } # Janissary revolt
+1592.1.1  = { revolt_risk = 0 }
+1600.1.1  = { citysize = 108981 }
+1650.1.1  = { citysize = 110548 }
+1659.1.1  = { marketplace = yes } # Became the center of French commercial life
+1700.1.1  = { citysize = 112879 }
+1702.1.1  = { revolt_risk = 4 add_core = ALG } # Military coup, Murad III is assassinated
+1703.1.1  = { revolt_risk = 0 }
+1705.1.1  = {
+	mint = yes
+	owner = TUN
+	controller = TUN
+} # Husayn ibn Ali's rule brings some prosperity
+1735.1.1  = { revolt_risk = 6 } # Coup with Algerian support
+1750.1.1  = { citysize = 115670 constable = yes }
+1756.1.1  = { revolt_risk = 0 } # The Husaynid Dynasty is restored 
+1800.1.1  = { citysize = 119000 }
+1881.5.12 = {
+	owner = FRA
+	controller = REB
+}
+1881.10.28 = { controller = FRA }

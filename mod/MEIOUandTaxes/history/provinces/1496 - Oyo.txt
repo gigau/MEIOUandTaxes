@@ -1,0 +1,46 @@
+#Province: Oyo
+#file name: 1496 - Sokoto
+#FB-ToDo extend Oyo survival (more research needed)
+#added discovered_by = ASH HAU SEG
+#used another province for sokoto (LS)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OYO
+controller = OYO
+culture = yorumba
+religion = animism
+capital = "Oyo-Ile"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 5000
+trade_goods = millet
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = OYO
+}
+1520.1.1 = { add_core = BEN revolt_risk = 4 } #Benin raids and claimst to loyalty of local Yoruba chiefs
+1525.1.1 = { revolt_risk = 0 }
+1585.1.1 = { revolt_risk = 4 } #Nupe Raids
+1590.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 10000 } #Further solidification of Oyo power
+1700.1.1 = { citysize = 12000 } #Further solidification of Oyo power
+#1774.1.1 = {
+#	citysize = 0
+#	native_size = 5
+#	native_ferocity = 4.5
+#	native_hostileness = 9 
+#	owner = XXX
+#	controller = XXX
+#	revolt_risk = 6
+#	base_tax = 1
+##	manpower = 1
+#	manpower = 2
+#} #Ife rulers break Oyo domination
+#FB comment - 1774 a change of dynasty only; Oyo state should survive until 1835
+1780.1.1 = { revolt_risk = 0 }

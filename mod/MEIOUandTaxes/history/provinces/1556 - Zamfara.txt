@@ -1,0 +1,25 @@
+# 1556 - Zamfara
+#Province: Sokoto
+# LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KNO
+controller = KNO
+add_core = KNO
+culture = haussa		
+religion = sunni		 
+capital = "Zamfara"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = coffee
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+

@@ -1,0 +1,224 @@
+# HAW - Kingom of Hawaii
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = 2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = hawaian
+religion = austranasian
+technology_group = hawaii_tech
+capital = 1240	#Hawaii
+
+1356.1.1 = {
+	monarch = {
+		name = "Lani I"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+
+1365.1.1   = {
+	monarch = {
+		name = "Kuaiwa"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1375.1.1   = {
+	monarch = {
+		name = "Kahoukapu"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1405.1.1   = {
+	monarch = {
+		name = "Kauholanuimahu"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1435.1.1   = {
+	monarch = {
+		name = "Kihanuilulumoku"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1465.1.1   = {
+	monarch = {
+		name = "Liloa"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1495.1.1   = {
+	monarch = {
+		name = "Hakau"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1510.1.1   = {
+	monarch = {
+		name = "Umi-a-Liloa"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1525.1.1   = {
+	monarch = {
+		name = "Kealiiokaloa"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1545.1.1   = {
+	monarch = {
+		name = "Keawenuiaumi"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1575.1.1   = {
+	monarch = {
+		name = "Kaikilani"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1605.1.1   = {
+	monarch = {
+		name = "Keakealanikane"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1635.1.1   = {
+	monarch = {
+		name = "Keakamahana"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1665.1.1   = {
+	monarch = {
+		name = "Keakealaniwahine"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+		female = yes
+	}
+}
+
+1695.1.1   = {
+	monarch = {
+		name = "Keawe-ikekahiali-iokamoku"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1725.1.1   = {
+	monarch = {
+		name = "Alapainui"
+		dynasty = "Wakea"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1754.1.1   = {
+	monarch = {
+		name = "Kalani-opu-u"
+		dynasty = "Ka'u"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1782.4.1   = {
+	monarch = {
+		name = "Kiwala-o"
+		dynasty = "Ka'u"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1782.7.1   = {
+	monarch = {
+		name = "Keoua Kuahuula"
+		dynasty = "Ka'u"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1791.1.1   = {
+	monarch = {
+		name = "Kamehameha I"
+		dynasty = "Kona"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

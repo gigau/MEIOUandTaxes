@@ -1,0 +1,48 @@
+# 2672 - Pulicat
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RED
+controller = RED
+culture = telegu
+religion = hinduism
+capital = "Pulicat"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 20000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = { add_core = RED }
+1385.1.1 = { owner = VIJ controller = VIJ }
+1405.1.1 = { discovered_by = chinese }
+1435.1.1 = { add_core = VIJ }	#Growing Vijayanagar city as well as the power of the empire makes this port boom
+1443.1.1 = { controller = ORI } # Conquered by Gajapatis
+1445.1.1 = { owner = ORI } # Conquered by Gajapatis
+1450.1.1 = { citysize = 35000 }
+1462.1.1 = { controller = VIJ } # Reconquered by Vijayanagar
+1464.1.1 = { owner = VIJ  } # Reconquered by Vijayanagar
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 38000 }
+1550.1.1 = { citysize = 38500 }
+1600.1.1 = { citysize = 36000 }
+#1610.1.1 = { decision = united_trade_post_setup }
+1616.1.1 = {
+	owner = NED
+	controller = NED
+	base_tax = 7
+} # Dutch east india company's capital
+1650.1.1 = { citysize = 37000 }
+1666.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 30000 }
+1750.1.1 = { citysize = 33000 }
+1795.1.1 = {
+	owner = GBR
+	controller = GBR
+	remove_core = NED
+} # The city in british hands
+1800.1.1 = { citysize = 35000 }
+1845.1.1 = { add_core = GBR }

@@ -1,0 +1,40 @@
+#MEIOU-GG Governemnt changes
+
+government = constitutional_republic
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 1
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -2
+# offensive_defensive = 2
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = 5
+# isolationist_expansionist = 1
+# secularism_theocracy = -3
+technology_group = western
+primary_culture = american
+add_accepted_culture = mexican
+religion = protestant
+capital = 1461
+
+
+1700.1.1   = { decision = agricultural_cultivation }
+
+1835.1.1   = { leader = {	name = "Sam Houston"     	type = general	rank = 1	fire = 2	shock = 2	manuever = 6	siege = 0  death_date = 1799.12.14 } }
+
+1836.3.16  = {
+	monarch = {
+		name = "David G. Burnet"
+		adm = 8	
+		dip = 7	
+		mil = 7
+	}
+}
+1836.10.22 = {
+	monarch = {
+		name = "Sam Houston"
+		adm = 8	
+		dip = 7	
+		mil = 7
+	}
+}

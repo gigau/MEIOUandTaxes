@@ -1,0 +1,203 @@
+# SHN - Shoniclan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kyushu
+religion = shinbutsu
+technology_group = chinese
+capital = 1020		# Hizen
+daimyo = yes
+
+1336.4.11 = {
+	monarch = {
+		name = "Yorinao"
+		dynasty = "Shoni"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1372.1.30  = {
+	monarch = {
+		name = "Fuyusuke"
+		dynasty = "Shoni"
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+}
+
+1375.9.22  = {
+	monarch = {
+		name = "Fuyusuke"
+		dynasty = "Shoni"
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+}
+
+1375.9.22 = {
+	heir = {
+		name = "Mitsusada"
+		monarch_name = "Mitsusada"
+		dynasty = "Shoni"
+		birth_date = 1375.9.22
+		death_date = 1404.1.1
+		claim = 90
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1387.1.1 = {
+	monarch = {
+		name = "Sadayori"
+		dynasty = "Shoni"
+		adm = 5
+		dip = 6
+		mil = 4
+		}
+}
+
+1387.1.1 = {
+	heir = {
+		name = "Mitsusada"
+		monarch_name = "Mitsusada"
+		dynasty = "Shoni"
+		birth_date = 1380.1.1
+		death_date = 1433.9.29
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Mistusada"
+		dynasty = "Shoni"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1404.1.1 = {
+	heir = {
+		name = "Suketsugu"
+		monarch_name = "Suketsugu"
+		dynasty = "Shoni"
+		birth_date = 1400.1.1
+		death_date = 1441.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1433.9.29 = {
+	monarch = {
+		name = "Suketsugu"
+		dynasty = "Shoni"
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1441.1.1 = {
+	monarch = {
+		name = "Noriyori" 
+		dynasty = "Shoni"
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Masasuke"
+		monarch_name = "Masasuke"
+		dynasty = "Shoni"
+		birth_date = 1450.1.1
+		death_date = 1497.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Masasuke" 
+		dynasty = "Shoni"
+		adm = 5
+		dip = 4
+		mil = 4
+		}
+}
+
+1491.1.1 = {
+	heir = {
+		name = "Sukemoto"
+		monarch_name = "Sukemoto"
+		dynasty = "Shoni"
+		birth_date = 1491.1.1
+		death_date = 1536.1.22
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Sukemoto" 
+		dynasty = "Shoni"
+		adm = 5
+		dip = 4
+		mil = 4
+		}
+}
+
+1529.1.1 = {
+	heir = {
+		name = "Fuyuhisa"
+		monarch_name = "Fuyuhisa"
+		dynasty = "Shoni"
+		birth_date = 1529.1.1
+		death_date = 1559.2.18	
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.1.22 = {
+	monarch = {
+		name = "Fuyuhisa" 
+		dynasty = "Shoni"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+}

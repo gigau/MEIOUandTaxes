@@ -1,0 +1,81 @@
+# 730 - Pyongyang
+# FL - Korea Universalis
+# LS - Alpha 5
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KOR
+controller = KOR
+culture = korean
+religion = mahayana #FB-ASSA become confucianism in 1392
+capital = "Pyongyang"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 30000
+trade_goods = rice
+
+fort1 = yes
+terrain1 = yes
+
+
+discovered_by = chinese
+discovered_by = steppestech
+
+hre = no
+
+1290.1.1  = {
+	owner = YUA
+	controller = YUA
+	add_core = YUA
+}
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = KOR
+}
+1359.1.1  = {
+	owner = KOR
+	controller = KOR
+	remove_core = YUA
+}
+1392.1.1  = {
+	religion = confucianism
+}
+1500.1.1 = {
+	citysize = 30000
+}
+1550.1.1 = {
+	citysize = 30000
+}
+1593.1.1 = {
+	revolt_risk = 5
+} # Japanese invasion
+1593.5.1 = {
+	controller = KOR
+	revolt_risk = 0
+} # Japanese invasion ends
+1600.1.1 = {
+	citysize = 20000
+} # Great devastation as a result of the Japanese invasion
+1637.1.1 = {
+	add_core = MNG
+} # Tributary of Qing China
+1644.1.1 = {
+	add_core = QNG
+	remove_core = MNG
+} # Part of the Manchu empire
+1650.1.1 = {
+	citysize = 30000
+}
+1653.1.1 = {
+	discovered_by = NED
+} # Hendrick Hamel
+1700.1.1 = {
+	citysize = 40000
+}
+1750.1.1 = {
+	citysize = 50000
+}
+1800.1.1 = {
+	citysize = 60000
+}

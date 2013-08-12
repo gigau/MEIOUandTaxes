@@ -1,0 +1,24 @@
+# 1085 - Paredarerme
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = aboriginal
+religion = austranasian
+capital = "Paredarerme"
+hre = no
+trade_goods = crops
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 0.5
+native_hostileness = 0
+
+1642.11.24 = { discovered_by = NED } # Abel Tasman
+1803.1.1   = {
+	owner = GBR
+	controller = GBR
+	capital = "Hobart"
+	citysize = 100
+	trade_goods = iron
+	set_province_flag = trade_good_set
+} # Penal colony

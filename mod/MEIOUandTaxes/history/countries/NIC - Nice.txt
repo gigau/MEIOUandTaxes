@@ -1,0 +1,28 @@
+# NIC - Comté de Nice
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = -3
+# land_naval = 4
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+primary_culture = piedmontese
+religion = catholic
+technology_group = western
+capital = 102
+
+
+1356.1.1 = {
+	monarch = {
+		name = "Commune"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+# 1388 - Chooses to join the Duchy of Savoy

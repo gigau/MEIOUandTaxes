@@ -1,0 +1,19 @@
+# NOL - Northumberland
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 2
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = 0
+# land_naval = 0
+# quality_quantity = -2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 246	# Newcastle

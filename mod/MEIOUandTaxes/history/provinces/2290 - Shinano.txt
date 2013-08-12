@@ -1,0 +1,46 @@
+# 2290 - Shinano
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SBA
+controller = SBA
+culture = chubu
+religion = shinbutsu
+capital = "Ueda"
+trade_goods = gold
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 35200
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = SBA
+}
+1400.1.1   = { citysize = 36000 }
+1450.1.1   = { citysize = 37000 }
+1500.1.1   = { citysize = 39000 }
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = {
+	citysize = 41000
+	owner = TKD
+	controller = TKD
+}
+1582.1.1 = {
+	owner = TGW
+	controller = TGW
+}
+1600.1.1   = { citysize = 44000 }
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1   = { citysize = 47000 }
+1700.1.1   = { citysize = 51000 }
+1750.1.1   = { citysize = 55000 }
+1800.1.1   = { citysize = 60000 }

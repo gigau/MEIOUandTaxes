@@ -1,0 +1,52 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 181  123  92 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Taj al-Din #0" = 20
+	"Qutb al-Din #0" = 30
+	"Shams al-Din #0" = 20
+	"Nizam al-Din #0" = 20
+	"Mahmud #0" = 20
+}
+
+leader_names = {
+	Baloch
+	Basham
+	Chakar
+	Dashti
+	Daqid
+	Iqobal
+	Nasir
+	Rais
+	Sarbaz
+	Ghazai
+}
+
+ship_names = {
+	Alia Arusa Dasht Fatimah
+	Hormuz Indus Kech Khan
+	Mashkaal Nihing Niknaz Niloufa
+	Noor Rakhshan Salima Shameena
+	Suhalia Yasmine Zahira Zhab
+}
+

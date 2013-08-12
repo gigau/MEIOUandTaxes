@@ -1,0 +1,4443 @@
+#prices.txt
+# Modified by Gigau & FB
+#2010-dec-14 FB	DW minor fixes
+#2011-may-18 FB fixes by AB
+#
+# * Changes in MEIOU
+# FB - capitals increase consumption of everything except raw materials
+#	e.g. of cloth but NOT of wool
+# FB - manufactured goods increase demand for raw materials
+#	e.g. cloth increases demand for wool, cotton, leather and linen
+
+crops={
+	base_price=0
+}
+
+rice={
+	base_price = 2	
+	supply = 0.4
+	max_demand = 5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.1
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { wheat = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { rice = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { millet = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { maize = 1 } }
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = fish
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+beer={
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.75
+			owner = { has_country_modifier = the_liquor_act }
+		}
+		modifier = {
+			factor = 0.01
+			religion_group = muslim
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 1.1
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 2.0
+			has_building = refinery
+		}
+		modifier = {
+			factor = 1.1
+			has_building = university
+		}
+		modifier = {
+			factor = 0
+			religion_group = muslim
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+olive = {
+	base_price = 3 
+	max_demand = 5	
+	supply = 4 
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+linen={
+	base_price = 2
+	max_demand = 5
+	supply = 0.5
+	demand = {		
+		modifier = {
+			factor = 0
+			not = { 
+				trade_goods = cloth 
+				trade_goods = wool
+				trade_goods = linen
+				trade_goods = silk
+			}
+		}
+		modifier = {
+			factor = 4
+			trade_goods = linen
+		}	
+		modifier = {
+			factor = 0.5
+			owner = { 
+				linen = 1
+			}
+		}
+		modifier = {
+			factor = 0.1
+			owner = { 
+				linen = 5
+			}
+		}
+		modifier = {
+			factor = 2
+			not = {
+				owner = { 
+					linen = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 1.2
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.2
+			has_building = textile
+		}
+		modifier = {
+			factor = 1.2
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 0.1
+			looted = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+iron={
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.1
+			owner = {
+				NOT = {
+					technology_group = western
+					technology_group = eastern
+				}
+			}
+		}
+		modifier  = {
+			factor = 1.1
+			owner = { infantry = 20 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 30 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.2
+			has_building = weapons
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = hardware
+		}
+	}
+}
+
+brazil={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = {
+					brazil = 1
+					any_neighbor_country = {
+						brazil = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = brazil
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = furniture
+		}
+	}
+}
+
+salt={
+	base_price = 2
+	max_demand = 5	
+	supply = 1.5
+	demand = {	
+		modifier = {
+			factor = 1.5
+			owner = { has_country_modifier = salt_crisis }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.1
+			trade_goods = fish
+		}
+		modifier = {
+			factor = 0.8
+			port = yes
+		}
+	}
+}
+
+penal={
+	base_price = 0
+	goldtype = yes
+	max_demand = 5
+	supply = 1
+	demand = {
+	}
+}
+
+gold={
+	base_price = 0
+	goldtype = yes
+	max_demand = 5
+	supply = 1
+	demand = {
+	}
+}
+
+clove={
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					} 
+				}
+			}
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = global_empire }
+		}	
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+cacao={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = {
+					cacao = 1
+					any_neighbor_country = {
+						cacao = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = cacao
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+carpet={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				carpet = {
+					coffee = 1
+					any_neighbor_country = {
+						carpet = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = carpet
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+chinaware={
+	base_price = 3
+	max_demand = 5	
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.25
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1373 #Hangzhou node
+						has_discovered = 1371 #Canton node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1373 #Hangzhou node
+						has_discovered = 1371 #Canton node
+					} 
+				}
+			}
+		}		
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = patron_of_art }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+coffee={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = {
+					coffee = 1
+					any_neighbor_country = {
+						coffee = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = coffee
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+cotton={
+	base_price = 2 
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0
+			not = { 
+				trade_goods = cloth 
+				trade_goods = cotton
+			}
+		}
+		modifier = {
+			factor = 2
+			has_building = textile
+		}
+		modifier = {
+			factor = 2
+			has_building = plantations
+		}
+		modifier = {
+			factor = 2
+			trade_goods = cloth
+		}	
+		modifier = {
+			factor = 2
+			owner = { 
+				cotton = 1
+			}
+		}
+		modifier = {
+			factor = 2
+			owner = { 
+				cotton = 5
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 3
+			has_building = textile
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+carmine={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = {
+					carmine = 1
+					any_neighbor_country = {
+						carmine = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = carmine
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.2
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.2
+			has_building = textile
+		}
+		modifier = {
+			factor = 1.2
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 0.1
+			looted = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+fur={
+	base_price = 3
+	max_demand = 5	
+	supply = 1.5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = workshop
+		}
+		modifier = {
+			factor = 0.2
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 5
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 10
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = 1 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = 2 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { NOT = { stability = 3 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+	}
+}
+
+gems={
+	base_price = 0
+	goldtype = yes
+	max_demand = 5
+	supply = 1
+	demand = {
+	}
+}
+
+glassware={
+	base_price = 3
+	max_demand = 5	
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = patron_of_art }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}	
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+ivory={
+	base_price = 3 
+	max_demand = 5
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 0.9
+			not = { 
+				owner = { has_idea = patron_of_art }
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+maize={
+	base_price = 2	
+	supply = 0.4
+	max_demand = 5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.1
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { wheat = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { rice = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { millet = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { maize = 1 } }
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = fish
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+lumber={
+	base_price = 2
+	max_demand = 5	
+	supply = 1.5
+	demand = {
+		modifier = {
+			factor = 0
+			NOT = { owner= { num_of_ports = 1 } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = wharf
+		}	
+		modifier = {
+			factor = 1.05
+			has_building = dock
+		}
+		modifier = {
+			factor = 1.05
+			has_building = drydock
+		}
+		modifier = {
+			factor = 1.05
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.05
+			has_building = grand_shipyard
+		}
+		modifier = {
+			factor = 1.05
+			has_building = naval_arsenal
+		}
+		modifier = {
+			factor = 1.05
+			has_building = naval_base
+		}
+		modifier = {
+			factor = 2
+			has_building = admiralty
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 1 }
+		}	
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 20 }
+		}		
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 20 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 20 }
+		}		
+		modifier = {
+			factor = 0.5
+			has_port = no
+		}
+		modifier = {
+			factor = 1.05
+			owner = { has_idea_group = exploration_ideas }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { has_idea_group = naval_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 5.0
+			OR = {
+				citysize = 10000
+				base_tax = 6
+			}
+		}
+		modifier = {
+			factor = 1.1
+			port = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = naval_supplies
+		}
+	}
+}
+
+opium = {
+	base_price = 3 
+	max_demand = 5	
+	supply = 3
+	demand = {
+		modifier = {  
+			factor = 0
+			owner = {
+				NOT = {
+					OR = {
+						opium = 1
+						any_known_country = { 
+							opium = 1
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+silk={
+	base_price = 2
+	max_demand = 5
+	supply = 0.5
+	demand = {		
+		modifier = {
+			factor = 0
+			NOT = { 
+				trade_goods = cloth 
+				trade_goods = wool
+				trade_goods = hemp
+				trade_goods = silk
+			}
+		}
+		modifier = {
+			factor = 4
+			trade_goods = silk
+		}	
+		modifier = {
+			factor = 0.5
+			owner = { 
+				silk = 1
+			}
+		}
+		modifier = {
+			factor = 0.1
+			owner = { 
+				silk = 5
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				owner = { 
+					silk = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 3
+			has_building = textile
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+pepper={
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					} 
+				}
+			}
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = global_empire }
+		}	
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+tea={
+	base_price = 3
+	max_demand = 5	
+	supply = 2.2 
+	demand = {	
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = {
+					tea = 1
+					any_neighbor_country = {
+						tea = 1
+					}
+				}
+			}
+		}
+		modifier = {   
+			factor = 1.5
+			brazil_region = {
+					trade_goods = tea
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+tobacco = {
+	base_price = 3 
+	max_demand = 5	
+	supply = 3
+	demand = {
+		modifier = {  
+			factor = 0
+			owner = {
+				NOT = {
+					OR = {
+						tobacco = 1
+						any_known_country = { 
+							tobacco = 1
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+wax={
+	base_price = 3 
+	max_demand = 5	
+	supply = 4 
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 3
+			has_building = refinery
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+wool={
+	base_price = 2
+	max_demand = 5
+	supply = 0.5
+	demand = {		
+		modifier = {
+			factor = 0
+			NOT = { 
+				trade_goods = cloth 
+				trade_goods = wool
+				trade_goods = hemp
+				trade_goods = silk
+			}
+		}
+		modifier = {
+			factor = 4
+			trade_goods = cloth
+		}	
+		modifier = {
+			factor = 0.5
+			owner = { 
+				cotton = 1
+			}
+		}
+		modifier = {
+			factor = 0.1
+			owner = { 
+				cotton = 5
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				owner = { 
+					cotton = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.8
+			has_building = marketplace
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 3
+			has_building = textile
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+fish = {
+	base_price = 2
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.1
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = wheat
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = rice
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = maize
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = millet
+		}
+		modifier = {
+			factor = 1.1
+			port = yes
+		}
+		modifier = {
+			factor = 1.2
+			religion = catholic
+		}
+		modifier = {
+			factor = 1.1
+			trade_goods = lumber
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { owner= { num_of_ports = 1 } }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = salt
+		}
+	}
+}
+
+livestock={
+	base_price = 2
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.5
+			trade_goods = wheat
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = rice
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = maize
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = millet
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.1
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 1.1
+			port = yes
+		}
+		modifier = {
+			factor = 1.2
+			religion = catholic
+		}
+		modifier = {
+			factor = 1.1
+			trade_goods = lumber
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { owner= { num_of_ports = 1 } }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+wheat={
+	base_price = 2	
+	supply = 0.4
+	max_demand = 5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.1
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { wheat = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { rice = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { millet = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { maize = 1 } }
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = fish
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+millet={
+	base_price = 2	
+	supply = 0.4
+	max_demand = 5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 1.1
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { wheat = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { rice = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { millet = 1 } }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { owner = { maize = 1 } }
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = fish
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+wine={
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.75
+			owner = { has_country_modifier = the_liquor_act }
+		}
+		modifier = {
+			factor = 0.01
+			religion_group = muslim
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 1.1
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 2.0
+			has_building = refinery
+		}
+		modifier = {
+			factor = 1.1
+			has_building = university
+		}
+		modifier = {
+			factor = 0
+			religion_group = muslim
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+palm={
+	base_price = 3 
+	max_demand = 5	
+	supply = 4 
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+hemp = {
+	base_price = 2
+	max_demand = 5
+	supply = 0.5
+	demand = {		
+		modifier = {
+			factor = 0
+			NOT = { 
+				trade_goods = cloth 
+				trade_goods = wool
+				trade_goods = hemp
+				trade_goods = silk
+			}
+		}
+		modifier = {
+			factor = 4
+			trade_goods = hemp
+		}	
+		modifier = {
+			factor = 0.5
+			owner = { 
+				hemp = 1
+			}
+		}
+		modifier = {
+			factor = 0.1
+			owner = { 
+				hemp = 5
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				owner = { 
+					hemp = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.2
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.2
+			has_building = textile
+		}
+		modifier = {
+			factor = 1.2
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 0.1
+			looted = yes
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = naval_supplies
+		}
+	}
+}
+
+copper = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 1.5
+			owner = { has_country_modifier = poor_copper }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.1
+			owner = {
+				NOT = {
+					technology_group = western
+					technology_group = eastern
+					technology_group = turkishtech #Add by AB
+				}
+			}
+		}
+		modifier  = {
+			factor = 1.1
+			owner = { artillery = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 30 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.2
+			has_building = weapons
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = hardware
+		}
+	}
+}
+
+sandal={
+	base_price = 3 
+	max_demand = 5
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 0.9
+			not = { 
+				owner = { has_idea = patron_of_art }
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			continent = europe
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = furniture
+		}
+	}
+}
+
+sugar={
+	base_price = 3 
+	max_demand = 5	
+	supply = 4 
+	demand = {
+		modifier = {
+			factor = 0.01
+			owner = {
+				NOT = {
+						technology_group = western
+						technology_group = turkishtech
+						technology_group = muslim
+						technology_group = eastern
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_building = customs_house 
+		}
+		modifier = {
+			factor = 1.5
+			the_carribean = { 
+				trade_goods = sugar
+			}
+		}
+		modifier = {
+			factor = 0.01
+			is_overseas = yes
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 3
+			has_building = refinery
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+slaves = {
+	base_price = 2
+	max_demand = 5	
+	supply = 2
+	demand = {
+		modifier = {
+			factor = 0
+			owner = { has_country_modifier = the_abolish_slavery_act }
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				NOT = {
+					technology_group = western
+					technology_group = ottoman
+					technology_group = muslim
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_overseas = no
+			owner = { 
+				technology_group = western
+			}
+		}
+		modifier = {
+			factor = 0.5
+			owner = { 
+				any_known_country = {
+					has_country_modifier = the_abolish_slavery_act 
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				trade_goods = cotton
+				trade_goods = tobacco
+				trade_goods = sugar
+				trade_goods = coffee
+			}
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_idea_group = expansion_ideas }
+		}
+		modifier = {
+			factor = 0
+			not = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 5
+		}
+		modifier = {
+			factor = 0.9
+			revolt_risk = 10
+		}
+		modifier = {
+			factor = 0.9
+			owner = { not = { stability = 1 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { not = { stability = 2 } }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { not = { stability = 3 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 1 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+	}
+}
+
+silver={
+	base_price = 0
+	goldtype = yes
+	max_demand = 5
+	supply = 1
+	demand = {
+	}
+}
+
+nutmeg={
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					} 
+				}
+			}
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = global_empire }
+		}	
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+ammunitions = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { infantry = 20 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 30 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.5
+			has_building = weapons
+		}
+		modifier = {
+			factor = 0.8
+			trade_goods = lead
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+	}
+}
+
+arms = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { infantry = 20 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 30 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 60 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { land_tech = 80 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.2
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.5
+			has_building = weapons
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+	}
+}
+
+cheese = {
+	base_price = 2
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.5
+			trade_goods = wheat
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = rice
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = maize
+		}
+		modifier = {
+			factor = 0.5
+			trade_goods = millet
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -1 } }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { owner = { stability = -0 } }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+cinnamon = {
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					} 
+				}
+			}
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = global_empire }
+		}	
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+cloth = {
+	base_price = 2
+	max_demand = 5	
+	supply = 0.9
+	demand = {
+		modifier = {
+			factor = 1.5
+			owner = { has_country_modifier = poor_uniforms }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = textile
+		}
+		modifier = {
+			factor = 2
+			trade_goods = naval_supplies
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.2
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.3
+			has_building = textile
+		}
+		modifier = {
+			factor = 1.2
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 0.1
+			looted = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+subsistence = {
+	base_price = 0
+}
+
+coal = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+ebony = {
+	base_price = 3 
+	max_demand = 5
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 0.9
+			not = { 
+				owner = { has_idea = patron_of_art }
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				owner = { stability = -2 }
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = { stability = -1 }
+			}
+		}
+		modifier = {
+			factor = 0.5
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.1
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.1
+			has_building = mint
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { prestige = 0.25 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { prestige = 0.5 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { prestige = 0.75 }
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = furniture
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = nomad_group }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = chinese }
+		}
+		modifier = {
+			factor = 0.25
+			owner = { technology_group = indian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = austranesian }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = steppestech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = soudantech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = sub_saharan } 
+		}
+		modifier = {
+			factor = 0.2
+			owner = { technology_group = new_world }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = mongol_tech }
+		}
+		modifier = {
+			factor = 0.1
+			owner = { technology_group = hawaii_tech } 
+		}
+	}
+}
+
+furniture = {
+	base_price = 3 
+	max_demand = 5
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 0.9
+			not = { 
+				owner = { has_idea = patron_of_art }
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+hardware = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+indigo = {
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 2
+			has_building = customs_house
+		}			
+		modifier = {
+			factor = 1.1
+			owner = { 
+				technology_group = western
+				OR = {
+					AND = {
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					}
+					any_known_country = {
+						technology_group = western
+						has_discovered = 1340 #Ceylon node
+						has_discovered = 1361 #Malacca node
+					} 
+				}
+			}
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = free_trade }
+		}	
+		modifier = {
+			factor = 1.1
+			owner = { has_idea = global_empire }
+		}	
+		modifier = {
+			factor = 0.5
+			is_overseas = yes
+		}		
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				owner = { stability = -2 }
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				owner = { stability = -1 }
+			}
+		}
+		modifier = {
+			factor = 0.5
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.1
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.1
+			has_building = mint
+		}
+		modifier = {
+			factor = 1.5
+			has_building = textile
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+jewelery = {
+	base_price = 5
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = customs_house
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+	}
+}
+
+lead = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 0.8
+			trade_goods = ammunitions
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = hardware
+		}
+	}
+}
+
+leather = {
+	base_price = 3
+	max_demand = 5	
+	supply = 1.5
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.5
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				owner = { stability = -2 }
+			}
+		}
+		modifier = {
+			factor = 0.95
+			NOT = {
+				owner = { stability = -1 }
+			}
+		}
+		modifier = {
+			factor = 1.15
+			owner = {
+				fur = 1
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			has_building = marketplace
+		}
+		modifier = {
+			factor = 1.1
+			port = yes
+		}
+		modifier = {
+			factor = 1.05
+			owner = { stability = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 1.01
+			citysize = 10000
+		}
+		modifier = {
+			factor = 1.02
+			citysize = 25000
+		}
+		modifier = {
+			factor = 1.03
+			citysize = 50000
+		}
+		modifier = {
+			factor = 1.04
+			citysize = 100000
+		}
+		modifier = {
+			factor = 1.05
+			citysize = 200000
+		}
+		modifier = {
+			factor = 1.06
+			citysize = 400000
+		}
+		modifier = {
+			factor = 1.07
+			citysize = 800000
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = cloth
+		}
+	}
+}
+
+naval_supplies = {
+	base_price = 2
+	max_demand = 5	
+	supply = 1.5
+	demand = {
+		modifier = {
+			factor = 0
+			NOT = { owner= { num_of_ports = 1 } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = wharf
+		}	
+		modifier = {
+			factor = 1.05
+			has_building = dock
+		}
+		modifier = {
+			factor = 1.05
+			has_building = drydock
+		}
+		modifier = {
+			factor = 1.05
+			has_building = shipyard
+		}
+		modifier = {
+			factor = 1.05
+			has_building = grand_shipyard
+		}
+		modifier = {
+			factor = 1.05
+			has_building = naval_arsenal
+		}
+		modifier = {
+			factor = 1.05
+			has_building = naval_base
+		}
+		modifier = {
+			factor = 2
+			has_building = admiralty
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 1 }
+		}	
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_heavy_ship = 20 }
+		}		
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 20 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_light_ship = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 10 }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { num_of_galley = 20 }
+		}		
+		modifier = {
+			factor = 0.5
+			has_port = no
+		}
+		modifier = {
+			factor = 1.05
+			owner = { has_idea_group = exploration_ideas }
+		}
+		modifier = {
+			factor = 1.05
+			owner = { has_idea_group = naval_ideas }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 5.0
+			OR = {
+				citysize = 10000
+				base_tax = 6
+			}
+		}
+		modifier = {
+			factor = 1.1
+			port = yes
+		}
+	}
+}
+
+rum = {
+	base_price = 3
+	max_demand = 5	
+	supply = 1
+	demand = {
+		modifier = {
+			factor = 0.75
+			owner = { has_country_modifier = the_liquor_act }
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.2
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 1.2
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.2
+			revolt_risk = 2
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0
+			religion_group = muslim
+		}
+	}
+}
+
+steel = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = arms
+		}
+	}
+}
+
+sulphur = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.0
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = ammunitions
+		}
+	}
+}
+
+tin = {
+	base_price = 2 
+	max_demand = 5	
+	supply = 4
+	demand = {
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { owner = { war = yes } }
+		}
+		modifier = {
+			factor = 1.05
+			has_building = regimental_camp
+		}
+		modifier = {
+			factor = 2.0
+			trade_goods = hardware
+		}
+	}
+}
+
+marble={
+	base_price = 3 
+	max_demand = 5
+	supply = 2 
+	demand = {
+		modifier = {
+			factor = 0.3
+			NOT = { has_building = marketplace }
+		}
+		modifier = {
+			factor = 0.9
+			not = { 
+				owner = { has_idea = patron_of_art }
+			}
+		}
+		modifier = {
+			factor = 0.2
+			looted = yes
+		}
+		modifier = {
+			factor = 0.2
+			is_blockaded = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT	= { controlled_by = owner }
+		}
+		modifier = {
+			factor = 1.5
+			has_building = temple
+		}
+		modifier = {
+			factor = 1.5
+			has_building = constable
+		}
+		modifier = {
+			factor = 1.5
+			has_building = mint
+		}
+		modifier = {
+			factor = 1.5
+			has_building = fine_arts_academy
+		}
+		modifier = {
+			factor = 0.9
+			owner = { war = yes }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 0.2 }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { prestige = 1 }
+		}
+		modifier = {
+			factor = 2.0
+			is_capital = yes
+		}
+	}
+}
+
+services={
+	base_price = 0
+	goldtype = yes
+	max_demand = 5
+	supply = 1
+	demand = {
+	}
+}

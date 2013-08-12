@@ -1,0 +1,64 @@
+# LDK - Ladakh
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -1
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -2
+# quality_quantity = 2
+# serfdom_freesubjects = -3
+primary_culture = ladakhi
+religion = mahayana
+technology_group = indian
+capital = 740	# Ladakh
+
+1555.1.1 = {
+	monarch = {
+		name = "Tashi"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+1575.1.1 = {
+	monarch = {
+		name = "Tsewang"
+		dynasty = "Namgyal"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+1590.1.1 = {
+	monarch = {
+		name = "Jamyang"
+		dynasty = "Namgyal"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+1616.1.1 = {
+	monarch = {
+		name = "Sengge"
+		dynasty = "Namgyal"
+		adm = 7
+		dip = 4
+		mil = 5
+	}
+}
+1642.1.1 = {
+	monarch = {
+		name = "Deldan"
+		dynasty = "Namgyal"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}

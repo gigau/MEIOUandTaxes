@@ -1,0 +1,95 @@
+# Province : Pondicherry
+# file name: 2245 - Pondicherry
+# MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = tamil
+religion = hinduism
+capital = "Puducherry"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 5340
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = GNG
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1400.1.1 = { citysize = 7231 }
+1428.1.1 = { add_core = VIJ }
+1443.1.1 = {
+	controller = ORI
+} # Conquered by Gajapatis
+1445.1.1 = { owner = ORI } # Conquered by Gajapatis
+1462.1.1 = { controller = VIJ } # Reconquered by Vijayanagar
+1464.1.1 = { owner = VIJ } # Reconquered by Vijayanagar
+1505.1.1 = { citysize = 11764 temple = yes discovered_by = POR }
+1530.1.1 = { marketplace = yes }
+1550.1.1 = { citysize = 14444 }
+1565.7.1 = {
+	owner = GNG
+	controller = GNG
+} # The Vijayanagar empire collapses, the Nayaks proclaimed themselves rulers
+1600.1.1 = { citysize = 21120 discovered_by = ENG discovered_by = FRA discovered_by = NED }
+1649.1.1 = { controller = BIJ } # Conquered by Bijapur
+1649.12.1 = { owner = BIJ } # Conquered by Bijapur
+1650.1.1 = { citysize = 25700 discovered_by = turkishtech }
+1673.1.1 = {
+	owner = FRA
+	controller = FRA
+}
+1685.1.1 = {
+	add_core = FRA
+}
+1693.1.1 = { controller = NED }
+1699.1.1 = { controller = FRA } # Treaty of Ryswick
+1700.1.1 = { citysize = 30370 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1 = { citysize = 37800 workshop = yes }
+1761.1.15 = {
+	controller = GBR
+} #the French commander, the Count de Lally, surrendered the town, ending French hopes of establishing a trading empire in India, and leaving the British East India Company triumphant
+1763.1.1 = { controller = FRA } # Treaty of Paris, allows the French to use Puducherry as a trading post, it did nor reinstate french rule
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1793.1.1  = {
+	controller = GBR
+}
+1800.1.1 = { citysize = 43520 }
+1802.3.25 = {
+	controller = RFR
+}
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

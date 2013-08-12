@@ -1,0 +1,75 @@
+#2351 - Chiletico
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYM
+controller = AYM 
+add_core = AYM
+culture = aimara
+religion = inti
+capital = "Chiletico"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = maize
+
+terrain1 = yes
+fort1 = yes
+temple = yes 
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1515.1.1   = {
+	owner = INC
+	controller = INC
+	add_core = INC
+	remove_core = AYM
+	}
+1535.1.1  = {
+	discovered_by = SPA
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	culture = castillian
+	citysize = 2500
+	revolt_risk = 8
+}
+1558.1.1   = {
+	capital = "San Felipe"
+}
+1650.1.1   = {
+	citysize = 3500
+}
+1700.1.1   = {
+	 citysize = 5000
+}
+1750.1.1   = {
+	revolt_risk = 2
+	citysize = 5000
+   	add_core = LAP
+	culture = platean
+} # Spanish administration required all trade to pass via Lima, extracted taxes
+1780.1.1   = {
+	revolt_risk = 4
+} # The desire for independence grew
+1790.1.1   = {
+	revolt_risk = 6
+}
+1800.1.1   = {
+	citysize = 10000
+}
+1810.5.25  = {
+	owner = LAP
+	controller = LAP
+	revolt_risk = 0
+}
+1816.7.9   = {
+	remove_core = SPA
+}

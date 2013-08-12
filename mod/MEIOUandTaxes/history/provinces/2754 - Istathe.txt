@@ -1,0 +1,92 @@
+# 2754 - Istathe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DEN
+controller = DEN
+culture = danish
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = livestock
+#manpower = 3
+manpower = 6
+capital = "Flænsburgh"
+fort1 = yes
+citysize = 5000
+discovered_by = eastern
+discovered_by = western
+
+1356.1.1   = {
+	citysize = 5500
+	add_core = DEN
+	add_core = SHL
+}
+1399.1.1   = { citysize = 6000 }
+1453.1.1   = { citysize = 6500 }
+1500.1.1   = {
+	citysize = 6750
+	marketplace = yes
+}
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = DEN
+}
+1531.11.1 = {
+	revolt = { type = nationalist_rebels size = 2 }
+	controller = REB
+} #The Return of Christian II
+1532.7.15 = {
+	revolt = {  }
+	controller = DAN
+}
+1536.1.1   = {
+	religion = protestant
+}
+1550.1.1   = {
+	citysize = 7000
+}
+1600.1.1   = {
+	citysize = 7500
+}
+1644.1.12  = {
+	controller = SWE
+} #Torstenssons War-Captured by Lennart Torstensson
+1645.8.13  = {
+	controller = SHL
+} #The Peace of Brömsebro
+1650.1.1   = {
+	citysize = 8000
+}
+1657.10.23 = {
+	controller = SWE
+} #Karl X Gustavs First Danish War-Captured by Wrangel
+1658.2.26  = {
+	controller = SHL
+} #The Peace of Roskilde - Duchy fully independent
+1700.1.1   = {
+	citysize = 8500
+}
+1710.1.1   = {
+	mint = yes
+}
+1713.3.13  = {
+	owner = DAN
+	controller = DAN
+} # With Siege of Tönning, Denmark takes back control over entire Slesvig
+1720.7.3   = {
+	remove_core = SHL
+} # 
+1750.1.1   = {
+	citysize = 8750
+}
+1800.1.1   = {
+	citysize = 9000
+}
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+	add_core = DEN
+	remove_core = DAN
+}

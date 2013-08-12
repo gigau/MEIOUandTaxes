@@ -1,0 +1,135 @@
+# Principality of Kiev
+# Tag : KIE
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -1
+# quality_quantity = 1
+# serfdom_freesubjects = -3
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 280	# Kiev
+
+1331.1.1 = {
+	monarch = {
+		name = "Fiodor" # His pagan name is unknown
+		dynasty = "Gediminai"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+# Fiodor of Kiev. Brother of Gediminas of Lithuania.
+# Vassal of the Horde
+
+1362.1.1 = {
+	monarch = {
+		name = "Vladimiras" 
+		dynasty = "Gediminai"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+# Vladimiras Algirdaitis, son of Algirdas of Lithuania
+# Vassal of Lithuania after 1365. He is deposed in 1394 by Vytautas and his brother Skirgaila.
+
+1395.1.1 = {
+	monarch = {
+		name = "Skirgaila" 
+		dynasty = "Gediminai"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+# Skirgaila Algirdaitis, another son of Algirdas
+
+1397.1.1 = {
+	monarch = {
+		name = "Ivan" 
+		dynasty = "Olshansky" # Jonas Alseniskis
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+# A loyal companion of Vytautas
+
+1404.1.1 = {
+	monarch = {
+		name = "Jerzy" 
+		dynasty = "Giedygold" # Jurgis Gedgaudas
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Andriy Ivanovych" 
+		dynasty = "Olshansky"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Mykhailo Ivanovych" 
+		dynasty = "Olshansky"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Mykhailo Semenovych" 
+		dynasty = "Olshansky"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Svitrigaila" 
+		dynasty = "Gediminai" # Grand Duke of Lithuania 1430-1432
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1443.1.1 = {
+	monarch = {
+		name = "Olelko Volodymyrovych" # Aleksandras Olelka
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Semen Olelkovych" # Simonas Olelkaitis
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

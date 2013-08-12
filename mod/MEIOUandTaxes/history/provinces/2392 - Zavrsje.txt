@@ -1,0 +1,64 @@
+# 2392 - Zahumje
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUM
+controller = HUM
+culture = croatian
+religion = catholic
+capital = "Mostar"
+trade_goods = wool
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4908
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = HUM
+}
+1373.1.1   = {
+	owner = BOS
+	controller = BOS
+	add_core = BOS
+}
+1463.1.1  = {
+	owner = HUM
+	controller = HUM
+} # The Ottoman province of Bosnia
+1466.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = BOS
+} # The Ottoman province of Bosnia
+1500.1.1   = {
+	citysize = 5413
+}
+1550.1.1   = {
+	citysize = 6654
+	marketplace = yes
+}
+1600.1.1   = {
+	citysize = 7210
+}
+1650.1.1   = {
+	citysize = 8456
+	culture = bosnian
+	religion = sunni
+}
+1700.1.1   = {
+	citysize = 9120
+	mint = yes
+	revolt_risk = 7
+}
+1750.1.1   = {
+	citysize = 10232
+}
+1800.1.1   = {
+	citysize = 11100
+}

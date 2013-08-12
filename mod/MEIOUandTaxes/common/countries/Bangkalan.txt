@@ -1,0 +1,64 @@
+#Country Name: Bangkalan
+#Tag: BSM
+#Bangkalan is used to represent all the city-states on Madura island
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 88  137  172 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Pragalbo #0" = 20
+	"Suryonegoro #0" = 20
+	"Pretanu #0" = 20
+	"Cakra #0" = 20
+	"Adiningrat #0" = 80
+}
+
+leader_names = {
+	Bangkalan Sampang Pamekasan Sumenep
+	Djediningret
+	Djopoaspito
+	Kersume
+	Mollame
+	Nesution
+	Nitisestro
+	Prewirenage
+	Purbecereke
+	Subedio
+	Sumuel
+}
+
+ship_names = {
+	Bangkalan Sampang Pamekasan Sumenep
+	Pragalbo Suryonegoro Pretanu
+	al-Sultan Tuanku Muhammad
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+	Pontianak Semak
+}
+

@@ -1,0 +1,58 @@
+# 2429 - Sagaing
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AVA
+controller = AVA
+culture = burmese
+religion = theravada
+capital = "Saigang"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 6200
+trade_goods = opium
+
+discovered_by = chinese
+discovered_by = indian
+
+fort1 = yes
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1500.1.1 = { citysize = 7600 }
+1527.1.1 = {
+	owner = SST
+	controller = SST
+}
+1550.1.1 = { citysize = 8420 }
+1555.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = SST
+	remove_core = PEG
+}
+1600.1.1 = { citysize = 9750 }
+1650.1.1 = { citysize = 12011 }
+1700.1.1 = { citysize = 12955 }
+1750.1.1 = { citysize = 14300 }
+1752.2.28 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+	remove_core = TAU
+	remove_core = AVA
+}
+1800.1.1 = { citysize = 15200 }
+1885.1.1 = {		
+	owner = GBR
+	controller = GBR
+}
+

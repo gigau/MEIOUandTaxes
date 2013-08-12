@@ -1,0 +1,75 @@
+#236 - London
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ENG
+controller = ENG
+culture = anglois
+religion = catholic
+hre = no
+base_tax = 14
+trade_goods = services
+#manpower = 6
+manpower = 12
+capital = "London"
+citysize = 40000
+add_core = ENG
+# add_core = ESS
+fort1 = yes
+fort2 = yes
+temple = yes #Westminster Abbey
+marketplace = yes
+cot = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+	add_core = UEF
+	remove_core = ENG
+}
+1429.4.29  = {
+	culture = english
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = UEF
+}
+1453.1.1  = { revolt_risk = 5 } #Start of the War of the Roses
+1459.1.1  = { revolt_risk = 7 } #Increasing Popularity of Warwick in London
+1460.1.1  = { controller = REB }
+1461.6.1  = { revolt_risk = 2 controller = ENG } #Coronation of Edward IV
+1467.1.1  = { revolt_risk = 5 } #Rivalry between Edward IV & Warwick
+1471.1.1  = { revolt_risk = 8 } #Unpopularity of Warwick & War with Burgundy
+1471.5.4  = { revolt_risk = 2 } #Murder of Henry VI & Restoration of Edward IV
+1483.6.26 = { revolt_risk = 8 } #Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23 = { revolt_risk = 0 } #Battle of Bosworth Field & the End of the War of the Roses
+1500.1.1  = { constable = yes } #Estimated
+1520.1.1  = { citysize = 45000 }
+1525.1.1  = { courthouse = yes } #Estimated
+1536.1.1  = { religion = anglican }
+1550.1.1  = { citysize = 55000 }
+1575.1.1  = { regimental_camp = yes } #Estimated
+1580.1.1  = {
+	base_tax = 15
+} # cot = yes
+1585.1.1  = { customs_house = yes } #Estimated
+1600.1.1  = { citysize = 255000 }
+1640.1.1  = { workshop = yes } #Estimated
+1642.8.22 = { controller = REB } #Start of First English Civil War
+1646.5.5  = { controller = ENG } #End of First English Civil War
+1650.1.1  = { mint = yes fort3 = yes } #Estimated
+1665.1.1  = { citysize = 400000 }
+1666.1.1  = { citysize = 315000 } #Great Plague of London
+1700.1.1  = { citysize = 575000 fine_arts_academy = yes } #First Bequest to the British Museum
+1707.5.12 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+}
+1750.1.1  = { citysize = 675000 }
+1800.1.1  = { citysize = 900000 }

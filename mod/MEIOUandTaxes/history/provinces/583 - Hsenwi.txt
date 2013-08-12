@@ -1,0 +1,64 @@
+# 583 - Hsenwi
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SST
+controller = SST
+culture = shan
+religion = theravada
+capital = "Lashio"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4500
+trade_goods = wool
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1500.1.1 = { citysize = 5200 }  #but city of Hsipaw allied with Ava
+1557.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = AVA
+	remove_core = PEG
+	manpower = 3
+} # The Shan dynasty is overthrown
+#1581.1.1 = {
+#	owner = SST
+#	controller = SST
+#	remove_core = TAU	
+#} # Very loosely controlled
+1599.1.1 = { controller = REB }	#Shan states revolt after burmese dinasty's crisis
+1600.1.1 = { citysize = 6870 }
+1605.1.1 = { controller = TAU }
+1650.1.1 = { citysize = 8540 }
+1700.1.1 = { citysize = 9932 }
+1740.1.1 = {				# about
+	owner = QNG
+	controller = QNG
+}
+1750.1.1 = { citysize = 10500 }
+1752.2.28 = { add_core = BRM
+	remove_core = TAU
+}
+1769.1.1 = {
+	owner = BRM
+	controller = BRM
+}
+1800.1.1 = { citysize = 12348 }
+1852.1.1 = { revolt_risk = 7 }	# out of control after burmese defeated by british
+1885.1.1 = {
+	owner = GBR
+	controller = REB
+}
+1890.1.1 = { controller = GBR }

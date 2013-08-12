@@ -1,0 +1,29 @@
+# Ethiopian Mountain Warfare
+#Modified for MEIOU by FB 10.02.07
+#tech level 17 c1550
+#tech level 16 -Blxz
+
+unit_type = soudantech
+type = infantry
+
+maneuver = 1
+#offensive_morale = 1
+#defensive_morale = 4
+#offensive_fire = 0
+#defensive_fire = 0
+#offensive_shock = 0
+#defensive_shock = 2
+#FB
+#offensive_morale = 4
+#defensive_morale = 4
+#offensive_fire = 2
+#defensive_fire = 2
+#offensive_shock = 3
+#defensive_shock = 4
+#Blxz
+offensive_morale = 4
+defensive_morale = 4
+offensive_fire = 3
+defensive_fire = 3
+offensive_shock = 3
+defensive_shock = 5

@@ -1,0 +1,79 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 110  136  66 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Raghunath #0" = 30
+	"Pratapnarayan  #1" = 30
+	"Kapilesvara #0" = 30
+	"Birabar #0" = 30
+	"Jugasai  #1" = 30
+	"Udenarayan  #0" = 30
+	"Harichandra #0" = 30
+	"Ramachandra  #0" = 30
+	"Gopinath  #0" = 30
+	"Balabhadra  #0" = 30
+	"Raghuraj  #0" = 30
+	"Raisingh  #0" = 20
+	"Haria  #0" = 20
+	"Jugasai #0" = 10
+	"Harirudra  #0" = 10
+	"Anku #0" = 10
+	"Pratap Deo #0" = 10
+	"Raghunath  #0" = 10
+	"Biswambhar #0" = 10
+	"Padman #0" = 10
+	"Dusmant #0" = 10
+	"Bishwanath #0" = 10
+	"Khadag Rai #0" = 10
+}
+
+leader_names = {
+	Bhowarbar
+	Bidyadhar
+	Dassa
+	Deo
+	Kalinga
+	Mansingh
+	Patra
+	Rai
+	Ratha
+	Roy
+	Santra
+	Singhar
+	Sinha
+	Uria
+	Vansa
+}
+
+ship_names = {
+	Baitarani Balasore Balugaon Behrampur
+	Bhubeneswar Brahmani Chandipur Chilka
+	Cuttack Durga Gopalpur Jagannath
+	Juggernaut Kalijai Konark Lakshmi
+	Mahanadi Nalabana Paradeep Parvati
+	Puri Radha Sarasvati Satapada
+}

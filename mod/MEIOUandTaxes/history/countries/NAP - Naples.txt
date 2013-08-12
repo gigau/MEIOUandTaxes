@@ -1,0 +1,378 @@
+# NAP - Naples  DUE SICILIE (two sicilies)
+# MEIOU-GG Govenemnt changes
+# 2010-jan-23 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -4		###-3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 0		###-3
+# offensive_defensive = 1
+# land_naval = 1
+# quality_quantity = 1			###-1
+# serfdom_freesubjects = -3		###-2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0		###1
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+add_accepted_culture = sicilian
+capital = 2531	# Napoli
+
+1343.1.20 = {
+	monarch = {
+		name = "Giovanna"
+		dynasty = "de Valois"
+		dip = 4
+		mil = 3
+		adm = 3
+		female = yes
+	}
+	heir = {
+		name = "Carlo"
+		monarch_name = "Carlo III"
+		dynasty = "Durazzo"
+		birth_date = 1343.1.1
+		death_date = 1386.2.24
+		claim = 95
+		dip = 6
+		mil = 5
+		adm = 3
+	}
+}
+
+1381.7.16 = {
+	monarch = {
+		name = "Carlo III"
+		dynasty = "Durazzo"
+		dip = 6
+		mil = 5
+		adm = 3
+	}
+	heir = {
+		name = "Ladislao"
+		monarch_name = "Ladislao"
+		dynasty = "Durazzo"
+		birth_date = 1376.7.14
+		death_date = 1414.8.6
+		claim = 95
+		dip = 7
+		mil = 7
+		adm = 5
+	}
+}
+
+1386.2.24 = {
+	monarch = {
+		name = "Ladislao"
+		dynasty = "Durazzo"
+		dip = 7
+		mil = 7
+		adm = 5
+	}
+}
+
+1390.4.1 = {
+	monarch = {
+		name = "Lodovico"
+		dynasty = "Durazzo"
+		dip = 6
+		mil = 5
+		adm = 4
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "de Valois"
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Ladislao"
+		monarch_name = "Ladislao de Durazzo"
+		dynasty = "Durazzo"
+		birth_date = 1376.7.14
+		death_date = 1414.8.6
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1399.11.1 = {
+	monarch = {
+		name = "Ladislao de Durazzo"
+		dynasty = "Durazzo"
+		dip = 5
+		mil = 4
+		adm = 5
+	}
+}
+
+1399.11.1 = {
+	heir = {
+		name = "Giovanna"
+		monarch_name = "Giovanna II"
+		dynasty = "de Valois"
+		birth_date = 1373.6.23
+		death_date = 1435.2.2
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Giovanna II"
+		dynasty = "de Valois"
+		dip = 5
+		mil = 4
+		adm = 5
+		female = yes
+	}
+}
+
+1414.1.1 = {
+	heir = {
+		name = "Renato"
+		monarch_name = "Renato"
+		dynasty = "de Valois"
+		birth_date = 1409.1.16
+		death_date = 1480.7.10
+		claim = 55
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+
+1435.2.3 = {
+	monarch = {
+		name = "Renato"
+		dynasty = "de Valois"
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+}
+
+# Personal Union with Aragon 42-58
+
+1458.6.27 = {
+	monarch = {
+		name = "Ferrante"
+		dynasty = "de Trastámara"
+		dip = 7
+		mil = 7
+		adm = 5
+	}
+}
+
+1458.6.27 = {
+	heir = {
+		name = "Alfonso"
+		monarch_name = "Alfonso II"
+		dynasty = "de Trastámara"
+		birth_date = 1448.11.4
+		death_date = 1495.12.18
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1494.1.26 = {
+	monarch = {
+		name = "Alfonso II"
+		dynasty = "de Trastámara"
+		dip = 4
+		mil = 3
+		adm = 3
+	}
+}
+
+1494.1.26 = {
+	heir = {
+		name = "Ferrante"
+		monarch_name = "Ferrante II"
+		dynasty = "de Trastámara"
+		birth_date = 1469.8.26
+		death_date = 1496.9.7
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1495.1.23 = {
+	monarch = {
+		name = "Ferrante II"
+		dynasty = "de Trastámara"
+		dip = 5
+		mil = 4
+		adm = 4
+	}
+}
+
+1495.1.23 = {
+	heir = {
+		name = "Federigo"
+		monarch_name = "Federigo IV"
+		dynasty = "de Trastámara"
+		birth_date = 1452.4.19
+		death_date = 1504.11.9
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1496.10.8 = {
+	monarch = {
+		name = "Federigo IV"
+		dynasty = "de Trastámara"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+
+1709.12.22 = {
+	government = despotic_monarchy_2
+}
+
+1713.4.2 = { capital = 103 } # Piedmont
+
+1713.9.22 = {
+	monarch = {
+		name = "Vittorio Amedeo"
+		dynasty ="di Savoia"
+		adm = 7
+		dip = 9
+		mil = 8
+		leader = {	name = "Vittorio Amedeo"       	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+	}
+}
+
+1718.8.2 = {
+	capital = 121
+} # Napoli
+
+1734.6.2 = {
+	government = enlightened_despotism_2
+}
+
+1734.6.2 = {
+	monarch = {
+		name = "Carlo VII"
+		dynasty = "de Bourbon"
+		dip = 7
+		mil = 5
+		adm = 6
+	}
+}
+
+1751.1.12 = {
+	heir = {
+		name = "Ferrante"
+		monarch_name = "Ferrante IV"
+		dynasty = "de Bourbon"
+		birth_date = 1751.1.12
+		death_date = 1825.1.4
+		claim = 95
+		adm = 3
+		mil = 3
+		dip = 3
+	}
+}
+
+1759.10.7 = {
+	monarch = {
+		name = "Ferrante IV"
+		dynasty = "de Bourbon"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+
+1800.1.1 = {
+	capital = 125
+} # Palermo
+
+1806.3.11 = {
+	monarch = {
+		name = "Giuseppe"
+		dynasty = "Bonaparte"
+		dip = 6
+		mil = 5
+		adm = 5
+	}
+}
+
+1808.8.1 = {
+	monarch = {
+		name = "Gioachino Murat"
+		dynasty = "Bonaparte"
+		dip = 6
+		mil = 5
+		adm = 5
+		leader = {	name = "Gioachino Murat"	type = general		rank = 0	fire = 4	shock = 4	manuever = 6	siege = 2 }
+	}
+}
+
+1815.5.3 = {
+	capital = 121
+} # Napoli
+
+1815.5.3 = {
+	monarch = {
+		name = "Ferrante IV"
+		dynasty = "de Bourbon"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+
+1825.1.1 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "de Bourbon" #?
+		dip = 4	#?
+		mil = 4 #?
+		adm = 4 #?
+	}
+}
+1830.1.1 = {
+	monarch = {
+		name = "Ferdinando II"
+		dynasty = "de Bourbon" #?
+		dip = 4	#?
+		mil = 4 #?
+		adm = 4 #?
+	}
+}
+1859.1.1 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "de Bourbon" #?
+		dip = 4	#?
+		mil = 4 #?
+		adm = 4 #?
+	}
+}

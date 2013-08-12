@@ -1,0 +1,58 @@
+# Sibir.txt
+# Tag : SIB
+# Tech : steppestech
+#2011-jun-30 FB	resequenced historical_idea_groups
+
+graphical_culture = muslimgfx
+
+color = { 119  118  190 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	mongol_cavalry_archers
+	mongol_yaya
+	mongolian_bow
+	mongol_swarm
+	mongol_bow
+	mongol_steppe
+	tartar_cossack
+}
+
+monarch_names = {
+	"Taybuga Khan #0" = 20
+	"Khwajâ' Khan #0" = 20
+	"Mar Khan #0" = 20
+	"Obder Khan #0" = 20
+	"Ibaq Khan #0" = 20
+	"Mamuk Khan #0" = 20
+	"Abalak Khan #0" = 20
+	"Aguis Khan #0" = 20
+	"Qasim Khan #0" = 20
+	"Bekbulat Khan #0" = 20
+	"Yadiger Khan #0" = 20
+	"Kucum Khan #0" = 20
+	"Aley Khan #0" = 20
+	"Seidyak Khan #0" = 20
+	"Suker Khan #0" = 20
+	"Boibegus Khan #0" = 20
+	"Kuldalang Khan #0" = 20
+	"Ucirtu Khan #0" = 20
+	"Dagal Khan #0" = 20
+	"Aldark Khan #0" = 20
+	"Dsungar Khan #0" = 20
+}
+
+leader_names = {
+	Balna Salmiianov Ravna Taiborey Vylka
+	Kanin Maimbava Arinin Aven Tsoy
+}
+
+ship_names = {
+	"Ghengis Khan" Orda Kochu Bayan Sasibuga
+	Ilbasan "Mubarrak Kwaja" Chimtai Urus Tuqtaqiya
+	"Timur Malik" Toqtamish "Timur Qutlugh" "Shadi Beg"
+	Pulad "Jalal Ad-Din" "Karim Berdi" Kebek "Jabbar Berdi"
+	"Ulugh Muhammad" "Devlat Berdi" Baraq "Sayyid Ahmad"
+}

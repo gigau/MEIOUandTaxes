@@ -1,0 +1,92 @@
+#68 - Vâl d'aoûta
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SAV
+controller = SAV
+culture = arpitan
+religion = catholic
+capital = "Aousta"
+trade_goods = livestock
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2000
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1  = {
+	add_core = SAV	set_province_flag = terrain1
+}
+1500.1.1  = {
+	citysize = 2554
+}
+1550.1.1  = {
+	citysize = 3400
+}
+1600.1.1  = {
+	citysize = 5000
+}
+1618.1.1  =  { hre = no }
+1650.1.1  = {
+	citysize = 6000
+}
+1691.1.1  = {
+	controller = FRA
+}
+1692.1.1  = {
+	controller = SAV
+}
+1700.1.1  = {
+	citysize = 7370
+}
+1704.1.1  = {
+	controller = FRA
+}
+1706.1.1  = {
+	controller = SAV
+}
+1713.4.12 = {
+	owner = SIC
+	controller = SIC
+	add_core = SIC
+} # Treaty of Utrecht
+1718.8.2  = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = SIC
+} # Kingdom of Piedmont-Sardinia
+1750.1.1  = {
+	citysize = 8800
+}
+1792.4.20 = {
+	controller = FRA
+} # Conquered by the French
+1792.9.21  = {
+	controller = RFR
+} # Proclamation of the First Republic
+1796.4.25 = {
+	owner = RFR
+	add_core = RFR
+} # The Republic of Alba
+1800.1.1  = {
+	citysize = 9000
+}
+1814.4.11 = {
+	owner = SPI
+	controller = SPI
+	remove_core = RFR
+} # Napoleon abdicates and Victor Emmanuel is able to return to Turin
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

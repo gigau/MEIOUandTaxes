@@ -1,0 +1,53 @@
+# 483 - Caicos
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = carib
+religion = pantheism
+capital = "Caicos"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1512.1.1  = {
+	discovered_by = CAS
+	owner = CAS
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 500
+	trade_goods = cotton
+	set_province_flag = trade_good_set
+} # Juan Ponce de León
+1516.1.23 = {	discovered_by = SPA
+		owner = SPA
+		controller = SPA
+	    }
+1530.1.1  = { citysize = 1022 }
+1537.1.1  = { add_core = SPA  }
+1550.1.1  = { citysize = 1400 }
+1600.1.1  = {
+	citysize = 1664
+	trade_goods = cotton
+}
+1650.1.1  = { citysize = 1987 }
+1681.1.1  = { capital = "Cockburn Town" }
+1700.1.1  = {	citysize = 2500 
+		owner = ENG
+		controller = ENG
+		remove_core = SPA
+		culture = english
+		religion = anglican
+	    } # Settlers from Bermuda
+1707.5.12 = { owner = GBR controller = GBR }
+1725.1.1  = { add_core = GBR }
+1750.1.1  = { citysize = 2560 }
+1753.1.1  = { revolt_risk = 6 } # France claimed the island
+1754.1.1  = { revolt_risk = 0  } # ...but were repelled just a year later
+1800.1.1  = { citysize = 5100 }
+1813.1.1  = { citysize = 4000 } # The first of two hurricanes
+1815.1.1  = { citysize = 2400 }

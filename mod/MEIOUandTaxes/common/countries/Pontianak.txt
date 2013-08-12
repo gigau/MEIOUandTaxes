@@ -1,0 +1,73 @@
+#Country Name: Pontianak
+#Tag: PTN
+#Pontianak used to represent Pontianak + Sambas
+#New Country added by MEIOU-FB Indonesia mod v2
+
+graphical_culture = indiangfx
+
+color = { 150  0 0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Paduka #0" = 20
+	"Tuanku #0" = 20
+	"Muhammad #0" = 20
+	"Hyang #0" = 10
+	"Pandan #0" = 10
+	"Kertabumi #0" = 10
+	"Dyah #0" = 10
+	"Pateudra #0" = 10
+	"Senapati #0" = 10
+	"Sabrang #0" = 10
+	"Tranggana #0" = 10
+	"Benawa #0" = 10
+	"Krapyak #0" = 10
+	"Amangkurat #0" = 10
+	"Prawata #0" = 10
+	"Pangiri #0" = 10
+	"Mahmud #2" = 10
+	"Ahmad #2" = 10
+}
+
+leader_names = {
+	Djadiningrat
+	Djopoespito
+	Ernalia
+	Karsuma
+	Mollema
+	Nasution
+	Nitisastro
+	Prawiranega
+	Purbacaraka
+	Subadio
+	Sumual
+}
+
+ship_names = {
+	al-Sultan Tuanku Muhammad
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+	Pontianak Semak
+}

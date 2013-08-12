@@ -1,0 +1,40 @@
+# Country : Graubüngen
+# Tag : GBN
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = administrative_republic
+# aristocracy_plutocracy = 5
+# centralization_decentralization = 5
+# innovative_narrowminded = 3	##0
+mercantilism = 0.1 # mercantilism_freetrade = -2	##0
+# offensive_defensive = 2
+# land_naval = -4			##-2
+# quality_quantity = 0		##-2
+# serfdom_freesubjects = 5
+# isolationist_expansionist = -4	##0
+# secularism_theocracy = -4
+technology_group = western
+religion = catholic
+primary_culture = alemanisch
+capital = 166	# Grischun
+
+
+1356.1.1 = {
+	monarch = {
+		name = "The Tagsatzung"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1528.1.1 = {
+	religion = reformed
+	# secularism_theocracy = -5
+}
+
+1798.1.1 = {
+	government = constitutional_republic
+}

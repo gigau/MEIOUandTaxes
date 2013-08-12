@@ -1,0 +1,46 @@
+#  - Bangalore
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = VIJ
+controller = VIJ
+culture = kannada
+religion = hinduism
+capital = "Devarayanagara"
+#trade_goods = grain
+trade_goods = gold #Kolar Gold Fields
+hre = no
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 12000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	add_core = VIJ
+	add_core = MYS
+}
+1450.1.1 = { citysize = 15000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 17000 }
+1550.1.1 = { citysize = 22000 }
+1570.1.1 = { revolt_risk = 0 }
+1600.1.1 = { citysize = 26000 }
+1638.1.1 = {
+	owner = BIJ
+	controller = BIJ
+	remove_core = VIJ
+	capital = "Bangalore"
+ }
+1650.1.1 = { citysize = 32000 }
+1685.1.1 = {
+	controller = MUG
+} # Conquered by the Mughal emperor Aurangzeb
+1686.1.1 = {
+	owner = MYS	#Beaten by the mughals and sold to Mysore
+	controller = MYS
+ }
+1700.1.1 = { citysize = 37000 }
+1750.1.1 = { citysize = 46000 }
+1800.1.1 = { citysize = 60000 }

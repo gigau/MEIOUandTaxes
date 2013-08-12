@@ -1,0 +1,71 @@
+# 1330 - Al Habbariyah
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAI
+controller = JAI
+culture = iraqi
+religion = shiite
+capital = "Najaf"
+trade_goods = cloth
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4500
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+fort1 = yes
+
+1356.1.1   = {
+	add_core = JAI
+}
+1401.6.1   = { controller = TIM }
+1402.1.1   = { controller = JAI }
+1403.1.1   = { controller = TIM }
+1405.2.20  = { controller = JAI }
+1410.1.1   = {
+	controller = QAR
+}
+1411.1.1   = {
+	owner = QAR
+}
+1450.1.1   = { citysize = 6000 }
+1453.1.1   = { discovered_by = VEN }
+1468.1.1   = {
+	controller = AKK
+}
+1470.1.1   = {
+	owner = AKK
+}
+1478.1.1   = { revolt = { type = pretender_rebels size = 1 } controller = REB } # Civil war
+1481.1.1   = { revolt = {} controller = AKK }
+1490.1.1   = { revolt = { type = pretender_rebels } controller = REB } # Civil war
+1494.1.1   = { revolt = {} controller = AKK }
+1500.1.1   = { citysize = 7000 }
+1507.9.1   = {
+	controller = SAM
+}
+1508.1.1   = {
+	owner = SAM
+}
+1512.1.1   = {
+	owner = PER
+	controller = PER
+	remove_core = JAI
+} # Safawids "form persia"
+1529.1.1   = { revolt = { type = anti_tax_rebels } controller = REB } # Ottomans instigate rebellion
+1530.1.1   = { revolt = {} controller = PER }
+1534.11.28 = { controller = TUR } # Ottoman conquest
+1535.1.1   = {	owner = TUR     } # Annexed by the Ottomans
+1550.1.1   = { citysize = 8000 }
+1600.1.1   = { citysize = 9000 constable = yes fort2 = yes }
+1623.1.1   = { controller = PER }
+1638.1.1   = { controller = TUR }
+1650.1.1   = { citysize = 10000 }
+1700.1.1   = { citysize = 11000 }
+1740.1.1   = {  }
+1750.1.1   = { citysize = 12000 }
+1800.1.1   = { citysize = 13000 }

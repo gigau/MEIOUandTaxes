@@ -1,0 +1,261 @@
+# AHS - Ahsaa
+# was: ALH - Haasa
+# MEIOU-GG Govenemnt changes
+# 2009-dec-27 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4
+# secularism_theocracy = 3
+technology_group = muslim
+religion = shiite
+primary_culture = bahrani
+capital = 394	# Al Hasa
+
+# Usufrid dynasty
+1353.1.1 = {
+	monarch = {
+		name = "Usufrid"
+		dynasty = "Usufrid"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+#Jabrid dnasty
+1440.1.1 = {
+	monarch = {
+		name = "Ajwad ibn Zamil"
+		dynasty = "Al Jabr"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+	heir = {
+		name = "Muqrin"
+		monarch_name = "Muqrin ibn Zamil"
+		dynasty = "Al Jabr"
+		birth_date = 1440.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+1507.1.1 = {
+	monarch = {
+		name = "Muqrin ibn Zamil"
+		dynasty = "Al Jabr"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1682.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Al Jabr"
+		DIP = 4
+		MIL = 5
+		ADM = 7
+	}
+	heir = {
+		name = "Sadun"
+		monarch_name = "Sadun"
+		dynasty = "Al Jabr"
+		birth_date = 1660.1.1
+		death_date = 1708.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+1691.1.1 = {
+	monarch = {
+		name = "Sadun"
+		dynasty = "Al Jabr"
+		DIP = 5
+		MIL = 4
+		ADM = 6
+	}
+	heir = {
+		name = "Barrak"
+		monarch_name = "Barrak"
+		dynasty = "Al Jabr"
+		birth_date = 1675.1.1
+		death_date = 1723.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1708.1.1 = {
+	 monarch = {
+		name = "Barrak"
+		dynasty = "Al Jabr"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+	heir = {
+		name = "Ali"
+		monarch_name = "Ali"
+		dynasty = "Al Jabr"
+		birth_date = 1700.1.1
+		death_date = 1736.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+1723.1.1 = {
+	 monarch = {
+		name = "Ali"
+		dynasty = "Al Jabr"
+		DIP = 6
+		MIL = 5
+		ADM = 6
+	}
+	heir = {
+		name = "Sulyaman"
+		monarch_name = "Sulyaman"
+		dynasty = "Al Jabr"
+		birth_date = 1718.1.1
+		death_date = 1752.1.1
+		claim = 95
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+1736.1.1 = {
+	 monarch = {
+		name = "Sulyaman"
+		dynasty = "Al Jabr"
+		DIP = 5
+		MIL = 5
+		ADM = 8
+	}
+	heir = {
+		name = "Urayir ibn Dudjayn"
+		monarch_name = "Urayir ibn Dudjayn"
+		dynasty = "Al Jabr"
+		birth_date = 1733.1.1
+		death_date = 1774.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+}
+1752.1.1 = {
+	 monarch = {
+		name = "Urayir ibn Dudjayn"
+		dynasty = "Al Jabr"
+		DIP = 7
+		MIL = 4
+		ADM = 6
+	}
+	heir = {
+		name = "Sadun"
+		monarch_name = "Sadun II"
+		dynasty = "Al Jabr"
+		birth_date = 1749.1.1
+		death_date = 1789.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+1774.1.1 = {
+	 monarch = {
+		name = "Sadun II"
+		dynasty = "Al Jabr"
+		DIP = 6
+		MIL = 5
+		ADM = 5
+	}
+	heir = {
+		name ="Zayid"
+		monarch_name = "Zayid"
+		dynasty = "Al Jabr"
+		birth_date = 1770.1.1
+		death_date = 1794.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1789.1.1 = {
+	 monarch = {
+		name = "Zayid"
+		dynasty = "Al Jabr"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+	heir = {
+		name = "Barrak"
+		monarch_name ="Barrak II"
+		dynasty = "Al Jabr"
+		birth_date = 1780.1.1
+		death_date = 1794.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 3
+	}
+}
+1794.1.1 = {
+	 monarch = {
+		name = "Barrak II"
+		dynasty = "Al Jabr"
+		DIP = 6
+		MIL = 3
+		ADM = 7
+	}
+	heir = {
+		name = "Nadjim ibn Dyhaynim"
+		monarch_name = "Nadjim ibn Dyhaynim"
+		dynasty = "Al Jabr"
+		birth_date = 1780.1.1
+		death_date= 1798.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 7
+	}
+}
+1795.1.1 = {
+	 monarch = {
+		name = "Nadjim ibn Duhaynim"
+		dynasty = "Al Jabr"
+		DIP = 5
+		MIL = 7
+		ADM = 3
+	}
+}
+1798.1.1 = {
+	 monarch = {
+		name = "Sulayman ibn Muhammad"
+		dynasty = "Al Jabr"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}

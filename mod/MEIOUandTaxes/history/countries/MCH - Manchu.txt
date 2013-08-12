@@ -1,0 +1,321 @@
+# MCH - Manchu
+# 2010-jan-21 - FB - HT3 changes
+# 2010-feb-12 - GG - Manchu kingdom prior to conquest of China
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = altaic_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 2
+primary_culture = jurchen
+religion = mahayana
+technology_group = steppestech
+capital = 731	# Shenyang
+
+# http://en.wikipedia.org/wiki/List_of_Chieftains_of_the_Jurchens
+1356.1.1 = {
+	set_country_flag = rising_nation
+	monarch = {
+		name = "Council of Elders"
+		adm = 4
+		dip = 4
+		mil = 4
+		regent = yes
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Bukuri Yongson"
+		dynasty = "Aisin Gioro"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Mengtemu"
+		monarch_name = "Mengtemu"
+		dynasty = "Aisin Gioro"
+		birth_date = 1370.1.1
+		death_date = 1433.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Mengtemu"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1405.1.1 = {
+	heir = {
+		name = "Cungsan"
+		monarch_name = "Cungsan"
+		dynasty = "Aisin Gioro"
+		birth_date = 1405.1.1
+		death_date = 1467.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Cungsan"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1433.1.1 = {
+	heir = {
+		name = "Tolo"
+		monarch_name = "Tolo"
+		dynasty = "Aisin Gioro"
+		birth_date = 1433.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.1.1 = {
+	monarch = {
+		name = "Tolo"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Sibeoci Fiyanggu"
+		monarch_name = "Sibeoci Fiyanggu"
+		dynasty = "Aisin Gioro"
+		birth_date = 1467.1.1
+		death_date = 1522.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Sibeoci Fiyanggu"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Fuman"
+		monarch_name = "Aisin Gioro"
+		dynasty = "Aisin Gioro"
+		birth_date = 1481.1.1
+		death_date = 1542.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Fuman"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1522.1.1 = {
+	heir = {
+		name = "Giocangga"
+		monarch_name = "Giocangga"
+		dynasty = "Aisin Gioro"
+		birth_date = 1522.1.1
+		death_date = 1571.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Giocangga"
+		dynasty = "Aisin Gioro"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1542.1.1 = {
+	heir = {
+		name = "Taksi"
+		monarch_name = "Taksi"
+		dynasty = "Aisin Gioro"
+		birth_date = 1542.1.1
+		death_date = 1583.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	monarch = {
+		name = "Taksi"
+		dynasty = "Aisin Gioro"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Nurhachi"
+		monarch_name = "Nurhachi"
+		dynasty = "Aisin Gioro"
+		birth_date = 1558.1.1
+		death_date = 1626.9.30
+		claim = 95
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = {	
+			name = "Nurhachi"
+			type = general
+			rank = 0
+			fire = 2
+			shock = 5
+			manuever = 4
+			siege = 2 
+		}
+	}
+}
+
+1583.1.1 = {
+	monarch = {
+		name = "Nurhachi"
+		dynasty = "Aisin Gioro"
+		adm = 8
+		dip = 8
+		mil = 9
+		leader = {	name = "Nurhachi"   	type = general		rank = 0	fire = 2	shock = 5	manuever = 4	siege = 2 }
+	}
+}
+
+1584.1.1 = {
+	# centralization_decentralization = 0
+	# aristocracy_plutocracy = -5
+	# quality_quantity = 1
+	# land_naval = -4
+	# offensive_defensive = -4
+	# innovative_narrowminded = -1
+	# secularism_theocracy = 1
+} # Nurhachi's Reforms
+
+1592.11.28 = {
+	heir = {
+		name = "Huang Taiji"
+		monarch_name = "Huang Taiji"
+		dynasty = "Aisin Gioro"
+		birth_date = 1592.11.28
+		death_date = 1643.9.21
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { 
+			name = "Huang Taiji"
+			type = general
+			rank = 0
+			fire = 0
+			shock = 5
+			manuever = 3
+			siege = 0 
+		}
+	}
+}
+
+1608.1.1 = {
+	# quality_quantity = -2
+	# land_naval = -5
+	# aristocracy_plutocracy = -5
+} # The Eastern Mongols Assimilated
+
+1626.9.30 = {
+	monarch = {
+		name = "Huang Taiji"
+		dynasty = "Aisin Gioro"
+		adm = 7
+		dip = 6
+		mil = 8
+		leader = { name = "Huang Taiji"   	type = general		rank = 0	fire = 0	shock = 5	manuever = 3	siege = 0 }
+	}
+}
+
+1628.1.1 = { leader = {	name = "Dorgon"			type = general		rank = 1	fire = 4	shock = 4	manuever = 5	siege = 2	death_date = 1650.12.31 } }
+
+1638.3.15 = {
+	heir = {
+		name = "Shunzhi"
+		monarch_name = "Shunzhi"
+		dynasty = "Aisin Gioro"
+		birth_date = 1638.3.15
+		death_date = 1661.2.5
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1643.9.22 = {
+	monarch = {
+		name = "Shunzhi"
+		dynasty = "Aisin Gioro"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}

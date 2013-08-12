@@ -1,0 +1,68 @@
+# 2406 - Xalisco
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = XAL
+controller = XAL
+add_core = XAL
+culture = nahuatl
+religion = teotl
+capital = "Xalisco"
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 15000
+trade_goods = sugar
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = new_world
+
+hre = no
+
+1473.1.1   = {
+	owner = AZT
+	controller = AZT
+} # Conquest by Axayacati, sixth tlatoani of Tenochtitlan
+1498.1.1   = {
+	add_core = AZT
+}
+1531.1.1   = {
+	owner = SPA
+	controller = SPA
+	citysize = 2000
+	base_tax = 4
+#	manpower = 2
+	manpower = 4
+	religion = catholic
+	culture  = castillian
+} # Francisco Vázquez de Coronado y Luján
+1600.1.1   = {
+	citysize = 3000
+}
+1608.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 7500
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 30000
+}
+1800.1.1   = {
+	citysize = 60000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

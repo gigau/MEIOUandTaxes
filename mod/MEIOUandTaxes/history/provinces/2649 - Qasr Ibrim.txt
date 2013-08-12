@@ -1,0 +1,62 @@
+# 2649 - Qasr Ibrim
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MKU
+controller = MKU 
+culture = nubian
+religion = sunni
+capital = "Qasr Ibrim"
+
+base_tax = 2
+#manpower = 3 
+manpower = 6 
+citysize = 4000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MKU
+}
+# 1453.1.1 = { controller = REB } # Under control of Awlad Kenz
+1510.1.1 = {
+	discovered_by = SEN
+	owner = SEN
+	controller = SEN
+	add_core = SEN
+} # Funj replace Mamluks in control of Suakin
+1516.1.1 = {
+	add_core = TUR
+} # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1540.1.1 = {
+	owner = TUR
+	controller = TUR
+	capital = "Al Dirr"
+	citysize = 4500
+} #Ottomans occupy Lower Nubia
+1600.1.1 = { citysize = 5000 }
+1650.1.1 = { citysize = 5500 }
+1700.1.1 = { citysize = 6000 }
+1750.1.1 = { citysize = 6500 }
+1800.1.1 = { citysize = 7000 }
+1802.5.13  = {
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

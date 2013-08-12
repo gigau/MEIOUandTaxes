@@ -1,0 +1,71 @@
+#109 - Mantua
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+ 
+owner = MAN
+controller = MAN
+add_core = MAN
+culture = lombard 
+religion = catholic 
+hre = yes 
+base_tax = 9        
+trade_goods = linen 
+#manpower = 4        
+manpower = 8        
+fort1 = yes 
+capital = "Màntua" 
+citysize = 12500
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = { citysize = 15000 } 
+1399.1.1   = { citysize = 20000 } 
+1453.1.1   = { citysize = 25000 } 
+1500.1.1   = { citysize = 28000 } 
+1540.1.1   = { temple = yes }  # temple of San Pietro, 1540 
+1550.1.1   = { citysize = 38000 marketplace = yes } 
+1600.1.1   = { citysize = 31000 }
+1618.1.1  = { hre = no } 
+1650.1.1   = { citysize = 14000 } 
+1700.1.1   = { citysize = 21000 } 
+1708.6.30  = { controller = HAB owner = HAB add_core = HAB } # Annexed to Austria
+1750.1.1   = { citysize = 24000 }
+1796.6.4   = { controller = RFR } # Besieged by the French
+1796.7.31  = { controller = HAB } # The French are driven off by Austrian and Russian forces
+1796.11.15 = {
+	owner = ITC
+	controller = ITC
+	add_core = ITC
+	remove_core = HAB
+} # Transpadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITC
+} # Cisalpine Republic
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = ITA
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1860.3.20 = {   #??
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

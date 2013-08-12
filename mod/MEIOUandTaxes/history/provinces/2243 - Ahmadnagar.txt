@@ -1,0 +1,67 @@
+# 530 - Ahmadnagar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Ahmadnagar"
+trade_goods = rice
+hre = no
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 15150
+fort1 = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1  = {
+	add_core = BAH
+	add_core = BAS
+}
+1400.1.1  = { citysize = 16900 }
+1490.1.1  = {
+	owner = BAS
+	controller = BAS
+	remove_core = BAH
+} # The Breakup of the Bahmani sultanate
+1498.1.1  = {
+	discovered_by = POR
+}
+1500.1.1  = { citysize = 21100 add_core = BAS }
+1550.1.1  = { citysize = 23430 }
+1595.1.1 = {
+	controller = MUG
+} # captured by Mughal Empire
+1596.1.1 = {
+	owner = MUG
+} # captured by Mughal Empire
+1600.1.1  = { citysize = 26348 discovered_by = turkishtech }
+1615.1.1  = {
+	controller = BAS
+}
+1622.1.1  = {
+	controller = MUG
+}
+1646.1.1 = { add_core = MUG }
+1650.1.1 = { citysize = 29600 add_core = MAR }
+1700.1.1 = { citysize = 32700 courthouse = yes }
+1707.5.12 = { discovered_by = GBR }
+1712.1.1 = { add_core = HYD }	#Viceroyalty of the Deccan
+1724.1.1 = {
+	owner = HYD
+	controller = HYD
+	remove_core = MUG
+} # Asif Jah declared himself Nizam-al-Mulk
+1750.1.1 = { citysize = 37100 workshop = yes add_core = HYD }
+1760.1.1 = {
+	owner = MAR
+	controller = MAR
+} # Marathas
+1800.1.1 = { citysize = 44100 }
+1803.12.30 = {
+	owner = HYD
+	controller = HYD
+}

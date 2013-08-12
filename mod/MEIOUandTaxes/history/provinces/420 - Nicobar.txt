@@ -1,0 +1,31 @@
+# 420 - Nicobar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = monic
+religion = theravada
+capital = "Nicobar"
+trade_goods = fish
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+
+discovered_by = austranesian
+
+1600.1.1 = { discovered_by = POR }
+
+1754.1.1 = {
+	owner = DAN
+	controller = DAN
+	capital = "Frederiksoerne"
+	citysize = 100
+}
+1779.1.1 = {
+	add_core = DAN
+}
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+	add_core = DEN
+	remove_core = DAN
+}

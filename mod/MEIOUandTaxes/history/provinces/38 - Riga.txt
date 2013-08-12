@@ -1,0 +1,92 @@
+# Riga
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RIG
+controller = RIG
+add_core = RIG
+culture = teutonic
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = lumber
+#manpower = 1
+manpower = 2
+capital = "Riga"
+citysize = 1050 # Estimated
+
+fort1 = yes
+
+cot = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1202.1.1   = {
+	owner = LVO
+	controller = LVO
+	add_core = LVO
+	remove_core = RIG
+}
+1236.1.1   = {
+	add_core = TEU
+}
+1500.1.1   = {
+	citysize = 1800
+}
+1522.1.1   = {
+	religion = protestant
+} #Unknown date
+1522.1.1   = {
+	hre = no
+} # Unknown date
+1525.1.1 = {
+	remove_core = TEU
+}
+1540.1.1   = {
+	marketplace = yes }
+1550.1.1   = {
+	citysize = 2100 }
+1561.11.18 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = LVO
+} # Wilno Pact
+1581.1.1   = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} #Unknown date
+1600.1.1   = {
+	citysize = 4200
+}
+1621.9.15  = {
+	controller = SWE
+} #2nd Polish War-Captured by GIIA
+1629.10.16 = {
+	owner = SWE
+	add_core = SWE
+	remove_core = PLC
+} # The Armistice of Altmark
+1650.1.1   = {
+	citysize = 8550
+}
+1700.1.1   = {
+	citysize = 12350
+}
+1710.7.1   = {
+	controller = RUS
+} # The Great Nordic War-Captured Riga
+1721.8.30  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # The Peace of Nystad
+1750.1.1   = {
+	citysize = 16000
+}
+1800.1.1   = {
+	citysize = 30000
+}

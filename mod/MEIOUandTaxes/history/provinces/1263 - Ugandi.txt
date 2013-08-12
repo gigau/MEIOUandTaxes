@@ -1,0 +1,66 @@
+#1263 - Ugandi - Dorpat - Tartu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LVO
+controller = LVO
+add_core = LVO
+add_core = TEU
+add_core = EST
+culture = estonian
+religion = catholic
+capital = "Dorpat"
+
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 1000
+trade_goods = wheat
+
+fort1 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+hre = no
+
+1525.1.1  = {
+	remove_core = TEU
+}
+1542.1.1   = { religion = protestant} #Unknown date
+1550.1.1   = { citysize = 2000 }
+1561.11.18 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	remove_core = LVO
+} # Wilno Pact
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1600.1.1   = { citysize = 5000 }
+1600.12.31 = { controller = SWE } #2nd Polish War-Captured by Duke Karl
+1603.4.5   = { controller = PLC } #2nd Polish War-Captured by Chodkiewicz
+1625.8.21  = { controller = SWE } #2nd Polish War-Captured by Jakob de la Gardie
+1629.9.16  = {
+	owner = SWE
+	add_core = SWE
+	remove_core = POL
+	remove_core = PLC
+} #The Armistice of Altmark
+1632.1.1   = { university = yes }
+1650.1.1   = { citysize = 7500 }
+1721.8.30  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = SWE
+} #The Peace of Nystad
+1800.1.1   = {
+	citysize = 10000
+}

@@ -1,0 +1,1740 @@
+#
+# Modified by Gigau
+#
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+#
+# 30-jul-2008 - Reorganized german gultures
+# 10-aug-2008 - Languages of Oil and of Oc
+# Several cultures added
+# 01-sep-2009 - Removal of the union entries
+# 22-feb-2010 - added dynasty names and primaries
+
+low_germanic = {
+	graphical_culture = westerngfx
+	pommeranian = {
+		primary = POM
+		dynasty_names = { 
+			"von Werle" "von Pomern" "Greifen" "von Mecklenburg"
+		}
+	}
+	old_saxon = {
+		primary = HAN
+		dynasty_names = { 
+			"von Braunschweig-Lüneburg" "von Hannover" "von Wettin"
+			Welf "von Oldenburg"
+		}
+	}
+	low_saxon = {
+		primary = BRA
+		dynasty_names = {
+			"von Hohenzollern" "von Wittelsbach" "von Bernau" "von Luxemburg"
+			"von Ballenstedt" "von Anhalt"
+		}
+	}
+	prussian = {
+		primary = PRU
+		dynasty_names = {
+			"von Hohenzollern" "von Wittelsbach" "von Bernau" "von Luxemburg"
+			"von Ballenstedt" "von Anhalt"
+		}
+	}
+	teutonic = {
+		primary = TEU
+	}
+	germanisch = {
+	}
+	prussian_colonial = {
+	}
+	dynasty_names = { 
+		"von Oldenburg" "von Mecklenburg" "von Zweibrücken" 
+		"von Braunschweig-Lüneburg" "von Hannover" "von Wettin"
+		"von Werle" "von Pomern" "Greifen"
+	}
+}
+
+middle_germanic = {
+	graphical_culture = westerngfx
+	hessian = {
+		primary = HES
+	}
+	high_saxon = {
+		primary = SAX
+		dynasty_names = {
+			"von Ballenstedt"
+		}
+	}
+	moselfranconian = {
+	}
+	saxon_colonial = {
+	}
+	dynasty_names = { 
+		"von Holstein" "von Hessen-Kassel" "von Holstein-Gottorf"
+		"von Pfalz-Neumarkt" "von Nassau" "von Jülich"
+	}
+}
+
+high_germanic = {
+	graphical_culture = westerngfx
+	eastfranconian = { primary = WBG }
+	bavarian = { primary = BAV }
+	schwabisch = { primary = WUR }
+	alemanisch = { primary = BAD }
+	suisse = { primary = SWI }
+	alemanisch_colonial = { }
+	dynasty_names = { 
+		"von Hohenzollern" "von Habsburg" "von Wittelsbach" 
+	}
+}
+
+austrian_group = {
+	graphical_culture = westerngfx
+	austrian = { primary = HAB }
+	slovenian = { primary = CAR }
+	austrian_colonial = { }
+	dynasty_names = { 
+		"von Habsburg" 
+	}
+}
+
+low_frankish = {
+	graphical_culture = westerngfx
+	dutch = {
+		primary = HOL
+		dynasty_names = {
+			"van Oranje" Nassau "van Wassenberg" "van Henegouwen" 
+			"van Haspinga" "van Limburg" "van Lotharingen" 
+			"van Leuven" "van Brabant" "van Egmont"
+		}
+	}
+	flemish = {
+		primary = FLA
+			dynasty_names = {
+			"van Oranje" Nassau "van Wassenberg" "van Henegouwen" 
+			"van Haspinga" "van Limburg" "van Lotharingen" 
+			"van Leuven" "van Brabant" "van Egmont"
+		}
+	}
+	wallonian = { primary = HAI }
+	burgundian = { primary = BUR }
+	dutch_colonial = { }
+	dynasty_names = { 
+		"van Oranje" Nassau "van Wassenberg" "van Henegouwen" "van Haspinga"
+		"van Limburg" "van Lotharingen" "van Leuven" "van Brabant" "van Egmont"
+	}
+}
+
+nord_germanic = {
+	graphical_culture = westerngfx
+	swedish = {
+		primary = SWE
+		dynasty_names = {
+			"Bonde" "Vasa" "Tre Rosor" "Oxenstierna" "Sparre" "Sture" "Tott" "Trolle" "Bielke" "Brahe"
+			"Horn" "Ribbing" "Skytte" "Banér" "Fleming" "Gyllenstierna" "de la Gardie" "Leijonhufvud" 
+			"Natt och Dag" "Grip" "Stenbock"
+		}
+	}
+	danish = {
+		primary = DAN
+		dynasty_names = { 
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Friis" "Gyllenstierna" "Bille" "Kaas"
+		}
+	}
+	norwegian = {
+		primary = NOR
+		dynasty_names = { 
+			"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde"
+		}
+	}
+	norse = { primary = ICE }
+	scandinavian_colonial = { }
+	dynasty_names = { 
+		Bjelbo Bonde Vasa Oxenstierna Sparre Sture 
+		Tott Trolle Bielke Estrid 
+	}
+}
+
+anglo_frisian = {
+	graphical_culture = westerngfx
+	english = {
+		primary = ENG
+		dynasty_names = {
+			Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Herbert
+			Howard Seymour Holland Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford
+		}
+	}
+	lowland_scottish = {
+		primary = SCO
+		dynasty_names = { 
+			Stuart Stewart Campbell Lennox Murray Graham Gordon Erskine Leslie
+			Scott Douglas Hamilton Lindsay Ker Hay Sinclair Dunbar Kennedy
+		}
+	}
+	frisian = {
+		primary = FRI
+	}
+	british_colonial = {
+	}
+	dynasty_names = { 
+		Plantagenet Tudor Seymour Mowbray Percy Herbert
+		Beaufort Holland Talbot Harcourt Clare Neville Warren
+		Stanley Courtenay "de la Pole" "de Vere" Stafford
+	}
+}
+
+gaelic = {
+	graphical_culture = westerngfx
+	highland_scottish = {
+#		primary = HIG
+		dynasty_names = {
+			Stuart Dudley Bruce Douglas Hamilton Campbell
+		}
+	}
+	irish = {
+		primary = IRE
+		dynasty_names = {
+			"O'Donnell" "O'Neill" "O'Connor" "O'Brien" MacLochlainn MacMurrough MacWilliam
+		}
+	}
+	norse_gaelic = {
+	}
+	gaelic_colonial = {
+	}
+	dynasty_names = { 
+		Stuart Dudley Bruce Douglas Hamilton Campbell
+		"O'Donnell" "O'Neill" "O'Connor" "O'Brien" 
+		MacLochlainn MacMurrough MacWilliam
+	}
+}
+
+brythonic = {
+	graphical_culture = westerngfx
+	welsh = {
+		primary = WLS
+		dynasty_names = {
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor
+		}
+	}
+	breton = {
+		primary = BRI
+		dynasty_names = {
+			Rohan Kervarker Morvan "de Kersauson" Penhoadic
+		}
+	}
+	cornish = {
+		primary = CRN
+	}
+	brythonic_colonial = {
+	}
+	dynasty_names = { 
+		Tudor 
+	}
+}
+ 
+latin = {
+	graphical_culture = westerngfx
+	lombard = { primary = MLO }
+#	sardinian = { primary = SAR }
+	corsican = { primary = COR }
+	piedmontese = { primary = SAV }
+	ligurian = { primary = GEN }
+	venetian = { primary = VEN }
+	emilian = { primary = MOD }
+	tuscan = { primary = TUS }
+	dalmatian = { primary = RAG }
+	umbrian = { primary = URB }
+	latin_colonial = { }
+	dynasty_names = { 
+		"de' Medici" "di Savoia" "d'Este" "de Bourbon" 
+		Farnese Visconti Sforza Gonzaga "d'Ivrea" Orsini 
+		Colonna Caetani Ruspoli Aldobrandini Borghese 
+		Odescalchi Serlupi Crescenzi Massimo Patrizi 
+		Naro Montoro Theodoli Senni Ricci Rocchi 
+		Datti Pietromarchi Tuccimei Mazzetti 
+	}
+}
+ 
+napolitan = {
+	graphical_culture = westerngfx
+	sicilian = {
+		primary = SIC
+	}
+	neapolitan = {
+		primary = KNP
+	}
+	catalan = {
+		primary = CAT
+		dynasty_names = {
+			d'Aragó "de Borja" "de Luna" d'Urgell "Folc de Cardona"
+		}
+	}
+	sardinian = {
+		primary = SAR
+	}
+	maltese = {
+	}
+	napolitan_colonial = {
+	}
+	dynasty_names = { 
+		"d'Aragó" "de Trastámara" "di Savoia" "de Bourbon"
+		"Durazzo" "d'Arborea" 
+	}
+}
+
+iberian = {
+	graphical_culture = westerngfx
+	castillian = {
+		primary = CAS
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda"
+			"de Castilla" "de Valencia" "Téllez-Girón" "Manrique de Lara"
+			Sandoval
+		}
+	}
+	aragonese = {
+		primary = ARA
+		dynasty_names = {
+			d'Aragó "de Borja" "de Luna" d'Urgell "Folc de Cardona"
+		}
+	}
+	galician = {
+		primary = GAL
+		dynasty_names = {
+			Osorio Andrade
+		}
+	}
+	andalucian = {
+#		primary = TOL
+		dynasty_names = {
+			Nasrid Ummayad
+		}
+	}
+	asturian = {
+		primary = LEO
+	}
+	spanish_colonial = {
+	}
+	dynasty_names = { 
+		"de Aragón" "de Trastámara" "de Bragança" 
+		"de Guzmán" "de Alba" "de la Cerda" "de Avalos" 
+	}
+}
+
+portuguese = {
+	graphical_culture = westerngfx
+	portugese = {
+		primary = POR
+	}
+	portuguese_colonial = {
+	}
+	dynasty_names = { 
+		"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal"
+		"de Bourgogna" "de Lencastre" "de Melo" "de Moura" "de Nápoles"
+		"de Menezes" 
+	}
+}
+ 
+langue_d_oil = {
+	graphical_culture = westerngfx
+	francien = {
+		primary = FRA
+	}
+	normand = {
+		primary = NRM
+	}
+	picard = {
+		primary = ARS
+	}
+	lorrain = {
+		primary = LOR
+	}
+	bourguignon = {
+		primary = BUR
+	}
+	poitevin = {
+	}
+	angevin = {
+		primary = PRO
+	}
+	frankish = {
+		primary = CYP
+	}
+	french_colonial = {
+	}
+	dynasty_names = {
+		"de Valois" "de Bourbon" "de la Tour" "d'Anjou" 
+		"de Lorraine" "de Montfort" "de Blois" 
+		"de Penthievre" "de Dreux" "d'Escoubleau" "de Neufville"
+		"de Rohan" "de Bar" 
+	}
+}
+ 
+langue_d_oc = {
+	graphical_culture = westerngfx
+	gascon = {
+		primary = AMG
+	}
+	auvergnat = {
+		primary = AUV
+	}
+	occitain = {
+		primary = TOU
+	}
+	arpitan = {
+		primary = DAU
+	}
+	provencal = {
+		primary = PRO
+	}
+	basque = {
+		primary = NAV
+		dynasty_names = {
+			"de Beaumont" "de Lerín" "de Monteagudo" "de Navarre" "de Foix" "d'Albret"
+		}
+	}
+	anglois = {
+		dynasty_names = {
+			Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Herbert
+			Howard Seymour Holland Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford
+		}
+	}
+	occitan_colonial = { }
+	dynasty_names = { 
+		"de Navarre" "de Valois" "d'Auvergne" "de Trastámara"
+		"de Foix" "d'Albret"
+	}
+}
+ 
+finno_ugric = {
+	graphical_culture = westerngfx
+	finnish = { 
+		primary = FIN
+		dynasty_names = {
+			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
+		}
+	}
+	sapmi = {
+	}
+	karelian = {
+		primary = KRL
+	}
+}
+ 
+balkan_slavic = {
+	graphical_culture = westerngfx
+	croatian = {
+		primary = CRO
+		dynasty_names = { 
+			"Trpimirovic" "Svetoslavic" "Kosovic" "Kresimirovic" 
+			"Zrinski" "Domagojevic" "Hrvatinic" "Kotromanic" 
+			"Brankovic" "Lazarevic"
+			Bobaljevic Bunic Bondic Crijevic Ðurdevic Getaldic Gucetic Gundulic
+			Gradic Kabužic Mencetic Lukaric Saraka Tudiševic Sorkocevic Džamanjic
+		}
+	}
+	serbian = {
+		primary = SER
+		dynasty_names = { 
+			"Trpimirovic" "Svetoslavic" "Kosovic" "Kresimirovic" 
+			"Zrinski" "Domagojevic" "Hrvatinic" "Kotromanic" 
+			"Brankovic" "Lazarevic"
+			Bobaljevic Bunic Bondic Crijevic Ðurdevic Getaldic Gucetic Gundulic
+			Gradic Kabužic Mencetic Lukaric Saraka Tudiševic Sorkocevic Džamanjic
+		}
+	}
+	bosnian = {
+		primary = BOS
+		dynasty_names = { 
+			"Trpimirovic" "Svetoslavic" "Kosovic" "Kresimirovic" 
+			"Zrinski" "Domagojevic" "Hrvatinic" "Kotromanic" 
+			"Brankovic" "Lazarevic"
+			Bobaljevic Bunic Bondic Crijevic Ðurdevic Getaldic Gucetic Gundulic
+			Gradic Kabužic Mencetic Lukaric Saraka Tudiševic Sorkocevic Džamanjic
+		}
+	}
+}
+
+romanian = {
+	graphical_culture = easterngfx
+	vlach = {
+		primary = WAL
+	}
+	moldovian = {
+		primary = MOL
+	}
+	transylvanian = {
+		primary = TRA
+	}
+	dynasty_names= {
+	}
+}
+
+east_slavic = {
+	graphical_culture = easterngfx
+	novgorodian = {
+		primary = NOV
+	}
+	russian = {
+		primary = MOS
+	}
+	ukrainian = {
+		primary = UKR
+	}
+	pomor = {
+	}
+	ruthenian = {
+		primary = KIE
+	}
+	russian_colonial = {
+	}
+	dynasty_names = {
+		Rurikovich Godunov Shuisky Romanov Sheremetev Golitsyn 
+		Naryshkin Khilkov Gorchakov Belosselsky Chelyadnin Potyomkin
+	}
+}
+
+turko_byzantine = {
+	graphical_culture = muslimgfx
+	greek = {
+		primary = ATH
+		dynasty_names = {
+			Kantakouzenos Doukas Komnenos Palaiologos Laskaris Angelos
+		}
+	}
+	albanian = {
+		primary = ALB
+	}
+	bulgarian = {
+		primary = BUL
+		dynasty_names = {
+			Asen
+		}
+	}
+	turkish = {
+		primary = TUR
+		dynasty_names = {
+			Osmanli Karamanli Mentesoglu Ramazanoglu Saruhanoglu
+			Dulkadiroglu Candarli Aydinoglu
+		}
+	}
+	yorouk = {
+		primary = ERE
+	}
+	turkish_colonial = {
+	}
+	greek_colonial = {
+	}
+}
+
+caucasus_group = {
+	graphical_culture = easterngfx
+	georgian = {
+		primary = GEO
+		dynasty_names = {
+			Bagrationi Mukhrani
+		}
+	}
+	armenian = {
+		primary = ARM
+		dynasty_names = {
+			Bagrationi Rubenid Pahlavuni
+		}
+	}
+	azerbadjani = {
+		primary = QAR
+		dynasty_names = {
+			Koyunlu
+		}
+	}
+	circassian = {
+		primary = CIR
+	}
+}
+
+magyar = {
+	graphical_culture = easterngfx
+	hungarian = {
+		primary = HUN
+	}
+	slovak = {
+	}
+	szaszok = {
+	}
+	dynasty_names = {
+		Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy
+		Andrássy Batthyány Csáky Dessewffy Erdody Eszterházy
+		Festetics Hajdú Károlyi Kun Magyary Perényi Rónai Széchenyi
+		Szepessy Teleki Thököly Tisza Zrínyi
+	}
+}
+
+west_slavic = { 
+	graphical_culture = westerngfx
+	czech = {
+		primary = BOH
+	}
+	silesian = {
+		primary = SIL
+	}
+	dynasty_names = {
+		Premysl Podebradsky Rozmberk Schwarzenberg Jagelonsky Kolowrat Lobkowicz
+		Zerotín Kinsky Mitrovic Smirický Czernin
+	}
+}
+
+lechitic = {
+	graphical_culture = easterngfx
+	polish = {
+		primary = POL
+	}
+	old_prussian = {
+	}
+	lithuanian = {
+		primary = LIT
+	}
+	latvian = {
+		primary = LIV
+	}
+	estonian = {
+		primary = EST
+	}
+	byelorussian = {
+		primary = PLT
+	}
+	kashubian = {
+	}
+	dynasty_names = {
+		Jagiellon Báthory Vasa Gediminai Radziwill Gostautas Astikas 
+		Kesgaila Chodkiewicz Olshanski Chartoryski Oginski
+		Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski
+	}
+}
+ 
+arabian = {
+	graphical_culture = muslimgfx
+   	hejazi = {
+      		primary = HEJ
+		dynasty_names = {
+			"al-Hashimi"
+		}
+   	}
+   	najdi = {
+      		primary = NAJ
+   	}
+   	bahrani = {
+#      		primary = BHR
+   	}
+   	omani = {
+      		primary = OMA
+   	}
+   	hadhrami = {
+      		primary = HAD
+   	}
+   	yemeni = {
+      		primary = YEM
+   	}
+	dynasty_names = {
+		"al-Hashimi" "Al Sa`ud" "Al Rashid" "Al Jabr" "Al Nahyan" "Al Maktum" "Al Mu`alla" "Al Khalifa"
+		"ibn Khalid" "Al Sabah" "Al Mahdi" "Al Nabhan" "Al Kathir" "bin Rasul" "bin Tahir" "bin Qasim"
+	}
+}
+
+mashreqi = {
+	graphical_culture = muslimgfx
+	egyptian = {
+		primary = MAM
+	}
+	shami = {
+		primary = SYR
+	}
+	iraqi = {
+		primary = IRQ
+	}
+}
+
+maghreb = {
+	graphical_culture = muslimgfx
+	berber = {
+		primary = MOR
+	}
+	maure = {
+		primary = GRA
+		dynasty_names = {
+			Nasrid Ummayad
+		}
+	}
+	fassi = {
+		primary = FEZ
+	}
+	kabyle = {
+		primary = TLE
+	}
+	algerian = {
+		primary = ALG
+	}
+	tunisian = {
+		primary = TUN
+	}
+	dynasty_names = {
+		Zayyanid Muhammadid Marinid Wattasid Saadi Alaouite
+	}
+}
+ 
+persian_group = {
+	graphical_culture = muslimgfx
+	persian = {
+		primary = PER
+		dynasty_names = {
+			Zand Qajar Afsharid Safavid
+		}
+	}
+	east_persian = {
+		primary = KHO
+	}
+	tabari = {
+		primary = MZA
+	}
+	baluchi = {
+		primary = BAL
+		dynasty_names = {
+			Durrani
+		}
+	}
+	kurdish = {
+		primary = HAZ
+	}
+	pashtun = {
+	}
+	tajihk = {
+	}
+	dynasty_names = {
+		"Durrani" "Ghilzai"
+	}
+}
+
+altaic = {
+	graphical_culture = muslimgfx
+	jurchen = {
+		primary = QIN
+	}
+	khalkas = {
+		primary = KHA
+	}
+	oirats = {
+		primary = OIR
+	}
+	daur = {
+	}
+	buryat = {
+	}
+	uralic = {
+	}
+	yakut = {
+	}
+	yukaghir = {
+	}
+	mongol = {
+	}
+	dynasty_names = {
+		"Koyunlu" "Chagatayid" "Edigüid" 
+		"Borjigin" "Shaybanid"
+	}
+}
+
+tartar_group = {
+	graphical_culture = muslimgfx
+	astrakhani = {
+		primary = AST
+	}
+	crimean = {
+		primary = CRI
+	}
+	kazani = {
+		primary = KAZ
+	}
+	khazak = {
+		primary = KZH
+	}
+	kirgiz = {
+		primary = CHG
+	}
+	kwarezhmi = { 
+	}
+	siberian = {
+		primary = SIB
+	}
+	tartar = {
+		primary = GOL
+	}
+	turkmeni = {
+		primary = KHI
+	}
+	uzbehk = {
+		primary = SHY
+	}
+	uyghur = {
+		primary = UIG
+	}
+	dynasty_names = {
+		Chagataiid Jochid Toluid Ogodeid Qasarid Bo'orchid Subotaid Jebid Muqalid Ediguid
+	}
+}
+ 
+japanese = {
+	graphical_culture = asiangfx
+	tohoku = {
+		primary = DTE
+	dynasty_names = {
+		Date Nanbu Rusu
+		}
+	}
+	chubu = {
+		primary = SBA
+	dynasty_names = {
+		Toki Imagawa Matsudaira Asakura Oda Shiba Naitou Oyamada Nagao
+		}
+	}
+	kanto = {
+		primary = USG
+	dynasty_names = {
+		Houjou Takeda Uesugi Ashina Sakuma Saitou
+		}
+	}
+	kansai = {
+		primary = AKG
+	dynasty_names = {
+		Ashikaga Hosokawa Hatakeyama Isshiki Kitabatake Akamatsu Kyougoku Rokkaku Urakami
+		}
+	}
+	chugoku = {
+		primary = OUC
+	dynasty_names = {
+		Oouchi Mouri Sou Kyougoku Amago Kikkawa Sue Ukita Urakami Yamana
+		}
+	}
+	shikoku = {
+		primary = HKW
+	dynasty_names = {
+		Chousokabe Miyoshi
+		}
+	}
+	kyushu = {
+		primary = SMZ
+	dynasty_names = {
+		Shimazu Ryuuzouji Ootomo Oota Kobayakawa Shouni
+		}
+	}
+	aynu = {
+	}
+	ryukyuan = {
+		primary = RYU
+	dynasty_names = {
+		Shou
+		}
+	}
+	japanese_colonial = {
+	}
+	dynasty_names = { 
+		Yamoto Arisugawa Asaka Fushimi Kan'in Katsura Kaya Kitashirakawa
+		Kuni Nashimoto Yamashina
+		Ashikaga Kyogoku Rokkaku Akamatsu Amago Chosokabe Motoyama
+		Date Rusu Ashina Hojo Ota Nagano Hosokawa Miyoshi Hatakeyama
+		Imagawa Isshiki Kitabatake Mori Kikkawa Kobayakawa Nanbu
+		Oda Sakuma Shiba Otomo Yoshihiro Usuki Ouchi Sue Naito
+		Ryuzoji Nabeshima Shoni Shimazu So Saito Takeda
+		Oyamada Tokugawa Matsudaira Toki Ukita Uragami Uesugi Nagao
+		Yamana 
+	}
+}
+
+korean_group = {
+	graphical_culture = asiangfx
+	korean = {
+		primary = KOR
+	}
+	korean_colonial = {
+	}
+	dynasty_names = { 
+		Yi Kim Shim Chung Seo Han Hong Yoon Kwon Pak Min Kang Ryu
+		Joseon
+	}
+}
+
+chinese_group = {
+	graphical_culture = asiangfx
+	manchu = {
+		primary = MCH
+		dynasty_names = {
+			"Aisin Gioro" Wanyan "Yehe Nara" "Ula Nara" "Magiya Hala" Niohuru
+			Heseri Guwalgiya Tunggiya Hata Hoifa Yeren Udige
+		}
+	}
+	chihan = {
+	}
+	hanyu = {
+		primary = YDU # ZHU
+	}
+	jinyu = {
+		primary = JIN
+	}
+	sichuanhua = {
+		primary = SHU
+	}
+	zhongyuan = {
+		primary = LNG
+	}
+	lanyin = {
+	}
+	wuhan = {
+		primary = MNG
+	}
+	hakka = {
+		primary = DAA
+	}
+	ganyu = {
+		primary = TIA
+	}
+	yueyu = {
+		primary = YUE
+	}
+	minyu = {
+		primary = MIN
+	}
+	xiang = {
+		primary = XNG
+	}
+	cantonese = {
+	}
+	lussong = {
+		primary = LUS
+	}
+	chinese_colonial = {
+	}
+	dynasty_names = {
+		Zhu Wu Geng Shang Zheng Zhao Li Shi Liu Guo Yang Wang Qian Ma Meng Gao 
+		Chen Sun Sima Cao Xiao Yuan 
+	}
+}
+
+mon_khmer = { 
+	graphical_culture = asiangfx
+	khmer = {
+		primary = KHM
+	}
+	monic = {
+		primary = PEG
+	}
+	vietnamese = {
+		primary = DAI
+	}
+	dynasty_names = { 
+		"Lê" "Tran" "Hau Le" "Mac" "Tay Son" "Nguyen" "Trinh"
+		Yi Kim Shim Chung Seo Han Hong Yoon Kwon Pak Min Kang Ryu
+	}
+}
+
+malay = { 
+	graphical_culture = asiangfx
+	polynesian = {
+	}
+	cham = {
+		primary = CHA
+	}
+	malayan = {
+		primary = MLC
+	}
+	indonesian = {
+	}
+	acehenese = {
+		primary = ATJ
+	}
+	batak = {
+		primary = ARU
+	}
+	minang = {
+		primary = MKP
+	}
+	banjar = {
+		primary = BKS
+	}
+	sumatran = {
+	}
+	tausug = {
+		primary = SUL
+	}
+	dynasty_names = { 
+		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
+	}
+}
+
+javan_group = {
+	graphical_culture = asiangfx
+	sundanese = {
+	}
+	javan = {
+	}
+	balinese = {
+	}
+	dynasty_names = { 
+		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
+	}
+}
+
+filipino_group = {
+	graphical_culture = asiangfx
+	filipino = {
+		primary = SUL
+	}
+	maguindanao = {
+		primary = MGD
+	}
+	tagalog = {
+	}
+	cebuano = {
+	}
+	taiwanese = {
+	}
+	dynasty_names = { 
+		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
+	}
+}
+
+thai_group = { 
+	graphical_culture = asiangfx
+	baizu = {
+		primary = DLI
+	}
+#	central_thai = {
+#		primary = AYU
+#	}
+	lanna = {
+		primary = LXA
+	}
+	laotian = {
+		primary = LUA
+	}
+	thai = {
+		primary = SUK
+	}
+	shan = {
+		primary = SST
+	}
+	zhuang = {
+		primary = ZHN
+	}
+	dynasty_names = { 
+		"Mangrai" "Chaochetton" "Phra Ruang" "Champassak"
+	}
+}
+
+burman = { 
+	graphical_culture = asiangfx
+	burmese = {
+		primary = TAU
+	}
+	tibetan = {
+		primary = TIB
+	}
+	chin = {
+	}
+	ladakhi = {
+		primary = LDK
+	}	
+	dynasty_names = { 
+		Gyatso Dorje
+	}
+}
+
+wallacean = {
+	graphical_culture = asiangfx
+	papuan = {
+	}
+	aboriginal = {
+	}
+	melanesian = {
+	}
+	moluccan = {
+	}
+	bugis = {
+	}
+	sulawesi = {
+		primary = MKS
+	}
+	hawaian = {
+		 primary = HAW
+	}
+}
+
+eastern_aryan = {
+	graphical_culture = indiangfx
+	assamese = {
+		primary = ASS
+		dynasty_names = { "Khen" "Ahom" "Jantija" "Nagas" "Chutiyas" "Meitei"	}
+	}
+	bengali = {
+		primary = BNG
+		dynasty_names = { "Ilyas Shahi" "Ganesha" "Hussein Shahi"  "Najafi" "Afshari" "Nasiri" "Koch" "Kachari"
+		"Karrani"  }
+	}
+	bihari = {
+		primary = AHM
+		dynasty_names = { "Sugauna" "Sharqi" "Suri"	"Oinwara" }
+	}
+	oriya = {
+		primary = ORI
+		dynasty_names = { "Chindaka Naga" "Gajapati" "Eastern Ganga" "Bhoi" "Chagi" "Pusapati" }
+	}
+	
+	dynasty_names = {	}
+	
+}
+
+hindusthani = {
+	graphical_culture = indiangfx
+	urdu = {
+		dynasty_names = { "Mughal" "Timurid" "Baburid" } #Different name same thing, this culture is only primary for the mughal empire, any local noble seizing power would use ties to the Mughals as justification
+	}
+	avadhi = {
+		primary = ODH
+		dynasty_names = { "ud Daula" "Awadhi" "Chand"	}
+	}
+	kanauji = {	#renamed to Brijwasi
+		primary = DLH
+		dynasty_names = { "Tughluq" "Lodi" "Khilji"	}
+	}
+	panjabi = {
+		primary = PUN
+		dynasty_names = { "Kohkkar" "Gakhkhar" "Phulkian" "Bhullara" "Dhaliwala" "Sandhawalia" "Ahluwalia"	}
+	}
+	kashmiri = {
+		primary = KSH
+		dynasty_names = { "Shah Miri" "Sayyidi" "Mirrani"	}
+	}
+	bundeli = {
+		primary = BND
+		dynasty_names = { "Bundela" "Malikzada" "Tomara" "Raghuvansi" "Parmari" }
+	}
+	sindhi  = {
+		primary = SND
+		dynasty_names = { "Samma" "Kalhora" "Summira" }
+	}
+	multani = {
+		primary = MUL
+		dynasty_names = { "Langa" "Mirrani" "Abbasi" }
+	}
+	
+	dynasty_names = {	}
+	
+}
+
+central_indian = {
+	graphical_culture = indiangfx
+	gondi = {
+		primary = GHR
+		dynasty_names = { "Chandi" "Garha-Mandli" "Raj Gondi" "Kherli" "Deogadhi" "Ballar Shahi" "Haihaya" "Gadhi" }
+	}
+	nagpuri = {
+		primary = NGP
+		dynasty_names = { "Palamaui" "Raksel" }
+	}
+	sambalpuri = {
+		primary = GRJ
+		dynasty_names = { "Bhanja" "Chindaka-Naga" "Rathore" "Singha" "Gangavanshi" "Chauhan" "Kadamba" "Keshari" "Silavamsi" "Gangabasi" "Sankara" "Parmar" }
+	}
+	
+	
+	dynasty_names = {  }
+}
+
+pahari_group = {
+	graphical_culture = indiangfx
+	pahari = {
+		primary = KGR
+		dynasty_names = { "Katoch" "Parmar" "Chand"	}
+	}
+	nepali = {
+		primary = NPL
+		dynasty_names = { "Malla" "Ghorka" 	}
+	}
+	dynasty_names = { }
+}
+
+deccan_group = {
+	graphical_culture = indiangfx
+	marathi = {
+		primary = MAR
+		dynasty_names = { "Bhonsle" "Gaikwar" "Bhat" "Sindhia" "Koli"	}
+	}
+	#konkani  = {
+	#	primary = JAJ
+	#	dynasty_names = { "Koli" }
+	#}
+	khandeshi = {
+		primary = KHD
+		dynasty_names = { "Faruqi" "Rastraudha" "Solanki" }
+	}
+	kannada = {
+		primary = MYS
+		dynasty_names = { "Wodeyar" "Sangama" "Saluva" "Tuluva" "Alupa" "Keladi" "Ummattur" }
+	}
+	telegu = {
+		primary = GOC
+		dynasty_names = { "Aravidu" "Talpura" "Velama" "Saluva" "Tuluva" "Sangama" "Pemmasani" "Tupakula" }
+	}
+	tuluva = {
+		primary = KLN
+		dynasty_names = { "Tuluva" "Keladi" "Chowta" }
+	}
+	
+	dynasty_names = { }
+	
+}
+
+rajput = {
+	graphical_culture = indiangfx
+	mewari = {
+		primary = MEW
+		dynasty_names = { "Sisodiya" }
+	}
+	dhundari = {
+		primary = JAU
+		dynasty_names = { "Khan Zada" "Kachwaha" "Satnami"	}
+	}
+	marwari  = {
+		primary = MAW
+		dynasty_names = { "Rathore" }
+	}
+	harauti = {
+		primary = HAD
+		dynasty_names = { "Hada" "Chauhan"  }
+	}
+	malvi = {
+		primary = MLW
+		dynasty_names = { "Holkar" "Qadirid" "Shaja'atid" "Khalji"	}
+	}
+	gujarati = {
+		primary = GUJ
+		dynasty_names = { "Muzaffarid" "Ahmad Shahi"	}
+	}
+	saurashtri = {
+		primary = KAT
+		dynasty_names = { "Vadher" "Babi" "Rawal" "Jadeja" "Gohil" "Jethwa" }
+	}
+	bhil = {
+		primary = CMP
+		dynasty_names = { "Chauhan" "Gohil" }
+	}
+	jati = {
+		primary = BIK
+		dynasty_names = { "Tomara" "Jadeja" "Khirwara" "Nauhwara" "Sinsiniwar" "Balhara" "Panwara" }
+	}
+	
+	dynasty_names = { }
+}
+
+dravidian = {
+	graphical_culture = indiangfx
+	malayalam = {
+		primary = TRV
+		dynasty_names = { "Kolathiri" "Saamoothiri" "Perumal" "Perumpadappu" "Kulasekhara" "Cheraman" }
+	}
+	sinhala = {
+		primary = KTH
+		dynasty_names = { "Kotteid" "Konnapu Bandara" "Gampolan" }
+	}
+	tamil = {
+		primary = MAD
+		dynasty_names = { "Saadatullahid" "Anwarudid" "Pandya" "Thondaiman" "Thanjavuri" "Sethupathy" "Saluva" }
+	}
+	mahl = {
+		primary = MLD
+		dynasty_names = { "Hilaalee" "Utheemu" "Huraa" "Dhiyamigili" }
+	}
+	
+	dynasty_names = { }
+	
+}
+
+madagascan_group = {
+	graphical_culture = africangfx
+	madagascan = {
+	}
+	madagasque = {
+	}
+}
+
+tuareg_culture = {
+	graphical_culture = muslimgfx
+	tuareg = {
+		primary = TUA
+	}
+}
+
+soudanese = {
+	graphical_culture = africangfx
+	fulani = {
+		primary = SOK 
+	}
+	mali = {
+		primary = MAL
+		dynasty_names = {
+			"Habe" "Fulani" "Fodio" "Sayfawa" Coulibaly Keita Askia Diarra
+		}
+	}
+	senegambian = {
+		primary = DJO
+	}
+	songhai = {
+		primary = SON
+	}
+	dynasty_names = { 
+		Fodio Keita Askia Askiya Sonni
+	}
+}
+
+guinean = {
+	graphical_culture = africangfx
+	akaa = {
+		primary = ASH
+	}
+	dyola = {
+	}
+	mossi = {
+		primary = MSI
+	}
+#FB	ashanti = {
+#FB	}
+	dynasty_names = { 
+		Dagomba Denkyirahene "Oyoko Abohyen"
+	}
+}
+
+chadic_group = {
+	graphical_culture = africangfx
+	chadic = {
+		primary = DAR
+	}
+	kanouri = {
+		primary = KBO
+	}
+	toubous = {
+	}	
+	dynasty_names = { 
+		Sayfawa
+	}
+}
+
+nigerian = {
+	graphical_culture = africangfx
+	haussa = {
+		primary = KNO
+	}
+	yorumba = {
+		primary = OYO
+		dynasty_names = {
+			"Alaafin" "Abomey" 
+		}
+	}
+	igbo = {
+		primary = NRI
+	}
+	dynasty_names = { 
+		Alaafin Abomey
+	}
+}
+
+southern_african = {
+	graphical_culture = africangfx
+	xhosa = {
+	}
+	zulu = {
+	}
+	shona = {
+		primary = ZIM
+		dynasty_names = { 
+			Mwenemutapa Rozwi Mutopa
+		}
+	}
+	khoisan = {
+	}
+	dynasty_names = { 
+		Mwenemutapa
+	}
+}
+
+bantu_group = {
+	graphical_culture = africangfx
+	bakongo = {
+		primary = LOA
+	}
+	luba = {
+		primary = NDO
+	}
+	lunda = {
+		primary = KON
+	}
+	kikuyu = {
+	}
+#FB	bantu = {
+#FB	}
+	kongolese = {
+		dynasty_names = { 
+			Lukeni Loanga
+		}
+	}
+	dynasty_names = { 
+		Lukeni Loanga Kinlaza Babiito 
+	}
+}
+	
+swahili_group = {
+	graphical_culture = africangfx
+	kiunguja = {
+		primary = ZAN
+	}
+	kimgao = {
+		primary = KIL
+	}
+	kimwani = {
+		primary = SOF
+	}
+	chimwini = {
+		primary = MOG
+	}
+	kingwana = {
+	}
+	chwezi = {
+		primary = KIT
+	}
+	dynasty_names = { 
+		Kilwa Nabahani Mombasa Coulibaly Diarra
+	}
+}
+
+cushitic = {
+	graphical_culture = africangfx
+	nubian = {
+		primary = SEN # NBU
+		dynasty_names = { 
+			Senar Solomonid
+		}
+	}
+	somali = {
+		primary = ADA
+		dynasty_names = { 
+			Walashma 
+		}
+	}
+	amhara = {
+		primary = ETH
+		dynasty_names = { 
+			Solomonid Senar
+		}
+	}
+	tigrean = {
+	}
+	afar = {
+	}
+#FB	ethiopian = {
+#FB	}
+	dynasty_names = { 
+		Senar Walashma Solomonid 
+	}
+}
+
+colonial_french = {
+	graphical_culture = westerngfx
+	acadian = {
+		primary = LOU
+	}
+	creole = {
+		primary = HAI
+	}
+	canadian = {
+		primary = QUE
+	}
+}
+
+colonial_british = {
+	graphical_culture = westerngfx
+	american = {
+		primary = USA
+	}
+	australian = {
+	}
+	dynasty_names = {
+		Washington Adams Jefferson Jackson Johnson
+	}
+}
+
+colonial_spanish = {
+	graphical_culture = westerngfx
+	mexican = {
+		primary = MEX
+	}
+	caribean = {
+	}
+	colombian = {
+		primary = COL
+	}
+	peruvian = {
+		primary = PEU
+	}
+	platean = {
+		primary = LAP
+	}
+	brazilian = {
+		primary = BRZ
+	}
+	angolan = {
+	}
+}
+
+colonial_germanic = {
+	graphical_culture = westerngfx
+	amerikaner = {
+	}
+	afrikaner = {
+	}
+	batavian = {
+	}
+	tasmanian = {
+	}
+}
+
+colonial_japanese = {
+	graphical_culture = asiangfx
+	nangokujin = {
+	}
+	toukokujin = {
+	}
+	nantoukokujin = {
+	}
+	seikokujin = {
+	}
+	shotoujin = {
+	}
+	hokkokujin = {
+	}
+}
+
+colonial_chinese = {
+	graphical_culture = asiangfx
+	nanguoren = {
+	}
+	dongguoren = {
+	}
+	nandongguoren = {
+	}
+	xiguoren = {
+	}
+	beiguoren = {
+	}
+}
+
+colonial_korean = {
+	graphical_culture = asiangfx
+	namgukin = {
+	}
+	donggukin = {
+	}
+	namdonggukin = {
+	}
+	seogukin = {
+	}
+	baegukin = {
+	}
+}
+
+jungle_american = {
+	graphical_culture = southamericagfx
+	guarani = {
+	}
+	amazonian = {
+	}
+	guajiro = {
+	}
+	teremembe = {
+	}
+	tupinamba = {
+	}
+	mataco = {
+	}
+}
+
+andean_american = {
+	graphical_culture = southamericagfx
+	quechuan = {
+		primary = CZC
+	}
+	aimara = {
+		primary = AYM
+	}
+	patagonian = {
+	}
+	mapuche = {
+		primary = MAP
+	}
+	nazca = {
+		primary = NZC
+	}
+	chimu = {
+		primary = CHM
+	}
+	chibcha = {
+		primary = CBC
+	}
+	dynasty_names = { 
+		Hanan 
+	}
+}
+
+west_algonquian = {
+	graphical_culture = northamericagfx
+	cree = {
+	}
+	huron = {
+	}
+	innu = {
+	}
+	iroquois = {
+	}
+	miqmaq = {
+	}
+}
+
+east_algonquian = {
+	graphical_culture = northamericagfx
+	cherokee = {
+	}
+	creek = {
+	}
+	lenape = {
+	}
+	powhatan = {
+	}
+	shawnee = {
+	}
+}
+
+apachean = {
+	graphical_culture = northamericagfx
+	dakota = {
+	}
+	apache = {
+	}
+	navajo = {
+	}
+	chichimecha = {
+	}
+	coahuiltec = {
+	}
+}
+
+athabascan_group = {
+	graphical_culture = northamericagfx
+	shoshone = {
+	}
+	hopi = {
+	}
+	tlingit = {
+	}
+}
+
+caddoan = {
+	graphical_culture = northamericagfx
+	caddo = {
+	}
+	chiwbe = {
+	}
+}
+
+carribean = {
+	graphical_culture = southamericagfx
+	arawak = {
+	}
+	carib = {
+	}
+}
+
+eskimo = {
+	graphical_culture = inuitgfx
+	yupik = {
+	}
+	inuit = {
+	}
+}
+
+plain_indians = {
+	graphical_culture = northamericagfx
+	sioux = {
+	}
+	pawnee = {
+	}
+	ojibwa = {
+	}
+}
+
+manguean_group = {
+	graphical_culture = northamericagfx
+	otomian = {
+		primary = TEO
+	}
+	mixtec = {
+		primary = MIX
+	}
+	zapotec = {
+		primary = ZAP
+	}
+	manguean = {
+	}
+	totonecan = {
+	}
+	zoque = {
+	}
+}
+
+aztecan_group = {
+	graphical_culture = southamericagfx
+	nahuatl = {
+		primary = TEN
+	}
+	taracahitan = {
+	}
+	purepechan = {
+#		primary = TPN
+	}
+}
+
+mayan_group = {
+	graphical_culture = southamericagfx
+	mayan = {
+		primary = MAY
+	}
+	cholan = {
+	}
+	quichean = {
+	}
+}
+
+chibchan_group = {
+	graphical_culture = southamericagfx
+	pech = {
+	}
+	chibchan = {
+	}
+	arawako = {
+	}
+	misumalpan = {
+	}
+}
+
+mesoamerican = {
+	graphical_culture = southamericagfx
+	coahuiltecan = {
+	}
+	athabascan = {
+	}
+}
+ 

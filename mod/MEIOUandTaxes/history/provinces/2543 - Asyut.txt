@@ -1,0 +1,66 @@
+# 2543 - Al Fayym
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = egyptian
+religion = sunni
+capital = "Al Fayym"
+trade_goods = wheat
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 6030
+fort1 = yes
+
+discovered_by = ADA
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = eastern
+
+1450.1.1   = { citysize = 6200 }
+1500.1.1   = { citysize = 6605 }
+1517.1.1   = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # Conquered by Ottoman troops
+1550.1.1   = { citysize = 7050 }
+1586.1.1   = { revolt_risk = 2 } # Oppositions
+1589.1.1   = { revolt_risk = 4 }
+1598.1.1   = { revolt_risk = 6 }
+1600.1.1   = { citysize = 7980 }
+1601.1.1   = { revolt_risk = 8 }
+1604.1.1   = { revolt_risk = 10 }
+1623.1.1   = { revolt_risk = 5 }
+1624.1.1   = { revolt_risk = 2 }
+1631.1.1   = { revolt_risk = 4 }
+1632.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 9099 }
+1695.1.1   = { revolt_risk = 3 } # Demonstrations against the Mamelukes
+1700.1.1   = { citysize = 9300 }
+1724.1.1   = { revolt_risk = 3 } # Power struggle
+1730.1.1   = { mint = yes }
+1750.1.1   = { citysize = 10000 }
+1789.10.22 = { revolt_risk = 6 } # Introduction of house tax, strained relations 
+1796.1.1   = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Revolts against the Ottomans
+1798.8.3   = { revolt = {} controller = RFR } # Occupied by the French
+1800.1.1   = { citysize = 10487 }
+1802.5.13  = {
+	controller = TUR
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

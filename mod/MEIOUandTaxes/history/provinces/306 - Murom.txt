@@ -1,0 +1,69 @@
+# 306 - Murom
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MUR
+controller = MUR
+culture = russian
+religion = orthodox
+capital = "Murom"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 3394
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1  = {
+	add_core = MUR
+	add_core = BLU
+}
+1382.1.1  = {
+	add_core = GOL
+	remove_core = BLU
+}
+1392.1.1  = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = MUR
+}
+1480.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1500.1.1   = { citysize = 3393 }
+1511.1.1   = { fort2 = yes marketplace = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 4698 }
+1560.1.1   = { base_tax = 7 } # Treasury reform
+1598.1.1   = { revolt_risk = 5 } # "Time of troubles"
+1600.1.1   = { citysize = 5527 }
+1610.9.27  = { add_core = POL } # Polish-Lituanian occupation
+1612.1.1   = { remove_core = POL } # Knyaz Dmitry Pozharsky expelles the Polish troops.
+1613.1.1   = { revolt_risk = 0 } # Order returned, Romanov dynasty
+1631.1.1   = { temple = yes } # Archangel cathedral
+1650.1.1   = { citysize = 6503 }
+1670.1.1   = { revolt_risk = 8 } # Stepan Razin
+1671.1.1   = { revolt_risk = 0 } # Razin is captured
+1700.1.1   = { citysize = 7650 }
+1721.10.22 = { base_tax = 8 mint = yes } # Governmental reforms and the absolutism
+1750.1.1   = { citysize = 9000 }
+1767.1.1   = { base_tax = 9 } # Legislative reform
+1773.1.1   = { revolt_risk = 5 } # Emelian Pugachev, Cossack insurrection
+1774.9.14  = { revolt_risk = 0 } # Pugachev is captured
+1800.1.1   = { citysize = 13100 }

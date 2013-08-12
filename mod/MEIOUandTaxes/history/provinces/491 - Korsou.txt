@@ -1,0 +1,67 @@
+# 491 - Korsou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Kòrsou"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 6
+
+1499.1.1  = {
+	discovered_by = CAS
+	owner = CAS
+	controller = CAS
+	culture = castillian
+	religion = catholic
+	citysize = 550
+	capital = "Curaçao"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # Christopher Columbus 
+1516.1.23 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+}
+1524.1.1  = {
+	add_core = SPA }
+1550.1.1  = {
+	citysize = 1200 }
+1600.1.1  = {
+	citysize = 1360 }
+1634.1.1  = {
+	owner = NED
+	controller = NED
+	culture = dutch
+	religion = reformed
+	capital = "Punda"
+	citysize = 1460
+	remove_core = SPA
+} # Dutch occupation, Punda is founded ( later: Willemstad )
+1650.1.1  = {
+	citysize = 1690
+}
+1659.1.1  = {
+	add_core = NED
+}
+1700.1.1  = {
+	citysize = 1700
+}
+1750.1.1  = {
+	citysize = 1830
+}
+1800.1.1  = {
+	citysize = 1960
+}
+1807.1.1  = {
+	controller = GBR
+} # Occupied by British forces
+1815.6.9  = {
+	controller = NED
+} # Restored to the Netherlands

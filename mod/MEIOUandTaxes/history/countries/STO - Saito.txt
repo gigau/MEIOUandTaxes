@@ -1,0 +1,87 @@
+# STO - Saito clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kansai
+religion = shinbutsu
+technology_group = chinese
+capital = 2286	# Saito
+daimyo = yes
+
+1497.12.1 = {
+	monarch = {
+		name = "Toshinaga"
+		dynasty = "Saito"
+		adm = 4
+		dip = 4
+		mil = 5
+		}
+}
+
+1538.1.1 = {
+	monarch = {
+		name = "Toshimasa" # Saito Dosan
+		dynasty = "Saito"
+		adm = 6
+		dip = 7
+		mil = 6
+		}
+}
+
+1538.1.1 = {
+	heir = {
+		name = "Yoshitatsu"
+		monarch_name = "Yoshitatsu"
+		dynasty = "Saito"
+		birth_date = 1527.7.8
+		death_date = 1561.6.23
+		claim = 80
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+	
+1556.5.28 = { 
+	monarch = {
+		name = "Yoshitatsu"
+		dynasty = "Saito"
+		adm = 6
+		dip = 6
+		mil = 7
+		}
+	}
+	
+1556.5.28 = {
+	heir = {
+		name = "Tatsuoki"
+		monarch_name = "Tatsuoki"
+		dynasty = "Saito"
+		birth_date = 1548.1.1
+		death_date = 1573.9.10
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+	
+1561.6.23 = { 
+	monarch = {
+		name = "Tatsuoki"
+		dynasty = "Saito"
+		adm = 3
+		dip = 4
+		mil = 3
+		}
+	}

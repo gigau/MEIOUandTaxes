@@ -1,0 +1,56 @@
+# 1319 - Badiyat Ash Sham
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAI
+controller = JAI
+culture = kurdish
+religion = sunni
+capital = "Dayr az-Zawr"
+trade_goods = wheat
+hre = no
+base_tax = 3
+#manpower = 4
+manpower = 8
+citysize = 12544
+fort1 = yes
+discovered_by = TUR
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1 = {
+	add_core = JAI
+}
+1393.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1405.2.20 = {
+	owner = MAM
+	controller = MAM
+	add_core = MAM
+	remove_core = JAI
+} # Given to the Mameluks
+1450.1.1  = { citysize = 13770 }
+1500.1.1  = { citysize = 14930 }
+1516.1.1 = { add_core = TUR }
+1516.8.28 = { controller = TUR }
+1517.4.13   = {	owner = TUR } # Conquered by Ottoman troops
+1550.1.1  = { citysize = 15844 }
+1600.1.1  = { citysize = 16760 }
+1650.1.1  = { citysize = 17150 }
+1700.1.1  = { citysize = 18540 }
+1750.1.1  = { citysize = 19133 add_core = SYR }
+1800.1.1  = { citysize = 22810 }
+1831.1.1 = {
+	controller = EGY
+}
+1833.6.1 = {
+	owner = EGY
+}
+1841.2.1  = {
+	owner = TUR
+	controller = TUR
+} # Part of the Ottoman Empire

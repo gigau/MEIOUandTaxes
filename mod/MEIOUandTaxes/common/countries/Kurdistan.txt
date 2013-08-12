@@ -1,0 +1,52 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 205  222  20 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	muslim_cavalry_archers
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	persian_rifle
+}
+
+monarch_names = {
+	"Muhammad #0" = 10
+	"Abd al Aziz #0" = 10
+	"'Abdullah #0" = 10
+	"Turki #0" = 10
+	"Faisal #0" = 10
+	"Abd Al-Rahman #0" = 10
+	"Khalid #0" = 10
+	"Fahd #0" = 10
+}
+
+leader_names = {
+	"Al Sabah"
+	"Al Farran"
+	"Al Nubi"
+	"Akil"
+	Surur
+	Atef
+	Madani
+	"Al Jaber"
+	Billah
+	Kanasani
+}
+
+ship_names = {
+	"Al-Armah" "Ad-Dahna" "Jabal Tuwayo"
+	"Nafüd Qunayfidahah" "Nafüd Shuqayyiqah"
+	"Al-Bayad" "Nafüd Ad-Dahy" "Nafüd As-Sirrah"
+	"Ar-Riyad" "Ad-Dilam" Shaqra
+}

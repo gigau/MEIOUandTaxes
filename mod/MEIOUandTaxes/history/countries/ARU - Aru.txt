@@ -1,0 +1,131 @@
+# Country: ARU - Aru
+# MEIOU-FB Indonesia mod v3
+# Aru is used to represent several muslim city-states in northern Sumatra
+# including Samudra, Pedir and the important religious centre of Pasai
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 3
+primary_culture = batak
+religion = sunni		#became muslim c1450, but set from start for playbalance
+technology_group = indian
+capital = 618	# Batak
+
+1267.1.1 = {
+	monarch = {
+		name = "Malik ul Salih"
+		dynasty = "Syah"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # first muslim sultan of Pasai
+
+1470.1.1 = {
+	monarch = {
+		name = "Muzaffar"
+		dynasty = "Syah"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+} # first muslim sultan of Pedir (died 1497, reign start date is a guess)
+
+1497.1.1 = {
+	monarch = {
+		name = "Ma'ruf"
+		dynasty = "Syah"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+} # second muslim sultan of Pedir
+
+1630.1.1 = {
+	monarch = {
+		name = "Abdul Jalil"
+		dynasty = "Syah"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1680.1.1 = {
+	monarch = {
+		name = "Sa'id"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1700.1.1 = {
+	monarch = {
+		name = "Muhammad Mahrum"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Abdul Jalil II"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1765.1.1 = {
+	monarch = {
+		name = "Deva"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1805.1.1 = {
+	monarch = {
+		name = "Sa'id Musa"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1808.1.1 = {
+	monarch = {
+		name = "Muhammad 'Ali"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1813.1.1 = {
+	monarch = {
+		name = "Muhammad Husain Rahmad"
+		dynasty = "Syah"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

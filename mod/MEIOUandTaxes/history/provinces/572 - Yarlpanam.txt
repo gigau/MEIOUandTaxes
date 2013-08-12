@@ -1,0 +1,45 @@
+# 572 - Jaffna
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAF
+controller = JAF
+culture = tamil
+religion = theravada
+capital = "Jaffna"
+trade_goods = cinnamon
+hre = no
+marketplace = yes
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 4308
+add_core = JAF
+discovered_by = muslim
+discovered_by = indian
+
+1450.1.1 = {
+	owner = KTH
+	controller = KTH
+}
+1477.1.1 = {
+	owner = JAF
+	controller = JAF
+}
+1500.1.1 = { citysize = 4877 }
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+1550.1.1 = { citysize = 5412 }
+1600.1.1 = { citysize = 6320 }
+1619.1.1 = { owner = POR controller = POR }
+1644.1.1 = { add_core = POR }
+1650.1.1 = { citysize = 7564 }
+1660.1.1 = { owner = NED controller = NED remove_core = POR } # Dutch control
+1685.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 9050}
+1750.1.1 = { citysize = 10870 }
+1799.8.1 = { controller = GBR } # Occupied by England
+1800.1.1 = { citysize = 12332 }
+1802.3.25 = {
+	owner = GBR
+	add_core = GBR
+	remove_core = NED
+} # Treaty of Amiens

@@ -1,0 +1,67 @@
+#Country Name: Bali
+#Tag: BLI
+#MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = { 201  97  74 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Wikramawardhana #0" = 20
+	"Suhita #0" = 20
+	"Dyah Kertawijaya #0" = 20
+	"Ketut Ngulesir #0" = 20
+	"Watu Renggong #0" = 20
+	"Dalem Bekung #0" = 20
+	"Dalem Di Made #0" = 20
+	"Dewa Agung Jambe #0" = 20
+	"Dewa Agung Di Made #0" = 20
+	"Dewa Agung Sakti #0" = 20
+	"Dewa Agung Putra #0" = 20
+	"Dewa Ketut #0" = 20
+	"Sri Aji Baturenggong #0" = 20
+	"Dewa Bekung #0" = 20
+	"Anglurah Agung #0" = 20
+	"Dewa Pacekan #0" = 20
+}
+
+leader_names = {
+	Hamengku
+	Agung
+	Slamet
+	Budi
+	Harto
+	Karno
+	Wani
+	Mas
+	Kencono
+	Ratri
+}
+
+ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}

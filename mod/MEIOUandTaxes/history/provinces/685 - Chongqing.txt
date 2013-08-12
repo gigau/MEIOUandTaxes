@@ -1,0 +1,94 @@
+# 685 - Chongqing
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SHU
+controller = SHU
+culture = sichuanhua
+religion = confucianism
+capital = "Chongqing"
+trade_goods = opium
+hre = no
+base_tax = 10
+#manpower = 6
+manpower = 12
+citysize = 150000
+discovered_by = chinese
+discovered_by = steppestech
+
+fort1 = yes 
+marketplace = yes
+
+cot = yes
+
+#0967.1.1 = {
+#	owner = SNG
+#	controller = SNG
+#	add_core = SNG
+#	add_core = YUA
+#}
+#1241.1.1 = {
+#	owner = SHU
+#	controller = SHU
+#}
+#1259.1.1 = {
+#	owner = YUA
+#	controller = YUA
+#	remove_core = SNG
+#}
+#1354.1.1 = {
+#	add_core = DAX
+#}
+1353.1.1 = {
+	owner = DAX
+	controller = DAX
+	add_core = YUA
+	add_core = SHU
+	add_core = DAX
+}
+1368.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+}
+1400.1.1 = { citysize = 150000 }
+1450.1.1 = { citysize = 150000 }
+1500.1.1 = { citysize = 150000 }
+1550.1.1 = { citysize = 150000 }
+1600.1.1 = { citysize = 150000 }
+1644.3.19  = { owner = DXI
+	      controller = DXI
+	      add_core = DXI
+}
+1646.1.1 = {
+	owner = QNG
+	controller = QNG
+#	add_core = QNG
+	remove_core = DXI
+} # The Qing Dynasty
+# No core to simulate local resistance
+
+1650.1.1 = { citysize = 150000 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = { remove_core = MNG }
+
+1673.11.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = QNG
+	add_core = ZOU
+} # Wu Sangui revolt, core given to Qing for reconquering
+1680.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 150000 }
+1750.1.1 = { citysize = 150000 }
+1800.1.1 = { citysize = 150000 }

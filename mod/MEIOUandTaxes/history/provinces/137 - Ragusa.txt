@@ -1,0 +1,54 @@
+# 137 - Ragusa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = RAG
+controller = RAG
+culture = croatian
+religion = catholic
+capital = "Ragusa"
+trade_goods = wax
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 9558
+fort1 = yes
+cot = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+#	owner = VEN
+#	controller = VEN
+#	add_core = VEN
+	add_core = RAG
+#	culture = dalmatian
+}
+#1358.2.18  = {
+#	owner = RAG
+#	controller = RAG
+#	culture = croatian
+#} # Treaty of Zadar
+1460.1.1  = { marketplace = yes }
+1500.1.1  = { citysize = 10230 }
+1550.1.1  = { citysize = 12990 shipyard = yes } # Ragusa reached its peak
+1600.1.1  = { citysize = 13790 fort2 = yes }
+1610.1.1  = { fine_arts_academy = yes } # Became the center of the "Dalmatian renaissance"
+1630.1.1  = { customs_house = yes }
+1650.1.1  = { citysize = 14005 fort3 = yes }
+1667.1.1  = { citysize = 9102 } # Earthquake, the city gradually declined, -5000
+1690.1.1  = { mint = yes }
+1700.1.1  = { citysize = 8763 courthouse = yes }
+1750.1.1  = { citysize = 9012 }
+1800.1.1  = { citysize = 9400 }
+1806.5.26 = { controller = RFR } # Occupied by French troops
+1806.6.17 = { controller = RAG } # The French are defeated
+1806.7.12 = { controller = RFR owner = RFR add_core = RFR } # Treaty of Tilsit
+1813.9.20 = { controller = HAB } # Occupied by Austrian forces
+1814.4.6  = {
+	owner = HAB
+	add_core = HAB
+	remove_core = RFR
+} # Napoleon abdicates

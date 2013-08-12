@@ -1,0 +1,41 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = LIT
+controller = LIT
+culture = lithuanian
+religion = orthodox
+capital = "Minsk"
+trade_goods = wax
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 1795
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = LIT
+}
+1500.1.1   = { citysize = 2112 }
+1550.1.1   = { citysize = 2485 marketplace = yes }
+1569.1.1   = { fort2 = yes }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1600.1.1   = { citysize = 5000 }
+1650.1.1   = { citysize = 10000 }
+1700.1.1   = { citysize = 15000 }
+1750.1.1   = { citysize = 20000 }
+1793.1.23  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = PLC
+	culture = byelorussian
+} # First partition
+1800.1.1   = { citysize = 30000 }

@@ -1,0 +1,254 @@
+# AUV - Auvergne
+# MEIOU-GG Govenemnt changes
+# 2009-dec-28 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -1 
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = francien
+add_accepted_culture = poitevin
+religion = catholic
+capital = 199	# Clermont
+
+1332.1.1 = {
+	monarch = {
+		name = "Jeanne"
+		dynasty = "d'Auvergne"
+		adm = 5
+		dip = 6
+		mil = 4
+		female = yes
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean"
+		dynasty = "d'Auvergne"
+		female = yes
+		birth_date = 1316.1.1
+		death_date = 1386.1.1
+		claim = 85
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}
+
+1361.1.1 = {
+	monarch = {
+		name = "Jean"
+		dynasty = "d'Auvergne"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean II"
+		dynasty = "d'Auvergne"
+		female = yes
+		birth_date = 1336.1.1
+		death_date = 1394.1.1
+		claim = 85
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1386.1.1 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "d'Auvergne"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Jeanne"
+		monarch_name = "Jeanne II"
+		dynasty = "d'Auvergne"
+		female = yes
+		birth_date = 1356.1.1
+		death_date = 1422.1.1
+		claim = 85
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Jeanne II"
+		dynasty = "d'Auvergne"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+	heir = {
+		name = "Marie"
+		monarch_name = "Marie"
+		dynasty = "de la Tour"
+		female = yes
+		birth_date = 1376.9.1
+		death_date = 1437.7.8
+		claim = 85
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Marie"
+		dynasty = "de la Tour"
+		adm = 5
+		dip = 6
+		mil = 5
+		female = yes
+	}
+	heir = {
+		name = "Bertrand"
+		monarch_name = "Bertrand II"
+		dynasty = "de la Tour"
+		birth_date = 1390.1.1
+		death_date = 1461.3.22
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1437.7.8 = {
+	monarch = {
+		name = "Bertrand II"
+		dynasty = "de la Tour"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Bertrand"
+		monarch_name = "Bertrand III"
+		dynasty = "de la Tour"
+		birth_date = 1417.1.1
+		death_date = 1494.9.26
+		claim = 95
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1461.3.22 = {
+	monarch = {
+		name = "Bertrand III"
+		dynasty = "de la Tour"
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+1467.1.1 = {
+	heir = {
+		name = "Jean"
+		monarch_name = "Jean III"
+		dynasty = "de la Tour"
+		birth_date = 1467.1.1
+		death_date = 1501.3.21
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+		
+1494.9.26 = {
+	monarch = {
+		name = "Jean III"
+		dynasty = "de la Tour"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Anne"
+		monarch_name = "Anne"
+		dynasty = "de la Tour"
+		female = yes
+		birth_date = 1484.1.1
+		death_date = 1524.6.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1501.3.21 = {
+	monarch = {
+		name = "Anne"
+		dynasty = "de la Tour"
+		adm = 4
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1519.4.13 = {
+	heir = {
+		name = "Cathérine"
+		monarch_name = "Cathérine"
+		dynasty = "de' Medici"
+		birth_date = 1519.4.13
+		death_date = 1589.1.5
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+		
+1524.6.1 = {
+	monarch = {
+		name = "Cathérine"
+		dynasty = "de' Medici"
+		adm = 4
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+
+1531.3.28 = {
+	government = despotic_monarchy_4
+}
+
+1560.1.1 = { 
+	religion = reformed 
+	# secularism_theocracy = -1
+}
+
+1562.11.18 = {
+	government = administrative_monarchy_4
+}
+
+1661.3.9 = {
+	government = absolute_monarchy_4
+}

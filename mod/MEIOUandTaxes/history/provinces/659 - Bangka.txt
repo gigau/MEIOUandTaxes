@@ -1,0 +1,60 @@
+#Province: Bangka
+#file name: 659 - Bangka
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+#
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SRV
+controller = SRV
+culture = malayan
+religion = theravada
+capital = "Riau"
+trade_goods = copper
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 1550
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = SRV
+	add_core = MPH
+	add_core = PLB
+}
+1377.1.1 = {
+	owner = MPH
+	controller = MPH
+	remove_core = SRV
+} # Majapahit destroys the remains of the Srivijaya
+1400.1.1 = { citysize = 1690 }
+1405.1.1 = { discovered_by = MNG }
+1478.1.1 = {
+	owner = PLB
+	controller = PLB
+	remove_core = MPH
+} # Destruction of Majapahit 
+1500.1.1 = { citysize = 1880 }
+1509.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 2380 religion = sunni }
+1587.1.1 = {
+	owner = MTR
+	controller = MTR
+}
+1600.1.1 = { citysize = 2957 }
+1650.1.1 = { citysize = 3560 }
+1682.1.1 = {
+	owner = PLB
+	controller = PLB
+}
+1684.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 3886 }
+1750.1.1 = { citysize = 4600 }
+1800.1.1 = { citysize = 5200 }
+1812.1.1 = { owner = GBR controller = GBR revolt_risk = 2 } # The Dutch gradually gained control
+1825.1.1 = { owner = NED controller = NED } # The Dutch gradually gained control

@@ -1,0 +1,192 @@
+#TLE - Tlemcen
+#MEIOU-GG Governemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = despotic_monarchy_3b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+technology_group = muslim
+religion = sunni
+primary_culture = kabyle
+add_accepted_culture = algerian
+capital = 338
+
+1353.1.1 = {
+	monarch = {
+		name = "Hammou Moussa II"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1389.1.1 = {
+	monarch = {
+		name = "Zeyane"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1389.6.1 = {
+	monarch = {
+		name = "El Hadjadj Youssef"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1393.1.1 = {
+	monarch = {
+		name = "Zeyane"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Mohamed"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1401.1.1 = {
+	monarch = {
+		name = "Abdallah El Tensi"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Moulay Said Ibn Hammou"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Malek"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Fares"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.5.1 = {
+	monarch = {
+		name = "El Abas Ahmed"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.9.1 = {
+	monarch = {
+		name = "Moulay Mohamed"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Moulay Abdallah"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Zeyane"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Mohamed"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Zakaria"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Abdallah Mohamed"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Abdallah Mohamed II"
+		dynasty = Abdalwadid
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1512 - Algeria to the Ottomans

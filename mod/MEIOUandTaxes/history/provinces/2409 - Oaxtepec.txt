@@ -1,0 +1,65 @@
+# 2409 - Cholollan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TXL
+controller = TXL
+add_core = TXL
+culture = nahuatl
+religion = teotl
+capital = "Cholollan"
+
+base_tax = 3
+#manpower = 2 
+manpower = 4 
+citysize = 25000
+trade_goods = cacao 
+
+fort1 = yes
+terrain1 = yes
+hre = no
+
+discovered_by = new_world
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1519.3.13  = {
+	discovered_by = SPA
+} # Hernán Cortés
+1520.1.1   = {
+	owner = SPA
+	controller = SPA
+} #Tlaxcala allies with Spain against the Aztec
+1545.1.1   = {
+	add_core = SPA
+}
+1571.1.1   = {
+	culture = castillian
+	religion = catholic
+}
+1600.1.1   = {
+	citysize = 15000
+}
+1650.1.1   = {
+	citysize = 25000
+}
+1700.1.1   = {
+	citysize = 40000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 60000
+}
+1800.1.1   = {
+	citysize = 100000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+
+

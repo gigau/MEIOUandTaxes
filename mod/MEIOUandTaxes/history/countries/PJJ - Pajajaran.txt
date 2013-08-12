@@ -1,0 +1,122 @@
+# Province : Pajajaran
+# file name : PJJ - Pajajaran
+# MEIOU-FB Indonesia mod v3 - for IN+JV
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -1
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 1
+# secularism_theocracy = 1
+primary_culture = sundanese
+religion = hinduism
+technology_group = austranesian
+capital = 2107 # Iuncula
+
+1350.1.1 = {
+	monarch = {
+		name = "Prebu Maharaja"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Garbamenak"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+		regent = yes
+	}
+}
+
+1371.1.1 = {
+	monarch = {
+		name = "Siliwangi"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1425.1.1 = {
+	monarch = {
+		name = "Guru Gantangan"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1482.1.1 = {
+	monarch = {
+		name = "Sang Ratu Jayadewanata"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1521.1.1 = {
+	monarch = {
+		name = "Surawisesa"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Ratudewata"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Sang Ratu Saksi"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1551.1.1 = {
+	monarch = {
+		name = "Tohaan di Mjaya"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1567.1.1 = {
+	monarch = {
+		name = "Seda Nusiya Mulya"
+		dynasty = "Pajajaran"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1579 -Kingdom falls to the Sultanate of Banten

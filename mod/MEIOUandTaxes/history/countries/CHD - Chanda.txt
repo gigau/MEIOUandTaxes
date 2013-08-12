@@ -1,0 +1,223 @@
+# CHD - Chanda
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 4
+mercantilism = 0.1 # mercantilism_freetrade = 2
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 2
+# serfdom_freesubjects = -4
+technology_group = indian
+religion = hinduism
+primary_culture = gondi
+capital = 2558
+
+# historical_friend = GDW
+
+#Chanda Rajas
+1342.1.1 = {
+	monarch = {
+		name = "Bhuma & Lokba"
+		dynasty = "Chandi"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1380.1.1 = {
+	heir = {
+		name = "Kondya"
+		monarch_name = "Karan Shah"
+		dynasty = "Chandi"
+		birth_Date = 1380.1.1
+		death_date = 1461.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Karan Shah"
+		dynasty = "Chandi"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1421.1.1 = {
+	heir = {
+		name = "Babji Ballal"
+		monarch_name = "Babji Ballal Sah"
+		dynasty = "Chandi"
+		birth_date = 1420.1.1
+		death_date = 1540.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Babji Ballal Sah"
+		dynasty = "Chandi"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Dhundya Ram"
+		monarch_name = "Dhundya Ram Sah"
+		dynasty = "Chandi"
+		birth_Date = 1500.1.1
+		death_Date = 1615.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Dhundya Ram Sah"
+		dynasty = "Chandi"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Krasna"
+		monarch_name = "Krasna Sah"
+		dynasty = "Chandi"
+		birth_Date = 1530.1.1
+		death_Date = 1665.1.1
+		claim = 95
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Krasna Sah"
+		dynasty = "Chandi"
+		adm = 5
+		dip = 7
+		mil = 5
+	}
+}
+
+1615.1.1 = {
+	heir = {
+		name = "Bir"
+		monarch_name = "Bir Sah"
+		dynasty = "Chandi"
+		birth_Date = 1615.1.1
+		death_Date = 1672.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Bir Sah"
+		dynasty = "Chandi"
+		adm = 5
+		dip = 3
+		mil = 6
+	}
+}
+
+1665.1.1 = {
+	heir = {
+		name = "Hirai"
+		monarch_name = "Hirai"
+		dynasty = "Chandi"
+		female = yes
+		birth_Date = 1590.1.1
+		death_Date = 1672.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1672.1.1 = {
+	monarch = {
+		name = "Hirai"
+		dynasty = "Chandi"
+		female = yes
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}
+
+1676.1.1 = {
+	heir = {
+		name = "Ram"
+		monarch_name = "Ram Sah"
+		dynasty = "Chandi"
+		birth_date = 1676.1.1
+		death_Date = 1735.1.1
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1691.1.1 = {
+	monarch = {
+		name = "Ram Sah"
+		dynasty = "Chandi"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+1691.1.1 = {
+	heir = {
+		name = "Nilkanth"
+		monarch_name = "Nilkanth Sah"
+		dynasty = "Chandi"
+		birth_date = 1685.1.1
+		death_Date = 1751.1.1
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}
+
+1710.1.1 = {
+	monarch = {
+		name = "Nilkanth Sah"
+		dynasty = "Chandi"
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+}

@@ -1,0 +1,28 @@
+#1151 - Kivu
+# LS - african setup alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KIT
+controller = KIT 
+add_core = KIT
+culture = kingwana
+religion = animism
+capital = "Kindu"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = copper
+
+terrain1 = yes
+
+discovered_by = KIT
+discovered_by = ZIM
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+

@@ -1,0 +1,14 @@
+# Mataram Cavalry
+# Added in MEIOU by GG 2010.04.30
+# tech level 38 c1750
+
+unit_type = austranesian
+type = cavalry
+
+maneuver = 2
+offensive_morale = 9
+defensive_morale = 7
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 6
+defensive_shock = 5

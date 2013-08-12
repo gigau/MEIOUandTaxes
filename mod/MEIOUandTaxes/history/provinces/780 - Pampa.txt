@@ -1,0 +1,48 @@
+#780 Pampa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = patagonian
+religion = pantheism
+capital = "Pampa"
+trade_goods = crops #fish
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 25
+native_ferocity = 2
+native_hostileness = 9  
+
+1516.1.23  = {
+	discovered_by = SPA
+	#add_core = SPA
+} # Juan Díaz de Solís
+1750.1.1   = {
+	revolt_risk = 2
+   	add_core = LAP
+}
+1779.1.1   = {
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	culture = platean
+	citysize = 500
+	trade_goods = fish
+	capital = "San José"
+	set_province_flag = trade_good_set
+}
+1780.1.1   = { revolt_risk = 4 }
+1790.1.1   = { revolt_risk = 6 }
+1810.5.25  = {
+	revolt_risk = 0
+}
+1816.7.9   = {
+	remove_core = SPA
+}
+1865.1.1   = {
+	owner = LAP
+	controller = LAP
+	capital = "Rawson"
+	citysize = 1000
+	culture = welsh
+}

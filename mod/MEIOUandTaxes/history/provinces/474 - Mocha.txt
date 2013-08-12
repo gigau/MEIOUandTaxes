@@ -1,0 +1,77 @@
+# 474 - Mocha
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YEM
+controller = YEM
+add_core = YEM
+culture = yemeni
+religion = sunni
+capital = "Mocha"
+trade_goods = coffee
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1344
+
+discovered_by = ADA
+discovered_by = MKU
+discovered_by = KIL
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1480.1.1 = {
+	discovered_by = TUR
+}
+1500.1.1 = {
+	citysize = 1568
+}
+1524.1.1 = {
+	discovered_by = POR
+}
+1538.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1550.1.1 = {
+	citysize = 2050
+}
+1567.1.1 = {
+	revolt_risk = 4
+}
+1570.1.1 = {
+	revolt_risk = 0
+}
+1597.1.1 = {
+	revolt_risk = 5
+}
+1600.1.1 = {
+	citysize = 2760
+	marketplace = yes
+}
+1602.1.1 = {
+	revolt_risk = 0
+}
+1636.1.1 = {
+	owner = YEM
+	controller = YEM
+	remove_core = TUR
+}
+1650.1.1 = {
+	citysize = 3000
+}
+1700.1.1 = {
+	citysize = 3450
+}
+1730.1.1 = {
+	mint = yes
+}
+1750.1.1 = {
+	citysize = 3997
+}
+1800.1.1 = {
+	citysize = 4210
+}

@@ -1,0 +1,53 @@
+# 2541 - Angora
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = OTT
+controller = OTT
+culture = turkish
+religion = sunni
+capital = "Cankiri"
+trade_goods = copper
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 5450
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = OTT
+	set_province_flag = turkish_name
+}
+1390.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = OTT
+}
+1402.7.20 = { controller = TIM } # The ottomans are defeated at the Battle of Ankara
+1402.8.1  = { controller = TUR }
+1450.1.1  = { citysize = 6180 }
+1481.6.1  = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
+1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
+1500.1.1  = { citysize = 7740 }
+1509.1.1  = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war
+1513.1.1  = { revolt = {} controller = TUR }
+1550.1.1  = { citysize = 5650  marketplace = yes }
+1600.1.1  = { citysize = 4420 }
+1623.1.1  = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The empire fell into anarchy, Janissaries stormed the palace
+1625.1.1  = { revolt = {} controller = TUR } # Murad tries to quell the corruption
+1650.1.1  = { citysize = 3078 } # City declined
+1658.1.1  = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Revolt of Abaza Hasan Pasha, centered on Aleppo, extending into Anatolia
+1659.1.1  = { revolt = {} controller = TUR }
+1700.1.1  = { citysize = 5100 fort2 = yes regimental_camp = yes }
+1720.1.1  = { courthouse = yes }
+1740.1.1  = { base_tax = 3 } # The decentralizing effect of the provincial system
+1745.1.1  = { mint = yes }
+1750.1.1  = { citysize = 10200 }
+1770.1.1  = { citysize = 8580} # Plague
+1800.1.1  = { citysize = 13743 }

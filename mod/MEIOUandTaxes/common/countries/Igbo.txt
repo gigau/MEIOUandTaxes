@@ -1,0 +1,93 @@
+#Country Name: Igbo
+#Tag: IGB
+#MEIOU-FB - African/Sudan tech group split Nov 08
+#dharper's African cavalry added
+
+graphical_culture = africangfx
+
+color = { 205  122  130 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	hausa_quilted_cavalry
+	nubian_knight
+	mossi_horse_archer
+	tuareg_mercenary_cavalry
+	sudan_light_hussar
+
+	sudan_spearmen
+	sudan_hill_warfare
+	songhai_tribal_warfare
+	sudan_western_franchise_warfare
+	westernized_bamana
+}
+
+
+monarch_names = {
+	"Oduduwa #0" = 20
+	"Sango #0" = 20
+	"Ajaka #0" = 20
+	"Aganju #0" = 20
+	"Kari #0" = 20
+	"Oluaso #0" = 20
+	"Onigbogi #0" = 20
+	"Ofinran #0" = 20
+	"Eguguoju #0" = 20
+	"Orompoto #0" = 20
+	"Ajiboyede #0" = 20
+	"Abipa #0" = 20
+	"Obalokun #0" = 20
+	"Ajagbo #0" = 20
+	"Odorawu #0" = 20
+	"Kanran #0" = 20
+	"Jayin #0" = 20
+	"Ayibi #0" = 20
+	"Osiyago #0" = 20
+	"Ojigi #0" = 20
+	"Gberu #0" = 20
+	"Amuniwaiye #0" = 20
+	"Onisle #0" = 20
+	"Labisi #0" = 20
+	"Agboluaje #0" = 20
+	"Majeogbe #0" = 20
+	"Abiodun #0" = 20
+	"Awole Arongangan #0" = 20
+	"Adebo #0" = 20
+	"Maaku #0" = 20
+	"Aburumaku #0" = 20
+	"Majotu #0" = 20
+	"Do Aklim #0" = 0
+	"Dakondunu #0" = 0
+	"Ganye Hessu #0" = 0
+	"Wegbaja #0" = 0
+	"Akaba #0" = 0
+	"Agaja #0" = 0
+	"Tegbesu #0" = 0
+	"Kpengla #0" = 0
+	"Anonglo #0" = 0
+	"Haholo #0" = 0
+	"Kpasse #0" = 0
+	"Ayohuan #0" = 0
+	"Agbangia #0" = 0
+}
+
+leader_names = {
+	Ubah
+	Umaru
+	Aliu
+	Solaja
+	Okara
+	Ajuwa
+	Ezinwa
+	Kanu
+	Opara
+	Rufai
+}
+
+ship_names = {
+	Oranyan Ajaka Sango "Oyo-Ille" Oduduwa
+	"Olorun Olodumare" "Ille-Ife" Odudua
+	Obatala "O'odua" "Ile n'fe"
+}

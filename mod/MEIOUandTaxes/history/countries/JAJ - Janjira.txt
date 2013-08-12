@@ -1,0 +1,121 @@
+# JAJ - Janjira
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 4
+# land_naval = -4
+# quality_quantity = -4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+primary_culture = marathi
+#primary_culture = habshi
+religion = sunni
+capital = 530	# Janjira
+
+1605.1.1 = {
+	monarch = {
+	name = "Surur Khan"
+	dynasty = "Siddhi"
+	adm = 5
+	dip = 5
+	mil = 7
+	}
+}
+
+1609.1.1 = {
+	monarch = {
+	name = "Abdul Karim Khan"
+	dynasty = "Siddhi"
+	adm = 5
+	dip = 4
+	mil = 6
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+	name = "Abdul Samad Surul Khan"
+	dynasty = "Siddhi"
+	adm = 5
+	dip = 5
+	mil = 5
+	}
+}
+
+1620.1.1 = {
+	monarch = {
+	name = "Yakut Khan Shazli"
+	dynasty = "Siddhi"
+	adm = 4
+	dip = 7
+	mil = 7
+	}
+}
+
+1621.1.1 = {
+	monarch = {
+	name = "Amber Sanak"
+	dynasty = "Siddhi"
+	adm = 5
+	dip = 4
+	mil = 6
+	}
+}
+
+1642.1.1 = {
+	monarch = {
+	name = "Yusuf Khan"
+	dynasty = "Siddhi"
+	adm = 5
+	dip = 6
+	mil = 7
+	}
+}
+
+1655.1.1 = {
+	monarch = {
+	name = "Fateh Khan"
+	dynasty = "Siddhi"
+	adm = 4
+	dip = 4
+	mil = 5
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Qasim Khan"
+		dynasty = "Siddhi"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1676.1.1 = {
+	monarch = {
+		name = "Kasim Yakut Khan"
+		dynasty = "Siddhi"
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+}
+
+1703.1.1 = {
+	monarch = {
+		name = "Ambat Yakut Khan"
+		dynasty = "Siddhi"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}

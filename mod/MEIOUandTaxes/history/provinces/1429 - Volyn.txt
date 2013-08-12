@@ -1,0 +1,76 @@
+# 1429 - Volyn
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LIT
+controller = LIT
+add_core = LIT
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 3
+trade_goods = indigo
+#manpower = 3
+manpower = 6
+fort1 = yes
+capital = "Luck"
+citysize = 30000
+marketplace = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = POL
+}
+
+1392.1.1 = {
+	remove_core = POL
+}
+
+1480.1.1  = {
+	fort2 = yes
+}
+1500.1.1  = {
+	citysize = 35000
+}
+1569.1.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+	remove_core = LIT
+}
+1570.1.1  = {
+	citysize = 40000
+}
+1610.1.1  = {
+	citysize = 45000
+}
+1650.1.1  = {
+	citysize = 50000
+}
+1654.1.1  = {
+	citysize = 11000
+} # Effects of the Khmelnytsky's uprising
+1690.1.1  = {
+	citysize = 12000
+}
+1730.1.1  = {
+	citysize = 15000
+}
+1770.1.1  = {
+	citysize = 17500
+}
+1793.1.23 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+} # Second partition of Poland
+1810.1.1  = {
+	citysize = 20000
+}
+1820.1.1  = {
+	citysize = 25000
+}
+
+

@@ -1,0 +1,68 @@
+# 436 - Bukhara
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TIM
+controller = TIM
+culture = kwarezhmi
+religion = sunni
+capital = "Bukhara"
+trade_goods = salt
+hre = no
+fort1 = yes
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 10700
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = TIM
+	add_core = KTD
+}
+1447.3.12 = {
+	owner = KTD
+	controller = KTD
+} #Death of Shah Rukh, Ulugh Begh inherits and becomes ruler of Khorasan
+1450.1.1  = {
+	citysize = 12100
+}
+1469.2.17 = {
+	owner = TIM
+	controller = TIM
+}
+1496.1.1  = {
+	owner = SHY
+	controller = SHY
+} # Shaybanids break free from the Timurids
+1500.1.1 = { citysize = 12070 }
+1511.1.1 = {
+	controller = SAM
+} # Captured by Babur
+1512.1.1 = {
+	controller = SHY
+} # Back to Uzbeks
+1546.1.1 = {
+	culture = uzbehk
+}
+1550.1.1  = { citysize = 15345 marketplace = yes }
+1600.1.1  = { citysize = 19585 }
+1650.1.1  = { citysize = 23750 }
+1700.1.1  = { citysize = 26555 }
+1740.1.1 = {
+	controller = PER
+}
+1741.1.1 = {
+	controller = SHY
+}
+1750.1.1  = { citysize = 34285 }
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1  = { citysize = 39700 }
+

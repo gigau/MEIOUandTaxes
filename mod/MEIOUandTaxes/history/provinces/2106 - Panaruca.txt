@@ -1,0 +1,66 @@
+#Province: Panaruca
+#file name: 2106 - Panaruca
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MPH
+controller = MPH
+culture = javan
+religion = hinduism			#FB this region began to be Islamified c1600
+capital = "Malang"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 15000
+add_core = MPH
+add_core = SBT
+add_core = KMA
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1  = { citysize = 18890 }
+1478.1.1 = {
+	owner = SBT
+	controller = SBT
+}
+1512.1.1 = { discovered_by = POR citysize = 15000 }	#FB Antonio de Abreu
+1613.1.1 = { discovered_by = NED citysize = 22000 religion = sunni }	# The Dutch arrived
+1625.1.1 = {
+	owner = MTR
+	controller = MTR
+	remove_core = MPH
+	revolt_risk = 2
+} # Mataram conquered Surabaya after 12+ years of struggle
+#FB after 1647 MTR had little real control in this province
+1650.1.1 = { citysize = 21040 add_core = MTR revolt_risk = 1 }
+1657.1.1 = { revolt_risk = 5 } # Amangkurat's murderous regime becomes increasingly unpopular
+1676.10.15 = { controller = REB } #rebels defeat Mataram army at Gogodog
+1677.7.13 = {
+	controller = MTR
+	revolt_risk = 2
+} # Amangkurat's death
+#after 1680 MTR had little real control in this province
+1700.1.1 = { citysize = 27877 }
+1717.1.1 = { controller = REB } #Surabaya rebellion/2nd war of Javanese Succession
+1721.1.1 = { controller = MTR revolt_risk = 1 } 
+1740.10.1 = { revolt_risk = 5 } #FB Chinese revolt following anti-Chinese riots in Batavia
+1741.7.1 = { revolt_risk = 1 } #FB Mataram joins forces with Chinese - revolt becomes war
+1743.11.1 = { 
+	owner = NED
+	controller = NED
+	revolt_risk = 1
+}
+1745.2.1 = { controller = REB revolt_risk = 4 } #Cakraningrat's revolt
+1745.9.1 = { controller = NED revolt_risk = 1 }
+1746.5.1 = { revolt_risk = 2 } #3rd war of Javanese Succession starts as rebellion
+1750.1.1 = { citysize = 28404 }
+1757.3.1 = { revolt_risk = 1 } #Mas Said submits
+1800.1.1 = { citysize = 31240 add_core = NED revolt_risk = 0 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch

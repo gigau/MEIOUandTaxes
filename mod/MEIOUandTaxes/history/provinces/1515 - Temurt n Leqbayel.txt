@@ -1,0 +1,41 @@
+# 1515 - Kabylie
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HAF
+controller = HAF
+add_core = HAF
+add_core = TOG
+add_core = TLE 
+culture = kabyle
+religion = sunni
+capital = "Bome"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 5772
+trade_goods = olive
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1420.1.1 = { owner = TOG controller = TOG }
+1500.1.1 = { citysize = 6954 }
+1550.1.1 = { citysize = 7620 }
+1574.1.1 = { remove_core = HAF }
+1600.1.1 = { citysize = 8344 }
+1650.1.1 = { citysize = 9671 }
+1700.1.1 = { citysize = 11980 }
+1750.1.1 = { citysize = 14305 }
+1751.1.1 = { owner = ALG controller = ALG add_core = ALG }
+1800.1.1 = { citysize = 15641 }
+1852.1.1 = {
+	owner = FRA
+	controller = FRA
+}

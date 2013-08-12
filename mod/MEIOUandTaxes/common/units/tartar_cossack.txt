@@ -1,0 +1,21 @@
+# Tartar Cossack
+#Modified for MEIOU by FB 10.02.07
+#tech level 44 c1795
+
+unit_type = steppestech
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 4
+#defensive_morale = 3
+#offensive_fire = 3
+#defensive_fire = 3
+#offensive_shock = 3
+#defensive_shock = 2
+#FB
+offensive_morale = 10
+defensive_morale = 8
+offensive_fire = 6
+defensive_fire = 5
+offensive_shock = 6
+defensive_shock = 5

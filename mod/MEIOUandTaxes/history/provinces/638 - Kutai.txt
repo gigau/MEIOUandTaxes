@@ -1,0 +1,32 @@
+#Province: Kutai
+#file name: 638 - Kutai
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KUT
+controller = KUT
+culture = dayak
+religion = theravada
+capital = "Tarakan"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 4500
+add_core = KUT
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 4750 }
+1450.1.1 = { citysize = 4900 }
+1500.1.1 = { citysize = 5525 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 6430 }
+1600.1.1 = { citysize = 6999 religion = sunni }
+1650.1.1 = { citysize = 7654 }
+1700.1.1 = { citysize = 8220 }
+1750.1.1 = { citysize = 8980 }
+1800.1.1 = { citysize = 9550 }

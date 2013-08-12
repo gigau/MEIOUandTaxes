@@ -1,0 +1,17 @@
+#Province: Mozambique Channel
+#file name: 2027 - Mozambique Channel
+#FB - Vasco Da Gama came this way in March 1498
+
+discovered_by = ZAN
+discovered_by = MNG
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+discovered_by = MOG
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = SOF
+
+1498.3.15 = { discovered_by = POR } #Vasco Da Gama
+1600.1.1  = { discovered_by = TUR }

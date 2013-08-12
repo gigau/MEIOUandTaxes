@@ -1,0 +1,64 @@
+# 283 - Brestie
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LIT
+controller = LIT
+capital = "Brest"
+citysize = 15804
+culture = lithuanian
+religion = baltic_pagan
+trade_goods = lumber
+hre = no
+base_tax = 8
+#manpower = 5
+manpower = 10
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = LIT
+}
+1386.1.1 = {
+	religion = catholic
+}
+1500.1.1   = { marketplace = yes citysize = 18593 }
+1508.1.1   = { fort2 = yes }
+1543.1.1   = { revolt_risk = 3 } # Counter reformation
+1550.1.1   = { citysize = 21875 regimental_camp = yes }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1579.1.1   = { university = yes revolt_risk = 0 } # Vilnius university
+1600.1.1   = { courthouse = yes citysize = 25735 }
+1650.1.1   = { citysize = 30276 }
+1700.1.1   = { citysize = 35619 }
+1709.1.1   = { citysize = 31000 } # Horrible plague
+1750.1.1   = { citysize = 41905 }
+1791.6.1   = { revolt_risk = 3} # 3rd May constitution raised opposition
+1794.3.24  = { revolt_risk = 6 } # Kosciuszko uprising
+1794.11.16 = { revolt_risk = 0 }
+1795.10.24  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	add_core = LIT
+	add_core = PLC
+} # Most of Lithuania became part of the Russian empire
+1800.1.1   = { citysize = 49300 }
+1807.7.9   = {
+	owner = POL
+	controller = POL
+     	remove_core = RUS
+} # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+1812.6.28  = { controller = RFR } # Occupied by French troops
+1812.12.12 = { controller = RUS }
+1815.6.9   = {
+	owner = RUS
+	add_core = RUS
+} # Congress Poland, under Russian control after the Congress of Vienna

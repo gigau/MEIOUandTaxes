@@ -1,0 +1,73 @@
+# 1470 - Tzintzuntzan
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NAH
+controller = NAH
+add_core = NAH
+culture = nahuatl
+religion = teotl
+capital = "Tepecuacuilco" 
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = maize
+
+fort1 = yes
+
+hre = no
+
+discovered_by = new_world
+
+1428.1.1  = {
+	owner = AZT
+	controller = AZT
+	add_core = AZT
+	remove_core = TEN
+}
+
+1522.1.1 = {
+	discovered_by = SPA
+
+} # Spanish keep the P'uhépecha capital
+1529.1.1 = {
+	owner = SPA
+	controller = SPA
+} # Spanish keep the P'uhépecha capital
+1540.1.1 = {
+	culture = castillian
+	religion = catholic
+} # Capital moved to another indian town, because of turmoil
+1547.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1580.1.1   = {
+	capital = "Valladolid"
+} # Capital moved to a newly founded spanish city
+1600.1.1   = {
+	citysize = 2000
+}
+1650.1.1   = {
+	citysize = 5000
+}
+1700.1.1   = {
+	citysize = 10000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 20000
+}
+1800.1.1   = {
+	citysize = 50000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba

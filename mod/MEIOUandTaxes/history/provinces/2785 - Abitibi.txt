@@ -1,0 +1,5 @@
+# 2785 - Abitibi
+
+1650.1.1   = {
+	discovered_by = FRA
+}

@@ -1,0 +1,50 @@
+#1284 - Castello
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARA		#Alfons V of Aragon
+controller = ARA
+add_core = ARA
+culture = catalan
+religion = catholic
+capital = "Castelló de la Plana" 
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 8000
+trade_goods = olive 
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1461.9.23  = { controller = REB revolt_risk = 3 } #Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
+1472.10.16 = { controller = ARA revolt_risk = 0 } #The Generalitat capitulates to King Joan, the civil war ends
+1516.1.23  = {	controller = SPA
+		owner = SPA
+		add_core = SPA
+	     } # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1   = { citysize = 35000	}
+1600.1.1   = { citysize = 43000	}
+1650.1.1   = {
+	citysize = 44000
+}
+1668.4.4   = { revolt_risk = 5 } # Peasant revolt of the "barretines"
+1669.12.2  = { revolt_risk = 5 } # End of the revolt
+1689.1.1   = { controller = REB } # Peasant revolt against new taxes to fund the war against France
+1689.11.30 = { controller = SPA } # The peasants retreat from Barcelona
+1690.1.1   = { workshop = yes } # Recovery of the Catalan trade and flourishment of textil industry thanks to exports to America
+1697.8.10  = { controller = FRA	} #Barcelona falls to the French
+1697.9.20  = { controller = SPA } #Peace of Ryswick
+1700.1.1   = { citysize = 43000 mint = yes }
+1705.10.9  = { controller = HAB } # Catalonia recognises Archduke Carlos as their sovereign, joining the Anglo-Austrian cause in the War of Spanish Succession. The loyalist troops in Barcelona are defeated.
+1713.4.11  = { controller = REB	} # Catalan authorities don't recognise the Peace of Utrecht, and face war alone against the Franco-Spanish army.
+1713.7.13  = { remove_core = ARA }
+1714.9.11  = { controller = SPA } # Barcelona surrenders
+1750.1.1   = { citysize = 50000 }
+1800.1.1   = { citysize = 115000 }

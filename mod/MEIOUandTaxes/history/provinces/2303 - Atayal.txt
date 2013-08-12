@@ -1,0 +1,101 @@
+# 2303 - Atayal
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = taiwanese
+religion = austranasian
+capital = "Atayal"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 3
+native_hostileness = 5
+discovered_by = chinese
+
+1544.1.1 =  {
+	discovered_by = POR
+}
+1592.1.1   = {
+	owner = ODA
+	controller = ODA
+	citysize = 200
+} # Toyotomi Hideyoshi undertakes a policy of overseas expansion and extending Japanese influence southward.
+1593.1.1   = {
+	owner = XXX
+	controller = XXX
+	native_size = 50
+	native_ferocity = 3
+	native_hostileness = 5
+} # Revolt of the aborigines
+1609.1.1   = {
+	owner = TGW
+	controller = TGW
+	citysize = 200
+} # Toyotomi Hideyoshi undertakes a policy of overseas expansion and extending Japanese influence southward.
+1610.1.1   = {
+	owner = XXX
+	controller = XXX
+	native_size = 50
+	native_ferocity = 3
+	native_hostileness = 5
+} # Revolt of the aborigines
+1616.1.1   = {
+	owner = JAP
+	controller = JAP
+#	add_core = JAP
+	citysize = 200
+} # Murayama Toan led an unsuccessful invasion of the island
+1617.1.1   = {
+	owner = XXX
+	controller = XXX
+	native_size = 50
+	native_ferocity = 3
+	native_hostileness = 5
+} # Revolt of the aborigines
+1626.1.1   = {
+	owner = SPA
+	controller = SPA
+	citysize = 50
+} # Spainards set up San Salvador
+1632.1.1   = {
+	citysize = 200
+} # Kebaran defeated
+1642.1.1   = {
+	owner = NED
+	controller = NED
+	trade_goods = fur
+	set_province_flag = trade_good_set
+} # Dutch defeated Spainish garrison
+1662.2.1   = {
+	owner= TNG
+	controller = TNG
+	culture = minyu
+	religion = confucianism
+	add_core = TNG
+	citysize = 1200
+} # Zheng Chenggong
+1683.1.1   = {
+	owner= QNG
+	controller = QNG
+	add_core = QNG
+#	culture = minyu
+#	religion = confucianism
+#	trade_goods = rice
+	citysize = 2000
+	fort1 = yes
+} # The Qing conquer the last Ming stronghold
+#1700.1.1   = {
+#	citysize = 50000
+#}
+1700.1.1   = {
+	citysize = 10000
+}
+1750.1.1   = {
+	citysize = 20000
+}
+1800.1.1   = {
+	citysize = 50000
+}

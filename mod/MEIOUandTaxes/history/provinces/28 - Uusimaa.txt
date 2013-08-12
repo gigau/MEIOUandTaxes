@@ -1,0 +1,57 @@
+# Uusimaa
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+culture = finnish
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+#manpower = 1
+manpower = 2
+fort1 = yes #Raseborg
+capital = "Porvoo"
+citysize = 1020 # Estimated
+
+discovered_by = western
+discovered_by = eastern
+
+1356.1.1   = {
+	owner = RSW
+	controller = RSW
+	add_core = RSW
+	add_core = SWE
+}
+1360.1.1   = {
+	owner = SWE
+	controller = SWE
+	remove_core = RSW
+}
+1527.6.1  = { religion = protestant }
+1550.1.1  = { trade_goods = wheat citysize = 1240 } #Estimated Date
+1598.8.1  = { controller = POL } #Sigismund tries to reconquer his crown
+1599.8.4  = { controller = SWE } #Duke Karl get it back
+1600.1.1  = { citysize = 1750 }
+1650.1.1  = { citysize = 2100 }
+1700.1.1  = { citysize = 2400 } 
+1710.6.10  = { controller = RUS } #The Great Nordic War-Captured Viborg
+1721.8.30  = { owner = RUS add_core = RUS remove_core = SWE } #The Peace of Nystad
+1750.1.1  = { citysize = 2840 } 
+1800.1.1  = { citysize = 3100 }
+1808.3.1   = { controller = RUS } # Overran by Russian troops
+1809.3.29  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+} # Treaty of Fredrikshamn
+1809.9.17 = {
+	owner = FIN
+	controller = FIN
+	add_core = FIN
+	remove_core = RUS
+}
+1812.1.1  = {
+	capital = "Helsinki"
+}

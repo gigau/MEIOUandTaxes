@@ -1,0 +1,12 @@
+# 2487 - Amazonia
+
+1750.1.1   = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+}
+1822.9.7   = {
+	discovered_by = BRZ
+	owner = BRZ
+	controller = BRZ
+}

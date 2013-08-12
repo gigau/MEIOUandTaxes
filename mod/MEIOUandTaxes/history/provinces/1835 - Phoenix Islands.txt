@@ -1,0 +1,1 @@
+1520.6.1 = { discovered_by = SPA }	#FB Magellan - was 1568

@@ -1,0 +1,75 @@
+# 1402 - Konstantinoupolis
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BYZ
+controller = BYZ
+culture = greek
+religion = orthodox
+capital = "Konstantinoupolis"
+trade_goods = services
+#cot = yes
+hre = no
+base_tax = 11
+#manpower = 5
+manpower = 10
+citysize = 247809
+terrain2 = yes
+university = yes
+fort1 = yes
+fort2 = yes
+#fort3 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1 = {
+	set_province_flag = terrain2
+	add_core = BYZ
+	add_core = OTT
+}
+1390.1.1  = {
+	add_core = TUR
+	remove_core = OTT
+}
+1453.5.30 = {
+	owner = TUR
+	controller = TUR
+	remove_core = BYZ
+	citysize = 50000
+} # Constantinople has fallen
+1459.1.1  = {
+	culture = turkish
+	religion = sunni
+	capital = "Kostantiniyye"
+}
+1470.1.1  = { marketplace = yes }
+1481.6.1  = { controller = REB } # Civil war, Bayezid & Jem
+1482.7.26 = { controller = TUR } # Jem escapes to Rhodes
+1500.1.1  = { citysize = 75100 temple = yes }
+1509.1.1  = { controller = REB } # Civil war
+1510.1.1  = { regimental_camp = yes university = yes } # Founded in 1453
+1513.1.1  = { controller = TUR }
+1515.6.1  = { shipyard = yes } # Great naval reform
+1550.1.1  = { citysize = 133654 customs_house = yes }
+1560.1.1  = { constable = yes } # Reign of Suleyman the magnificent, organizes the state
+1569.1.1  = { citysize = 111879 } # Great fire of Istanbul
+1600.1.1  = { citysize = 164010 }
+1610.1.1  = { fort3 = yes }
+1621.1.1  = { revolt_risk = 6 } # Osman II's reforms against the Janissaries
+1622.5.20 = { revolt_risk = 7 } # Osman II is murdered
+1622.6.1  = { controller = TUR revolt_risk = 0 } # Mustafa I, estimated
+1623.1.1  = { controller = REB } # The empire fell into anarchy, Janissaries stormed the palace
+1625.1.1  = { controller = TUR } # Murad tries to quell the corruption
+1632.1.1  = { courthouse = yes }
+1650.1.1  = { citysize = 17885 } # Earthquakes
+1651.1.1  = { revolt_risk = 5 } # The murder of Kösem Sultana
+1652.1.1  = { revolt_risk = 0 }
+1690.1.1  = { base_tax = 10 } #The Decentralizing Effect of the Provincial System
+1700.1.1  = { citysize = 210400 mint = yes }
+1718.1.1  = { revolt_risk = 3 base_tax = 12 } # Lale Devri (the tulip age), not appreciated by everyone  
+1720.1.1  = { revolt_risk = 0 }
+1750.1.1  = { citysize = 328000 } # Earthquakes & fires
+1795.1.1  = { revolt_risk = 6 } # Reforms by Sultan Selim III, tried to replace th Janissary corps
+1800.1.1  = { citysize = 436078 }

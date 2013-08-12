@@ -1,0 +1,63 @@
+#1187 zenji-bar
+#LS - african set up alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ZAN
+controller = ZAN
+add_core = ZAN
+culture = kiunguja
+religion = sunni
+capital = "Zenji-bar"
+
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 8000
+trade_goods = slaves
+
+cot = yes
+terrain1 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = ADA
+discovered_by = KIL
+discovered_by = QLM
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1498.3.20 = { discovered_by = POR } #Vasco Da Gama
+#1520 Portuguese establish tradepost 
+1600.1.1 = { discovered_by = TUR }
+1652.1.1 = { revolt_risk = 6 } #Omani raids destabilize island
+1653.1.1 = {	owner = POR
+		controller = POR
+		add_core = POR
+		revolt_risk = 7
+	   } #Portuguese occupy island in wake of Pro-Omani activities
+1693.1.1 = {	owner = OMA
+		controller = OMA
+	   } #Omanis invade to aid anti-Portuguese revolt
+1694.1.1 = {	owner = POR
+		controller = POR
+	   } #Portuguese restore control over island
+1699.1.1 = {	owner = ZAN
+		controller = ZAN
+	   	remove_core = POR
+	   } #Swahili drive Portuguese out with Omani help
+1728.1.1 = {	owner = POR
+		controller = POR
+	   	add_core = POR
+	   	remove_core = ZAN
+	   } #Portuguese re-establish control over island
+1730.1.1 = {	owner = OMA
+		controller = OMA
+		add_core = OMA
+		remove_core = POR
+	   } #pro-Omani Swahili drive Portuguese out of island, Omani governor established
+1750.1.1 = { citysize = 12000 } #rapid growth as island becomes center of Omani power in East Africa
+1754.1.1 = { revolt_risk = 6 } #Mazrui launch invasion of Zanzibar, fail to capture it

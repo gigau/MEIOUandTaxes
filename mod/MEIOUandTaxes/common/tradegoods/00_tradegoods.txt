@@ -1,0 +1,133 @@
+# tradegoods.txt
+#
+#2010-jul-01 FB TG Micro-Mod
+#2011-jan-01 FB DW - modifiers added
+#
+#
+wheat			= { color = { 0.7 0.7 0.0 } modifier = { land_forcelimit_modifier = 0.25 } }
+
+millet			= { color = { 0.8 0.8 0.3 } modifier = { land_forcelimit_modifier = 0.25 } }
+
+rice			= { color = { 0.9 0.9 0.6 } modifier = { land_forcelimit_modifier = 0.25 } }
+
+maize			= { color = { 0.0 0.3 0.8 } modifier = { land_forcelimit_modifier = 0.25 } }
+
+wine			= { color = { 0.7 0.0 0.0 } modifier = { stability_cost_modifier = -0.25 } }
+
+wax				= { color = { 1.0 0.9 0.0 } modifier = { stability_cost_modifier = -0.25 } }
+
+wool			= { color = { 0.9 0.0 0.9 } modifier = { land_maintenance_modifier = -0.02 } }
+
+subsistence		= { color = { 1.0 0.0 0.0 } }
+
+silk			= { color = { 0.8 1.0 1.0 } modifier = { prestige = 1 } }
+
+hemp			= { color = { 0.9 0.7 0.7 } modifier = { global_ship_cost = -0.10 } }
+
+gold			= { color = { 1.0 0.7 0.5 } }
+
+gems			= { color = { 0.6 1.0 1.0 } }
+
+iron			= { color = { 0.5 0.5 0.5 } modifier = { global_regiment_cost = -0.10 } }
+
+copper			= { color = { 0.6 0.2 0.8 } modifier = { defensiveness = 0.10 } }
+
+lead			= { color = { 0.3 0.3 0.3 } modifier = { global_regiment_cost = -0.10 } }
+
+naval_supplies	= { color = { 0.8 0.6 0.4 } modifier = { global_ship_cost = -0.10 } }
+
+fish			= { color = { 0.0 0.5 0.4 } modifier = { global_revolt_risk = -1.0 } }
+
+fur				= { color = { 0.8 0.5 0.8 } modifier = { prestige = 1.0 } }
+
+salt			= { color = { 1.0 1.0 1.0 } modifier = { land_maintenance_modifier = -0.10 } }
+
+slaves			= { color = { 0.3 0.1 0.7 } modifier = { global_tariffs = 0.10 } }
+
+ivory			= { color = { 0.5 1.0 0.8 } modifier = { diplomatic_reputation = 2.0 } }
+
+tea				= { color = { 0.5 0.8 0.1 } modifier = { advisor_cost = -0.33 } }
+
+chinaware		= { color = { 0.7 0.8 1.0 } modifier = { legitimacy = 0.25 } }
+
+cinnamon		= { color = { 0.8 0.2 0.8 } modifier = { global_tariffs = 0.10 } }
+
+clove			= { color = { 0.8 0.4 0.3 } modifier = { global_tariffs = 0.10 } }
+
+pepper			= { color = { 1.0 0.2 0.2 } modifier = { global_tariffs = 0.10 } }
+
+coffee			= { color = { 0.5 0.3 0.0 } modifier = { defensiveness = 0.10 } }
+
+cotton			= { color = { 1.0 0.8 0.8 } modifier = { advisor_cost = -0.33 } }
+
+sugar			= { color = { 0.2 0.6 0.3 } modifier = { war_exhaustion_cost = -0.10 } }
+
+tobacco			= { color = { 0.8 0.7 0.8 } modifier = { global_tariffs = 0.10 } }
+
+opium			= { color = { 0.7 0.6 1.0 } modifier = { global_spy_defence = 0.25 } }
+
+glassware		= { color = { 0.4 0.4 1.0 } modifier = { legitimacy = 0.25 } }
+
+tin				= { color = { 0.8 0.0 0.1 } modifier = { defensiveness = 0.10 } }
+
+coal			= { color = { 0.2 0.2 0.1 } modifier = { global_regiment_cost = -0.10 } }
+
+sulphur			= { color = { 0.9 0.5 0.1 } modifier = { global_regiment_cost = -0.10 } }
+
+sandal			= { color = { 0.3 0.7 0.0 } modifier = { legitimacy = 0.25 } }
+
+crops			= { color = { 1.0 0.0 0.0 } }
+
+cloth			= { color = { 0.1 1.0 1.0 } modifier = { global_ship_cost = -0.10 } }
+
+jewelery		= { color = { 0.0 0.7 0.7 } }
+
+cacao			= { color = { 0.6 0.3 0.2 } modifier = { war_exhaustion_cost = -0.10 } }
+
+cheese			= { color = { 0.9 0.2 0.0 } modifier = { land_maintenance_modifier = -0.10 } }
+
+rum				= { color = { 0.6 0.7 0.4 } modifier = { global_tariffs = 0.10 } }
+
+carmine			= { color = { 0.5 0.0 0.7 } modifier = { legitimacy = 0.25 } }
+
+steel			= { color = { 1.0 0.5 0.0 } modifier = { prestige = 1.0 } }
+
+arms			= { color = { 1.0 0.6 0.2 } modifier = { global_regiment_recruit_speed = -0.10 } }
+
+hardware		= { color = { 0.9 0.4 0.8 } modifier = { global_regiment_cost = -0.15 } }
+
+ammunitions		= { color = { 0.7 0.2 0.9 } modifier = { global_regiment_recruit_speed = -0.10 } }
+
+lumber			= { color = { 0.4 0.2 0.0 } modifier = { naval_forcelimit_modifier = 0.25 } }
+
+furniture		= { color = { 0.6 0.0 0.0 } modifier = { prestige = 1.0 } }
+
+livestock		= { color = { 0.2 1.0 0.7 } modifier = { land_maintenance_modifier = -0.10 } }
+
+marble			= { color = { 0.3 0.0 0.0 } modifier = { diplomatic_reputation = 2.0 } }
+
+beer			= { color = { 0.7 0.4 0.4 } modifier = { stability_cost_modifier = -0.25 } }
+
+olive			= { color = { 0.4 0.7 0.0 } modifier = { stability_cost_modifier = -0.25 } }
+
+linen			= { color = { 0.7 1.0 0.4 } modifier = { global_ship_cost = -0.10 } }
+
+brazil			= { color = { 0.6 0.5 0.8 } modifier = { legitimacy = 0.25 } }
+
+penal			= { color = { 0.4 0.0 0.5 } modifier = { stability_cost_modifier = -0.25 } }
+
+carpet			= { color = { 1.0 0.3 0.7 } modifier = { prestige = 1.0 } }
+
+palm			= { color = { 0.4 1.0 1.0 } modifier = { stability_cost_modifier = -0.25 } }
+
+silver			= { color = { 0.0 0.1 0.4 } }
+
+nutmeg			= { color = { 0.5 0.7 0.7 } modifier = { global_tariffs = 0.10 } }
+
+ebony			= { color = { 0.0 1.0 1.0 } modifier = { legitimacy = 0.25 } }
+
+leather			= { color = { 1.0 0.4 1.0 } modifier = { global_regiment_recruit_speed = -0.10 } }
+
+indigo			= { color = { 0.0 0.0 0.9 } modifier = { legitimacy = 0.25 } }
+
+services		= { color = { 1.0 0.0 0.0 } modifier = { legitimacy = 0.33 } }

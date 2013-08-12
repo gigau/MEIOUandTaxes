@@ -1,0 +1,28 @@
+# Songhai Tribal Warfare
+#Modified for MEIOU by FB 10.02.07
+#tech level 8 c1450
+
+unit_type = soudantech
+type = infantry
+
+maneuver = 1
+#offensive_morale = 0
+#defensive_morale = 3
+#offensive_fire = 0
+#defensive_fire = 0
+#offensive_shock = 0
+#defensive_shock = 1
+#FB
+#offensive_morale = 3
+#defensive_morale = 3
+#offensive_fire = 2
+#defensive_fire = 2
+#offensive_shock = 2
+#defensive_shock = 3
+#Blxz - 
+offensive_morale = 3
+defensive_morale = 3
+offensive_fire = 1
+defensive_fire = 2
+offensive_shock = 3
+defensive_shock = 2

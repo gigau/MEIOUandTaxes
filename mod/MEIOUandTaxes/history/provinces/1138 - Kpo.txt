@@ -1,0 +1,40 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = yorumba
+religion = animism
+capital = "Bioko"
+trade_goods = slaves
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 2
+native_hostileness = 7
+
+discovered_by = NRI
+discovered_by = LOA
+discovered_by = ZZZ
+
+1472.1.1 = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+	culture = portugese
+	religion = catholic
+	citysize = 500
+	capital = "Fernando Po"
+} # Fernão do Pó
+1500.1.1 = { citysize = 780 }
+1550.1.1 = { citysize = 1544 }
+1600.1.1 = { citysize = 2100 }
+1650.1.1 = { citysize = 2645 }
+1700.1.1 = { citysize = 3500 }
+1750.1.1 = { citysize = 4010 }
+1778.1.1 = {	owner = SPA
+		controller = SPA
+		add_core = SPA
+		remove_core = POR
+		culture = castillian
+	   } # Ceded to Spain, Treaty of El Pardo
+1800.1.1 = { citysize = 4882 }

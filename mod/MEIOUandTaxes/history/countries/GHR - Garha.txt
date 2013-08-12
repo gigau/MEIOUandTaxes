@@ -1,0 +1,211 @@
+# GHR - Garha
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 3
+# land_naval = -3
+# quality_quantity = 1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = gondi
+capital = 558	# Garha
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Sangrama Simha"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} #Not really
+
+#Rajas of Garha-Mandla/Katanga
+
+1480.1.1 = {
+	monarch = {
+		name = "Sangrama Simha"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Daipat Simha"
+		monarch_name =" Daipat Simha"
+		dynasty = "Garha-Mandli"
+		birth_Date = 1480.1.1
+		death_Date = 1549.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Daipat Simha"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1545.1.1 = {
+	heir = {
+		name = "Vir Narayana"
+		monarch_name = "Vir Narayana"
+		dynasty = "Garha-Mandli"
+		birth_Date = 1545.1.1
+		death_Date = 1564.6.24
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "Durgavati"
+		female = yes
+		dynasty = "Garha-Mandli"
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+}
+
+1549.1.1 = {
+	heir = {
+		name = "Vir Narayana"
+		monarch_name = "Vir Narayana"
+		dynasty = "Garha-Mandli"
+		birth_Date = 1545.1.1
+		death_Date = 1564.6.24
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Chandra Sahi"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1564.1.1 = {
+	heir = {
+		name = "Madhukara Sahi"
+		monarch_name =" Madhukara Sahi"
+		dynasty = "Garha-Mandli"
+		birth_Date = 1564.1.1
+		death_date = 1599.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Madhukara Sahi"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Prema Narayama"
+		monarch_name = "Prema Narayama"
+		dynasty = "Garha-Mandli"
+		birth_date = 1575.1.1
+		death_Date = 1610.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	monarch = {
+		name = "Prema Narayama"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1599.1.1 = {
+	heir = {
+		name = "Hirade Sahi"
+		monarch_name = "Hirade Sahi I"
+		dynasty = "Garha-Mandli"
+		birth_date = 1599.1.1
+		death_Date = 1681.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1610.1.1 = {
+	monarch = {
+		name = "Hirade Sahi I"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1640.1.1 = {
+	heir = {
+		name = "Chhatra Sahi"
+		monarch_name = "Chhatra Sahi"
+		birth_Date = 1610.1.1
+		death_date = 1700.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1681.1.1 = {
+	monarch = {
+		name = "Chhatra Sahi"
+		dynasty = "Garha-Mandli"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

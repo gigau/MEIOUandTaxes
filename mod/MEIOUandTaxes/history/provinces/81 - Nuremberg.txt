@@ -1,0 +1,32 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = NUR
+controller = NUR
+add_core = NUR
+capital = "Nürnberg"
+trade_goods = wheat
+fort1 = yes
+culture = bavarian
+religion = catholic
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 7000
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1    = { citysize = 8000 }
+1399.1.1    = { citysize = 9000 }
+1453.1.1    = { citysize = 10000 }
+1500.1.1    = { fort2 = yes citysize = 11000 }
+1527.1.1    = { marketplace = yes } # # Philipp der Grossmütige
+1532.1.1    = { religion = protestant }
+1550.1.1    = { citysize = 12000 }
+1620.1.1    = { regimental_camp = yes constable = yes fort2 = yes }
+1630.1.1    = { controller = SWE }
+1632.1.1    = { controller = NUR }
+#1685.1.1    = { citysize = 14000 customs_house = yes manpower = 2} # Reformed refugees find shelter in Kassel (-> Oberneustadt founded)
+1685.1.1    = { citysize = 14000 customs_house = yes manpower = 4} # Reformed refugees find shelter in Kassel (-> Oberneustadt founded)
+1806.1.1    = { owner = BAV controller = BAV add_core = BAV } 
+1806.7.12   = { hre = no } # The Holy Roman Empire is dissolved

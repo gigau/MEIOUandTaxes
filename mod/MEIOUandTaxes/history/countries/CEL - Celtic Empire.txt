@@ -1,0 +1,22 @@
+# CEL - Celtic Empire
+# Unification nation
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_1
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 2
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 2
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 3
+# secularism_theocracy = -2
+primary_culture = breton
+add_accepted_culture = welsh
+add_accepted_culture = cornish
+add_accepted_culture = irish
+religion = catholic
+technology_group = western
+capital = 172	# Nantes

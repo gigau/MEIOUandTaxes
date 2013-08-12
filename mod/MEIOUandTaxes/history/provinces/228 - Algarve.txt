@@ -1,0 +1,30 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = POR
+controller = POR
+culture = portugese
+religion = catholic
+capital = "Lagos"
+trade_goods = sugar
+hre = no
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 4500 
+add_core = POR
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+1500.1.1   = { citysize = 5477 }
+1550.1.1   = { citysize = 6000 }
+1600.1.1   = { citysize = 6850 marketplace = yes }
+1640.1.1   = { revolt_risk = 8 } # Revolt headed by John of Bragança
+1640.12.1  = { revolt_risk = 0 }
+1650.1.1   = { citysize = 7900 }
+1700.1.1   = { citysize = 7000 }
+1750.1.1   = { citysize = 8100 }
+1800.1.1   = { citysize = 9440 }
+1807.11.30 = { controller = SPA } # Occupied by Spanish troops led by Manuel Godoy
+1808.6.18  = { controller = POR } # Revolt in Olhão

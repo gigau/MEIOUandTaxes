@@ -1,0 +1,83 @@
+# 669 - Guiyang
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = XNG
+controller = XNG
+culture = xiang
+religion = confucianism
+capital = "Zunyi"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+discovered_by = chinese
+discovered_by = steppestech
+fort1 = yes 
+terrain1 = yes
+
+0967.1.1 = {
+	owner = SNG
+	controller = SNG
+	add_core = SNG
+	add_core = XNG
+}
+1265.1.1 = {
+	owner = YUA
+	controller = YUA
+}
+1283.1.1 = {
+#	culture = mongol
+	citysize = 80000
+	capital = "Shunyuan"
+	add_core = YUA
+	remove_core = SNG
+	base_tax = 6
+#	manpower = 4
+	manpower = 8
+	fort2 = yes
+}
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1368.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	capital = "Guiyang"
+	remove_core = YUA
+	citysize = 12000
+#	culture = xiang
+	base_tax = 3
+#	manpower = 2
+	manpower = 4
+}
+1500.1.1 = { citysize = 18000 }
+1550.1.1 = { citysize = 20000 }
+1600.1.1 = { citysize = 24000 }
+1650.1.1 = { citysize = 25000 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	remove_core = MNG
+}# Wu Sangui appointed as viceroy
+1673.11.1 = {
+	add_core = QNG
+} # Wu Sangui revolt, core given to Qing for reconquering
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 26000 }
+1750.1.1 = { citysize = 27000 }
+1800.1.1 = { citysize = 46700 }

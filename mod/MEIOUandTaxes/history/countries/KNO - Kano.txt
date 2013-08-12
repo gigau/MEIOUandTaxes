@@ -1,0 +1,351 @@
+# KNO - Kano
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+primary_culture = haussa
+religion = sunni
+technology_group = soudantech
+
+capital = 1554	# Kano
+
+1349.1.1 = {
+	monarch = {
+		name = "Yaji"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Bugaya"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1390.1.1 = {
+	monarch = {
+		name = "Kanajeji"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Umaru"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Daud"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1438.1.1 = {
+	monarch = {
+		name = "Abdullah Burja"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1452.1.1 = {
+	monarch = {
+		name = "Dakauta"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1452.5.1 = {
+	monarch = {
+		name = "Atuma"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1452.9.1 = {
+	monarch = {
+		name = "Yaqub"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Muhammad Rumfa"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+		name = "Abdullah"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1509.1.1 = {
+	monarch = {
+		name = "Muhammad Kisoki"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1565.1.1 = {
+	monarch = {
+		name = "Yakufu"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1565.5.1 = {
+	monarch = {
+		name = "Daud Abasama"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1565.9.1 = {
+	monarch = {
+		name = "Abu-Bakr Kado"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Muhammad Shashere"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1582.1.1 = {
+	monarch = {
+		name = "Muhammad Zaki"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+		name = "Muhammad Nazaki"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1623.1.1 = {
+	monarch = {
+		name = "Kutumbi"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "al-Hajj"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Shekarau"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1651.1.1 = {
+	monarch = {
+		name = "Muhammad Kukuna"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1652.1.1 = {
+	monarch = {
+		name = "Soyaki"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1652.6.1 = {
+	monarch = {
+		name = "Muhammad Kukuna"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1660.1.1 = {
+	monarch = {
+		name = "Bawa"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Dadi"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1703.1.1 = {
+	monarch = {
+		name = "Muhammad Sharif"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1731.1.1 = {
+	monarch = {
+		name = "Kumbari"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1743.1.1 = {
+	monarch = {
+		name = "al-Hajj Kabe"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Yaji II"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Baba Zaki"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1776.1.1 = {
+	monarch = {
+		name = "Daud Abasama II"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "Muhammad al-Walid"
+		dynasty = Barbushe  
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

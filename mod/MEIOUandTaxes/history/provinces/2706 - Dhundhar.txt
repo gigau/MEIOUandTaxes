@@ -1,0 +1,58 @@
+#  - Dhundar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = JAU
+controller = JAU
+culture = dhundari
+religion = hinduism
+capital = "Amber"
+trade_goods = salt
+hre = no
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 26000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = JAU
+}
+1450.1.1  = { citysize = 30000 }
+1500.1.1  = { citysize = 33000 }
+1530.1.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Mughal Conquest
+1540.1.1  = {
+	owner = JAU
+	controller = JAU
+} # Independent after Delhi's fall
+1544.1.1  = {
+	owner = BNG
+	controller = BNG
+} # Sur expansion
+1545.5.22 = {
+	owner = JAU
+	controller = JAU
+} # Independence regained after death of Sher Shah
+1550.1.1  = { citysize = 35000 }
+1592.1.1  = { fort2 = yes }
+1600.1.1  = { citysize = 38000 }
+1650.1.1  = { citysize = 50000 }
+1669.1.1  = { revolt_risk = 6 } # The Jats revolted against Aurangzeb's rule
+1670.1.1  = { revolt_risk = 0 }
+1685.1.1  = { revolt_risk = 6 } # Jat revolt lead by Raja Ram
+1690.1.1  = { discovered_by = ENG }
+1691.1.1  = { revolt_risk = 0 } # The Jats were defeated
+1700.1.1  = { citysize = 75000 }
+1707.5.12 = { discovered_by = GBR }
+1727.1.1  = {
+	capital = "Jaipur"
+} # Jaipur founded
+1750.1.1  = { citysize = 100000 }
+1800.1.1  = { citysize = 72000 }

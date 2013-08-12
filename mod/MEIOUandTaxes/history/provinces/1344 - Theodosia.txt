@@ -1,0 +1,67 @@
+# 1344 - Theodosia
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GEN
+controller = GEN 
+add_core = GEN 
+culture = crimean
+religion = sunni
+capital = "Kaffa"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+trade_goods = wine
+citysize = 3722
+
+terrain2 = yes
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1475.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = GEN
+} # Seized by Gedik Ahmet Pasha
+1500.1.1 = {
+	citysize = 4379
+}
+1550.1.1 = {
+	citysize = 5151
+}
+1600.1.1 = {
+	citysize = 6060
+}
+1650.1.1 = {
+	citysize = 7130
+}
+1700.1.1 = {
+	citysize = 8388
+}
+1750.1.1 = {
+	citysize = 9869
+}
+1783.1.1 = {
+	add_core = RUS
+	owner = RUS
+	controller = RUS
+	remove_core = TUR
+} # Conquered by Russia
+1800.1.1 = {
+	citysize = 11610
+}
+1802.1.1 = {
+	capital = "Feodosiya"
+}

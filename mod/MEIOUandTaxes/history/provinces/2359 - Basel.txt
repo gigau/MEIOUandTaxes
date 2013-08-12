@@ -1,0 +1,33 @@
+# 2359 - Basel
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BSL
+controller = BSL
+culture = suisse
+religion = catholic
+capital = "Basel"
+
+
+base_tax = 7 
+#manpower = 4
+manpower = 8
+citysize = 15000	# Estimated
+trade_goods = wine
+
+fort1 = yes
+fort2 = yes
+terrain1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = BSL
+}
+1528.1.1  = { religion = protestant }
+
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

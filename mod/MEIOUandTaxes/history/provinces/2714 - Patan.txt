@@ -1,0 +1,54 @@
+# 2714 - Patan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = gujarati
+religion = hinduism
+capital = "Patan"
+trade_goods = cloth
+hre = no
+base_tax = 8
+#manpower = 3
+manpower = 6
+citysize = 60000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = GUJ
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = GUJ
+	controller = GUJ
+	revolt_risk = 0
+}
+1450.1.1 = { citysize = 52000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 36000 }
+1550.1.1 = { citysize = 33000 }
+1573.6.1 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1 = { citysize = 35000 }
+1650.1.1 = { citysize = 38000 }
+1700.1.1 = { citysize = 39000 }
+1725.1.1 = {
+	owner = GAK
+	controller = GAK
+	add_core = GAK
+	remove_core = MUG	
+}
+1750.1.1 = { citysize = 42000 }
+1800.1.1 = { citysize = 45000 }
+1802.1.1 = {
+	owner = KAT
+	controller = KAT
+	remove_core = GAK	
+}

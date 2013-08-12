@@ -1,0 +1,16 @@
+# 1108 - Rotorua
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = polynesian
+religion = austranasian
+hre = no
+capital = "Rotorua"
+trade_goods = crops # wool
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 4
+native_hostileness = 9
+
+1643.1.1 = { discovered_by = NED } # Abel Tasman

@@ -1,0 +1,44 @@
+#Province: Kotawaringin
+#file name: 2089 - Kotawaringin
+# MEIOU-FB Indonesia mod
+# MEIOU-GG
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BKS
+controller = BKS
+culture = dayak
+religion = theravada
+capital = "Kotawaringin"
+trade_goods = rice			#FB too much clove
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5500
+add_core = BKS
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1500.1.1 = { citysize = 5750 }
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 6100 religion = sunni }
+1600.1.1 = { citysize = 6970 }
+1606.1.1 = { discovered_by = NED }
+1650.1.1 = { citysize = 7560 }
+1680.1.1 = { add_core = NED revolt_risk = 5 } #NED allies with Kotawaringin, weakening BKS control
+1700.1.1 = { citysize = 8200 }
+1712.1.1 = {
+	owner = NED
+	controller = NED
+	revolt_risk = 2
+}
+1737.1.1 = { add_core = NED }
+1750.1.1 = { citysize = 8780 }
+1800.1.1 = { citysize = 9570 revolt_risk = 0 }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = { owner = NED controller = NED } # Returned to the Dutch
+

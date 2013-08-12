@@ -1,0 +1,265 @@
+# ISK - Ishikki clan
+# LS-GG Japanese Civil War
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1033 		# Wakasa
+daimyo = yes
+
+1330.3.7 = {
+	monarch = {
+		name = "Noriuji"
+		dynasty = "Isshiki"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1340.1.1 = {
+	heir = {
+		name = "Akinori"
+		monarch_name = "Akinori"
+		dynasty = "Issiki"
+		birth_date = 1340.1.1
+		death_date = 1406.6.22
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1369.3.26 = {
+	monarch = {
+		name = "Akinori"
+		dynasty = "Isshiki"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1369.3.26 = {
+	heir = {
+		name = "Mitsunori"
+		monarch_name = "Mitsunori"
+		dynasty = "Issiki"
+		birth_date = 1368.1.1
+		death_date = 1409.1.25
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1406.6.22 = {
+	monarch = {
+		name = "Mitsunori"
+		dynasty = "Isshiki"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Yoshitsura"
+		monarch_name = "Yoshitsura"
+		dynasty = "Issiki"
+		birth_date = 1400.1.1
+		death_date = 1440.5.15
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1409.1.25 = {
+	monarch = {
+		name = "Yoshitsura" 
+		dynasty = "Issiki"
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Yoshinao"
+		monarch_name = "Yoshinao"
+		dynasty = "Issiki"
+		birth_date = 1431.1.1
+		death_date = 1494.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1440.5.15 = {
+	monarch = {
+		name = "Norichika" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1451.12.21 = {
+	monarch = {
+		name = "Yoshinao" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Yoshiharu"
+		monarch_name = "Yoshiharu"
+		dynasty = "Issiki"
+		birth_date = 1466.1.1
+		death_date = 1484.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Yoshiharu" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1483.1.1 = {
+	heir = {
+		name = "Kiyohide"
+		monarch_name = "Kiyohide"
+		dynasty = "Issiki"
+		birth_date = 1483.1.1
+		death_date = 1498.6.18
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Kiyohide" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1498.6.18 = {
+	monarch = {
+		name = "Yoshiari" 
+		dynasty = "Issiki"
+		adm = 3
+		dip = 4
+		mil = 4
+		}
+}
+
+1505.1.1 = {
+	heir = {
+		name = "Yoshikiyo"
+		monarch_name = "Yoshikiyo"
+		dynasty = "Issiki"
+		birth_date = 1505.1.1
+		death_date = 1540.1.11
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Yoshikiyo" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1523.1.1 = {
+	heir = {
+		name = "Yoshiyuki"
+		monarch_name = "Yoshiyuki"
+		dynasty = "Issiki"
+		birth_date = 1523.1.1
+		death_date = 1570.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Yoshiyuki" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+} 
+
+1540.1.1 = {
+	heir = {
+		name = "Yoshimichi"
+		monarch_name = "Yoshimichi"
+		dynasty = "Issiki"
+		birth_date = 1530.1.1
+		death_date = 1579.1.1
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "Yoshimichi" 
+		dynasty = "Issiki"
+		adm = 3
+		dip = 4
+		mil = 3
+		}
+}

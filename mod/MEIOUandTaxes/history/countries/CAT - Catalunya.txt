@@ -1,0 +1,34 @@
+# CAT - Catalunya
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_2
+# aristocracy_plutocracy = -1
+# centralization_decentralization = 3
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = 4
+# offensive_defensive = 4
+# land_naval = 4
+# quality_quantity = -2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+religion = catholic
+primary_culture = catalan
+technology_group = western
+capital = 213	# Barcelona
+
+1516.1.23 = {
+	government = despotic_monarchy_2
+}
+
+1641.1.26 = {
+	monarch = {
+		name = "Pau Claris i Casademunt"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+	government = constitutional_republic
+}
+
+# End of the short-lived Republic of Catalonia

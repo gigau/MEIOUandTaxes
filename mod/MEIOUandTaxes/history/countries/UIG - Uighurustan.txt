@@ -1,0 +1,17 @@
+# UIG - Uighurustan
+
+government = steppe_horde_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -5
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -4
+# secularism_theocracy = 0
+primary_culture = uyghur
+religion = sunni
+technology_group = steppestech
+capital = 2740

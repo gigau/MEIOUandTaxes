@@ -1,0 +1,106 @@
+# 413 - Khorramabad
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HAZ
+controller = HAZ
+culture = iraqi
+religion = shiite
+capital = "Khorramabad"
+trade_goods = wheat
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1950
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = HAZ
+}
+1384.1.1   = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+}
+1408.1.1 = {
+	controller = QAR
+}
+1409.1.1 = {
+	owner = QAR
+}
+1458.9.1  = {
+	revolt = { type = noble_rebels size = 1 }
+	controller = REB
+} # Civil war in Qara Quyunlu
+1458.12.1 = {
+	revolt = {}
+	controller = QAR
+}
+1469.1.1  = {
+	controller = AKK
+}
+1470.1.1  = {
+	owner = AKK
+}
+1478.1.1  = {
+	revolt = { type = noble_rebels size = 0 }
+	controller = REB
+} # Civil war
+1481.1.1 = {
+	revolt = {}
+	controller = AKK
+}
+1500.1.1  = { citysize = 2544 }
+1501.1.1   = {
+	controller = SAM
+}
+1508.1.1   = {
+	owner = SAM
+	religion = shiite
+}
+1512.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = QAR
+	remove_core = AKK
+	remove_core = JAI
+} # Safawids "form persia"
+1524.1.1  = {
+	revolt = { type = anti_tax_rebels size = 0 }
+	controller = REB
+} # Quizilbash civil war
+1533.1.1  = {
+	revolt = {}
+	controller = PER
+}
+1550.1.1  = { citysize = 3704 }
+1583.8.15 = { controller = TUR } # Ottoman conquest
+1590.3.21 = { controller = PER } # Peace of Istanbul
+1600.1.1  = { citysize = 4300 }
+1650.1.1  = { citysize = 5890 }
+1677.1.1  = { discovered_by = FRA }
+1700.1.1  = { citysize = 6551 }
+1720.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels }
+}
+1730.1.1  = {
+	controller = PER
+	revolt = { }
+	
+}
+1747.1.1  = {
+	controller = REB
+	revolt = { type = pretender_rebels }
+}
+1750.1.1  = { citysize = 7000 }
+1760.1.1  = {
+	controller = PER
+	revolt = { }
+} #Karim Khan
+1800.1.1  = { citysize = 8251 }

@@ -1,0 +1,66 @@
+# MEN - Mentesoglu
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = 2
+# quality_quantity = 1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 1
+# secularism_theocracy = 1
+primary_culture = yorouk
+religion = sunni
+technology_group = turkishtech
+unit_type = muslim
+capital = 1439
+
+1261.1.1 = {
+	monarch = {
+		name = "Mentese Bey"
+		dynasty = "Mentesoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Orhan Bey"
+		dynasty = "Mentesoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1375.1.1 = {
+	monarch = {
+		name = "Tacettin Ahmet Gazi"
+		dynasty = "Mentesoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1390 - First fall to the Ottoman
+
+1402.1.1 = {
+	monarch = {
+		name = "Ilyas Bey"
+		dynasty = "Mentesoglu"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+} # Independance following Ottoman defeat to Tamerlane at the battle of Ankara
+
+# 1414 - Second fall to the Ottomans

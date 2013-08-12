@@ -1,0 +1,42 @@
+# 2299 - Hakodate
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NNB
+controller = NNB
+culture = tohoku
+religion = shinto
+capital = "Kaminokuni"
+trade_goods = lumber
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 1350
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = NNB
+}
+1400.1.1   = { citysize = 1750 }
+1450.1.1   = { citysize = 2250 }
+1500.1.1   = { citysize = 2858 }
+1550.1.1   = { citysize = 3100 }
+1582.1.1   = {
+	owner = DTE
+	controller = DTE
+}
+1600.1.1   = { citysize = 3237 }
+1630.1.1   = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1   = { citysize = 3700 }
+1700.1.1   = { citysize = 4156 }
+1739.1.1   = { discovered_by = RUS } # Martin Spanberg
+1750.1.1   = { citysize = 4514 }
+1800.1.1   = { citysize = 5056 }

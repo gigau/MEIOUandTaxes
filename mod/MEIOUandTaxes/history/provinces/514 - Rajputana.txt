@@ -1,0 +1,51 @@
+#514 - Gorwar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAW
+controller = MAW
+culture = marwari
+religion = hinduism
+capital = "Jalor"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 3000
+add_core = MAW
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1448.1.1  = { controller = MEW }
+1449.1.1  = { controller = MAW }
+1450.1.1  = { citysize = 5000 }
+1500.1.1  = { citysize = 8000 }
+1532.1.1  = {
+	controller = GUJ
+} # Conquered by Gujarat
+1536.1.1  = {
+	owner = GUJ
+} # Conquered by Gujarat
+1550.1.1  = { citysize = 10000 }
+1573.6.1  = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Conquered by Akbar
+1600.1.1  = { citysize = 12000 }
+1650.1.1  = { citysize = 15000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 22000 }
+1707.1.1  = {
+	controller = MEW
+} # Jordphur is recaptured & the Mughals are driven out
+1707.3.1  = {
+	controller = MAW
+	owner = MAW
+} # Jodphur is recaptured & the Mughals are driven out
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 26000 }
+1800.1.1  = { citysize = 28000 }

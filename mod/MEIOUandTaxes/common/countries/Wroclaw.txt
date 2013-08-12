@@ -1,0 +1,82 @@
+#Country Name: Please see filename.
+
+graphical_culture = latingfx
+
+color = { 211  207  173 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	chevauchee
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Konrad #1" = 60
+	"Bolko #1" = 40
+	"Bernard #2" = 40
+	"Henryk #0" = 20
+	"Karol #0" = 20
+        "Fryderyk #0" = 20
+	"Jan #0" = 20
+	"Boleslaw" = 20
+	"Sylwiusz #0" = 20
+	"Jerzy #0" = 20
+	"Jerzy Wilhelm #0" = 20
+	"Karol Fryderyk #0" = 20
+	"Krystian #0" = 20
+	"Jan Jerzy #0" = 10
+	"Jerzy Ernest #0" = 10
+	"August #0" = 5
+	"Ernest #0" = 5
+	"Joachim #0" = 5
+	"Krystian Ludwik #0" = 5
+	"Rudolf #0" = 5
+	"Wladyslaw #0" = 1
+	"Herman #1" = 1
+	"Albert #0" = 0
+	"Aleksander #0" = 0
+	"Andel #0" = 0
+	"Branko #0" = 0
+	"Bruno #0" = 0
+	"Cezar #0" = 0
+	"Dytrych #0" = 0
+	"Eugeniusz #0" = 0
+	"Filip #0" = 0
+	"Joachim #0" = 0
+	"Krzysztof #0" = 0
+	"Lech #0" = 0
+	"Markus #0" = 0
+	"Maurycy #0" = 0
+	"Radomir #0" = 0
+	"Siegfried #0" = 0
+	"Tomasz #0" = 0
+	"Waclaw #0" = 0
+	"Wilhelm #0" = 0
+}
+
+leader_names = { 
+	Schwarz Hergesell Heintzel Hoppe
+	Kahl Tilch Greve Abeln Liegnitz
+	Jauernik Wiehle Gronau Sterner
+}
+
+ship_names = {
+	Teschen Falkenberg "Cosel-Beuthen" Oppeln Ratibor
+	Breslau Sagan Oels Steinau "Liegnitz-Brieg" Glogau
+	Münsterberg "Neisse-Ottmachau" "Schweidnitz-Jauer"
+}

@@ -1,0 +1,64 @@
+#748 - Tupi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = tupinamba
+religion = pantheism
+capital = "Tupi"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 1
+native_hostileness = 6
+
+1500.1.1  = {
+	discovered_by = CAS
+	discovered_by = POR
+	add_core = POR
+} # Pinzón, Pedro Álvares Cabral 
+1516.1.23 = {
+	discovered_by = SPA
+}
+#1544.1.1  = {
+#	owner = SPA
+#	controller = SPA
+#	capital = "Macapá"
+#	citysize = 560
+#	culture = castillian
+#	religion = catholic
+#	fort1 = yes
+#	trade_goods = sugar
+#}
+1616.1.1 = {
+	owner = POR
+	controller = POR
+	citysize = 1560
+	culture = portugese
+	religion = catholic
+	trade_goods = sugar
+	capital = "Belèm"
+	set_province_flag = trade_good_set
+}
+1700.1.1   = {
+	citysize = 2530
+}
+1750.1.1   = {
+	citysize = 5700
+	add_core = BRZ
+	culture = brazilian
+}
+1758.1.1   = {
+	fort2 = yes
+}
+1800.1.1   = {
+	citysize = 12000
+}
+1822.9.7   = {
+	owner = BRZ
+	controller = BRZ
+}
+1825.1.1   = {
+	remove_core = POR
+}

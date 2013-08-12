@@ -1,0 +1,289 @@
+# DJO - Djolof
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 1
+primary_culture = senegambian
+religion = sunni
+technology_group = soudantech
+
+capital = 1112 # Djolof
+
+1350.1.1 = {
+	monarch = {
+		name = "N'Dyadya"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1370.1.1 = {
+	monarch = {
+		name = "Sare"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1390.1.1 = {
+	monarch = {
+		name = "N'Diklam Sare"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Tyukuli N'Diklam"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Leeyti Tyukuli"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1450.1.1 = {
+	monarch = {
+		name = "N'Dyelen Mbey Leeyti"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Birayma N'dyeme Eter"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1481.1.1 = {
+	monarch = {
+		name = "Tase Daagulen"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Birayma Kuran Kan"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1492.1.1 = {
+	monarch = {
+		name = "Bukaar Biye-Sungule"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Birayma Dyeme-Kumba"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Leele Fuli Fak"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1549.1.1 = {
+	monarch = {
+		name = "al-Buri Penda"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Lat-Samba"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1597.1.1 = {
+	monarch = {
+		name = "Gireun Buri Dyelen"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Birayma Penda"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1649.1.1 = {
+	monarch = {
+		name = "Birayma Mba"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1670.1.1 = {
+	monarch = {
+		name = "Bakar Penda"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1711.1.1 = {
+	monarch = {
+		name = "Bakan-Tam Gan"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1721.1.1 = {
+	monarch = {
+		name = "al-Buri Dyakher"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Birayamb"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1748.1.1 = {
+	monarch = {
+		name = "Birawa Keme"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Lat-Kodu"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1755.1.1 = {
+	monarch = {
+		name = "Bakaa-Tam Buri-Nyabu"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1763.1.1 = {
+	monarch = {
+		name = "Mba Kompass"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1800.1.1 = {
+	monarch = {
+		name = "Mba Buri-Nyabu"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "Birayamb Kumba-Gey"
+		dynasty = "N'Dyaye"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}

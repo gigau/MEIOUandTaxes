@@ -1,0 +1,35 @@
+# 2770 - Kaabu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Kaabu"
+
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 25000
+trade_goods = slaves
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+	add_core = DJO
+	add_core = KAA
+}
+1469.1.1  = {
+	owner = SON
+	controller = SON
+	add_core = SON
+}
+1490.1.1 = {
+	owner = KAA
+	controller = KAA
+}

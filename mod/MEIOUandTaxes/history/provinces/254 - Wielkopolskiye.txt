@@ -1,0 +1,65 @@
+#254 - Krajna
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = POL
+controller = POL
+add_core = POL
+culture = polish
+religion = catholic
+capital = "Naklo"
+
+base_tax = 7
+#manpower = 5
+manpower = 10
+citysize = 12282
+trade_goods = salt
+
+fort1 = yes
+marketplace = yes	# An important center of trade
+temple = yes		# Cathedral Basilica of St. Peter and St. Paul
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+hre = no
+
+1500.1.1   = { citysize = 14450 }
+1550.1.1   = { citysize = 17000 }
+1569.7.1  = {	owner = PLC
+		controller = PLC
+		add_core = PLC
+	    } # Union of Lublin
+1575.1.1   = { regimental_camp = yes }
+1588.1.1   = { controller = REB } # Civil war, Polish succession
+1589.1.1   = { controller = PLC } # Coronation of Sigismund III
+1600.1.1   = { citysize = 20000 }
+1650.1.1   = { citysize = 23000 constable = yes }
+1655.1.1   = { controller = SWE } # Swedish invasion
+1660.1.1   = { controller = PLC } # End of Northern war
+1700.1.1   = { citysize = 4200 } # Due to epidemics, catastophes & the Swedish invasion
+1733.1.1   = { controller = REB } # The war of Polish succession
+1735.1.1   = { controller = PLC mint = yes }
+1750.1.1   = { citysize = 5600 courthouse = yes } # Several waves of Dutch & rural settlers
+1772.2.17  = { add_core = PRU } # First partition of Poland, only lost the northern part
+1793.1.23  = {
+	owner = PRU
+	controller = PRU
+	add_core = POL
+	remove_core = PLC
+} # Second partition of Poland, the remaining part came under Prussian control
+1794.3.24  = { controller = REB  fort2 = yes } # Kosciuszko uprising, Prussia lost control briefly
+1794.11.16 = { controller = PRU } # The end of the uprising
+1800.1.1   = { citysize = 16000 }
+1806.11.3  = { controller = REB } # Polish uprising instigated by Napoleon
+1807.7.9   = {	owner = POL
+		controller = POL
+	     	remove_core = PRU
+	     } # The Duchy of Warsaw is established after the treaty of Tilsit, ruled by Frederick Augustus I of Saxony
+1812.12.12 = { controller = PRU }
+1815.6.9   = {
+	owner = PRU
+	add_core = PRU
+} # Returned to Prussia after the Congress of Vienna

@@ -1,0 +1,21 @@
+# Muslim Dragoon
+#Modified for MEIOU by FB 10.02.07
+#tech level 48 c1780
+	
+unit_type = muslim
+type = cavalry
+
+maneuver = 2
+#offensive_morale = 6
+#defensive_morale = 6
+#offensive_fire = 5
+#defensive_fire = 4
+#offensive_shock = 2
+#defensive_shock = 2
+#FB
+offensive_morale = 11
+defensive_morale = 9
+offensive_fire = 5
+defensive_fire = 5
+offensive_shock = 5
+defensive_shock = 4

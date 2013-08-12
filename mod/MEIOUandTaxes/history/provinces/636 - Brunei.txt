@@ -1,0 +1,44 @@
+#Province: Brunei
+#file name: 636 - Brunei
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BEI
+controller = BEI
+culture = malayan
+religion = theravada			#FB this region began to be Islamified c1360
+capital = "Brunei Town"
+trade_goods = gold
+hre = no
+
+cot = yes
+
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 8000
+add_core = BEI
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 12170 }
+1500.1.1 = { citysize = 15870 religion = sunni } #FB known to be mainly Islamic by 1515
+1521.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 17500 }
+1580.1.1 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	   } # Captured by the Spanish
+1581.1.1 = {	owner = BEI
+		controller = BEI
+	   }
+1600.1.1 = { citysize = 19657 }
+1650.1.1 = { citysize = 22100 }
+1672.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war over succession
+1673.1.1 = { revolt = {} controller = BEI }
+1700.1.1 = { citysize = 24660 }
+1750.1.1 = { citysize = 26374 }
+1800.1.1 = { citysize = 28222 }

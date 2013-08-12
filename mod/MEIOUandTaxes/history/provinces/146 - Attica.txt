@@ -1,0 +1,73 @@
+# 146 - Athens
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ATH
+controller = ATH
+culture = greek
+religion = orthodox
+capital = "Athens"
+trade_goods = fish
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 17040
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+1356.1.1  = {
+	owner = SIC
+	controller = SIC
+	add_core = ATH
+	add_core = BYZ
+	add_core = SIC
+}
+1388.1.1  = {
+	owner = ATH
+	controller = ATH
+}
+1453.5.29 = {
+	remove_core = BYZ
+	remove_core = SIC
+	add_core = TUR
+} # Constantinople has fallen
+1456.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+1466.1.1  = { owner = VEN controller = VEN } # Brief control
+1466.11.1 = { owner = TUR controller = TUR } # Estimated
+1481.6.1  = { controller = REB } # Civil war, Bayezid & Jem
+1482.7.26 = { controller = TUR } # Jem escapes to Rhodes
+1500.1.1  = { citysize = 15800 }
+1550.1.1  = { citysize = 12340 marketplace = yes }
+1555.1.1  = { revolt_risk = 5 constable = yes } # General discontent with the Janissaries' dominance
+1556.1.1  = { revolt_risk = 0 }
+1600.1.1  = { citysize = 9500 } # Long era of decline, both military and internally
+1620.1.1  = { revolt_risk = 5 } # General discontent and occasional rebellions
+1640.1.1  = { revolt_risk = 2 }
+1650.1.1  = { citysize = 8700 }
+1660.1.1  = { revolt_risk = 0 }
+1690.1.1  = { base_tax = 3 } #The Decentralizing Effect of the Provincial System
+1700.1.1  = { citysize = 9870 }
+1750.1.1  = {
+	citysize = 10000
+	mint = yes
+	add_core = GRE 
+}
+1800.1.1  = { citysize = 12000 }
+1821.3.1  = {
+	controller = REB
+}
+1829.1.1  = {
+	owner = GRE
+	controller = GRE
+}
+1832.5.7  = {
+	remove_core = TUR
+} # Treaty of Constantinople

@@ -1,0 +1,77 @@
+# 1458 - Penobscot
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = miqmaq
+religion = midewiwin
+capital = "Penobscot"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+1497.6.24 = {
+	discovered_by = ENG
+} # John Cabbot
+1604.1.1   = {
+	discovered_by = FRA
+	owner = FRA
+	controller = FRA		
+	citysize = 100
+	capital = "Île Sainte-Croix"
+	religion = catholic
+	culture = francien
+	trade_goods = fur
+	set_province_flag = trade_good_set
+}
+1622.8.10  = {
+	owner = ENG
+	controller = ENG
+	capital = "Augusta"
+	citysize = 500
+	religion = anglican
+	culture = english
+} # 1622 patent letter
+1650.1.1   = {
+	citysize = 2000
+	add_core = ENG
+}
+1675.1.1   = {
+	citysize = 5000
+}
+1707.5.12  = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+    	remove_core = ENG
+	citysize = 8000
+}
+1750.1.1   = {
+	add_core = USA
+	culture = american
+	citysize = 10000
+}
+1775.4.19  = {
+	revolt = { type = colonial_rebels size = 0 }
+	revolt_risk = 9
+} # Battles of Lexington and Concord
+1776.7.4  = {
+	revolt = { }
+	revolt_risk = 0
+	owner = USA
+	controller = USA
+	religion = protestant
+} # Declaration of Independance
+1782.9.2   = {
+	remove_core = GBR 
+} # Acknowledgement of "Thirteen United States", not the Colonies
+#1790 96,540
+#1800 151,719
+#1810 228,705
+#1820 298,335
+#1830 399,455
+#1840 501,793  

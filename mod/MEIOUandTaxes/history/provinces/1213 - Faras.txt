@@ -1,0 +1,65 @@
+# 1213 - Asyut
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM 
+culture = egyptian
+religion = sunni
+capital = "Asyut"
+citysize = 8000
+#manpower = 2
+manpower = 4
+trade_goods = wool
+hre = no
+base_tax = 1
+
+discovered_by = ADA
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = eastern
+
+1356.1.1 = {
+	add_core = MAM
+}
+1450.1.1 = { citysize = 9000 }
+# 1453.1.1 = { controller = REB } # Under control of Awlad Kenz
+1516.1.1 = { add_core = TUR remove_core = MAM } # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1517.1.1   = {
+	owner = TUR
+	controller = TUR
+} # Conquered by Ottoman troops
+1540.1.1 = {
+	citysize = 9500
+} #Ottomans occupy Lower Nubia
+1600.1.1 = { citysize = 10000 }
+1650.1.1 = { citysize = 10500 }
+1700.1.1 = { citysize = 11000 }
+1750.1.1 = { citysize = 11500 }
+1789.10.22 = {
+	revolt_risk = 6
+} # Introduction of house tax, strained relations 
+1796.1.1   = {
+	revolt = { type = nationalist_rebels size = 2 }
+	controller = REB
+} # Revolts against the Ottomans
+1798.8.3   = {
+	revolt = {}
+	controller = RFR
+} # Occupied by the French
+1800.1.1 = { citysize = 12000 }
+1802.5.13  = {
+	controller = TUR
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

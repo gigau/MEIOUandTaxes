@@ -1,0 +1,65 @@
+# Gotland
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = GOT
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = linen
+#manpower = 1
+manpower = 2
+fort1 = yes # Visborg Castle
+capital = "Visby"
+citysize = 1200 # Estimated
+marketplace = yes
+temple = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1361.1.1  = { owner = DEN controller = DEN add_core = DEN }
+1394.1.1  = { controller = REB } # Vitaliebröderna 
+1398.1.1  = { owner = TEU controller = TEU add_core = TEU }
+1408.1.1  = { owner = DEN controller = DEN remove_core = TEU }
+1436.1.1  = { owner = GOT controller = GOT }
+1449.1.1  = { owner = DEN controller = DEN } 
+1500.1.1  = { citysize = 1400 } # Estimated
+1512.1.1  = { fort2 = yes } 
+1523.4.14 = { controller = REB } #Prelude to 'Grevefejden'(Sören Norrby)
+1523.6.21  = {
+	owner = DAN
+	add_core = DAN
+	remove_core = DEN
+}
+1525.6.1  = {
+	controller = DAN
+} #Recaptured after Sören Norrby left (date unknown)
+1536.1.1  = { religion = protestant} #Unknown date
+1550.1.1  = { fort3 = yes } 
+1570.1.1  = { citysize = 1600 }
+1610.1.1  = { fort4 = yes } 
+1610.1.1  = { citysize = 1600 }
+1644.7.1  = { controller = SWE } #Torstenssons War-Captured by Erik Ryning
+1645.8.13 = { owner = SWE add_core = SWE } #The Peace of Brömsebro
+1650.1.1  = { citysize = 1778 }
+1670.1.1  = { mint = yes } #Due to the "Staplepolicy act"
+1676.5.1  = {
+	owner = DAN
+	controller = DAN
+} #1st Pommeranian War-Captured by Niels Juel
+1679.9.23 = {
+	owner = SWE
+	controller = SWE
+	remove_core = DAN
+} #The Peace of Fontainbleau
+1690.1.1  = { citysize = 2372 }
+1730.1.1  = { citysize = 2427 }
+1770.1.1  = { citysize = 4269 }
+1808.3.1  = { controller = RUS } # Conquered by Russian troops
+1808.5.1  = { controller = SWE } # The Russians are defeated

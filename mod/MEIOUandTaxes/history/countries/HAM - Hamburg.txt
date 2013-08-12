@@ -1,0 +1,43 @@
+# HAM - Hamburg
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = merchant_republic
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+technology_group = western
+religion = catholic
+primary_culture = old_saxon
+capital = 44	# Hamburg
+
+
+1356.1.1 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}
+
+1399.1.1 = {
+	set_country_flag = hanseatic_league
+}
+
+1529.1.1 = {
+	religion = protestant
+	# secularism_theocracy = -3
+}
+
+1529.1.1 = {
+	government = administrative_republic
+}

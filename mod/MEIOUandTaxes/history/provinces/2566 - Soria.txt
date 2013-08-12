@@ -1,0 +1,65 @@
+# 2566 - Soria
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CAS		#Juan II of Castille
+controller = CAS
+add_core = CAS
+culture = castillian
+religion = catholic 
+hre = no
+base_tax = 6 
+trade_goods = olive 
+#manpower = 4 
+manpower = 8 
+fort1 = yes
+capital = "Soria" 
+citysize = 10000
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1500.1.1   = {
+	citysize = 11840
+}
+1516.1.23  = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+} # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
+1550.1.1   = {
+	citysize = 13000
+}
+1566.1.1   = {
+	culture = andalucian
+}
+1600.1.1   = {
+	citysize = 17000
+}
+1650.1.1   = {
+	citysize = 20000
+}
+1700.1.1   = {
+	citysize = 25000
+}
+1713.4.11  = {
+	remove_core = CAS
+}
+1750.1.1   = {
+	citysize = 32000
+}
+1789.1.1   = {
+	citysize = 40000
+}
+1808.6.6   = {
+	controller = REB
+}
+1811.1.1   = {
+	controller = SPA
+}
+1812.10.1  = {
+	controller = REB
+}
+1813.12.11 = {
+	controller = SPA
+}

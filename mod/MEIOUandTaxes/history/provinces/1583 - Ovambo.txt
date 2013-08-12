@@ -1,0 +1,20 @@
+#1583 - Ovambo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = khoisan
+religion = animism
+capital = "Ovambo"
+
+base_tax = 1
+#manpower = 1
+manpower = 2
+trade_goods = crops # slaves
+hre = no
+
+native_size = 5
+native_ferocity = 2
+native_hostileness = 7
+
+discovered_by = NDO
+
+1488.1.1 = { discovered_by = POR } # Bartolomeu Dias

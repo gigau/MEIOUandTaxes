@@ -1,0 +1,36 @@
+#MEIOU-GG Governemnt changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -1
+# centralization_decentralization = -5
+# innovative_narrowminded = -2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 0
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 0
+# secularism_theocracy = -2
+primary_culture = occitain
+add_accepted_culture = gascon
+add_accepted_culture = francien
+religion = catholic
+technology_group = western
+capital = 196	# Toulouse
+
+1515.1.1 = {
+	government = despotic_monarchy_4
+}
+
+1560.1.1 = {
+	religion = reformed
+	# secularism_theocracy = -3
+}
+
+1589.8.3 = {
+	government = administrative_monarchy_4
+}
+
+1661.3.9 = {
+	government = absolute_monarchy_4
+}

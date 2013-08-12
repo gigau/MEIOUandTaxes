@@ -1,0 +1,66 @@
+# 2673 - Karaikal
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TNJ
+controller = TNJ
+culture = tamil
+religion = hinduism
+capital = "Karaikal"
+trade_goods = cloth
+hre = no
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 26000
+fort1 = yes
+# caste_system = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = TNJ
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1405.1.1 = { discovered_by = chinese }
+1428.1.1 = { add_core = VIJ }
+1450.1.1 = { citysize = 28000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 31000 }
+1550.1.1 = { citysize = 34000 }
+1565.7.1 = {
+	owner = TNJ
+	controller = TNJ
+} # The Vijayanagar empire collapses
+1600.1.1 = { citysize = 38000 }
+1650.1.1 = { citysize = 45000 }
+1661.1.1 = {
+	controller = BIJ
+} # Bijapur Expansion
+1662.1.1 = {
+	owner = BIJ
+} # Bijapur Expansion
+1678.1.1 = {
+	owner = MAR
+	controller = MAR
+} #Venkaji assumes independence
+1694.1.1 = {
+	controller = MUG
+}
+1700.1.1 = { citysize = 50000 }
+1707.1.1 = {
+	controller = MAR
+}
+1728.1.1 = {
+	add_core = MAR
+}
+1750.1.1 = { citysize = 58000 }
+1800.1.1 = { citysize = 60000 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+}

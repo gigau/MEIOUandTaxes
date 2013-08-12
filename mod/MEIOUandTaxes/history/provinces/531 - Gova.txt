@@ -1,0 +1,57 @@
+# 531 - Gova
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAH
+controller = BAH
+culture = marathi
+religion = hinduism
+capital = "Govà"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 1
+manpower = 2
+citysize = 8580
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1347.8.3 = {
+	add_core = BAH
+	add_core = BIJ
+}
+1380.1.1 = {
+	owner = VIJ
+	controller = VIJ
+	add_core = VIJ
+}
+1400.1.1 = { citysize = 10400 }
+1469.1.1 = {
+	controller = BAH
+}
+1470.1.1 = {
+	owner = BAH
+	remove_core = VIJ
+} # Conquered by the Bahmani sultans
+1502.1.1 = { citysize = 13100 discovered_by = POR }		#FB was: 1498.1.1
+#1510.1.1 = { set_country_flag = TP_trading_post }
+1510.1.1 = {
+	owner = POR
+	controller = POR
+	capital = "Goa"
+} # Conquered by Afonso de Albuquerque
+1518.1.1 = { remove_core = BAH } # The breakup of the Bahmani sultanate
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1535.1.1 = { add_core = POR }
+1550.1.1 = { citysize = 17700 marketplace = yes }
+1580.1.1 = { fort2 = yes }
+1596.2.1 = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1 = { citysize = 20300 temple = yes discovered_by = turkishtech discovered_by = ENG discovered_by = FRA }
+1650.1.1 = { citysize = 22700 customs_house = yes }
+1674.1.1 = { add_core = MAR } # Maratha Empire
+1700.1.1 = { citysize = 25200 workshop = yes }
+1707.5.12 = { discovered_by = GBR }
+1715.1.1 = { mint = yes }
+1750.1.1 = { citysize = 28500 courthouse = yes }
+1800.1.1 = { citysize = 32240 }
+1818.6.3 = { remove_core = MAR }

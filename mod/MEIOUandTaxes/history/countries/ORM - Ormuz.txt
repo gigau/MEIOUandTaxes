@@ -1,0 +1,80 @@
+# ORM - Ormuz
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 3
+# land_naval = 3
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 2
+# secularism_theocracy = -1
+primary_culture = omani
+religion = sunni
+technology_group = muslim
+capital = 431
+
+#Need to find real info on Ormuzi kings
+	
+1296.1.1 = {
+	monarch = {
+		name = "Mir Bahdin Ayaz"
+		dynasty = "Seyfin"
+		adm = 7
+		dip = 6	
+		mil = 3
+	}
+}
+
+1378.1.1 = {
+	monarch = {
+		name = "Massud"
+		dynasty = "Seyfin"
+		adm = 7
+		dip = 6	
+		mil = 3
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Shabadin"
+		dynasty = "Seyfin"
+		adm = 6
+		dip = 6	
+		mil = 4
+	}
+}
+
+1435.1.1 = {
+	monarch = {
+		name = "Salgor Shah"
+		dynasty = "Seyfin"
+		adm = 4
+		dip = 6	
+		mil = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Shawes"
+		dynasty = "Seyfin"
+		adm = 6
+		dip = 4	
+		mil = 4
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Seyfadin"
+		dynasty = "Seyfin"
+		adm = 7
+		dip = 5	
+		mil = 4
+	}
+}

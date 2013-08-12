@@ -1,0 +1,43 @@
+#Province: Samudera
+#file name: 2093 - Samudera
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of
+#the Srivijaya Empire.
+#Note: the earliest evidence of Islam in Indonesia occurs in this province. The earliest
+#recorded islamic ruler was Sultan Sulaiman bin Abdullah bin al-Basir of Lamreh who died
+#in 1211. The earliest record of a town being mainly muslim is Marco Polo's reference to
+#Perlak as a "Muslim town" in 1292.
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ATJ
+controller = ATJ
+culture = acehenese
+religion = sunni				#this region began to be Islamified c1200
+capital = "Pasai"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 10000
+add_core = ATJ
+temple = yes			#FB Pasai religious centre
+
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 11260 }
+1405.1.1 = { discovered_by = MNG }
+1500.1.1 = { religion = sunni add_core = MLC }
+1509.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 12235 }
+1596.5.1 = { discovered_by = NED } # Cornelis de Houtman
+1600.1.1 = { citysize = 12860 }
+1650.1.1 = { citysize = 13550 }
+1700.1.1 = { citysize = 13860 }
+1750.1.1 = { citysize = 14550 }
+1800.1.1 = { citysize = 14860 }
+1850.1.1 = { citysize = 15550 }

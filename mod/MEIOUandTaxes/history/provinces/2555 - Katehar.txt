@@ -1,0 +1,96 @@
+# 2555 - Katehar/Rohilkhand
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AHM
+controller = AHM
+culture = avadhi
+religion = hinduism
+capital = "Badayun"
+trade_goods = cotton #Calicoes
+hre = no
+base_tax = 9
+#manpower = 10
+manpower = 20
+citysize = 21000
+fort1 = yes
+# caste_system = yes
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+discovered_by = indian
+
+1356.1.1  = {
+	add_core = RMP
+}
+1450.1.1  = { citysize = 24000 }
+1483.1.1  = {
+	controller = DLH
+	owner = DLH
+}
+1500.1.1  = { citysize = 27000 }
+1526.4.1  = {
+	controller = KAB
+} #Conquered by Babur
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = DLH
+} # Battle of Panipat
+1540.1.1  = {
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} # Sher Shah Conquers Delhi
+1550.1.1  = {
+	capital = "Rampur"
+	citysize = 29000
+}
+1553.1.1  = {
+	owner = DLH
+	controller = DLH
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1555.7.23 = {
+	owner = MUG
+	controller = MUG
+} # Humayun Returns
+1565.1.1  = {
+	controller = REB
+	revolt = { type = noble_rebels }
+} #Revolt of Uzbek commanders
+1566.6.1  = {
+	controller = MUG
+	revolt = { }
+}
+1600.1.1  = { citysize = 31000 }
+1623.1.1  = {
+	 culture = pashtun
+} #Rohilas starts to settle here
+1650.1.1  = { citysize = 35000 marketplace = yes }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 100000 }
+1707.5.12 = { discovered_by = GBR }
+1721.1.1  = {
+	owner = RMP
+	controller = RMP
+	remove_core = MUG
+} # Rohilkandh independent
+1750.1.1  = { citysize = 70000 }
+1757.1.1  = {
+	owner = ODH
+	controller = ODH
+} # Oudh
+1761.1.1  = {
+	owner = RMP
+	controller = RMP
+} # Rohilkandh independent
+1794.1.1  = {
+	owner = ODH
+	controller = ODH
+} # Oudh
+1800.1.1  = { citysize = 68000 }
+1801.1.1  = {
+	owner = GBR
+	controller = GBR
+} # Great Britain

@@ -1,0 +1,64 @@
+# 387 - Mashad
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KTD
+controller = KTD
+culture = persian
+religion = sunni
+capital = "Mashad"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+citysize = 2870
+discovered_by = mongol_tech
+discovered_by = muslim
+discovered_by = indian
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = KTD
+	add_core = TIM
+}
+1383.1.1   = {
+	owner = TIM
+	controller = TIM
+}
+1409.1.1  = {
+	owner = KTD
+	controller = KTD
+	remove_core = TIM
+} #1409 Timurid Empire of Shah Rukh 1409 split between Shah Rukh and Ulugh Beg
+1458.1.1  = {
+	controller = QAR
+} #Conquered by Black Sheep
+1459.1.1  = {
+	controller = KTD
+} #Civil War
+1500.1.1  = { citysize = 3305 }
+1508.1.1 = { controller = SHY }
+1509.1.1 = { owner = SHY }
+1510.1.1  = {
+	controller = SAM
+}
+1511.1.1  = {
+	owner = SAM
+}
+1512.1.1  = {
+	owner = PER
+	controller = PER
+	add_core = PER
+	remove_core = SAM
+	remove_core = TIM
+	religion = shiite
+} # The Safavids took over, Shi'ism became the state religion	
+1550.1.1  = { citysize = 1980 }
+1597.12.1 = { base_tax = 3 } # The Reforms of Abbas the Great
+1600.1.1  = { citysize = 4477 }
+1650.1.1  = { citysize = 5276 }
+1700.1.1  = { citysize = 6900 }
+1750.1.1  = { citysize = 7288 }
+1800.1.1  = { citysize = 8100 }

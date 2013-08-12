@@ -1,0 +1,183 @@
+# NAX - Naxos
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 0
+technology_group = eastern
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+capital = 164	# Naxos
+
+1341.2.21 = {
+	monarch = {
+		name = "Giovanni"
+		dynasty = "Sanudo"
+		DIP = 5
+		ADM = 4 
+		MIL = 6
+	}
+}
+
+1361.9.11 = {
+	monarch = {
+		name = "Fiorenza"
+		dynasty = "Sanudo"
+		DIP = 6
+		ADM = 6 
+		MIL = 4
+		female = yes
+	}
+}
+
+1371.8.4 = {
+	monarch = {
+		name = "Nicolai II"
+		dynasty = "Sanudo"
+		DIP = 4
+		ADM = 5 
+		MIL = 5
+	}
+}
+
+1383.1.1 = {
+	monarch = {
+		name = "Francesco"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5 
+		MIL = 8
+	}
+}
+
+# Dukes of Naxos
+1397.1.1 = {
+	monarch = {
+		name = "Giacomo I"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Giovanni II"
+		dynasty = "Crispo"
+		DIP = 6
+		ADM = 5
+		MIL = 3
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Giacomo II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Gian Giacomo"
+		dynasty = "Crispo"
+		DIP = 4
+		ADM = 4
+		MIL = 6
+	}
+}
+
+1453.1.1 = {
+	monarch = {
+		name = "Guglielmo II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5 
+		MIL = 5
+	}
+}
+
+1463.1.1 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1463.7.1 = {
+	monarch = {
+		name = "Giacomo II"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1480.1.1 = {
+	monarch = {
+		name = "Giovanni III"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1494.1.1 = {
+	monarch = {
+		name = "Francesco III"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1511.1.1 = {
+	monarch = {
+		name = "Giovanni IV"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1564.1.1 = {
+	monarch = {
+		name = "Giacomo IV"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1566.1.1 = {
+	monarch = {
+		name = "Giuseppe Nasi"
+		dynasty = "Crispo"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+# Annexed by the Ottomans 1579.8.2

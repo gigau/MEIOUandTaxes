@@ -1,0 +1,28 @@
+# YUE - Yue
+# LS - Chinese Civil War
+
+government = chinese_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = yueyu
+capital = 685
+
+1356.1.1 = {
+	monarch = {
+		name = "Wang"
+		dynasty = "Yue"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+}

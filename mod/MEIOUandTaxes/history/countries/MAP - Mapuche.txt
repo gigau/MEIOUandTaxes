@@ -1,0 +1,32 @@
+# MAP - Mapuche
+# MEIOU-GG Govenemnt changes
+# MEIOU-GG Religion changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_republic_1	#FB should be tribal republic?
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+primary_culture = mapuche
+religion = pantheism
+technology_group = new_world
+capital = 2070 # Mapuche
+
+1356.1.1 = {
+	monarch = {
+		name = "Toqui"
+		adm = 4
+		dip = 5
+		mil = 8
+	}
+} #Toqui means "war leader"
+
+# Resisted to the Inca and to the Spaniards

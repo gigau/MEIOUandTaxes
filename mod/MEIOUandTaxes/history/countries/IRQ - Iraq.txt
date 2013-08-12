@@ -1,0 +1,20 @@
+# IRQ - Iraq
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 3
+primary_culture = iraqi
+religion = shiite
+technology_group = muslim
+capital = 410

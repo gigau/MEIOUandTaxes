@@ -1,0 +1,310 @@
+# Country: BLI - Bali
+# MEIOU-FB Indonesia mod changes
+# according to MC Ricklefs "A History of Modern Indonesia"
+# there was not really a single state of Bali. Like Java,
+# Bali consisted of a number of city states which were
+# at times completely independant. At other times one city-state
+# acquired temporary dominance. My feeling is that the situation
+# was similar to that in many parts of western europe c500-1000
+# where regional kings recognised one of their number as high-king
+# and how much power the high-king wielded depended solely on the
+# military and diplomatic prowess of the individual high-king
+# MEIOU-GG Govenemnt changes
+# 2009-dec-19 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = 2
+# serfdom_freesubjects = -1
+# secularism_theocracy = 0
+primary_culture = balinese
+# isolationist_expansionist = 0
+technology_group = austranesian			# MEIOU-FB - was: chinese
+religion = hinduism
+capital = 631	# Balidwipa
+
+# Majapahit
+1390.1.1 = {
+	monarch = {
+		name = "Wikramawardhana"
+		dynasty = "Vijaya"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Suhita"
+		monarch_name = "Suhita"
+		birth_date = 1390.1.1
+		death_Date = 1447.1.1
+		dynasty = "Vijaya"
+		claim = 95
+		adm  = 6
+		dip = 4
+		mil = 5
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	monarch = {
+		name = "Suhita"
+		dynasty = "Vijaya"
+		adm = 6
+		dip = 4
+		mil = 5
+		female = yes
+	}
+	heir = {
+		name = "Dyah Kertawijaya"
+		monarch_name =" Dyah Kertawijaya"
+		dynasty = "Vijaya"
+		birth_date = 1420.1.1
+		death_Date = 1450.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+1447.1.1 = {
+	monarch = {
+		name = "Dyah Kertawijaya"
+		dynasty = "Vijaya"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+# Bali
+1450.1.1 = {
+	monarch = {
+		name = "Ketut Ngulesir"
+		dynasty = "Samprangan"
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Watu Renggong"
+		monarch_name = "Watu Renggong"
+		dynasty = "Samprangan"
+		birth_Date = 1450.1.1
+		death_Date = 1520.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1460.1.1 = {
+	monarch = {
+		name = "Watu Renggong"
+		dynasty = "Samprangan"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Dalem Bekung"
+		monarch_name = "Dalem Bekung"
+		dynasty = "Samprangan"
+		birth_Date = 1540.1.1
+		death_Date = 1605.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1550.1.1 = {
+	monarch = {
+		name = "Dalem Bekung"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1600.1.1 = {
+	heir = {
+		name = "Dalem Di Made"
+		monarch_name = "Dalem Di Made"
+		dynasty = "Samprangan"
+		birth_date = 1600.1.1
+		death_Date = 1686.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Dalem Di Made"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1656.1.1 = {
+	monarch = {
+		name = "Ki Gusti Ngrurah Panji Sakti"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+	heir = {
+		name = "Dalem Di Made"
+		monarch_name = "Dalem Di Made II"
+		dynasty = "Samprangan"
+		birth_Date = 1645.1.1
+		death_Date = 1710.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}	#FB: Ngrurah, king of Buleleng, conquered Balambangan (east Java)
+
+1686.1.1 = {
+	monarch = {
+		name = "Dalem Di Made II"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Dewa Agung Jambe"
+		monarch_name = "Dewa Agung Jambe"
+		dynasty = "Samprangan"
+		birth_Date = 1676.1.1
+		death_Date = 1722.1.1
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1704.1.1 = {
+	monarch = {
+		name = "Gusti Agung Anom"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}	#FB: Anom, king of Mengwi, made Mengwi the most powerful city-state in Bali
+
+1710.1.1 = {
+	monarch = {
+		name = "Dewa Agung Jambe"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Dewa Agung Di Made"
+		monarch_name = "Dewa Agung Di Made"
+		dynasty = "Samprangan"
+		birth_Date = 1690.1.1
+		death_Date = 1760.1.1
+		claim = 80
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Gusti Agung Made Alengkajeng"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}	#FB: Alengkajeng, king of Mengwi
+
+1736.1.1 = {
+	monarch = {
+		name = "Dewa Agung Di Made"
+		dynasty = "Samprangan"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Dewa Agung Sakti"
+		monarch_name = "Dewa Agung Sakti"
+		dynasty = "Samprangan"
+		birth_Date = 1730.1.1
+		death_Date = 1790.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Dewa Agung Sakti"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Dewa Agung Putra"
+		monarch_name = "Dewa Agung Putra"
+		dynasty = "Samprangan"
+		birth_date = 1750.1.1
+		death_Date = 1815.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Dewa Agung Putra"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Dewa Agung Putra II"
+		dynasty = "Samprangan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

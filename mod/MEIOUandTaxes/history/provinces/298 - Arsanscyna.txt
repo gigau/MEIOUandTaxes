@@ -1,0 +1,46 @@
+# 298 - Briansk
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BRK
+controller = BRK 
+culture = russian
+religion = orthodox
+hre = no
+base_tax = 4
+trade_goods = wheat
+#manpower = 2
+manpower = 4
+capital = "Briansk"
+citysize = 5000
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+
+1356.1.1  = {
+	add_core = BRK   
+	add_core = LIT    
+}
+1360.1.1  = {
+	owner = LIT
+	controller = LIT
+}
+1500.1.1   = { citysize = 6000 }
+1503.3.21  = { owner = MOS add_core = MOS }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 7000 marketplace = yes }
+1600.1.1   = { citysize = 8000 }
+1650.1.1   = { citysize = 7000 }
+1700.1.1   = { citysize = 5000 }
+1710.1.1   = { citysize = 4000 }
+1772.8.5   = {
+	culture = byelorussian
+} # First partition
+1800.1.1   = { citysize = 5600 }
+1812.8.17 = { controller = RFR }
+1812.11.9 = { controller = RUS }

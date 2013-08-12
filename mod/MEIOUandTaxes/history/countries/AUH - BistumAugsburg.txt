@@ -1,0 +1,260 @@
+# AUH - Bistum Augsburg
+# 2013-aug-07 - GG - EUIV changes
+
+government = theocracy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+primary_culture = bavarian
+religion = catholic
+technology_group = western
+capital = 2614
+
+1348.1.1 = {
+	monarch = {
+		name = "Marquard I"
+		dynasty = "von Randeck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Walter II"
+		dynasty = "von Hochschlitz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1369.1.1 = {
+	monarch = {
+		name = "Johann I"
+		dynasty = "Schadland"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Burkhard"
+		dynasty = "von Ellerbach"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1404.1.1 = {
+	monarch = {
+		name = "Eberhard II"
+		dynasty = "von Kirchberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1413.1.1 = {
+	monarch = {
+		name = "Friedrich"
+		dynasty = "von Grafeneck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1414.1.1 = {
+	monarch = {
+		name = "Anselm"
+		dynasty = "von Nenningen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1423.1.1 = {
+	monarch = {
+		name = "Peter"
+		dynasty = "von Schaumberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1469.1.1 = {
+	monarch = {
+		name = "Johann II"
+		dynasty = "von Werdenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1486.1.1 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Zollern"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1505.1.1 = {
+	monarch = {
+		name = "Heinrich IV"
+		dynasty = "von Lichtenau"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1517.1.1 = {
+	monarch = {
+		name = "Christoph"
+		dynasty = "von Stadion"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Otto Truchsess"
+		dynasty = "von Waldburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Johann Eglof"
+		dynasty = "von Knöringen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Marquard II"
+		dynasty = "vom Berg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Johann Otto"
+		dynasty = "von Gemmingen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1598.1.1 = {
+	monarch = {
+		name = "Heinrich V"
+		dynasty = "von Knöringen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1646.1.1 = {
+	monarch = {
+		name = "Sigismund"
+		dynasty = "Franz"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1665.1.1 = {
+	monarch = {
+		name = "Johann Christoph"
+		dynasty = "von Freyberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1690.1.1 = {
+	monarch = {
+		name = "Alexander Sigmund"
+		dynasty = "von Pfalz-Neuburg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1737.1.1 = {
+	monarch = {
+		name = "Johann Franz Schenk"
+		dynasty = "von Stauffenberg"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1740.1.1 = {
+	monarch = {
+		name = "Joseph Ignaz Philipp"
+		dynasty = "von Hessen-Darmstadt"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Clemens Wenceslaus"
+		dynasty = "von Sachsen"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1812.1.1 = {
+	monarch = {
+		name = "Franz Friedrich"
+		dynasty = "von Sturmfeder"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1818

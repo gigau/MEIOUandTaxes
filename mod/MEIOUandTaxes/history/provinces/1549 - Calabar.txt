@@ -1,0 +1,22 @@
+# 1549 - Calabar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CLB
+controller = CLB
+culture = igbo		
+religion = sunni		 
+capital = "Calabar"
+fort1 = yes
+hre = no
+
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = palm
+
+discovered_by = soudantech
+
+1356.1.1   = {
+	add_core = CLB
+}

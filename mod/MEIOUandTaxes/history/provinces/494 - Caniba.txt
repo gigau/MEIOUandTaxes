@@ -1,0 +1,77 @@
+# 494 - Caniba
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = arawak
+religion = pantheism
+capital = "Caniba"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 5
+native_ferocity = 2
+native_hostileness = 9 
+
+1493.1.1  = {
+	discovered_by = CAS
+} # Christopher Columbus, claimed the island for Spain, but never showed much interest
+1516.1.23 = {
+	discovered_by = SPA
+}
+1631.1.1  = {
+	owner = NED
+	controller = NED
+	culture = dutch
+	religion = reformed
+	citysize = 300
+	capital = "Saint Martin"
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # The Dutch occupied the island briefly
+1633.1.1  = {
+	owner = SPA
+	controller = SPA
+	culture = castillian
+	religion = catholic
+	citysize = 700
+} # Recaptured by Spain, expelled all Dutch
+1646.1.1  = {
+	owner = NED
+	controller = NED
+	citysize = 1140
+	culture = dutch
+	religion = reformed
+} # Several attempts were made by the Dutch to reclaim the city, finally Spain gave up  
+1650.1.1  = {
+	citysize = 3448
+}
+1671.1.1  = {
+	add_core = NED
+}
+1700.1.1  = {
+	citysize = 5225
+} # Large number of slaves are brought to the island 
+1750.1.1  = {
+	citysize = 6089
+}
+1800.1.1  = {
+	citysize = 6852
+}
+1810.7.10  = {
+	owner = RFR
+	controller = GBR
+	add_core = RFR
+	remove_core = NED
+} # Annexed by France, but occupied by British forces
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.6.9   = {
+	owner = NED
+	controller = NED
+	remove_core = FRA
+} # The United Kingdom of the Netherlands

@@ -1,0 +1,72 @@
+# 157 - Lodogoria
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BUL
+controller = BUL  
+culture = bulgarian
+religion = orthodox
+capital = "Turnovo"
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 3022
+trade_goods = wheat
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1  = {
+	add_core = BUL
+}
+1371.2.17 = {
+	owner = TAR
+	controller = TAR
+	add_core = TAR
+	remove_core = BUL
+}
+1393.7.17 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1500.1.1  = {
+	citysize = 3770
+}
+1550.1.1  = {
+	citysize = 4000
+}
+1598.1.1  = {
+	controller = REB
+} # First Tarnovo Uprising
+1600.1.1  = {
+	citysize = 4550
+	controller = TUR
+}
+1650.1.1  = {
+	citysize = 5210
+}
+1686.1.1  = {
+	revolt = { type = nationalist_rebels size = 0 }
+	controller = REB
+} # Second Tarnovo Uprising
+1690.1.1  = {
+	revolt = { }
+	controller = TUR
+}
+1700.1.1  = {
+	citysize = 5550
+}
+1750.1.1  = {
+	citysize = 6080
+}
+1800.1.1  = {
+	citysize = 6580
+}

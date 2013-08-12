@@ -1,0 +1,25 @@
+# 2780 - Borgu
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BOR
+controller = BOR
+culture = yorumba		
+religion = sunni		 
+capital = "Borgu"
+
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 15000
+trade_goods = ivory
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1   = {
+	add_core = BOR
+}

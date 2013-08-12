@@ -1,0 +1,67 @@
+# 1310 - Sarai Batu
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = astrakhani
+religion = sunni
+capital = "Sarai al Jadid"
+
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 30000		#FB was 300000
+trade_goods = wool
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = {
+	add_core = BLU
+	add_core = AST
+	set_province_flag = horde_capital
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1459.1.1 = {
+	owner = AST
+	controller = AST
+	remove_core = GOL
+} # Independance of Astrakhan
+1550.1.1   = {
+	citysize = 5324
+}
+1556.1.1   = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = AST
+	culture = russian
+	religion = orthodox
+} # Conquest of the Khanante by Ivan Grozny
+1650.1.1   = {
+	citysize = 7370
+}
+1700.1.1   = {
+	citysize = 8670
+}
+1750.1.1   = {
+	citysize = 10200
+}
+1800.1.1   = {
+	citysize = 12000
+}

@@ -1,0 +1,222 @@
+#SHI - Shirvanshah
+#MEIOU-GG Govenemnt changes
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = despotic_monarchy_2b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture = azerbadjani
+religion = sunni
+technology_group = muslim
+capital = 424 # Shemakha
+ 
+1348.1.1 = {
+	monarch = {
+		name = "Qey Qabus"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+	heir = {
+		name = "Hushang"
+		monarch_name = "Hushang"
+		dynasty = "Yazid"
+		birth_date = 1320.1.1
+		death_date = 1382.1.1
+		claim = 95
+		adm = 7
+		mil = 5
+		dip = 8
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Hushang"
+		dynasty = Yazid
+		adm = 7
+		mil = 5
+		dip = 8
+	}
+}
+
+1382.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = Yazid
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Khalilullah"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Farrukh Yassar"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Bahram Bey"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1501.1.1 = {
+	monarch = {
+		name = "Qazi Bey"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1503.1.1 = {
+	monarch = {
+		name = "Ibrahim II Sheykshah"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "Khalilullah II"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Shahrukh"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1748.1.1 = {
+	religion = shiite
+	# secularism_theocracy = 1
+	monarch = {
+		name = "Muhammad 'Ali Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1763.1.1 = {
+	monarch = {
+		name = "Aghasi Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Fath 'Ali Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1769.1.1 = {
+	monarch = {
+		name = "'Abd Allah Beg"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1770.1.1 = {
+	monarch = {
+		name = "Ildar Beg"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1778.1.1 = {
+	monarch = {
+		name = "Aghasi Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1786.1.1 = {
+	monarch = {
+		name = "Askar Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1789.1.1 = {
+	monarch = {
+		name = "Qasim Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}
+
+1796.1.1 = {
+	monarch = {
+		name = "Mustafa Khan"
+		dynasty = Yazid
+		adm = 6
+		mil = 5
+		dip = 6
+	}
+}

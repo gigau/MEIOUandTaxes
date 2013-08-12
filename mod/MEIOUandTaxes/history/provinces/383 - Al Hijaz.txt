@@ -1,0 +1,39 @@
+#383 - Tabouk
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YEM
+controller = YEM
+culture = hejazi
+religion = sunni
+capital = "Sa'da"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1754
+
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = YEM
+}
+1500.1.1 = { citysize = 240 }
+1516.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # Part of the Ottoman empire
+1520.1.1 = { fort1 = yes }
+1550.1.1 = { citysize = 2864 }
+1600.1.1 = { citysize = 3132 }
+1636.1.1 = {
+	owner = YEM
+	controller = YEM
+}
+1650.1.1 = { citysize = 3640 }
+1700.1.1 = { citysize = 4400 }
+1750.1.1 = { citysize = 5144 }
+1800.1.1 = { citysize = 6521 }

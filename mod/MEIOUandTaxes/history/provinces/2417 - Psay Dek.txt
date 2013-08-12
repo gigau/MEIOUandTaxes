@@ -1,0 +1,47 @@
+# 2417 - Psay Dek
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KHM
+controller = KHM
+add_core = KHM
+culture = khmer
+religion = theravada
+capital = "Psay Dek"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 12899
+trade_goods = rice
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1500.1.1 = { citysize = 14583 }
+1535.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 16358 }
+1600.1.1 = { citysize = 18544 }
+1623.1.1 = { customs_house = yes }
+1650.1.1 = { citysize = 20187 }
+1698.1.1 = {
+	owner = ANN
+	controller = ANN
+	add_core = ANN
+} # Vietnamese control
+1700.1.1 = { citysize = 22280 }
+1750.1.1 = { citysize = 24450 }
+1800.1.1 = { citysize = 26580 }
+1802.7.21 = {
+	owner = DAI
+	controller = DAI
+	add_core = DAI
+	remove_core = ANN
+} # The Nguyen dynasty defeats the Tay Sons
+1862.6.5 = { 
+	owner = FRA
+	controller = FRA
+}

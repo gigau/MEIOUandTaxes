@@ -1,0 +1,57 @@
+# 1397 - Raska
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SER
+controller = SER
+culture = serbian
+religion = orthodox
+capital = "Ras"
+trade_goods = wool
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 8750
+fort1 = yes
+add_core = SER
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1455.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1500.1.1  = { citysize = 9450 }
+1550.1.1  = { citysize = 10080 }
+1600.1.1  = { citysize = 9500 }
+1650.1.1  = { citysize = 11690 }
+1688.11.7 = { revolt_risk = 7 } # Serb rebellion under D. Brankovic
+1691.1.1  = { courthouse = yes }
+1700.1.1  = { citysize = 13680 }
+1750.1.1  = { citysize = 16983 fort2 = yes }
+1800.1.1  = { citysize = 21800 }
+1806.1.8  = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The first Serbian uprising
+1813.1.1  = {
+	revolt = { }
+	controller = TUR
+}
+1815.4.23 = {
+	revolt = {
+		type = nationalist_rebels
+		size = 0
+	}
+	controller = REB
+} # The second Serbian uprising
+1817.1.1  = {
+	revolt = { }
+	controller = TUR
+}

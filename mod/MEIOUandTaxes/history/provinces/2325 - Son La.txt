@@ -1,0 +1,52 @@
+# 2325 - Son La
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DAI
+controller = DAI
+add_core = DAI
+culture = baizu		
+religion = theravada
+capital = "Viet Bac"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = tea
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1407.1.1 = { owner = MNG controller = MNG }
+1427.1.1 = { owner = DAI controller = DAI }
+1500.1.1 = { citysize = 5050 }
+1550.1.1 = { citysize = 5877 }
+1558.1.1 = {
+	owner = TOK
+	controller = TOK
+	add_core = TOK
+	remove_core = DAI
+} # The kingdom is divided between the Nguyens & the Trinh line
+1600.1.1 = { citysize = 6570 }
+1650.1.1 = { citysize = 8100 }
+1700.1.1 = { citysize = 9870 }
+1730.1.1 = { revolt_risk = 5 } # Peasant revolt
+1731.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 10400 }
+1786.1.1 = { controller = REB } # The Trinh dynasty was overthrown by Tay Son rebells
+1800.1.1 = { citysize = 11800 controller = TOK } # The revolt is suppressed
+1802.7.21 = {
+	owner = DAI
+	controller = DAI
+	add_core = DAI
+	remove_core = ANN
+} # The Nguyen dynasty defeats the Tay Sons
+1883.8.25 = { 
+	owner = FRA
+	controller = FRA
+}

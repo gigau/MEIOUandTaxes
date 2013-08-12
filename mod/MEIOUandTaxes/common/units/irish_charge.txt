@@ -1,0 +1,21 @@
+# Irish Charge
+#Modified for MEIOU by FB 10.02.07
+#tech level 33 c1636
+
+unit_type = western
+type = infantry
+
+maneuver = 1
+#offensive_morale = 7
+#defensive_morale = 3
+#offensive_fire = 1
+#defensive_fire = 3
+#offensive_shock = 5
+#defensive_shock = 2
+#FB
+offensive_morale = 7
+defensive_morale = 7
+offensive_fire = 6
+defensive_fire = 5
+offensive_shock = 7
+defensive_shock = 5

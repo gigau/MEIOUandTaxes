@@ -1,0 +1,4 @@
+# 2560 - Chinese lakes
+
+discovered_by = chinese
+discovered_by = steppestech

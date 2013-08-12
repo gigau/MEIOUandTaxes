@@ -1,0 +1,39 @@
+# Outer Hebrides
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOR
+controller = NOR
+culture = norse_gaelic
+religion = catholic
+hre = no
+base_tax = 1
+trade_goods = fish
+#manpower = 1
+manpower = 2
+capital = "Stornoway"
+citysize = 1000 #Estimated
+add_core = SCO
+add_core = NOR
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+fort1 = yes
+terrain1 = yes
+
+1266.1.1  = {
+	owner = SCO
+	controller = SCO
+	remove_core = NOR
+}
+1356.1.1   = { set_province_flag = terrain1 }
+1500.1.1  = { citysize = 1500 }
+1560.8.1  = { religion = reformed }
+1600.1.1  = { citysize = 2000 }
+1700.1.1  = { citysize = 3000 }
+1707.5.12 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+}
+1750.1.1  = { fort2 = yes citysize = 3500 }

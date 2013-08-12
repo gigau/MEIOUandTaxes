@@ -1,0 +1,51 @@
+#1572 - Kari
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ALW
+controller = ALW
+culture = nubian 
+religion = oriental
+capital = "Kari"
+fort1 = yes
+hre = no
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3000
+trade_goods = wool
+
+discovered_by = ALW
+discovered_by = YAO
+discovered_by = ETH
+discovered_by = DAR
+discovered_by = KIT
+discovered_by = MKU
+discovered_by = eastern
+1356.1.1 = {
+	add_core = ALW
+}
+1503.1.1 = {
+	owner = SEN
+	controller = SEN
+	add_core = SEN
+	discovered_by = SEN
+	citysize = 5000
+	discovered_by = ETH
+	trade_goods = wool
+}
+1530.1.1 = { religion = sunni } #Spread of Islam leads to shift in religion affiliation of region
+1550.1.1 = { citysize = 5500 discovered_by = TUR }
+1583.1.1 = { revolt_risk = 6 } #Shaykh Ajib expelled from Sennar, Abdallabi discontent grows
+1584.1.1 = { revolt_risk = 0 } #Dakin and Ajib reach agreement to end conflict
+1600.1.1 = { citysize = 6000 }
+1612.1.1 = { revolt_risk = 5 } #Funj destroy Ajib at Karkoj
+1613.1.1 = { revolt_risk = 0 } #Funj restore autonomy to the Abdallabi
+1650.1.1 = { citysize = 6500 }
+1700.1.1 = { citysize = 7000 }
+1706.1.1 = { revolt_risk = 3 } #Badi III faces revolt over development of slave army at aristocrats expense
+1709.1.1 = { revolt_risk = 0 } #Badi III faces revolt over development of slave army at aristocrats expense
+1718.1.1 = { revolt_risk = 6 } #Unsa III comes into conflict with aristocrats
+1720.1.1 = { revolt_risk = 0 } #Unsa III deposed, new Funj dynasty set up by aristocrats
+1750.1.1 = { citysize = 7500 }
+1800.1.1 = { citysize = 8000 }

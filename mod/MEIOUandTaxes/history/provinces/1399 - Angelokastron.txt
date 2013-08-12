@@ -1,0 +1,72 @@
+# 1399 - Angelokastron
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SER
+controller = SER
+culture = greek
+religion = orthodox
+capital = "Angelokastron"
+trade_goods = olive
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 5020
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+1356.1.1   = {
+	owner = EPI
+	controller = EPI
+	add_core = EPI
+} # Epirus revolt
+1359.1.1   = {
+	owner = ALB
+	controller = ALB
+	add_core = ALB
+}
+1416.1.1  = {
+	owner = EPI
+	controller = EPI
+	remove_core = ALB
+}
+1434.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1481.6.1  = { controller = REB } # Civil war, Bayezid & Jem
+1482.7.26 = { controller = TUR } # Jem escapes to Rhodes
+1500.1.1  = { citysize = 5468 }
+1532.1.1  = { controller = REB } # Rebellion against the Ottoman rule
+1533.1.1  = { controller = TUR }
+1550.1.1  = { citysize = 6870 }
+1555.1.1  = { revolt_risk = 5 } # General discontent with the Janissaries' dominance
+1556.1.1  = { revolt_risk = 0 }
+1571.1.1  = { controller = REB } # Rebellion against Ottoman rule
+1572.1.1  = { marketplace = yes controller = TUR } # Estimated
+1600.1.1  = { citysize = 5830 }
+1650.1.1  = { citysize = 4500 }
+1688.1.1  = { controller = VEN } # Occupied by Venice
+1690.1.1  = { base_tax = 1 } #The Decentralizing Effect of the Provincial System
+1699.1.26 = { owner = VEN add_core = VEN } # Annexed by the Venetian republic
+1700.1.1  = { citysize = 4600 }
+1716.1.1  = { mint = yes } # Revival of commerce, agriculture/trade
+1718.1.1  = { owner = TUR controller = TUR remove_core = VEN }
+1750.1.1  = { citysize = 5040 add_core = GRE }
+1800.1.1  = { citysize = 5200 }
+1821.3.1  = {
+	controller = REB
+}
+1829.1.1  = {
+	owner = GRE
+	controller = GRE
+}
+1832.5.7  = {
+	remove_core = TUR
+} # Treaty of Constantinople

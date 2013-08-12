@@ -1,0 +1,5 @@
+discovered_by = LOA
+discovered_by = KON
+discovered_by = NDO
+
+1481.1.1 = { discovered_by = POR }

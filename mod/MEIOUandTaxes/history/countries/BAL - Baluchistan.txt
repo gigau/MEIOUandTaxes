@@ -1,0 +1,139 @@
+# BAL - Baluchistan
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -2
+# quality_quantity = 5
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+primary_culture = baluchi
+religion = sunni
+technology_group = indian
+capital = 577	# Quetta
+
+1356.1.1 = { #Unknown date
+	monarch = {
+		name = "Shahak Khan" #Father of Chakar Khan Rind
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1486.1.1 = { #1487 in some sources; founding of the "Great Baloch Kingdom"
+	monarch = {
+		name = "Chakar Khan Rind"
+		adm = 3 #His kingdom fell apart into the Lashari and Rind tribes
+		dip = 5 #Granted a vast fief by Humayun after he joined the Mughal armies after he fled Balochistan
+		mil = 5 #Fought a bloody civil war and lost after 30 years; considered to have fought gallantly
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Gwaharam Khan Lashari" #leader of the Lashari tribe that defeated the Rinds
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+#1556-95 Baluchistan is annexed by Persia
+
+1595.1.1 = {
+	monarch = {
+		name = "Murad" #? Khan of Kalat, vassals of the Mughals from 1595
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1666.1.1 = {
+	monarch = {
+		name = "Ahmad" #
+		adm = 7 #Turned Balochistan from a chieftancy to a well organized state, founded a dynasty
+		dip = 5
+		mil = 7 #Fought against Sindh and Qandahar, expanded the state greatly
+	}
+	# capital = 1935	# Kalat
+	government = tribal_monarchy_2
+}
+
+1696.1.1 = {
+	monarch = {
+		name = "Mahrab Khan"
+		adm = 4
+		dip = 4
+		mil = 4 #Killed in battle shortly into his reign
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Samundar Khan" #aka Sukhi Samundar, known for his generosity
+		adm = 5
+		dip = 5
+		mil = 7 #Overpowered the Kalhoras (Sindh) and made them pay tribute, repulsed Persian attack
+	}
+}
+
+1713.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		adm = 3 #Did not have a firm hold on power, overthrown by his brother Abdullah
+		dip = 4
+		mil = 3
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Abdullah Khan" #Abdullah the Great
+		adm = 7 #Suppressed internal revolts and established law and order; also a scholar and poet
+		dip = 5
+		mil = 8 #Conquered Pishin and Shurawak, expanded Balochistan considerably
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Mahabat Khan"
+		adm = 3 #Overthrown by his brother for a year
+		dip = 3 #Slain when he annoyed the Durrani Shah
+		mil = 3 #Balochistan was annexed by Persia in 1739, then Afghanistan in 1747.
+	}
+}
+
+1750.1.1 = {
+	monarch = {
+		name = "Muhammad Nasir Khan" #Nasir the Great, ruled 44 years, considered most prosperous time of the country
+		adm = 8
+		dip = 7 #Arranged to become allies of the Durrani instead of vassals
+		mil = 7 #Fought the Durrani to a standstill
+	}
+}
+
+1794.1.1 = {
+	monarch = {
+		name = "Mahmud Khan"
+		adm = 3 #The country fell victim to internecine conflicts
+		dip = 3
+		mil = 3 #The Talpurs of Sindh occupied Kachhi; the state shrank considerably under his rule
+	}
+}
+
+1816.1.1 = {
+	monarch = {
+		name = "Mahrab Khan"
+		adm = 3 #A long struggle with chiefs
+		dip = 3 #British were incited against the Balochi by deception
+		mil = 3 #Lost Quetta and Mastung to Afghanistan; deposed by the British in 1839
+	}
+}

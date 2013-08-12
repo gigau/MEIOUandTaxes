@@ -1,0 +1,110 @@
+#Province: Sirhind
+#file name: 510 - Sirhind - Chandigarh was founded only in the 1950s
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MUL
+controller = MUL
+culture = kanauji
+religion = hinduism
+capital = "Jalandhar"
+trade_goods = cotton
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 8700
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = PUN
+	add_core = MUL
+	add_core = PTA
+	owner = DLH
+	revolt = { type = nationalist_rebels size = 2 }
+	controller = REB
+}
+1398.8.1  = {
+	revolt = {  }
+	controller = TIM
+}
+1399.1.1  = {
+	owner = MUL
+	controller = MUL
+}
+1414.1.1  = {
+	owner = DLH
+	controller = DLH
+	remove_core = MUL
+}
+1450.1.1  = { citysize = 18000 }
+1500.1.1  = { citysize = 21000 }
+1526.2.1  = {
+	controller = KAB
+} # Babur's invasion
+1526.4.21 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+	remove_core = DLH
+} # Battle of Panipat
+1540.1.1  = {
+	religion = sikh
+	owner = BNG
+	controller = BNG
+	add_core = BNG
+} #Conquered by Sher Shah Suri
+1550.1.1  = { citysize = 25000 }
+1553.1.1  = {
+	owner = PUN
+	controller = PUN
+	remove_core = BNG
+} #Death of Islam Shah Sur, Suri empire split
+1554.12.1 = {
+	controller = MUG
+	owner = MUG
+} #Battle of Sirhind
+1600.1.1  = { citysize = 27000 }
+1650.1.1  = { citysize = 30000 }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = {
+	controller = REB
+	revolt = { type = religious_rebels size = 1 }
+	citysize = 32000
+}
+1707.5.12 = { discovered_by = GBR }
+1715.1.1  = {
+	controller = MUG
+	revolt = { }
+}
+1720.1.1  = {
+	controller = REB
+	revolt = { type = religious_rebels size = 1 }
+}
+1750.1.1  = { citysize = 37000 }
+1757.1.1  = {
+	owner = DUR
+	controller = DUR
+	remove_core = MUG
+	revolt = { }
+}
+1758.1.1  = {
+	controller = MAR
+	add_core = GWA
+} # Held by the Peshawas
+1760.1.1  = {
+	controller = DUR
+}
+1762.1.1  = {
+	owner = PUN
+	controller = PUN
+}
+1800.1.1  = { citysize = 40000 }
+1803.1.1  = {
+	owner = PTA
+	controller = PTA
+}

@@ -1,0 +1,32 @@
+# CHP - Duchy  of Champagne
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -1
+# centralization_decentralization = -5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 2
+# serfdom_freesubjects = 2
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = francien
+capital = 2354	# Troyes
+
+
+1515.1.1 = {
+	government = despotic_monarchy_4
+}
+
+1589.8.3 = {
+	government = administrative_monarchy_4
+}
+
+1661.3.9 = {
+	government = absolute_monarchy_4
+}

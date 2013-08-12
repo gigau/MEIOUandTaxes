@@ -1,0 +1,60 @@
+# 1282 - Uzska
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = slovak
+religion = catholic
+capital = "Uzhorod"
+trade_goods = lumber
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 7100
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = steppestech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 8020
+}
+1526.8.30  = {
+	owner = RHU
+	add_core = RHU
+	controller = RHU
+	add_core = HAB
+}
+1550.1.1   = {
+	citysize = 8000
+}
+1600.1.1   = {
+	citysize = 9000
+}
+1650.1.1   = {
+	citysize = 10000
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1700.1.1   = {
+	citysize = 12000
+}
+1703.8.1   = {
+	controller = TRA
+} # The town supports Francis II Rákóczi in his rebellion against the Habsburgs
+1711.5.1   = {	controller = HAB } # Ceded to Austria The treaty of Szatmar, Austrian governors replaced the prince of Transylvania
+1750.1.1   = {
+	citysize = 15000
+}

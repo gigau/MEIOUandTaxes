@@ -1,0 +1,75 @@
+#2346 - Caterpe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYM
+controller = AYM 
+add_core = AYM
+culture = aimara
+religion = inti
+capital = "Caterpe"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10000
+trade_goods = salt
+
+terrain1 = yes
+fort1 = yes
+temple = yes 
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+1495.1.1   = {
+	owner = INC
+	controller = INC
+	add_core = INC
+	remove_core = AYM
+	}
+1535.1.1  = {
+	discovered_by = SPA
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+	religion = catholic
+	culture = castillian
+	citysize = 2500
+	revolt_risk = 8
+}
+1558.1.1   = {
+	capital = "San Felipe"
+}
+1650.1.1   = {
+	citysize = 3500
+}
+1700.1.1   = {
+	 citysize = 5000
+}
+1750.1.1  = {
+	citysize = 7500
+	add_core = CHL
+	culture = platean
+}
+1759.1.1   = {
+	revolt = { type = nationalist_rebels size = 0 }
+	revolt_risk = 9
+}
+1766.1.1   = {
+	revolt = { }
+	revolt_risk = 0
+}	
+1800.1.1   = {
+	citysize = 10000
+}
+1810.9.18  = {
+	owner = CHL
+	controller = CHL
+}
+1818.2.12  = {
+	remove_core = SPA
+}

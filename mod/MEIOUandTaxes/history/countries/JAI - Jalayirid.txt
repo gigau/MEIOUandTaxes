@@ -1,0 +1,253 @@
+# JAI - Jalayirid
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = altaic_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 3
+technology_group = turkishtech
+unit_type = muslim
+primary_culture = mongol
+religion = sunni
+capital = 410	# Baghdad
+
+1336.1.1   = {
+	monarch = {
+		name = "Hasan Buzurg"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Shaikh Uvais"
+		monarch_name = "Shaikh Uvais"
+		dynasty = "Jalayirid"
+		birth_date = 1300.1.1
+		death_date = 1374.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	set_country_flag = wrath_of_god
+}
+
+1356.1.1   = {
+	monarch = {
+		name = "Shaikh Uvais"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Jalayirid"
+		birth_date = 1320.1.1
+		death_date = 1374.10.9
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1374.1.1   = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Jalayirid"
+		birth_date = 1340.1.1
+		death_date = 1382.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1374.10.9  = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Bayazid"
+		monarch_name = "Bayazid"
+		dynasty = "Jalayirid"
+		birth_date = 1360.1.1
+		death_date = 1383.1.1
+		claim = 95
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1382.1.1   = {
+	monarch = {
+		name = "Bayazid"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 5	
+		mil = 7
+	}
+}
+
+1383.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Jalayirid"
+		adm = 4
+		dip = 5	
+		mil = 7
+	}
+	heir = {
+		name = "Walad"
+		monarch_name = "Shah Walad"
+		dynasty = "Jalayirid"
+		birth_date = 1383.1.1
+		death_date = 1410.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.1.1 = {
+	monarch = {
+		name = "Shah Walad"
+		dynasty = "Jalayirid"
+		adm = 5
+		dip = 5	
+		mil = 5
+	}
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud"
+		dynasty = "Jalayirid"
+		birth_date = 1390.1.1
+		death_date = 1415.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1411.1.1 = {
+	monarch = {
+		name = "Mahmud"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 4	
+		mil = 4
+	}
+	heir = {
+		name = "Uwais"
+		monarch_name = "Uwais II"
+		dynasty = "Jalayirid"
+		birth_date = 1390.1.1
+		death_date = 1421.1.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Uwais II"
+		dynasty = "Jalayirid"
+		adm = 5
+		dip = 3	
+		mil = 5
+	}
+	heir = {
+		name = "Mohammed"
+		monarch_name = "Mohammed"
+		dynasty = "Jalayirid"
+		birth_date = 1395.1.1
+		death_date = 1422.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Mohammed"
+		dynasty = "Jalayirid"
+		adm = 6
+		dip = 3	
+		mil = 4
+	}
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud II"
+		dynasty = "Jalayirid"
+		birth_date = 1400.1.1
+		death_date = 1424.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1422.1.1 = {
+	monarch = {
+		name = "Mahmud II"
+		dynasty = "Jalayirid"
+		adm = 4
+		dip = 6	
+		mil = 5
+	}
+	heir = {
+		name = "Husain"
+		monarch_name = "Husain II"
+		dynasty = "Jalayirid"
+		birth_date = 1404.1.1
+		death_date = 1432.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+		
+1424.1.1 = {
+	monarch = {
+		name = "Husain II"
+		dynasty = "Jalayirid"
+		adm = 3
+		dip = 4	
+		mil = 3
+	}
+}

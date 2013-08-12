@@ -1,0 +1,43 @@
+# 1075 - Nadym
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = siberian
+religion = shamanism
+capital = "Nadym"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 2
+native_hostileness = 1
+
+discovered_by = SIB
+
+1560.1.1  = {
+	culture = russian
+	religion = orthodox
+}
+1581.1.1  = {
+	discovered_by = RUS
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	trade_goods = copper
+	set_province_flag = trade_good_set
+} # Annexed
+1600.1.1  = { citysize = 3920 }
+1650.1.1  = { citysize = 4888 }
+1676.1.1  = { revolt_risk = 4 } # Bashkirs rebels
+1677.1.1  = { revolt_risk = 0 }
+1700.1.1  = { citysize = 5329 }
+1707.1.1  = { revolt_risk = 4 } # Bashkirs rebels
+1708.1.1  = { revolt_risk = 0 }
+1723.5.17 = { capital = "Perm" }
+1735.1.1  = { revolt_risk = 6 } # Bashkirs rebels
+1741.1.1  = { revolt_risk = 0 }
+1750.1.1  = { citysize = 6000 }
+1774.1.1  = { revolt_risk = 7 } # Captured by Yemelyan Pugachev
+1774.9.14 = { revolt_risk = 0 } # Pugachev is captured
+1800.1.1  = { citysize = 7580 }

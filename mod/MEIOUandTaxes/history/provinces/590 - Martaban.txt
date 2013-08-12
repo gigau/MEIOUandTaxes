@@ -1,0 +1,67 @@
+# Province: Kayin
+# file name: 590 - Martaban
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PEG
+controller = PEG
+culture = monic
+religion = theravada
+capital = "Moulmein"
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 5870
+trade_goods = rice
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1385.1.1 = { controller = REB }
+1390.1.1 = { controller = PEG }
+1509.1.1 = { citysize = 7800 discovered_by = POR }
+1539.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = SST
+	remove_core = AVA
+} # Annexed to the Kingdom of Taungoo
+1550.1.1 = { citysize = 9345 }
+1574.1.1 = { owner = AYU controller = AYU } # Siamese occupation
+1575.1.1 = { owner = TAU controller = TAU }
+1600.1.1 = { citysize = 10200 }
+1650.1.1 = { citysize = 12487 }
+1700.1.1 = { citysize = 14200 }
+1740.1.1 = { controller = REB } # Pegu rebellion
+1750.1.1 = { citysize = 15678 }
+1752.2.28 = {
+	owner = PEG
+	controller = PEG
+	remove_core = TAU
+	citysize = 72000 
+} # Pegu is sacked & returned to Burmese control
+1759.1.1 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+} # Annexed by Burma
+1800.1.1 = { citysize = 17600 }
+1852.12.20 = {
+	owner = GBR
+	controller = GBR
+	citysize = 29600 
+	base_tax = 5
+	manpower = 4
+}  #Mon allied with british return to homeland fred by burmese

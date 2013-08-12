@@ -1,0 +1,37 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 130  100  150 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+monarch_names = {
+	"Adipati #1" = 60
+	"Hasan #0" = 10
+	"Aria #0" = 10
+	"Apandi #0" = 10
+	"Adipati Aria #0" = 10
+}
+
+leader_names = {
+	Wiranatakusuma Kusumadilaga Martanagara Sumadipradja Suriaputra Wiradiputra
+}
+
+ship_names = {
+	"Sungai Belait" "Sungai Tutong" "Sungai Tembureng"
+	Batang Trusan "Sungai Pandaruan" "Lungai Limbang"
+	"Batang Baram" "Sungai Bakong" "Sungai Tutoh"
+	"Sungai Tinjar" "Kuala Belait" "Batu Danau"
+	"Kuala Medamit" Bangar Penanjong Lumut Telingan
+	Labi Sukang "Kuala Baram"
+}

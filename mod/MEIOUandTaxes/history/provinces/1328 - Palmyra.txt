@@ -1,0 +1,53 @@
+# 1328 - Palmyra
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = shami
+religion = sunni
+capital = "Hims"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 1897
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = TUR
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1  = {
+	add_core = MAM
+	add_core = SYR
+}
+1450.1.1  = { citysize = 2350 }
+1500.1.1  = { citysize = 2870 }
+1516.1.1  = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # Part of the Ottoman empire
+1550.1.1  = { citysize = 3670 }
+1600.1.1  = { citysize = 4470 }
+1650.1.1  = { citysize = 5008 }
+1665.1.1  = { revolt_risk = 4 }
+1669.1.1  = { revolt_risk = 2 } # Ottoman attempts to pacify unruly tribes 
+1670.1.1  = { revolt_risk = 0 }
+1700.1.1  = { citysize = 5870 }
+1750.1.1  = { citysize = 6303 }
+1800.1.1  = { citysize = 6940 }
+1831.1.1 = {
+	controller = EGY
+}
+1833.6.1 = {
+	owner = EGY
+}
+1841.2.1  = {
+	owner = TUR
+	controller = TUR
+} # Part of the Ottoman Empire

@@ -1,0 +1,64 @@
+#1356 - Sundgau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner       = ALS
+controller  = ALS
+add_core    = ALS
+culture     = alemanisch
+religion    = catholic
+capital     = "Mulhausen"
+
+base_tax    = 4
+#manpower    = 2
+manpower    = 4
+trade_goods = linen
+citysize    = 10000
+
+fort1       = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre         = yes
+
+1324.1.1  = { owner = HAB controller = HAB add_core = HAB }
+1356.1.1  = { citysize = 11000 }
+1399.1.1  = { citysize = 12000 }
+1453.1.1  = { citysize = 13000 }
+1500.1.1  = { citysize = 14000 }
+1550.1.1  = { citysize = 16000 }
+1600.1.1  = { citysize = 18000 }
+1632.1.1  = { controller = SWE }
+1634.1.1  = { controller = FRA }
+1648.10.24 = {
+	owner = FRA
+	add_core = FRA
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1  = { citysize = 20000 }
+1700.1.1  = { citysize = 22000 }
+1750.1.1  = { citysize = 24000 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 48000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

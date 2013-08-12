@@ -1,0 +1,60 @@
+# 1214 - Aswan
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAM
+controller = MAM
+culture = nubian 
+religion = sunni
+capital = "Aswan"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 8000
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = ADA
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MKU
+	add_core = MAM
+	add_core = EGY
+}
+1500.1.1 = { citysize = 900 }
+1516.1.1 = { add_core = TUR remove_core = MAM } # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1542.1.1   = {
+	owner = TUR
+	controller = TUR
+	citysize = 9500
+} # Conquered by Ottoman troops
+1550.1.1 = { citysize = 10000 }
+1571.1.1 = { revolt_risk = 8 } #Local Beja revolt against Ottoman governors
+1572.1.1 = { revolt_risk = 0 } #Ottomans crush Beja revolt
+1600.1.1 = { citysize = 12000 }
+1650.1.1 = { citysize = 12500 }
+1700.1.1 = { citysize = 13500 }
+1750.1.1 = { citysize = 14500 }
+1800.1.1 = { citysize = 15500 }
+1802.5.13  = {
+	controller = TUR
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

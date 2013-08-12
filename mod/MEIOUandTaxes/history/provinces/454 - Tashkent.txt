@@ -1,0 +1,59 @@
+# 454 - Tashkent
+# MEIOU-GG - Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = kwarezhmi
+religion = sunni
+capital = "Tashkent"
+trade_goods = wool
+hre = no
+base_tax = 7
+#manpower = 8
+manpower = 16
+citysize = 7908
+fort1 = yes
+marketplace = yes
+workshop = yes
+
+discovered_by = KSH
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.10   = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+	set_province_flag = terrain1
+}
+1500.6.1    = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1506.1.1 = {
+	marketplace = yes
+} # The Uzbek Shaybanids brings an end to the Timurid dynasty
+1540.1.1 = { fort2 = yes }
+1550.1.1 = { citysize = 7450 } # The city declined after the capital was moved to Bukhara
+1600.1.1 = { citysize = 8200 customs_house = yes }
+1650.1.1 = { citysize = 3653 }
+1700.1.1 = { citysize = 2700 } # Persian assault, the area is almost deserted
+1750.1.1 = { citysize = 12100 } # Forcibly populated by the Emir of Bukhara
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1 = { citysize = 18240 }
+1807.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+} # Annexed by Kokand

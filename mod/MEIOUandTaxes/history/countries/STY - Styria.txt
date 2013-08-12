@@ -1,0 +1,144 @@
+#STY - Styria
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -3		##0
+# quality_quantity = 0
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+technology_group = western
+religion = catholic
+primary_culture = austrian
+capital = 132	# Graz
+
+
+1330.4.2 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 8
+		mil = 4
+	}
+}
+
+1349.9.9 = {
+	heir = {
+		name = "Albrecht"
+		monarch_name = "Albrecht II"
+		dynasty = "von Habsburg"
+		birth_date = 1349.9.9
+		death_date = 1365.8.30
+		claim = 95
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1358.8.16 = {
+	monarch = {
+		name = "Albrecht II"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+	heir = {
+		name = "Leopold"
+		monarch_name = "Leopold III"
+		dynasty = "von Habsburg"
+		birth_date = 1351.1.1
+		death_date = 1386.7.9
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1365.8.30 = {
+	monarch = {
+		name = "Leopold III"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1370.1.1 = {
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm"
+		dynasty = "von Habsburg"
+		birth_date = 1370.1.1
+		death_date = 1406.7.15
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1386.7.9 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Ernst"
+		monarch_name = "Ernst der Eiserne"
+		dynasty = "von Habsburg"
+		birth_date = 1377.1.1
+		death_date = 1424.6.10
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1406.7.15 = {
+	monarch = {
+		name = "Ernst der Eiserne"
+		dynasty = "von Habsburg"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1415.9.21 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich V"
+		dynasty = "von Habsburg"
+		birth_date = 1415.9.21
+		death_date = 1493.8.19
+		claim = 95
+		adm = 5
+		dip = 8
+		mil = 4
+	}
+}
+
+1424.6.10 = {
+	monarch = {
+		name = "Friedrich V"
+		dynasty = "von Habsburg"
+		adm = 5
+		dip = 8
+		mil = 4
+	}#HRE from 1452, Austrian Archduke from 1457
+} 

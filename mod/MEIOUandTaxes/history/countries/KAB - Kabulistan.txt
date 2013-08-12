@@ -1,0 +1,121 @@
+# KAB - Kabulistan
+# MEIOU-GG Govenemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = muslim
+religion = sunni
+primary_culture = pashtun
+capital = 451	# Kabul
+
+
+#Arghun Dynasty
+1479.1.1 = {
+	monarch = {
+		name = "Dhu’l-Nun"
+		dynasty = "Arghunid"
+		adm = 6
+		dip = 8
+		mil = 6
+	}
+	#primary_culture = pashtun
+}
+
+1479.1.1 = {
+	heir = {
+		name = "Beg"
+		monarch_name = "Shah Beg"
+		dynasty = "Arghunid"
+		birth_Date = 1460.1.1
+		death_date = 1524.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+1500.1.1 = { capital = 447 } # Kandahar
+
+1507.1.1 = {
+	monarch = {
+		name = "Shah Beg"
+		dynasty = "Arghunid"
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+}
+
+#Ousted completely from Afghanistan by Babur in 1522
+
+1507.1.1 = {
+	heir = {
+		name = "Husayn"
+		monarch_name = "Shah Husayn"
+		dynasty = "Arghunid"
+		birth_Date = 1490.1.1
+		death_date = 1556.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1520.1.1 = { capital = 505 }	# Bhakkar
+1522.1.1 = { capital = 451 }	# Kabul
+
+1522.1.1 = {
+	monarch = {
+		name = "Bâbur"
+		dynasty = "Timurid"
+		adm = 8
+		dip = 8
+		mil = 9
+	leader = {	name = "Bâbur"	type = general	rank = 0	fire = 5	shock = 5	manuever = 3	siege = 1 }
+	}
+	primary_culture = turkmeni
+}
+
+1522.1.1 = {
+	heir = {
+		name = "Muhammad"
+		monarch_name = "Humâyûn"
+		dynasty = "Timurid"
+		birth_date = 1508.3.6
+		death_date = 1556.1.1
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 4
+	}
+}
+
+1526.4.21 = { primary_culture = pashtun }	# Kabul
+
+1566.6.1 = {
+	monarch = {
+		name = "Mirza Muhammad Hakim"
+		dynasty = "Timurid"
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+	primary_culture = turkmeni
+}
+
+1585.1.1 = {
+	primary_culture = pashtun
+}

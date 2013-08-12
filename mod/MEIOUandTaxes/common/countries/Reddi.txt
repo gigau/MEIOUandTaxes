@@ -1,0 +1,53 @@
+#Country Name: See the Name of this File.
+
+graphical_culture = indiangfx
+
+color = { 124  128  181 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_footsoldier
+	rajput_hill_fighters
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	indian_elephant
+	indian_shock_cavalry
+	rajput_musketeer
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+}
+
+monarch_names = {
+	"Anavota #2" = 30
+	"Anavema #2" = 30
+	"Kumaragiri #2" = 30
+	"Kataya Vema #0" = 30
+	"Allada #0" = 30
+	"Veerabhadra #0" = 30
+}
+
+leader_names = {
+	Raghuveera Reddy
+	Gona 
+	Rai
+	Gannaiah
+	Roy
+	Ambadeva
+}
+
+ship_names = {
+	Baitarani Balasore Balugaon Behrampur
+	Bhubeneswar Brahmani Chandipur Chilka
+	Cuttack Durga Gopalpur Jagannath
+	Juggernaut Kalijai Konark Lakshmi
+	Mahanadi Nalabana Paradeep Parvati
+	Puri Radha Sarasvati Satapada
+}

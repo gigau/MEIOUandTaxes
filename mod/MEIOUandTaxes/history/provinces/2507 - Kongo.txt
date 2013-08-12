@@ -1,0 +1,4 @@
+# 2507 - Kongo
+
+discovered_by = ZIM
+discovered_by = KIT

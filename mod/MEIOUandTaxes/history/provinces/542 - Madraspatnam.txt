@@ -1,0 +1,77 @@
+# 542 - Madraspatnam
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = tamil
+religion = hinduism
+capital = "Madras"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 19400
+fort1 = yes
+marketplace = yes
+temple = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = GNG
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1400.1.1  = { citysize = 22314 }
+1405.1.1 = { discovered_by = chinese }
+1428.1.1 = { add_core = VIJ }
+1443.1.1 = {
+	controller = ORI
+} # Conquered by Gajapatis
+1445.1.1 = { owner = ORI } # Conquered by Gajapatis
+1462.1.1 = { controller = VIJ } # Reconquered by Vijayanagar
+1464.1.1 = { owner = VIJ } # Reconquered by Vijayanagar
+1505.1.1 = { citysize = 28314 discovered_by = POR }
+1522.1.1  = {
+	owner = POR
+	controller = POR
+	base_tax = 7
+	fort2 = yes
+}
+1526.4.21 = { remove_core = DLH } # Battle of Panipat
+1530.1.1  = { marketplace = yes }
+1550.1.1  = { citysize = 31640 add_core = POR }
+1600.1.1  = { citysize = 36200 discovered_by = turkishtech discovered_by = ENG discovered_by = NED }
+1612.1.1  = {
+	owner = NED
+	controller = NED
+	remove_core = POR
+} #  The region passed into the hands of the Dutch
+1639.8.22 = {
+	owner = ENG
+	controller = ENG
+} # English colony
+1640.1.1  = { fort3 = yes } # Fort St George
+1650.1.1  = { citysize = 41700 workshop = yes add_core = ENG discovered_by = FRA }
+1700.1.1  = { citysize = 47700 }
+1707.5.12 = {
+	discovered_by = GBR
+	discovered_by = FRA
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}
+1747.1.1  = {
+	controller = FRA
+} # Captured by the French
+1749.1.1  = {
+	controller = GBR
+	citysize = 54800
+} # Treaty of Aix-la-Chapelle
+1800.1.1  = { citysize = 63520 }

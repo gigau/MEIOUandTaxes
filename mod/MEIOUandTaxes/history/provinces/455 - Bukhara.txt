@@ -1,0 +1,68 @@
+# 455 - Mirzacho'l
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = kwarezhmi
+religion = sunni
+capital = "Chardzhou"
+trade_goods = wool
+hre = no
+marketplace = yes
+workshop = yes
+fort1 = yes
+base_tax = 5
+#manpower = 5
+manpower = 10
+citysize = 10700
+
+discovered_by = KSH
+discovered_by = mongol_tech
+discovered_by = steppestech
+discovered_by = turkishtech
+discovered_by = muslim
+
+1356.1.10  = {
+	owner = TIM
+	controller = TIM
+	add_core = TIM
+}
+1500.1.1   = {
+	citysize = 13070
+}
+1500.6.1   = {
+	owner = SHY
+	controller = SHY
+	add_core = SHY
+	remove_core = TIM
+} # Shaybanids break free from the Timurids
+1550.1.1   = {
+	citysize = 15435
+	marketplace = yes
+	fort1 = yes
+} # The city declined after the capital was moved to Bukhara
+1600.1.1   = {
+	citysize = 19585
+}
+1650.1.1   = {
+	citysize = 23750
+}
+1700.1.1   = {
+	citysize = 26555
+} # Persian assault, the area is almost deserted
+1740.1.1 = {
+	mint = yes
+}
+1750.1.1   = {
+	citysize = 12100
+} # Forcibly populated by the Emir of Bukhara
+1785.1.1    = {
+	owner = BUK
+	controller = BUK
+	add_core = BUK
+	remove_core = SHY
+} # Emirate of Bukhara established
+1800.1.1   = {
+	citysize = 18240
+}

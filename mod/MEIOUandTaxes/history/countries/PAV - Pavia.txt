@@ -1,0 +1,27 @@
+#MEIOU-GG Govenemnt changes
+
+government = merchant_republic
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 2
+# innovative_narrowminded = -1
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 1347	# Pavia
+
+1150.1.1 = {
+	monarch = {
+		name = "Podestà"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}#Podestà is the name given to the Chief magistrate of the self-governing commune
+

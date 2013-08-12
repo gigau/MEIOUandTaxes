@@ -1,0 +1,335 @@
+# ALR - Mewat
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 4
+# land_naval = -4
+# quality_quantity = -2
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = jati
+religion = sunni
+technology_group = indian
+capital = 2705	# Mewat
+
+#Meo Cheifs
+
+1390.1.1 = {
+	monarch = {
+		name = "Khan Zadas"
+		dynasty = "Mewati"
+		DIP = 2
+		MIL = 5
+		ADM = 3
+	}
+}
+
+ 
+
+1481.1.1 = {
+	monarch = {
+		name = "Hasan Khan"
+		dynasty = "Mewati"
+		DIP = 7
+		MIL = 7
+		ADM = 7
+	}
+}
+
+1481.1.1 = {
+	heir = {
+		name = "Naher"
+		monarch_name = "Naher Khan"
+		dynasty = "Mewati"
+		birth_date = 1450.1.1 #Made up
+		death_date = 1560.1.1 #Made up
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+1527.3.17 = {
+	monarch = {
+		name = "Naher Khan"
+		dynasty = "Mewati"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+ 
+#Bharatpur
+1660.1.1 = {
+	monarch = {
+		name = "Gokula"
+		dynasty = "Sinsiniwar"
+		DIP = 5
+		ADM = 6
+		MIL = 7
+	}
+	religion = hinduism
+}
+
+1660.1.1 = {
+	heir = {
+		name = "Ram"
+		monarch_name = "Ram Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1640.1.1
+		death_date = 1695.1.1
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+
+1670.1.1 = {
+	monarch = {
+		name = "Ram Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 5
+		ADM = 5
+		MIL = 6
+	}
+}
+
+1670.1.1 = {
+	heir = {
+		name = "Churaman"
+		monarch_name = "Churaman Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1660.1.1
+		death_date = 1722.1.1
+		claim = 95
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+1695.1.1 = {
+	monarch = {
+		name = "Churaman Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 6
+		ADM = 7
+		MIL = 7
+	}
+}
+
+1695.1.1 = {
+	heir = {
+		name = "Badan"
+		monarch_name = "Badan Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1695.1.1
+		death_date = 1756.1.1
+		claim = 95
+		DIP = 5
+		ADM = 8
+		MIL = 6
+	}
+}
+
+1722.1.1 = {
+	monarch = {
+		name = "Badan Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 5
+		ADM = 8
+		MIL = 6
+	}
+}
+
+1722.1.1 = {
+	heir = {
+		name = "Suraj Mal"
+		monarch_name = "Suraj Mal"
+		dynasty = "Sinsiniwar"
+		birth_date = 1707.1.1
+		death_date = 1763.1.1
+		claim = 95
+		DIP = 6
+		ADM = 7
+		MIL = 8
+	}
+}
+
+1756.1.1 = {
+	monarch = {
+		name = "Suraj Mal"
+		dynasty = "Sinsiniwar"
+		DIP = 6
+		ADM = 7
+		MIL = 8
+	}
+}
+
+1756.1.1 = {
+	heir = {
+		name = "Jawahir"
+		monarch_name = "Jawahir Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1725.1.1
+		death_date = 1768.1.1
+		claim = 95
+		DIP = 6
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1767.1.1 = {
+	monarch = {
+		name = "Jawahir Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 6
+		ADM = 5
+		MIL = 4
+	}
+}
+
+1767.1.1 = {
+	heir = {
+		name = "Ratan"
+		monarch_name = "Ratan Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1730.1.1
+		death_date = 1769.1.1
+		claim = 95
+		DIP = 3
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1768.1.1 = {
+	monarch = {
+		name = "Ratan Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 3
+		ADM = 4
+		MIL = 4
+	}
+}
+
+1768.1.1 = {
+	heir = {
+		name = "Keshri"
+		monarch_name = "Keshri Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1767.1.1
+		death_date = 1776.1.1
+		claim = 95
+		DIP = 2
+		ADM = 3
+		MIL = 2
+	}
+}
+
+1769.1.1 = {
+	monarch = {
+		name = "Keshri Singh"
+		dynasty = "Sinsiniwar"
+		DIP = 2
+		ADM = 3
+		MIL = 2
+	}
+}
+
+1769.1.1 = {
+	heir = {
+		name = "Ranjit"
+		monarch_name = "Ranjit Singh"
+		dynasty = "Sinsiniwar"
+		birth_date = 1740.1.1
+		death_date = 1805.1.1
+		claim = 95
+		DIP = 5
+		ADM = 5
+		MIL = 3
+	}
+}
+
+#Alwar state
+ 
+1775.1.1 = {
+	monarch = {
+		name = "Pratap Singh"
+		dynasty = "Kachwaha"
+		DIP = 3
+		MIL = 5
+		ADM = 2
+	}
+}
+
+1779.1.1 = {
+	heir = {
+		name = "Bakhtawar Singh"
+		monarch_name = "Bakhtawar Singh"
+		dynasty = "Kachwaha"
+		birth_date = 1779.1.1
+		death_date = 1815.1.27
+		claim = 65	#Rather distant relation
+		DIP = 4
+		MIL = 7
+		ADM = 4
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Bakhtawar Singh"
+		dynasty = "Kachwaha"
+		DIP = 4
+		MIL = 7
+		ADM = 4
+	}
+}
+
+1791.1.1 = {
+	heir = {
+		name = "Balwant Singh"
+		monarch_name = "Balwant Singh"
+		dynasty = "Kachwaha"
+		birth_date = 1779.1.1
+		death_date = 1815.1.1 #really died in exile in 1845
+		claim = 65	#Deposed and replaced with:
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1815.1.1 = {
+	heir = {
+		name = "Binay Singh"
+		monarch_name = "Binay Singh"
+		dynasty = "Kachwaha"
+		birth_date = 1815.1.1
+		death_date = 1857.8.1
+		claim = 75
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Binay Singh Prabhakar Bahadur"
+		dynasty = "Kachwaha"
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}

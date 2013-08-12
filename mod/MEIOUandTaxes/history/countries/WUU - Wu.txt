@@ -1,0 +1,28 @@
+# Wu
+# WUU
+
+government = chinese_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -4
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = wuhan
+capital = 685	# Jiankang
+
+1356.1.1 = {
+	monarch = {
+		name = "Wang"
+		dynasty = "Wu"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+}

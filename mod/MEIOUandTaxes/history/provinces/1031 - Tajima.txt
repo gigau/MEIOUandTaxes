@@ -1,0 +1,45 @@
+# 1031 - Tajima
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YMN
+controller = YMN
+culture = chugoku
+religion = shinbutsu
+capital = "Tottori"
+trade_goods = chinaware
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 13000
+fort1 = yes
+temple = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = YMN
+}
+1400.1.1 = { citysize = 14000 }
+1450.1.1 = { citysize = 15000 }
+1500.1.1 = { citysize = 16500 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 18000 }
+1582.1.1 = {
+	owner = ODA
+	controller = ODA
+}
+1600.1.1 = {
+	citysize = 20000
+}
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 22000 }
+1700.1.1 = { citysize = 25000 }
+1750.1.1 = { citysize = 28000 }
+1800.1.1 = { citysize = 32000 }

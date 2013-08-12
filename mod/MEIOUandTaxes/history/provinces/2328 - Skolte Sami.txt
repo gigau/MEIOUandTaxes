@@ -1,0 +1,84 @@
+# 2328 - Gyeongseong
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YUA
+controller = YUA
+
+culture = korean
+religion = mahayana #FB-ASSA become confucianism in 1392
+
+capital = "Hoeryong"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = fish
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = chinese
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = KOR
+	add_core = MCH
+	add_core = YUA
+}
+1375.1.1 = {
+	owner = MCH
+	controller = MCH
+	remove_core = YUA
+}
+1392.1.1  = {
+	religion = confucianism
+}
+1413.1.1 = {
+	owner = KOR
+	controller = KOR
+}
+1434.1.1 = {
+	remove_core = MCH
+	remove_core = KHA
+}
+1500.1.1 = {
+	citysize = 3000
+}
+1550.1.1 = {
+	citysize = 4000
+}
+1593.1.1 = {
+	revolt_risk = 5
+} # Japanese invasion
+1593.5.1 = {
+	revolt_risk = 0
+} # Japanese invasion ends
+1600.1.1 = {
+	citysize = 5000
+} # Great devastation as a result of the Japanese invasion
+1637.1.1 = {
+	add_core = MNG
+} # Tributary of Qing China
+1644.1.1 = {
+	add_core = QNG
+	remove_core = MNG
+} # Part of the Manchu empire
+1650.1.1 = {
+	citysize = 7500
+}
+1653.1.1 = {
+	discovered_by = NED
+} # Hendrick Hamel
+1700.1.1 = {
+	citysize = 10000
+}
+1750.1.1 = {
+	citysize = 15000
+}
+1800.1.1 = {
+	citysize = 20000
+}

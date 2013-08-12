@@ -1,0 +1,19 @@
+#1165 - Transkei
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = zulu
+religion = animism
+capital = "Mtatha"
+
+trade_goods = crops # slaves
+base_tax = 1
+#manpower = 1
+manpower = 2
+
+native_size = 6
+native_ferocity = 7
+native_hostileness = 6
+
+hre = no
+
+1481.1.1 = { discovered_by = POR } # Bartolomeu Dias

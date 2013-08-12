@@ -1,0 +1,40 @@
+#Province: Quetta
+#file name: 577 - Quetta
+#MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BAL
+controller = BAL
+culture = baluchi
+religion = sunni
+capital = "Quetta"
+trade_goods = wheat
+hre = no
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 12000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+1356.1.1  = { add_core = BAL }
+1450.1.1  = { citysize = 14000 }
+1500.1.1  = { citysize = 16000 }
+1550.1.1  = { citysize = 20000 }
+1600.1.1  = { citysize = 16000 } 
+1650.1.1  = { citysize = 22000 }
+1677.1.1  = { discovered_by = FRA }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 30000 marketplace = yes }
+1707.5.12 = { discovered_by = GBR }
+1747.10.1 = {
+	owner = DUR
+   	controller = DUR
+	add_core = DUR
+} # Ahmad Shah established the Durrani empire
+1750.1.1  = { citysize = 32000 }
+1800.1.1  = { citysize = 35000 }

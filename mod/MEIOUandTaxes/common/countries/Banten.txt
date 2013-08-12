@@ -1,0 +1,57 @@
+#Country Name: Banten
+#Tag: BAN
+#MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = { 130  25  74 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	indian_elephant
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Maulana Hasanudin #0" = 20
+	"Abdul Mufakir #0" = 20
+	"Nur ud-Din Ibrahim #0" = 20
+	"Yusuf Pasaran #0" = 20
+	"Muhammad Sedo Ning Rana #0" = 20
+	"Fatima #0" = 10
+	"Fath Muhammad #0" = 20
+}
+
+leader_names = {
+	Adi
+	Purnomo
+	Raharjo
+	Santoso
+	Aman
+	Damar
+	Bimo
+	Harjuno
+	Kresno
+	Puntodewo
+}
+
+ship_names = {
+	Lebak Pandeglang Serang Tangerang Cilegon
+	Kujang "Selat Sunda" Panaitan Krakatau
+	Sebuku Sabesi Sangiang Tundo Panjang Tinjal Deli
+}

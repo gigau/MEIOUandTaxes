@@ -1,0 +1,21 @@
+# Mughal Mansabdar
+#Modified for MEIOU by FB 10.02.07
+#tech level 23 c1600
+	
+unit_type = indian
+type = cavalry
+
+maneuver = 2	
+#offensive_morale = 3
+#defensive_morale = 2
+#offensive_fire = 3
+#defensive_fire = 2
+#offensive_shock = 2
+#defensive_shock = 1
+#FB
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 4
+defensive_shock = 4

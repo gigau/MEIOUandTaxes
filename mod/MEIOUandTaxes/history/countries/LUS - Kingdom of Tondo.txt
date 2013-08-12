@@ -1,0 +1,30 @@
+# LUS - Kingdom of Tondo
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = chinese_monarchy_2b
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 3
+technology_group = chinese
+primary_culture = lussong
+religion = confucianism
+capital = 2216 # Tondo
+
+1340.6.24 = {
+	monarch = {
+		name = "Lakandula"
+		dynasty = "Dula"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}

@@ -1,0 +1,56 @@
+# 1024 - Sanuki
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HKW
+controller = HKW
+culture = shikoku
+religion = shinbutsu
+capital = "Takamatsu"
+trade_goods = linen
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 8500
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = HKW
+	add_core = MIY
+	add_core = CSK
+}
+1400.1.1 = { citysize = 9200 }
+1450.1.1 = {
+	citysize = 9700
+	owner = MIY
+	controller = MIY
+}
+1500.1.1 = { citysize = 10600 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = {
+	citysize = 12007
+	owner = CSK
+	controller = CSK
+}
+1585.1.1 = {
+	owner = ODA
+	controller = ODA
+} # Hashiba (later Toyotomi) Hideyoshi invaded Shikoku with a force of 100,000 men, Chosokabe Motochika keeps only Tosa
+1600.1.1 = { citysize = 14480 } 
+1600.9.15  = {
+	owner = TGW
+	controller = TGW
+} # Battle of Sekigahara
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 17300 }
+1700.1.1 = { citysize = 20560 }
+1750.1.1 = { citysize = 21480 }
+1800.1.1 = { citysize = 23100 }

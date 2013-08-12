@@ -1,0 +1,33 @@
+# IFE - Ife
+# Kingdom of IFE
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_republic_2
+# aristocracy_plutocracy = 0
+# centralization_decentralization = 5
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = -1
+technology_group = soudantech
+
+primary_culture = yorumba
+religion = animism
+capital = 1550 # Ife Ile
+
+1354.1.1 = {
+	monarch = {
+		name = "Oduduwa"
+		dynasty = "Oduduwa"
+		DIP = 6
+		ADM = 6
+		MIL = 4
+	}
+}
+

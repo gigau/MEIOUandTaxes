@@ -1,0 +1,67 @@
+# 2398 - Chelmniskiye
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEU
+controller = TEU
+culture = polish
+religion = catholic
+capital = "Chelmno"					# (Polish), Kulm (German)
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = wine
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+
+hre = no
+
+1356.1.1   = {
+	add_core = TEU
+	add_core = POL
+}
+1466.10.19 = {
+	owner = POL
+	controller = POL
+	remove_core = TEU
+} # Peace treaty, "Peace of Torun"
+1475.1.1   = { marketplace = yes }
+1490.1.1   = { revolt_risk = 6 } # Uprising led by Mukha
+1492.1.1   = { revolt_risk = 0 }  
+1500.1.1   = { citysize = 11093 }
+1550.1.1   = { citysize = 10240 }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1588.1.1   = { controller = REB } # Civil war
+1589.1.1   = { controller = PLC } # Coronation of Sigismund III
+1590.1.1   = { constable = yes }
+1596.1.1   = { revolt_risk  = 4 } # Religious struggles, union of Brest
+1597.1.1   = { revolt_risk = 0 }
+1600.1.1   = { citysize = 15353 }  
+1655.1.1   = { citysize = 9800 } # The Deluge
+1700.1.1   = { citysize = 21250 }
+1733.1.1   = { controller = REB } # The war of Polish succession
+1735.1.1   = { controller = PLC }
+1750.1.1   = { citysize = 25000 }
+1793.1.23 = {
+	controller = PRU
+	owner = PRU
+	add_core = PRU
+	add_core = POL
+	remove_core = PLC
+} # Second partition
+1800.1.1   = { citysize = 41900 }
+1812.12.12 = { controller = PRU }
+1815.6.9   = {
+	owner = PRU
+	add_core = PRU
+} # Congress Poland, under Russian control after the Congress of Vienna

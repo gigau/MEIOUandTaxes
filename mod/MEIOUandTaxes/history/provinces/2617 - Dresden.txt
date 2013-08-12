@@ -1,0 +1,37 @@
+# 2617 - Dresden
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SAX
+controller = SAX
+culture = high_saxon
+religion = catholic
+capital = "Dresden"
+trade_goods = lumber
+hre = yes
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 7000
+fort1 = yes
+add_core = SAX
+marketplace = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1  = { citysize = 7500}
+1399.1.1  = { citysize = 8000}
+1450.1.1  = { citysize = 8500 }
+1500.1.1  = { citysize = 10000 }
+1539.1.1  = { religion = protestant } # The reformation reaches Leipzig
+1550.1.1  = { citysize = 10500 constable = yes }
+1560.1.1  = { fort2 = yes }
+1600.1.1  = { citysize = 14000 customs_house = yes }
+1640.1.1  = { fort3 = yes }
+1650.1.1  = { citysize = 11000 }
+1700.1.1  = { citysize = 20000 mint = yes }
+1750.1.1  = { citysize = 35000 }
+1790.8.1  = { revolt_risk = 5 } # Peasant revolt
+1791.1.1  = { revolt_risk = 0 }
+1800.1.1  = { citysize = 32000 }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

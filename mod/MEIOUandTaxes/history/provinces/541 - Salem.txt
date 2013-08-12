@@ -1,0 +1,76 @@
+# 541 - Arcot
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = GNG
+controller = GNG
+culture = tamil
+religion = hinduism
+capital = "Arcot"
+trade_goods = iron
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+citysize = 15340
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = MAD
+	controller = MAD
+	add_core = GNG
+}
+1378.1.1 = {
+	owner = VIJ
+	controller = VIJ
+}
+1428.1.1 = { add_core = VIJ }
+1450.1.1 = { citysize = 12000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 14000 }
+1550.1.1 = { citysize = 15000 }
+1600.1.1 = { citysize = 16000 }
+1645.1.1 = {
+	controller = GOC
+} # Conquered by Golconda
+1646.1.1 = {	owner = GOC
+	   } # Conquered by Golconda
+1650.1.1 = { citysize = 17000 }
+1686.1.1 = {
+	controller = MUG
+}
+1687.1.1 = {
+	owner = MUG
+}
+1700.1.1 = { citysize = 18000 }
+1710.1.1 = {
+	owner = KRK
+	controller = KRK
+	add_core = KRK
+} # Nawab of Arcot / Carnatic
+1740.5.1 = {
+	controller = MAR
+} # Arcot falls to the Marathas
+1743.3.1 = {
+	controller = KRK
+} # Arcot falls to the Nizam
+1750.1.1 = { citysize = 45000 }
+1751.9.1 = {
+	controller = GBR
+}	#Conquered by Clive
+1754.1.1 = {
+	controller = KRK
+}
+1761.1.1 = {
+	controller = GBR
+}
+1764.1.1 = {
+	controller = KRK
+}
+1800.1.1 = { citysize = 60000 }
+1801.1.1 = {
+	owner = GBR
+	controller = GBR
+} # Fourth Anglo-Mysore War
+1824.1.1 = { add_core = GBR }

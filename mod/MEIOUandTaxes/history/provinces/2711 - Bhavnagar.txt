@@ -1,0 +1,61 @@
+# 2711 - Bhavnagar
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLH
+controller = DLH
+culture = saurashtri
+religion = hinduism
+capital = "Bhavnagar"
+trade_goods = salt
+hre = no
+base_tax = 7
+#manpower = 3
+manpower = 6
+citysize = 27000
+fort1 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech 
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = GUJ
+	revolt_risk = 6
+}
+1396.1.1 = {
+	owner = GUJ
+	controller = GUJ
+	revolt_risk = 0
+}
+1450.1.1 = { citysize = 25000 }
+1498.1.1 = { discovered_by = POR }
+1500.1.1 = { citysize = 23000 }
+1550.1.1 = { citysize = 18000 }
+1556.1.1 = {
+	owner = KAT
+	controller = KAT
+	add_core = KAT
+} # Kathiawar independent while Ahmad Shahis are busy with internal conflicts
+1591.1.1 = {
+	controller = MUG
+} # Conquered by Mughals
+1592.1.1 = {
+	owner = MUG
+	add_core = MUG
+} # Conquered by Mughals
+1600.1.1 = { citysize = 24000 }
+1650.1.1 = { citysize = 27000 }
+1700.1.1 = { citysize = 32000 }
+1725.1.1 = {
+	owner = GAK
+	controller = GAK
+	add_core = GAK
+	remove_core = MUG	
+}
+1750.1.1 = { citysize = 36000 }
+1800.1.1 = { citysize = 39000 }
+1802.1.1 = {
+	owner = KAT
+	controller = KAT
+	remove_core = GAK	
+}

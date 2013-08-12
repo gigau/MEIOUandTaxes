@@ -1,0 +1,25 @@
+# 1128 - Ewe
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = akaa
+religion = animism
+capital = "Ewe"
+trade_goods = crops # palm
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 50
+native_ferocity = 4.5
+native_hostileness = 9
+
+discovered_by = soudantech
+
+1472.1.1 = { discovered_by = POR }
+1650.1.1 = { trade_goods = slaves } # Rapid expansion of slave trade starts after 1650
+# 1671.1.1 - French establish tradepost
+# 1721.1.1 - Portuguese establish tradepost (No one region had dominance in trade)
+1727.1.1 = { revolt_risk = 8 } # Invasion by rulers of Dahomey 
+1779.1.1 = { revolt_risk = 6 } # Campaigns against the Popo chieftaincy by Dahomey rulers
+1784.1.1 = { revolt_risk = 8 } # Dahomey raids against independent chieftains in area
+1787.1.1 = { revolt_risk = 0 } # Dahomey armies withdraw on order of Oyo overlords

@@ -1,0 +1,70 @@
+# 282 - Cherson
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = crimean
+religion = sunni
+capital = "Cherson"
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 10900
+trade_goods = wheat
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 3
+	add_core = BLU
+	add_core = CRI
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1441.1.1 = {
+	owner = CRI
+	controller = CRI
+}
+1475.1.1 = {
+	add_core = TUR
+}
+1500.1.1 = {
+	citysize = 10000
+}
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1550.1.1  = { citysize = 12823 }
+1600.1.1  = { citysize = 15086 }
+#1648.1.1  = { culture = ukrainian add_core = UKR }
+1650.1.1  = { citysize = 17748 }
+1700.1.1  = { citysize = 20880 }
+1750.1.1  = {
+	citysize = 24565
+	fort2 = yes
+} # Estimated, Kherson fortress 
+1778.6.18 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = TUR
+} 
+1786.1.1  = { temple = yes } # Saint Catherine's Cathedral
+1800.1.1  = { citysize = 28900 }

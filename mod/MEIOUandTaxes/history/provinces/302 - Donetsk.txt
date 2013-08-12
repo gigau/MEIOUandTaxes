@@ -1,0 +1,58 @@
+# 302 - Donetsk
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = crimean
+religion = sunni
+capital = "Kyzy-Kermen"
+
+base_tax = 4      
+#manpower = 3
+manpower = 6
+citysize = 3526
+trade_goods = iron
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1   = {
+	add_core = BLU
+	add_core = CRI
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+}
+1441.1.1 = {
+	owner = CRI
+	controller = CRI
+}
+1475.1.1 = {
+	add_core = TUR
+}
+1500.1.1 = {
+	citysize = 4000
+}
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1550.1.1  = { citysize = 4881 } 
+1554.1.1  = { temple = yes } # The Pokrovksi Cathedral
+1600.1.1  = { citysize = 5742 }
+1636.1.1  = { fort1 = yes } # Founded as an outpost against Crimean tatars
+#1648.1.1  = { culture = ukrainian add_core = UKR }
+1700.1.1  = { citysize = 7948 }
+1750.1.1  = { citysize = 9350 }
+1783.1.1  = { owner = RUS controller = RUS add_core = RUS remove_core = TUR } # Annexed by Catherine II, in violation with the treaty
+1800.1.1  = { citysize = 11000 }

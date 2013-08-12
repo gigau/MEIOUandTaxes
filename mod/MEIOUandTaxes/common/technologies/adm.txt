@@ -1,0 +1,328 @@
+monarch_power = ADM
+
+
+technology = {
+	# Tech 0
+	year = 1300
+	
+	superintendance = yes
+
+	tribal_monarchy_1 = yes tribal_monarchy_2 = yes tribal_monarchy_3 = yes
+	tribal_republic_1 = yes tribal_republic_2 = yes tribal_republic_3 = yes
+	altaic_monarchy_1 = yes altaic_monarchy_2 = yes altaic_monarchy_3 = yes
+	eastern_monarchy_1 = yes eastern_monarchy_2 = yes eastern_monarchy_3 = yes
+	altaic_republic = yes
+	chinese_monarchy_1a = yes chinese_monarchy_1b = yes chinese_monarchy_2 = yes chinese_monarchy_2a = yes chinese_monarchy_2b = yes chinese_monarchy_2c = yes
+	indian_monarchy_1 = yes indian_monarchy_2 = yes indian_monarchy_2 = yes
+	japan_monarchy_1 = yes japan_monarchy_2a = yes japan_monarchy_2b = yes japan_monarchy_3 = yes
+}
+
+technology = {
+	# Tech 1
+	year = 1310
+	
+	temple = yes
+	constable = yes
+}
+
+technology = {
+	# Tech 2
+	year = 1330
+
+	city_watch = yes
+}
+
+technology = {
+	# Tech 3
+	year = 1350
+	
+	production_efficiency 	=	0.1
+
+	despotic_monarchy_1 = yes despotic_monarchy_2 = yes despotic_monarchy_3 = yes despotic_monarchy_4 = yes despotic_monarchy_5 = yes despotic_monarchy_6 = yes
+	feudal_monarchy_1 = yes feudal_monarchy_2 = yes feudal_monarchy_3 = yes feudal_monarchy_4 = yes feudal_monarchy_5 = yes feudal_monarchy_6 = yes
+	despotic_monarchy_1b = yes despotic_monarchy_2b = yes despotic_monarchy_3b = yes despotic_monarchy_4b = yes despotic_monarchy_5b = yes despotic_monarchy_6b = yes
+	feudal_monarchy_1b = yes feudal_monarchy_2b = yes feudal_monarchy_3b = yes feudal_monarchy_4b = yes feudal_monarchy_5b = yes feudal_monarchy_6b = yes
+	imperial_city = yes the_demesne = yes
+	papal_government = yes
+	religious_order_1 = yes religious_order_2 = yes
+	theocracy_1 = yes theocracy_2 = yes
+}
+
+technology = {
+	# Tech 4
+	year = 1375
+	
+	allowed_idea_groups = 1
+
+	merchant_republic = yes
+	noble_republic = yes
+}
+
+technology = {
+	# Tech 5
+	year = 1400
+	
+	production_efficiency 	=	0.1
+
+	mint = yes
+	public_baths = yes
+}
+
+technology = {
+	# Tech 6
+	year = 1420
+	
+	courthouse = yes
+}
+
+technology = {
+	# Tech 7
+	year = 1440
+
+	allowed_idea_groups = 2
+	
+	production_efficiency	=	0.1
+	may_support_rebels = yes
+}
+
+technology = {
+	# Tech 8
+	year = 1453
+	
+	university = yes
+}
+
+technology = {
+	# Tech 9
+	year = 1466
+
+	farm_estate = yes
+}
+
+technology = {
+	# Tech 10
+	year = 1479
+	
+	#Three Field Rotation
+	production_efficiency	 =	0.1
+}
+
+technology = {
+	# Tech 11
+	year = 1492
+	
+	allowed_idea_groups = 3
+	
+	treasury_office = yes
+	hospital = yes
+}
+
+technology = {
+	# Tech 12
+	year = 1505
+	
+	royal_palace = yes
+	glorious_monument = yes
+}
+
+technology = {
+	# Tech 13
+	year = 1518
+	
+
+	#The Scythe
+	production_efficiency 	=	0.1
+
+	parliament = yes
+	
+	administrative_monarchy_1 = yes administrative_monarchy_2 = yes administrative_monarchy_3 = yes administrative_monarchy_4 = yes administrative_monarchy_5 = yes administrative_monarchy_6 = yes
+	administrative_monarchy_1b = yes administrative_monarchy_2b = yes administrative_monarchy_3b = yes administrative_monarchy_4b = yes administrative_monarchy_5b = yes administrative_monarchy_6b = yes
+}
+
+technology = {
+	# Tech 14
+	year = 1531
+	
+	textile = yes
+	town_hall = yes
+}
+
+technology = {
+	# Tech 15
+	year = 1544
+	
+	water_works = yes
+	administrative_republic = yes
+}
+
+technology = {
+	# Tech 16
+	year = 1557
+	
+	allowed_idea_groups	= 4
+	
+	workshop = yes
+	fine_arts_academy = yes
+}
+
+technology = {
+	# Tech 17
+	year = 1570
+	
+	#Improved Drainage
+	production_efficiency 	=	0.1
+}
+
+technology = {
+	# Tech 18
+	year = 1583
+	
+	plantations = yes
+}
+
+technology = {
+	# Tech 19
+	year = 1596
+	
+	road_network = yes
+}
+
+technology = {
+	# Tech 20
+	year = 1609
+	
+	allowed_idea_groups	= 5
+}
+
+technology = {
+	# Tech 21
+	year = 1622
+	
+	factory = yes
+	public_library = yes
+}
+
+technology = {
+	# Tech 22
+	year = 1635
+	
+	absolute_monarchy_1 = yes absolute_monarchy_2 = yes absolute_monarchy_3 = yes absolute_monarchy_4 = yes absolute_monarchy_5 = yes absolute_monarchy_6 = yes
+	absolute_monarchy_1b = yes absolute_monarchy_2b = yes absolute_monarchy_3b = yes absolute_monarchy_4b = yes absolute_monarchy_5b = yes absolute_monarchy_6b = yes
+}
+
+technology = {
+	# Tech 23
+	year = 1648	
+
+	republican_dictatorship = yes
+}
+
+technology = {
+	# Tech 24
+	year = 1661
+	
+	schools = yes
+}
+
+technology = {
+	# Tech 25
+	year = 1674
+	
+	allowed_idea_groups = 6
+	
+	#Land Clearance
+	production_efficiency 	=	0.1
+}
+
+technology = {
+	# Tech 26
+	year = 1687
+	
+	constitutional_monarchy_1 = yes constitutional_monarchy_2 = yes constitutional_monarchy_3 = yes constitutional_monarchy_4 = yes constitutional_monarchy_5 = yes constitutional_monarchy_6 = yes
+	constitutional_monarchy_1b = yes constitutional_monarchy_2b = yes constitutional_monarchy_3b = yes constitutional_monarchy_4b = yes constitutional_monarchy_5b = yes constitutional_monarchy_6b = yes
+
+	stock_exchange = yes
+}
+
+technology = {
+	# Tech 27
+	year = 1700
+	
+	#Improved Irrigation
+	production_efficiency 	=	0.1
+}
+
+technology = {
+	# Tech 28
+	year = 1715
+	
+	#Grain Depot
+	grain_depot	= yes
+}
+
+technology = {
+	# Tech 29
+	year = 1730
+	
+	allowed_idea_groups 	= 	7
+	
+	#Improved Farm Animals
+	production_efficiency 	=	0.1
+	
+	steam_powered_factory = yes
+}
+
+technology = {
+	# Tech 30
+	year = 1745
+	
+	constitutional_republic = yes
+}
+
+technology = {
+	# Tech 31
+	year = 1760
+	
+	enlightened_despotism_1 = yes enlightened_despotism_2 = yes enlightened_despotism_3 = yes enlightened_despotism_4 = yes enlightened_despotism_5 = yes enlightened_despotism_6 = yes
+	enlightened_despotism_1b = yes enlightened_despotism_2b = yes enlightened_despotism_3b = yes enlightened_despotism_4b = yes enlightened_despotism_5b = yes enlightened_despotism_6b = yes
+
+	#Tax Assesor
+	tax_assessor = yes
+}
+
+technology = {
+	# Tech 32
+	year = 1785
+	
+	#Rotherham Plough
+	production_efficiency 	=	0.1
+	
+	bureaucratic_despotism = yes
+}
+
+technology = {
+	# Tech 33
+	year = 1790
+	
+	allowed_idea_groups = 8
+	
+	revolutionary_republic = yes
+}
+
+technology = {
+	# Tech 34
+	year = 1805
+	
+	#Improved Draft Animals
+	production_efficiency 	=	0.1
+	
+	revolutionary_empire = yes
+}
+
+technology = {
+	# Tech 35
+	year = 1835
+	
+	#Four field rotation
+	production_efficiency 	=	0.1
+}

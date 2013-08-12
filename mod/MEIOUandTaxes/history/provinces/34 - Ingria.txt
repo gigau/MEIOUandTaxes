@@ -1,0 +1,85 @@
+# Ingria
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV
+add_core = NOV
+culture = novgorodian
+religion = orthodox
+hre = no
+base_tax = 2
+trade_goods = hemp
+#manpower = 1
+manpower = 2
+capital = "Kopore"
+citysize = 1000 # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = steppestech
+ 
+1478.1.14  = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+} #Muscovite annectation of Novgorod
+1500.1.1   = {
+	citysize = 1250
+}
+1540.1.1   = { marketplace = yes }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1   = { citysize = 1550 }
+1583.8.10  = {
+	owner = SWE
+	controller = SWE
+	add_core = SWE
+	remove_core = RUS
+} #The Armistice of Pliusa
+1590.2.23  = {
+	owner = RUS
+     	controller = RUS
+     	add_core = RUS
+     	remove_core = SWE
+} #The Armistice of Narva
+1600.1.1   = { citysize = 1710 }
+1612.12.4  = { controller = SWE } #The Ingermanian War-Captured by Evert Horn
+1617.2.17  = {
+	owner = SWE
+	add_core = SWE
+	remove_core = RUS
+	fort1 = yes
+} #The Peace of Stolbova
+1617.2.17  = { religion = protestant }
+1650.1.1   = { citysize = 2100 }
+1700.1.1   = { citysize = 2700 }
+1704.8.16  = {
+	controller = RUS
+	capital = "Saint Petersburg"
+	culture = russian
+	fort2 = yes
+ } #The Great Nordic War-Captured all fortifications
+1721.8.30  = {
+	owner = RUS
+	add_core = RUS
+	remove_core = SWE
+	shipyard = yes
+	citysize = 35000
+} #The Peace of Nystad
+1725.1.1   = {
+	citysize = 75000
+}
+1733.1.1   = {
+	temple = yes
+}
+1750.1.1   = {
+	citysize = 150000
+}
+1800.1.1   = {
+	citysize = 300000
+}

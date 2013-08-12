@@ -1,0 +1,61 @@
+# MNL - Rajah of Maynila
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 2
+technology_group = austranesian
+primary_culture = filipino
+religion = sunni
+capital = 2216 # Maynila
+
+1500.1.1   = {
+	monarch = {
+		name = "Kalangitan"
+		dynasty = "Dula"
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1515.1.1   = {
+	monarch = {
+		name = "Suleyman I"
+		dynasty = "Namayan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1558.1.1   = {
+	monarch = {
+		name = "Matanda"
+		dynasty = "Namayan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1571.1.1   = {
+	monarch = {
+		name = "Suleyman II"
+		dynasty = "Namayan"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# 1575 - Conquered by the Spaniards

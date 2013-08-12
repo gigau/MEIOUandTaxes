@@ -1,0 +1,72 @@
+# 2729 - XiangKhoang
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = laotian
+religion = theravada
+capital = "Muang Phuang"  #today Pongsawan, h 3600m
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 2060
+trade_goods = lumber
+terrain3 = yes
+# hill_tribes = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain3
+}
+1500.1.1 = { citysize = 2680 }
+1550.1.1 = { citysize = 2900 }
+1600.1.1 = { citysize = 3750 }
+1650.1.1 = { citysize = 4670 }
+1694.1.1 = { owner = TOK controller = TOK add_core = TOK } # After Soulingna Vongsa's death, Lan Xang came under vietnamese rule
+1700.1.1 = { citysize = 5680 }
+1707.1.1 = {
+	owner = LUA
+	controller = LUA
+	add_core = LUA
+	remove_core = LXA
+	base_tax = 5
+	fort2 = yes
+} # Declared independent, Lan Xang was partitioned into 4 kingdoms; Vientiane, Champasak & Luang Prabang + Muang Phuan
+1750.1.1 = { citysize = 6255 }
+1771.1.1 = { add_core = TAU } # Vassal state of Burma
+1778.1.1 = {
+	remove_core = TAU
+	add_core = AYU
+} # Vassalhood of Burma ends, Vassal state to Siam
+1779.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+} # Muang Phuan is a Vassal state
+1780.1.1 = { revolt_risk = 4 }
+1781.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+} # Annexed by Siam
+1800.1.1 = { citysize = 7980 }
+#1870s 'haw marauders' invasion
+1880.1.1 = { base_tax = 3 }
+1893.1.1 = {
+	owner = FRA
+	controller = FRA
+    revolt_risk = 0
+	capital = "Pongsawan" 
+}
+ 

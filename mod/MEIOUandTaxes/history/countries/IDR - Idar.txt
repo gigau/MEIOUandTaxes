@@ -1,0 +1,90 @@
+# IDR - Idar
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 4
+# land_naval = -5
+# quality_quantity = -1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = bhil
+religion = hinduism
+technology_group = indian
+capital = 2723
+
+1200.1.1 = {
+	monarch = {
+		name = "Ajit"
+		dynasty = "Rathore"
+		DIP = 3
+		MIL = 3
+		ADM = 3
+	}
+}
+
+ 
+
+1729.1.1 = {
+	monarch = {
+		name = "Anand Singh"
+		dynasty = "Rathore"
+		DIP = 4
+		MIL = 7
+		ADM = 4
+	}
+}
+
+1736.1.1 = {
+	heir = {
+		name = "Shiv"
+		monarch_name = "Shiv Singh"
+		dynasty = "Rathore"
+		birth_date = 1736.1.1
+		death_Date = 1791.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 3
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Shiv Singh"
+		dynasty = "Rathore"
+		DIP = 5
+		MIL = 6
+		ADM = 3
+	}
+}
+
+1755.1.1 = {
+	heir = {
+		name = "Bhawani"
+		monarch_name = "Bhawani Singh"
+		dynasty = "Rathore"
+		birth_date = 1755.1.1
+		death_Date = 1833.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 7
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Bhawani"
+		dynasty = "Rathore"
+		DIP = 5
+		MIL = 6
+		ADM = 7
+	}
+}

@@ -1,0 +1,42 @@
+# 801 - Bororo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = mataco
+religion = inti
+capital = "Caranga"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 60
+native_ferocity = 1
+native_hostileness = 7
+discovered_by = new_world
+
+1533.8.29 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	culture = castillian
+	religion = catholic
+	trade_goods = livestock
+	set_province_flag = trade_good_set
+} # The death of Atahualpa
+1558.8.29 = { add_core = SPA }
+1571.8.2  = { capital = "Concepción" } # Viceroy Francisco de Toledo
+1600.1.1  = { citysize = 1670 }
+1650.1.1  = { citysize = 2300 }
+1700.1.1  = { citysize = 8555 }
+1750.1.1  = { citysize = 7030
+	add_core = BOL
+	culture = peruvian
+} # Decline as the mining began to wane
+1800.1.1  = { citysize = 12798 }
+1809.7.16 = {
+	owner = BOL
+	controller = BOL
+} # Bolivian War of Independence
+1825.8.6  = {
+	remove_core = SPA
+}

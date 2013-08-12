@@ -1,0 +1,23 @@
+# 2779 - Ambozes
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CLB
+controller = CLB
+culture = igbo		
+religion = sunni		 
+capital = "Ambozes"
+fort1 = yes
+hre = no
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = millet
+
+discovered_by = soudantech
+discovered_by = sub_saharan
+
+1356.1.1   = {
+	add_core = CLB
+}

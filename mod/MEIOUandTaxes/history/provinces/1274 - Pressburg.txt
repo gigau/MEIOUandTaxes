@@ -1,0 +1,57 @@
+# 1274 - Pressburg
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = austrian
+religion = catholic
+capital = "Pressburg"
+trade_goods = wine
+hre = no
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 17100
+fort1 = yes
+temple = yes # Saint Martin's Cathedral
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 21020
+}
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1550.1.1   = {
+	citysize = 21202
+}
+1600.1.1   = {
+	citysize = 22070
+}
+1650.1.1   = {
+	citysize = 25404
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1750.1.1   = {
+	citysize = 31007
+	base_tax = 7	
+}
+1800.1.1   = {
+	citysize = 38070
+}

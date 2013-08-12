@@ -1,0 +1,38 @@
+#1144 - Mbanza Kongo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KON
+controller = KON
+add_core = KON
+culture = lunda
+religion = animism
+capital = "Djambala"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 4000
+trade_goods = slaves
+
+fort1 = yes
+
+discovered_by = NRI
+discovered_by = LOA
+discovered_by = KON
+discovered_by = NDO
+
+hre = no
+
+1481.1.1 = { discovered_by = POR } # Bartolomeu Dias
+1500.1.1 = { citysize = 4500 }
+1550.1.1 = { citysize = 4980 }
+1600.1.1 = { citysize = 5500 }
+1650.1.1 = { citysize = 6200 }
+1665.10.29 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+} # Battle of Mbwila - Portuguese victory
+1700.1.1 = { citysize = 6800 }
+1750.1.1 = { citysize = 7335 }
+1800.1.1 = { citysize = 7960 }

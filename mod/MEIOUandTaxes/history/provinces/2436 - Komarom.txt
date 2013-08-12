@@ -1,0 +1,55 @@
+# 2436 - Komárom
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HUN
+controller = HUN  
+culture = hungarian
+religion = catholic
+capital = "Komárom"
+trade_goods = lumber
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 7100
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1   = {
+	add_core = HUN
+}
+1500.1.1   = {
+	citysize = 11020
+}
+1526.8.30  = {
+	owner = RHU
+	controller = RHU
+	add_core = RHU
+	add_core = HAB
+}
+1550.1.1   = {
+	citysize = 11202
+}
+1600.1.1   = {
+	citysize = 12070
+}
+1650.1.1   = {
+	citysize = 15404
+}
+1685.1.1  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = HUN
+	remove_core = TUR
+	remove_core = RHU
+} # Conquered/liberated by Charles of Lorraine, the Ottoman Turks are driven out of Hungary
+1750.1.1   = {
+	citysize = 11007
+}
+1800.1.1   = {
+	citysize = 18070
+}

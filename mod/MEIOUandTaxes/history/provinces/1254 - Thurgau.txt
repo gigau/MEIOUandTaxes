@@ -1,0 +1,60 @@
+# 1254 - Thurgau
+# frauenfeld st-gallen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SWI
+controller = SWI
+add_core = SWI
+culture = suisse
+religion = catholic
+capital = "Frauenfeld"
+
+base_tax = 5
+#manpower = 4
+manpower = 8
+citysize = 3900
+trade_goods = linen
+
+fort2 = yes
+terrain2 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+hre = yes
+
+1264.1.1 = { controller = HAB owner = HAB add_core = HAB}
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1460.1.1 = { controller = SWI owner = SWI }
+1489.1.1 = { controller = REB } # Fight over the Abbey of Sankt Gallen
+1491.1.1 = { controller = SWI marketplace = no } # The army of the Four Cantons attack Sankt Gallen, city rights are reduced
+1500.1.1 = { citysize = 4650 }
+1515.1.1 = { revolt_risk = 0 }
+1524.1.1 = { revolt_risk = 7 } #reformation in switzerland
+1526.1.1 = { religion = reformed }
+1531.1.1 = { religion = catholic revolt_risk = 0 }
+1550.1.1 = { citysize = 5200 }
+1600.1.1 = { citysize = 6400 constable = yes }
+1624.1.1 = { fort2 = yes }
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1 = { citysize = 7000 courthouse = yes }
+1653.1.1 = { revolt_risk = 5 } # Peasant rebellion against overtaxation
+1654.1.1 = { revolt_risk = 0 }
+1656.1.1 = { revolt_risk = 7 } # Protestants are expelled from Schwyz which lead to the First War of Villmergen
+1657.1.1 = { revolt_risk = 2 } # An agreement is concluded at Villmergren but tensions remain
+1700.1.1 = { citysize = 8800 }
+1745.1.1 = { mint = yes }
+1750.1.1 = { citysize = 11000 }
+1798.3.5  = { controller = RFR } # French occupation
+1798.4.12 = { controller = SWI owner = SWI } # The establishment of the Helvetic Republic
+1798.4.15 = { controller = REB } # The Nidwalden Revolt
+1798.9.1  = { controller = SWI } # The revolt is supressed
+1800.1.1  = { citysize = 12038 }
+1802.6.1  = { controller = REB } # Swiss rebellion
+1802.9.18 = { controller = SWI }

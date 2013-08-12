@@ -1,0 +1,42 @@
+#Province: Bhutan
+#file name: 565 - Bhutan
+#MEIOU-FB India 1337+ mod Aug 08
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TIB
+controller = TIB
+culture = tibetan
+religion = mahayana
+capital = "Thimphu"
+trade_goods = wool
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 8500
+fort1 = yes
+terrain3 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = chinese
+
+1356.1.1  = {
+	add_core = BHU
+	add_core = TIB
+	set_province_flag = terrain3
+}
+1400.1.1  = { citysize = 9510 }
+1500.1.1  = { citysize = 11910 }
+1550.1.1  = { citysize = 13870 }
+1600.1.1  = { citysize = 15150 }
+1616.1.1  = {
+	owner = BHU
+	controller = BHU
+}
+1627.1.1  = { fort2 = yes } # Simtokha Dzong
+1634.1.1  = { discovered_by = POR }
+1650.1.1  = { citysize = 16888 remove_core = TIB }
+1700.1.1  = { citysize = 18985 }
+1707.5.12 = { discovered_by = GBR }
+1750.1.1  = { citysize = 21334 workshop = yes }
+1800.1.1  = { citysize = 24000 }

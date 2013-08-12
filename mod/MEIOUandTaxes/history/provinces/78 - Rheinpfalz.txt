@@ -1,0 +1,52 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+capital = "Heidelberg"
+culture = eastfranconian
+religion = catholic
+trade_goods = wine
+owner = PAL
+base_tax = 6
+#manpower = 2
+manpower = 4
+fort1 = yes
+temple = yes # The Kaiserdom in Speyer is on of the oldest and greatest in the HRE, built over the 11th and 12th century
+citysize = 10500
+controller = PAL
+add_core = PAL
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 11000 }
+1386.1.1   = { university = yes }
+1399.1.1   = { citysize = 11500 }
+1453.1.1   = { citysize = 12000 marketplace = yes }
+1495.1.1   = { courthouse = yes }
+1500.1.1   = { constable = yes } # The Reichskammergericht (1495-1806) is the highest court in the HRE situated in Worms and after 1527 Speyer
+1546.4.19  = { religion = protestant } # #Friedrich II converts the coutnry to protestant
+1590.1.1   = { regimental_camp = yes }
+1600.1.1   = { citysize = 22000 }
+1620.1.1   = { fort2 = yes customs_house = yes }
+1630.1.1   = { fort3 = yes }
+1648.1.1   = { citysize = 15000 }
+1689.1.1   = { fort3 = no }
+1689.8.1   = { base_tax = 5 fort2 = no controller = FRA } # French troops burn, pillage and destroy in the succession wars.
+1697.4.19  = { controller = PAL } # Peace of Rijswijk strengthens the catholics
+1700.1.1   = { citysize = 20000 fort2 = yes }
+1750.1.1   = { citysize = 24000 fort3 = yes }
+1777.12.30 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+} # Karl Theodor becomes elector of both the Pawesternate and Bavaria after Maximillian III's death
+1796.8.7   = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+}
+1803.1.1   = {
+	owner = BAV
+	controller = BAV
+	remove_core = RFR
+}
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved

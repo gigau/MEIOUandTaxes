@@ -1,0 +1,61 @@
+# 588 - Mengmit
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SST
+controller = SST
+culture = shan
+religion = theravada
+capital = "Mongnai"
+
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 3200
+trade_goods = opium
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	add_core = AVA
+	add_core = SST
+	add_core = PEG
+}
+1500.1.1 = { citysize = 4670 }
+1557.1.1 = {
+	owner = TAU
+	controller = TAU
+	add_core = TAU
+	remove_core = AVA
+	remove_core = PEG
+} # The Shan dynasty is overthrown
+#1581.1.1 = {
+#	owner = SST
+#	controller = SST
+#  	remove_core = TAU
+#} # Very loosely controlled
+1599.1.1 = { controller = REB }	#Shan states revolt after burmese dinasty's crisis
+1600.1.1 = { citysize = 5200 }
+1605.1.1 = { controller = TAU }
+1650.1.1 = { citysize = 6540 }
+1700.1.1 = { citysize = 7600 }
+1750.1.1 = { citysize = 8240 }
+1752.2.28 = {
+	owner = BRM
+	controller = BRM
+	add_core = BRM
+	remove_core = TAU
+}
+1800.1.1 = { citysize = 9800 }
+1852.1.1 = { revolt_risk = 7 }	# out of control after burmese defeated by british
+1885.1.1 = {
+	owner = GBR
+	controller = REB
+}
+1890.1.1 = { controller = GBR }
+

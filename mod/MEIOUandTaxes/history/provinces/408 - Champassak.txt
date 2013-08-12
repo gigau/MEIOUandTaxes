@@ -1,0 +1,43 @@
+# 408- Champassak
+# LS - Indochina set up 
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = laotian
+religion = theravada
+capital = "Champassak"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 20000
+trade_goods = rice
+
+fort1 = yes
+terrain1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain1
+}
+#1713.1.1 = { CHAMPASSAK KINGDOM
+#1826-1829 LAOTIAN REBELLION
+1829.1.1 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	revolt_risk = 0
+} # Annexed by Siam
+1893.1.1 = {
+	owner = FRA
+	controller = FRA
+    	revolt_risk = 0
+}
+ 

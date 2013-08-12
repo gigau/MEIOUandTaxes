@@ -1,0 +1,24 @@
+# 2764 - Bobo
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAL
+controller = MAL
+culture = mali
+religion = sunni
+capital = "Bobo"
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2000
+trade_goods = salt
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = MAL
+}

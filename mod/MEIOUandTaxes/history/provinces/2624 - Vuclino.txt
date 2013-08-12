@@ -1,0 +1,102 @@
+# 2624 - Valtulina
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MLO
+controller = MLO
+culture = lombard
+religion = catholic
+capital = "Sundri"
+
+
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 2000	# Estimated 
+trade_goods = livestock
+
+fort1 = yes
+terrain3 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = yes
+
+1356.1.1 = {
+	set_province_flag = terrain3
+	citysize = 3000
+	add_core = MLO
+	add_core = GBN
+}
+1399.1.1   = { citysize = 4000 }
+1453.1.1   = { citysize = 5000 add_core = FRA }
+1481.1.1   = { university = yes } # University of Milano est. Before that: Pavia est. 1361 
+1499.1.1   = { controller = FRA } # Louis XII of France invades...
+1499.6.1   = { owner = FRA } # ...and seizes Milan
+1500.1.1   = {
+	citysize = 6000
+}
+1512.1.1   = {
+	owner = GBN
+	controller = GBN
+	remove_core = FRA
+}
+
+1535.1.1   = {
+	add_core = SPA
+	remove_core = MLO
+	revolt_risk = 3
+}
+1550.1.1   = {
+	citysize = 6500
+}
+1600.1.1   = {
+	citysize = 7000
+}
+1618.1.1  =  { hre = no }
+1650.1.1   = {
+	citysize = 7000
+}
+1700.1.1   = {
+	citysize = 8000
+}
+1714.9.7   = {
+	add_core = HAB
+	remove_core = SPA
+}
+1750.1.1   = {
+	citysize = 8000
+}
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITC
+} # Cisalpine Republic
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = ITA
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	citysize = 8000
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

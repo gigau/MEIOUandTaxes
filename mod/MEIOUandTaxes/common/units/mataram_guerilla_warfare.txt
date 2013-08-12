@@ -1,0 +1,22 @@
+# Mataram Guerilla Warfare
+# Added in MEIOU by GG 2010.04.30
+# tech level 38 c1750
+# tech level 36 -Blxz
+
+unit_type = austranesian
+type = infantry
+
+maneuver = 1
+#offensive_morale = 8
+#defensive_morale = 8
+#offensive_fire = 6
+#defensive_fire = 6
+#offensive_shock = 5
+#defensive_shock = 5
+#Blxz
+offensive_morale = 8
+defensive_morale = 8
+offensive_fire = 6
+defensive_fire = 6
+offensive_shock = 6
+defensive_shock = 7

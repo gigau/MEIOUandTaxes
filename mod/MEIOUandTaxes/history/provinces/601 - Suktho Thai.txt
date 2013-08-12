@@ -1,0 +1,52 @@
+# 601 - Sukhothai
+# TM-Smiles indochina-mod for meiou
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SUK
+controller = SUK
+add_core = SUK
+culture = thai
+religion = theravada
+capital = "Sukhothai"
+
+base_tax = 10
+#manpower = 6
+manpower = 12
+citysize = 25000
+trade_goods = rice
+
+fort1 = yes
+marketplace = yes
+temple = yes
+
+
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1438.1.1 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = SUK
+	base_tax = 6
+}
+1500.1.1 = { citysize = 30000 }
+1550.1.1 = { citysize = 30000 }
+1564.2.1 = { add_core = TAU citysize = 16500 } # Burmese vassal
+1584.5.3 = { remove_core = TAU }
+1600.1.1 = { citysize = 19600 }
+1650.1.1 = { citysize = 21340 }
+1700.1.1 = { citysize = 23830 }
+1750.1.1 = { citysize = 26000 }
+1767.4.1 = { revolt_risk = 7 } # The fall of Ayutthaya
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 28753 }
+

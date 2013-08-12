@@ -1,0 +1,54 @@
+# 1104 - Kalaalisut
+# GG - 22/07/2008
+# GG - 28/12/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = inuit
+religion = shamanism
+capital = "Kalaalisut"
+trade_goods = crops
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+native_size = 10
+native_ferocity = 2
+native_hostileness = 4
+discovered_by = KAL
+discovered_by = NOR
+
+#1261.1.1   = {
+#	owner = NOR
+#	controller = NOR
+#	add_core = NOR
+#	citysize = 100
+#	capital = "Eiriksfjord"
+#	trade_goods = fish
+#	culture = danish
+#	religion = catholic
+#}
+#1300.1.1   = {
+#	citysize = 0
+#	culture = inuit
+#	religion = shamanism
+#}
+1523.6.21  = {
+	owner = DAN
+	controller = DAN
+	add_core = DAN
+	remove_core = NOR
+	capital = "Eiriksfjord"
+	trade_goods = fish
+	set_province_flag = trade_good_set
+}
+1721.1.1   = {
+	citysize = 200
+	culture = danish
+	religion = protestant
+}
+1814.5.17 = {
+	owner = DEN
+	controller = DEN
+	add_core = DEN
+	remove_core = DAN
+}

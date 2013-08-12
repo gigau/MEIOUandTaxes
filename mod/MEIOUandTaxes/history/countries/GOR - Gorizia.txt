@@ -1,0 +1,80 @@
+# GOR - Gorizia
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_6
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 0
+primary_culture = slovenian
+religion = catholic
+technology_group = western
+capital = 1355
+
+1304.1.1 = {
+	monarch = {
+		name = "Heinrich III"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1323.1.1 = {
+	monarch = {
+		name = "Johann Heinrich"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1327.1.1 = {
+	monarch = {
+		name = "Heinrich IV"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1362.1.1 = {
+	monarch = {
+		name = "Meinhard V"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1385.1.1 = {
+	monarch = {
+		name = "Heinrich V"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1454.1.1 = {
+	monarch = {
+		name = "Leonhard"
+		dynasty = "von Meinhardin"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

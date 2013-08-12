@@ -1,0 +1,76 @@
+# 2370 - Delft
+# Principal cities:Den haag Leiden Delft Dordrecht Rotterdam
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = HOL
+controller = HOL
+culture = dutch
+religion = catholic
+capital = "'s-Gravenhage"
+
+base_tax = 8
+#manpower = 5
+manpower = 10
+citysize = 17500
+trade_goods = beer
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+#1299-1436 in a PU with Hainaut
+#1356-1429 Hainaut and Holland in a PU with BAZ
+1356.1.1   = { citysize = 15000 add_core = HOL }
+1399.1.1   = { citysize = 20000 }
+1428.1.1   = { marketplace = yes }
+1433.1.1   = { owner = BUR controller = BUR add_core = BUR }
+1453.1.1   = { citysize = 25000 }
+1477.1.5   = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18  = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1500.1.1   = { citysize = 30000 }
+1525.1.1   = { fort2 = yes }
+1549.11.4  = { courthouse = yes  add_core = NED }
+1550.1.1   = { citysize = 50000 }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1   = { religion = reformed }
+1572.6.15  = { controller = REB } # Rebels take control of large parts of Holland
+1573.7.12  = { controller = SPA } # Don Frederiqué captures Haarlem and others again
+1573.10.8  = { controller = REB } # Rebels take Alkmaar, Alba replaced by Requésens
+1575.2.8   = { university = yes } # University of Leiden founded
+1579.1.23  = { owner = NED controller = NED remove_core = SPA revolt_risk = 0 } # Union of Utrecht
+1590.1.1   = { regimental_camp = yes } # Professionalisation of the Army
+1600.1.1   = { citysize = 105000 } # Vereenigte Oostindische Compagnie
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { citysize = 231000 }
+1681.1.1   = { base_tax = 10 } # Protestants expelled from France
+1700.1.1   = { fort3 = yes citysize = 266000 }
+1750.1.1   = { citysize = 275000 }
+1760.1.1   = { fort4 = yes }
+1786.1.1   = { revolt_risk = 7 } # Unrest in the Netherlands
+1786.5.1   = { controller = REB revolt_risk = 3 } # 'The Patriots' rout the Dutch army and capture Amsterdam & Rotterdam
+1786.10.13 = { controller = NED revolt_risk = 0 } # With the help of 20,000 Prussians, the Dutch government regains control
+1800.1.1   = { citysize = 276000 }
+1810.7.10  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Annexed by France
+1813.11.30 = {
+	owner = NED
+	controller = NED
+	remove_core = RFR
+} # William returns to the Netherlands

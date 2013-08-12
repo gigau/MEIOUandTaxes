@@ -1,0 +1,86 @@
+#94 - Letzeburg
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LUX
+controller = LUX
+add_core = LUX
+culture = moselfranconian
+religion = catholic 
+capital = "Luxemburg"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 6000
+trade_goods = iron
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 7500 }
+1399.1.1   = { citysize = 9000 }
+1451.8.1   = { owner = BUR controller = BUR add_core = BUR }
+1453.1.1   = { citysize = 10000 }
+1477.1.5  = { revolt_risk = 10 } # death of Charles the Bold
+1477.8.18 = { revolt_risk = 0 } # Personal Union with HAS (marriage of Mary of Burgondy & Maximmilian of Hasburg)
+1482.3.27  = { owner = HAB controller = HAB add_core = HAB remove_core = BUR } # Mary of burgondy dies, Lowlands to Austria
+1500.1.1   = { citysize = 12500 }
+1540.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 18000 }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 8 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 9 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1577.2.12  = { revolt_risk = 5 } # 'Perpetual Edict' (Eeuwig Edict) accepted by Don Juan
+1579.1.6   = { revolt_risk = 0 } # Union of Arras established
+1600.1.1   = { courthouse = yes citysize = 22500 }
+1620.1.1   = { marketplace = yes }
+1650.1.1   = { citysize = 26000 fort3 = yes }
+1659.7.1   = { controller = FRA } # Maréchal Turenne takes control of Luxembourg
+1659.10.28 = { controller = SPA } # Peace of the Pyrennees
+1665.9.17  = { add_core = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
+1670.1.1   = { fort4 = yes }
+1672.5.5   = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
+1678.9.19  = { controller = SPA } # Peace of Nijmegen (France-Spain)
+1684.1.1   = { owner = FRA controller = FRA } # Louis XIV annexes Luxembourg
+1687.1.1   = { fort5 = yes } # Vauban expands the fortress
+1697.9.20  = { owner = SPA controller = SPA } # Peace of Rijswijck
+1700.1.1   = { citysize = 30000 }
+1713.4.11  = { owner = HAB controller = HAB add_core = HAB remove_core = SPA } # Treaty of Utrecht
+1740.1.1   = { constable = yes }
+1750.1.1   = { citysize = 32500 }
+1770.1.1   = { mint = yes }
+1789.5.5   = { base_tax = 9 } # The General Estates
+1792.9.21  = {
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1792.12.1  = { controller = RFR } # Conquered by the French troops under Dumouriez
+1793.3.18  = { controller = HAB } # Reconquered by Prince Josias of Coburg
+1797.10.17 = {	owner = RFR
+		controller = RFR
+		remove_core = HAB
+	     } # The Treaty of Campo Formio, Luxembourg is ceded to France 
+1800.1.1   = { citysize = 38000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleu, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.6.9   = {	owner = LUX
+		controller = LUX
+		remove_core = RFR
+	     } # Grand Duchy of Luxembourg

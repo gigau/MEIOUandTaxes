@@ -1,0 +1,77 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = VEN
+controller = VEN
+culture = greek
+religion = orthodox
+capital = "Agios Yiorgios"
+trade_goods = olive
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 3008
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = western
+discovered_by = turkishtech
+
+1200.1.1  = {
+	add_core = CEP
+}
+1267.1.1   = {
+	owner = KNP
+	controller = KNP
+	add_core = KNP
+}
+1350.1.1   = {
+	add_core = VEN
+}
+1357.1.1   = {
+	owner = CEP
+	controller = CEP
+	add_core = GEN
+}
+1386.1.1  =  {
+	remove_core = GEN
+}	# vassal of venezia
+1479.1.1  = {
+	owner = VEN
+	controller = VEN
+	remove_core = KNP
+}
+1500.1.1  = { citysize = 4500 }
+1550.1.1  = { citysize = 4987 }
+1600.1.1  = { citysize = 5002 }
+1620.1.1  = { marketplace = yes }
+1650.1.1  = { citysize = 4570 }
+1700.1.1  = { citysize = 4790 }
+1750.1.1  = {
+	citysize = 5781
+	add_core = GRE
+}
+1757.1.1  = {
+	capital = "Argostoli"
+}
+1797.1.1  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = VEN
+}
+1800.1.1  = { citysize = 6897 }
+1809.1.1  = {
+	controller = GBR
+}
+1810.1.1  = {
+	owner = GBR
+	add_core = GBR
+	remove_core = RFR
+}
+1863.1.1  = {
+	owner = GRE
+	controller= GRE
+	remove_core = GBR
+}

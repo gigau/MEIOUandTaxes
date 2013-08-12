@@ -1,0 +1,5 @@
+# 2511 - Kalimantan
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian

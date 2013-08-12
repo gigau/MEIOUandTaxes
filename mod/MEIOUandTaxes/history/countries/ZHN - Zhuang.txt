@@ -1,0 +1,28 @@
+# ZHN - Zhuang
+# LS - Chinese Civil War
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -5
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 4
+# land_naval = -3
+# quality_quantity = 3
+# serfdom_freesubjects = 3
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = zhuang
+capital = 671
+
+1356.1.1 = {
+	monarch = {
+		name = "Wang"
+		dynasty = "Zhang"
+		ADM = 5
+		DIP = 5
+		MIL = 5
+	}
+}

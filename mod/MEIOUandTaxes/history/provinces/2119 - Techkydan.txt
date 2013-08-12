@@ -1,0 +1,42 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = YUA
+controller = YUA
+add_core = YUA 
+culture = oirats
+religion = mahayana
+capital = "Techkydan"
+trade_goods = subsistence
+hre = no
+base_tax = 1
+#manpower = 0
+manpower = 0
+citysize = 52350
+fort1 = yes
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = OIR
+}
+1375.1.1 = {
+	owner = OIR
+	controller = OIR
+}
+1500.1.1 = { citysize = 11785 }
+1543.1.1 = { controller = REB } # Fighting broke out between the Mongols
+1550.1.1 = { citysize = 13399 }
+1552.1.1 = {
+	owner = KHA
+	controller = KHA
+} # The Oirads are defeated & Mongolia is reunited under Altan Khan
+1586.1.1 = { religion = mahayana } # State religion
+1600.1.1 = { citysize = 15974 }
+1650.1.1 = { citysize = 17820 }
+1691.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Outer Mongolia is created
+1700.1.1 = { citysize = 18940 }
+1750.1.1 = { citysize = 20154 }
+1800.1.1 = { citysize = 21338 }

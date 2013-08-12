@@ -1,0 +1,47 @@
+# 713 - Dzungarei
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CHG
+controller = CHG
+culture = oirats
+religion = mahayana
+capital = "Dzungarei"
+trade_goods = wool
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 6540
+
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = CHG 
+	add_core = OIR
+}
+1500.1.1 = { citysize = 7222 }
+1550.1.1 = { citysize = 8354 }
+1600.1.1 = { citysize = 9500 }
+1623.1.1 = {
+	owner = OIR
+	controller = OIR
+   	add_core = OIR
+   	remove_core = CHG
+   	religion = mahayana
+} # The Oirads
+1650.1.1 = { citysize = 10100 }
+1700.1.1 = { citysize = 11578 }
+1709.1.1 = {
+	owner = KOK
+	controller = KOK
+	add_core = KOK
+	remove_core = OIR
+} # Independent principality established by Shaybanid Shahrukh
+1750.1.1 = { citysize = 12300 }
+1757.1.1 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+} # Part of the Manchu empire
+1800.1.1 = { citysize = 13487 }

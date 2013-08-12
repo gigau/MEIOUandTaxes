@@ -1,0 +1,45 @@
+# Karelia
+# MEIOU - Gigau
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NOV
+controller = NOV
+add_core = NOV
+
+culture = pomor # karelian
+religion = orthodox
+hre = no
+base_tax = 1
+trade_goods = fur  
+#manpower = 0
+manpower = 0
+capital = "Kam"
+citysize = 50
+fort1 = yes
+
+discovered_by = NOR
+discovered_by = SWE
+discovered_by = RSW
+discovered_by = eastern
+
+1478.1.14 = {
+	owner = MOS
+	controller = MOS
+	add_core = MOS
+	remove_core = NOV
+}
+1500.1.1  = { citysize = 100 }
+1547.1.1  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = MOS
+} # Ivan Grozny becomes the first Tsar of Russia
+1550.1.1  = { citysize = 250 }
+1600.1.1  = { citysize = 500 }
+1649.1.1  = { fort1 = yes }
+1650.1.1  = { citysize = 1000 }
+1658.1.1  = { citysize = 1500 }
+1700.1.1  = { citysize = 2000 }
+1750.1.1  = { citysize = 3000 }
+1800.1.1  = { citysize = 4000 }

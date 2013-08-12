@@ -1,0 +1,110 @@
+# Firenze
+# FIR
+
+# modded by Solo for MEIOU. See comments for the altered parts.
+
+graphical_culture = latingfx
+
+color = { 103  44  10 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+# First names taken from the 1427 census using statistics for weighting
+
+monarch_names = {
+	"Agnolo #0" = 10
+	"Agostino #0" = 10
+	"Andrea #0" = 20
+	"Antonio #0" = 60
+	"Bartolo #0" = 10
+	"Bartolomeo #0" = 30
+	"Benedetto #0" = 10
+	"Bernardo #0" = 15
+	"Biagio #0" = 10
+	"Carlo #0" = 10
+	"Cecco #0" = 10
+	"Cristofano #0" = 10
+	"Domenico #0" = 25
+	"Donato #0" = 10
+	"Filippo #0" = 15
+	"Francesco #0" = 40
+	"Giorgio #0" = 10
+	"Giovanni #0" = 70
+	"Guido #0" = 10
+	"Iacopo #0" = 30
+	"Leonardo #0" = 10
+	"Lodovico #0" = 10
+	"Lorenzo #0" = 20
+	"Luca #0" = 10
+	"Marco #0" = 10
+	"Martino #0" = 10
+	"Maso #0" = 10
+	"Matteo #0" = 15
+	"Michele #0" = 15
+	"Nanni #0" = 10
+	"Neri #0" = 10
+	"Niccolaio #0" = 10
+	"Niccolo #0" = 25
+	"Pagolo #0" = 15
+	"Piero #0" = 40
+	"Salvestro #0" = 10
+	"Sandro #0" = 10
+	"Simone #0" = 15
+	"Stefano #0" = 10
+	"Taddeo #0" = 10
+	"Tommaso #0" = 15
+	"Zanobi #0" = 10
+}
+
+# Family names, also gathered from the florentine census using wealth ordering, of course completed with the missing families
+ 
+leader_names = {
+	"Acciaiuoli" "Accolti" "Adimari" "Alberti" "Aldobrandini" "Alessandri" "Alighieri" "Altoviti" "Amidei" "Antinori" "Ardinghelli"
+	"Barbadori" "Barberini" "Bardi" "Baroncelli" "Bartolini Salimbeni" "Bartolommei" "Bini" "Bischeri" "Bonciani" "Boni" "Bonsi" "Brancacci" "Brunelleschi" "Buondelmonti" "Busini"
+	"Canacci" "Capponi" "Carducci" "Carnesecchi" "Catellini da Castiglione" "Cavalcanti" "Cerretani" "Compagni" "Corbinelli" "Corsi" "Corsini" "Covoni"		
+	"da Casavecchia" "da Filicaja" "da Fortuna" "da Uzzano" "dal Borgo" "de' Benci" "de' Cerchi" "de' Corbizzi" "de' Medici" "de' Nobili" "de' Pazzi" "de' Ricci" "de' Rossi" "degli Albizzi"
+	"del Bene" "del Giocondo" "del Turco" "del Zaccheria" "della Casa" "della Luna" "della Robbia" "della Tosa"
+	"Donati" "Fortini" "Frescobaldi"
+	"Gaddi" "Gherardini" "Giacomini" "Gianfigliazzi" "Gini" "Ginori" "Giugni" "Guadagni" "Guicciardini" "Guidetti" "Guidi"				
+	"Lamberteschi" "Lippi" "Lucardesi" "Machiavelli" "Magnani" "Manetti" "Mannelli" "Martelli" "Martini"
+	"Nerli" "Paladini" "Panciatichi" "Peruzzi" "Pitti" "Portinari" "Pucci" "Pulci"
+	"Quaratesi" "Ricasoli" "Ridolfi" "Rinieri" "Rinuccini" "Rosselli" "Rucellai" "Ruspoli"
+	"Sacchetti" "Salutati" "Salviati" "Sassetti" "Serragli" "Setticelli" "Soderini" "Soldanieri" "Strozzi"
+	"Taddei" "Tornabuoni" "Torrigiani" "Valori" "Vettori" "Villani"
+}
+
+ship_names = {
+	"Andreotto Saraceno"
+	"Bartolo da Sassoferrato" "Bernardo dei Paganelli"
+	"Ugolino della Gherardesca"
+	"Daiberto Pisano"
+	"Fazio della Gherardesca" "Fiumi Arno" "Francesco da Buti"
+	"Giovanni di Simone" "Giuseppe Setaioli"
+	"Leonardo Fibonacci"
+	"Monti Pisani" "Morosini da Venezia"
+	Rustichello
+	"San Frediano" "San Giovanni Battista" "San Michele" "San Nicola" "Sant'Agata" "Sant'Antonio" "Santa Maria Assunta" "Santa Maria della Spina" "San Paolo a Ripa d'Arno" "S.Piero a Grado" S.Rossore "San Sisto"
+	"Ugolino Caccini"
+}
+
+army_names = {
+	"Armata di $PROVINCE$"
+}

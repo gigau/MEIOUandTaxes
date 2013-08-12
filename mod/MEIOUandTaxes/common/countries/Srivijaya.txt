@@ -1,0 +1,44 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 100  45  0 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	majapahit_archers
+	mataram_musketeer
+	mataram_cavalry
+}
+
+monarch_names = {
+	"Dewa Ketut #0" = 20
+	"Sri Aji Baturenggong #0" = 20
+	"Dewa Bekung #0" = 20
+	"Anglurah Agung #0" = 20
+	"Dewa Pacekan #0" = 20
+}
+
+leader_names = {
+	Hamengku
+	Agung
+	Slamet
+	Budi
+	Harto
+	Karno
+	Wani
+	Mas
+	Kencono
+	Ratri
+}
+
+ship_names = {
+	Pendet Legong Baris Topeng Barong
+	Kecak Batur Catur Bratan Pohen Lesong
+	Sangyang Batukaru Patas Musi Mesehe
+	Agong Seraya Merbuk Sanglang Kelatakan
+}

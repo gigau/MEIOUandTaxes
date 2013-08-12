@@ -1,0 +1,36 @@
+#Province: Riau
+#file name: 2099 - Riau
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SIJ
+controller = SIJ
+add_core = SIJ
+culture = malayan
+religion = theravada
+capital = "Pakanbaru"
+trade_goods = gold
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+citysize = 2800
+
+discovered_by = indian
+discovered_by = austranesian
+
+1480.1.1 = {
+	owner = MLC
+	controller = MLC
+	add_core = ATJ
+}
+1500.1.1  = { citysize = 3700 add_core = MLC }
+1550.1.1  = { citysize = 4230 religion = sunni }
+1600.1.1  = { citysize = 4860 }
+1650.1.1  = { citysize = 5550 }
+1658.1.1 = { owner = SIJ controller = SIJ revolt_risk = 1 } # The Dutch gradually gained control
+1683.1.1 = { add_core = NED }
+1700.1.1  = { citysize = 6200 }
+1750.1.1  = { citysize = 6980 }
+1800.1.1  = { citysize = 7542 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

@@ -1,0 +1,573 @@
+# MEW - Mewar
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 3
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 3
+# offensive_defensive = 4
+# land_naval = -5
+# quality_quantity = -1
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+primary_culture = mewari
+religion = hinduism
+technology_group = indian
+capital = 2707
+
+1382.1.1 = {
+	monarch = {
+		name = "Lakha Singh"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 5
+		ADM = 6 # Builds palaces and temples, exploits new silver and zinc mines.
+	}
+}
+
+1382.1.1 = {
+	heir = {
+		name = "Mokal"
+		monarch_name = "Mokal Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1409.1.1
+		death_date = 1433.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 5
+	}
+}
+
+ 
+
+1421.1.1 = {
+	monarch = {
+		name = "Mokal Singh"
+		dynasty = "Sisodiya"
+		DIP = 5
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1427.1.1 = {
+	heir = {
+		name = "Kumbha"
+		monarch_name = "Kumbhakarna Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1427.1.1
+		death_date = 1468.1.1
+		claim = 95
+		DIP = 7
+		MIL = 7
+		ADM = 7
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Kumbhakarna Singh"
+		dynasty = "Sisodiya"
+		DIP = 7
+		MIL = 7
+		ADM = 7
+	}
+}
+
+1433.1.1 = {
+	heir = {
+		name = "Udai"
+		monarch_name = "Udai Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1420.1.1
+		death_date = 1473.1.1
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "Udai Singh I"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1468.1.1 = {
+	heir = {
+		name = "Raimal"
+		monarch_name = "Raimal Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1430.1.1
+		death_date = 1509.1.1
+		claim = 95
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1473.1.1 = {
+	monarch = {
+		name = "Raimal"
+		dynasty = "Sisodiya"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1482.4.12 = {
+	heir = {
+		name = "Sangram"
+		monarch_name = "Sangram Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1482.4.12
+		death_date = 1528.1.30
+		claim = 95
+		DIP = 7
+		MIL = 8
+		ADM = 4
+	}
+}
+
+1509.1.1 = {
+	monarch = {
+		name = "Sangram Singh I"
+		dynasty = "Sisodiya"
+		DIP = 7
+		MIL = 8
+		ADM = 4
+	}
+}
+
+1509.1.1 = {
+	heir = {
+		name = "Ratan"
+		monarch_name = "Ratan Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1500.1.1
+		death_date = 1531.1.1
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1528.1.30 = {
+	monarch = {
+		name = "Ratan Singh I"
+		dynasty = "Sisodiya"
+		DIP = 5
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1528.1.30 = {
+	heir = {
+		name = "Vikramaditya"
+		monarch_name = "Vikramaditya Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1517.1.1
+		death_date = 1537.1.1
+		claim = 95
+		DIP = 2
+		MIL = 2
+		ADM = 1
+	}
+}
+
+1531.1.1 = {
+	monarch = {
+		name = "Vikramaditya Singh"
+		dynasty = "Sisodiya"
+		DIP = 2
+		MIL = 2
+		ADM = 1
+	}
+}
+
+#Vikramaditya was a weak ruler and lost power to a cousin between 1536 -1537, this cousin doesn't appear on the list of rulers
+
+1531.1.1 = {
+	heir = {
+		name = "Udai"
+		monarch_name = "Udai Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1522.8.4
+		death_date = 1572.3.3
+		claim = 95
+		DIP = 6
+		MIL = 7
+		ADM = 7
+	}
+}
+
+1537.1.1 = {
+	monarch = {
+		name = "Udai Singh II"
+		dynasty = "Sisodiya"
+		DIP = 6
+		MIL = 7
+		ADM = 7
+	}
+}
+
+1537.1.1 = {
+	heir = {
+		name = "Pratap"
+		monarch_name = "Pratap Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1540.5.9
+		death_date = 1597.1.19
+		claim = 95
+		DIP = 3
+		MIL = 7
+		ADM = 3
+	}
+}
+
+1568.1.1 = { capital = 518 }	#Udaipur
+
+1572.3.3 = {
+	monarch = {
+		name = "Pratap Singh II"
+		dynasty = "Sisodiya"
+		DIP = 5
+		MIL = 7
+		ADM = 6
+	}
+}
+
+
+1572.3.3 = {
+	leader = { name = "Jhala Maansinh"	type = general		rank = 1	fire = 1	shock = 3	manuever = 2	siege = 0	death_date = 1576.6.21 }
+}
+
+1572.3.3 = {
+	leader = { name = "Hakim Khan Sur Pathan"	type = general		rank = 1	fire = 1	shock = 2	manuever = 1	siege = 0	death_date = 1616.1.1 }
+}
+
+1572.3.3 = {
+	heir = {
+		name = "Amar"
+		monarch_name = "Amar Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1559.3.16
+		death_date = 1620.1.26
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1597.1.19 = {
+	monarch = {
+		name = "Amar Singh I"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1597.1.19 = {
+	heir = {
+		name = "Karan"
+		monarch_name = "Karan Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1584.1.7
+		death_date = 1628.3.1
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 4
+	}
+}
+
+1620.1.26 = {
+	monarch = {
+		name = "Karan"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1620.1.26 = {
+	heir = {
+		name = "Jagat"
+		monarch_name = "Jagat Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1600.1.1
+		death_date = 1652.1.1
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 8
+	}
+}
+
+1628.1.1 = {
+	monarch = {
+		name = "Jagat Singh I"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 5
+		ADM = 8 # Jagat Singh is credited with being the greatest builder of the dynasty
+	}
+}
+
+1629.9.4 = {
+	heir = {
+		name = "Raj"
+		monarch_name = "Raj Singh I"
+		dynasty = "Sisodiya"
+		birth_date = 1629.9.4
+		death_date = 1680.10.22
+		claim = 95
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1652.1.1 = {
+	monarch = {
+		name = "Raj Singh I"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 5
+		ADM = 5
+	}
+}
+
+1653.12.5 = {
+	heir = {
+		name = "Jai"
+		monarch_name = "Jai Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1653.12.5
+		death_date = 1698.9.23
+		claim = 95
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1680.10.22 = {
+	monarch = {
+		name = "Jai Singh"
+		dynasty = "Sisodiya"
+		DIP = 5
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1680.10.22 = {
+	heir = {
+		name = "Amar"
+		monarch_name = "Amar Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1672.10.3
+		death_date = 1710.12.10
+		claim = 95
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1698.9.23 = {
+	monarch = {
+		name = "Amar Singh II"
+		dynasty = "Sisodiya"
+		DIP = 3
+		MIL = 6
+		ADM = 4
+	}
+}
+
+1698.9.23 = {
+	heir = {
+		name = "Sangram"
+		monarch_name = "Sangram Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1690.3.24
+		death_date = 1734.1.11
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1710.12.10 = {
+	monarch = {
+		name = "Sangram Singh II"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 6
+		ADM = 5
+	}
+}
+
+1710.12.10 = {
+	heir = {
+		name = "Jagat"
+		monarch_name = "Jagat Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1709.9.17
+		death_date = 1751.6.5
+		claim = 95
+		DIP = 4
+		MIL = 6
+		ADM = 3
+	}
+}
+
+1734.1.11 = {
+	monarch = {
+		name = "Jagat Singh II"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 6
+		ADM = 3
+	}
+}
+
+1734.1.11 = {
+	heir = {
+		name = "Pratap"
+		monarch_name = "Pratap Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1724.7.27
+		death_date = 1753.1.10
+		claim = 95
+		DIP = 3
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1751.6.5 = {
+	monarch = {
+		name = "Pratap Singh II"
+		dynasty = "Sisodiya"
+		DIP = 3
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1751.6.5 = {
+	heir = {
+		name = "Raj"
+		monarch_name = "Raj Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1743.4.25
+		death_date = 1761.4.3
+		claim = 95
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+	
+1753.1.10 = {
+	monarch = {
+		name = "Raj Singh II"
+		dynasty = "Sisodiya"
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1753.1.10 = {
+	heir = {
+		name = "Ari"
+		monarch_name = "Ari Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1745.1.1
+		death_date = 1773.3.9
+		claim = 95
+		DIP = 4
+		MIL = 4
+		ADM = 3
+	}
+}
+	
+1761.4.3 = {
+	monarch = {
+		name = "Ari Singh"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 4
+		ADM = 3
+	}
+}
+
+1762.1.1 = {
+	heir = {
+		name = "Hammir"
+		monarch_name = "Hammir Singh II"
+		dynasty = "Sisodiya"
+		birth_date = 1762.1.1
+		death_date = 1778.1.6
+		claim = 95
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1773.3.9 = {
+	monarch = {
+		name = "Hammir Singh II"
+		dynasty = "Sisodiya"
+		DIP = 3
+		MIL = 5
+		ADM = 3
+	}
+}
+
+1773.3.9 = {
+	heir = {
+		name = "Bhim"
+		monarch_name = "Bhim Singh"
+		dynasty = "Sisodiya"
+		birth_date = 1768.3.10
+		death_date = 1828.3.20
+		claim = 95
+		DIP = 5
+		MIL = 6
+		ADM = 4
+	}
+}
+	
+1778.1.6 = {
+	monarch = {
+		name = "Bhim Singh"
+		dynasty = "Sisodiya"
+		DIP = 5
+		MIL = 6
+		ADM = 4
+	}
+}

@@ -1,0 +1,40 @@
+# MIX - Mixtecs
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 5
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = -5
+# land_naval = -5
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 4
+primary_culture = mixtec
+religion = teotl
+technology_group = new_world
+capital = 2645
+
+1356.1.1 = {
+	monarch = {
+		name = "Atonal"
+		dynasty = "Tilantongo"
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+}#temp pending further research
+
+1450.1.1 = {
+	monarch = {
+		name = "Atonal II"
+		dynasty = "Tilantongo"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}

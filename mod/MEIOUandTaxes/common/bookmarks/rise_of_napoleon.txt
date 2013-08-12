@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "NAPOLEON_NAME"
+	desc = "NAPOLEON_DESC"
+	date = 1802.12.2
+	
+	country = RFR
+	country = PRU
+	country = HAB
+	country = GBR
+	country = RUS
+	
+	easy_country = FRA
+	easy_country = GBR
+}

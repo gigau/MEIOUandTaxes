@@ -1,0 +1,79 @@
+# 189 Lothringen - 
+#Principal cities: Nancy
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LOR
+controller = LOR 
+add_core = LOR
+culture = burgundian
+religion = catholic
+capital = "Nancy"
+
+base_tax = 8
+#manpower = 4
+manpower = 8
+citysize = 6500
+trade_goods = lumber
+
+fort1 = yes
+fort2 = yes # Fort de Joux
+temple = yes # La Basilique Saint-Epvre
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1467.6.15  = { add_core = BUR } # Charles the Bold ascends and lays claims on Lorraine
+1475.11.30 = { owner = BUR controller = BUR revolt_risk = 5 } # Charles the Bold annexes Lorraine
+1476.1.1   = { controller = REB } # Lorraine revolts against Charles the Bold during the Burgundian-Swiss War
+1477.1.5   = { owner = LOR controller = LOR remove_core = BUR revolt_risk = 0 } # Charles the Bold dies in the Siege of Nancy and Lorraine is re-established
+1500.1.1   = { citysize = 7000 }
+1550.1.1   = { citysize = 9000 courthouse = yes }
+1570.1.1   = { constable = yes }
+1580.1.1   = { marketplace = yes }
+1600.1.1   = { citysize = 12000 }
+1610.1.1   = { fort3 = yes }
+1620.1.1   = { customs_house = yes regimental_camp = yes }
+1634.1.1   = { controller = FRA } # To France
+1636.8.15  = { controller = LOR } # Habsburg forces ravage North Eastern France, Lorraine liberated
+1636.10.20 = { controller = FRA } # Bernhard of Saxe-Weimar defeats the invaders and gradually pushes them back
+1641.1.1   = { controller = LOR } # Charles III restored
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { citysize = 9000 }
+1660.1.1   = { fort4 = yes }
+1670.1.1   = { owner = FRA controller = FRA add_core = FRA } # France back in control - Louis XIV lays claims through the Chambers of Reunion
+1674.1.1   = { fort5 = yes } # Vauban's 'pointed' fort in Toul
+1679.9.20  = { owner = LOR controller = LOR } # Treaty of Rijswijck (End of the War of the Grand Alliance): Lorraine restored
+1700.1.1   = { citysize = 20000 }
+1702.1.1   = { controller = FRA } # Back to France *yawn* in the Spanish War of Succession
+1710.1.1   = { mint = yes }
+1714.1.1   = { controller = LOR } # Leopold restored when the Spanish Succession Crisis comes to an end
+1750.1.1   = { citysize = 29000 workshop = yes }
+1766.1.1   = { owner = FRA controller = FRA } # Death of Duke Stanislaus, Lorraine ceases to exist
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 39000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11  = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {	owner = RFR
+		controller = RFR
+		add_core = RFR
+		remove_core = FRA
+	     } # Napoleon enters Paris
+1815.7.8   = {	owner = FRA
+		controller = FRA
+		add_core = FRA
+		remove_core = RFR
+	     } # The French monarchy is restored

@@ -1,0 +1,69 @@
+# Cherkassia
+# CIR
+
+graphical_culture = muslimgfx
+
+color = { 123  90  90 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	houfnice
+	large_cast_iron_bombard
+	chambered_demi_cannon
+	leather_cannon
+	swivel_cannon
+	coehorn_mortar
+	royal_mortar
+	flying_battery
+	persian_footsoldier
+	muslim_cavalry_archers
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+
+monarch_names = {
+	"Ezgbold #0" = 30
+	"Yemish #0" = 30
+	"Teimbot #0" = 30
+	"Psebide #0" = 30
+	"Abatiy #0" = 30
+	"Alhx'es #0" = 30
+	"Alhx'o #0" = 30
+	"Blaneshu #0" = 30
+	"Chetsu #0" = 30
+	"Degwzchey #0" = 30
+	"Dzudze #0" = 30
+	"Hebizh #0" = 30
+	"Hetize #0" = 30
+	"Otchikan #0" = 30
+	"Anzarouk #0" = 30
+	"Kanglytchev #0" = 30
+	"Kaitouk #0" = 30
+	"Sibok #0" = 30
+	"Iansokh #0" = 30
+	"Tazriout #0" = 30
+	"Kazy #0" = 30
+	"Klytch #0" = 30
+}
+
+leader_names = { 
+	"Pchimakha" "Olegouk" "Ildar" "Tchapolov"
+	"Saltankoul" "Saouslan" "Tazryt" "Moudar"
+}
+
+ship_names = {
+	"Babishe" "Bzcho" "Hetsatsa" "Kwliyzhan"
+	"Seteney" "Zhanshir" "Xwemey"
+	"Sawise" "Qwdas" 
+	"Pizchine" "Niyne"
+}

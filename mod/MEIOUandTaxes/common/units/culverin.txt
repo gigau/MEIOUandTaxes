@@ -1,0 +1,20 @@
+# Culverin
+#Modified for MEIOU by FB 10.02.07
+#tech level 29 c1580
+
+type = artillery
+
+maneuver = 2
+#offensive_morale = 3
+#defensive_morale = 3
+#offensive_fire = 2
+#defensive_fire = 2
+#offensive_shock = 2
+#defensive_shock = 2
+#FB
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 5
+defensive_fire = 4
+offensive_shock = 0
+defensive_shock = 4

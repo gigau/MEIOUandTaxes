@@ -1,0 +1,53 @@
+# 272 - Aukstaitija
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = LIT
+controller = LIT
+capital = "Vilna"
+citysize = 3804
+culture = lithuanian
+religion = baltic_pagan
+trade_goods = lumber
+hre = no
+base_tax = 5
+#manpower = 2
+manpower = 4
+fort1 = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+
+1356.1.1   = {
+	add_core = LIT
+}
+1386.1.1 = {
+	religion = catholic
+}
+1500.1.1   = { marketplace = yes citysize = 4593 }
+1508.1.1   = { fort2 = yes }
+1543.1.1   = { revolt_risk = 3 } # Counter reformation
+1550.1.1   = { citysize = 5875 regimental_camp = yes }
+1569.7.1  = {
+	owner = PLC
+	controller = PLC
+	add_core = PLC
+} # Union of Lublin
+1579.1.1   = { university = yes revolt_risk = 0 } # Vilnius university
+1600.1.1   = { courthouse = yes citysize = 6735 }
+1650.1.1   = { citysize = 7076 }
+1700.1.1   = { citysize = 7619 }
+1709.1.1   = { citysize = 8000 } # Horrible plague
+1750.1.1   = { citysize = 8905 }
+1791.6.1   = { revolt_risk = 3} # 3rd May constitution raised opposition
+1794.3.24  = { revolt_risk = 6 } # Kosciuszko uprising
+1794.11.16 = { revolt_risk = 0 }
+1795.10.24  = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	add_core = LIT
+	add_core = PLC
+} # Most of Lithuania became part of the Russian empire
+1800.1.1   = { citysize = 9300 }
+1812.6.28  = { controller = RFR } # Occupied by French troops
+1812.12.10 = { controller = RUS }

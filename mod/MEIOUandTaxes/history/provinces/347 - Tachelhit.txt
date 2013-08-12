@@ -1,0 +1,49 @@
+#347 - Tachelhit
+# marrakech
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FEZ
+controller = FEZ 
+add_core = MOR
+add_core = FEZ 
+culture = berber
+religion = sunni
+capital = "Marrakech"
+
+base_tax = 9
+#manpower = 5
+manpower = 10
+citysize = 50478
+trade_goods = olive
+
+fort1 = yes
+marketplace = yes
+temple = yes
+workshop = yes
+
+discovered_by = TUA
+discovered_by = CNA
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1500.1.1 = { citysize = 40044 }
+1511.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1550.1.1 = { citysize = 45571  }
+1600.1.1 = { citysize = 60778 }
+1603.1.1 = { revolt_risk = 5 } # The death of the Saadita Ahmad I al-Mansur
+1604.1.1 = { revolt_risk = 0 }
+1650.1.1 = { citysize = 65020 }
+1659.1.1 = { revolt_risk = 7 } # The last ruler of Saadi is overthrown
+1660.1.1 = { revolt_risk = 3}
+1672.1.1 = { revolt_risk = 4 } # Oppositions against Ismail, & the idea of a unified state
+1700.1.1 = { citysize = 70302 }
+1727.1.1 = { revolt_risk = 0 }
+1750.1.1 = { citysize = 75647 }
+1800.1.1 = { citysize = 80660 }

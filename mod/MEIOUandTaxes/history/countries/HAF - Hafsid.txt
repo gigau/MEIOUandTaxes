@@ -1,0 +1,184 @@
+# HAF - Hafsid
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1
+# secularism_theocracy = 2
+primary_culture =  tunisian
+add_accepted_culture = kabyle
+religion = sunni
+technology_group = muslim
+capital = 341
+
+1318.1.1 = {
+	monarch = {
+		name = "Abu Bakr II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1346.1.1 = {
+	monarch = {
+		name = "Abu Hafs Umar II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1348.1.1 = {
+	monarch = {
+		name = "Ahmad I"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1349.1.1 = {
+	monarch = {
+		name = "Ishaq II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1369.1.1 = {
+	monarch = {
+		name = "Abu al-Baqa Khalid"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1371.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1394.1.1 = {
+	monarch = {
+		name = "Abd al-Aziz II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1434.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1435.9.18 = {
+	monarch = {
+		name = "'Uthman"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}
+
+1488.1.1 = {
+	monarch = {
+		name = "Yahyâ III"
+		dynasty = "Hafsid"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1489.1.1 = {
+	monarch = {
+		name = "'Abd al-Mu'min"
+		dynasty = "Hafsid"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1490.10.15 = {
+	monarch = {
+		name = "Zakariyâ' II"
+		dynasty = "Hafsid"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1494.5.17 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Hafsid"
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
+
+1526.1.1 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Hafsid"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Ahmad III"
+		dynasty = "Hafsid"
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = {	name = "Ahmad III"             	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0}
+	}
+}
+
+1573.1.1 = {
+	monarch = {
+		name = "Muhammad VII"
+		dynasty = "Hafsid"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+# Part of the Ottoman Empire

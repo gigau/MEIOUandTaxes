@@ -1,0 +1,44 @@
+# 2670 - Kamphaeng Phet
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SUK
+controller = SUK
+add_core = SUK
+culture = thai
+religion = theravada
+capital = "Kamphaeng Phet"
+
+base_tax = 4
+#manpower = 3  
+manpower = 6  
+citysize = 10000
+trade_goods = rice
+
+fort1 = yes
+discovered_by = chinese
+discovered_by = indian
+
+hre = no
+
+1378.1.1 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = SUK }
+1500.1.1 = { citysize = 10000 }
+1550.1.1 = { citysize = 10000 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU }
+1600.1.1 = { citysize = 10000 }
+1650.1.1 = { citysize = 10000 }
+1700.1.1 = { citysize = 10000 }
+1750.1.1 = { citysize = 10000 } 
+1767.4.1 = { revolt_risk = 7 } # The fall of Ayutthaya
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 10000 }

@@ -1,0 +1,51 @@
+#592 - Ratchaburi
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = NST
+controller = NST
+culture = monic
+religion = theravada
+trade_goods = fish
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 4200
+capital = "Surat Thani"
+
+fort1 = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+
+hre = no
+
+1356.1.1 = {
+	add_core = AYU
+	add_core = NST
+}
+1467.4.8 = {
+	owner = AYU
+	controller = AYU
+    	add_core = AYU
+	remove_core = NST
+	revolt_risk = 0
+	culture = thai
+}
+1500.1.1 = { citysize = 5870 }
+1550.1.1 = { citysize = 7240 }
+1564.2.1 = { add_core = TAU } # Burmese vassal
+1584.5.3 = { remove_core = TAU }
+1600.1.1 = { citysize = 8988 }
+1650.1.1 = { citysize = 10103 }
+1700.1.1 = { citysize = 12400 }
+1750.1.1 = { citysize = 13987 }
+1767.4.8 = {
+	owner = SIA
+	controller = SIA
+    	add_core = SIA
+	remove_core = AYU
+	revolt_risk = 0
+}
+1800.1.1 = { citysize = 14885 }

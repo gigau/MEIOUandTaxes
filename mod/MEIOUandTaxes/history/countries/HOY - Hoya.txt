@@ -1,0 +1,102 @@
+# County of Hoya
+# Tag : HOY
+# MEIOU-GG Govenemnt changes
+# 2010-jan-15 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 2
+technology_group = western
+primary_culture = old_saxon
+religion = catholic
+capital = 1364	# Hoya
+
+1324.1.1 = {
+	monarch = {
+		name = "Gerhard III"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1383.1.1 = {
+	monarch = {
+		name = "Otto III"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1428.1.1 = {
+	monarch = {
+		name = "Otto V"
+		dynasty = "von Hoya"
+		adm = 8
+		dip = 5
+		mil = 5
+	}
+}
+
+1451.1.1 = {
+	monarch = {
+		name = "Otto VII"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1497.1.1 = {
+	monarch = {
+		name = "Jobst I"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Jobst II"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Albrecht II"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+
+1563.1.1 = {
+	monarch = {
+		name = "Otto VIII"
+		dynasty = "von Hoya"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+# 1582 - Incorporated into the Duchy of Lüneburg

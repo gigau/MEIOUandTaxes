@@ -1,0 +1,50 @@
+# 397 - Al Qatif
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AHS
+controller = AHS
+culture = bahrani
+religion = shiite
+capital = "Qatif"
+trade_goods = wool
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 1520
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = AHS
+}
+1480.1.1 = { discovered_by = TUR }
+1500.1.1 = { citysize = 2130 }
+1507.9.1 = { discovered_by = POR } # Alfonso d'Albuquerque
+1521.1.1 = { owner = IRQ controller = IRQ }
+1550.1.1 = { citysize = 2940 }
+1600.1.1 = { citysize = 3670 }
+1640.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1650.1.1 = { citysize = 3522 }
+1700.1.1 = { citysize = 4300 }
+1725.1.1 = {
+	owner = AHS
+	controller = AHS
+	remove_core = TUR
+	add_core = NAJ
+}
+1750.1.1 = { citysize = 5218 }
+1795.1.1 = {
+	owner = NAJ
+	controller = NAJ
+}
+1800.1.1 = { citysize = 6300 }
+1818.9.9 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # The end of the Saudi State

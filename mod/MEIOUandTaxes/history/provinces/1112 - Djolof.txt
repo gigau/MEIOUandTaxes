@@ -1,0 +1,30 @@
+# 1112 - Djolof
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DJO
+controller = DJO
+culture = senegambian
+religion = sunni
+capital = "Thieng"
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 14000
+trade_goods = millet
+
+fort1 = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = FLO
+	add_core = MAL
+	add_core = DJO
+}
+1549.1.1 = {
+	owner = FLO
+	controller = FLO
+}

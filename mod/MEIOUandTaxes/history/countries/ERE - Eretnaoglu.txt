@@ -1,0 +1,62 @@
+# ERE - Eretnaoglu
+# MEIOU-GG - Turko-Mongol mod
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4b
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 1
+# land_naval = -2
+# quality_quantity = 1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+primary_culture = turkish
+religion = sunni
+technology_group = turkishtech
+unit_type = muslim
+capital = 1333 # Kayseri
+
+1327.1.1 = {
+	monarch = {
+		name = "Eretna"
+		dynasty = "Eretnid"
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+}
+
+1352.1.1 = {
+	monarch = {
+		name = "Mehmed"
+		dynasty = "Eretnid"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1365.1.1 = {
+	monarch = {
+		name = "Mehmed II"
+		dynasty = "Eretnid"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}
+
+1380.1.1 = {
+	monarch = {
+		name = "Burhaneddin"
+		dynasty = "Eretnid"
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}
+
+# 1381.1.1 - Fall to the Ottomans

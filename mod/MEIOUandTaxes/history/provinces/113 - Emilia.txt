@@ -1,0 +1,77 @@
+# 113 - Emilia
+# Bologna
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = PAP
+controller = PAP 
+culture = emilian 
+religion = catholic
+capital = "Bulåggna"
+ 
+base_tax = 6
+#manpower = 4 
+manpower = 8 
+citysize = 50000	# Estimated        
+trade_goods = livestock    
+   
+fort1 = yes  
+temple = yes		# Completed 1135
+university = yes	# Founded 1088
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1337.1.1 = {
+	controller = REB
+	add_core = MLO
+	add_core = PAP
+	add_core = BLG
+}
+1348.1.1 = { citysize = 30000 } # European pestilence
+1399.1.1 = { citysize = 45000 }
+1401.1.1 = { controller = PAP}
+1456.1.1 = { citysize = 50000 }
+1492.1.1 = { remove_core = BLG }
+1500.1.1 = { citysize = 55000 } 
+1503.9.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Loss of Papal authority after the death of Alexander III, Venetian influence
+1506.1.1 = { revolt = { } controller = PAP }
+1550.1.1 = { citysize = 62000 } 
+1600.1.1 = { citysize = 63000 } 
+1650.1.1 = { citysize = 59000 marketplace = yes } 
+1700.1.1 = { citysize = 63000 } 
+1750.1.1 = { citysize = 69000 } 
+1796.11.15 = {
+	owner = ITD
+	controller = ITD
+	add_core = ITD
+	remove_core = HAB
+} # Cispadane Republic
+1797.6.29  = {
+	owner = ITE
+	controller = ITE
+	add_core = ITE
+	remove_core = ITD
+} # Cisalpine Republic
+1802.6.26  = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = ITE
+} # Italian Republic
+# 1805.3.17 - Kingdom of Italy 
+1814.4.11  = { owner = PAP controller = PAP add_core = PAP remove_core = ITA } # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1860.3.20 = {
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = PAP
+}
+1861.2.18 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

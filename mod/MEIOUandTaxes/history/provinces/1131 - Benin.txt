@@ -1,0 +1,25 @@
+# 1131 - Benin
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BEN
+controller = BEN
+culture = yorumba
+religion = animism
+capital = "Edo"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 10000
+trade_goods = gems
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech
+
+hre = no
+
+1356.1.1 = {
+	add_core = BEN
+}

@@ -1,0 +1,42 @@
+#248 - Lothian
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SCO
+controller = SCO
+culture = lowland_scottish
+religion = catholic
+hre = no
+base_tax = 4
+trade_goods = wheat
+#manpower = 3
+manpower = 6
+capital = "Edinburgh"
+citysize = 10000
+add_core = SCO
+fort1 = yes
+terrain1 = yes
+temple = yes #St Giles Cathedral, Edinburgh
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1   = { set_province_flag = terrain1 }
+1482.8.1   = { controller = ENG }
+1483.3.1   = { controller = SCO }
+1500.1.1   = { marketplace = yes } #Estimated
+1532.1.1   = { courthouse = yes } #College of Justice
+1547.10.1  = { controller = ENG } #Rough Wooing
+1550.1.1   = { controller = SCO } #Scots Evict English with French Aid
+1560.1.1   = { fort2 = yes }
+1560.8.1   = { religion = reformed }
+1600.1.1   = { citysize = 30000 }
+1650.1.1   = { citysize = 35000 }
+1650.12.24 = { controller = ENG } #Cromwell Captures Edinburgh Castle
+1652.4.21  = { controller = SCO } #Union of Scotland and the Commonwealth
+1700.1.1   = { citysize = 45000 constable = yes customs_house = yes } #constable, Customs House Estimated
+1707.5.12  = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	     }
+1750.1.1   = { citysize = 57000 regimental_camp = yes mint = yes } #Regimental Camp, Tax Assessor Estimated
+1800.1.1   = { citysize = 81000 }

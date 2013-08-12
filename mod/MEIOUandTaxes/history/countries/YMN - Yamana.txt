@@ -1,0 +1,205 @@
+# YMN - Yamana clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1032		# Harima
+daimyo = yes
+
+1328.1.1 = {
+	monarch = {
+		name = "Tokiuji" # 1303 - 1371 
+		dynasty = "Yamana"
+		adm = 6
+		dip = 6
+		mil = 6
+		}
+}
+
+1328.1.1 = {
+	heir = {
+		name = "Moroyoshi"
+		monarch_name = "Moroyoshi"
+		dynasty = "Yamana"
+		birth_date = 1328.1.1
+		death_date = 1376.3.31
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1371.4.14 = {
+	monarch = {
+		name = "Moroyoshi"
+		dynasty = "Yamana"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1376.3.31 = {
+	monarch = {
+		name = "Tokiyoshi"
+		dynasty = "Yamana"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1389.1.1 = {
+	monarch = {
+		name = "Tokihiro" # 1367 - 1435 
+		dynasty = "Yamana"
+		adm = 5
+		dip = 5
+		mil = 4
+		}
+}
+
+1404.7.6 = {
+	heir = {
+		name = "Mochitoyo"
+		monarch_name = "Mochitoyo"
+		dynasty = "Yamana"
+		birth_date = 1404.7.6
+		death_date = 1473.4.15
+		claim = 90
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+	
+1432.1.1 = { 
+	monarch = {
+		name = "Mochitoyo" # Yamana Sozen
+		dynasty = "Yamana"
+#		birth_date = 1404.7.6
+#		death_date = 1473.4.15
+		adm = 5
+		dip = 6
+		mil = 6
+		}
+	}
+
+1432.1.1 = {
+	heir = {
+		name = "Noritoyo"
+		monarch_name = "Noritoyo"
+		dynasty = "Yamana"
+		birth_date = 1424.1.1
+		death_date = 1467.10.7
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1467.10.7 = {
+	heir = {
+		name = "Masatoyo"
+		monarch_name = "Masatoyo"
+		dynasty = "Yamana"
+		birth_date = 1441.1.1
+		death_date = 1499.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+	
+1473.4.15 = { 
+	monarch = {
+		name = "Masatoyo"
+		dynasty = "Yamana"
+#		birth_date = 1441.1.1
+#		death_date = 1499.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+
+1475.1.1 = {
+	heir = {
+		name = "Okitoyo"
+		monarch_name = "Okitoyo"
+		dynasty = "Yamana"
+		birth_date = 1475.1.1
+		death_date = 1528.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}	
+
+1499.1.1 = { 
+	monarch = {
+		name = "Masatoyo"
+		dynasty = "Yamana"
+#		birth_date = 1475.1.1
+#		death_date = 1528.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+	
+1511.1.1 = {
+	heir = {
+		name = "Suketoyo"
+		monarch_name = "Suketoyo"
+		dynasty = "Yamana"
+		birth_date = 1511.1.1
+		death_date = 1580.7.2
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}	
+
+1528.1.1 = { 
+	monarch = {
+		name = "Suketoyo"
+		dynasty = "Yamana"
+#		birth_date = 1511.1.1
+#		death_date = 1580.7.2
+		adm = 5
+		dip = 5
+		mil = 4
+		}
+	}
+
+1552.1.1 = {
+	heir = {
+		name = "Akihiro"
+		monarch_name = "Akihiro"
+		dynasty = "Yamana"
+		birth_date = 1552.1.1
+		death_date = 1612.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

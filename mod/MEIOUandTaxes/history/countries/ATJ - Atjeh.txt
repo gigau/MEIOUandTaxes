@@ -1,0 +1,566 @@
+# Country: ATJ - Atjeh
+# MEIOU-FB Indonesia mod changes
+# MEIOU-GG Govenemnt changes
+# 2009-dec-28 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = 0
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = 1
+# secularism_theocracy = 1
+primary_culture = acehenese
+religion = sunni
+technology_group = austranesian	# MEIOU-FB - was: chinese
+capital = 617	# Banda Aceh
+
+1356.1.1 = {
+	monarch = {
+		name = "Inayat Shah"
+		dynasty = "Inayat"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+#Rulers of Atjeh
+1453.1.1 = {
+	monarch = {
+		name = "'Alî Mugâyat Shâh"
+		dynasty = "Mugâyat"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}#first sultan of Atjeh
+
+1500.1.1 = {
+	heir = {
+		name = "Ibrâhîm"
+		monarch_name = "Salâh ad-Dîn Ibrâhîm"
+		dynasty = "Mugàyat"
+		birth_Date = 1460.1.1
+		death_Date = 1537.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Salâh ad-Dîn Ibrâhîm"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "'Alâ ad-Dîn al-Qahhar"
+		monarch_name = "'Alâ ad-Dîn al-Qahhar"
+		dynasty = "Mugâyat"
+		birth_Date = 1500.1.1
+		death_Date = 1568.1.1
+		claim = 95
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+}
+
+1537.1.1 = {
+	monarch = {
+		name = "'Alâ ad-Dîn al-Qahhar"
+		dynasty = "Mugâyat"
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Husayn"
+		monarch_name = "Husayn 'Alî Ri'âyat Shâh"
+		dynasty = "Mugàyat"
+		birth_Date = 1520.1.1
+		death_Date = 1575.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1568.1.1 = {
+	monarch = {
+		name = "Husayn 'Alî Ri'âyat Shâh"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "'Âlam"
+		monarch_name = "Sultân Sri 'Âlam"
+		dynasty = "Mugâyat"
+		birth_Date = 1540.1.1
+		death_Date = 1576.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+		name = "Sultân Sri 'Âlam"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1576.1.1 = {
+	monarch = {
+		name = "Zayn al 'Âbidîn"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1577.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Mansûr Shâh"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "'Alî Ri'âyat"
+		monarch_name = "'Alî Ri'âyat Shâh"
+		dynasty = "Mugâyat"
+		birth_date = 1570.1.1
+		death_date = 1588.1.1
+		claim = 95
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+}
+
+1585.1.1 = {
+	monarch = {
+		name = "'Alî Ri'âyat Shâh"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	heir = {
+		name = "Sultân Buyong"
+		monarch_name = "Sultân Buyong"
+		dynasty = "Mugâyat"
+		birth_Date = 1585.1.1
+		death_Date = 1596.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1588.1.1 = {
+	monarch = {
+		name = "Sultân Buyong"
+		dynasty = "Mugâyat"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1596.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Ri'âyat Shâh"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "'Alî Mugât"
+		monarch_name = "'Alî Mugât Shâh"
+		dynasty = "Mugâyat"
+		birth_Date = 1565.1.1
+		death_Date = 1607.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1604.1.1 = {
+	monarch = {
+		name = "'Alî Mugât Shâh"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Iskandar Muda"
+		monarch_name = "Iskandar Muda Shâh"
+		dynasty = "Mugâyat"
+		birth_Date = 1583.1.1
+		death_date = 1636.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
+1607.1.1 = {
+	monarch = {
+		name = "Iskandar Muda Shâh"
+		dynasty = "Mugâyat"
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Iskandar Tanî"
+		monarch_name = "Iskandar Tanî 'Alâ ad-Dîn"
+		dynasty = "Mugâyat"
+		birth_date = 1600.1.1
+		death_Date = 1641.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1636.1.1 = {
+	monarch = {
+		name = "Iskandar Tanî 'Alâ ad-Dîn"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Safîyat"
+		monarch_name = "Safîyat ad-Dîn Tâj"
+		dynasty = "Mugâyat"
+		birth_Date = 1630.1.1
+		death_Date = 1675.1.1
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+		female = yes
+	}
+}
+
+1641.1.1 = {
+	monarch = {
+		name = "Safîyat ad-Dîn Tâj"
+		dynasty = "Mugâyat"
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	heir = {
+		name = "Neqîyat"
+		monarch_name = "Neqîyat ad-Dîn Nûr"
+		dynasty = "Mugâyat"
+		birth_Date = 1650.1.1
+		death_Date = 1678.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+		female = yes
+	}
+}
+
+1675.1.1 = {
+	monarch = {
+		name = "Neqîyat ad-Dîn Nûr"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Zaqîyat"
+		monarch_name = "Zaqîyat ad-Dîn 'Inâya"
+		dynasty = "Mugâyat"
+		birth_Date = 1652.1.1
+		death_Date = 1688.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+}
+
+1678.1.1 = {
+	monarch = {
+		name = "Zaqîyat ad-Dîn 'Inâya"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 4
+		mil = 4
+		female = yes
+	}
+	heir = {
+		name = "Zirat"
+		monarch_name = "Zirat ad-Dîn Kamâlat Shâh"
+		dynasty = "Mugâyat"
+		birth_Date = 1667.1.1
+		death_Date = 1699.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+}
+
+1688.1.1 = {
+	monarch = {
+		name = "Zirat ad-Dîn Kamâlat Shâh"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 5
+		mil = 4
+		female = yes
+	}
+	heir = {
+		name = "Badr"
+		monarch_name = "Badr ad-Dîn Sharîf Hâshim"
+		dynasty = "Mugâyat"
+		birth_Date = 1684.1.1
+		death_Date = 1702.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1699.1.1 = {
+	monarch = {
+		name = "Badr ad-Dîn Sharîf Hâshim"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1702.1.1 = {
+	monarch = {
+		name = "Perkara 'Âlam Sharîf"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1703.1.1 = {
+	monarch = {
+		name = "Jamâl al-'Âlam Badr"
+		dynasty = "Mugâyat"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Shams"
+		monarch_name = "Shams al'-Âlam"
+		dynasty = "Mugâyat"
+		birth_Date = 1680.1.1
+		death_Date = 1727.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1726.1.1 = {
+	monarch = {
+		name = "Shams al'-Âlam"
+		dynasty = "Mugâyat"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "'Alâ'"
+		monarch_name = "'Alâ' ad-Dîn Ahmad Shâh"
+		dynasty = "Mugâyat"
+		birth_Date = 1695.1.1
+		death_Date = 1735.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1727.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Ahmad Shâh"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Jahân"
+		monarch_name = "'Alâ' ad-Dîn Shâh Jahân"
+		dynasty = "Mugâyat"
+		birth_Date = 1710.1.1
+		death_Date = 1760.1.1
+		claim = 95
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Shâh Jahân"
+		dynasty = "Mugâyat"
+		adm = 7
+		dip = 6
+		mil = 6
+	}
+	heir = {
+		name = "Mahmûd"
+		monarch_name = "Mahmûd"
+		dynasty = "Mugâyat"
+		birth_Date = 1735.1.1
+		death_Date = 1781.1.1
+		claim = 95
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Mahmûd"
+		dynasty = "Mugâyat"
+		adm = 7
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Muhammad"
+		monarch_name = "'Alâ' ad-Dîn Muhammad"
+		dynasty = "Mugâyat"
+		birth_Date = 1753.1.1
+		death_Date = 1795.1.1
+		claim = 95
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Muhammad"
+		dynasty = "Mugâyat"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Jauhar"
+		monarch_name = "'Alâ' ad-Dîn Jauhar"
+		dynasty = "Mugâyat"
+		birth_Date = 1770.1.1
+		death_Date = 1815.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1795.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Jauhar"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+	heir = {
+		name = "Syarif"
+		monarch_name = "Syarif Saif ul Alam"
+		dynasty = "Mugâyat"
+		birth_Date = 1795.1.1
+		death_Date = 1818.1.1
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1815.1.1 = {
+	monarch = {
+		name = "Syarif Saif ul Alam"
+		dynasty = "Mugâyat"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Jauhar"
+		monarch_name = "'Alâ' ad-Dîn Jauhar"
+		dynasty = "Mugâyat"
+		birth_Date = 1800.1.1
+		death_Date = 1824.1.1
+		claim = 95
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+
+1818.1.1 = {
+	monarch = {
+		name = "'Alâ' ad-Dîn Jauhar"
+		dynasty = "Mugâyat"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}

@@ -1,0 +1,59 @@
+# CNA - Guanche kingdom of Taoro, on the Canary Islands
+# More or less right succession, but invented dates
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -2
+# centralization_decentralization = -3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = 2
+# land_naval = 0
+# quality_quantity = -1
+# serfdom_freesubjects = 1
+# isolationist_expansionist = -5
+# secularism_theocracy = 0
+primary_culture = berber
+religion = animism
+technology_group = soudantech
+capital = 366
+
+1356.1.1 = {
+	monarch = {
+		name = "Tinerfe"
+		dynasty = "de Taoro"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1397.1.1 = {
+	monarch = {
+		name = "Imobach"
+		dynasty = "de Taoro"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Bencomo"
+		dynasty = "de Taoro"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+
+1495.1.1 = {
+	monarch = {
+		name = "Bencomo"
+		dynasty = "de Taoro"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

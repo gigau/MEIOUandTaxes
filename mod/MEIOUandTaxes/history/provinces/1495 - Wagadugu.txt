@@ -1,0 +1,24 @@
+#1495 - Wagadugu
+#LS - Alpha 6
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+
+owner = MSI
+controller = MSI
+add_core = MSI
+culture = mossi
+religion = animism
+capital = "Wagadugu"
+
+base_tax = 6
+#manpower = 4
+manpower = 8
+citysize = 4000
+trade_goods = copper
+
+hre = no
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = soudantech

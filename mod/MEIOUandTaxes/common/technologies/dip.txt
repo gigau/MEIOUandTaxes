@@ -1,0 +1,339 @@
+monarch_power = DIP
+
+
+technology = {
+	# Tech 0
+	year = 1300
+	
+	naval_maintenance		=	0.1
+	naval_morale			=	0.1
+}
+
+technology = {
+	# Tech 1
+	year = 1310
+	
+	range					=	10
+	
+	enable = galley
+}
+
+technology = {
+	# Tech 2
+	year = 1330
+
+	merchants = yes
+	
+	enable = cog
+}
+
+technology = {
+	# Tech 3
+	year = 1350
+	
+	range					=	50
+	
+	enable = warcog
+	
+	dock = yes
+}
+
+technology = {
+	# Tech 4
+	year = 1375
+	
+	mill = yes
+}
+
+technology = {
+	# Tech 5
+	year = 1400
+	
+	trade_range				=	200
+	
+	marketplace = yes
+	
+	enable = carrack
+}
+
+technology = {
+	# Tech 6
+	year = 1420
+	
+	
+	trade_range				=	10
+	
+	paved_road = yes
+	drydock = yes
+}
+
+technology = {
+	# Tech 7
+	year = 1440
+
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.1
+	range					= 	100
+	trade_efficiency 		= 	0.1
+}
+
+technology = {
+	# Tech 8
+	year = 1453
+		
+	trade_range	= 100
+
+	customs_house = yes
+}
+
+technology = {
+	# Tech 9
+	year = 1466
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	
+	enable = barque
+}
+
+technology = {
+	# Tech 10
+	year = 1479
+	
+	embassy = yes
+	toll_road = yes
+	shipyard = yes
+}
+
+technology = {
+	# Tech 11
+	year = 1492
+	
+	naval_morale			=	0.3
+	range					= 	115
+	
+	merchant_guild = yes
+	enable = caravel
+}
+
+technology  = {
+	# Tech 12
+	year = 1505
+	
+
+	trade_range				=	100
+
+	refinery = yes
+	wharf = yes
+	
+	enable = flute
+}
+
+technology = {
+	# Tech 13
+	year = 1518
+	
+	naval_morale			=	0.2
+	naval_maintenance		= 	0.2	
+	range					=	50
+}
+
+technology = {
+	# Tech 14
+	year = 1531
+	
+	trade_efficiency		= 	0.1
+	trade_range				=	200
+	
+	grand_shipyard = yes
+}
+
+technology = {
+	# Tech 15
+	year = 1544
+	
+	range					= 	100
+}
+
+technology = {
+	# Tech 16
+	year = 1557
+	
+	post_office = yes
+}
+
+technology = {
+	# Tech 17
+	year = 1570
+	
+	enable = galleon
+	enable = galleass
+}
+
+technology = {
+	# Tech 18
+	year = 1583
+	
+	road_network = yes
+	admiralty = yes
+	naval_arsenal = yes
+}
+
+technology = {
+	# Tech 19
+	year = 1596
+	
+	naval_morale			=	0.4
+	naval_maintenance		= 	0.2	
+	range					=	50
+	
+	enable = early_frigate
+}
+
+technology = {
+	# Tech 20
+	year = 1609
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	
+	enable = merchantman
+}
+
+technology = {
+	# Tech 21
+	year = 1622
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	range					=	50
+	
+	enable = wargalleon
+}
+
+technology = {
+	# Tech 22
+	year = 1635
+	
+	enable = frigate
+}
+
+technology = {
+	# Tech 23
+	year = 1648
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.25	
+	range					=	50
+}
+
+technology = {
+	# Tech 24
+	year = 1661
+	
+	enable = chebeck
+}
+
+technology = {
+	# Tech 25
+	year = 1674
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	
+	naval_base = yes
+	
+	enable = twodecker
+}
+
+technology = {
+	# Tech 26
+	year = 1687
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.25
+
+	reduced_naval_attrition = yes
+}
+
+technology = {
+	# Tech 27
+	year = 1700
+	
+	range					=	150
+	
+	enable = heavy_frigate
+}
+
+technology = {
+	# Tech 28
+	year = 1715
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	
+	enable = eastindiaman
+}
+
+technology = {
+	# Tech 29
+	year = 1730
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.25
+	
+	 enable = archipelago_frigate
+}
+
+technology = {
+	# Tech 30
+	year = 1745
+	
+	range					=	200
+	
+	enable = threedecker
+}
+
+technology = {
+	# Tech 31
+	year = 1760
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.25
+}
+
+technology = {
+	# Tech 32
+	year = 1775
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+}
+
+technology = {
+	# Tech 33
+	year = 1790
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.25
+	
+	road_with_tree_lines = yes
+}
+
+technology = {
+	# Tech 34
+	year = 1805
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+}
+
+technology = {
+	# Tech 35
+	year = 1835
+	
+	trade_efficiency 		= 	0.1
+	trade_range				=	200
+	
+	railway = yes
+}

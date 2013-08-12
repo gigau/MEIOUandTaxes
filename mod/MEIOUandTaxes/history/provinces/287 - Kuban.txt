@@ -1,0 +1,77 @@
+# 287 - Kouban
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BLU
+controller = BLU
+culture = circassian
+religion = sunni
+capital = "Stavropol"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 4007
+trade_goods = wool
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1 = {
+	revolt_risk = 4
+	add_core = BLU
+	add_core = CRI
+}
+1382.1.1   = {
+	owner = GOL
+	controller = GOL
+	add_core = GOL
+	remove_core = BLU
+	revolt_risk = 0
+}
+1441.1.1 = {
+	owner = CRI
+	controller = CRI
+	add_core = CRI
+}
+1475.1.1 = {
+	add_core = TUR
+}
+1500.1.1 = {
+	citysize = 4000
+}
+1502.1.1 = {
+	remove_core = GOL
+} # Final destruction of the Golden Horde
+1509.1.1  = {
+	owner = CIR
+	controller = CIR
+	add_core = CIR
+}
+1550.1.1  = {
+	citysize = 5546
+}
+1570.1.1  = {
+	owner = CRI
+	controller = CRI
+	remove_core = CIR
+}
+1600.1.1 = { citysize = 6525 }
+1650.1.1 = { citysize = 7677 }
+1700.1.1 = { citysize = 9031 }
+1750.1.1 = { citysize = 10625 }
+1774.7.21 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = CRI
+} # Treaty of Kuchuk-Kainarji
+1777.1.1 = { fort2 = yes }
+1800.1.1 = { citysize = 12500 }

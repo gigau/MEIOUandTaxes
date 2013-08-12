@@ -1,0 +1,46 @@
+# 2578 - Kardaba
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = CIR
+controller = CIR
+culture = circassian
+religion = sunni
+capital = "Kabarda"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 3847
+trade_goods = wool  
+
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+
+hre = no
+
+1356.1.1  = {
+	owner = GEO
+	controller = GEO
+	add_core = GEO
+	add_core = CIR
+}
+1424.1.1  = {
+	owner = CIR
+	controller = CIR
+}
+1466.1.1  = {
+	remove_core = GEO
+}
+1500.1.1  = { citysize = 4570 }
+1550.1.1 = { citysize = 5546 }
+1600.1.1 = { citysize = 6525 }
+1650.1.1 = { citysize = 7677 }
+1700.1.1 = { citysize = 9031 }
+1750.1.1 = { citysize = 10625 }
+1777.1.1 = { fort2 = yes }
+1800.1.1 = { citysize = 12500 }

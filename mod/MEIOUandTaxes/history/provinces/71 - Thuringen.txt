@@ -1,0 +1,41 @@
+# 71 - Erfurt
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MEI
+controller = MEI
+culture = high_saxon
+religion = catholic
+capital = "Erfurt"
+trade_goods = indigo
+hre = yes
+base_tax = 6
+#manpower = 2
+manpower = 4
+citysize = 20000
+fort1 = yes
+add_core = MEI
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1   = { citysize = 20000 }
+1382.11.23 = { owner = THU controller = THU add_core = THU remove_core = MEI }
+1392.1.1   = { university = yes }
+1399.1.1   = { citysize = 20000 }
+1423.1.6   = { owner = SAX controller = SAX add_core = SAX remove_core = THU } # Meissen inherited Sachsen - Wittenberg
+1453.1.1   = { citysize = 20000 }
+1485.1.1   = { owner = SWR controller = SWR add_core = SWR remove_core = SAX }
+1500.1.1   = { citysize = 20000 }
+1531.1.1   = { religion = protestant }
+1546.1.1   = { fort2 = yes }
+1550.1.1   = { citysize = 20000 marketplace = yes }
+1600.1.1   = { citysize = 19000 courthouse = yes }
+1650.1.1   = { citysize = 18000 }
+1660.1.1   = { fort3 = yes }
+1700.1.1   = { citysize = 17000 }
+1750.1.1   = { citysize = 16000 }
+1763.1.1   = { citysize = 16350 } # Heavy destruction during the Seven Year's war
+1790.8.1   = { revolt_risk = 5 } # Peasant revolt
+1791.1.1   = { revolt_risk = 0 }
+1800.1.1   = { citysize = 17000 }
+1806.7.12  = { hre = no } # The Holy Roman Empire is dissolved

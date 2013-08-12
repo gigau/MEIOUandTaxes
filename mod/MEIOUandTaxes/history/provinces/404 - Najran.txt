@@ -1,0 +1,44 @@
+#404 - Najran
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = YEM
+controller = YEM
+culture = yemeni
+religion = sunni
+capital = "Najran"
+trade_goods = coffee
+hre = no
+base_tax = 1
+#manpower = 1
+manpower = 2
+citysize = 1300
+
+discovered_by = ADA
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = NAJ
+}
+1500.1.1 = { citysize = 2021 }
+1517.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+} # Part of the Ottoman empire
+1524.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 3076 }
+1567.1.1 = { revolt_risk = 4 } # Revolt against the Ottomans
+1570.1.1 = { revolt_risk = 0 }
+1597.9.1 = { revolt_risk = 5 } # Qasimi state, revolt against the Ottomans
+1600.1.1 = { citysize = 3340 }
+1602.1.1 = { revolt_risk = 0 }
+1636.1.1 = {
+	owner = YEM
+	controller = YEM
+	remove_core = TUR
+}
+1650.1.1 = { citysize = 4400 }
+1700.1.1 = { citysize = 5287 }
+1750.1.1 = { citysize = 6000 }
+1800.1.1 = { citysize = 7824 }

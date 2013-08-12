@@ -1,0 +1,149 @@
+# AKM - Akamatsu clan
+# LS-GG Japanese Civil War
+# 2010-jan-10 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -4
+# secularism_theocracy = 0
+primary_culture = chugoku
+religion = shinbutsu
+technology_group = chinese
+capital = 1032		# Harima
+daimyo = yes
+
+1350.2.18 = {
+	monarch = {
+		name = "Norisuke"
+		dynasty = "Akamatsu"
+		adm = 5
+		dip = 5
+		mil = 6
+		}
+}
+
+1358.1.1 = {
+	heir = {
+		name = "Yoshinori"
+		monarch_name = "Yoshinori"
+		dynasty = "Akamatsu"
+		birth_date = 1358.1.1
+		death_date = 1427.1.1
+		claim = 90
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1372.11.13 = {
+	monarch = {
+		name = "Yoshinori"
+		dynasty = "Akamatsu"
+		adm = 5
+		dip = 6
+		mil = 5
+		}
+}
+
+1381.1.1 = {
+	heir = {
+		name = "Mitsusuke"
+		monarch_name = "Mitsusuke"
+		dynasty = "Akamatsu"
+		birth_date = 1381.1.1
+		death_date = 1441.8.14
+		claim = 70
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+	
+1427.1.1 = { 
+	monarch = {
+		name = "Mitsusuke"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 5
+		}
+	}
+
+# 1441.9.25 - Akamatsu Mitsusuke defeated by Yamana Sozen
+
+1458.1.1 = { 
+	monarch = {
+		name = "Masanori"
+		dynasty = "Akamatsu"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+	
+1496.6.6 = { 
+	monarch = {
+		name = "Yoshimura"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 3
+		mil = 3
+		}
+	}
+	
+1513.1.1 = {
+	heir = {
+		name = "Harumasa"
+		monarch_name = "Harumasa"
+		dynasty = "Akamatsu"
+		birth_date = 1513.1.1
+		death_date = 1565.1.16
+		claim = 70
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1521.10.7 = { 
+	monarch = {
+		name = "Harumasa"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+		
+1537.1.1 = {
+	heir = {
+		name = "Yoshisuke"
+		monarch_name = "Yoshisuke"
+		dynasty = "Akamatsu"
+		birth_date = 1537.1.1
+		death_date = 1576.3.15
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1558.1.1 = { 
+	monarch = {
+		name = "Yoshisuke"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}

@@ -1,0 +1,49 @@
+# 1016 - Hyuga
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SMZ
+controller = SMZ
+culture = kyushu
+religion = shinbutsu
+capital = "Obi"
+trade_goods = rice
+hre = no
+base_tax = 3
+#manpower = 5 
+manpower = 10 
+citysize = 6340
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = SMZ
+	add_core = OTM
+}
+1400.1.1 = {
+	citysize = 6600
+}
+1450.1.1 = {
+	citysize = 6900
+}
+1500.1.1 = { citysize = 7210 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 8455 }
+1585.1.1   = {
+	religion = catholic
+}
+1600.1.1 = { citysize = 9224 }
+1615.1.1   = {
+	religion = shinbutsu
+}
+1650.1.1 = {
+	citysize = 10100
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1700.1.1 = { citysize = 11348 }
+1750.1.1 = { citysize = 12900 }
+1800.1.1 = { citysize = 13556 }

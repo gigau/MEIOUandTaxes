@@ -1,0 +1,37 @@
+#Province: Wetar	(was Banda)
+#file name: 907 - Wetar
+# MEIOU-FB Indonesia mod
+#NOTE: This province should be called Wetar (or Wettar)
+#Banda island is approx 100km south of Ceram
+#Antonio de Abreu probably visited both Wetar and Banda in 1512/13
+#Banda (not Wetar!) is famous for nutmeg
+#
+#Future enhancement possibility:
+#add the island of Banda SE of Seran
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+culture = moluccan
+religion = austranasian
+capital = "Wetar"
+trade_goods = crops #spices
+hre = no
+base_tax = 2
+#manpower = 3
+manpower = 6
+native_size = 1 #TM - lowered native size
+native_ferocity = 1
+native_hostileness = 2
+discovered_by = chinese
+discovered_by = austranesian
+
+1337.1.1 = { #TM - added core to reflect claim by Maja but they did not actually control it
+	owner = XXX
+	controller = XXX	
+	discovered_by = MPH
+	add_core = MPH
+}
+1500.1.1 = { #TM - downfall of MPH
+	remove_core = MPH
+}
+1623.1.1 = {
+	discovered_by = NED
+}

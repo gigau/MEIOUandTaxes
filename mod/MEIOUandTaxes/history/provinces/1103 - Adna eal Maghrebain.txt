@@ -1,0 +1,54 @@
+# 1103 - Bourbon
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = madagascan
+religion = austranasian
+capital = "Bourbon"
+trade_goods = crops
+hre = no
+base_tax = 5
+#manpower = 1
+manpower = 2
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+1513.1.1  = { discovered_by = POR }
+1642.1.1  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	culture = francien
+	religion = catholic
+	citysize = 250
+	trade_goods = sugar
+	set_province_flag = trade_good_set
+} # Claimed by Jacques Pronis
+1669.1.1  = { capital = "Saint-Denis" }
+1700.1.1  = { citysize = 500 }
+1750.1.1  = { citysize = 890 }
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1  = { citysize = 1200 }
+1814.4.11 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20 = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

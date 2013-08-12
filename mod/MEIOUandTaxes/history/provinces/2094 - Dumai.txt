@@ -1,0 +1,40 @@
+#Province: Dumai
+#file name: 2094 - Dumai
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARU
+controller = ARU
+culture = malayan
+religion = theravada
+capital = "Dumai"
+trade_goods = rice		#FB too much clove
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 10300
+add_core = ARU
+
+discovered_by = muslim
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1 = { citysize = 11260 }
+1442.1.1 = { owner = ATJ controller = ATJ }
+1480.1.1 = {
+	owner = MLC
+	controller = MLC
+	add_core = ATJ
+}	#FB MLC controlled by the 1480s according to MC Ricklefs "A History of Modern Indonesia"
+1500.1.1 = { citysize = 12235 religion = sunni add_core = MLC }
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1550.1.1 = { citysize = 12860 }
+1600.1.1 = { citysize = 13550 }
+1650.1.1 = { citysize = 13860 }
+1683.1.1 = { add_core = NED }
+1700.1.1 = { citysize = 14550 }
+1750.1.1 = { citysize = 14860 }
+1800.1.1 = { citysize = 15550 }
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

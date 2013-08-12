@@ -1,0 +1,46 @@
+# 642 - Toraja
+# MEIOU-FB Indonesia mod v3 - for IN+JV
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = BNE
+controller = BNE
+culture = sulawesi
+religion = austranasian
+capital = "Bone"
+trade_goods = iron
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 6560
+marketplace = yes
+fort1 = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = MKS
+	add_core = BNE
+}
+1511.1.1 = { discovered_by = POR }
+1608.1.1 = { religion = sunni }
+1644.1.1 = {
+	discovered_by = MKS
+	owner = MKS
+	controller = MKS
+	citysize = 6800
+}
+1667.1.1  = {
+	owner = NED
+	controller = NED
+} # Under Dutch control
+1700.1.1 = { add_core = NED }
+1811.9.1 = {
+	owner = GBR
+	controller = GBR
+} # British take over
+1816.1.1 = {
+	owner = NED
+	controller = NED
+} # Returned to the Dutch

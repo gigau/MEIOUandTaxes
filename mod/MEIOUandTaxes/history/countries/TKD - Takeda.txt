@@ -1,0 +1,278 @@
+# TKD - Takeda clan
+# LS/GG - Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = kanto
+religion = shinbutsu
+technology_group = chinese
+capital = 2289		# Kai
+daimyo = yes
+
+1330.1.1 = { 
+	monarch = {
+		name = "Nobutake"
+		dynasty = "Takeda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Nobunari"
+		monarch_name = "Nobunari"
+		dynasty = "Toki"
+		birth_date = 1330.1.1
+		death_date = 1394.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1359.8.7 = { 
+	monarch = {
+		name = "Nobunari"
+		dynasty = "Takeda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Nobuharu"
+		monarch_name = "Nobumitsu"
+		dynasty = "Takeda"
+		birth_date = 1355.1.1
+		death_date = 1413.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1394.1.1 = { 
+	monarch = {
+		name = "Nobuharu"
+		dynasty = "Takeda"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Nobumitsu"
+		monarch_name = "Nobumitsu"
+		dynasty = "Takeda"
+		birth_date = 1380.1.1
+		death_date = 1417.2.22
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+	
+1413.1.1 = { 
+	monarch = {
+		name = "Nobumitsu"
+		dynasty = "Takeda"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Nobushige"
+		monarch_name = "Nobushige"
+		dynasty = "Takeda"
+		birth_date = 1386.1.1
+		death_date = 1450.12.28
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1417.2.22 = { 
+	monarch = {
+		name = "Nobushige"
+		dynasty = "Takeda"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1430.1.1 = {
+	heir = {
+		name = "Nobumori"
+		monarch_name = "Nobumori"
+		dynasty = "Takeda"
+		birth_date = 1430.1.1
+		death_date = 1455.1.1
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+	
+1450.12.28 = { 
+	monarch = {
+		name = "Nobumori"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Nobumasa"
+		monarch_name = "Nobumasa"
+		dynasty = "Takeda"
+		birth_date = 1447.1.1
+		death_date = 1505.10.13
+		claim = 90
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+	
+1455.1.1 = { 
+	monarch = {
+		name = "Nobumasa"
+		dynasty = "Takeda"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+1471.1.1 = {
+	heir = {
+		name = "Nobutsuna"
+		monarch_name = "Nobutsuna"
+		dynasty = "Takeda"
+		birth_date = 1471.1.1
+		death_date = 1507.3.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+	
+1491.1.1 = { 
+	monarch = {
+		name = "Nobutsuna"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 4
+		}
+	}
+	
+1494.2.11 = {
+	heir = {
+		name = "Nobutora"
+		monarch_name = "Nobutora"
+		dynasty = "Takeda"
+		birth_date = 1494.2.11
+		death_date = 1574.3.27
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+
+	
+1507.3.27 = { 
+	monarch = {
+		name = "Nobutora"
+		dynasty = "Takeda"
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	# innovative_narrowminded = 2
+}
+	
+1521.12.1 = {
+	heir = {
+		name = "Harunobu"
+		monarch_name = "Harunobu"
+		dynasty = "Takeda"
+		birth_date = 1521.12.1
+		death_date = 1573.5.13
+		claim = 90
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+}
+	
+1541.6.1 = { 
+	monarch = {
+		name = "Harunobu"
+		dynasty = "Takeda"
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	heir = {
+		name = "Yoshinobu"
+		monarch_name = "Yoshinobu"
+		dynasty = "Takeda"
+		birth_date = 1538.1.1
+		death_date = 1567.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1567.1.1 = {
+	heir = {
+		name = "Katsuyori"
+		monarch_name = "Katsuyori"
+		dynasty = "Takeda"
+		birth_date = 1546.12.1
+		death_date = 1582.4.3
+		claim = 80
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+	
+1573.5.13 = { 
+	monarch = {
+		name = "Katsuyori"
+		dynasty = "Takeda"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Nobukatsu"
+		monarch_name = "Nobukatsu"
+		dynasty = "Takeda"
+		birth_date = 1567.12.11
+		death_date = 1582.4.3
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

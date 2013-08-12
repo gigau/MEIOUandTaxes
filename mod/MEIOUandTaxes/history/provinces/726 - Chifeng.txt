@@ -1,0 +1,68 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = YUA
+controller = YUA
+culture = jurchen
+religion = mahayana
+capital = "Harbin"
+trade_goods = wheat
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 50000
+fort1 = yes
+discovered_by = chinese
+discovered_by = steppestech
+
+1356.1.1 = {
+	add_core = YUA
+	add_core = KHA
+}
+1375.1.1 = {
+	owner = MCH
+	controller = MCH
+	remove_core = YUA
+}
+1500.1.1 = {
+	citysize = 55000
+}
+1550.1.1 = {
+	citysize = 60000
+}
+1586.1.1 = {
+	religion = mahayana
+} # State religion
+1600.1.1 = {
+	citysize = 65000
+}
+1634.1.1 = {
+	owner = MCH
+	controller = MCH
+	add_core = MCH
+	remove_core = KHA
+} # Part of the Manchu empire
+1644.6.6 = {
+	owner = QNG
+	controller = QNG
+	add_core = QNG
+	remove_core = MCH
+	culture = manchu
+} # The Qing Dynasty
+1650.1.1 = {
+	citysize = 70000
+}
+1673.1.1 = {
+	controller = REB
+} # Rebellion of the Three Feudatories
+1681.1.1 = {
+	controller = QNG
+}
+1700.1.1 = {
+	citysize = 75000
+}
+1750.1.1 = {
+	citysize = 85000
+}
+1800.1.1 = {
+	citysize = 100000
+}

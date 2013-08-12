@@ -1,0 +1,60 @@
+# 1571 - Massawa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ETH
+controller = ETH
+add_core = ETH
+culture = tigrean 
+religion = sunni
+capital = "Mitsiwa"
+citysize = 4500
+base_tax = 4
+#manpower = 2
+manpower = 4
+trade_goods = slaves
+hre = no
+
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = ADA
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1486.1.1 = { revolt_risk = 5 add_core = ADA } #Raids by Mahfuz Of Zayla
+1495.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1499.1.1 = { revolt_risk = 5 } #Raids by Mahfuz Of Zayla
+1510.1.1 = { revolt_risk = 9 } #Raids by Mahfuz Of Zayla
+1514.1.1 = {
+	owner = ADA
+	controller = ADA
+	revolt_risk = 6
+} #Mahfuz drives Ethiopians out of Ifat region
+1517.7.1 = {	owner = ETH
+		controller = ETH
+	   } #Lebna Dengel occupies region during campaign that defeats Mahfuz
+1527.1.1 = { revolt_risk = 5 } #Raids by Ahmad Gran
+1529.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1530.1.1 = { religion = sunni } #Spread of Islam leads to shift in religion affiliation of region
+1531.1.1 = { revolt_risk = 7 } #Raids by Ahmad Gran
+1532.1.1 = {
+	owner = ADA
+	controller = ADA
+	revolt_risk = 6
+} #Lebna Dengel defeated by Ahmad Gran at Ayfars
+1545.1.1 = {
+	owner = ETH
+	controller = ETH
+	remove_core = ADA
+} #Adal collapse in highlands in wake of Ahmad Gran's death
+1549.1.1 = { revolt_risk = 5 } #Invasion by Oromo
+1550.1.1 = { discovered_by = TUR }
+1553.1.1 = { revolt_risk = 5 } #Invasion by Adal 
+1557.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	revolt_risk = 6
+} # Ottomans occupy Massawa
+1588.1.1 = { revolt_risk = 7 } # Raids by Sarsa Dengel
+1589.1.1 = { revolt_risk = 0 }

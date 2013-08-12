@@ -1,0 +1,30 @@
+# MGD - Maguindanao
+# MEIOU-GG Govenemnt changes
+# 2010-jan-21 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = despotic_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = -2
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+technology_group = austranesian
+religion = sunni
+primary_culture = maguindanao
+capital = 652 # Maguindanao
+
+1355.1.1 = {
+	monarch = {
+		name = "Abd al-Rahman"
+		dynasty = "al-Rahman"
+		DIP = 6
+		ADM = 6
+		MIL = 4
+	}
+}

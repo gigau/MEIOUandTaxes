@@ -1,0 +1,121 @@
+#SAL - Saluzzo
+#MEIOU-GG Govenemnt changes
+#10.01.23 FB-HT3 - make HT3 changes
+
+government = feudal_monarchy_5
+# aristocracy_plutocracy = -3
+# centralization_decentralization = -1	###4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 3		###1
+# land_naval = -3			###1
+# quality_quantity = 0		###-1
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -4	###0
+# secularism_theocracy = 1
+primary_culture = piedmontese
+religion = catholic
+technology_group = western
+capital = 1376
+
+1330.1.1 = {
+	monarch = {
+		name = "Federigo"
+		dynasty = "del Vasto"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1336.1.1 = {
+	monarch = {
+		name = "Tommaso II"
+		dynasty = "del Vasto"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Federigo II"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1396.1.1 = {
+	monarch = {
+		name = "Tommaso III"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Ludovico"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1475.1.1 = {
+	monarch = {
+		name = "Ludovico II"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1504.1.1 = {
+	monarch = {
+		name = "Michele Antonio"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1528.1.1 = {
+	monarch = {
+		name = "Gian Ludovico"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1529.1.1 = {
+	monarch = {
+		name = "Francesco Ludovico"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+1537.1.1 = {
+	monarch = {
+		name = "Gian Gabriele"
+		dynasty = "del Vasto"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+
+# 1548 : occupied by french troops

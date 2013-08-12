@@ -1,0 +1,60 @@
+# 350 - Al Djazair
+# LS - Maghreb
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TLE
+controller = TLE
+culture = algerian
+religion = sunni
+capital = "Al-Djazair"		#"Laghouat"
+
+base_tax = 7
+#manpower = 4
+manpower = 8
+citysize = 15467
+trade_goods = olive
+
+fort1 = yes
+marketplace = yes
+temple = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+1337.1.1 = {
+	owner = FEZ
+	controller = FEZ
+}
+1356.1.1 = {
+	add_core = TLE
+	add_core = ALG
+	add_core = FEZ
+} 
+1358.1.1 = {
+	owner = TLE
+	controller = TLE
+} 
+1492.1.1 = { citysize = 51000 }
+1516.1.1 = {
+	owner = ALG
+	controller = ALG
+} # Conquered by the Ottomans
+1579.1.1 = { citysize = 119926 }
+1621.1.1 = { citysize = 79926 } #plague
+1650.1.1 = { citysize = 134231 }
+1700.1.1 = { citysize = 339879 }
+1720.1.1 = { mint = yes }
+1750.1.1 = { citysize = 545067 }
+1760.1.1 = { constable = yes }
+1800.1.1 = { citysize = 645700 }
+1830.1.1 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	citysize = 999999	#actually 1.5ml
+}
+1872.1.1 = { citysize = 920000 }

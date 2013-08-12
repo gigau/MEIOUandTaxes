@@ -1,0 +1,20 @@
+# ILK - Ilkhanate
+# Unification Nation by AEM
+# 2013-aug-07 - GG - EUIV changes
+
+government = altaic_monarchy_1
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 4
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 3
+technology_group = turkishtech
+unit_type = muslim
+primary_culture = mongol
+religion = shiite
+capital = 1315	# Soltaniyeh

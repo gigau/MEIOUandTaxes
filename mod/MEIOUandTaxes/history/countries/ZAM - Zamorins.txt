@@ -1,0 +1,29 @@
+# ZAM - Zamorins
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = 1
+# centralization_decentralization = 4
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = 4
+# offensive_defensive = 3
+# land_naval = 2
+# quality_quantity = 3
+# serfdom_freesubjects = -3
+# isolationist_expansionist = -2
+# secularism_theocracy = 0
+technology_group = indian
+religion = hinduism
+primary_culture = malayalam
+capital = 534	# Calicut
+# historical_friend = VIJ
+
+# Zamorins # Hard to find info on names, Mnavikraman alive at 1498 and thus hardly Raja in 1399...#
+1356.1.1 = {
+	monarch = {
+		name = "Manavikraman"
+		dynasty = "Saamoothiri"
+		DIP = 6
+		ADM = 8
+		MIL = 5
+	}
+}

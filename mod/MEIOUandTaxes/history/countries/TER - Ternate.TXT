@@ -1,0 +1,301 @@
+#TER - Ternate
+#MEIOU-FB Indonesia mod v2
+#MEIOU-GG Govenemnt changes
+#10.01.27 FB-HT3 - make HT3 changes
+
+government = despotic_monarchy_3
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -1
+# offensive_defensive = 0
+# land_naval = 2
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -1
+# secularism_theocracy = 1
+technology_group = austranesian
+primary_culture = moluccan
+religion = sunni
+capital = 649	# Ternate
+
+1350.1.1 = {
+	monarch = {
+		name = "Malomatsheya"
+		dynasty = Gapi
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1357.1.1 = {
+	monarch = {
+		name = "Momale"
+		dynasty = Gapi
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1359.1.1 = {
+	monarch = {
+		name = "Malomo"
+		dynasty = Gapi
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Baguna"
+		dynasty = Gapi
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1377.1.1 = {
+	monarch = {
+		name = "Komala Pulu"
+		dynasty = Gapi
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Baguna II"
+		dynasty = Gapi
+		adm = 8
+		dip = 7
+		mil = 7
+	}
+}
+
+1465.1.1 = {
+	monarch = {
+		name = "Mahrun"
+		dynasty = Gapi
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+1475.1.1 = {
+	monarch = {
+		name = "Zaenal Abidin"
+		dynasty = Gapi
+		adm = 7
+		dip = 9
+		mil = 5
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Saifuddin"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1512.1.1 = {
+	monarch = {
+		name = "Abu Lai"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1522.1.1 = {
+	monarch = {
+		name = "Bayansirullah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+		name = "Tabariji"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1535.1.1 = {
+	monarch = {
+		name = "Hairun"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1570.1.1 = {
+	monarch = {
+		name = "Baab Ullah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1584.1.1 = {
+	monarch = {
+		name = "Said ad-Din Berkat"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1607.1.1 = {
+	monarch = {
+		name = "Syah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1648.1.1 = {
+	monarch = {
+		name = "Mandar Syah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+
+1675.1.1 = {
+	monarch = {
+		name = "Amsterdam"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+
+1689.1.1 = {
+	monarch = {
+		name = "Baabulah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1714.12.8 = {
+	monarch = {
+		name = "Iskandar Zulkarnain"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1751.1.1 = {
+	monarch = {
+		name = "Binayatullah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1754.8.17 = {
+	monarch = {
+		name = "Iskandar Muda Shah"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1763.1.1 = {
+	monarch = {
+		name = "Shahid ul-Muh"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1774.7.28 = {
+	monarch = {
+		name = "Ikhtias ul-Rahman"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1781.1.1 = {
+	monarch = {
+		name = "Iskandar Malik"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1796.4.27 = {
+	monarch = {
+		name = "Haj ul-Arifin Wahuwa"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1801.5.13 = {
+	monarch = {
+		name = "Sirajul Bilat"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1807.3.10 = {
+	monarch = {
+		name = "Said ul-Biladi Siraj"
+		dynasty = Gapi
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

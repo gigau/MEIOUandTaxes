@@ -1,0 +1,61 @@
+#Country Name: Minangkabau
+#Tag: MKP
+#Minangkabau is used to represent Minangkabau + Padang
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#FB-TODO colour
+
+graphical_culture = indiangfx
+
+color = { 177  207  205 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+	majapahit_footsoldier
+	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Adityawarman #0" = 20
+	"Alam #0" = 20
+	"Bagager #0" = 20
+	"Daulat #0" = 20
+	"Dipertuan #0" = 20
+	"Inayat #0" = 100
+	"Khalifatullah #0" = 20
+	"Yahsir #0" = 20
+}
+
+leader_names = {
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	Kuala Tinjar Belait Batu Danau
+	Medamit Bangar Penanjong Lumut Telingan
+	Labi Sukang Baram
+}
+
+ship_names = {
+	Belait Tutong Tembureng Pandaruan Limbang
+	Bakong Tutoh Tinjar
+	Harjamukti Kejaksan Kesambi Lemahwungkuk Pekalipan
+	Kasepuhan Kanoman Kacirebonan Keprabonan Pekalongan
+	Kuala Tinjar Belait Batu Danau
+	Medamit Bangar Penanjong Lumut Telingan
+	Labi Sukang Baram
+}
+

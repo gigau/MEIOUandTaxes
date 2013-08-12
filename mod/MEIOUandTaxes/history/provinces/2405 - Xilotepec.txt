@@ -1,0 +1,67 @@
+# 2405 -Xilotepec
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TEP
+controller = TEP
+add_core = TEP
+culture = nahuatl
+religion = teotl
+capital = "xilotepec"
+
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1500
+trade_goods = maize
+
+fort1 = yes
+terrain2 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1356.1.1 = {
+	set_province_flag = terrain2
+}
+1473.1.1   = {
+	owner = AZT
+	controller = AZT
+} # Conquest by Axayacati, sixth tlatoani of Tenochtitlan
+1498.1.1   = {
+	add_core = AZT
+}
+1531.1.1   = {owner = SPA
+	controller = SPA
+	discovered_by = SPA
+} # Francisco Vázquez de Coronado y Luján
+1600.1.1   = {
+	citysize = 3000
+}
+1608.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 7500
+}
+1700.1.1   = {
+	citysize = 15000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 30000
+}
+1800.1.1   = {
+	citysize = 60000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+} # Treaty of Cordóba
+
+

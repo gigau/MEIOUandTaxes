@@ -1,0 +1,259 @@
+# TNT - Bishopric of Trento
+# 2013-jun-22 GG Added missing bishops from 1356 to 1446
+
+government = theocracy_2
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 3	##0
+# land_naval = -4 ###
+# quality_quantity = 0
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -1	##0
+# secularism_theocracy = 2
+technology_group = western
+religion = catholic
+primary_culture = venetian 
+capital = 110	# Trent
+
+1349.1.1 = {
+	monarch = {
+		name = "Meinhard von Neuhaus"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1362.1.1 = {
+	monarch = {
+		name = "Albert V von Ortenburg"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1390.1.1 = {
+	monarch = {
+		name = "George I von Liechtenstein"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1419.1.1 = {
+	monarch = {
+		name = "Armand de Cilli"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1421.1.1 = {
+	monarch = {
+		name = "Ernst Auer"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1422.1.1 = {
+	monarch = {
+		name = "Henry IV Flechtel"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1423.1.1 = {
+	monarch = {
+		name = "Alexander von Masowien"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1444.1.1 = {
+	monarch = {
+		name = "Benedikt  von Wolkenstein"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1446.1.1 = {
+	monarch = {
+		name = "George II Haak von Themeswald"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1465.1.1 = {
+	monarch = {
+		name = "John V von Hinderbach"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1486.1.1 = {
+	monarch = {
+		name = "Ulrich III von Frundsberg"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1493.1.1 = {
+	monarch = {
+		name = "Ulrich IV von Liechtenstein"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1505.1.1 = {
+	monarch = {
+		name = "George II von Neideck"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1514.1.1 = {
+	monarch = {
+		name = "Bernhard III von Gloss"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1539.1.1 = {
+	monarch = {
+		name = "Cristoforo di Madruzzo"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1567.1.1 = {
+	monarch = {
+		name = "Louis di Madruzzo"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1600.1.1 = {
+	monarch = {
+		name = "Carlo Gaudenzio di Madruzzo"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1629.1.1 = {
+	monarch = {
+		name = "Carlo Emanuele di Madruzzo"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1659.1.1 = {
+	monarch = {
+		name = "Sigismund Franz von Österreich"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1665.1.1 = {
+	monarch = {
+		name = "Ernst Adalbert von Harrach"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1668.1.1 = {
+	monarch = {
+		name = "Sigismund Alfons von Thun"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1677.1.1 = {
+	monarch = {
+		name = "Francesco Alberti di Pola"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1689.1.1 = {
+	monarch = {
+		name = "Giuseppe Vittorio Alberti di Enno"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1696.1.1 = {
+	monarch = {
+		name = "Johann Michael Graf von Spaur"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1725.1.1 = {
+	monarch = {
+		name = "Anton Dominik Graf von Wolkenstein"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1730.1.1 = {
+	monarch = {
+		name = "Dominik Anton Graf von Thun"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1748.1.1 = {
+	monarch = {
+		name = "Leopold Ernest Graf von Firmian"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1758.1.1 = {
+	monarch = {
+		name = "Francesco Felice Alberti di Enno"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1763.1.1 = {
+	monarch = {
+		name = "Cristoforo Francesco Sizzo de Norris"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}
+1776.1.1 = {
+	monarch = {
+		name = "Peter Michael Vigil Graf von Thun"
+		adm = 5
+		mil = 5
+		dip = 5
+	}
+}

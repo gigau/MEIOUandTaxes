@@ -1,0 +1,251 @@
+# SBA - Shiba clan
+# LS-GG Japanese Civil War
+
+government = japan_monarchy_5
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 2
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = -1
+# land_naval = 0
+# quality_quantity = 4
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 0
+primary_culture = chubu
+religion = shinbutsu
+technology_group = chinese
+capital = 2284		# Echizen
+daimyo = yes
+
+1330.1.1 = { 
+	monarch = {
+		name = "Takatsune"
+		dynasty = "Shiba"
+		adm = 5
+		dip = 5
+		mil = 6
+		}
+	}
+
+1350.1.1 = {
+	heir = {
+		name = "Yoshimasa"
+		monarch_name = "Yoshimasa"
+		dynasty = "Shiba"
+		birth_date = 1350.1.1
+		death_date = 1410.6.9
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}	
+	
+1367.8.9 = { 
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Shiba"
+		adm = 6
+		dip = 6
+		mil = 5
+		}
+	}
+	
+1385.1.1 = {
+	heir = {
+		name = "Yoshishige"
+		monarch_name = "Yoshishige"
+		dynasty = "Shiba"
+		birth_date = 1371.1.1
+		death_date = 1418.9.10
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1410.6.9 = {
+	monarch = {
+		name = "Yoshishige" 
+		dynasty = "Shiba"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+}
+
+1410.6.9 = {
+	heir = {
+		name = "Yoshiatsu"
+		monarch_name = "Yoshiatsu"
+		dynasty = "Shiba"
+		birth_date = 1397.1.1
+		death_date = 1434.1.11
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1418.9.10 = {
+	monarch = {
+		name = "Yoshiatsu" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1434.1.11 = {
+	monarch = {
+		name = "Yoshisato" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Yoshitake"
+		monarch_name = "Yoshitake"
+		dynasty = "Shiba"
+		birth_date = 1435.1.1
+		death_date = 1452.10.3
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1436.1.1 = {
+	monarch = {
+		name = "Yoshitake" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1452.10.1 = {
+	monarch = {
+		name = "Yoshitoshi" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 3
+		mil = 4
+		}
+}
+
+1461.1.1 = {
+	monarch = {
+		name = "Yoshikado" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 3
+		mil = 4
+		}
+}
+
+1461.1.1 = {
+	heir = {
+		name = "Yoshihiro"
+		monarch_name = "Yoshihiro"
+		dynasty = "Shiba"
+		birth_date = 1457.1.1
+		death_date = 1514.5.21
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "Yoshihiro" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1485.1.1 = {
+	heir = {
+		name = "Yoshitatsu"
+		monarch_name = "Yoshitatsu"
+		dynasty = "Shiba"
+		birth_date = 1480.1.1
+		death_date = 1521.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1514.5.21 = {
+	monarch = {
+		name = "Yoshitastu" 
+		dynasty = "Shiba"
+		adm = 4
+		dip = 4
+		mil = 5
+		}
+}
+
+1514.5.21 = {
+	heir = {
+		name = "Yoshimune"
+		monarch_name = "Yoshimune"
+		dynasty = "Shiba"
+		birth_date = 1513.1.1
+		death_date = 1554.8.10
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1515.1.1 = {
+	monarch = {
+		name = "Yoshimune" 
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Yoshikane"
+		monarch_name = "Yoshikane"
+		dynasty = "Shiba"
+		birth_date = 1540.1.1
+		death_date = 1600.9.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1554.8.10 = {
+	monarch = {
+		name = "Yoshikane" 
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+}

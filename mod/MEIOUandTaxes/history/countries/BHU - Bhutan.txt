@@ -1,0 +1,113 @@
+# Country: Bhutan
+# file name: BHU - Bhutan
+# MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG Govenemnt changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = eastern_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 3
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = -2
+# quality_quantity = 2
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = indian
+religion = mahayana
+primary_culture = tibetan
+capital = 565	# Bhutan
+
+#Independent from Tibet 1616
+1616.1.1 = {
+	monarch = {
+		name = "Ngawang Namgyal"
+		dynasty = "Wangchuck"
+		adm = 9
+		dip = 9
+		mil = 7
+	}
+}
+
+#Dharma Rajas 
+1651.3.1 = {
+	monarch = {
+		name = "Pekar Jungney"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1698.1.1 = {
+	monarch = {
+		name = "Kunga Gyaltshen"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1713.2.1 = {
+	monarch = {
+		name = "Phyogla Namgyal"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1730.1.1 = {
+	monarch = {
+		name = "Jigme Norbu"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1735.1.1 = {
+	monarch = {
+		name = "Mipham Wangpo"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1738.1.1 = {
+	monarch = {
+		name = "Jigme Dragpa"
+		dynasty = "Wangchuck"
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}
+
+1761.1.1 = {
+	monarch = {
+		name = "Choeki Gyaltshen"
+		dynasty = "Wangchuck"
+		adm = 6
+		dip = 7
+		mil = 5
+	}
+}
+
+1791.1.1 = {
+	monarch = {
+		name = "Jigme Dragpa II"
+		dynasty = "Wangchuck"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}

@@ -1,0 +1,70 @@
+# 663 - Yunnan , Kunming
+# LS - Chinese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DLI		#actually never under Mong Mao kingdom
+controller = DLI
+culture = sichuanhua
+religion = mahayana
+capital = "Kunming"
+trade_goods = tin
+hre = no
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 45000
+discovered_by = chinese
+discovered_by = indian
+discovered_by = steppestech
+fort2 = yes 
+terrain1 = yes
+temple = yes
+
+1253.1.1 = {
+	owner = YUA
+	controller = YUA
+}
+1274.1.1 = {
+	add_core = YUA
+} #creation of yunan province
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = DLI
+}
+1381.1.1 = {
+	owner = MNG
+	controller = MNG
+	add_core = MNG
+	remove_core = YUA
+} # Last Mongol stronghold surrenders.
+1500.1.1 = { citysize = 48204 }
+1520.1.1 = { 
+	culture = sichuanhua 
+	religion = confucianism
+}
+1550.1.1 = { citysize = 49985 }
+1600.1.1 = { citysize = 50458 }
+1650.1.1 = { citysize = 51860 }
+#1662.1.1 = {
+#	owner = QNG
+#	controller = QNG
+#	add_core = QNG
+#	remove_core = MNG
+#} # The Qing Dynasty
+1662.1.1 = {
+	owner = ZOU
+	controller = ZOU
+	add_core = ZOU
+	remove_core = MNG
+}# Wu Sangui appointed as viceroy
+1673.11.1 = {
+	add_core = QNG
+} # Wu Sangui revolt, core given to Qing for reconquering
+1681.10.1 = {
+	owner = QNG
+	controller = QNG
+	remove_core = ZOU
+}
+1700.1.1 = { citysize = 42900 }
+1750.1.1 = { citysize = 44240 }
+1800.1.1 = { citysize = 46700 }

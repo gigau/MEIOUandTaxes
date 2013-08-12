@@ -1,0 +1,32 @@
+#Province: Tanimbar
+#file name: 716 - Tanimbar
+# MEIOU-FB Indonesia mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = moluccan
+religion = austranasian
+capital = "Saumlaki"
+trade_goods = crops			#FB: pearls
+hre = no
+base_tax = 2
+#manpower = 1
+manpower = 2
+native_size = 1 #TM - lowered native size
+native_ferocity = 1
+native_hostileness = 2
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1337.1.1 = { #TM - added core to reflect claim by Maja but they did not actually control it
+	owner = XXX
+	controller = XXX	
+	discovered_by = MPH
+	add_core = MPH
+}
+1500.1.1 = { #TM - downfall of MPH
+	remove_core = MPH
+}
+1623.1.1 = {
+	discovered_by = NED
+}

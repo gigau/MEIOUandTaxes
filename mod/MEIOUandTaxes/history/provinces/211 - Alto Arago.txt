@@ -1,0 +1,42 @@
+# 211 - Arago (c.arago, rigoberza, sobrabarbe)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ARA		
+controller = ARA
+add_core = ARA
+culture = aragonese
+religion = catholic
+capital = "Uesca" 
+
+base_tax = 4
+#manpower = 3
+manpower = 6
+citysize = 3250
+trade_goods = wool
+
+fort1 = yes
+university = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+
+hre = no
+
+1500.1.1   = { citysize = 3800 }
+1516.1.23  = {	controller = SPA
+		owner = SPA
+		add_core = SPA
+	     } # King Fernando dies, Carlos inherits Aragon and becames co-regent of Castille
+1550.1.1   = { citysize = 4100 }
+1600.1.1   = { citysize = 4663 }
+1650.1.1   = { citysize = 5005 marketplace = yes }
+1700.1.1   = { citysize = 5524 }
+1705.6.29  = { controller = HAB } # Aragon joins the Austrian side in the War of Spanish Succession
+1707.5.26  = { controller = SPA } # Aragon surrenders
+1713.7.13  = { remove_core = ARA }
+1750.1.1   = { citysize = 6150 }
+1800.1.1   = { citysize = 6800 }
+1813.8.31  = { controller = REB }
+1813.12.11 = { controller = SPA }

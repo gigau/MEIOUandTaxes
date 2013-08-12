@@ -1,0 +1,240 @@
+# AUG - Imperial City of Augsburg
+# 2013-aug-07 - GG - EUIV changes
+
+government = imperial_city
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 0
+# innovative_narrowminded = 0
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -1
+# quality_quantity = -1
+# serfdom_freesubjects = -1
+# isolationist_expansionist = 0
+# secularism_theocracy = -1
+primary_culture = bavarian
+religion = catholic
+technology_group = western
+capital = 68
+
+1356.1.1 = { monarch = { name = "Konrad Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1357.1.1 = { monarch = { name = "Ott Gollenhofer" adm = 5 dip = 5 mil = 5 } }
+1358.1.1 = { monarch = { name = "Konrad Minner" adm = 5 dip = 5 mil = 5 } }
+1359.1.1 = { monarch = { name = "Johann Rappolt" adm = 5 dip = 5 mil = 5 } }
+1360.1.1 = { monarch = { name = "Johann Vögelin" adm = 5 dip = 5 mil = 5 } }
+1361.1.1 = { monarch = { name = "Johann II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1362.1.1 = { monarch = { name = "Sibot Münzmeister" adm = 5 dip = 5 mil = 5 } }
+1363.1.1 = { monarch = { name = "Konrad I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1364.1.1 = { monarch = { name = "Konrad Minner" adm = 5 dip = 5 mil = 5 } }
+1365.1.1 = { monarch = { name = "Johann Dachs" adm = 5 dip = 5 mil = 5 } }
+1366.1.1 = { monarch = { name = "Johann Vögelin" adm = 5 dip = 5 mil = 5 } }
+1367.1.1 = { monarch = { name = "Heinrich Vögelin" adm = 5 dip = 5 mil = 5 } }
+1368.1.1 = { monarch = { name = "Heinrich II Herwart" adm = 5 dip = 5 mil = 5 } }
+1369.1.1 = { monarch = { name = "Johann Vögelin" adm = 5 dip = 5 mil = 5 } }
+1370.1.1 = { monarch = { name = "Bartholomäus II Riederer" adm = 5 dip = 5 mil = 5 } }
+1371.1.1 = { monarch = { name = "Konrad Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1372.1.1 = { monarch = { name = "Konrad I Ilsung" adm = 5 dip = 5 mil = 5 } }
+1373.1.1 = { monarch = { name = "Johann Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1374.1.1 = { monarch = { name = "Ulrich Dendrich" adm = 5 dip = 5 mil = 5 } }
+1375.1.1 = { monarch = { name = "Johann Amman" adm = 5 dip = 5 mil = 5 } }
+1376.1.1 = { monarch = { name = "Konrad Bitschlin" adm = 5 dip = 5 mil = 5 } }
+1377.1.1 = { monarch = { name = "Rüdiger Rappolt" adm = 5 dip = 5 mil = 5 } }
+1378.1.1 = { monarch = { name = "Konrad I Ilsung" adm = 5 dip = 5 mil = 5 } }
+1379.1.1 = { monarch = { name = "Konrad Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1380.1.1 = { monarch = { name = "Konrad Bitschlin" adm = 5 dip = 5 mil = 5 } }
+1381.1.1 = { monarch = { name = "Johann Rehm" adm = 5 dip = 5 mil = 5 } }
+1382.1.1 = { monarch = { name = "Johann Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1383.1.1 = { monarch = { name = "Peter Egen" adm = 5 dip = 5 mil = 5 } }
+1384.1.1 = { monarch = { name = "Ulrich Dendrich" adm = 5 dip = 5 mil = 5 } }
+1385.1.1 = { monarch = { name = "Konrad I Ilsung" adm = 5 dip = 5 mil = 5 } }
+1386.1.1 = { monarch = { name = "Johann Rehm" adm = 5 dip = 5 mil = 5 } }
+1387.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1388.1.1 = { monarch = { name = "Rüdiger Rappolt" adm = 5 dip = 5 mil = 5 } }
+1389.1.1 = { monarch = { name = "Konrad I Ilsung" adm = 5 dip = 5 mil = 5 } }
+1390.1.1 = { monarch = { name = "Ulrich II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1391.1.1 = { monarch = { name = "Peter Egen" adm = 5 dip = 5 mil = 5 } }
+1392.1.1 = { monarch = { name = "Johann Rehm" adm = 5 dip = 5 mil = 5 } }
+1393.1.1 = { monarch = { name = "Ulrich II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1394.1.1 = { monarch = { name = "Konrad Wieser" adm = 5 dip = 5 mil = 5 } }
+1395.1.1 = { monarch = { name = "Johann Alpershofer" adm = 5 dip = 5 mil = 5 } }
+1396.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1397.1.1 = { monarch = { name = "Johann II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1398.1.1 = { monarch = { name = "Johann Ilsung" adm = 5 dip = 5 mil = 5 } }
+1399.1.1 = { monarch = { name = "Ludwig Hörnlin" adm = 5 dip = 5 mil = 5 } }
+1400.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1401.1.1 = { monarch = { name = "Johann Ilsung" adm = 5 dip = 5 mil = 5 } }
+1403.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1405.1.1 = { monarch = { name = "Johann Ilsung" adm = 5 dip = 5 mil = 5 } }
+1406.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1407.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1408.1.1 = { monarch = { name = "Johann II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1409.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1410.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1411.1.1 = { monarch = { name = "Lorenz Egen" adm = 5 dip = 5 mil = 5 } }
+1412.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1413.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1414.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1415.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1416.1.1 = { monarch = { name = "Sebastian II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1417.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1418.1.1 = { monarch = { name = "Sebastian II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1419.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1420.1.1 = { monarch = { name = "Sebastian II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1421.1.1 = { monarch = { name = "Ulrich Konzelmann" adm = 5 dip = 5 mil = 5 } }
+1422.1.1 = { monarch = { name = "Sebastian II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1423.1.1 = { monarch = { name = "Heinrich Schmucker" adm = 5 dip = 5 mil = 5 } }
+1424.1.1 = { monarch = { name = "Sebastian II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1425.1.1 = { monarch = { name = "Heinrich Engelschalk" adm = 5 dip = 5 mil = 5 } }
+1426.1.1 = { monarch = { name = "Hermann Nördlinger" adm = 5 dip = 5 mil = 5 } }
+1427.1.1 = { monarch = { name = "Georg Dendrich" adm = 5 dip = 5 mil = 5 } }
+1429.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1430.1.1 = { monarch = { name = "Hermann Nördlinger" adm = 5 dip = 5 mil = 5 } }
+1431.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1432.1.1 = { monarch = { name = "Hermann Nördlinger" adm = 5 dip = 5 mil = 5 } }
+1434.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1435.1.1 = { monarch = { name = "Matthäus Keller" adm = 5 dip = 5 mil = 5 } }
+1436.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1437.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1438.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1439.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1440.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1441.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1443.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1444.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1445.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1446.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1447.1.1 = { monarch = { name = "Konrad Vögelin" adm = 5 dip = 5 mil = 5 } }
+1448.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1449.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1450.1.1 = { monarch = { name = "Peter Egen" adm = 5 dip = 5 mil = 5 } }
+1451.1.1 = { monarch = { name = "Stephan Hangenor" adm = 5 dip = 5 mil = 5 } }
+1452.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1453.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1454.1.1 = { monarch = { name = "Andres Frickinger" adm = 5 dip = 5 mil = 5 } }
+1455.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1456.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1457.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1458.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1459.1.1 = { monarch = { name = "Andres Frickinger" adm = 5 dip = 5 mil = 5 } }
+1460.1.1 = { monarch = { name = "Heinrich II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1461.1.1 = { monarch = { name = "Gabriel Ridler" adm = 5 dip = 5 mil = 5 } }
+1462.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1463.1.1 = { monarch = { name = "Andres Frickinger" adm = 5 dip = 5 mil = 5 } }
+1464.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1465.1.1 = { monarch = { name = "Andres Frickinger" adm = 5 dip = 5 mil = 5 } }
+1466.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1467.1.1 = { monarch = { name = "Andres Frickinger" adm = 5 dip = 5 mil = 5 } }
+1468.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1469.1.1 = { monarch = { name = "Leonhard I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1470.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1471.1.1 = { monarch = { name = "Ulrich Schwarz" adm = 5 dip = 5 mil = 5 } }
+1472.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1473.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1474.1.1 = { monarch = { name = "Johann Vittel" adm = 5 dip = 5 mil = 5 } }
+1475.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1476.1.1 = { monarch = { name = "Ulrich Schwarz" adm = 5 dip = 5 mil = 5 } }
+1477.1.1 = { monarch = { name = "Bartholomäus Welser" adm = 5 dip = 5 mil = 5 } }
+1478.1.1 = { monarch = { name = "Georg Strauß" adm = 5 dip = 5 mil = 5 } }
+1479.1.1 = { monarch = { name = "Peter II Herwart" adm = 5 dip = 5 mil = 5 } }
+1480.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1481.1.1 = { monarch = { name = "Peter II Herwart" adm = 5 dip = 5 mil = 5 } }
+1482.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1483.1.1 = { monarch = { name = "Peter II Herwart" adm = 5 dip = 5 mil = 5 } }
+1484.1.1 = { monarch = { name = "Nikolaus Schaller" adm = 5 dip = 5 mil = 5 } }
+1485.1.1 = { monarch = { name = "Peter II Herwart" adm = 5 dip = 5 mil = 5 } }
+1486.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1487.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1488.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1489.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1490.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1491.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1492.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1493.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1494.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1495.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1496.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1497.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1498.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1499.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1500.1.1 = { monarch = { name = "Sigmund Gossembrot" adm = 5 dip = 5 mil = 5 } }
+1501.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1502.1.1 = { monarch = { name = "Hilpold Ridler" adm = 5 dip = 5 mil = 5 } }
+1503.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1504.1.1 = { monarch = { name = "Hieronymus Welser" adm = 5 dip = 5 mil = 5 } }
+1505.1.1 = { monarch = { name = "Johann I Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1506.1.1 = { monarch = { name = "Hieronymus Welser" adm = 5 dip = 5 mil = 5 } }
+1507.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1508.1.1 = { monarch = { name = "Hieronymus Welser" adm = 5 dip = 5 mil = 5 } }
+1509.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1510.1.1 = { monarch = { name = "Hieronymus Welser" adm = 5 dip = 5 mil = 5 } }
+1511.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1512.1.1 = { monarch = { name = "Hieronymus Welser" adm = 5 dip = 5 mil = 5 } }
+1513.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1514.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1515.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1516.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1517.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1518.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1519.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1520.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1521.1.1 = { monarch = { name = "Ludwig Hoser" adm = 5 dip = 5 mil = 5 } }
+1522.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1523.1.1 = { monarch = { name = "Ulrich Arzt" adm = 5 dip = 5 mil = 5 } }
+1524.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1525.1.1 = { monarch = { name = "Ulrich Arzt" adm = 5 dip = 5 mil = 5 } }
+1526.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1527.1.1 = { monarch = { name = "Ulrich Arzt" adm = 5 dip = 5 mil = 5 } religion = protestant } # secularism_theocracy = -2
+1528.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1529.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1530.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1531.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1532.1.1 = { monarch = { name = "Georg II Vetter" adm = 5 dip = 5 mil = 5 } }
+1533.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1534.1.1 = { monarch = { name = "Hieronymus Imhof" adm = 5 dip = 5 mil = 5 } }
+1535.1.1 = { monarch = { name = "Ulrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1536.1.1 = { monarch = { name = "Johann Hainzel" adm = 5 dip = 5 mil = 5 } }
+1537.1.1 = { monarch = { name = "Mang Jakob Seitz" adm = 5 dip = 5 mil = 5 } }
+1538.1.1 = { monarch = { name = "Georg II Herwart" adm = 5 dip = 5 mil = 5 } }
+1539.1.1 = { monarch = { name = "Mang Jakob Seitz" adm = 5 dip = 5 mil = 5 } }
+1540.1.1 = { monarch = { name = "Georg II Herwart" adm = 5 dip = 5 mil = 5 } }
+1541.1.1 = { monarch = { name = "Mang Jakob Seitz" adm = 5 dip = 5 mil = 5 } }
+1542.1.1 = { monarch = { name = "Georg II Herwart" adm = 5 dip = 5 mil = 5 } }
+1543.1.1 = { monarch = { name = "Mang Jakob Seitz" adm = 5 dip = 5 mil = 5 } }
+1544.1.1 = { monarch = { name = "Georg II Herwart" adm = 5 dip = 5 mil = 5 } }
+1545.1.1 = { monarch = { name = "Johann Welser" adm = 5 dip = 5 mil = 5 } }
+1546.1.1 = { monarch = { name = "Georg II Herwart" adm = 5 dip = 5 mil = 5 } }
+1557.1.1 = { monarch = { name = "Johann Welser" adm = 5 dip = 5 mil = 5 } }
+1558.1.1 = { monarch = { name = "Heinrich Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1575.1.1 = { monarch = { name = "Anton Christoph Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1586.1.1 = { monarch = { name = "Johann Welser" adm = 5 dip = 5 mil = 5 } }
+1589.1.1 = { monarch = { name = "Christoph II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1594.1.1 = { monarch = { name = "Octavian Secundus Fugger" adm = 5 dip = 5 mil = 5 } }
+1596.1.1 = { monarch = { name = "Quirin Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1600.1.1 = { monarch = { name = "Markus Welser" adm = 5 dip = 5 mil = 5 } }
+1604.1.1 = { monarch = { name = "Johann Jakob Rembold" adm = 5 dip = 5 mil = 5 } }
+1614.1.1 = { monarch = { name = "Hieronymus Imhof" adm = 5 dip = 5 mil = 5 } }
+1624.1.1 = { monarch = { name = "Bernhard Rehlinger" adm = 5 dip = 5 mil = 5 } }
+1629.1.1 = { religion = catholic # secularism_theocracy = -1 }
+1632.1.1 = { monarch = { name = "Jeremias Jakob Stenglin" adm = 5 dip = 5 mil = 5 } }
+1635.1.1 = { monarch = { name = "David Welser" adm = 5 dip = 5 mil = 5 } }
+1645.1.1 = { monarch = { name = "Johann Caspar Rembold" adm = 5 dip = 5 mil = 5 } }
+1649.1.1 = { monarch = { name = "Leonhard Weiß" adm = 5 dip = 5 mil = 5 } }
+1652.1.1 = { monarch = { name = "Johann Rembold" adm = 5 dip = 5 mil = 5 } }
+1664.1.1 = { monarch = { name = "Octavian II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1675.1.1 = { monarch = { name = "Leonhard Weiß" adm = 5 dip = 5 mil = 5 } }
+1688.1.1 = { monarch = { name = "Johann II Ilsung" adm = 5 dip = 5 mil = 5 } }
+1695.1.1 = { monarch = { name = "Joseph Imhof" adm = 5 dip = 5 mil = 5 } }
+1701.1.1 = { monarch = { name = "Gottfried Amman" adm = 5 dip = 5 mil = 5 } }
+1716.1.1 = { monarch = { name = "Paul von Stetten" adm = 5 dip = 5 mil = 5 } }
+1725.1.1 = { monarch = { name = "Franz II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1730.1.1 = { monarch = { name = "Johann Holzapfel" adm = 5 dip = 5 mil = 5 } }
+1735.1.1 = { monarch = { name = "Martin II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1739.1.1 = { monarch = { name = "Wolfgang Sulzer" adm = 5 dip = 5 mil = 5 } }
+1741.1.1 = { monarch = { name = "Leopold Imhof" adm = 5 dip = 5 mil = 5 } }
+1751.1.1 = { monarch = { name = "Markus Koch" adm = 5 dip = 5 mil = 5 } }
+1761.1.1 = { monarch = { name = "Franz Rembold" adm = 5 dip = 5 mil = 5 } }
+1768.1.1 = { monarch = { name = "David von Stetten" adm = 5 dip = 5 mil = 5 } }
+1774.1.1 = { monarch = { name = "Jakob II Langenmantel" adm = 5 dip = 5 mil = 5 } }
+1790.1.1 = { monarch = { name = "Paul Amman" adm = 5 dip = 5 mil = 5 } }
+1792.1.1 = { monarch = { name = "Paul von Stetten" adm = 5 dip = 5 mil = 5 } }
+1797.1.1 = { monarch = { name = "Joseph von Imhof" adm = 5 dip = 5 mil = 5 } }

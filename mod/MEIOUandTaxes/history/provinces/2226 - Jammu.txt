@@ -1,0 +1,70 @@
+#Province: Jammu
+#file name: 2226 - Jammu
+#MEIOU-FB India 1337+ mod Aug 08
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = KSH
+controller = KSH
+culture = kashmiri
+religion = hinduism
+capital = "Jammu"
+trade_goods = carpet
+hre = no
+base_tax = 4
+#manpower = 2
+manpower = 4
+citysize = 17572
+fort1 = yes
+fort2 = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = steppestech
+discovered_by = turkishtech
+terrain3 = yes
+
+1356.1.1  = {
+	add_core = KSH
+	set_province_flag = terrain3
+}
+1400.1.1  = { citysize = 18570 religion = sunni }
+1500.1.1  = { citysize = 19670 }
+1550.1.1  = { citysize = 20670 temple = yes }
+1589.7.28 = {
+	owner = MUG
+	controller = MUG
+	add_core = MUG
+} # Integrated into the Mughal Empire
+1600.1.1  = { citysize = 22480 }
+1650.1.1  = { citysize = 24122 marketplace = yes }
+1690.1.1  = { discovered_by = ENG }
+1700.1.1  = { citysize = 26305 }
+1707.5.12 = { discovered_by = GBR }
+1738.1.1  = {
+	controller = PER
+} # Captured by Persia, Nadir Shah
+1739.5.1  = {
+	owner = PER
+} # Captured by Persia, Nadir Shah
+1747.6.1  = {
+	owner = DUR
+	controller = DUR
+	add_core = DUR
+	remove_core = MUG
+	revolt_risk = 2
+}
+1750.1.1  = { citysize = 28760 }
+1755.1.1  = {
+	owner = KSH
+	controller = KSH
+} # Governor declares independence
+1762.1.1  = {
+	owner = DUR
+	controller = DUR
+} # Revolt beaten
+1800.1.1  = { citysize = 32400 workshop = yes }
+1846.3.9 = {
+	owner = KSH
+	controller = KSH
+} # End of the First Anglo-Sikh War
+

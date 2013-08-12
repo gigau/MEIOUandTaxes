@@ -1,0 +1,160 @@
+# CAY - Cayor
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 3
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = 0
+# land_naval = 1
+# quality_quantity = 3
+# serfdom_freesubjects = -2
+# isolationist_expansionist = -3
+# secularism_theocracy = 1
+primary_culture = senegambian
+religion = sunni
+technology_group = soudantech
+
+capital = 1114 # Cayor
+
+1549.1.1 = {
+	monarch = {
+		name = "Detie Fu Ndiogu"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1697.1.1 = {
+	monarch = {
+		name = "Lat Sukabe"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1719.1.1 = {
+	monarch = {
+		name = "Isa-Tende"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1748.1.1 = {
+	monarch = {
+		name = "Isa Bige"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1749.1.1 = {
+	monarch = {
+		name = "Ma-Bathio Samb"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1757.1.1 = {
+	monarch = {
+		name = "Birima Kodu"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1758.1.1 = {
+	monarch = {
+		name = "Isa Bige"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1759.1.1 = {
+	monarch = {
+		name = "Birima Yamb"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1760.1.1 = {
+	monarch = {
+		name = "Isa Bige Nagone"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1763.1.1 = {
+	monarch = {
+		name = "Jor Yasin Isa"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1766.1.1 = {
+	monarch = {
+		name = "Kodu Kumba"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+
+1777.1.1 = {
+	monarch = {
+		name = "Birima Fatim-Penda"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1790.1.1 = {
+	monarch = {
+		name = "Amari Ngone Ndèla Kumba Fal"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}
+
+1809.1.1 = {
+	monarch = {
+		name = "Biram Fatma Cub Fal"
+		dynasty = "Géej"
+		DIP = 5
+		ADM = 4
+		MIL = 5
+	}
+}

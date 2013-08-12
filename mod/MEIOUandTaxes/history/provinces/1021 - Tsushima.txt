@@ -1,0 +1,44 @@
+# 1021 - Tsushima
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SOO
+controller = SOO
+culture = kyushu
+religion = shinbutsu
+capital = "Izuhara"
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 2
+manpower = 4
+citysize = 1570
+fort1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	add_core = SOO
+}
+1400.1.1 = { citysize = 1700 }
+1450.1.1 = { citysize = 2000 }
+1500.1.1 = { citysize = 2540 }
+1542.1.1 = { discovered_by = POR }
+1550.1.1 = { citysize = 3955 }
+1590.1.1 = {
+	shipyard = yes
+	citysize = 7500
+} # Preparation of the invasion of Korea
+1600.1.1 = { 
+	citysize = 8000 
+	marketplace = yes
+}
+1615.6.4 = {
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1650.1.1 = { citysize = 9000 }
+1700.1.1 = { citysize = 10000 }
+1750.1.1 = { citysize = 11000 }
+1760.1.1 = { mint = yes }
+1800.1.1 = { citysize = 12000 }

@@ -1,0 +1,36 @@
+# 2224 - Urfa
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = DUL
+controller = DUL
+culture = yorouk
+religion = sunni
+capital = "al-Ruha"	# formerly Edessa
+trade_goods = fish
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 2544
+fort1 = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1356.1.1 = {
+	add_core = DUL
+}
+#1501.1.1  = {
+#	owner = PER
+#	controller = PER
+#	add_core = PER
+#	remove_core = AKK
+#} # The Safavids took over
+1516.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	culture = turkish
+} # The Ramazan rulers stay in power

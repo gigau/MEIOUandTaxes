@@ -1,0 +1,98 @@
+# SRV - Srivijaya
+
+government = indian_monarchy_2
+# aristocracy_plutocracy = -2
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = 1
+# offensive_defensive = 0
+# land_naval = 3
+# quality_quantity = 3
+# serfdom_freesubjects = -1
+# isolationist_expansionist = -2
+primary_culture = sumatran
+religion = theravada
+technology_group = chinese
+capital = 622	# Palembang
+
+1324.1.1 = {
+	monarch = {
+		name = "Sang Nila Utama"
+		dynasty = "Svirijaya"
+		adm = 7
+		dip = 5
+		mil = 4
+	}
+}
+
+1343.1.1 = {
+	heir = {
+		name = "Bikrama Vira Diraja"
+		monarch_name = "Bikrama Vira Diraja"
+		dynasty = "Svirijaya"
+		birth_Date = 1305.1.1
+		death_Date = 1386.1.1
+		claim = 95
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1372.1.1 = {
+	monarch = {
+		name = "Bikrama Vira Diraja"
+		dynasty = "Svirijaya"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1372.1.1 = {
+	heir = {
+		name = "Rana Wira Kerma"
+		monarch_name = "Rana Wira Kerma"
+		dynasty = "Svirijaya"
+		birth_Date = 1324.1.1
+		death_Date = 1386.1.1
+		claim = 95
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1386.1.1 = {
+	monarch = {
+		name = "Rana Wira Kerma"
+		dynasty = "Svirijaya"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}
+
+1386.1.1 = {
+	heir = {
+		name = "Parameswara"
+		monarch_name = "Parameswara"
+		dynasty = "Svirijaya"
+		birth_Date = 1344.1.1
+		death_Date = 1414.1.1
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+
+1399.1.1 = {
+	monarch = {
+		name = "Parameswara"
+		dynasty = "Svirijaya"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}

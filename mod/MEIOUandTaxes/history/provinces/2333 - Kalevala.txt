@@ -1,0 +1,11 @@
+# Karelia
+# MEIOU - Gigau
+
+1560.1.1 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	culture = karelian
+	religion = orthodox
+	discovered_by = RUS
+}

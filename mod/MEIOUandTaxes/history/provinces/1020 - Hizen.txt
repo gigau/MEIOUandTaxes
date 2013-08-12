@@ -1,0 +1,61 @@
+# 1018 - Hizen
+# GG/LS - Japanese Civil War
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SHN
+controller = SHN
+culture = kyushu
+religion = shinbutsu
+capital = "Saga"
+trade_goods = fish
+hre = no
+base_tax = 6
+#manpower = 3
+manpower = 6
+citysize = 13200
+fort1 = yes
+terrain1 = yes
+discovered_by = chinese
+
+1356.1.1 = {
+	set_province_flag = terrain1
+	add_core = SHN
+	add_core = RZJ
+}
+1400.1.1   = { citysize = 14000 }
+1450.1.1   = { citysize = 15700 }
+1500.1.1   = { citysize = 16400 }
+1542.1.1   = { discovered_by = POR }
+1550.1.1   = { citysize = 17408 }
+1553.1.1   = {
+	owner = RZJ
+	controller = RZJ
+	add_core = RZJ
+}
+1585.1.1   = {
+	owner = SHN
+	controller = SHN
+	religion = catholic
+}
+1590.1.1   = {
+	owner = SMZ
+	controller = SMZ
+	add_core = SMZ
+}
+1600.1.1   = { citysize = 18100 }
+1615.1.1   = {
+	religion = shinbutsu
+}
+1630.1.1 = {
+	marketplace = yes
+}
+1650.1.1   = {
+	citysize = 20100
+	constable = yes
+	owner = JAP
+	controller = JAP
+	add_core = JAP
+}
+1700.1.1   = { citysize = 22485 }
+1750.1.1   = { citysize = 25150 }
+1800.1.1   = { citysize = 27500 }

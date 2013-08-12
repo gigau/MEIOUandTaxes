@@ -1,0 +1,70 @@
+# 2208 - Qeqchi
+# GG - 22/07/2008
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MAY
+controller = MAY
+add_core = MAY
+culture = quichean
+religion = teotl
+capital = "Cobán" 
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 50000
+trade_goods = pepper
+
+marketplace = yes
+temple = yes
+fort1 = yes
+
+discovered_by = new_world
+
+hre = no
+
+1517.1.1 = {
+	discovered_by = SPA
+}
+1596.6.24  = {
+	owner = SPA
+	controller = SPA
+	capital = "Villahermosa"
+	citysize = 200
+	culture = castillian
+	religion = catholic
+	base_tax = 3
+#	manpower = 2
+	manpower = 4
+}
+1621.1.1   = {
+	add_core = SPA
+	citysize = 1000
+}
+1650.1.1   = {
+	citysize = 2000
+}
+1700.1.1   = {
+	citysize = 5000
+}
+1750.1.1   = {
+	add_core = MEX
+	culture = mexican
+	citysize = 10000
+}
+1800.1.1   = {
+	citysize = 25000
+}
+1810.9.16  = {
+	owner = MEX
+	controller = MEX
+} # Declaration of Independence
+1821.8.24  = {
+	remove_core = SPA
+	add_core = CAM
+} # Treaty of Cordoba
+1823.7.10  = {
+	owner = CAM
+	controller = CAM
+	remove_core = MEX
+}

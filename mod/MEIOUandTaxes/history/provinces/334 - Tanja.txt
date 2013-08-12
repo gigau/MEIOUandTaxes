@@ -1,0 +1,96 @@
+#334 - tangiers
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FEZ
+controller = FEZ 
+culture = fassi
+religion = sunni
+capital = "Tanja"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 30332
+trade_goods = wool
+
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = turkishtech
+
+hre = no
+
+
+# 1075 = almoravides
+# 1149 = almohades
+1274.1.1 = {
+	owner = FEZ
+	controller = FEZ
+	add_core = FEZ
+	add_core = MOR 
+}
+1471.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+}
+1500.1.1 = {
+	citysize = 36010
+}
+1550.1.1 = {
+	citysize = 36587
+}
+
+1580.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA}
+
+1600.1.1 = {
+	citysize = 37885
+	marketplace = yes
+}
+1640.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR}
+1650.1.1 = {
+	citysize = 38940
+}
+1661.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = POR
+} # Tangier is given to Charles II of England
+
+1673.1.1 = {
+	fort2 = yes
+}
+1679.1.1 = {
+	revolt_risk = 4
+} # Moulay Ismail attempted to seize the town
+1684.1.1 = {
+	owner = MOR
+	controller = MOR
+	remove_core = ENG
+	revolt_risk = 0
+	fort3 = yes
+} # Turned into a pirates nest, returned to Moroccan control, British retreat
+1700.1.1 = {
+	citysize = 10300
+} # The city gradually declined
+1750.1.1 = {
+	citysize = 7890
+}
+1800.1.1 = {
+	citysize = 5678
+}
+1884.1.1 = {
+	owner = SPA
+	controller = SPA
+}

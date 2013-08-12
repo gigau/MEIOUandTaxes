@@ -1,0 +1,60 @@
+#247 - Cumbria
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ENG
+controller = ENG
+culture = anglois
+religion = catholic
+hre = no
+base_tax = 3
+trade_goods = fish
+#manpower = 1
+manpower = 2
+capital = "Carlisle"
+citysize = 1500
+fort1 = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+
+1356.1.1  = {
+	add_core = ENG
+#	add_core = NOL
+}
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+	add_core = UEF
+	remove_core = ENG
+}
+1429.4.29  = {
+	culture = english
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = UEF
+}
+1453.1.1  = { revolt_risk = 5 } #Start of the War of the Roses
+1461.6.1  = { revolt_risk = 2 } #Coronation of Edward IV
+1467.1.1  = { revolt_risk = 5 } #Rivalry between Edward IV & Warwick
+1471.1.1  = { revolt_risk = 8 } #Unpopularity of Warwick & War with Burgundy
+1471.5.4  = { revolt_risk = 2 } #Murder of Henry VI & Restoration of Edward IV
+1483.6.26 = { revolt_risk = 8 } #Revulsion at Supposed Murder of the Princes in the Tower
+1485.8.23 = { revolt_risk = 0 } #Battle of Bosworth Field & the End of the War of the Roses
+1550.1.1  = { citysize = 1800 }
+1575.1.1  = { constable = yes } #Estimated
+1585.1.1  = { religion = anglican }
+1600.1.1  = { citysize = 2500 fort2 = yes }
+1645.6.28 = { controller = SCO }
+1646.5.5  = { controller = ENG } #End of First English Civil War
+1648.4.1  = { controller = REB } #Estimated
+1648.8.25 = { controller = ENG }
+1700.1.1  = { citysize = 4000 marketplace = yes } #marketplace Estimated
+1707.5.12 = {	owner = GBR
+		controller = GBR
+		add_core = GBR
+	    	remove_core = ENG
+	    }
+1800.1.1  = { citysize = 10000 }

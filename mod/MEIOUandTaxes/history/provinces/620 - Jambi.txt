@@ -1,0 +1,58 @@
+#Province: Jambi
+#file name: 620 - Jambi
+#MEIOU-FB Indonesia mod v3 - for IN+JV
+#
+#Note: if MEIOU ever has a start date prior to 1280 then this province should be part of the
+#Srivijaya Empire.
+#for performance reasons SIJ represents both Siak + Jambi
+#
+#Future enhancement possibility:
+#Make owner Jambi (new country) from start to MLC takeover
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = SRV
+controller = SRV
+culture = sumatran
+religion = theravada		#this region began to be Islamified c1500
+capital = "Jambi"
+trade_goods = pepper
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 12000
+add_core = SIJ
+add_core = PLB
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1356.1.1 = {
+	add_core = SRV
+	add_core = MPH
+	add_core = JMB
+}
+1377.1.1 = {
+	owner = MPH
+	controller = MPH
+	remove_core = SRV
+} # Majapahit destroys the remains of the Srivijaya
+1400.1.1 = { citysize = 12890 }
+1405.1.1 = { discovered_by = MNG }
+1450.1.1 = { citysize = 13110 }
+1478.1.1 = {
+	owner = JMB
+	controller = JMB
+	remove_core = MPH
+} # Destruction of Majapahit 
+1500.1.1 = { citysize = 13700 religion = sunni add_core = MLC }
+1509.1.1 = { discovered_by = POR } # Diego Lopez de Sequiera
+1550.1.1 = { citysize = 14235 }
+1600.1.1 = { citysize = 14860 discovered_by = NED }
+1650.1.1 = { citysize = 15550 }
+1683.1.1 = { add_core = NED revolt_risk = 1 }
+1700.1.1 = { citysize = 16200 }
+1750.1.1 = { citysize = 16980 }
+1754.1.1 = { revolt_risk = 4 } #opposition to the Dutch gets fierce
+1800.1.1 = { citysize = 12542 } #population reduction as locals flee from Dutch harrasment
+1825.1.1 = { owner = NED controller = NED revolt_risk = 2 } # The Dutch gradually gained control

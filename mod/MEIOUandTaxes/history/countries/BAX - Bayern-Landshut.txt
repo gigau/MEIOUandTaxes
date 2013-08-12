@@ -1,0 +1,79 @@
+# BAX - Bayern-Landshut (Lower Bavaria)
+# 2009-dec-31 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 1351
+
+#1349.1.1 Bavaria split into Upper (Bayern) & Lower (Landshut)
+
+1349.1.1 = {
+	monarch = {
+		name = "Steffen II"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+    }
+}
+
+#1354.1.1 Lower Bavaria (Landshut) split into Bavaria-Landshut and Bavaria-Straubing
+
+#1363.1.13 Bayern-Munchen merged with Bayern-Landshut
+
+1375.5.13 = {
+	monarch = {
+		name = "Friedrich"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+    }
+}
+
+#1392 Bavaria-Landshut split into Bavaria-Landshut Bavaria-Ingolstadt Bavaria-Munich
+
+1393.12.4 = {
+	monarch = {
+		name = "Heinrich XVI der Reiche"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+    }
+}
+
+1450.7.30 = {
+	monarch = {
+		name = "Ludwig IX"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+    }
+}
+
+1479.1.18 = {
+	monarch = {
+		name = "Georg"
+		dynasty = "von Wittelsbach"
+		adm = 5
+		dip = 5
+		mil = 5
+   }
+}
+
+# 1503.12.1 => Unification of the Duchy of Bavaria

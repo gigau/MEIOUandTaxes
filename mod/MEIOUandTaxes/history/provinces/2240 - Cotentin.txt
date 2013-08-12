@@ -1,0 +1,98 @@
+# 2240 - Cotentin (Cherbourg)
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = FRA
+controller = FRA 
+culture = normand
+religion = catholic
+capital = "Chirebourc"
+
+base_tax = 5
+#manpower = 3
+manpower = 6
+citysize = 10000
+trade_goods = fish
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = no
+
+1354.1.1   = {
+	owner = NAV
+	controller = NAV
+	add_core = NAV
+	add_core = FRA
+	add_core = NRM
+} # Jean le Bon gives Cherbourg to Charles le Mauvais
+1369.1.1   = {
+	fort2 = yes
+}
+1378.4.20  = {
+	owner = FRA
+	controller = FRA
+} # Public trial of Jacques de Rue for regicide and treason. Charles V moves against Charles le Mauvais1500.1.1   = { citysize = 15000 }
+1419.1.19  = {
+	owner = ENG
+	controller = ENG
+}
+1422.10.21 = {
+	owner = UEF
+	controller = UEF
+}
+1429.7.17  = {
+	owner = ENG
+	controller = ENG
+}
+1434.12.1   = {
+	owner = FRA
+	controller = FRA
+}
+1475.8.29  = {
+	remove_core = ENG
+} # Treaty of Picquigny, ending the Hundred Year War
+1500.1.1   = { citysize = 12500 }
+1550.1.1   = { citysize = 17000 }
+1588.12.1  = { revolt_risk = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
+1594.1.1   = { revolt_risk = 0 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
+1600.1.1   = { citysize = 21500 marketplace = yes constable = yes }
+1631.1.1   = { revolt_risk = 3 } # Region is restless
+1633.1.1   = { revolt_risk = 0 } 
+1639.1.1   = { revolt_risk = 3 }
+1641.1.1   = { revolt_risk = 0 }
+1650.1.1   = { citysize = 26000 fort3 = yes }
+1660.1.1   = { courthouse = yes } # Colbert
+1700.1.1   = { citysize = 31000 }
+1730.1.1   = { customs_house = yes }
+1750.1.1   = { citysize = 40000 mint = yes }
+1760.1.1   = { fort4 = yes }
+1770.1.1   = { workshop = yes }
+1786.1.1   = { base_tax = 5 } # The Eden Agreement
+1792.9.21  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Proclamation of the First Republic
+1800.1.1   = { citysize = 48000 }
+1814.4.11  = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1815.3.20  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+	remove_core = FRA
+} # Napoleon enters Paris
+1815.7.8   = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = RFR
+} # The French monarchy is restored

@@ -1,0 +1,50 @@
+# 1326 - Samos
+# MEIOU-GG - Turko-Mongol mod
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = AYD
+controller = AYD
+culture = greek
+religion = orthodox
+capital = "Smyrna"
+trade_goods = copper
+hre = no
+base_tax = 3
+#manpower = 3
+manpower = 6
+citysize = 12314
+fort1 = yes
+
+discovered_by = CIR
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = turkishtech
+
+1334.1.1  = {
+	owner = KNI
+	controller = KNI
+}
+1356.1.1  = {
+	add_core = KNI
+	add_core = AYD
+	add_core = BYZ
+	set_province_flag = greek_name
+}
+1402.1.1  = {
+	add_core = TUR
+} # Tamerlane defeat the Ottomans in Angora (Ankara)
+1403.1.1  = {
+	owner = TUR
+	controller = TUR
+}
+1453.5.29 = {
+	remove_core = BYZ
+} # Constantinople has fallen
+1500.1.1 = { citysize = 12555 }
+1550.1.1 = { citysize = 12744 fort2 = yes }
+1600.1.1 = { citysize = 12961 }
+1650.1.1 = { citysize = 13120 }
+1700.1.1 = { citysize = 13421 }
+1750.1.1 = { citysize = 13655 }
+1800.1.1 = { citysize = 13865 }

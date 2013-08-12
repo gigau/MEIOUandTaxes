@@ -1,0 +1,45 @@
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+owner = MER
+controller = MER
+add_core = MER
+culture = madagascan
+religion = austranasian
+capital = "Ihorombe"
+citysize = 5000
+#manpower = 2
+manpower = 4
+trade_goods = rice
+hre = no
+base_tax = 4
+discovered_by = ANT
+discovered_by = MER
+discovered_by = MNB
+discovered_by = TAM
+
+1500.1.1 = {
+	citysize = 6000
+} # Diego Dias
+
+1550.1.1 = {
+	citysize = 7500
+}
+
+1600.1.1 = {
+	citysize = 9000
+}
+
+1650.1.1 = {
+	citysize = 11000
+}
+
+1700.1.1 = {
+	citysize = 14000
+}
+
+1750.1.1 = {
+	citysize = 16000
+}
+
+1800.1.1 = {
+	citysize = 20000
+}

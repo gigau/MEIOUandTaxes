@@ -1,0 +1,855 @@
+#
+#
+# Modified by Gigau
+# last edited 14-aug-2008
+#
+# * Changes in MEIOU
+#
+# Please keep tags sorted on alphabetical use when you add/remove country tags
+#
+# Special countries
+#
+REB	= "countries/rebels.txt"
+PIR	= "countries/pirates.txt"
+NAT	= "countries/natives.txt"
+AAA	= "countries/dummy.txt"
+#
+# Scandinavia
+#
+SWE	= "countries/Sweden.txt"
+DEN	= "countries/Denmark.txt"
+FIN	= "countries/Finland.txt"
+NOR	= "countries/Norway.txt"
+SHL	= "countries/Holstein.txt"
+RSW	= "countries/ErikMagnusson.txt"					#/*
+NSE	= "countries/NorthSeaEmpire.txt"				#/* From TECC
+ICE	= "countries/Iceland.txt"						#/*
+#
+# Balkans
+#
+ACH	= "countries/Achaia.txt"						#/*
+ALB	= "countries/Albania.txt"
+ALC	= "countries/AnjouAlbania.txt"					#/*
+ATH	= "countries/Athens.txt"
+BOS	= "countries/Bosnia.txt"
+CAR	= "countries/Karantanija.txt"					#/*
+CEP	= "countries/Corfu.txt"
+CRO	= "countries/Croatia.txt"
+CRT	= "countries/Crete.txt"
+CYP	= "countries/Cyprus.txt"
+DOB	= "countries/Dobrogea.txt"						#/*
+EPI	= "countries/Epirus.txt"						#/*
+GRE	= "countries/Greece.txt"
+HUM	= "countries/Hum.txt"							#/*
+HUN	= "countries/Hungary.txt"
+KNI	= "countries/Knights.txt"
+MOE	= "countries/Morea.txt"
+MOL	= "countries/Moldavia.txt"
+MON	= "countries/Montenegro.txt"
+RAG	= "countries/Ragusa.txt"
+RHU	= "countries/RoyalHungary.txt"					#/*
+SER	= "countries/Serbia.txt"
+TAR	= "countries/Tarnovo.txt"						#/*
+TRA	= "countries/Transylvania.txt"
+TUR	= "countries/Turkey.txt"
+VID	= "countries/Vidin.txt"							#/*
+WAL	= "countries/Wallachia.txt"
+#
+# British Isles
+#
+CNN	= "countries/Connacht.txt"
+CRN	= "countries/Cornwall.txt"						#/*
+ENG	= "countries/England.txt"
+LEI	= "countries/Leinster.txt"
+IRE	= "countries/Ireland.txt"
+LAN	= "countries/Lancaster.txt"
+MNS	= "countries/IreMunster.txt"
+SCO	= "countries/Scotland.txt"
+TYR	= "countries/Tyrone.txt"
+WLS	= "countries/Wales.txt"
+YOR	= "countries/York.txt"
+NOL	= "countries/Northumberland.txt"				#/*
+GBR	= "countries/GreatBritain.txt"
+UEF	= "countries/England-France.txt"				#/*
+#	
+# Colonies
+#
+CAN	= "countries/Canada.txt"
+LOU	= "countries/Louisiana.txt"
+QUE	= "countries/Quebec.txt"
+TEX	= "countries/Texas.txt"							#/*
+USA	= "countries/USA.txt"
+#
+CAM	= "countries/UPCA.txt"
+HAT	= "countries/Haiti.txt"
+MEX	= "countries/Mexico.txt"
+#
+BOL	= "countries/Bolivia.txt"						#/*
+BRZ	= "countries/Brazil.txt"
+CHL	= "countries/Chile.txt"
+COL	= "countries/Colombia.txt"
+ECU	= "countries/Ecuador.txt"						#/*
+LAP	= "countries/LaPlata.txt"
+PEU	= "countries/Peru.txt"
+PRG	= "countries/Paraguay.txt"
+URU	= "countries/Uruguay.txt"						#/*
+VNZ	= "countries/Venezuela.txt"
+#
+# Eastern Europe
+#
+DNZ	= "countries/Danzig.txt"
+KRA	= "countries/Krakow.txt"
+LIT	= "countries/Lithuania.txt"
+LVO	= "countries/Livonianorder.txt"					#/*
+MAZ	= "countries/Mazovia.txt"
+PIL	= "countries/Pilten.txt"
+PLC	= "countries/PolLitCom.txt"					#/*
+PLO	= "countries/Plock.txt"
+POL	= "countries/Poland.txt"
+PRU	= "countries/Prussia.txt"
+KUR	= "countries/Kurland.txt"
+RIG	= "countries/Riga.txt"
+TEU	= "countries/teutonicorder.txt"
+#
+# France
+#
+ALS	= "countries/Alsace.txt"
+AMG	= "countries/Armagnac.txt"						#/*
+ANJ	= "countries/Anjou.txt"							#/*
+ARS	= "countries/Artois.txt"						#/*
+AUV	= "countries/Auvergne.txt"
+BLO	= "countries/Blois.txt"							#/*
+BOU	= "countries/Bourbonnais.txt"					#/*
+BRI	= "countries/Brittany.txt"
+BUR	= "countries/Burgundy.txt"
+CHP	= "countries/Champagne.txt"
+COR	= "countries/Corsica.txt"
+DAL	= "countries/Albret.txt"
+DAU	= "countries/Dauphine.txt"
+FOI	= "countries/Foix.txt"
+FRA	= "countries/France.txt"
+GUY	= "countries/Guyenne.txt"
+MNF	= "countries/Montfort.txt"						#/*
+NEV	= "countries/Nevers.txt"						#/*
+NRM	= "countries/Normandy.txt"
+ORL	= "countries/Orleans.txt"
+PRO	= "countries/Provence.txt"
+RFR	= "countries/RevolutionaryFrance.txt"
+SPI	= "countries/SardiniaPiedmont.txt"
+TOU	= "countries/Toulouse.txt"						#/*
+VLT	= "countries/Valentinois.txt"					#/*
+#
+# Holy Roman Empire
+#
+ANH	= "countries/Anhalt.txt"
+ANS	= "countries/Ansbach.txt"						#/*
+AUH	= "countries/BistumAugsburg.txt"				#/*
+BAD	= "countries/Baden.txt"
+BAV	= "countries/Bavaria.txt"
+BAW	= "countries/BayernIngolstadt.txt"				#/*
+BAX	= "countries/BayernLandshut.txt"				#/*
+BAY	= "countries/BayernMunchen.txt"					#/*
+BAZ	= "countries/BayernStraubing.txt"				#/*
+BOH	= "countries/Bohemia.txt"
+BRA	= "countries/Brandenburg.txt"
+BRE	= "countries/Verden.txt"						#/*
+BRU	= "countries/Brunswick.txt"						#/*
+BSI	= "countries/Sion.txt"							#/*
+FRE	= "countries/Freiburg.txt"						#/*
+FUR	= "countries/Furstemberg.txt"					#/*
+GBN	= "countries/Graubungen.txt"					#/*
+GER	= "countries/Germany.txt"						#/*
+GOR	= "countries/Gorizia.txt"						#/*
+#GTG	= "countries/Gottingen.txt"						#/*
+HOH	= "countries/Hohenzollern.txt"					#/*
+JUL	= "countries/Julich.txt"						#/*
+HAB	= "countries/Austria.txt"
+HAM	= "countries/Hamburg.txt"
+HAN	= "countries/Hannover.txt"
+HES	= "countries/Hessen.txt"
+HDA	= "countries/Darmstadt.txt"						#/*
+HKA	= "countries/Kassel.txt"						#/*
+HOY	= "countries/Hoya.txt"							#/*
+KLE	= "countries/Kleves.txt"
+KOL	= "countries/Cologne.txt"
+KUL	= "countries/Kulmbach.txt"						#/*
+LOR	= "countries/Lorraine.txt"
+LUN	= "countries/Luneburg.txt"
+MAG	= "countries/Magdeburg.txt"
+MAI	= "countries/Mainz.txt"
+MKL	= "countries/Mecklenburg.txt"
+MTV	= "countries/TroisEveches.txt"					#/*
+MUN	= "countries/Munster.txt"
+NAS	= "countries/Nassau.txt"						#/*
+NUS	= "countries/NurmbergBurg.txt"					#/*
+OLD	= "countries/Oldenburg.txt"
+PAL	= "countries/Palatinate.txt"
+POM	= "countries/Pommerania.txt"
+SAX	= "countries/Saxony.txt"
+SIL	= "countries/Silesia.txt"
+SLZ	= "countries/Salzburg.txt"
+STY	= "countries/Styria.txt"
+SWA	= "countries/Schwaben.txt"						#/* From TECC
+SWI	= "countries/Schweiz.txt"
+SWR	= "countries/Weimar.txt"
+TES	= "countries/Tessin.txt"
+THU	= "countries/Thuringia.txt"
+TIR	= "countries/Tirol.txt"
+TRI	= "countries/Trier.txt"
+ULM	= "countries/Ulm.txt"							#/*
+WBG	= "countries/Wurzburg.txt"
+WES	= "countries/Westfalia.txt"
+WUR	= "countries/Wurttemberg.txt"
+#
+# Imperial Cities
+#
+AUG	= "countries/Augsburg.txt"						#/*
+BSL	= "countries/Basel.txt"							#/*
+FRB	= "countries/Bremen.txt"						#/*
+FRF	= "countries/Frankfurt.txt"						#/*
+FRK	= "countries/Koln.txt"							#/*
+FRL	= "countries/Lubeck.txt"						#/*
+GNV	= "countries/Geneva.txt"						#/*
+NUR	= "countries/Nurmberg.txt"
+#
+# Spain
+#
+ARA	= "countries/Aragon.txt"
+CAS	= "countries/Castille.txt"
+CAT	= "countries/Catalunya.txt"						#/*
+GRA	= "countries/Granada.txt"
+NAV	= "countries/Navarra.txt"
+POR	= "countries/Portugal.txt"
+SPA	= "countries/Spain.txt"
+RSP	= "countries/RevolutionarySpain.txt"			#/*
+#	
+# Italy
+#
+ARB	= "countries/Arborea.txt"						#/*
+BLG	= "countries/Bologna.txt"						#/*
+ETR	= "countries/Etruria.txt"						#/*
+FIR	= "countries/Firenze.txt"						#/*
+GEN	= "countries/Genoa.txt"
+ITA	= "countries/Italy.txt"							#/*
+ITE	= "countries/Cisalpine.txt"						#/*
+LUC	= "countries/Lucca.txt"
+MAN	= "countries/Mantua.txt"
+MFT	= "countries/Monferrato.txt"					#/*
+MLO	= "countries/Milan.txt"
+MOD	= "countries/Modena.txt"
+NAP	= "countries/Naples.txt"
+PA2	= "countries/Antipope.txt"						#/*
+PAD	= "countries/Padoa.txt"							#/* D3v1l
+PAP	= "countries/Papal.txt"
+PAR	= "countries/Parma.txt"
+PIS	= "countries/Pisa.txt"
+SAL	= "countries/Saluzzo.txt"						#/*
+SAR	= "countries/Sardinia.txt"
+SAV	= "countries/Savoy.txt"
+SIC	= "countries/Sicily.txt"
+SIE	= "countries/Siena.txt"
+TNT	= "countries/Trento.txt"						#/*
+TRS	= "countries/Treviso.txt"						#/* Divide et Impera
+TUS	= "countries/Tuscany.txt"
+URB	= "countries/Urbino.txt"						#/*
+VEN	= "countries/Venice.txt"
+VER	= "countries/Verona.txt"						#/* D3v1l
+#	
+# Low Countries
+#
+BRB	= "countries/Brabant.txt"						#/*
+EBU	= "countries/EtatsBelgiques.txt"				#/*
+FLA	= "countries/Flanders.txt"
+FRI	= "countries/Friesland.txt"
+GEL	= "countries/Gelre.txt"
+HAI	= "countries/Hainaut.txt"						#/*
+HOL	= "countries/Holland.txt"
+LIE	= "countries/Liege.txt"
+LUX	= "countries/Luxembourg.txt"
+NED	= "countries/Netherlands.txt"
+UTR	= "countries/Utrecht.txt"
+#		
+# Russia
+#
+ABK	= "countries/Abkhazia.txt"
+ARM	= "countries/Armenia.txt"
+AST	= "countries/Astrakhan.txt"
+BLU	= "countries/BlueHorde.txt"						#/*
+BOZ	= "countries/Beloozero.txt"						#/*
+BRK	= "countries/Briansk.txt"						#/*
+CIR	= "countries/Cherkessia.txt"					#/*
+CRI	= "countries/Crimea.txt"
+GEO	= "countries/Georgia.txt"
+GOL	= "countries/GoldenHorde.txt"
+GVO	= "countries/HalychVolhynia.txt"				#/*
+KRC	= "countries/Karachev.txt"						#/*
+KAZ	= "countries/Kazan.txt"
+KIE	= "countries/Kiev.txt"							#/*
+MOS	= "countries/Muscowy.txt"
+NOG	= "countries/Nogai.txt"
+NOV	= "countries/Novgorod.txt"
+PSK	= "countries/Pskov.txt"
+ROS	= "countries/Rostov.txt"						#/*
+RUS	= "countries/Russia.txt"
+RYA	= "countries/Ryazan.txt"
+SIB	= "countries/Sibir.txt"
+TVE	= "countries/Tver.txt"
+UKR	= "countries/Ukraine.txt"
+WHI	= "countries/WhiteHorde.txt"					#/*
+YAR	= "countries/Yaroslavl.txt"
+ZAZ	= "countries/Zaporozhie.txt"
+#
+# Arabia
+#	
+AHS	= "countries/Ahsaa.txt"							#/* TIENES - was: ALH - Haasa
+HAD	= "countries/Hadhramaut.txt"					#/* MEIOU-FB Arabia mod v2
+HEJ	= "countries/Hejaz.txt"							#/* TIENES - was: HED - Hedjaz
+NAJ	= "countries/Najd.txt"
+OMA	= "countries/Oman.txt"
+YEM	= "countries/Yemen.txt"							#/* TIENES - was: ADE
+#	
+# Asia Minor
+#		
+AKK	= "countries/AkKoyunlu.txt"
+CND	= "countries/Candar.txt"
+DUL	= "countries/Dulkadir.txt"
+ERE	= "countries/Eretna.txt"						#/*
+GRN	= "countries/Germiyanoglu.txt"					#/*
+HMD	= "countries/Hamidoglu.txt"						#/*
+IRQ	= "countries/Iraq.txt"
+KAR	= "countries/Karaman.txt"
+SYR	= "countries/Syria.txt"
+TRE	= "countries/Trebizond.txt"
+MEN	= "countries/Mentesoglu.txt"					#/*
+OTT	= "countries/Ottomans.txt"						#/*
+RAM	= "countries/Ramazan.txt"						#/*
+#	
+# Central Asia
+#
+BUK	= "countries/Bukhara.txt"						#/*
+KZH	= "countries/Kazakh.txt"
+KHI	= "countries/Khiva.txt"
+SHY	= "countries/Shaybanid.txt"
+KOK	= "countries/Kokkand.txt"
+#
+# Persia
+#
+DUR	= "countries/Durrani.txt"
+HAZ	= "countries/Hazaraspid.txt"					#/*
+KAB	= "countries/Kabulistan.txt"					#/*
+KTD	= "countries/Kartid.txt"						#/*
+KHO	= "countries/Khorasan.txt"
+MIH	= "countries/Mihrabanid.txt"					#/*
+MSS	= "countries/Mushashah.txt"
+MUZ	= "countries/Muzaffarid.txt"					#/*
+ORM	= "countries/Ormuz.txt"							#/*
+PER	= "countries/Persia.txt"
+QAR	= "countries/QaraKoyunlu.txt"
+SDB	= "countries/Sarbadar.txt"						#/*
+TIM	= "countries/Timurid.txt"
+#
+# Americas
+#
+HAW	= "countries/PaganHawai.txt"					#/*
+#
+ACO	= "countries/Acolhua.txt"						#/*
+CBS	= "countries/Chibchas.txt"						#/*
+CHI	= "countries/Chichimecs.txt"					#/*
+MIX	= "countries/Mixtec.txt"						#/*
+NAH	= "countries/Nahuas.txt"						#/*
+OTO	= "countries/Otomis.txt"						#/*
+PIP	= "countries/Pipil.txt"							#/*
+PUR	= "countries/Purepecha.txt"						#/*
+TEN	= "countries/Tenochtitlan.txt"					#/*
+TEO	= "countries/Teotitlan.txt"						#/*
+TEP	= "countries/Tepanec.txt"						#/*
+TOT	= "countries/Totonacapan.txt"					#/*
+TXL	= "countries/Tlaxcala.txt"						#/*
+XAL	= "countries/Xalisco.txt"						#/*
+ZAP	= "countries/Zapotec.txt"
+#
+KKM	= "countries/Mayapan.txt"						#/*
+MAY	= "countries/Maya.txt"
+QUM	= "countries/Qumarkaj.txt"						#/*
+#
+AYA	= "countries/Ayamarca.txt"						#/*
+AYM	= "countries/Aymara.txt"						#/*
+CBC	= "countries/Chibchaya.txt"						#/*
+CHC	= "countries/Chancay.txt"						#/*
+CHM	= "countries/Chimu.txt"
+CZC	= "countries/Cuzco.txt"							#/*
+HUA	= "countries/Huanca.txt"						#/*
+INC	= "countries/Inca.txt"
+MAP	= "countries/Mapuche.txt"						#/*
+NZC	= "countries/Nazca.txt"							#/*
+QUI	= "countries/Quito.txt"							#/*
+#
+# Maghreb
+#
+ALG	= "countries/Algiers.txt"
+EGY	= "countries/Egypt.txt"							#/*
+FEZ	= "countries/Fez.txt"
+HAF	= "countries/Hafsid.txt"						#/*
+MAM	= "countries/Mameluks.txt"
+MOR	= "countries/Morocco.txt"
+TOG	= "countries/Toggourt.txt"						#/*
+TRP	= "countries/Tripoli.txt"
+TUA	= "countries/Tuareg.txt"						#/*
+TUN	= "countries/Tunisia.txt"
+#		
+# Africa
+#
+ADA	= "countries/Adal.txt"
+AFA	= "countries/AfarSultanate.txt"					#/*
+ALM	= "countries/Almohad.txt"						#/* From TECC
+ALW	= "countries/Alwa.txt"
+DAM	= "countries/Damot.txt"							#/*
+DAR	= "countries/Darfur.txt"
+ETH	= "countries/Ethiopia.txt"
+MKU	= "countries/Makuria.txt"
+MOG	= "countries/Mogadishio.txt"					#/*
+SEM	= "countries/Semien.txt"						#/*
+SEN	= "countries/Sennar.txt"						#/*
+SID	= "countries/Sidama.txt"						#/*
+#
+KIL	= "countries/Kilwa.txt"							#/*
+KIT	= "countries/Kitara.txt"						#/*
+QLM	= "countries/Quelimane.txt"						#/*
+SOF	= "countries/Sofala.txt"						#/*
+ZAN	= "countries/Zanzibar.txt"						#/*
+ZIM	= "countries/Mutapa.txt"						#/*
+#
+KON	= "countries/Kongo.txt"
+LOA	= "countries/Loango.txt"
+NDO	= "countries/Ndongo.txt"						#/*
+YAO	= "countries/Yaosultanate.txt"					#/*
+#
+BAG	= "countries/Baguirmi.txt"						#/*
+KBO	= "countries/KanemBornu.txt"					#/*
+WAD	= "countries/Wadai.txt"							#/*
+#
+ASH	= "countries/Ashanti.txt"
+#
+BOR	= "countries/Borgu.txt"							#/*
+CAY	= "countries/Cayor.txt"							#/*
+DJO	= "countries/Djolof.txt"						#/*
+FLO	= "countries/Fulo.txt"							#/*
+GUR	= "countries/Gurma.txt"							#/*
+KAA	= "countries/Kaabu.txt"							#/*
+KBI	= "countries/Kabi.txt"							#/*
+MAL	= "countries/Mali.txt"
+MNE	= "countries/Mane.txt"							#/*
+MSI	= "countries/Mossi.txt"							#/*
+MSN	= "countries/Masina.txt"						#/*
+SEG	= "countries/Segu.txt"							#/*
+SOK	= "countries/Sokoto.txt"
+SON	= "countries/Songhai.txt"
+#
+HAU	= "countries/Hausa.txt"
+KNO	= "countries/Kano.txt"							#/*
+KTS	= "countries/Katsina.txt"						#/*
+ZZZ	= "countries/Zazzau.txt"						#/*
+#
+BEN	= "countries/Benin.txt"
+CLB	= "countries/Calabar.txt"						#/*
+DAH	= "countries/Dahomey.txt"
+IFE	= "countries/IfeIle.txt"						#/*
+IGB	= "countries/Igbo.txt"							#/*
+JUK	= "countries/Jukun.txt"							#/*
+NRI	= "countries/Nrikingdom.txt"					#/*
+NUP	= "countries/Nupe.txt"							#/*
+OYO	= "countries/Oyo.txt"							#/*
+#
+ANT	= "countries/Antankarana.txt"					#/*
+MER	= "countries/Merina.txt"						#/*
+MNB	= "countries/Menabe.txt"						#/*
+TAM	= "countries/Tamatave.txt"						#/*
+#
+# Far East
+#
+JIN	= "countries/Jin.txt"							#/* LS Chinese Civil War
+MCH	= "countries/Manchu.txt"
+QIN	= "countries/Qin.txt"
+QNG	= "countries/Qing.txt"							#/* LS Chinese Civil War
+YUA	= "countries/Yuan.txt"							#/* LS Chinese Civil War
+#
+CCE	= "countries/CelestialEmpire.txt"				#/*
+DAA	= "countries/Dahan.txt"							#/* LS Chinese Civil War	# Political
+DAX	= "countries/Daxia.txt"							#/* LS Chinese Civil War	# Political
+LNG	= "countries/Liang.txt"							#/* LS Chinese Civil War	# Cultural
+MIN	= "countries/Min.txt"							#/* LS Chinese Civil War	# Cultural
+MNG	= "countries/Ming.txt"														# Political
+DAZ	= "countries/Dazhou.txt"						#/* LS Chinese Civil War	# Political
+QII	= "countries/Qi.txt"							#/* LS Chinese Civil War	# Cultural
+SHU	= "countries/Shu.txt"							#/* LS Chinese Civil War	# Cultural
+SNG	= "countries/Song.txt"							#/* LS Chinese Civil War	# Political
+TIA	= "countries/Tianwan.txt"						#/* LS Chinese Civil War	# Political
+WUU	= "countries/Wu.txt"														# Cultural
+XIA	= "countries/Xia.txt"														# Cultural
+XNG	= "countries/Xiang.txt"							#/* LS Chinese Civil War	# Cultural
+YDU	= "countries/Yidu.txt"							#/* LS Chinese Civil War	# Political
+YUE	= "countries/Yue.txt"							#/* LS Chinese Civil War	# Cultural
+ZHE	= "countries/HeZhen.txt"						#/* LS Chinese Civil War	# Cultural
+ZHN	= "countries/Zhuang.txt"						#/* LS Chinese Civil War	# Cultural
+#
+DSH	= "countries/Shun.txt"							#/* SchwarzKatze			# Qing conquest of China
+DXI	= "countries/Daxi.txt"							#/* SchwarzKatze			# Qing conquest of China
+ZOU	= "countries/WuZhou.txt"						#/* SchwarzKatze			# Qing conquest of China
+YUU	= "countries/lateYue.txt"						#/* SchwarzKatze			# Qing conquest of China
+TNG	= "countries/Tungning.txt"						#/* SchwarzKatze			# Qing conquest of China
+#
+ANN	= "countries/Annam.txt"
+ARK	= "countries/Arakan.txt"
+AVA	= "countries/Ava.txt"
+AYU	= "countries/Ayutthaya.txt"
+BRM	= "countries/Burma.txt"
+CHA	= "countries/Champa.txt"
+CHG	= "countries/ChagataiKhanate.txt"
+DAI	= "countries/DaiViet.txt"
+DLI	= "countries/Dali.txt"							#/* LS Chinese Civil War
+KHA	= "countries/Khalkha.txt"
+KHM	= "countries/Khmer.txt"
+KAS	= "countries/Kashgar.txt"						#/*
+KOR	= "countries/Korea.txt"
+LNA	= "countries/LanNa.txt"
+LUA	= "countries/LuangPrabang.txt"
+LUS	= "countries/Lusong.txt"						#/*
+LXA	= "countries/LanXang.txt"
+MTR	= "countries/Mataram.txt"
+NST	= "countries/Nakhon.txt"						#/*
+OIR	= "countries/OiratHorde.txt"
+PEG	= "countries/Pegu.txt"
+SIA	= "countries/Siam.txt"
+SST	= "countries/Shan.txt"
+TAU	= "countries/Taungu.txt"
+TIB	= "countries/Tibet.txt"
+TOK	= "countries/Tonkin.txt"
+UIG	= "countries/Uighurustan.txt"					#/*
+VIE	= "countries/Vientiane.txt"
+#
+#India
+#
+AHM	= "countries/Jaunpur.txt"	
+ALR	= "countries/Alwar.txt"	
+ASS	= "countries/Assam.txt"	
+BAH	= "countries/Bahmani.txt"	
+BAL	= "countries/Baluchistan.txt"	
+BAS	= "countries/Ahmadnagar.txt"	
+BGA	= "countries/Baglana.txt"	
+BGL	= "countries/Bagelkhand.txt"	
+BHO	= "countries/Bhonsle.txt" 	
+BHU	= "countries/Bhutan.txt"	
+BHW	= "countries/Bahawalpur.txt"	
+BIJ	= "countries/Bijapur.txt"	
+BIK	= "countries/Bikaner.txt"	
+BND	= "countries/Bundelkhand.txt"	
+BNG	= "countries/Bengal.txt"	
+BRR	= "countries/Berar.txt"	
+BST	= "countries/Bastar.txt"	
+CHD	= "countries/Chanda.txt"	
+CMP	= "countries/RewaKantha.txt"	
+COC	= "countries/Kochin.txt"	
+DGA	= "countries/Deogarh.txt"	
+DLH	= "countries/Delhi.txt"	
+DMS	= "countries/Kachar.txt"	
+GAK	= "countries/Gakwar.txt"	
+GDW	= "countries/Kherla.txt" 	
+GHR	= "countries/Garha.txt"	
+GNG	= "countries/GingeeNayaka.txt"	
+GOC	= "countries/Golcanda.txt"	
+GRJ	= "countries/Garjat.txt"	
+GRW	= "countries/Garhwal.txt"	
+GUJ	= "countries/Gujarat.txt"	
+GWA	= "countries/Gwalior.txt"	
+HDT	= "countries/Hadoti.txt"	
+HYD	= "countries/Hyderabad.txt"	
+IDR	= "countries/Idar.txt"	
+JAF	= "countries/Jaffna.txt"
+JAJ	= "countries/Janjira.txt"	
+JAU	= "countries/Jaipur.txt"	
+JSL	= "countries/Jaisalmer.txt"	
+KAT	= "countries/Kathiawar.txt"	
+KGR	= "countries/Kangra.txt"	
+KHD	= "countries/Khandesh.txt"	
+KLN	= "countries/KeladiNayaka.txt"	
+KMN	= "countries/Kumaon.txt"	
+KMT	= "countries/Kamata.txt"	
+KRK	= "countries/Carnatic.txt"	
+KSH	= "countries/Kashmir.txt"	
+KTH	= "countries/Ceylon.txt"	
+LDK	= "countries/Ladakh.txt"	
+MAD	= "countries/Madurai.txt"	
+MAR	= "countries/Maharasthra.txt"	
+MAW	= "countries/Marwar.txt"	
+MEW	= "countries/Mewar.txt"	
+MLB	= "countries/Manipur.txt"	
+MLD	= "countries/Maldive.txt"	
+MLK	= "countries/Kalpi.txt"	
+MLW	= "countries/Malwa.txt"	
+MUG	= "countries/Mughal.txt"	
+MUL	= "countries/Multan.txt"	
+MYS	= "countries/Mysore.txt"	
+NAG	= "countries/Nagaur.txt"	
+NGP	= "countries/Kokrah.txt"	
+NPL	= "countries/Nepal.txt"	
+ODH	= "countries/Oudh.txt"	
+ORI	= "countries/Orissa.txt"	
+PTA	= "countries/Patiala.txt"	
+PUN	= "countries/Punjab.txt"	
+RED	= "countries/Reddi.txt"	
+RMP	= "countries/Rohilkandh.txt"	
+SAM	= "countries/Samma.txt"							#/*
+SKK	= "countries/Sikkim.txt"	
+SND	= "countries/Sind.txt"	
+SRG	= "countries/Surguja.txt"	
+TLG	= "countries/Telingana.txt"	
+TNJ	= "countries/TanjoreNayaka.txt"	
+TPR	= "countries/Tripura.txt"	
+TRT	= "countries/Tirhut.txt"	
+TRV	= "countries/Travanacore.txt"	
+VIJ	= "countries/Vijaynagara.txt"	
+ZAM	= "countries/Zamorin.txt"	
+#BID	= "countries/Bidar.txt"
+#NIZ	= "countries/DevaBengal.txt"
+#RAJ	= "countries/Rajputna.txt"
+#SAY	= "countries/Sayids.txt"
+#
+# Indonesia
+#
+ARU	= "countries/Aru.txt"							#/* MEIOU-FB Indonesia mod v3
+ATJ	= "countries/Atjeh.txt"
+BAN	= "countries/Banten.txt"
+BEI	= "countries/Brunei.txt"
+BIM	= "countries/Bima.txt"							#/* Krankovich - Malaya mod
+BKS	= "countries/Banjarmasin.txt"					#/* MEIOU-FB Indonesia mod v3
+BLI	= "countries/Bali.txt"
+BNE	= "countries/Bone.txt"							#/* MEIOU-FB Indonesia mod v3
+BSM	= "countries/Bangkalan.txt"						#/* MEIOU-FB Indonesia mod v3
+CBT	= "countries/Cirebon.txt"						#/* MEIOU-FB Indonesia mod v3
+DEM	= "countries/Demak.txt"							#/* MEIOU-FB Indonesia mod v2
+JMB	= "countries/Jambi.txt"							#/* Divide et Impera
+JOH	= "countries/Johor.txt"							#/* Divide et Impera
+KMA	= "countries/Kediri.txt"						#/* MEIOU-FB Indonesia mod v3
+KUT	= "countries/Kutai.txt"							#/* MEIOU-FB Indonesia mod v2
+LPG	= "countries/Lampung.txt"
+MGD	= "countries/Maguindanao.txt"					#/*
+MNH	= "countries/Minahasa.txt"						#/* Krankovich - Malaya mod
+MKP	= "countries/Minangkabau.txt"					#/* MEIOU-FB Indonesia mod v3
+MKS	= "countries/Makassar.txt"
+MLC	= "countries/Malacca.txt"
+MNL	= "countries/Maynila.txt"						#/*
+MPH	= "countries/Majapahit.txt"						#/* MEIOU-FB Indonesia mod v2
+PAH	= "countries/Pahang.txt"						#/* Divide et Impera
+PAT	= "countries/Pattani.txt"
+PJJ	= "countries/Pajajaran.txt"						#/* MEIOU-FB Indonesia mod v3
+PLB	= "countries/Palembang.txt"
+PRK	= "countries/Perak.txt"							#/* Divide et Impera
+PTN	= "countries/Pontianak.txt"						#/* MEIOU-FB Indonesia mod v2
+RAU	= "countries/Riau.txt"							#/* Divide et Impera
+SBT	= "countries/Surabaya.txt"						#/* MEIOU-FB Indonesia mod v3
+SIJ	= "countries/Siak.txt"							#/* MEIOU-FB Indonesia mod v3
+SKD	= "countries/Sukadana.txt"						#/* Krankovich - Malaya mod
+SLB	= "countries/Selebar.txt"						#/* Krankovich - Malaya mod
+SRK	= "countries/Surakarta.txt"						#/* Divide et Impera
+SRV	= "countries/Srivijaya.txt"						#/* Divide et Impera
+SUL	= "countries/Sulu.txt"
+SUN	= "countries/Sunda.txt"
+TER	= "countries/Ternate.txt"						#/* MEIOU-FB Indonesia mod v2
+TID	= "countries/Tidore.txt"						#/* MEIOU-FB Indonesia mod v2
+#
+# Japan
+#
+JAP	= "countries/Japan.txt"
+#
+AKG	= "countries/Ashikaga.txt"						#/* Sengoku mod
+AKM	= "countries/Akamtsu.txt"						#/* Japanese Civil War
+ANG	= "countries/Amago.txt"							#/* Sengoku mod
+CSK	= "countries/Chosokabe.txt"						#/* Sengoku mod
+DTE	= "countries/Date.txt"							#/* Sengoku mod
+HJO	= "countries/Hojo.txt"							#/* Sengoku mod
+HKW	= "countries/Hosokawa.txt"						#/* Sengoku mod
+HKY	= "countries/Hatakayama.txt"					#/* Japanese Civil War
+IGW	= "countries/Imagawa.txt"						#/* Sengoku mod
+ISK	= "countries/Ishikki.txt"						#/* Japanese Civil War
+KTK	= "countries/Kitikatabe.txt"					#/* Japanese Civil War
+MIY	= "countries/Miyoshi.txt"						#/* Sengoku mod
+MRI	= "countries/Mori.txt"							#/* Sengoku mod
+NNB	= "countries/Nanbu.txt"							#/* Sengoku mod
+ODA	= "countries/Oda.txt"							#/* Sengoku mod
+OTM	= "countries/Otomo.txt"							#/* Sengoku mod
+OUC	= "countries/Ouchi.txt"							#/* Sengoku mod
+RZJ	= "countries/Ryuzoji.txt"						#/* Sengoku mod
+SBA	= "countries/Shiba.txt"							#/* Japanese Civil War
+SHN	= "countries/Shoni.txt"							#/* Sengoku mod
+SMZ	= "countries/Shimazu.txt"						#/* Sengoku mod
+SOO	= "countries/So.txt"							#/* Japanese Civil War
+STO	= "countries/Saito.txt"							#/* Sengoku mod
+TKD	= "countries/Takeda.txt"						#/* Sengoku mod
+TGW	= "countries/Tokugawa.txt"						#/* Sengoku mod
+TKI	= "countries/Toki.txt"							#/* Sengoku mod
+UKI	= "countries/Ukita.txt"							#/* Japanese Civil War
+USG	= "countries/Uesugi.txt"						#/* Sengoku mod
+YMN	= "countries/Yamana.txt"						#/* Sengoku mod
+#
+RYU	= "countries/Ryukyu.txt"
+#
+#
+# In Nomine
+#
+SUK	= "countries/Sukhothai.txt"						#/* Far East
+AQU	= "countries/Aquileia.txt"						#/* Italy
+AYD	= "countries/Aydin.txt"							#/* Asia Minor
+GAL	= "countries/Galicia.txt"						#/* Spain
+JAI	= "countries/Jalayirid.txt"						#/* Persia
+MEI	= "countries/Meissen.txt"						#/* Germany
+PLT	= "countries/Polotsk.txt"						#/* Russia
+#
+#
+# Heir To The Throne
+#
+BAR	= "countries/Bar.txt"
+BER	= "countries/Berry.txt"
+ERG	= "countries/HolyRomanEmpire.txt"
+HSA	= "countries/Hansa.txt"
+MUR	= "countries/Murom.txt"
+NZH	= "countries/NizhnyNovgorod.txt"
+SMO	= "countries/Smolensk.txt"
+#
+# What-if nations
+#
+ASE	= "countries/AnglosaxonEmpire.txt"				#/* (D3v1l)
+AZT	= "countries/Aztec.txt"
+BUL	= "countries/Bulgaria.txt"
+CEL	= "countries/CelticEmpire.txt"					#/*
+GGK	= "countries/GengisKhan.txt"					#/*
+GUP	= "countries/Gupta.txt"							#/*
+ILK	= "countries/Ilkhanate.txt"						#/*
+IND	= "countries/Yavapeh.txt"						#/* MEIOU-FB
+JGL	= "countries/Jagiellon.txt"						#/*
+KAL	= "countries/KalmarDenmark.txt"					#/*
+#KAS	= "countries/KalmarSweden.txt"					#/*
+#KAN	= "countries/KalmarNorway.txt"					#/*
+LOT	= "countries/Lotharingie.txt"					#/*
+OCC	= "countries/Occitania.txt"						#/*
+ROU	= "countries/Roumanie.txt"						#/*
+SUV	= "countries/Suvarnabhumi.txt"					#/*
+#
+# Additionnal nations
+#
+CHU	= "countries/Chupanid.txt"						#/*
+KRL	= "countries/Karelia.txt"						#/*
+BYZ	= "countries/Byzantium.txt"						#/*
+THD	= "countries/Theodoros.txt"						#/*
+EST	= "countries/Estland.txt"						#/*
+LIV	= "countries/Livland.txt"						#/*
+BLE	= "countries/Baleares.txt"						#/*
+CNA	= "countries/Canarias.txt"						#/*
+LEO	= "countries/Leon.txt"							#/*
+KNP	= "countries/KingdomOfNaples.txt"				#/*
+VLA	= "countries/Vladimir.txt"						#/*
+KJR	= "countries/KingdomOfJerusalem.txt"			#/*
+KAM	= "countries/KingdomOfArmenia.txt"				#/*
+TLE	= "countries/Tlemcen.txt"						#/*
+KKU	= "countries/KaraKum.txt"						#/*
+MZA	= "countries/Mazandaran.txt"					#/*
+SHI	= "countries/Shirvanshah.txt"					#/*
+IME	= "countries/Imereti.txt"						#/*
+KAK	= "countries/Kakheti.txt"						#/*
+KEG	= "countries/KingdomOfEgypt.txt"				#/*
+KRT	= "countries/Kartli.txt"						#/*
+KRB	= "countries/KingdomOfArabia.txt"				#/*
+KRD	= "countries/Kurdistan.txt"						#/*
+GOT	= "countries/Gotland.txt"						#/*
+SKA	= "countries/Skane.txt"							#/*
+ANC	= "countries/Ancona.txt"						#/* Divide et Impera
+BRS	= "countries/Brescia.txt"						#/* D3v1l
+PAV	= "countries/Pavia.txt"							#/* D3v1l
+LGZ	= "countries/Liegnitz.txt"						#/*
+OPO	= "countries/Opole.txt"							#/*
+WRO	= "countries/Wroclaw.txt"						#/*
+DAN	= "countries/DenmarkNorway.txt"					#/*
+OST	= "countries/Ostergotland.txt"					#/*
+VAS	= "countries/Vastergotland.txt"					#/*
+NIC	= "countries/Nice.txt"							#/*
+HUS	= "countries/Hussites.txt"						#/* Divide et Impera
+RCA	= "countries/Trastamara.txt"					#/*
+ITC	= "countries/Transpadane.txt"					#/*
+ITD	= "countries/Cispadane.txt"						#/*
+MAS	= "countries/Massa.txt"							#/*
+RIM	= "countries/Rimini.txt"						#/*
+NAM	= "countries/Namur.txt"							#/*
+UAG	= "countries/Wagadugu.txt"						#/*
+SHR	= "countries/Sharjah.txt"
+JBC	= "countries/JulichClevesBerg.txt"				#/*
+NAX	= "countries/Naxos.txt"
+BAC	= "countries/Bacan.txt"							#/* Divide et Impera
+BAT	= "countries/Batak.txt"							#/* Divide et Impera
+BDG	= "countries/Bandung.txt"						#/* Divide et Impera
+KED	= "countries/Kedah.txt"							#/* Divide et Impera
+KEL	= "countries/Kelantan.txt"						#/* Divide et Impera
+PAJ	= "countries/Pajang.txt"						#/* Divide et Impera
+TRG	= "countries/Terengganu.txt"					#/* Divide et Impera
+#
+# Countries removed for now
+#
+#ANA	= "countries/Anatolia.txt"						#/*
+#AZE	= "countries/Azerbaijan.txt"					#/*
+#BHR	= "countries/Bahrein.txt"						#/*
+#BSN	= "countries/Bergslagen.txt"					#/*
+#ESS	= "countries/Essex.txt"							#/*
+#KSR	= "countries/KingdomOfSyria.txt"				#/*
+#OXF	= "countries/Oxfordshire.txt"					#/*
+#PLS	= "countries/Palestine.txt"						#/*
+#SEL	= "countries/Seljuk.txt"						#/*
+#SVE	= "countries/Svealand.txt"						#/*
+#TEJ	= "countries/Tejo.txt"							#/*
+#TOL	= "countries/Toledo.txt"						#/*
+#TXA	= "countries/Transoxania.txt"					#/*
+#WSS	= "countries/Wessex.txt"						#/*
+#
+#BIL	= "countries/Bilala.txt"						#/*
+#BUT	= "countries/Butung.txt"						#/* Divide et Impera
+#CEB	= "countries/Cebu.txt"							#/* Divide et Impera
+#CHK	= "countries/Champassak.txt"
+#CIA	= "countries/Cianjur.txt"						#/* Divide et Impera
+#KAT	= "countries/Katenga.txt"						#/*
+#LUW	= "countries/Luwu.txt"							#/* Divide et Impera
+#MDR	= "countries/Madura.txt"						#/* Divide et Impera
+#MGK	= "countries/Mangkunagana.txt"					#/* Divide et Impera
+#SBI	= "countries/Sonbai.txt"						#/* Divide et Impera
+#SGS	= "countries/Singhasari.txt"
+#SMG	= "countries/Semarang.txt"						#/* Divide et Impera
+#SMN	= "countries/Sumenep.txt"						#/* Divide et Impera
+#SUM	= "countries/Sumedang.txt"						#/* Divide et Impera
+#TEM	= "countries/Temasek.txt"						#/* Divide et Impera
+#
+#AUS	= "countries/Austlandet.txt"					#/*
+#BLR	= "countries/Belarus.txt"						#/*
+#BRG	= "countries/Braganca.txt"						#/*
+#BSP	= "countries/Bosphorus.txt"						#/*
+#FIF	= "countries/Fife.txt"							#/*
+#HIG	= "countries/Highlands.txt"						#/*
+#ING	= "countries/Ingermanland.txt"					#/*
+#JAM	= "countries/Jamtland.txt"						#/*
+#MLT	= "countries/Malta.txt"							#/*
+#NEO	= "countries/Neopatria.txt"						#/*
+#NRR	= "countries/Norrland.txt"						#/*
+#RHO	= "countries/Rhodes.txt"						#/*
+#ROM	= "countries/Rome.txt"							#/*
+#SJA	= "countries/Sjaelland.txt"						#/*
+#SMY	= "countries/Smyrna.txt"						#/*
+#TRO	= "countries/Trondelag.txt"						#/*
+#VES	= "countries/Vestlandet.txt"					#/*
+#
+#BEU	= "countries/Berau.txt"							#/* Divide et Impera
+#JAO	= "countries/Jailolo.txt"						#/* Divide et Impera
+#JOG	= "countries/Jogkarta.txt"						#/* Divide et Impera
+#MAC	= "countries/Mactan.txt"						#/* Divide et Impera
+#NGS	= "countries/NegeriSembilan.txt"				#/* Divide et Impera
+#PAS	= "countries/Pasai.txt"							#/* Divide et Impera
+#PSI	= "countries/Pasir.txt"							#/* Divide et Impera
+#SAN	= "countries/Sanggau.txt"						#/* Divide et Impera
+#SIN	= "countries/Sintang.txt"						#/* Divide et Impera
+#
+#IKK	= "countries/IkkoIkki.txt"						#/* Japanese Civil War
+#

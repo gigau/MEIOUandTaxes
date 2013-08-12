@@ -1,0 +1,79 @@
+#98 - Utrecht
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = UTR
+controller = UTR 
+add_core = UTR
+culture = dutch
+religion = catholic
+capital = "Utrecht"
+
+base_tax = 9
+#manpower = 4
+manpower = 8
+citysize = 10000
+trade_goods = linen
+
+
+fort1 = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+
+hre = yes
+
+1356.1.1   = { citysize = 12500 }
+1399.1.1   = { citysize = 15000 }
+1453.1.1   = { citysize = 17500 }
+1500.1.1   = { citysize = 22500 }
+1505.1.1   = { marketplace = yes }
+1515.1.5   = { add_core = HAB } # Charles V ascends to the throne
+1520.1.1   = { temple = yes } # Dom of Utrecht finished
+1527.1.1   = { fort2 = yes }
+1528.6.21  = { owner = HAB controller = HAB add_core = HAB  } # Charles V annexes Utrecht
+1540.1.1   = { courthouse = yes }
+1549.11.4  = { add_core = NED  }
+1550.1.1   = { citysize = 30000 add_core = NED }
+1556.1.14  = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1559.5.12  = { revolt_risk = 3 } # New bishoprics in the Lowlands create an outrage
+1565.1.1   = { revolt_risk = 5 } # Letters of Segovia, Philip I orders the harsh persecution of Calvinists
+1566.4.5   = { revolt_risk = 3 } # 'Eedverbond der Edelen', Margaretha of Parma promises leniency
+1567.9.10  = { revolt_risk = 4 } # Counts of Egmont & Hoorne arrested
+1568.6.5   = { revolt_risk = 6 } # Counts of Egmont & Hoorne beheaded
+1569.1.1   = { revolt_risk = 12 } # The Duke of Alba reforms the taxation system ('tiende penning')
+1570.1.1   = { revolt_risk = 20 } # The Duke of Alba reforms the penal system, 'Blood Council' (Bloedraad) established
+1572.1.1   = { religion = reformed }
+1572.6.10  = { controller = REB } # Rebels rise up in large parts of the Netherlands
+1579.1.23  = { owner = NED controller = NED remove_core = SPA revolt_risk = 0 } # Union of Utrecht
+1590.1.1   = { regimental_camp = yes } # Professionalisation of the Army
+1600.1.1   = { citysize = 37500 }
+1605.1.1   = { workshop = yes }
+1612.1.1   = { constable = yes }
+1636.3.26  = { university = yes } # University of Utrecht founded
+1648.10.24 = {
+	hre = no
+} # Treaty of Westphalia, ending the Thirty Years' War
+1650.1.1   = { fort3 = yes citysize = 42500 }
+1672.5.25  = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War and even takes Utrecht!
+1678.8.10  = { controller = NED } # Peace of Nijmegen (France-Netherlands)
+1681.1.1   = { base_tax = 10 } # Protestants expelled from France
+1700.1.1   = { citysize = 45000 }
+1705.1.1   = { mint = yes }
+1725.1.1   = { fort4 = yes }
+1750.1.1   = { citysize = 42000 }
+1775.1.1   = { fort5 = yes }
+1785.12.1  = { revolt_risk = 7 } # Unrest in Utrecht
+1786.1.1   = { controller = REB revolt_risk = 3 } # 'The Patriots' take control of Utrecht
+1786.9.13  = { controller = NED revolt_risk = 0 } # With the help of 20,000 Prussians, the Dutch government regains control
+1800.1.1   = { citysize = 44000 }
+1810.7.10  = {
+	owner = RFR
+	controller = RFR
+	add_core = RFR
+} # Annexed by France
+1813.11.30 = {
+	owner = NED
+	controller = NED
+	remove_core = RFR
+} # William returns to the Netherlands

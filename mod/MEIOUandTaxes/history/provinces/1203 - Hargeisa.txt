@@ -1,0 +1,37 @@
+# 1203 - Ogaadeen
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = ADA
+controller = ADA
+add_core = ADA
+culture = somali
+religion = sunni
+capital = "Adari"
+citysize = 4000
+#manpower = 3
+manpower = 6
+trade_goods = wool
+hre = no
+base_tax = 2
+
+discovered_by = ADA
+discovered_by = ZAN
+discovered_by = ETH
+discovered_by = KIL
+discovered_by = muslim
+
+1500.1.1 = { citysize = 4500 }
+1550.1.1 = { discovered_by = TUR }
+1555.1.1 = {
+	citysize = 0
+	native_size = 50
+	native_ferocity = 4.5
+	native_hostileness = 9 
+	owner = XXX
+	controller = XXX
+	remove_core = ADA
+	trade_goods = crops
+	base_tax = 1
+#	manpower = 1
+	manpower = 2
+} #Oromo invasion of Adal breaks control over northern Somali

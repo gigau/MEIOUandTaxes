@@ -1,0 +1,58 @@
+# 2667 - Meroë
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+culture = egyptian
+religion = sunni
+capital = "Nahîya"
+native_size = 50
+native_ferocity = 4.5
+native_hostileness = 9 
+#manpower = 1
+manpower = 2
+trade_goods = crops		# wool
+hre = no
+base_tax = 0
+
+discovered_by = MAM
+discovered_by = ALW
+discovered_by = MKU
+discovered_by = western
+discovered_by = muslim
+discovered_by = turkishtech
+discovered_by = eastern
+
+#1356.1.1 = {
+#	add_core = MAM
+#}
+#1517.1.1 = {
+#	add_core = TUR
+#	remove_core = MAM
+#	base_tax = 1
+#} # Mamluks fall to the Ottomans but do not advance up the Nile.
+1542.1.1 = {
+	owner = TUR
+	controller = TUR
+	citysize = 1050
+	trade_goods = wool
+	add_core = TUR
+} # Ottomans occupy oasis
+1600.1.1 = { citysize = 1200 }
+1650.1.1 = { citysize = 1250 }
+1700.1.1 = { citysize = 1500 }
+1750.1.1 = { citysize = 1750 }
+1800.1.1   = {
+	citysize = 1300
+}
+1802.5.13  = {
+	controller = TUR
+	revolt_risk = 8
+} # Turkish rule is restored but a few troublesome years follow
+1805.1.1 = {
+	revolt_risk = 0
+	owner = EGY
+	controller = EGY
+}
+1811.6.1   = {
+	owner = TUR
+	controller = TUR
+} # Order is restored

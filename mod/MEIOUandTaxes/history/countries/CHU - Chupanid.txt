@@ -1,0 +1,33 @@
+# CHU - Chupanid
+# MEIOU-GG - Turko-Mongol mod
+# MEIOU-GG Governemnt changes
+# 2010-jan-16 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = altaic_monarchy_3
+# aristocracy_plutocracy = -4
+# centralization_decentralization = 5
+# innovative_narrowminded = 2
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = -1
+# land_naval = -1
+# quality_quantity = 3
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -2
+# secularism_theocracy = 3
+technology_group = turkishtech
+unit_type = muslim
+primary_culture = mongol
+religion = shiite
+capital = 416	# Tabriz
+
+1336.1.1   = {
+	monarch = {
+		name = "Malek Ashraf"
+		dynasty = "Chupanid"
+		adm = 3
+		dip = 2	
+		mil = 4
+	}
+	set_country_flag = wrath_of_god
+}

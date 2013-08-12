@@ -1,0 +1,31 @@
+# TIA - Tianwan
+# LS - Chinese Civil War
+
+government = chinese_monarchy_2c
+# aristocracy_plutocracy = -4
+# centralization_decentralization = -2
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -4
+# offensive_defensive = -2
+# land_naval = -3
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = chinese
+religion = confucianism
+primary_culture = ganyu
+add_accepted_culture = hakka
+add_accepted_culture = zhongyuan
+capital = 685
+
+1356.1.1 = {
+	monarch = {
+		name = "Xú Shòuhui"
+		dynasty = "Tianwan"
+		ADM = 7
+		DIP = 7
+		MIL = 7
+	}
+	set_country_flag = rising_nation
+}

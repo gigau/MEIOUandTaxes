@@ -1,0 +1,409 @@
+# BRU - Brunswick
+# MEIOU-GG Govenemnt changes
+# 2010-jan-04 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = feudal_monarchy_4
+# aristocracy_plutocracy = -3
+# centralization_decentralization = 4
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -3
+# offensive_defensive = 0
+# land_naval = -1
+# quality_quantity = 0
+# serfdom_freesubjects = -4
+# isolationist_expansionist = 0
+# secularism_theocracy = 1
+technology_group = western
+primary_culture = old_saxon
+religion = catholic
+capital = 49 # Braunschweig
+
+#Dukes of Braunschweig-Wolfenbüttel
+1345.1.1 = {
+	monarch = {
+		name = "Wilhelm II"
+		dynasty = "von Welf"
+		DIP = 4
+		ADM = 5
+		MIL = 3
+	}
+}
+1369.1.1 = {
+	monarch = {
+		name = "Magnus II"
+		dynasty = "von Welf"
+		DIP = 4
+		ADM = 4
+		MIL = 4
+	}
+}
+1373.1.1 = {
+	monarch = {
+		name = "Heinrich III"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1399.1.1 = { set_country_flag = hanseatic_league }
+
+1411.1.1 = {
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich IV"
+		dynasty = "von Welf"
+		birth_date = 1411.1.1
+		death_date = 1473.12.17
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1416.1.1 = {
+	monarch = {
+		name = "Heinrich IV"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm"
+		dynasty = "von Welf"
+		birth_date = 1392.1.1
+		death_date = 1482.7.25
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1473.12.7 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Wilhelm"
+		monarch_name = "Wilhelm II"
+		dynasty = "von Welf"
+		birth_date = 1425.1.1
+		death_date = 1503.7.7
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+# remark="Also Wilhelm I of Lüneburg"
+
+1482.7.25 = {
+	monarch = {
+		name = "Wilhelm II"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich V der Ältere"
+		dynasty = "von Welf"
+		birth_date = 1463.6.24
+		death_date = 1514.6.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1503.7.7 = {
+	monarch = {
+		name = "Heinrich V der Ältere"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Heinrich"
+		monarch_name = "Heinrich VI der Jüngere"
+		dynasty = "von Welf"
+		birth_date = 1489.11.10
+		death_date = 1568.6.11
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1514.6.23 = {
+	monarch = {
+		name = "Heinrich VI der Jüngere"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1528.6.29 = {
+	heir = {
+		name = "Julius"
+		monarch_name = "Julius"
+		dynasty = "von Welf"
+		birth_date = 1528.6.29
+		death_date = 1589.5.13
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1529.1.1 = { 
+	religion = protestant 
+	# secularism_theocracy = -1
+}
+
+1568.6.11 = {
+	monarch = {
+		name = "Julius"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Heinrich Julius"
+		monarch_name = "Heinrich Julius"
+		dynasty = "von Welf"
+		birth_date = 1564.10.15
+		death_date = 1613.7.20
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1589.5.13 = {
+	monarch = {
+		name = "Heinrich Julius"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1591.4.15 = {
+	heir = {
+		name = "Friedrich Ulrich"
+		monarch_name = "Friedrich Ulrich"
+		dynasty = "von Welf"
+		birth_date = 1591.4.15
+		death_date = 1634.8.21
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1600.1.1 = { clr_country_flag = hanseatic_league }
+
+1613.7.20 = {
+	monarch = {
+		name = "Friedrich Ulrich"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "August"
+		monarch_name = "August II"
+		dynasty = "von Welf"
+		birth_date = 1579.4.10
+		death_date = 1666.9.17
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+#On Frederick Ulrich's death, his territories passed to a line of #distant cousins
+
+1635.1.1 = {
+	monarch = {
+		name = "August II"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Rudolf August"
+		monarch_name = "Rudolf August"
+		dynasty = "von Welf"
+		birth_date = 1627.5.16
+		death_date = 1704.1.26
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1666.9.17 = {
+	monarch = {
+		name = "Rudolf August"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Anton Ulrich"
+		monarch_name = "Anton Ulrich"
+		dynasty = "von Welf"
+		birth_date = 1633.10.4
+		death_date = 1714.3.27
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1704.1.26 = {
+	monarch = {
+		name = "Anton Ulrich"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "August Wilhelm"
+		monarch_name = "August Wilhelm"
+		dynasty = "von Welf"
+		birth_date = 1662.3.8
+		death_date = 1731.3.23
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1714.1.27 = {
+	monarch = {
+		name = "August Wilhelm"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Ludwig Rudolf"
+		monarch_name = "Ludwig Rudolf"
+		dynasty = "von Welf"
+		birth_date = 1671.7.22
+		death_date = 1735.3.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1731.3.23 = {
+	monarch = {
+		name = "Ludwig Rudolf"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Ferdinand Albrecht"
+		monarch_name = "Ferdinand Albrecht"
+		dynasty = "von Welf"
+		birth_date = 1680.5.29
+		death_date = 1735.9.13
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1735.3.1 = {
+	monarch = {
+		name = "Ferdinand Albrecht"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl"
+		dynasty = "von Welf"
+		birth_date = 1713.8.1
+		death_date = 1780.3.26
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+# Dukes of Braunschweig (after 1753)
+1735.9.13 = {
+	monarch = {
+		name = "Karl"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}
+
+1735.10.9 = {
+	heir = {
+		name = "Karl Wilhelm Ferdinand"
+		monarch_name = "Karl II Wilhelm Ferdinand"
+		dynasty = "von Welf"
+		birth_date = 1735.10.9
+		death_date = 1806.10.16
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1780.3.26 = {
+	monarch = {
+		name = "Karl II Wilhelm Ferdinand"
+		dynasty = "von Welf"
+		DIP = 5
+		ADM = 5
+		MIL = 5
+	}
+}

@@ -1,0 +1,69 @@
+# Country Name: Yavapeh
+# Tag: IDN
+# MEIOU-FB Indonesia mod
+
+graphical_culture = indiangfx
+
+color = { 210  140  110 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+ 	majapahit_cavalry
+	indian_footsoldier
+	indian_arquebusier
+	mughal_musketeer
+	mughal_mansabdar
+	reformed_mughal_musketeer
+	reformed_mughal_mansabdar
+	rajput_musketeer
+	rajput_hill_fighters
+	maharathan_guerilla_warfare
+	maharathan_cavalry
+	bhonsle_infantry
+	bhonsle_cavalry
+	indian_rifle
+	tipu_sultan_rocket
+}
+
+monarch_names = {
+	"Panembahan" = 20
+	"Krapyak #0" = 20
+	"Agung #0" = 20
+	"Amangkurat #0" = 20
+	"Pakubuwana #0" = 20
+}
+
+leader_names = {
+	Abdulfatah Ahmad Amir Anwar Azmi
+	Batuta
+	Chairul
+	Djajadiningrat Djojopoespito
+	Ernalia
+	Hamzah Hasanuddin
+	Ibnu
+	Karsumaatmaja
+	Kyai
+	Mahat Mukhtar
+	Mollema
+	Nasution Nitisastro
+	Najamuddin Natzar Nazmizan
+	Prawiranega Purbacaraka
+	Roem
+	Syarifuddin
+	Subadio Sumual
+	Zulkifli
+}
+
+ship_names = {
+	Surakarta Yogyakarta Semarang Salatiga
+	"Gunung Merbabu" Sragen Sukoharjo Wonosari
+	"Gunung Lawu" Delanggu Cepu Purwodarli
+	Ngawi Grobogan Boja Amgarawa
+	Siak Samandara
+	"Malik ul Salih" "Malik Al-Salih"
+	Teunom Peusangen Jamboaye Alas Tripa "Simpang-kiri"
+	"Peg Serbeulangit" "Peg Pusat" "Gunung Peuetsagoe"
+	"Pulau we" "Pulau Breueh"
+}

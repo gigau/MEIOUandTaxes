@@ -1,0 +1,29 @@
+# Bantu Gunpowder Warfare
+#Modified for MEIOU by FB 10.02.07
+#tech level 21 c1700
+#tech level 19
+
+unit_type = sub_saharan
+type = infantry
+
+maneuver = 1
+#offensive_morale = 4
+#defensive_morale = 1
+#offensive_fire = 2
+#defensive_fire = 1
+#offensive_shock = 2
+#defensive_shock = 1
+#FB
+#offensive_morale = 5
+#defensive_morale = 5
+#offensive_fire = 4
+#defensive_fire = 4
+#offensive_shock = 3
+#defensive_shock = 3
+#Blxz - western fire has same totals but different individual fire values
+offensive_morale = 5
+defensive_morale = 5
+offensive_fire = 4
+defensive_fire = 4
+offensive_shock = 4
+defensive_shock = 4

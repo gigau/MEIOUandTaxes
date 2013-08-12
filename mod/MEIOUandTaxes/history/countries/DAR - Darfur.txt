@@ -1,0 +1,284 @@
+# DAR - Darfur
+# MEIOU-GG Govenemnt changes
+# 2010-jan-10 - FB - HT3 changes
+# 2013-aug-07 - GG - EUIV changes
+
+government = tribal_monarchy_3
+# aristocracy_plutocracy = -5
+# centralization_decentralization = 5
+# innovative_narrowminded = 1
+mercantilism = 0.1 # mercantilism_freetrade = -5
+# offensive_defensive = 0
+# land_naval = -5
+# quality_quantity = 2
+# serfdom_freesubjects = -5
+# isolationist_expansionist = -3
+# secularism_theocracy = 2
+technology_group = soudantech
+religion = sunni
+primary_culture = nubian
+capital = 1215
+
+# Tunjur had repelled the Daju
+
+1356.1.1 = {
+	monarch = {
+		name = "Daju"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}#FB invention
+
+
+#Tunjur Dynasty
+1448.1.1 = {
+	monarch = {
+		name = "Ahmad"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1472.1.1 = {
+	monarch = {
+		name = "Rifaya"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1491.1.1 = {
+	monarch = {
+		name = "Shaurd"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1507.1.1 = {
+	monarch = {
+		name = "Ibrahim al-Dalil"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1559.1.1 = {
+	monarch = {
+		name = "Sabun"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1579.1.1 = {
+	monarch = {
+		name = "Idris Jal"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1591.1.1 = {
+	monarch = {
+		name = "Kur"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1592.1.1 = {
+	monarch = {
+		name = "Tindhim"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1611.1.1 = {
+	monarch = {
+		name = "Sulbuta"
+		dynasty = "Tunjur"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1621.1.1 = {
+	monarch = {
+		name = "'Abd al-Rahman"
+		dynasty = "Sarraf"
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1653.1.1 = {
+	monarch = {
+		name = "Rum Sam"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1684.1.1 = {
+	monarch = {
+		name = "Wala Tuma"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1688.1.1 = {
+	monarch = {
+		name = "Sulut"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1701.1.1 = {
+	monarch = {
+		name = "Musa"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1704.1.1 = {
+	monarch = {
+		name = "Muhammad Bulad"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1707.1.1 = {
+	monarch = {
+		name = "Musa"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1715.1.1 = {
+	monarch = {
+		name = "Ahmad Bakr"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1728.1.1 = {
+	monarch = {
+		name = "Isma'il Abu Harrana"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1741.1.1 = {
+	monarch = {
+		name = "Muhammad Harana"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1746.1.1 = {
+	monarch = {
+		name = "'Umar Layl"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1753.1.1 = {
+	monarch = {
+		name = "Abu'l-Qasim"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1762.1.1 = {
+	monarch = {
+		name = "Muhammad Tayrab"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1787.1.1 = {
+	monarch = {
+		name = "Ishaq"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1789.1.1 = {
+	monarch = {
+		name = "'Abd al-Rahman ar-Rashid"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1799.1.1 = {
+	monarch = {
+		name = "Muhammad al-Fadl"
+		dynasty = "Sarraf"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,54 @@
+#Province: Kediri (was Mataram)
+#file name: 626 - Kediri
+# MEIOU-FB Indonesia mod
+#MEIOU-FB IN updates
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = MPH
+controller = MPH
+culture = javan
+religion = hinduism
+capital = "Kediri"
+trade_goods = gold
+hre = no
+
+base_tax = 4
+#manpower = 4
+manpower = 8
+citysize = 19000
+add_core = MPH
+add_core = KMA
+discovered_by = chinese
+discovered_by = indian
+discovered_by = austranesian
+
+1400.1.1  = { citysize = 21090 }
+1500.1.1  = { citysize = 25890 }
+1570.1.1 = {
+	owner = MTR
+	controller = MTR
+	remove_core = MPH
+	religion = sunni
+} # The Sultanate of Mataram
+1600.1.1 = { citysize = 29000 add_core = MTR }
+1613.1.1 = { discovered_by = NED } # The Dutch arrived
+1617.1.1 = { revolt_risk = 3 } # Rebellion against Mataram rule
+1630.1.1 = { revolt_risk = 1 }
+1650.1.1 = { citysize = 31910 }
+1657.1.1 = { revolt_risk = 2 } # Amangkurat's murderous regime becomes increasingly unpopular
+1677.7.13 = { revolt_risk = 0 } # Amangkurat's death
+1700.1.1 = { citysize = 33340 trade_goods = lumber } #gold exhausted
+1719.6.1 = { revolt_risk = 2 } #2nd war of Javanese Succession
+1721.1.1 = { revolt_risk = 0 } #success in war reduces discontent
+1746.5.1 = { revolt_risk = 2 } #3rd war of Javanese Succession starts as rebellion
+1750.1.1 = { citysize = 36887 }
+1755.2.13 = { revolt_risk = 2 } #Mataram divided between Pakubuwana III & Hamengkubuwana I
+#but Mas Said and others keep anti-dutch/Pakubuwana III war alive
+1757.3.1 = { revolt_risk = 0 } #Mas Said submits
+1800.1.1 = { citysize = 39630 }
+1812.7.1 = {
+	owner = GBR
+	controller = GBR
+} # British capture Yogyakarta
+1816.1.1 = { owner = NED controller = NED } # Given to the Dutch
+

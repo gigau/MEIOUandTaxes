@@ -1,0 +1,11 @@
+# 2479 - Mistassini
+
+1650.1.1   = {
+	discovered_by = FRA
+	owner = FRA
+	controller = FRA		
+} # New France is claimed
+1763.2.10  = {
+	owner = GBR
+	controller = GBR
+}

@@ -1,0 +1,79 @@
+# 262 -Malopolskiye
+# Krakow
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = POL
+controller = POL
+add_core = POL
+culture = polish
+religion = catholic
+capital = "Kraków"
+
+base_tax = 9
+#manpower = 6
+manpower = 12
+citysize = 26400
+trade_goods = salt
+
+fort1 = yes
+marketplace = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = turkishtech
+discovered_by = steppestech
+
+hre = no
+
+cot = yes
+
+1364.1.1   = { university = yes }
+1500.1.1   = { citysize = 29680 }
+1508.1.1   = { fort2 = yes }
+1533.1.1   = { temple = yes } # 1519-1533, Wawel cathedral
+1540.1.1   = { mint = yes }
+1550.1.1   = { citysize = 33616 constable = yes }
+1569.7.1  = {	owner = PLC
+		controller = PLC
+		add_core = PLC
+	    } # Union of Lublin
+1573.1.1   = { regimental_camp = yes }
+1587.1.1   = { revolt_risk = 6 }
+1587.2.14  = { revolt_risk = 0 } # After a 6 week siege, Maximillian drops his bid for the Polish trone
+1588.1.1   = { controller = REB } # Civil war, Polish succession
+1589.1.1   = { controller = PLC } # Coronation of Sigismund III
+1596.1.1   = { cot = no } #Polish capital moved to Warsawa
+1600.1.1   = { citysize = 38339 fort3 = yes }
+1630.1.1   = { courthouse = yes }
+1655.1.1   = { citysize = 18007 } # Epidemics
+1700.1.1   = { citysize = 21808 }
+1733.1.1   = { controller = REB } # The war of Polish succession
+1735.1.1   = { controller = PLC }
+1750.1.1   = { citysize = 22000 }
+1768.2.28  = { revolt_risk = 8 } # Became a center of the first Polish uprisings against the Polish king & Russia
+1791.1.1   = { citysize = 31000 } # Enlarged by two adjacent towns, Kazimierz and Kleparz
+1794.3.24  = { revolt_risk = 5 } # Kosciuszko uprising
+1794.11.16 = { revolt_risk = 0 } # The end of the uprising
+1795.10.24  = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = POL
+	remove_core = PLC
+	remove_core = RUS
+} # Third partition
+1800.1.1   = { citysize = 32000 }
+1809.10.14   = {
+	owner = POL
+	controller = POL
+     	remove_core = HAB
+} # The Duchy of Warsaw
+1815.6.9   = {
+	owner = KRA
+	controller = KRA
+	add_core = KRA
+} # The Free city of Krakow
+1846.11.16 = {
+	owner = HAB
+	controller = HAB
+}

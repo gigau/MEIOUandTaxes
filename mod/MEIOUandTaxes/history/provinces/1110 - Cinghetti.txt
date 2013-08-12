@@ -1,0 +1,31 @@
+# 1110 - Cinghetti
+# Manpower Adjusted for DW5.2 by SirkTheMonkey's bot
+
+owner = TUA
+controller = TUA
+add_core = TUA
+culture = tuareg
+religion = sunni
+capital = "Cinghetti"
+
+base_tax = 2
+#manpower = 2
+manpower = 4
+citysize = 5000
+trade_goods = salt
+
+fort1 = yes
+
+discovered_by = TUA
+discovered_by = TLE
+discovered_by = SON
+discovered_by = MAL
+discovered_by = MOR
+discovered_by = FEZ
+
+hre = no
+
+1591.1.1 = {
+	owner = MOR
+	controller = MOR
+}
